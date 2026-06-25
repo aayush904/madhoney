@@ -11,146 +11,235 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "marquee_KmbjGL": {
-      "type": "marquee",
+    "announcement_marquee_gqrXjY": {
+      "type": "announcement-marquee",
       "blocks": {
-        "marquee_block_hGEXxG": {
-          "type": "marquee_block",
+        "announcement_RU9CmL": {
+          "type": "announcement",
           "settings": {
-            "marquee_text": "Free Shipping",
-            "marquee_image": "shopify://shop_images/Vector.svg"
+            "text": "A special 10% off on your first order!",
+            "text_alignment": "center",
+            "link": ""
           }
         },
-        "marquee_block_tBpCDx": {
-          "type": "marquee_block",
+        "announcement_pN8gAi": {
+          "type": "announcement",
           "settings": {
-            "marquee_text": "Subscribe & Save 20%",
-            "marquee_image": "shopify://shop_images/Group_ecf4023d-0d5a-4b2e-8817-6ae3b71161fe.svg"
+            "text": "WELCOME10 | FREE SHIPPING 🌍",
+            "text_alignment": "center",
+            "link": ""
           }
         },
-        "marquee_block_F8YkYm": {
-          "type": "marquee_block",
+        "popup_QNPbt3": {
+          "type": "popup",
+          "disabled": true,
           "settings": {
-            "marquee_text": "Backed by Certification",
-            "marquee_image": "shopify://shop_images/Layer_1_80cf97e6-2416-42c0-9203-d91b70b6d2b8.svg"
+            "title": "{% render 'new-year-banner'%}\n<style>\n.popup-text.relative {\n    padding: 0!important;\n    display: block!important;\n    flex: unset!important;\nwidth:max-content!important;\n}\n\n.popup-image {\n    display: none!important;\n}\n\n.popup-content {\n    max-width: 1352px!important;\nwidth:max-content!important;\n    height: auto!important;\n}\n\n.popup-content .flex.flex-col, .popup-content b.h2 {\n    width: max-content !important;\n    display: block;\n    max-width: 90vw;\n}\n\ndiv#popupOverlay {\n    justify-content: center;\n    align-items: center;\n}\n\n.popup-image {\n    display: none!important;\n}\n\n#popupOverlay .close-button{\nbackground:transparent!important;\nbox-shadow:none!important}\n\n#shopify-section-{{section.id}} form#contact_form {\n    display: none;\n}\n</style>",
+            "message": "",
+            "code": ""
           }
         },
-        "marquee_block_phpt9w": {
-          "type": "marquee_block",
+        "popup_49Wdkd": {
+          "type": "popup",
           "settings": {
-            "marquee_text": "Lab Verified & Tested",
-            "marquee_image": "shopify://shop_images/Layer_1-1_65747c06-e18c-4af7-b8dd-e0c02398457f.svg"
-          }
-        },
-        "marquee_block_VRjJRz": {
-          "type": "marquee_block",
-          "settings": {
-            "marquee_text": "Free Shipping",
-            "marquee_image": "shopify://shop_images/Vector.svg"
-          }
-        },
-        "marquee_block_6cVEek": {
-          "type": "marquee_block",
-          "settings": {
-            "marquee_text": "Subscribe & Save 20%",
-            "marquee_image": "shopify://shop_images/Group_ecf4023d-0d5a-4b2e-8817-6ae3b71161fe.svg"
-          }
-        },
-        "marquee_block_E63rjV": {
-          "type": "marquee_block",
-          "settings": {
-            "marquee_text": "Backed by Certification",
-            "marquee_image": "shopify://shop_images/Layer_1_80cf97e6-2416-42c0-9203-d91b70b6d2b8.svg"
-          }
-        },
-        "marquee_block_fPAxgK": {
-          "type": "marquee_block",
-          "settings": {
-            "marquee_text": "Lab Verified & Tested",
-            "marquee_image": "shopify://shop_images/Layer_1-1_65747c06-e18c-4af7-b8dd-e0c02398457f.svg"
+            "image": "shopify://shop_images/image_294.webp",
+            "title": "A special 10% off on your first order! WELCOME10",
+            "message": "Welcome to Medicinal Mad Honey. Use code WELCOME10 at checkout for a 10% off on your first order. Condition apply",
+            "code": ""
           }
         }
       },
       "block_order": [
-        "marquee_block_hGEXxG",
-        "marquee_block_tBpCDx",
-        "marquee_block_F8YkYm",
-        "marquee_block_phpt9w",
-        "marquee_block_VRjJRz",
-        "marquee_block_6cVEek",
-        "marquee_block_E63rjV",
-        "marquee_block_fPAxgK"
+        "announcement_RU9CmL",
+        "announcement_pN8gAi",
+        "popup_QNPbt3",
+        "popup_49Wdkd"
       ],
-      "name": "Marquee Text with Image",
+      "custom_css": [
+        "red {color: #fe3520;}",
+        "img {mix-blend-mode: multiply;}",
+        ".message {margin-bottom: 16px;}",
+        "b {color: inherit; margin-bottom: 16px;}",
+        "#popupButton {cursor: pointer;}",
+        "img {padding: 5% 10%;}",
+        ".popup-content {box-shadow: 0px 2px 25px #00000070;}"
+      ],
+      "name": "marquee",
       "settings": {
-        "color_scheme": "scheme-3280f7d4-14e8-4743-9865-9a5e12c941d7",
-        "seperator": "",
-        "gap_size": 40,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "link_type": "popup"
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "A special 10% off on your first order!",
+            "text_alignment": "center",
+            "link": "https://www.medicinalmadhoney.com/collections/all"
+          }
+        },
+        "announcement_7jPrcU": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "WELCOME10 | FREE SHIPPING 🌍",
+            "text_alignment": "center",
+            "link": "https://www.medicinalmadhoney.com/collections/all"
+          }
+        },
+        "announcement_Cc9MpB": {
+          "type": "announcement",
+          "settings": {
+            "text": "🎄 Sweeten your Christmas with Flat 30% OFF",
+            "text_alignment": "center",
+            "link": ""
+          }
+        },
+        "popup_aJVGig": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/image_294.webp",
+            "title": "A special 10% off on your first order! WELCOME10",
+            "message": "Welcome to Medicinal Mad Honey. Use code WELCOME10 at checkout for a 10% off on your first order. Condition apply",
+            "code": ""
+          }
+        },
+        "popup_KARddX": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BLACKFRIDAY_BANNER.webp",
+            "title": "<style>\n#shopify-section-{{section.id}} .popup-image{\nmax-height:100%;\n}\n#shopify-section-{{section.id}} .popup-image img{\npadding:0;\n}\n#shopify-section-{{section.id}} .popup-text{\nposition:absolute;\nwidth:100%;\nbottom:20.5%;\npadding:0;\n}\n#shopify-section-{{section.id}} .popup-text *:not(.h2 *):not(.h2){\ndisplay:none;\n}\n\n#shopify-section-{{section.id}} .popup-content{\nheight:auto;\nwidth:clamp(320px, 30vw, 55rem);\nmargin:0;\nmax-height:auto;\nmax-width:calc(100dvw - 32px);\n}\n\n#shopify-section-{{section.id}} .coupon_pop.popup-overlay{\nalign-items:center;\njustify-content:center;\n}\n\n#shopify-section-{{section.id}}  .close-button{\nbackground:transparent;\ncolor:#fff;\nmax-width:24px;\npadding:0;\n}\n#shopify-section-{{section.id}} .popup-text b{\nwidth:100%;\nmargin-right:6px;\n}\n#shopify-section-{{section.id}} timer{\nwidth: 61%;\nmargin: auto;\njustify-content: space-between;\ndisplay: flex;\n}\n\n#shopify-section-{{section.id}}  box{\ncolor:#000;\nwidth: 22%;\nfont-family:\"Lato\";\nfont-size:clamp(32px,3.8dvw, 56px);\nfont-weight:700;\naspect-ratio:7/10;\nheight:100%;\ndisplay:flex;\njustify-content:center;\nalign-items:center;\nfilter: drop-shadow(2px 4px 4px #00000080);\nposition:relative;\n}\n\n#shopify-section-{{section.id}}  box:before{\nfilter: drop-shadow(0px 0px 0px #00000001);\n\ncontent:attr(data-content);\nfont-size:clamp(8px,1dvw, 12px);\nposition:absolute;\ntop:3%;\nmargin-left:2px;\nwidth:100%;\ntext-align:center;\n}\n\n#shopify-section-{{section.id}}  box:nth-child(3){\nmargin-left:10px;\n}\n</style>\n<timer>\n  <box id=\"dh1\"></box><box id=\"dh2\"></box>\n  <box id=\"hm1\"></box><box id=\"hm2\"></box>\n</timer>",
+            "message": "<script>\n  var eventDate = new Date('2025-11-28T00:00:00-08:00');\n  function pad2(n) { return n.toString().padStart(2, '0'); }\n\n    function updateTimer() {\n    var now = new Date();\n    var diffMs = eventDate - now;\n    if (diffMs < 0) diffMs = 0;\n\n    var totalSec = Math.floor(diffMs / 1000);\n    var totalMin = Math.floor(totalSec / 60);\n    var totalHr  = Math.floor(totalMin / 60);\n    var totalDay = Math.floor(totalHr  / 24);\n\n    var dh1 = document.getElementById('dh1');\n    var dh2 = document.getElementById('dh2');\n    var hm1 = document.getElementById('hm1');\n    var hm2 = document.getElementById('hm2');\n    \n    const updateBoxes = (a,b,c,d,x,y) => {\n      dh1.textContent = a;\n      dh1.dataset.content = x;\n      \n      dh2.textContent = b;\n      dh2.dataset.content = x;\n      \n      hm1.textContent = c;\n      hm1.dataset.content = y;\n      \n      hm2.textContent = d;\n      hm2.dataset.content = y;\n    }\n    \n    if (totalDay > 0) {\n      var dayStr = pad2(totalDay);\n      var hrStr = pad2(totalHr % 24);\n      updateBoxes(dayStr[0], dayStr[1], hrStr[0], hrStr[1], \"Days\",\"Hours\");\n    } else if (totalHr > 0) {\n      var hrStr = pad2(totalHr);\n      var minStr = pad2(totalMin % 60);\n      updateBoxes(hrStr[0], hrStr[1], minStr[0], minStr[1], \"Hours\", \"Minutes\");\n    } else {\n      var minStr = pad2(totalMin);\n      var secStr = pad2(totalSec % 60);\n      updateBoxes(minStr[0], minStr[1], secStr[0], secStr[1], \"Minutes\", \"Seconds\");\n    }\n  }\n  setInterval(updateTimer, 1000);\n</script>",
+            "code": ""
+          }
+        },
+        "popup_7kbpxr": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/image_395.webp",
+            "title": "<style>\n#shopify-section-{{section.id}} .popup-image{\n max-height:100%;\n}\n\n#shopify-section-{{section.id}} .popup-image img{\n  padding:0;\n}\n#shopify-section-{{section.id}} .popup-text{\nposition:absolute;\nwidth:100%;\nheight:100%;\ntop:0;\n}\n#shopify-section-{{section.id}} .popup-text *:not(.h2 *):not(.h2){\ndisplay:none;\n}\n\n#shopify-section-{{section.id}} .popup-content{\nheight:auto;\nwidth:clamp(320px, 30vw, 55rem);\nmargin:0;\nmax-height:auto;\nmax-width:calc(100dvw - 32px);\n}\n\n#shopify-section-{{section.id}} .coupon_pop.popup-overlay{\nalign-items:center;\njustify-content:center;\n}\n\n#shopify-section-{{section.id}}  .close-button{\nbackground:transparent;\ncolor:#fff;\nmax-width:24px;\npadding:0;\n}\n#shopify-section-{{section.id}} .popup-text b{\n}\n\n#shopify-section-{{section.id}} .bf-button{\nposition:absolute;\nbackground:transparent;\nwidth:100%;\nheight:100%;\ntop:0;\nleft:0;\nfont-size:0;\n}\n</style>\n\n<a href=\"/collections/all\" class=\"button bf-button\">Shop Now</a>",
+            "message": "",
+            "code": ""
+          }
+        },
+        "popup_ACrTBn": {
+          "type": "popup",
+          "settings": {
+            "title": "christmas",
+            "message": "",
+            "code": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_7jPrcU",
+        "announcement_Cc9MpB",
+        "popup_aJVGig",
+        "popup_KARddX",
+        "popup_7kbpxr",
+        "popup_ACrTBn"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "red {color: #fe3520;}",
+        "img {mix-blend-mode: multiply;}",
+        ".message {margin-bottom: 24px;}",
+        ".coupon-code {margin-bottom: 16px;}",
+        "b {color: inherit;}",
+        "#popupButton {cursor: pointer;}",
+        "img {padding: 5% 10%;}",
+        ".popup-content {box-shadow: 0px 2px 25px #00000070;}"
+      ],
+      "settings": {
+        "link_type": "popup"
       }
     },
     "header": {
       "type": "header",
       "blocks": {
-        "collection_menu_tQePn7": {
-          "type": "CollectionMenu",
+        "megamenu_images_9NVXgz": {
+          "type": "megamenu-images",
           "settings": {
-            "element_name": "Shop",
-            "button_text": "Shop All",
-            "button_link": "shopify://collections/all-1",
-            "enable_accordion_sliders": false
+            "menu-title": "SHOP",
+            "title": "Honey Lip Balm-Mad Honey Wholesale",
+            "description": "A Gentle Touch of Nature",
+            "link": "shopify://products/lip-balm"
           }
         },
-        "descriptive_menu_XDUYk4": {
-          "type": "DescriptiveMenu",
+        "megamenu_images_RXH7Mk": {
+          "type": "megamenu-images",
           "settings": {
-            "element_name": "Learn",
-            "descriptive_image": "shopify://shop_images/Mask_group_76c492eb-6886-4cbc-b9dd-b7c1c208c6cc.webp"
+            "menu-title": "SHOP",
+            "title": "Premium Mad Honey",
+            "description": "Where Tradition Meets Purity",
+            "link": "shopify://products/medicinal-mad-honey"
+          }
+        },
+        "megamenu_images_8piXH4": {
+          "type": "megamenu-images",
+          "settings": {
+            "menu-title": "LEARN",
+            "image": "shopify://shop_images/mad_honey_wholesale.webp",
+            "title": "Mad Honey Harvesting",
+            "description": "",
+            "link": ""
+          }
+        },
+        "megamenu_images_fkQPDW": {
+          "type": "megamenu-images",
+          "disabled": true,
+          "settings": {
+            "menu-title": "HELP",
+            "title": "Mad Honey Nepal",
+            "description": "Mad Honey Nepal",
+            "link": ""
+          }
+        },
+        "megamenu_images_dzbrPN": {
+          "type": "megamenu-images",
+          "settings": {
+            "menu-title": "WHOLESALE",
+            "image": "shopify://shop_images/Extraordinary_Packaging.webp",
+            "title": "Become Our Medicinal Mad Honey Nepal Distributor Today!",
+            "description": "Become Our Medicinal Mad Honey Nepal Distributor Today!",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "collection_menu_tQePn7",
-        "descriptive_menu_XDUYk4"
+        "megamenu_images_9NVXgz",
+        "megamenu_images_RXH7Mk",
+        "megamenu_images_8piXH4",
+        "megamenu_images_fkQPDW",
+        "megamenu_images_dzbrPN"
       ],
-      "custom_css": [
-        ".header--middle-left .header__inline-menu {justify-content: end;}",
-        "@media (max-width: 768px) {.header__heading-logo {max-width: 100px; } .header__heading-link {padding: 0; } .header__icon--cart .icon {width: 3.2rem; height: 3.2rem; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "middle-left",
-        "mobile_logo_position": "center",
-        "menu": "main-menu",
+        "menu": "main-menu-1",
         "menu_type_desktop": "mega",
         "sticky_header_type": "always",
-        "show_line_separator": true,
-        "color_scheme": "scheme-4",
-        "menu_color_scheme": "scheme-10103a1e-674e-4118-8e6b-1dd24f22fa9c",
-        "enable_search": false,
+        "show_line_separator": false,
+        "color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 18,
-        "padding_bottom": 18
-      }
-    },
-    "custom_liquid_9qcEtg": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\n#shopify-section-{{section.id}} *{\ndisplay:none;\n}\n\n.header__menu-item,.header__icons {\n    -webkit-filter: brightness(1.4);\n  -moz-filter: brightness(1.4);\n  -ms-filter: brightness(1.4);\n  -o-filter: brightness(1.4);\n  filter: brightness(1.4);\n}\n</style>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     }
   },
   "order": [
-    "marquee_KmbjGL",
-    "header",
-    "custom_liquid_9qcEtg"
+    "announcement_marquee_gqrXjY",
+    "announcement-bar",
+    "header"
   ]
 }
