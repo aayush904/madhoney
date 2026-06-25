@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Generated Data Theme",
-    "theme_version": "1.0.0",
+    "theme_name": "Dawn",
+    "theme_version": "15.3.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https:\/\/shopify.dev\/docs\/apps\/tools\/development-stores\/generated-data#themes\/",
-    "theme_support_url": "https:\/\/shopify.dev\/docs\/apps\/tools\/development-stores\/generated-data#themes\/"
+    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
+    "theme_support_url": "https://support.shopify.com/"
   },
   {
     "name": "t:settings_schema.logo.name",
@@ -14,11 +14,6 @@
         "type": "image_picker",
         "id": "logo",
         "label": "t:settings_schema.logo.settings.logo_image.label"
-      },
-      {
-        "type": "image_picker",
-        "id": "logo_white",
-        "label": "t:settings_schema.logo.settings.logo_image_white.label"
       },
       {
         "type": "range",
@@ -35,12 +30,6 @@
         "id": "favicon",
         "label": "t:settings_schema.logo.settings.favicon.label",
         "info": "t:settings_schema.logo.settings.favicon.info"
-      },
-      {
-        "type": "image_picker",
-        "id": "favicon_2",
-        "label": "t:settings_schema.logo.settings.favicon_2.label",
-        "info": "t:settings_schema.logo.settings.favicon_2.info"
       }
     ]
   },
@@ -48,78 +37,73 @@
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__1.content"
-      },
-      {
-        "type": "color",
-        "id": "colors_solid_button_labels",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_solid_button_labels.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_accent_1",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_accent_1.label",
-        "info": "t:settings_schema.colors.settings.colors_accent_1.info"
-      },
-      {
-        "id": "gradient_accent_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_1.label"
-      },
-      {
-        "type": "color",
-        "id": "colors_accent_2",
-        "default": "#334FB4",
-        "label": "t:settings_schema.colors.settings.colors_accent_2.label"
-      },
-      {
-        "id": "gradient_accent_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__2.content"
-      },
-      {
-        "type": "color",
-        "id": "colors_text",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_text.label",
-        "info": "t:settings_schema.colors.settings.colors_text.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_outline_button_labels",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
-      },
-      {
-        "type": "color",
-        "id": "colors_background_1",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_background_1.label"
-      },
-      {
-        "id": "gradient_background_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_1.label"
-      },
-      {
-        "type": "color",
-        "id": "colors_background_2",
-        "default": "#F3F3F3",
-        "label": "t:settings_schema.colors.settings.colors_background_2.label"
-      },
-      {
-        "id": "gradient_background_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+        "type": "color_scheme_group",
+        "id": "color_schemes",
+        "definition": [
+          {
+            "type": "color",
+            "id": "background",
+            "label": "t:settings_schema.colors.settings.background.label",
+            "default": "#FFFFFF"
+          },
+          {
+            "type": "color_background",
+            "id": "background_gradient",
+            "label": "t:settings_schema.colors.settings.background_gradient.label",
+            "info": "t:settings_schema.colors.settings.background_gradient.info"
+          },
+          {
+            "type": "color",
+            "id": "text",
+            "label": "t:settings_schema.colors.settings.text.label",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
+            "id": "button",
+            "label": "t:settings_schema.colors.settings.button_background.label",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
+            "id": "button_label",
+            "label": "t:settings_schema.colors.settings.button_label.label",
+            "default": "#FFFFFF"
+          },
+          {
+            "type": "color",
+            "id": "secondary_button_label",
+            "label": "t:settings_schema.colors.settings.secondary_button_label.label",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
+            "id": "shadow",
+            "label": "t:settings_schema.colors.settings.shadow.label",
+            "default": "#121212"
+          },
+          {
+            "type": "color",
+            "id": "extra",
+            "label": "Secondary Color",
+            "default": "#B5731F"
+          }
+        ],
+        "role": {
+          "text": "text",
+          "background": {
+            "solid": "background",
+            "gradient": "background_gradient"
+          },
+          "links": "secondary_button_label",
+          "icons": "text",
+          "primary_button": "button",
+          "on_primary_button": "button_label",
+          "primary_button_border": "button",
+          "secondary_button": "background",
+          "on_secondary_button": "secondary_button_label",
+          "secondary_button_border": "secondary_button_label"
+        }
       }
     ]
   },
@@ -134,8 +118,7 @@
         "type": "font_picker",
         "id": "type_header_font",
         "default": "assistant_n4",
-        "label": "t:settings_schema.typography.settings.type_header_font.label",
-        "info": "t:settings_schema.typography.settings.type_header_font.info"
+        "label": "t:settings_schema.typography.settings.type_header_font.label"
       },
       {
         "type": "range",
@@ -155,8 +138,7 @@
         "type": "font_picker",
         "id": "type_body_font",
         "default": "assistant_n4",
-        "label": "t:settings_schema.typography.settings.type_body_font.label",
-        "info": "t:settings_schema.typography.settings.type_body_font.info"
+        "label": "t:settings_schema.typography.settings.type_body_font.label"
       },
       {
         "type": "range",
@@ -167,32 +149,28 @@
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
-      },
-      {
-        "type": "font_picker",
-        "id": "custom_font",
-        "default": "lato_n4",
-        "label": "Extra Font import",
-        "info": "Select the extra font you want to use in your theme."
-      },
-      
+      }
     ]
   },
   {
     "name": "t:settings_schema.layout.name",
     "settings": [
       {
-        "type": "text",
+        "type": "range",
         "id": "page_width",
-        "info": "eg: 100px\/rem\/%\/vw",
+        "min": 1000,
+        "max": 1600,
+        "step": 10,
+        "default": 1200,
+        "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
       {
         "type": "range",
         "id": "spacing_sections",
         "min": 0,
-        "max": 100,
-        "step": 4,
+        "max": 150,
+        "step": 5,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_sections.label",
         "default": 0
@@ -224,6 +202,38 @@
         "default": 8,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.animations.name",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "animations_reveal_on_scroll",
+        "label": "t:settings_schema.animations.settings.animations_reveal_on_scroll.label",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "animations_hover_elements",
+        "options": [
+          {
+            "value": "default",
+            "label": "t:settings_schema.animations.settings.animations_hover_elements.options__1.label"
+          },
+          {
+            "value": "vertical-lift",
+            "label": "t:settings_schema.animations.settings.animations_hover_elements.options__2.label"
+          },
+          {
+            "value": "3d-lift",
+            "label": "t:settings_schema.animations.settings.animations_hover_elements.options__3.label"
+          }
+        ],
+        "default": "default",
+        "label": "t:settings_schema.animations.settings.animations_hover_elements.label",
+        "info": "t:settings_schema.animations.settings.animations_hover_elements.info"
       }
     ]
   },
@@ -530,32 +540,10 @@
         "label": "t:settings_schema.global.settings.text_alignment.label"
       },
       {
-        "type": "select",
+        "type": "color_scheme",
         "id": "card_color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.all.colors.accent_1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.all.colors.accent_2.label"
-          },
-          {
-            "value": "background-1",
-            "label": "t:sections.all.colors.background_1.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.all.colors.background_2.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:sections.all.colors.inverse.label"
-          }
-        ],
-        "default": "background-2",
-        "label": "t:sections.all.colors.label"
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-2"
       },
       {
         "type": "header",
@@ -687,32 +675,10 @@
         "label": "t:settings_schema.global.settings.text_alignment.label"
       },
       {
-        "type": "select",
+        "type": "color_scheme",
         "id": "collection_card_color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.all.colors.accent_1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.all.colors.accent_2.label"
-          },
-          {
-            "value": "background-1",
-            "label": "t:sections.all.colors.background_1.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.all.colors.background_2.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:sections.all.colors.inverse.label"
-          }
-        ],
-        "default": "background-2",
-        "label": "t:sections.all.colors.label"
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-2"
       },
       {
         "type": "header",
@@ -812,6 +778,49 @@
         ],
         "default": "standard",
         "label": "t:settings_schema.blog_cards.settings.style.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_image",
+        "default": true,
+        "label": "t:sections.main-blog.settings.show_image.label"
+      },
+      {
+        "type": "select",
+        "id": "image_height",
+        "options": [
+          {
+            "value": "adapt",
+            "label": "t:sections.main-blog.settings.image_height.options__1.label"
+          },
+          {
+            "value": "small",
+            "label": "t:sections.main-blog.settings.image_height.options__2.label"
+          },
+          {
+            "value": "medium",
+            "label": "t:sections.main-blog.settings.image_height.options__3.label"
+          },
+          {
+            "value": "large",
+            "label": "t:sections.main-blog.settings.image_height.options__4.label"
+          }
+        ],
+        "default": "medium",
+        "label": "t:sections.main-blog.settings.image_height.label",
+        "info": "t:sections.main-blog.settings.image_height.info"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_date",
+        "default": true,
+        "label": "t:sections.main-blog.settings.show_date.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_author",
+        "default": false,
+        "label": "t:sections.main-blog.settings.show_author.label"
       },
       {
         "type": "range",
@@ -948,6 +957,75 @@
         "unit": "px",
         "label": "t:settings_schema.global.settings.blur.label",
         "default": 0
+      }
+    ]
+  },
+  {
+    "name": "Blogs Sidebar",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Tags"
+      },
+      {
+        "type": "text",
+        "id": "tags_title",
+        "label": "Tags Title",
+        "info": "Write the title for tags section",
+        "default": "Popular Tags"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tags",
+        "label": "Show Tags",
+        "default": true,
+        "info": "Check this box to show tags in the sidebar"
+      },
+      {
+        "type": "header",
+        "content": "Recent Posts"
+      },
+      {
+        "type": "text",
+        "id": "recent_posts_title",
+        "label": "Recent Posts Title",
+        "info": "Write the title for recent posts section",
+        "default": "Recent Posts"
+      },
+      {
+        "type": "blog",
+        "id": "recent_posts_blog",
+        "label": "Blog",
+        "info": "Select the blog from which you want to show recent posts"
+      },
+      {
+        "type": "header",
+        "content": "Most Popular Posts"
+      },
+      {
+        "type": "text",
+        "id": "most_read_title",
+        "label": "Most Read Title",
+        "info": "Write the title for most read section",
+        "default": "Most Read Articles"
+      },
+      {
+        "type": "blog",
+        "id": "most_read_blog",
+        "label": "Blog",
+        "info": "Select the blog from which you want to show most read articles"
+      }
+    ]
+  },
+  {
+    "name": "Blog Posts",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "disclaimer",
+        "label": "Disclaimer",
+        "info": "Write a disclaimer for the blog posts",
+        "default": "<p>The content provided in this blog is for informational and educational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>"
       }
     ]
   },
@@ -1315,69 +1393,16 @@
         "default": 40
       },
       {
-        "type": "select",
+        "type": "color_scheme",
         "id": "sale_badge_color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.all.colors.accent_1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.all.colors.accent_2.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.all.colors.background_2.label"
-          }
-        ],
-        "default": "accent-2",
-        "label": "t:settings_schema.badges.settings.sale_badge_color_scheme.label"
+        "label": "t:settings_schema.badges.settings.sale_badge_color_scheme.label",
+        "default": "scheme-5"
       },
       {
-        "type": "select",
+        "type": "color_scheme",
         "id": "sold_out_badge_color_scheme",
-        "options": [
-          {
-            "value": "background-1",
-            "label": "t:sections.all.colors.background_1.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:sections.all.colors.inverse.label"
-          }
-        ],
-        "default": "inverse",
-        "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label"
-      }
-    ]
-  },
-  {
-    "name": "t:settings_schema.styles.name",
-    "settings": [
-      {
-        "type": "select",
-        "id": "accent_icons",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.all.colors.accent_1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.all.colors.accent_2.label"
-          },
-          {
-            "value": "outline-button",
-            "label": "t:settings_schema.styles.settings.accent_icons.options__3.label"
-          },
-          {
-            "value": "text",
-            "label": "t:settings_schema.styles.settings.accent_icons.options__4.label"
-          }
-        ],
-        "default": "text",
-        "label": "t:settings_schema.styles.settings.accent_icons.label"
+        "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label",
+        "default": "scheme-3"
       }
     ]
   },
@@ -1389,7 +1414,7 @@
         "content": "t:settings_schema.brand_information.settings.paragraph.content"
       },
       {
-        "type": "text",
+        "type": "inline_richtext",
         "id": "brand_headline",
         "label": "t:settings_schema.brand_information.settings.brand_headline.label"
       },
@@ -1412,15 +1437,6 @@
         "default": 100,
         "unit": "px",
         "label": "t:settings_schema.brand_information.settings.brand_image_width.label"
-      },
-      {
-        "type": "header",
-        "content": "Contact Information"
-      },
-      {
-        "type": "richtext",
-        "id": "brand_contact_info",
-        "label": "Brand Contact Info"
       }
     ]
   },
@@ -1428,72 +1444,75 @@
     "name": "t:settings_schema.social-media.name",
     "settings": [
       {
-        "type": "header",
-        "content": "t:settings_schema.social-media.settings.header.content"
+        "type": "text",
+        "id": "social_title",
+        "label": "Footer Social Title"
       },
       {
         "type": "text",
         "id": "social_facebook_link",
         "label": "t:settings_schema.social-media.settings.social_facebook_link.label",
-        "info": "t:settings_schema.social-media.settings.social_facebook_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_facebook_link.info"
       },
       {
         "type": "text",
         "id": "social_instagram_link",
         "label": "t:settings_schema.social-media.settings.social_instagram_link.label",
-        "info": "t:settings_schema.social-media.settings.social_instagram_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_instagram_link.info"
       },
       {
         "type": "text",
         "id": "social_youtube_link",
         "label": "t:settings_schema.social-media.settings.social_youtube_link.label",
-        "info": "t:settings_schema.social-media.settings.social_youtube_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_youtube_link.info"
       },
       {
         "type": "text",
         "id": "social_tiktok_link",
         "label": "t:settings_schema.social-media.settings.social_tiktok_link.label",
-        "info": "t:settings_schema.social-media.settings.social_tiktok_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_tiktok_link.info"
       },
       {
         "type": "text",
         "id": "social_twitter_link",
         "label": "t:settings_schema.social-media.settings.social_twitter_link.label",
-        "info": "t:settings_schema.social-media.settings.social_twitter_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_twitter_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_linkedin_link",
+        "label": "t:settings_schema.social-media.settings.social_linkedin_link.label",
+        "placeholder": "t:settings_schema.social-media.settings.social_linkedin_link.info"
       },
       {
         "type": "text",
         "id": "social_snapchat_link",
         "label": "t:settings_schema.social-media.settings.social_snapchat_link.label",
-        "info": "t:settings_schema.social-media.settings.social_snapchat_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_snapchat_link.info"
       },
       {
         "type": "text",
         "id": "social_pinterest_link",
         "label": "t:settings_schema.social-media.settings.social_pinterest_link.label",
-        "info": "t:settings_schema.social-media.settings.social_pinterest_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_pinterest_link.info"
       },
       {
         "type": "text",
         "id": "social_tumblr_link",
         "label": "t:settings_schema.social-media.settings.social_tumblr_link.label",
-        "info": "t:settings_schema.social-media.settings.social_tumblr_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_tumblr_link.info"
       },
       {
         "type": "text",
         "id": "social_vimeo_link",
         "label": "t:settings_schema.social-media.settings.social_vimeo_link.label",
-        "info": "t:settings_schema.social-media.settings.social_vimeo_link.info"
+        "placeholder": "t:settings_schema.social-media.settings.social_vimeo_link.info"
       }
     ]
   },
   {
     "name": "t:settings_schema.search_input.name",
     "settings": [
-      {
-        "type": "header",
-        "content": "t:settings_schema.search_input.settings.header.content"
-      },
       {
         "type": "checkbox",
         "id": "predictive_search_enabled",
@@ -1519,10 +1538,6 @@
   {
     "name": "t:settings_schema.currency_format.name",
     "settings": [
-      {
-        "type": "header",
-        "content": "t:settings_schema.currency_format.settings.content"
-      },
       {
         "type": "paragraph",
         "content": "t:settings_schema.currency_format.settings.paragraph"
@@ -1579,6 +1594,12 @@
         "id": "cart_drawer_collection",
         "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
+      },
+      {
+        "type": "color_scheme",
+        "id": "cart_color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
       }
     ]
   },
@@ -1631,36 +1652,53 @@
     ]
   },
   {
-    "name": "WhatsApp Chat",
+    "name": "Global Discount",
     "settings": [
       {
         "type": "text",
-        "id": "whatsapp_number",
-        "label": "WhatsApp Number",
-        "info": "Enter your WhatsApp number, including country code (e.g., +123456789)."
+        "id": "percentage_discount",
+        "label": "Discount Percentage",
+        "default": "10",
+        "info": "Enter the percentage amount to apply discount on all products's one time purchase"
+      },
+      {
+        "type": "header",
+        "content": "Subscription First time Offer",
+        "info": "This offer will be applied on the first purchase of subscription products. It will not be applied on the one time purchase of the subscription products."
       },
       {
         "type": "text",
-        "id": "whatsapp_message",
-        "label": "Default Message",
-        "default": "Hi, I need help!",
-        "info": "Message that will appear in the chat."
+        "id": "subscription_percentage_discount",
+        "label": "Subscription Discount Percentage",
+        "default": "20",
+        "info": "Enter the percentage amount to apply discount on subscription products's first purchase. Also create a automatic discount in Shopify admin with the same percentage and apply it on the subscription products. This will ensure that the discount is applied on the first purchase of the subscription products."
+      }
+    ]
+  },
+  {
+    "name": "Subscriptions Messages",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Subscriptions Messages"
       },
       {
-        "type": "select",
-        "id": "whatsapp_position",
-        "label": "Chat Button Position",
-        "options": [
-          {
-            "value": "bottom-right",
-            "label": "Bottom Right"
-          },
-          {
-            "value": "bottom-left",
-            "label": "Bottom Left"
-          }
-        ],
-        "default": "bottom-right"
+        "type": "textarea",
+        "id": "subscription_message",
+        "label": "Subscription Message",
+        "default": "Subscribe and save {{discount}}%",
+        "info": "This message will be shown on the product page of the subscription products. {{discount}} will be replaced with the actual discount percentage."
+      }
+    ]
+  },
+  {
+    "name": "Product Form Payment Terms",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "disable_autogenerated_payment_terms",
+        "label": "Disable automatic payment terms tags",
+        "default": false
       }
     ]
   }
