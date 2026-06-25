@@ -20,7 +20,6 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-{%- assign card_heading_tag = heading_tag | default: 'h3' -%}
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
@@ -101,7 +100,7 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-            <{{ card_heading_tag }}
+            <h3
               class="card__heading"
               {% if card_product.featured_media == null and settings.card_style == 'standard' %}
                 id="title-{{ section_id }}-{{ card_product.id }}"
@@ -115,7 +114,7 @@
               >
                 {{ card_product.title | escape }}
               </a>
-            </{{ card_heading_tag }}>
+            </h3>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
@@ -138,7 +137,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <{{ card_heading_tag }}
+          <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
               id="title-{{ section_id }}-{{ card_product.id }}"
@@ -152,7 +151,7 @@
             >
               {{ card_product.title | escape }}
             </a>
-          </{{ card_heading_tag }}>
+          </h3>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
@@ -354,21 +353,21 @@
       >
         <div class="card__content">
           <div class="card__information">
-            <{{ card_heading_tag }} class="card__heading">
+            <h3 class="card__heading">
               <a role="link" aria-disabled="true" class="full-unstyled-link">
                 {{ 'onboarding.product_title' | t }}
               </a>
-            </{{ card_heading_tag }}>
+            </h3>
           </div>
         </div>
       </div>
       <div class="card__content">
         <div class="card__information">
-          <{{ card_heading_tag }} class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
+          <h3 class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
             <a role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
             </a>
-          </{{ card_heading_tag }}>
+          </h3>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
