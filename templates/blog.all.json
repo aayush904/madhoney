@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_kNBjBf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7aLbF7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cliff Honey Blogs",
+            "heading_size": "h1"
+          }
+        },
+        "text_6wDVaG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>By Rashmi Kandel</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7aLbF7",
+        "text_6wDVaG"
+      ],
+      "custom_css": [
+        ".wrapper-padding {max-width: 100%;}",
+        "img {object-fit: cover; object-position: bottom center;}",
+        "[class^=\"image-with-text__media\"] {width: 100%; border: none; border-radius: 16px;}",
+        ".global-media-settings:after {background: #00000050; z-index: 1;}",
+        ".image-with-text__text-item {position: absolute; z-index: 2; top: 50%; left: 50%; transform: translate(-50%, -50%);}",
+        ".image-with-text__text-item {width: 100%;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_44.webp",
+        "height": "medium",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-92d10699-e28c-4d95-88ce-bf9cab415f48",
+        "id": "",
+        "class": "",
+        "padding_top": 160,
+        "padding_bottom": 35,
+        "custom_liquid": ""
+      }
+    },
+    "main": {
+      "type": "all-blog",
+      "blocks": {
+        "most_read_KYgxRD": {
+          "type": "most_read",
+          "settings": {
+            "most_read_title": "Most Read Articles",
+            "most_read_blog": "honey-guide"
+          }
+        },
+        "recent_posts_FiBknn": {
+          "type": "recent_posts",
+          "settings": {
+            "recent_posts_title": "Recent Posts",
+            "recent_posts_blog": ""
+          }
+        },
+        "tags_nmCMUX": {
+          "type": "tags",
+          "settings": {
+            "tags_title": "Popular Tags"
+          }
+        }
+      },
+      "block_order": [
+        "most_read_KYgxRD",
+        "recent_posts_FiBknn",
+        "tags_nmCMUX"
+      ],
+      "settings": {
+        "categories": "honey-guide,videos",
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 35,
+        "padding_bottom": 35
+      }
+    }
+  },
+  "order": [
+    "image_with_text_kNBjBf",
+    "main"
+  ]
+}

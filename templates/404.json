@@ -11,10 +11,49 @@
   "sections": {
     "main": {
       "type": "main-404",
+      "custom_css": [
+        ".page-width {padding: clamp(47px, 5.75vw, 110px) 16px; margin-top: var(--header-height);}"
+      ],
       "settings": {}
+    },
+    "rich_text_DR7Pmb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JVDJjK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "text_3CkBfX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Himalayan honey is a 100% natural product but its content doesn’t make it suitable for everyone. Individuals who should totally omit it are infants and the ones with pollen allergy.</p><h3><strong>Not for Infants</strong></h3><p>Infants below 12 months of age should not be given any form of honey including Himalayan cliff honey. The primary risk associated with the consumption is infant botulism, a severe disease that occurs due to viable spores of bacteria <em>Clostridium botulinum</em>.</p><h3> <strong>Bee/pollen allergy warning</strong></h3><p>Our honey is raw and only lightly strained; it retains all natural hive components including pollen. So, for individuals who are allergic to pollen, the consumption of our honey is not recommended.</p><h3><strong>Storage instructions</strong></h3><p>When stored in an airtight container in a cool and dry place, Himalayan cliff honey can last up to 24 months.</p><p>For preventing spoilage, use a clean, dry spoon for each use. Refrigerating the honey is not recommended as it speeds up thickening and can lead to early crystallization of the product.</p><h3><strong>Crystallization</strong></h3><p>Crystallization of honey is a natural process, and should not be considered a sign of spoilage. In actuality, crystallization occurs when the honey sugar, particularly glucose which is naturally higher in wild honey types, undergoes solidification after separating from the moisture.</p><p>Refrigeration can enhance the process as glucose easily tends to crystallize faster at a lower temperature. Once the honey gets crystallized, it can still be reversed back to its natural form by slight reheating, if you’ve stored honey properly and it has not exceeded the shelf-life timeframe of 24 months.</p><h3><strong>Shelf Life Information</strong></h3><p>All the Himalayan honey can be used for 24 months after the jar has been opened, with proper storage and use. To enjoy the honey till last, make sure you secure the lid airtight, use a dry spoon while and find a cool and dry place to keep it.</p><h3><strong>FDA Disclaimers</strong></h3><p>Himalayan Honey is a natural food product. Any information provided is for general informational purposes only and is not intended as medical advice.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JVDJjK",
+        "text_3CkBfX"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".page-width {padding: clamp(47px, 5.75vw, 110px) 16px; margin-top: var(--header-height);}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-115c0f00-6e48-4035-b511-680a9158c036",
+        "full_width": false,
+        "padding_top": 110,
+        "padding_bottom": 110
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_DR7Pmb"
   ]
 }

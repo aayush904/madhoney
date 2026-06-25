@@ -1,0 +1,295 @@
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: clamp({{ section.settings.padding_top | times: 0.43 | round: 0 }}px, {{ section.settings.padding_top | divided_by: 19.13 }}vw, {{ section.settings.padding_top  }}px);
+    padding-bottom: clamp({{ section.settings.padding_bottom | times: 0.43 | round: 0 }}px, {{ section.settings.padding_bottom | divided_by: 19.13 }}vw, {{ section.settings.padding_bottom  }}px);
+  }
+
+  /* @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  } */
+
+  #shopify-section-{{ section.id }} .blog-articles__article.article,
+  #shopify-section-{{ section.id }} .blog-articles__article.article * {
+    max-height: max-content;
+  }
+{%- endstyle -%}
+
+<div class="main-blog page-width section-{{ section.id }}-padding">
+  <div
+    id="blog-listing"
+    class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}"
+  >
+    {%- assign custom_array = section.settings.categories | split: ',' -%}
+    {%- assign category_counter = 0 -%}
+    {% assign video_article_count = 0 %}
+    {%- for category in custom_array -%}
+      {%- assign category_counter = category_counter | plus: 1 -%}
+      {%- assign shilajit_blog = blogs[category] -%}
+      {%- assign shilajit_blog_counter = 0 -%}
+
+      {%- if shilajit_blog and shilajit_blog.articles.size > 0 -%}
+        <div
+          class="title-section"
+          style=" text-align: {{ section.settings.content_alignment }};"
+        >
+          <h2 class="title--primary font-sans {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+            {% if current_tags.size > 0 %}
+              {{ current_tags -}}
+            {%- else -%}
+              {{ shilajit_blog.title | escape }}
+            {%- endif %}
+          </h2>
+
+          <a
+            href="{{ shilajit_blog.url }}"
+            class="view-link"
+          >
+            {{ 'sections.featured_blog.view_all' | t }}
+          </a>
+        </div>
+        {% if category_counter == 1 %}
+          {% assign blog_limit = 6 %}
+        {%- else -%}
+          {% assign blog_limit = 2 %}
+        {%- endif -%}
+        {% assign articleTags = '' %}
+        {%- for article in shilajit_blog.articles limit: blog_limit -%}
+          {%- assign shilajit_blog_counter = shilajit_blog_counter | plus: 1 -%}
+          {% assign articleTags = articleTags | append: ',' | append: article.tags[0] %}
+          <div
+            class="blog-articles__article article {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {% if shilajit_blog.metafields.custom.is_video %}
+              {%- render 'article-card',
+                article: article,
+                media_height: section.settings.image_height,
+                media_aspect_ratio: article.image.aspect_ratio,
+                show_image: section.settings.show_image,
+                show_date: section.settings.show_date,
+                show_author: section.settings.show_author,
+                show_excerpt: false,
+                style: 'video',
+                video_counter: video_article_count
+              -%}
+              {% assign video_article_count = video_article_count | plus: 1 %}
+
+            {% else %}
+              {% if shilajit_blog_counter > 2 and category_counter == 1 %}
+                {%- render 'article-card',
+                  article: article,
+                  media_height: section.settings.image_height,
+                  media_aspect_ratio: article.image.aspect_ratio,
+                  show_image: section.settings.show_image,
+                  show_date: section.settings.show_date,
+                  show_author: section.settings.show_author,
+                  show_excerpt: false,
+                  style: 'horizontal'
+                -%}
+              {% elsif shilajit_blog_counter <= 2 and category_counter == 1 %}
+                {%- render 'article-card',
+                  article: article,
+                  media_height: section.settings.image_height,
+                  media_aspect_ratio: article.image.aspect_ratio,
+                  show_image: section.settings.show_image,
+                  show_date: section.settings.show_date,
+                  show_author: section.settings.show_author,
+                  show_excerpt: true,
+                  style: 'vertical'
+                -%}
+              {% else %}
+                {%- render 'article-card',
+                  article: article,
+                  media_height: section.settings.image_height,
+                  media_aspect_ratio: article.image.aspect_ratio,
+                  show_image: section.settings.show_image,
+                  show_date: section.settings.show_date,
+                  show_author: section.settings.show_author,
+                  show_excerpt: false,
+                  style: 'vertical'
+                -%}
+              {% endif %}
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      {%- else -%}
+        <p>No articles found for {{ category }} blog.</p>
+      {%- endif -%}
+      <hr>
+    {%- endfor -%}
+  </div>
+  {% render 'blog-sidebar', articleTags: articleTags %}
+</div>
+
+{% schema %}
+{
+  "name": "Shilajit Blog",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Blog post card"
+    },
+    {
+      "type": "text",
+      "id": "categories",
+      "label": "Categories",
+      "info": "Write the blog categories seperated with comma(,) which exist in blogs. eg: news,shilajit"
+    },
+    {
+      "type": "header",
+      "content": "Blog post card"
+    },
+
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "grid",
+          "label": "t:sections.main-blog.settings.layout.options__1.label"
+        },
+        {
+          "value": "collage",
+          "label": "t:sections.main-blog.settings.layout.options__2.label"
+        }
+      ],
+      "default": "collage",
+      "label": "Desktop layout",
+      "info": "Posts are stacked on mobile."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_image.label"
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.main-blog.settings.image_height.options__1.label"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.main-blog.settings.image_height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.main-blog.settings.image_height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.main-blog.settings.image_height.options__4.label"
+        }
+      ],
+      "default": "medium",
+      "label": "Featured image height",
+      "info": "Change excerpts by editing your blog posts. <a href='https://help.shopify.com/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post'>Learn more</a>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "default": false,
+      "label": "t:sections.main-blog.settings.show_author.label"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.main-blog.settings.paragraph.content"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "t:sections.all.padding.padding_top",
+      "info": "Unit in rem 1rem = l0px",
+      "default": 14
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "t:sections.all.padding.padding_bottom",
+      "info": "Unit in rem 1rem = l0px",
+      "default": 14
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tags",
+      "name": "Tags",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "tags_title",
+          "label": "Tags Title",
+          "info": "Write the title for tags section",
+          "default": "Popular Tags"
+        }
+      ]
+    },
+    {
+      "type": "recent_posts",
+      "name": "Recent Posts",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "recent_posts_title",
+          "label": "Recent Posts Title",
+          "info": "Write the title for recent posts section",
+          "default": "Recent Posts"
+        },
+        {
+          "type": "blog",
+          "id": "recent_posts_blog",
+          "label": "Blog",
+          "info": "Select the blog from which you want to show recent posts"
+        }
+      ]
+    },
+    {
+      "type": "most_read",
+      "name": "Most Read Article",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "most_read_title",
+          "label": "Most Read Title",
+          "info": "Write the title for most read section",
+          "default": "Most Read Articles"
+        },
+        {
+          "type": "blog",
+          "id": "most_read_blog",
+          "label": "Blog",
+          "info": "Select the blog from which you want to show most read articles"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

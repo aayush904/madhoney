@@ -14,58 +14,82 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "6e0c08d4-cd4c-439c-b5e2-a483bba29ec2": {
-          "type": "brand_information",
-          "settings": {
-            "show_contact": true,
-            "brand_headline": "Contact Us"
-          }
-        },
-        "55172ef6-3a6a-4cfa-b790-88739b47891f": {
+        "link_list_GFBcRz": {
           "type": "link_list",
           "settings": {
             "heading": "Shop",
-            "menu": "main-menu",
-            "heading_2": "Wholesale",
-            "menu_2": "wholesale"
+            "menu": "shop"
           }
         },
-        "link_list_r9brrB": {
+        "link_list_a3HVzc": {
           "type": "link_list",
           "settings": {
-            "heading": "Let us help",
-            "menu": "footer",
-            "heading_2": "",
-            "menu_2": ""
+            "heading": "Learn",
+            "menu": "learn"
+          }
+        },
+        "link_list_fnyMAP": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "menu": "support"
+          }
+        },
+        "link_list_with_text_DJMERN": {
+          "type": "link_list_with_text",
+          "disabled": true,
+          "settings": {
+            "heading": "My Account",
+            "menu": "my-account",
+            "text_heading": "Location",
+            "subtext": "<p>Ekantakuna, Lalipur - 44700 Nepal</p><p>Gould St Re R Sheridan</p>"
+          }
+        },
+        "newsletter_jqcVWd": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "liquid_d37gkP": {
+          "type": "liquid",
+          "settings": {
+            "customliquid": "{% assign footerid = \"#shopify-section-\" | append: section.id %}\n{% style %}\n{{ footerid }} [data-liquid]{\ndisplay:none;\n}\n{{ footerid }} .footer-block[data-newsletter]{\n max-width:30%;\n}\n{{ footerid }} .footer__blocks-wrapper\n {\n  max-width: 70.4%;\n}\n\n@media (max-width: 1600px) {\n  {{ footerid }} .footer__blocks-wrapper {\n    max-width: calc(170.4% / 2);\n  }\n}\n\n@media (max-width: 1280px) {\n  {{ footerid }} .footer__blocks-wrapper {\n    max-width: calc(170.4% / 1.8);\n  }\n}\n\n@media (max-width: 1024px) {\n  {{ footerid }} .footer__blocks-wrapper {\n    max-width: calc(170.4% / 1.5);\n  }\n}\n\n@media (max-width: 768px) {\n  {{ footerid }} .footer__blocks-wrapper {\n    max-width: 100%;\n  }\n}\n\n.quick-add__submit::after {\ncontent:none!important;\n}\n\n.card__badge{\ndisplay:none!important;\n}\n{% endstyle %}\n\n\n\n\n{% if request.page_type == 'product' %}\n  <script>\n    (function () {\n      var accordions = document.querySelectorAll('.accordion details');\n\naccordions.forEach(function (details) {\ndetails.addEventListener('toggle', function () {\n    if (!details.open) return;\n\n    accordions.forEach(function (other) {\n            if (other !== details) {    other.removeAttribute('open');\n            }\n          });\n        });\n      });\n    })();\n  </script>\n{% endif %}"
           }
         }
       },
       "block_order": [
-        "6e0c08d4-cd4c-439c-b5e2-a483bba29ec2",
-        "55172ef6-3a6a-4cfa-b790-88739b47891f",
-        "link_list_r9brrB"
+        "link_list_GFBcRz",
+        "link_list_a3HVzc",
+        "link_list_fnyMAP",
+        "link_list_with_text_DJMERN",
+        "newsletter_jqcVWd",
+        "liquid_d37gkP"
       ],
       "custom_css": [
-        "footer {margin-top: 0;}",
-        "@media (max-width: 768px) {footer h4 {font-size: 14px; font-weight: 500; }}"
+        ".grid__item {max-width: 18%;}",
+        ".grid__item:last-of-type {max-width: 24.3%;}",
+        "@media (max-width: 768px) {.grid__item {max-width: 100% !important; }}",
+        ".footer__content-top,input {background: #fbefd6;}",
+        ".footer-block--newsletter {padding: clamp(16px, 1.67vw, 3.2rem) 16px;}",
+        ".list-social__link {padding: 0 6px;}",
+        "svg:not(.icon-arrow),.svg-wrapper {width: 36px; height: 36px;}",
+        ".footer__content-bottom {background: #364639; padding: 16px;}",
+        "small {color: #fff;}",
+        ".footer__copyright {margin: 0;}"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-4",
+        "footer_bg_desktop": "shopify://shop_images/footer-background.webp",
         "newsletter_enable": true,
-        "newsletter_heading": "Newsletter",
-        "newsletter_description_1": "",
-        "newsletter_description_2": "Sign up and continue to learn more about\nhealthy living and the power of pure.",
+        "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 96,
-        "padding_bottom": 28,
-        "copy_right_content": "All Rights Reserved",
-        "show_shopify_powered": false
+        "margin_top": 0,
+        "padding_top": 75,
+        "padding_bottom": 0
       }
     }
   },

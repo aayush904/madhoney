@@ -32,6 +32,12 @@ document.addEventListener('shopify:section:load', function () {
     zoomOnHoverScript.parentNode.replaceChild(newScriptTag, zoomOnHoverScript);
   }
 });
+document.addEventListener('shopify:section:unload', function (event) {
+  document.querySelectorAll("[data-section=\"".concat(event.detail.sectionId, "\"]")).forEach(function (element) {
+    element.remove();
+    document.body.classList.remove('overflow-hidden');
+  });
+});
 document.addEventListener('shopify:section:reorder', function () {
   return hideProductModal();
 });

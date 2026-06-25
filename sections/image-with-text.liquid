@@ -1,322 +1,766 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: clamp({{ section.settings.padding_top | times: 0.43 | round: 0 }}px, {{ section.settings.padding_top | divided_by: 19.13 }}vw, {{ section.settings.padding_top  }}px);
+    padding-bottom: clamp({{ section.settings.padding_bottom | times: 0.43 | round: 0 }}px, {{ section.settings.padding_bottom | divided_by: 19.13 }}vw, {{ section.settings.padding_bottom  }}px);
+  }
+
+  /* @media screen and (min-width: 768px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  } */
+{%- endstyle -%}
+
+{%- liquid
+  assign fetch_priority = 'auto'
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
+  if section.settings.color_scheme == section.settings.section_color_scheme and section.settings.content_layout == 'no-overlap'
+    assign remove_color_classes = true
+  endif
+-%}
+
 <div
-  class="flex items-center justify-center min-h-screen"
-  style="
-    max-width: {{ section.settings.max_width }};
-    margin: {{ section.settings.margin }};
-    padding: {{ section.settings.padding }};
-    {% case section.settings.background_type %}
-      {% when 'color' %}
-        background-color: {{ section.settings.background_color }};
-      {% when 'gradient' %}
-        background-image: {{ section.settings.background_gradient }};
-      {% when 'image' %}
-        background-image: url({{ section.settings.background_image | image_url: width: 1500 }});
-        background-size: cover;
-        background-repeat: no-repeat;
-    {% endcase %}
-  "
+  id="{{ section.settings.id }}"
+  class=" {{  section.settings.class }} section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}"
 >
-  {% capture textImageContents %}
-  {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'heading' %}
-            <{{ block.settings.heading_tag }} class="mb-4  font-bold text-[#b08c5a] 
-              {% case block.settings.heading_tag %}
-                {% when 'h1' %}
-                  text-h1
-                {% when 'h2' %}
-                  text-h2
-                {% when 'h3' %}
-                  text-h3
-                {% when 'h4' %}
-                  text-h4
-                {% when 'h5' %}
-                  text-h5
-                {% when 'h6' %}
-                  text-h6
-              {% endcase %}
-              ">{{ block.settings.heading }}</{{ block.settings.heading_tag }}>
-        {% when 'description' %}
-            <p class="mb-6 text-base text-[#333]">{{ block.settings.description }}</p>
-        {% when 'button' %}
-            <a
-              href="{{ block.settings.button_link }}"
-              class="px-12 py-6 text-accent font-semibold inline text-center text-black bg-[#f8f6ef] border border-black"
-            >
-              {{ block.settings.button_text }}
-            </a>
-        {% when 'image' %}
-          <div class="flex-1">
-            {%- if block.settings.image != blank -%}
-              {%- if block.settings.image_behavior == 'ambient' -%}
+  <div class="section-width page-width wrapper-padding">
+    <div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == section.settings.section_color_scheme and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {% comment %} removed grid--gapless.grid {% endcomment %}
+      <div class="image-with-text__grid grid  grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+        <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+          <div
+            class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} media{% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+              style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+            {% endif %}
+          >
+            {%- if section.settings.image != blank -%}
+              {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
                 {%- capture sizes -%}
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
-                  (min-width: 769px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
-                {%- endcapture -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+              (min-width: 768px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
               {%- else -%}
                 {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                 {%- capture sizes -%}
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                  (min-width: 769px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                {%- endcapture -%}
+              (min-width: {{ settings.page_width }}px) calc(75vw + 100px),
+              (min-width: 768px) calc((100vw - 130px)), calc((100vw - 50px))
+            {%- endcapture -%}
               {%- endif -%}
               {{
-                block.settings.image
+                section.settings.image
                 | image_url: width: 1500
-                | image_tag: loading: 'lazy', sizes: sizes, widths: widths
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
               }}
+              {% comment %}
+                {%- else -%}
+                {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endcomment %}
             {%- endif -%}
           </div>
-      {% endcase %}
-  {% endfor %}
-
-    {% endcapture %}
-
-  {% capture textImageImg %}
-    {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'image' %}
-          <div class="flex-1">
-            {%- if block.settings.image != blank -%}
-              {%- if block.settings.image_behavior == 'ambient' -%}
-                {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
-                {%- capture sizes -%}
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
-                  (min-width: 769px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
-                {%- endcapture -%}
-              {%- else -%}
-                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                {%- capture sizes -%}
-                  (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                  (min-width: 769px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                {%- endcapture -%}
-              {%- endif -%}
-              {{
-                block.settings.image
-                | image_url: width: 1500
-                | image_tag: loading: 'lazy', sizes: sizes, widths: widths
-              }}
-            {%- endif -%}
+        </div>
+        <div class="image-with-text__text-item grid__item">
+          <div
+            id="ImageWithText--{{ section.id }}"
+            class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
+          >
+            {%- for block in section.blocks -%}
+              {% case block.type %}
+                {%- when 'heading' -%}
+                  <{{ block.settings.heading_size }}
+                    class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.heading }}
+                  </{{ block.settings.heading_size }}>
+                {%- when 'caption' -%}
+                  <h3
+                    class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.caption | escape }}
+                  </h3>
+                {%- when 'text' -%}
+                  <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.text }}
+                  </div>
+                {%- when 'linebreak' -%}
+                  <hr
+                    class="image-with-text__linebreak"
+                    style="display:block; width:100%; border-color: {{ block.settings.horizontal_line_color }}; border-width: {{ block.settings.horizontal_line_width }}px; margin-top: {{ block.settings.horizontal_line_margin }}px;  margin-bottom: {{ block.settings.horizontal_line_margin_2 }}px;"
+                  >
+                {%- when 'button' -%}
+                  {%- if block.settings.button_label != blank -%}
+                    <a
+                      {% if block.settings.button_link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.button_link }}"
+                      {% endif %}
+                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      {{ block.shopify_attributes }}
+                      {{ block.settings.attributes }}
+                    >
+                      {{ block.settings.button_label | escape }}
+                    </a>
+                  {%- endif -%}
+                {%- when 'iconboxes' -%}
+                  <div
+                    class="image-with-text__iconboxes"
+                    style="
+                      display: flex; flex-wrap: wrap; gap: 16px; width: 100%;
+                      justify-content: space-evenly;
+                    "
+                  >
+                    {%- for i in (1..5) -%}
+                      {% assign iconbox_image = 'iconboxes_image_' | append: i %}
+                      {% assign iconbox_title = 'iconboxes_title_' | append: i %}
+                      {% assign iconbox_description = 'iconboxes_description_' | append: i %}
+                      {%- assign icon_image = block.settings[iconbox_image] -%}
+                      {%- assign icon_title = block.settings[iconbox_title] -%}
+                      {%- assign icon_description = block.settings[iconbox_description] -%}
+                      {%- if icon_image != blank or icon_title != blank or icon_description != blank -%}
+                        <div class="image-with-text__iconbox" style="max-width:11.3rem;">
+                          <div class="image-with-text__iconbox-image">
+                            {%- if icon_image != blank -%}
+                              <img
+                                src="{{ icon_image | image_url }}"
+                                alt="{{ icon_title | escape }}"
+                                loading="lazy"
+                                width="{{ icon_image.width }}"
+                                height="{{ icon_image.height }}"
+                                class="image-with-text__iconbox-image--{{ section.settings.desktop_image_width }}"
+                              >
+                              {% comment %}
+                                {%- else -%}
+                                <div
+                                  id="{{ block.id }}"
+                                  style="max-width:100%; aspect-ratio:1/1; border-radius:50%; overflow:hidden;"
+                                >
+                                  {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                </div>
+                              {% endcomment %}
+                            {%- endif -%}
+                          </div>
+                          {% if icon_description != blank or icon_title != blank %}
+                            <div class="image-with-text__iconbox-content">
+                              <h3 class="image-with-text__iconbox-title">{{ icon_title | escape }}</h3>
+                              <p class="image-with-text__iconbox-description">
+                                {{ icon_description | escape }}
+                              </p>
+                            </div>
+                          {% endif %}
+                        </div>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </div>
+                {%- when 'Liquid' -%}
+                  {{ block.settings.custom_liquid }}
+              {%- endcase -%}
+            {%- endfor -%}
           </div>
-      {% endcase %}
-    {% endfor %}
-    {% endcapture %}
-  <section class="flex items-center justify-center w-full px-6 py-12 md:flex-row">
-    <div class="flex flex-col">
-      {{ textImageContents }}
+        </div>
+      </div>
     </div>
-    {{ textImageImg }}
-  </section>
+  </div>
 </div>
+{{ section.settings.custom_liquid }}
 
 {% schema %}
 {
-  "name": "Text Image",
+  "name": "t:sections.image-with-text.name",
   "class": "section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
     {
-      "type": "text",
-      "id": "max_width",
-      "label": "Max Width",
-      "default": "1200px",
-      "info": "Set the maximum width for the section (e.g., '1200px')."
-    },
-    {
-      "type": "text",
-      "id": "margin",
-      "label": "Margin",
-      "default": "0 auto",
-      "info": "Set the margin for the section (e.g., '0 auto')."
-    },
-    {
-      "type": "text",
-      "id": "padding",
-      "label": "Padding",
-      "default": "50px",
-      "info": "Set the padding for the section (e.g., '50px')."
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
     },
     {
       "type": "select",
-      "id": "background_type",
-      "label": "Background Type",
+      "id": "height",
       "options": [
         {
-          "value": "color",
-          "label": "Color"
+          "value": "adapt",
+          "label": "t:sections.image-with-text.settings.height.options__1.label"
         },
         {
-          "value": "gradient",
-          "label": "Gradient"
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.height.options__2.label"
         },
         {
-          "value": "image",
-          "label": "Image"
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.height.options__4.label"
         }
       ],
-      "default": "color"
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
     },
     {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background Color",
-      "default": "#f8f6ef"
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-with-text.settings.desktop_image_width.label"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "t:sections.image-with-text.settings.layout.options__1.label"
+        },
+        {
+          "value": "text_first",
+          "label": "t:sections.image-with-text.settings.layout.options__2.label"
+        }
+      ],
+      "default": "image_first",
+      "label": "t:sections.image-with-text.settings.layout.label"
+    },
+    {
+      "type": "select",
+      "id": "image_behavior",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.all.animation.image_behavior.options__1.label"
+        },
+        {
+          "value": "ambient",
+          "label": "t:sections.all.animation.image_behavior.options__2.label"
+        },
+        {
+          "value": "zoom-in",
+          "label": "t:sections.all.animation.image_behavior.options__4.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.all.animation.image_behavior.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image-with-text.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "content_layout",
+      "options": [
+        {
+          "value": "no-overlap",
+          "label": "t:sections.image-with-text.settings.content_layout.options__1.label"
+        },
+        {
+          "value": "overlap",
+          "label": "t:sections.image-with-text.settings.content_layout.options__2.label"
+        }
+      ],
+      "default": "no-overlap",
+      "label": "t:sections.image-with-text.settings.content_layout.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "middle",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "bottom",
+          "label": "t:sections.image-with-text.settings.desktop_content_position.options__3.label"
+        }
+      ],
+      "default": "top",
+      "label": "t:sections.image-with-text.settings.desktop_content_position.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-with-text.settings.mobile_content_alignment.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image-with-text.settings.header_colors.content"
+    },
+    {
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.multirow.settings.container_color_scheme.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Class/Id Attributes"
     },
     {
       "type": "text",
-      "id": "background_gradient",
-      "label": "Background Gradient",
-      "default": "linear-gradient(45deg, #f3ec78, #af4261)",
-      "info": "Define the gradient (e.g., 'linear-gradient(45deg, #f3ec78, #af4261)')"
+      "id": "id",
+      "label": "ID"
     },
     {
-      "type": "image_picker",
-      "id": "background_image",
-      "label": "Background Image"
+      "type": "text",
+      "id": "class",
+      "label": "Class"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 35
+    },
+
+    {
+      "type": "header",
+      "content": "Custom HTML/Liquid code"
+    },
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "Custom Liquid"
     }
   ],
   "blocks": [
     {
       "type": "heading",
-      "name": "Heading",
+      "name": "t:sections.image-with-text.blocks.heading.name",
+      "limit": 1,
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "heading",
-          "label": "Heading",
-          "default": "What is Mad Honey?"
+          "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
           "type": "select",
-          "id": "heading_tag",
-          "label": "Heading Tag",
+          "id": "heading_size",
           "options": [
             {
-              "value": "h1",
-              "label": "H1"
-            },
-            {
-              "value": "h2",
-              "label": "H2"
-            },
-            {
-              "value": "h3",
-              "label": "H3"
+              "value": "h5",
+              "label": "t:sections.all.heading_size.options__1.label"
             },
             {
               "value": "h4",
-              "label": "H4"
+              "label": "t:sections.all.heading_size.options__2.label"
             },
             {
-              "value": "h5",
-              "label": "H5"
+              "value": "h3",
+              "label": "t:sections.all.heading_size.options__3.label"
             },
             {
-              "value": "h6",
-              "label": "H6"
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__5.label"
             }
           ],
-          "default": "h2"
+          "default": "h2",
+          "label": "t:sections.all.heading_size.label"
         }
       ]
     },
     {
-      "type": "description",
-      "name": "Description",
+      "type": "caption",
+      "name": "t:sections.image-with-text.blocks.caption.name",
+      "limit": 1,
       "settings": [
         {
-          "type": "textarea",
-          "id": "description",
-          "label": "Description",
-          "default": "Mad Honey, known as deli bal is a rare and potent honey produced by bees that collect nectar primarily from the flowers of certain rhododendron species, particularly Rhododendron ponticum and wildflowers from Nepal. For thousands of years, the Gurung natives, with their age-old honey-hunting traditions, have avidly celebrated this honey for its healing and recreational medicinal purposes."
+          "type": "text",
+          "id": "caption",
+          "default": "t:sections.image-with-text.blocks.caption.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
+            }
+          ],
+          "default": "caption-with-letter-spacing",
+          "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
+        },
+        {
+          "type": "select",
+          "id": "text_size",
+          "options": [
+            {
+              "value": "small",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__1.label"
+            },
+            {
+              "value": "medium",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__2.label"
+            },
+            {
+              "value": "large",
+              "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.options__3.label"
+            }
+          ],
+          "default": "medium",
+          "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-with-text.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "t:sections.image-with-text.blocks.text.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-with-text.blocks.text.settings.text_style.options__2.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
         }
       ]
     },
     {
       "type": "button",
-      "name": "Button",
+      "name": "t:sections.image-with-text.blocks.button.name",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
-          "id": "button_text",
-          "label": "Button Text",
-          "default": "Try Mad Honey"
+          "id": "button_label",
+          "default": "t:sections.image-with-text.blocks.button.settings.button_label.default",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
         },
         {
           "type": "url",
           "id": "button_link",
-          "label": "Button Link"
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        },
+        {
+          "type": "text",
+          "id": "attributes",
+          "label": "Attributes"
         }
       ]
     },
     {
-      "type": "image",
-      "name": "Image",
+      "type": "Liquid",
+      "name": "Custom Liquid/Html",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid"
+        }
+      ]
+    },
+    {
+      "type": "iconboxes",
+      "name": "Icon Boxes",
+      "limit": 1,
+      "settings": [
         {
-          "type": "text",
-          "id": "image_alt",
-          "label": "Image Alt Text",
-          "default": "Mad Honey"
+          "type": "header",
+          "content": "Icon Boxes Settings"
         },
         {
           "type": "select",
-          "id": "image_behavior",
-          "label": "Image Behavior",
+          "id": "iconboxes_text_alignment",
+          "label": "Icon Boxes Text Alignment",
           "options": [
             {
-              "value": "ambient",
-              "label": "Ambient"
+              "value": "left",
+              "label": "Left"
             },
             {
-              "value": "default",
-              "label": "Default"
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
             }
           ],
-          "default": "default"
+          "default": "center"
+        },
+        {
+          "type": "header",
+          "content": "Icon Box 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "iconboxes_image_1",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_title_1",
+          "default": "Icon Boxes",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_description_1",
+          "default": "Description for icon boxes.",
+          "label": "Description"
+        },
+        {
+          "type": "header",
+          "content": "Icon Box 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "iconboxes_image_2",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_title_2",
+          "default": "Icon Boxes",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_description_2",
+          "default": "Description for icon boxes.",
+          "label": "Description"
+        },
+        {
+          "type": "header",
+          "content": "Icon Box 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "iconboxes_image_3",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_title_3",
+          "default": "Icon Boxes",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_description_3",
+          "default": "Description for icon boxes.",
+          "label": "Description"
+        },
+        {
+          "type": "header",
+          "content": "Icon Box 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "iconboxes_image_4",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_title_4",
+          "default": "Icon Boxes",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_description_4",
+          "default": "Description for icon boxes.",
+          "label": "Description"
+        },
+        {
+          "type": "header",
+          "content": "Icon Box 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "iconboxes_image_5",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_title_5",
+          "default": "Icon Boxes",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "iconboxes_description_5",
+          "default": "Description for icon boxes.",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "linebreak",
+      "name": "Horizontal Line",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Horizontal Line Settings"
+        },
+        {
+          "type": "color",
+          "id": "horizontal_line_color",
+          "label": "Line Color",
+          "default": "#D6D6D6"
+        },
+        {
+          "type": "range",
+          "id": "horizontal_line_width",
+          "label": "Line Width",
+          "default": 1,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "range",
+          "id": "horizontal_line_margin",
+          "label": "Line Margin Top",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "horizontal_line_margin_2",
+          "label": "Line Margin Bottom",
+          "default": 0,
+          "min": 0,
+          "max": 100
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Text Image",
-      "category": "Custom Sections",
+      "name": "t:sections.image-with-text.presets.name",
       "blocks": [
         {
-          "type": "heading",
-          "settings": {
-            "heading": "What is Mad Honey?"
-          }
+          "type": "heading"
         },
         {
-          "type": "description",
-          "settings": {
-            "description": "Mad Honey, known as deli bal is a rare and potent honey produced by bees that collect nectar primarily from the flowers of certain rhododendron species, particularly Rhododendron ponticum and wildflowers from Nepal. For thousands of years, the Gurung natives, with their age-old honey-hunting traditions, have avidly celebrated this honey for its healing and recreational medicinal purposes."
-          }
+          "type": "text"
         },
         {
-          "type": "button",
-          "settings": {
-            "button_text": "Try Mad Honey",
-            "button_link": "#"
-          }
-        },
-        {
-          "type": "image",
-          "settings": {
-            "image": "",
-            "image_alt": "Mad Honey",
-            "image_behavior": "default"
-          }
+          "type": "button"
         }
       ]
     }
