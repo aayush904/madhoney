@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_gULdRr": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {height: calc(100vh - 136px) !important; width: 100%;}",
+        "@media (max-width: 1024px) {.banner {height: auto; width: 100%; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_92_ddd357c1-ab21-429f-b4e8-7c028d2f4e20.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Sign of Overconsumption",
+            "description": "<p>Too much <a href=\"https:\/\/medicinalmadhoney.com\/pages\/what-is-mad-honey\" title=\"https:\/\/medicinalmadhoney.com\/pages\/what-is-mad-honey\">Mad Honey<\/a> can cause some unpleasant side effects because of the <a href=\"https:\/\/medicinalmadhoney.com\/pages\/grayanotoxin\" title=\"https:\/\/medicinalmadhoney.com\/pages\/grayanotoxin\">Grayanotoxins<\/a> it contains. If you start feeling dizzy, nauseous, get headaches, or notice stomach discomfort, it’s a sign you’ve had too much. The best thing to do is catch the symptoms early and adjust how much you’re consuming to stay safe. If things feel serious, don’t hesitate to get medical help. It’s better to<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_cRpYeF"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "66.6%",
+        "padding": "9.6rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_EVPDDe": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Dizzy.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_UUE4QN": {
+          "type": "content",
+          "settings": {
+            "title": "Dizziness",
+            "description": "<p>The early symptoms that you face is a feeling of dizziness. This can make you feel off-balance, disoriented, or as though the room is spinning. It may become difficult to focus on tasks or even walk steadily, and sitting or lying down might be necessary until the feeling subsides.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EVPDDe",
+        "content_UUE4QN"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_Jt8WBy": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Headaches.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_VDaFtW": {
+          "type": "content",
+          "settings": {
+            "title": "Headaches",
+            "description": "<p>A common side effect of having too much Mad Honey is a persistent or throbbing headache. This might feel like pressure building in your head, sometimes concentrated in the temples or forehead. It can be distracting and painful, making it hard to concentrate or relax. Drink water frequently to reduce the intensity of the headaches. <\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Jt8WBy",
+        "content_VDaFtW"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_x7EgXW": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Nausea.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_3wbHrA": {
+          "type": "content",
+          "settings": {
+            "title": "Nausea and Vomiting",
+            "description": "<p>Overconsumption can lead to strong feelings of nausea, which may escalate to vomiting in some cases. This discomfort in your stomach can feel similar to food poisoning or motion sickness, and it may last for a few hours depending on how much was consumed.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_x7EgXW",
+        "content_3wbHrA"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_jhecxU": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Sweating.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_7Wj6ag": {
+          "type": "content",
+          "settings": {
+            "title": "Excessive Sweating",
+            "description": "<p>Your body might overhead, leading to unexpected and excessive sweating if you exceed your required dosage. You may find yourself sweating more than usual, even if you aren’t exerting yourself physically, leaving you feeling sticky, overheated, or uncomfortable.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jhecxU",
+        "content_7Wj6ag"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "image_banner_gULdRr",
+    "basmil_image_text_jaHjht",
+    "basmil_image_text_KbzT3N",
+    "basmil_image_text_MhPHjD",
+    "basmil_image_text_7iq7pU",
+    "basmil_image_text_VdWMx9"
+  ]
+}

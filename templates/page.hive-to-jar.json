@@ -1,0 +1,713 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hive_to_jar_eHnAkY": {
+      "type": "hive-to-jar",
+      "blocks": {
+        "section_UTiTL8": {
+          "type": "section",
+          "settings": {
+            "content": "<h2>Locating the Hive</h2><p>A journey without a destination can be misleading, hence, honey hunters soul-search for the hives. They walk through difficult terrain to reach the giant honeybees. Carefully, they watch out for the humming sound, aggressive bee steps, and smokey <a href=\"\" target=\"_blank\" title=\"mad honey\"><strong>mad honey</strong></a> smell. These humungous bees build their nests at high altitudes, sometimes as high as 3500 meters, where the temperature, air pressure, and terrain add up only to more challenges.</p>",
+            "image": "shopify://shop_images/hiveart.webp"
+          }
+        },
+        "section_VqNXW4": {
+          "type": "section",
+          "settings": {
+            "content": "<h2>Preparing Equipment</h2><p>Although our honey hunters are equipped enough for a hunt, a few handy tools can only be icing on the cake for a smooth hunting process. They carry 100-foot-long bamboo ladders to climb down the cliffs where <a href=\"/pages/the-himalayan-giant-honey-bees\" title=\"The Himayalan Giant Bees\">the giant Himalayan honeybee</a> nests. </p><p>Along with the ladders, they take woven baskets to collect the honeycomb. To calm the bees, they bring smoking materials, such as dried leaves or grass to burn for produce smoke that distracts the bees. The smoldering smoke makes them less aggressive and easier to approach. For protection, hunters wear simple coverings like scarves or thick clothing to shield themselves from stings, but they mainly rely on their skill and experience in handling the bees.</p>",
+            "image": "shopify://shop_images/honeyhuntingart.webp"
+          }
+        },
+        "section_AdAKpU": {
+          "type": "section",
+          "settings": {
+            "content": "<h2>Harvesting Mad Honey</h2><p>No teamwork can be successful without coordination and clarity. Honey hunting is not a one-man task, instead, it demands fully dedicated honey hunters. First, they cut sections of the honeycomb with a scraper or knife to avoid harming the bees or damaging the hive. Once smoke calms the bees, one hunter uses a bamboo stick to tip the hive, making the honeycomb available. Another hunter positions a basket below to catch the dripping <a href=\"https://medicinalmadhoney.com/\" title=\"Himalayan red honey\">Himalayan red honey</a>.</p>",
+            "image": "shopify://shop_images/hunterwithhive.webp"
+          }
+        },
+        "section_k7ajw7": {
+          "type": "section",
+          "settings": {
+            "content": "<h2>Processing the honey</h2><p>After harvesting the honeycomb, honey hunters extract the honey by manually squeezing the comb and straining it through a cloth to remove debris and beeswax. The beeswax is collected separately and used for various purposes, including candle-making or medicinal usage. We make sure that no honey residue goes to waste, and we take full responsibility for making the most out of the honey.</p>",
+            "image": "shopify://shop_images/honeyharvested.webp"
+          }
+        }
+      },
+      "block_order": [
+        "section_UTiTL8",
+        "section_VqNXW4",
+        "section_AdAKpU",
+        "section_k7ajw7"
+      ],
+      "custom_css": [
+        "h1 {font-weight: 400;}"
+      ],
+      "settings": {
+        "title": "Hive to jar: The journey of mad honey",
+        "last_title": "Every Drop Counts",
+        "last_description": "<p>Even an iota of mad honey is so potent that you cannot afford to waste it. Honey is naturally a health wonder for us, but with mad honey, every benefit magnifies. Clearly, mad honey comes in a small jar that highlights its rarity. So savor the richness of mad honey while its time.</p>",
+        "last_btn_label": "Try Mad Honey",
+        "last_btn_url": "shopify://products/medicinal-mad-honey"
+      }
+    },
+    "basmil_image_text_qLiran": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_XMYdpQ": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/image_26.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "image_XMYdpQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "",
+        "padding": "0",
+        "margin": "0",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_zRPLxK": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_LnmiFX": {
+          "type": "content",
+          "settings": {
+            "title": "The Mad Honey Team",
+            "subtitle": "",
+            "description": "<p>Dedicated. Cordial. Resilient. <a href=\"/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">Honey hunters</a> should realize all three qualities to succeed in their challenging pursuit. A successful hunt isn’t the result of a single individual’s efforts, but rather the outcome of synchronized teamwork. While one hunter pacifies the bees with smoke, another guides the group. While one hunter carefully cuts chunks of honeycomb, another stands ready with a woven basket to collect the honey. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_Xa4z4t": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/The_Mad_Honey_Team.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_LnmiFX",
+        "image_Xa4z4t"
+      ],
+      "custom_css": [
+        ".contentside {padding: 0 16px;}",
+        "@media (min-width: 1600px) {.contentside {max-width: 1400px !important; }}",
+        "@media (max-width: 1200px) {.contentside {max-width: 1166px !important; } img {max-width: 100% !important; width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "6.4rem",
+        "content_width": "87.7%;",
+        "padding": "12rem 0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_AxecJ6": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_7Fb3FQ": {
+          "type": "content",
+          "settings": {
+            "title": "Honey Hunting Equipments",
+            "subtitle": "",
+            "description": "<p>Honey hunting isn't just about having the right gear — it’s also about truly <a href=\"/pages/the-himalayan-giant-honey-bees\" target=\"_blank\" title=\"Himalayan giant honey bees\">understanding the bees</a>, their homes, and how to gather honey safely without harming the hive. With the right tools in hand, honey hunters can keep their ancient traditions alive while treating both nature and the bees with genuine care, love, and respect.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_7Fb3FQ"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "100%",
+        "padding": "0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "73.2%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_mmTFyN": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_yCfmL4": {
+          "type": "content",
+          "settings": {
+            "title": "Bamboo basket (Tokari)",
+            "subtitle": "",
+            "description": "<p>The Tokari is a traditional basket for collecting harvested mad honey. Woven from sturdy bamboo strips, it’s lightweight yet strong enough to carry through dense forests. Its thoughtful design allows for easy transport and secure storage, ensuring no mad honey leakage on the way home.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_UjwwAY": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/bamboo_basket.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_yCfmL4",
+        "image_UjwwAY"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: start; text-align: start; } .contain-wrapper {gap: 0 !important; } h2 {margin-top: -8rem; width: 50%; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "12rem 0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_xGLpU4": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_UjCYWY": {
+          "type": "content",
+          "settings": {
+            "title": "Netted Hated",
+            "subtitle": "",
+            "description": "<p>The netted hat has a wide brim and a mesh veil that covers the face and neck, offering complete protection against wild and prickling giant honeybee stings while allowing for proper ventilation. Made from high-quality materials such as sturdy canvas or cotton, this beekeeper hat is built to endure the challenges of beekeeping for long-lasting protection. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_fHk6nz": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Netted_Hated.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_UjCYWY",
+        "image_fHk6nz"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: end; text-align: end; } .contain-wrapper {gap: 0 !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width intact-1400-left",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_LtyB4A": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_j69yTw": {
+          "type": "content",
+          "settings": {
+            "title": "Bamboo ladder (Prang)",
+            "subtitle": "",
+            "description": "<p>Honey hunting ladder is a crafted by combining a bamboo rope and wooden steps. The ladder steps with wooden planks provide stability. It’s lightweight and durable structure allow the honey hunters to ascend to extreme heights and hike tough terrains with ease.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_9hanNr": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Bamboo_ladder_Prang.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_j69yTw",
+        "image_9hanNr"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: start; text-align: start; } .contain-wrapper {gap: 0 !important; } h2 {margin-top: -8rem; width: 50%; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "60%",
+        "padding": "12rem 0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_6LyTwa": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_7bPMPe": {
+          "type": "content",
+          "settings": {
+            "title": "Saaton Stick",
+            "subtitle": "",
+            "description": "<p>Saaton is a versatile bamboo stick with two sharp ends and a smooth center. It helps to secure ropes and guides the hook precisely during the harvest. Its length can be adjusted for easy access.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_h9wakw": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Saaton_Stick.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_7bPMPe",
+        "image_h9wakw"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: end; text-align: end; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width intact-1400-left",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_3eweEG": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_EKipFV": {
+          "type": "content",
+          "settings": {
+            "title": "Tango/Ghochma Stick",
+            "subtitle": "",
+            "description": "<p>The hunters use a tango stick to slice honeycombs, its wooden blade at end makes it easy to collect the honey into the bamboo baskets. The bamboo stick provides control and precision for guiding the blade, and its length can be adjusted to reach the perfect height needed for the hunt.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_hNjQDB": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Tango-Ghochma_Stick.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_EKipFV",
+        "image_hNjQDB"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: start; text-align: start; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "60%",
+        "padding": "12rem 0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_9EEwrD": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_W6NjJG": {
+          "type": "content",
+          "settings": {
+            "title": "Rope with a hook (Koili chho)",
+            "subtitle": "",
+            "description": "<p>Koili Chho is a rope that is made out of locally available fibres and then fitted with a hook at the end. Its designs for separating the brood honeycomb from the hive. Also, it minimizes the disturbance to the hive. The helps gently detach the brood, making it easier to collect mad honey with minimal impact on the bees, without wasting any time.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_FQQeHH": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Rope_with_a_hook_Koili_chho.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_W6NjJG",
+        "image_FQQeHH"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: end; text-align: end; } .contain-wrapper {gap: 0 !important; } h2 {margin-top: -8rem; width: 50%; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0 0 12rem 0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width intact-1400-left",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_xiCDNN": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_ywDrqr": {
+          "type": "content",
+          "settings": {
+            "title": "Filter (Chhora)",
+            "subtitle": "",
+            "description": "<p>This bamboo filter is made to strain and purify mad honey, removing impurities while keeping its natural quality. Crafted from eco-friendly bamboo, it reflects the harmony between honey hunting and nature, combining traditional methods with sustainable materials.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_zbYkRm": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Tango-Ghochma_Stick.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_ywDrqr",
+        "image_zbYkRm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 768px) {.contentside, .contentside * {align-items: start; text-align: start; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "60%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "custom_liquid_LJNcWr": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".custom-liquid {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<style>\n.sticky-image-imagetext .contain-wrapper{\njustify-content:space-between;\n}\n\n.sticky-image-imagetext img{\n height:auto!important;\n}\n@media (min-width: 1600px) {\n\n.sticky-image-imagetext {\nwidth: calc(100% - ( 100vw - 1400px) /2);\n}\n    .sticky-image-imagetext .contentside.contentside {\n        width: calc(52% - \n ((100vw - 1400px) / 2)) !important;\n}\n}\n\n@media(max-width:768px){\n\n.sticky-image-imagetext .contentside{\n      \n    padding: 0 16px!important;\n    }\n\n  .sticky-image-imagetext {\n&&.intact-1400-right img{\nmargin-right:auto;\n}\n&&.intact-1400-left img{\nmargin-left:auto;\n}\n&& img{\nmax-width: calc(100% - 16px);\n}\n}\n}\n</style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "product_grid_slider_nzGw6h": {
+      "type": "product-grid-slider",
+      "disabled": true,
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "3.2rem",
+        "iconbox_gap": "4.4rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "80.45%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "product_grid_slider_zaHEf4": {
+      "type": "product-grid-slider",
+      "custom_css": [
+        "img {background: #be935f4d; aspect-ratio: 301.33/326 !important; object-fit: cover !important; border-radius: 16px;}",
+        "h3 {font-size: 2.4rem; font-family: Lato; font-weight: 700; line-height: 100%; letter-spacing: 0;}",
+        ".product-info {padding: 1.8rem 0;}",
+        "@media (max-width: 480px) {.text-base, .button {font-size: 1.6rem; } .product-card {margin: 0 1rem !important; }}"
+      ],
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "4rem",
+        "iconbox_gap": "2.2rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "78.11%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    }
+  },
+  "order": [
+    "hive_to_jar_eHnAkY",
+    "basmil_image_text_qLiran",
+    "basmil_image_text_zRPLxK",
+    "basmil_image_text_AxecJ6",
+    "basmil_image_text_mmTFyN",
+    "basmil_image_text_xGLpU4",
+    "basmil_image_text_LtyB4A",
+    "basmil_image_text_6LyTwa",
+    "basmil_image_text_3eweEG",
+    "basmil_image_text_9EEwrD",
+    "basmil_image_text_xiCDNN",
+    "custom_liquid_LJNcWr",
+    "product_grid_slider_nzGw6h",
+    "product_grid_slider_zaHEf4"
+  ]
+}

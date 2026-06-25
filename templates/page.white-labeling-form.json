@@ -1,0 +1,553 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_dLjYrX": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_jDMCAc": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/image_137.png",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%; max-height:100%; height: auto; margin:0 auto; margin-right:0;  object-fit: contain; object-position: right;"
+          }
+        }
+      },
+      "block_order": [
+        "image_jDMCAc"
+      ],
+      "custom_css": [
+        ".basmilTextImage {position: absolute; top: 0; z-index: 0; width: 100%;}",
+        ".contentside {display: none !important;}",
+        "img {max-height: 100%; object-fit: contain;}",
+        "@media (max-width: 768px) {.basmilTextImage {position: relative; top: 0 !important; } #banner-image {height: auto !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "0",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "banner-image",
+        "width": "100vw; width:100vw",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_JjqM4Y": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_CeHD9m": {
+          "type": "content",
+          "settings": {
+            "title": "Private Labeling",
+            "subtitle": "",
+            "description": "<p><br/>Are you looking for free shipping buckets pails honey for sale along with expert private labeling or custom honey packaging? We specialize in creating retail-ready honey solutions, including private label, white label, and OEM services. We provide flexible, tailored options to suit your brand, from product development and label design to export logistics. Trust us to deliver premium quality and support for your market needs.</p>",
+            "button_text": "Fill Up The Form",
+            "button_link": "#wholesale-form",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_iWD4gq": {
+          "type": "image",
+          "settings": {
+            "image_type": "html",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "0; width:100%; min-width:100%;"
+          }
+        }
+      },
+      "block_order": [
+        "content_CeHD9m",
+        "image_iWD4gq"
+      ],
+      "custom_css": [
+        ".basmilTextImage {z-index: 1; width: 100%;}",
+        ".button {font-size: 1.6rem;}",
+        "h1,.contentside p {width: 100%; text-align: start !important;}",
+        "@media (max-width: 1200px) {.dark.dark {padding-bottom: 22rem !important; }}",
+        "@media (max-width: 768px) {.basmilTextImage {background: #000; } .button {justify-content: center; } .basmilTextImage .wrapper.wrapper {padding: 8rem 16px !important; padding-top: 3.2rem !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "55%",
+        "padding": "18.4rem 16px 48rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "banner-content",
+        "width": "80%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "custom_liquid_HakFDR": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div,section {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<style>\nbody{\nwidth:100vw;\noverflow-x:hidden;\n}\n</style>\n<script>\n  const bannerContent = document.getElementById('banner-content').parentElement;\n  const bannerImage = document.getElementById('banner-image');\n  const bannerContentTop = bannerContent.offsetTop;\n\n  // Function to set bannerImage dimensions based on bannerContent\n  function updateBannerImageSize() {\n    const bannerContentHeight = bannerContent.offsetHeight;\n    const bannerContentWidth = bannerContent.offsetWidth;\n\n    bannerImage.style.height = `${bannerContentHeight}px`;\n    bannerImage.style.width = `100vw`;\n    bannerImage.parentElement.style.top = `${bannerContentTop}px`;\n    bannerImage.parentElement.style.left = `0px`;\n\n  }\n\n  // Initial call to set dimensions\n  updateBannerImageSize();\n\n  // Update dimensions on window resize\n  window.addEventListener('resize', updateBannerImageSize);\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "icon_box_4i6UgP": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_FiMjhR": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"98\" height=\"75\" viewbox=\"0 0 98 75\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_6001_29550)\">\n<path d=\"M70.6661 74.3288H27.3784C24.4406 74.3288 22.0547 71.9429 22.0547 69.0051V21.8383C22.0547 18.9005 24.4406 16.5145 27.3784 16.5145L48.2513 13.0898L70.6661 16.5145C73.6038 16.5145 75.9898 18.9005 75.9898 21.8383V69.0051C75.9898 71.9429 73.6038 74.3288 70.6661 74.3288Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M68.2976 8.91797H29.7656V36.4455H68.2976V8.91797Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M74.025 1.32812H24.1314C23.3426 1.32812 22.7031 1.9676 22.7031 2.75644V13.0793C22.7031 13.8681 23.3426 14.5076 24.1314 14.5076H74.025C74.8139 14.5076 75.4533 13.8681 75.4533 13.0793V2.75644C75.4533 1.9676 74.8139 1.32812 74.025 1.32812Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M0.890625 62.1289V27.1289H97.0906V62.1289H0.890625Z\" fill=\"black\" stroke=\"#E0AF7E\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_6001_29550\">\n<rect width=\"97\" height=\"74\" fill=\"white\" transform=\"translate(0.289062 0.664062)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Smell",
+            "icon_title": "Custom Label &amp; Packaging Design:",
+            "icon_description": "Collaborate with our design team to create labels and packaging that make your product stand out on any shelf.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_BCYefd": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"79\" height=\"64\" viewbox=\"0 0 79 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_6001_29560)\">\n<path d=\"M28.4969 31.9915C26.2193 31.6656 24.2578 30.3772 22.9943 28.3863C22.2956 27.3036 22.4496 25.8561 23.3871 24.93C23.3874 24.9297 23.3878 24.9293 23.3881 24.929L36.7185 11.6549L31.1133 5.9513C31.113 5.95105 31.1128 5.95079 31.1125 5.95054C27.7331 2.54178 23.2939 0.664062 18.5712 0.664062C13.8478 0.664062 9.40925 2.54226 6.06157 5.94971L6.06139 5.9499C-0.874629 13.0023 -0.874629 24.4742 6.06139 31.5266L6.06187 31.5271L15.376 41.0234L15.3799 41.0273L36.5421 62.1249L36.545 62.1278C36.9814 62.5701 37.532 62.6641 37.9786 62.6641C38.7834 62.6641 39.6488 62.2896 40.3416 61.6064C41.6164 60.3335 41.6885 58.6402 40.8542 57.8283L40.8498 57.8241L40.8498 57.824L29.1887 46.1942C29.1884 46.1939 29.1882 46.1936 29.1879 46.1933C28.6257 45.6376 28.6637 44.7603 29.1809 44.2267L29.1887 44.2187L29.1887 44.2188C29.7383 43.6764 30.6221 43.6764 31.1716 44.2188L31.1735 44.2206L42.8365 55.8523L42.8382 55.854L43.5905 56.6117C43.591 56.6122 43.5916 56.6127 43.5921 56.6132C44.034 57.0484 44.5926 57.1527 45.0134 57.1527C45.839 57.1527 46.7022 56.7893 47.3893 56.0976L47.3894 56.0975C48.0927 55.3898 48.4474 54.5083 48.4474 53.7247C48.4474 53.1563 48.2579 52.6633 47.8979 52.2953C47.8973 52.2947 47.8967 52.2941 47.8962 52.2935L36.2371 40.6657L36.2311 40.6598L36.2312 40.6597C35.7038 40.1156 35.7038 39.2442 36.2312 38.7001L36.2389 38.6921L36.239 38.6922C36.7885 38.1499 37.6723 38.1499 38.2219 38.6922L38.2236 38.6939L50.6562 51.0851C50.6564 51.0853 50.6566 51.0855 50.6567 51.0857C51.0996 51.5224 51.6441 51.6261 52.0791 51.6261C52.9014 51.6261 53.7507 51.2653 54.4568 50.5692C55.159 49.8618 55.5131 48.9811 55.5131 48.1981C55.5131 47.6296 55.3237 47.1393 54.9522 46.7727L54.9501 46.7706L43.3046 35.141C43.3043 35.1406 43.3039 35.1402 43.3035 35.1399C42.7514 34.5938 42.7518 33.7112 43.3046 33.1656L43.3122 33.1581L43.3123 33.1582C43.8711 32.6297 44.7339 32.6193 45.2875 33.1656L45.2895 33.1676L57.691 45.5433C57.6912 45.5435 57.6914 45.5437 57.6916 45.5439C58.0983 45.9448 58.7242 46.1281 59.4364 46.0457C60.1465 45.9637 60.8989 45.6191 61.4913 45.0277L61.4968 45.0222L61.4969 45.0222C62.1954 44.3463 62.5633 43.4678 62.5633 42.6716C62.5633 42.2413 62.4572 41.6832 62.0072 41.2508L62.0005 41.2443L62.0005 41.2442L46.6698 25.9513L46.1487 26.4655V25.7027C46.1416 25.7022 46.1345 25.7017 46.1273 25.7013L46.1091 25.7001C45.934 25.6887 45.7556 25.677 45.5724 25.6613L45.5704 25.6611C43.7029 25.4935 41.8092 25.3451 40 25.449C39.8866 25.4569 39.7632 25.5128 39.6871 25.5947L39.6798 25.6027L39.672 25.6103C37.7993 27.4585 35.9244 29.1867 34.8034 30.1546L34.8019 30.1559C33.0574 31.6502 30.7531 32.3165 28.4969 31.9915ZM28.4969 31.9915C28.4969 31.9915 28.4968 31.9915 28.4967 31.9915L28.568 31.4966L28.4972 31.9916C28.4971 31.9915 28.497 31.9915 28.4969 31.9915Z\" stroke=\"#E0AF7E\"></path>\n<path d=\"M57.7723 0.331509C51.262 1.19932 45.3688 6.25393 42.4222 9.19231L24.9894 26.5637C24.8352 26.716 24.8043 26.9748 24.9277 27.1575C25.8533 28.5582 27.2418 29.4717 28.8308 29.7153C30.4198 29.9436 32.0551 29.4717 33.2893 28.4059C34.3692 27.462 36.205 25.7721 38.0408 23.9603C38.5499 23.4731 39.1979 23.1839 39.8613 23.1382C41.8514 23.0164 43.8569 23.1839 45.7853 23.3513C48.0531 23.5492 50.2129 23.7319 52.4036 23.4731C55.7976 23.0925 58.5436 21.2199 61.0428 19.332C61.4439 19.0275 62.0147 19.1036 62.3079 19.4995C62.6164 19.8953 62.5238 20.4586 62.1382 20.7631C59.423 22.788 56.4455 24.8281 52.6041 25.2544C51.5397 25.3762 50.4598 25.3914 49.4107 25.361L63.6963 39.5961C63.9894 39.9006 64.2363 40.2508 64.4214 40.6314L72.8755 32.0294C76.4392 28.4212 78.383 23.671 78.383 18.7078C78.383 13.7445 76.5009 9.10096 73.0298 5.56882C69.0495 1.54949 63.3569 -0.414504 57.7723 0.316284V0.331509Z\" fill=\"#E0AF7E\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_6001_29560\">\n<rect width=\"78\" height=\"63\" fill=\"white\" transform=\"translate(0.367188 0.164062)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Smell",
+            "icon_title": "Support at every step, from start to finish:",
+            "icon_description": "From the initial concept to the final product, we will guide you through every step of the process.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_Ub8Dp8": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"78\" height=\"78\" viewbox=\"0 0 78 78\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_6001_29566)\">\n<path d=\"M54.6323 63.9442C54.6323 62.1336 54.6323 60.3229 54.6323 58.5123C54.6323 58.4984 54.6323 58.4844 54.6323 58.4705C54.6323 52.7878 54.6323 47.1052 54.6323 41.4225C54.6323 38.6369 54.6323 35.8652 54.6323 33.0796C54.6323 31.9514 54.1469 31.4082 53.0513 31.4082C48.35 31.4082 43.6487 31.4082 38.9474 31.4082C38.8226 31.4082 38.7116 31.4221 38.5036 31.45V32.3692C38.5036 40.0993 38.5036 47.8155 38.5036 55.5456C38.5036 55.7545 38.5036 55.9495 38.5036 56.1584C38.5036 56.3395 38.5036 56.5066 38.5036 56.6877C38.5036 57.4259 38.254 57.9552 37.8518 58.2198C37.8518 58.2198 37.8241 58.2337 37.8102 58.2477C37.7963 58.2477 37.7686 58.2755 37.7408 58.2755C37.7131 58.2894 37.6854 58.3034 37.6438 58.3173C37.616 58.3173 37.6022 58.3312 37.5744 58.3451C37.5606 58.3451 37.5467 58.3452 37.519 58.3591C37.3248 58.4009 37.1168 58.4148 36.881 58.3591C36.5898 58.3034 36.3124 58.1084 36.0767 57.9134C35.9657 57.8298 35.8686 57.7323 35.7716 57.6487C33.2476 55.476 30.7236 53.2893 28.1857 51.1165C28.1164 51.0608 28.047 51.005 27.9777 50.9633C27.9083 50.9075 27.839 50.8518 27.7696 50.7961C27.7696 50.7961 27.7419 50.8101 27.7419 50.824C27.7419 50.824 27.7142 50.824 27.7142 50.7961C27.6448 50.8518 27.5755 50.9075 27.5062 50.9633C27.4368 51.005 27.3675 51.0608 27.2981 51.1165C24.7741 53.2893 22.2501 55.476 19.7123 57.6487C19.6152 57.7323 19.5042 57.8298 19.4072 57.9134C19.1575 58.1084 18.8802 58.2894 18.6028 58.3591C18.367 58.4148 18.159 58.4009 17.9649 58.3591C17.951 58.3591 17.9371 58.3591 17.9094 58.3451C17.8817 58.3451 17.8678 58.3312 17.84 58.3173C17.8123 58.3173 17.7846 58.2894 17.743 58.2755C17.7152 58.2755 17.7014 58.2477 17.6736 58.2477C17.6736 58.2477 17.6459 58.2337 17.632 58.2198C17.216 57.9552 16.9802 57.4259 16.9802 56.6877C16.9802 56.5066 16.9802 56.3395 16.9802 56.1584C16.9802 55.9495 16.9802 55.7545 16.9802 55.5456C16.9802 47.8155 16.9802 40.0993 16.9802 32.3692V31.45C16.7722 31.4221 16.6474 31.4082 16.5364 31.4082C11.8351 31.4082 7.13384 31.4082 2.43253 31.4082C1.33695 31.4082 0.851563 31.9514 0.851563 33.0796C0.851563 35.8652 0.851563 38.6369 0.851563 41.4225C0.851562 47.1052 0.851562 52.7878 0.851562 58.4705C0.851562 58.4844 0.851562 58.4984 0.851562 58.5123C0.851562 60.3229 0.851562 62.1336 0.851562 63.9442C0.851562 65.1699 0.851562 66.3956 0.851562 67.6213C0.851562 70.3372 0.851562 73.0532 0.851562 75.7831C0.851562 76.772 1.33695 77.2734 2.32159 77.3292C2.488 77.3292 2.66829 77.3292 2.83471 77.3292C11.1279 77.3292 19.4349 77.3292 27.728 77.3292C36.0212 77.3292 44.3282 77.3292 52.6214 77.3292C52.7878 77.3292 52.9681 77.3292 53.1345 77.3292C54.1191 77.2734 54.6045 76.772 54.6045 75.7831C54.6045 73.0672 54.6045 70.3372 54.6045 67.6213C54.6045 66.3956 54.6045 65.1699 54.6045 63.9442H54.6323Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M19.7092 54.0838C19.7092 54.0838 19.7924 54.0142 19.834 53.9863C19.9727 53.8888 20.0698 53.8192 20.1668 53.7495C22.2887 51.925 24.4105 50.1004 26.5184 48.2758C26.99 47.8719 27.3644 47.663 27.725 47.649C27.725 47.649 27.725 47.649 27.7388 47.649C27.7388 47.649 27.7388 47.649 27.7527 47.649C28.1133 47.649 28.4877 47.8719 28.9592 48.2758C31.0672 50.1004 33.189 51.925 35.3109 53.7495C35.4079 53.8331 35.5189 53.9028 35.6437 53.9863C35.6853 54.0142 35.7269 54.056 35.7685 54.0838V31.4785H19.6953V54.0838H19.7092Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M32.4688 45.6703V11.8808C32.4688 9.77761 34.1745 8.06445 36.2686 8.06445H72.201C74.2951 8.06445 76.0009 9.77761 76.0009 11.8808V56.186C76.0009 58.2892 74.2951 60.0024 72.201 60.0024H36.2686C34.1745 60.0024 32.4688 58.2892 32.4688 56.186\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"></path>\n<path d=\"M46.3977 19.0527H40.1016V25.3761H46.3977V19.0527Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M46.3977 31.2402H40.1016V37.5636H46.3977V31.2402Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M52.0391 19.0527H68.667\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M52.0391 24.959H68.667\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M52.0391 32.4102H68.667\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M52.0391 38.3164H68.667\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M44.9375 45.6699H61.5654\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M52.0391 51.5762H68.667\" stroke=\"#E0AF7E\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M62.0392 5.02734H46.4375V11.1139H62.0392V5.02734Z\" fill=\"#E0AF7E\"></path>\n<path d=\"M55.8 1.57388C55.8 0.704648 55.1015 0 54.2399 0C53.3782 0 52.6797 0.704648 52.6797 1.57388V8.48221C52.6797 9.35144 53.3782 10.0561 54.2399 10.0561C55.1015 10.0561 55.8 9.35144 55.8 8.48221V1.57388Z\" fill=\"#E0AF7E\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_6001_29566\">\n<rect width=\"76.1916\" height=\"77.3288\" fill=\"white\" transform=\"translate(0.851562)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Smell",
+            "icon_title": "Flexible Orders(From XXkg):",
+            "icon_description": "Whether you’re after small runs or larger batches, we cater to all production sizes.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_FiMjhR",
+        "icon_box_BCYefd",
+        "icon_box_Ub8Dp8"
+      ],
+      "custom_css": [
+        ".contentPart {padding: 0 5.36%;}",
+        "@media (max-width: 768px) {.contentPart {padding: 0; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "What We Offer",
+        "section_description": "Looking for free shipping buckets pails honey for sale that you can truly call your own? With our private labeling services, you can turn our rare and potent mad honey into something that proudly carries your brand’s name. From custom labels to packaging, we help turn our mad honey into a product that’s uniquely yours.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "6.4rem",
+        "iconbox_gap": "6.7 %",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "28.2%",
+        "padding": "0rem  16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "darkiconbox",
+        "width": "calc(85.35% + 3.2rem)",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#e0af7e",
+        "content_color": "#ffffff",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "basmil_image_text_jEfDFM": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_TXF8hy": {
+          "type": "content",
+          "settings": {
+            "title": "Why We’re Different ?",
+            "subtitle": "",
+            "description": "<p>Our bee products are carefully crafted with potent formulations and premium ingredients, making sure each product meets the highest quality standards.</p>",
+            "button_text": "Fill Up The Form",
+            "button_link": "#wholesale-form",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_TXF8hy"
+      ],
+      "custom_css": [
+        ".button {padding: 16px 8.7vw; font-size: 1.8rem;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "66.45%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_EVPDDe": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Direct_from_the_source.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_UUE4QN": {
+          "type": "content",
+          "settings": {
+            "title": "Straight from the Source",
+            "subtitle": "",
+            "description": "<p>Our mad honey comes straight from the source, high in the cliffs of Lamjung, at an elevation of 3,500 to 4,000 meters. Harvested from the wild, remote terrain, each batch is not only rare but also packed with the potent essence of nature, straight from the source. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EVPDDe",
+        "content_UUE4QN"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.basmilTextImage {padding-bottom: 6rem; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_Jt8WBy": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Extraordinary_Packaging.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_VDaFtW": {
+          "type": "content",
+          "settings": {
+            "title": "Extra Ordinary Packaging",
+            "subtitle": "",
+            "description": "<p>Looking to create a product that’s truly your own? With our Private Labeling services, we help you turn our <a href=\"/\" target=\"_blank\" title=\"/\">premium mad honey </a>into a product that reflects your brand's identity. From label design to packaging, we offer a fully customizable experience, so your customers can enjoy our rare and potent mad honey with your branding.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Jt8WBy",
+        "content_VDaFtW"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.basmilTextImage {padding-bottom: 6rem; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_x7EgXW": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Consistent_Supply.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_3wbHrA": {
+          "type": "content",
+          "settings": {
+            "title": "Consistent and Reliable Shipping",
+            "subtitle": "",
+            "description": "<p>Our medicinal mad honey is all about consistency and reliable shipping. With our private labeling services, you can trust that your orders will arrive on time and just as expected every single time. You’ll impress your customers with the quality and reliability of our honey, no matter when you order.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_x7EgXW",
+        "content_3wbHrA"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.basmilTextImage {padding-bottom: 6rem; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_jhecxU": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Guarantee_Quality.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_7Wj6ag": {
+          "type": "content",
+          "settings": {
+            "title": "Guaranteed Quality &amp; <br> Authenticity",
+            "subtitle": "",
+            "description": "<p>You’re guaranteed top-notch quality and authenticity, with no sugar additives or preservatives. Your customers will experience the true, raw taste of Nepali Himalayan honey. It's as magical as it is pure, and you’ll be proud to call it your own.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jhecxU",
+        "content_7Wj6ag"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.basmilTextImage {padding-bottom: 6rem; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_FqEBh3": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_j7NmcK": {
+          "type": "content",
+          "settings": {
+            "title": "Form To Fill Up",
+            "subtitle": "",
+            "description": "<p>At our company, we have everything you need to successfully launch your medicinal mad honey brand. Just fill out the inquiry form below to kick things off, and we’ll help you figure out the best way to move forward. Trust us with your brand, and we’ll make sure it gets the care and attention it deserves.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_pgKjp4": {
+          "type": "image",
+          "settings": {
+            "image_type": "html",
+            "image_alt": "Mad Honey",
+            "svg": "[private-form]",
+            "image_width": "78%"
+          }
+        }
+      },
+      "block_order": [
+        "content_j7NmcK",
+        "image_pgKjp4"
+      ],
+      "custom_css": [
+        ".button {font-size: 1.6rem;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "4.8rem",
+        "content_width": "100%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "wholesale-form",
+        "width": "74.27%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_dLjYrX",
+    "basmil_image_text_JjqM4Y",
+    "custom_liquid_HakFDR",
+    "icon_box_4i6UgP",
+    "basmil_image_text_jEfDFM",
+    "basmil_image_text_KbzT3N",
+    "basmil_image_text_MhPHjD",
+    "basmil_image_text_7iq7pU",
+    "basmil_image_text_VdWMx9",
+    "basmil_image_text_FqEBh3"
+  ]
+}

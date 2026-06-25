@@ -1,0 +1,575 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_tcXPh9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_zRQgwM": {
+          "type": "content",
+          "settings": {
+            "title": "The Honey Hunters of Nepal: A Heritage of <br>Skill and Courage",
+            "subtitle": "",
+            "description": "<p>Fearless adventurers who climb high cliffs and brave the wild to gather sweet, prized mad honey. With rich traditions passed down through generations, they maintain a deep connection with nature, tradition, and incredible Himalayan giant bees.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_H7CpFU": {
+          "type": "image",
+          "settings": {
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "<svg viewbox=\"0 0 118 197\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M92.5396 87.3829L92.2285 81.7096C96.0996 85.0426 99.7494 88.6102 102.95 92.5448C103.662 93.4412 104.985 93.5676 105.852 92.8216C106.708 92.0876 106.81 90.8001 106.08 89.9398C102.059 85.2471 97.5176 81.1681 92.7251 77.396L100.575 65.929C100.838 65.544 100.767 65.0386 100.414 64.7378L84.5939 51.3577C84.4742 51.2554 84.3426 51.2073 84.205 51.1832C85.276 47.4231 86.4248 43.675 87.6453 39.987C88.9317 40.2337 90.0446 40.5646 90.9241 41.0038C91.8336 41.455 92.9405 41.082 93.3892 40.1675C93.838 39.2531 93.467 38.1401 92.5575 37.6888C91.5165 37.1714 90.248 36.7744 88.824 36.4796C92.3182 26.3723 95.7107 18.4429 98.0023 13.4615C100.162 8.75678 101.586 6.11566 101.604 6.09159C101.963 5.42981 101.718 4.60558 101.066 4.24461C100.408 3.88363 99.5878 4.1303 99.2288 4.78607C99.169 4.89436 97.745 7.52345 95.5491 12.3184C93.1977 17.4262 89.6976 25.6143 86.1136 36.0404C78.862 35.1981 69.0854 36.1788 62.5936 37.0631C66.8596 16.0485 72.1249 2.51795 72.1967 2.33145C72.4719 1.63356 72.1309 0.839421 71.4368 0.562675C70.7428 0.285928 69.953 0.628853 69.6777 1.32674C69.6 1.51926 64.1014 15.6574 59.7516 37.4722C57.4839 37.8212 55.9881 38.0919 55.7428 38.1401C54.7436 38.3266 54.0795 39.2892 54.265 40.2939C54.4265 41.1843 55.2043 41.81 56.0719 41.81C56.1796 41.81 56.2933 41.7979 56.407 41.7799C57.1489 41.6415 58.0284 41.4911 59.0097 41.3287C58.2378 45.4979 57.5198 49.9078 56.8916 54.5343C47.8869 49.6551 38.6967 45.1309 29.4227 40.7872C20.2325 36.5698 11.0004 32.4006 1.51697 28.8269C1.25969 28.7427 0.984467 28.869 0.888735 29.1277C0.775054 29.4165 0.966517 29.7294 1.25371 29.8016C3.13842 30.5055 6.27961 31.9253 8.15236 32.7375C22.6736 39.223 36.9555 46.3041 50.8426 54.059L55.0907 72.5409C54.6958 78.6112 54.4923 85.0727 54.5821 91.8469C52.0332 92.5749 50.2802 93.1464 50.0468 93.2246C49.3348 93.4593 48.9519 94.2294 49.1852 94.9453C49.3707 95.5168 49.9032 95.8838 50.4716 95.8838C50.6092 95.8838 50.7528 95.8598 50.8964 95.8176C51.8657 95.4988 53.1521 95.0957 54.6479 94.6685C54.8214 101.677 55.318 108.981 56.2394 116.483L51.8777 117.266C51.7401 117.296 51.6563 117.446 51.7161 117.578L59.4883 135.531C62.1688 147.72 66.1177 160.161 71.7479 172.458C68.4751 173.319 66.004 174.125 65.7527 174.209C65.1843 174.396 64.8732 175.015 65.0587 175.587C65.2083 176.044 65.6331 176.339 66.0878 176.339C66.2015 176.339 66.3152 176.321 66.4288 176.285C67.8469 175.815 70.1145 175.136 72.6813 174.474C75.4934 180.412 78.6944 186.308 82.3502 192.119C82.6075 192.529 83.0442 192.751 83.493 192.751C83.7383 192.751 83.9896 192.685 84.2169 192.541C84.8512 192.138 85.0367 191.295 84.6358 190.664C81.1476 185.117 78.0722 179.491 75.3678 173.824C75.9661 173.686 76.5704 173.559 77.1687 173.433C77.2106 173.517 77.2585 173.614 77.2944 173.698C77.414 173.938 77.773 173.8 77.7072 173.535L77.6534 173.337C78.3953 173.192 79.1312 173.054 79.8552 172.94C80.4176 174.781 81.0099 176.628 81.6322 178.439C83.6605 184.34 86.0119 190.146 88.6266 195.699C88.8599 196.192 89.3446 196.481 89.8531 196.481C90.0446 196.481 90.242 196.439 90.4335 196.349C91.1096 196.03 91.3968 195.218 91.0797 194.538C88.5069 189.075 86.1914 183.36 84.199 177.554C83.6366 175.918 83.1041 174.257 82.5895 172.591C84.4862 172.416 86.1435 172.434 87.2803 172.771C87.8547 172.94 88.459 172.609 88.6266 172.025C88.7941 171.448 88.465 170.84 87.8847 170.672C86.3829 170.232 84.2708 170.226 81.9433 170.467C78.6944 159.463 76.4807 147.894 75.3797 136.06C75.3438 135.675 75.3199 135.284 75.29 134.899L81.0279 128.997L83.2297 126.735L85.4555 136.211L85.5452 136.59L94.7235 145.776C95.5791 146.631 96.7338 147.094 97.9125 147.094C98.3014 147.094 98.6963 147.04 99.0852 146.938L111.219 143.641C112.769 143.22 113.989 141.986 114.402 140.428L117.777 127.644L92.5396 87.3829ZM58.4293 64.8401C58.6267 62.7825 58.8541 60.7611 59.0934 58.7757C60.9841 59.8887 62.8629 61.0138 64.7296 62.1629L67.1169 74.2795L58.6208 72.1498C58.549 72.1378 58.5011 72.0896 58.4712 72.0174L57.9387 70.6277C58.0823 68.6544 58.2438 66.7171 58.4293 64.8401ZM71.0479 69.611C71.2453 71.1812 73.6745 72.3183 76.2054 73.0703C76.1994 73.1064 76.1935 73.1365 76.1875 73.1726C75.9781 74.2435 75.7746 75.3204 75.5891 76.3973L72.8369 75.7114H72.8249L66.369 63.1796C68.2178 64.3287 70.0607 65.4958 71.8796 66.6871C71.2812 67.8963 70.9581 68.9131 71.0479 69.611ZM61.8517 40.8955C68.5888 39.9329 78.15 38.9703 84.923 39.602C83.5708 43.7111 82.2963 47.8924 81.1356 52.0797C80.8843 52.9761 80.6509 53.8785 80.4116 54.7809C78.132 57.4702 75.3379 61.0077 73.3933 64.064C68.8162 61.2364 64.1612 58.5351 59.4524 55.9361C60.1465 50.6297 60.9662 45.6002 61.8517 40.8955ZM51.758 54.5704C52.9547 55.2382 54.1513 55.906 55.342 56.5858C55.7428 56.8144 56.1437 57.0491 56.5446 57.2837C56.2514 59.636 55.9822 62.0365 55.7428 64.4851C55.7309 64.5994 55.7249 64.7137 55.7129 64.822L51.758 54.5704ZM57.4959 78.0156L66.3212 83.0873C66.393 83.1294 66.4288 83.1896 66.4288 83.2618L66.9973 88.9892C63.6526 89.5307 60.1943 90.3429 57.2805 91.113C57.2386 86.5948 57.3164 82.215 57.4959 78.0156ZM67.2725 91.7025L69.4743 113.896C69.4863 114.017 69.4025 114.119 69.2948 114.137L58.902 116.002C57.9746 108.398 57.4899 100.998 57.3344 93.9165C60.4097 93.0863 63.9518 92.25 67.2725 91.7025ZM60.326 125.694L66.6383 124.84C66.8178 124.822 66.9494 125.008 66.8596 125.165C66.1237 126.488 63.6526 130.91 61.9534 134.111C61.3371 131.289 60.7986 128.486 60.326 125.694ZM66.3212 150.746C69.7316 157.935 73.7762 166.376 76.1815 171.394C75.5832 171.52 74.9908 171.652 74.4164 171.785C71.1975 164.8 68.523 157.761 66.3212 150.746ZM79.221 170.816C78.509 170.93 77.791 171.063 77.073 171.207L69.0914 141.409C69.0734 141.336 69.0914 141.258 69.1392 141.198L72.789 137.432C73.9318 148.905 76.0917 160.119 79.221 170.816ZM111.77 139.712C111.608 140.338 111.117 140.825 110.501 140.994L98.3672 144.29C97.751 144.459 97.0808 144.278 96.6261 143.827L87.9924 135.188L85.3777 124.064C86.5504 122.223 87.2983 120.129 87.5197 117.927L88.7821 105.251C90.6549 104.908 92.2404 104.427 93.102 103.777C93.1319 103.759 93.1618 103.729 93.1798 103.699C93.3413 103.536 93.4131 103.296 93.4012 103.061L92.8447 92.984L114.839 128.071L111.77 139.712Z\" fill=\"#BE935F\"></path>\n</svg>",
+            "image_width": "12.47%"
+          }
+        }
+      },
+      "block_order": [
+        "content_zRQgwM",
+        "image_H7CpFU"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.imagepart {max-width: 70px; } h1 br, h2 br {display: none; } .contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "3.2rem",
+        "content_width": "100%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "70.96%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_JjqM4Y": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_CeHD9m": {
+          "type": "content",
+          "settings": {
+            "title": "<white>A Day in The Life of<br>Honey Hunter</white>",
+            "subtitle": "",
+            "description": "<p>Honey Hunter lives his life on his own terms, often hovered with uncertainty and thriller. He never knows how his life might unfold at one moment and the other. He sets out on <a href=\"/pages/honey-hunting-tour\" target=\"_blank\" title=\"honey hunting tour\"><strong>the honey-hunting mission</strong></a> with other honey-hunting brothers when the time and season are favorable. Other times, he processes the honey to sell outside the village and enjoys in the mountains and with his family like a normal countryman would fancy.</p>",
+            "button_text": "",
+            "button_link": "#dates",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_iWD4gq": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/manwalkingvillage.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_CeHD9m",
+        "image_iWD4gq"
+      ],
+      "custom_css": [
+        ".contentside {position: absolute; top: 50%; padding: 0 16px; right: 7.6%; transform: translate(0, -50%);}",
+        "@media (max-width: 768px) {.contentside {position: static; transform: none; } img {width: 150% !important; max-width: 150% !important; } .dark.dark .contentside h2 white {color: #be935f !important; } .contain-wrapper {overflow: hidden; flex-direction: column-reverse; } p {color: inherit; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "24px 0!important",
+        "content_width": "39.34%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "dark screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_timeline_mpjy4P": {
+      "type": "basmil-timeline",
+      "blocks": {
+        "block_nz33CA": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Rope Making</h2><p>You wouldn’t want to take a chance with a rope while hunting for the mad honey. Likewise, honey hunters require a strong and durable rope to have a robust grip. They pick bamboo fibers and measure the length. Once they’ve got the right length, they braid the material together for extra strength. Sometimes, they also add hooks or grips to make the climb easy and help pull up those honey-filled basket</p>"
+          }
+        },
+        "block_UbNVGb": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Rangkemi Tribute</h2><p>In the ceremony, they sacrifice chickens and sheep, plus offer flowers, fruits, and rice to please the Bee Spirit - Rangkemi. The Honey Hunters bow their heads before the altars saying their prayers to the Rangekemi. After a while, they perform a dance ritual and chant in gibberish by holding bamboo in one hand and another with a pot of water.</p>"
+          }
+        },
+        "block_eJUdkj": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Finding Site </h2><p>They carefully navigate tough terrain to find the Himalayan Giant Bees, keeping an ear out for the distinctive hum, watching for signs of aggression, and savoring the sweet, smoky aroma of mad honey. These magnificent nests are at impressive heights of 3,500 meters, with cold temperatures, thin air, and rough landscapes. </p>"
+          }
+        },
+        "block_QmJezU": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Igniting Fire </h2><p>During the hunt, they carefully forward each step towards the cliff and set out on their journey of honey hunting. They ignite the fire using green grass to cause smoke to distract bees from stinging. After an escape from the bees, they hunt the mad honey.</p>"
+          }
+        },
+        "block_LLkhaM": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Honey Hunting </h2><p>After the smoke covers the cliff and successfully distracts the honey bees, one hunter tilts the nest with a bamboo stick and later cuts the uncovered honeycomb, while another hunter waits with a wooden basket lowered down to the ground for Himalayan red honey to drip on it.</p>"
+          }
+        },
+        "block_tNrjCk": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Filtering Process </h2><p>The process of filtering mad honey involves using a bamboo filter, locally known as chhora. While mad honey is naturally pure, wax residues often accompany it from the honeycomb. The chhora removes these residues, ensuring clarity and smoothness. This process preserves the rich quality and potency of honey while removing any unwanted particles.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block_nz33CA",
+        "block_UbNVGb",
+        "block_eJUdkj",
+        "block_QmJezU",
+        "block_LLkhaM",
+        "block_tNrjCk"
+      ],
+      "settings": {
+        "title": "The Steps Before Honey Hunting",
+        "description": "<p>Honey hunting isn’t just a solo adventure; it involves important pre-steps that happen before the actual hunt. While these preparations might not get much attention, they are what contribute to making the honey hunt victorious.</p>",
+        "gaptimeline": "6rem",
+        "alignment": "contentcenter",
+        "content_width": "50%",
+        "class": "",
+        "id": "",
+        "padding": "12rem 16px 0 16px",
+        "margin": "0 auto",
+        "width": "",
+        "height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "icon_box_nYfkz3": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_ee8c37": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/hive_7a80111d-2a1f-4847-9291-8385dcca4e76.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_m47wPT": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/hunterclimbing.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_J4Vqbf": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/mahoneys_8d7df405-e41a-43e2-8dda-44b543172bd2.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_jUGhT4": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Holding_Madhoney_hive_25319c52-b574-459b-9fc8-9fe4ba7933d0.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_ee8c37",
+        "icon_box_m47wPT",
+        "icon_box_J4Vqbf",
+        "icon_box_jUGhT4"
+      ],
+      "custom_css": [
+        "img {width: 101%; margin: 0; max-width: 101%;}",
+        ".iconbox-wrapper {flex-wrap: nowrap; justify-content: start;}",
+        ".iconbox {gap: 0;}",
+        ".contentPart {max-width: 70.26%; margin: 0 auto;}",
+        "@media (max-width: 768px) {.iconbox {min-width: 50%; } .contentPart {max-width: 100%; padding: 0 16px; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Honey Hunting Community",
+        "section_description": "The Gurung Honey Hunters are a close-knit community built on teamwork and genuine friendship. With their root in tradition, they are finally getting their much-awaited recognition. Medicinal Mad Honey is proud to work with such a wonderful group; their hard work has not only benefited them but has also helped us build a successful <a href=\"/\">mad honey brand</a>. Together, we've teamed up with 2,100 honey hunters and supported over 1,200 local communities, creating a brighter future for everyone involved!",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "24px 4rem!important",
+        "iconbox_gap": "0",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "25%",
+        "padding": "12rem 0 0 0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#3b2d1f",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "icon_box_Lrx4ht": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_XWYrwy": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/beecoveredman.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "Deadly Bee Stings",
+            "icon_description": "<a href=\"/pages/the-himalayan-giant-honey-bees\">The giant honeybees</a> are fiercely protective of their territory and don’t take kindly to intruders, hence they greet honey hunters with painful stings",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_KQBrWJ": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/madhoneysmoke.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "Risk of Falling",
+            "icon_description": "They live with the constant fear of falling from the steep cliffs that might risk their lives.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_R4PWKJ": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/honeyhunterinhill.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "Rough Terrains:",
+            "icon_description": "They don’t have a smooth journey as they trek through rugged terrain, tackling steep hills and rocky paths.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_XWYrwy",
+        "icon_box_KQBrWJ",
+        "icon_box_R4PWKJ"
+      ],
+      "custom_css": [
+        "h2 {color: #be935f;}",
+        "h3 {color: #e0af7e; font-family: \"Crimson Text\", serif;}",
+        ".contentPart p {color: #3b2d1f !important;}",
+        ".iconbox img {width: 100%; margin: 0;}",
+        ".iconbox {border-radius: 18px; position: relative; display: flex; justify-content: end; align-items: center; min-width: 300px;}",
+        ".iconbox div {position: absolute; max-width: 79.37%; margin: 3.2rem auto;}",
+        ".iconbox-wrapper {flex-wrap: nowrap; justify-content: start;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "The Battle of Challenges",
+        "section_description": "As daunting as honey hunting may seem, the reality of the hunt is even more challenging. While the end result is the deliciously unique mad honey, the obstacles honey hunters face are lethal. They are endlessly on the edge of danger. But remember, no pain, no gain!",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "24px 6rem!important",
+        "iconbox_gap": "2.8%",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "left",
+        "content_part_width": "31.4%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "font-serif",
+        "custom_id": "",
+        "width": "83.67%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#ffffff",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "basmil_image_text_YNJFYr": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_K4LULx": {
+          "type": "content",
+          "settings": {
+            "title": "<white>The Future of Honey Hunting</white>",
+            "subtitle": "",
+            "description": "<p>Not many know the importance that <strong>mad honey</strong> holds and the possible economy it generates. But, slowly the whispers are on the streets about the honey hunting and honey hunters. While there is a growing conflict among honey hunters, there's also a glimmer of hope with the recent exposure of honey hunting in Western countries. The honey hunting business is growing and glowing.</p>",
+            "button_text": "",
+            "button_link": "#dates",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_qEHXwj": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/babyhunter.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_K4LULx",
+        "image_qEHXwj"
+      ],
+      "custom_css": [
+        ".contentside {position: absolute; top: 50%; padding: 0 16px; left: 12%; transform: translate(0, -50%);}",
+        "@media (max-width: 768px) {.contentside {position: static; transform: none; } .contain-wrapper {background: #fff; padding-bottom: 6rem; } img {width: 150% !important; max-width: 150% !important; } .dark.dark .contentside h2 white {color: #be935f !important; } .contain-wrapper {overflow: hidden; flex-direction: column-reverse; } p {color: inherit; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "24px 0!important",
+        "content_width": "39.34%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "dark screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_A9NjCj": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_LQLdap": {
+          "type": "content",
+          "settings": {
+            "title": "Giving Back to the Community",
+            "subtitle": "",
+            "description": "<p><a href=\"/pages/rashmi-kandel\" target=\"_blank\" title=\"Rashmi Kandel\">Our founder Rashmi</a> strongly believe in giving back to her community; the community which was her inspiration to begin her dream work for introducing Nepal to the world. Since the beginning, she have vouched for sustainable practices that not only preserve the ancient art but also the honeybees. </p><p>We provide resources, fund their children's education, and support honey hunters to enhance their quality of life. Plus, we share a percentage of the profits that they make from <a href=\"https://medicinalmadhoney.com/products/medicinal-mad-honey\" target=\"_blank\" title=\"Buy Mad Honey\">selling the mad honey</a> as a small gesture to honor the community–that built them. </p>",
+            "button_text": "Book My Trip",
+            "button_link": "shopify://pages/honey-hunting-tour",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_NhpX6R": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/hill.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_LQLdap",
+        "image_NhpX6R"
+      ],
+      "custom_css": [
+        ".contentside {left: 12%; padding: 0 16px; position: absolute; top: 10.65%;}",
+        "@media (max-width: 768px) {img {width: 100% !important; max-width: 100% !important; } .contentside {margin: 0 auto; position: static; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "51.83%",
+        "padding": "12rem 0 0 0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "text_video_LLFhFH": {
+      "type": "text-video",
+      "blocks": {
+        "video_4QJ98Y": {
+          "type": "video",
+          "settings": {
+            "video_type": "youtube",
+            "youtube_url": "https://www.youtube.com/watch?v=HXjv7dI7otk",
+            "video": "shopify://files/videos/MMH-Homepage Video.mp4",
+            "video_thumbnail": "shopify://shop_images/videbg.webp",
+            "video_controls": "true",
+            "video_width": "100%"
+          }
+        },
+        "content_HLTEDg": {
+          "type": "content",
+          "settings": {
+            "title": "Testimonials from the Community",
+            "description": "<p>We share a genuine friendship with the Gurung community of a good, solid 5+ years. Every year, the bond seems to grow more fonder and stronger. We have not only worked as business partners but also as a team. </p><p>The community is filled with polite and humble people, which has enabled us to communicate smoothly. We could agree and disagree on mutual terms. Here’s what our friends have to say about working with us.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_4QJ98Y",
+        "content_HLTEDg"
+      ],
+      "custom_css": [
+        ".basmilVideoText {background: #000;}",
+        ".video-thumbnail-container {top: 0; z-index: 0; height: 100%;}",
+        ".image-overlay {height: 100%; opacity: 0;}",
+        ".content-side {z-index: 1; position: absolute;}",
+        "p:last {margin: 0;}",
+        "img {max-width: 100%; min-width: 100%; min-height: 100%; object-fit: cover; z-index: 0; position: relative; object-position: center;}",
+        "@media (max-width: 1024px) {.main-wrapper {flex-direction: column-reverse; padding: 6rem 16px !important; gap: 2.5rem; } .image-overlay {opacity: 0; } .content-side {position: static; } .dark {padding: 0; }}"
+      ],
+      "settings": {
+        "layout": "imagetop",
+        "show_play_button_on": "content",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "content_width": "64.43%",
+        "padding": "12rem 0",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "video-youtube",
+        "width": "85.35%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "custom_liquid_RMXnre": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<script>\n    // Get the main elements\n    const videoContainer = document.getElementById('video-youtube');\n    const img = videoContainer.querySelector('img');\n    const originalPlayButton = videoContainer.querySelector('.play-button');\n    const contentSide = videoContainer.querySelector('.content-side');\n    // Store original styles\n    const originalStyles = {\n        position: originalPlayButton.style.position,\n        transform: originalPlayButton.style.transform\n    };\n    \n    // Function to handle responsive layout\n    function handleResponsiveLayout() {\n        const screenWidth = window.innerWidth;\n        \n        if (screenWidth <= 1024) {\n            // Clone the play button if it hasn't been done yet\n            if (!videoContainer.querySelector('.playbutton-clone')) {\n                const playButtonClone = originalPlayButton.cloneNode(true);\n                playButtonClone.classList.add('playbutton-clone');\n                \n                // Remove specific classes from clone\n                playButtonClone.classList.remove('top-[auto!important]', 'left-[auto!important]');\n                playButtonClone.style.position = 'absolute';\n                playButtonClone.style.transform = 'translate(-50%, -50%) scale(0.7)';\n                \n                // Remove original play button\n                originalPlayButton.remove();\n                \n                // Insert clone after the image\n                img.insertAdjacentElement('afterend', playButtonClone);\n            }\n        } else {\n            // Restore original layout for larger screens\n            if(!contentSide.querySelector('.play-button')){\n                contentSide.appendChild(originalPlayButton);\n                const clonedButton = videoContainer.querySelector('.playbutton-clone');\n                \n                if (clonedButton) {\n                    clonedButton.remove();\n                    \n                    // Restore original styles\n                    originalPlayButton.style.position = originalStyles.position;\n                    originalPlayButton.style.transform = originalStyles.transform;\n                    \n                }\n            }\n        }\n    }\n    \n    // Initial check\n    handleResponsiveLayout();\n    \n    // Listen for window resize\n    window.addEventListener('resize', handleResponsiveLayout);\n    </script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_tcXPh9",
+    "basmil_image_text_JjqM4Y",
+    "basmil_timeline_mpjy4P",
+    "icon_box_nYfkz3",
+    "icon_box_Lrx4ht",
+    "basmil_image_text_YNJFYr",
+    "basmil_image_text_A9NjCj",
+    "text_video_LLFhFH",
+    "custom_liquid_RMXnre"
+  ]
+}

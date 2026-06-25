@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.white-labeling-form.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_JjqM4Y": {
+      "settings": {},
+      "blocks": {
+        "content_CeHD9m": {
+          "settings": {
+            "title": "プライベートラベル",
+            "description": "<p>プライベートラベルやカスタム蜂蜜パッケージをお探しですか? 当社は、プライベートラベル、ホワイトラベル、OEM サービスなど、小売り可能な蜂蜜ソリューションの作成を専門としています。製品開発、ラベルデザインから輸出物流まで、お客様のブランドに合わせた柔軟なカスタマイズオプションを提供します。市場のニーズに応える最高品質とサポートをお届けします。</p>",
+            "button_text": "フォームに記入してください"
+          }
+        }
+      }
+    },
+    "icon_box_4i6UgP": {
+      "settings": {
+        "section_title": "私たちが提供するもの",
+        "section_description": "本当に自分だけの製品が欲しいですか? 弊社のプライベート ラベリング サービスなら、弊社の希少で強力なマッド ハニーを、あなたのブランド名を誇らしげに刻んだ製品に変えることができます。カスタム ラベルからパッケージまで、弊社はマッド ハニーをあなただけの製品に変えるお手伝いをいたします。"
+      },
+      "blocks": {
+        "icon_box_FiMjhR": {
+          "settings": {
+            "icon_title": "カスタムラベル:",
+            "icon_description": "当社のデザイン チームと協力して、どの棚でも製品を目立たせるラベルとパッケージを作成します。"
+          }
+        },
+        "icon_box_BCYefd": {
+          "settings": {
+            "icon_title": "最初から最後まで、あらゆるステップでサポートします。",
+            "icon_description": "最初のコンセプトから最終製品まで、プロセスのすべてのステップをガイドします。"
+          }
+        },
+        "icon_box_Ub8Dp8": {
+          "settings": {
+            "icon_title": "柔軟な注文(XXkgから):",
+            "icon_description": "少量生産でも大量生産でも、あらゆる生産規模に対応いたします。"
+          }
+        }
+      }
+    },
+    "basmil_image_text_jEfDFM": {
+      "settings": {},
+      "blocks": {
+        "content_TXF8hy": {
+          "settings": {
+            "title": "弊社が他と違う点は何でしょうか?",
+            "description": "<p>当社の蜂製品は、強力な配合と高級原料を使用して丁寧に作られており、各製品が最高の品質基準を満たしていることが保証されています。</p>",
+            "button_text": "フォームに記入してください"
+          }
+        }
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "settings": {},
+      "blocks": {
+        "content_UUE4QN": {
+          "settings": {
+            "title": "情報源から直接",
+            "description": "<p>私たちのマッドハニーは、標高 3,500 ～ 4,000 メートルのラムジュンの断崖の高い場所から採取されたものです。人里離れた野生の土地で収穫された蜂蜜は、希少であるだけでなく、源泉から直接採れた自然の強力なエッセンスが詰まっています。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "settings": {},
+      "blocks": {
+        "content_VDaFtW": {
+          "settings": {
+            "title": "特別なパッケージ",
+            "description": "<p>本当に自分だけの製品を作りたいと思いませんか? プライベート ラベリング サービスでは、プレミアム マッド ハニーをお客様のブランドのアイデンティティを反映した製品に変えるお手伝いをいたします。ラベル デザインからパッケージングまで、完全にカスタマイズ可能な体験をご提供します。お客様は、貴社のブランドで当社の希少で強力なマッド ハニーをお楽しみいただけます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "settings": {},
+      "blocks": {
+        "content_3wbHrA": {
+          "settings": {
+            "title": "一貫性と信頼性のある配送",
+            "description": "<p>当社の医療用マッドハニーは、一貫性と信頼性の高い配送が何よりも大切です。当社のプライベートラベルサービスにより、ご注文は毎回予定通りに予定どおりに到着することを確信できます。いつご注文いただいても、当社のハチミツの品質と信頼性でお客様にご満足いただけます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "settings": {},
+      "blocks": {
+        "content_7Wj6ag": {
+          "settings": {
+            "title": "品質と信頼性の保証",
+            "description": "<p>砂糖添加物や保存料を一切使用していない、最高品質と信頼性を保証します。お客様はネパール産ヒマラヤハチミツの真の生の味を体験できます。純粋であると同時に魔法のようなハチミツで、自分のものだと自慢できるでしょう。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_FqEBh3": {
+      "settings": {},
+      "blocks": {
+        "content_j7NmcK": {
+          "settings": {
+            "title": "記入フォーム",
+            "description": "<p>当社には、薬用マッドハニーブランドの立ち上げを成功させるために必要なものがすべて揃っています。まずは下のお問い合わせフォームにご記入ください。当社が最善の方法を見つけるお手伝いをいたします。あなたのブランドを当社にお任せください。当社は、ブランドにふさわしい配慮と配慮をいたします。</p>"
+          }
+        }
+      }
+    }
+  }
+}

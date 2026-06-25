@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.dosage-of-mad-honey.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "settings": {},
+      "blocks": {
+        "content_cRpYeF": {
+          "settings": {
+            "title": "味わう<br>目覚める<br>感覚",
+            "description": "<h2>エキゾチックな味</h2><p>他の蜂蜜とは異なり、この奇妙な蜂蜜には甘味、スモーキーさ、酸味が混ざり合っています。喉に突然ピリピリとした感覚を感じます。蜂蜜は軽くて水っぽいので、喉に突然ピリピリとした感覚を感じます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_mpjGzL": {
+      "settings": {},
+      "blocks": {
+        "content_cRpYeF": {
+          "settings": {
+            "title": "1日スプーン2杯だけ",
+            "description": "<p>マッドハニーは味覚を刺激しますが、1日にスプーン2杯以上は摂取しないでください。一般的な目安は個人によって異なります。18歳から35歳の間であれば、大さじ1杯から2杯を摂取できます。35歳以上であれば、大さじ1杯に抑えてください。</p>",
+            "button_text": "マッドハニーをお試しください"
+          }
+        }
+      }
+    },
+    "icon_box_4i6UgP": {
+      "settings": {},
+      "blocks": {
+        "icon_box_FiMjhR": {
+          "settings": {
+            "icon_title": "色",
+            "icon_description": "シャクナゲの花の蜜のような深い赤褐色で、琥珀色がかった豊かな色合いです。地域や季節によって色合いが異なります。"
+          }
+        },
+        "icon_box_BCYefd": {
+          "settings": {
+            "icon_title": "味",
+            "icon_description": "変わった香りがします。変わった味です。野生の花のような、スモーキーで甘酸っぱい味。何でもいいです。味の融合が徐々に好きになってきます。最初はその混合にびっくりします。その食感の温かさは、まるで信頼できる家のように感じます。でも、信じてください。一度スプーンで食べたら、何度も何度も食べたくなるはずです。"
+          }
+        },
+        "icon_box_Ub8Dp8": {
+          "settings": {
+            "icon_title": "香り",
+            "icon_description": "蜂蜜に近づくと、シャクナゲの香りが周囲一面に広がります。それは、大胆さを思い出させる驚きです。他の甘い蜂蜜とは違って、くすぶる煙が鼻孔を刺激します。"
+          }
+        }
+      }
+    },
+    "icon_box_tWxtyR": {
+      "settings": {},
+      "blocks": {
+        "icon_box_83dYcz": {
+          "settings": {
+            "icon_title": "安全な摂取",
+            "icon_description": "マッドハニーを試す場合は、推奨量を守り、過剰摂取しないことが重要です。これらのヒントに従うことで、リスクを低く抑えながら、マッドハニー独自の利点を安全に楽しむことができます。",
+            "btn_title": "もっと詳しく知る"
+          }
+        }
+      }
+    }
+  }
+}

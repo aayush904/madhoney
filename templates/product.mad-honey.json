@@ -1,0 +1,876 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "net_weight_P3843j": {
+          "type": "net_weight",
+          "settings": {}
+        },
+        "rating_YVLd8p": {
+          "type": "rating",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Natural Composition",
+            "icon": "none",
+            "content": "<p>Himalayan mad honey is a natural product made from the nectar of wildflowers like rhododendron, harvested from the remote forests in the mountain regions of Nepal. Its unique botanical source gives the honey a deep, earthy, floral, and slightly bitter flavor. Because it is wild-harvested, intensity may vary from batch to batch.</p><p>Its composition resembles that of any raw honey. Phenolics, flavonoids, enzymes, amino acids, vitamins and minerals are common in this raw honey. As floral availability in the wild is not consistent across regions and seasons, its composition can be expected to be different in each batch.</p><p><strong>Naturally occurring compounds may include:</strong></p><ul><li>Amino acids: Arginine, histidine, lysine, tryptophan, and others</li><li>Vitamins: Vitamin C, B2, B5, and B6</li><li>Minerals: Magnesium, phosphorus, calcium, and iron</li><li>Plant compounds: Phenolics and flavonoids</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_zapRXJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What To Expect from Himalayan Mad Honey",
+            "icon": "none",
+            "content": "<p>With medicinal mad honey, you are getting a unique origin honey embodying the essence of Himalayan wildflowers and herbs. Each jar reflects the environment it comes from: remote cliffs, seasonal rhododendron blooms, wild alpine flowers, and the traditional knowledge of Nepali honey hunters.</p><p>The honey has long been used by Himalayan natives, that began since they discovered the honey as a potential food source. Because it is a wild honey, taste, flavor and aroma can vary depending on the respective batch. We offer it as a premium specialty honey and do not sell it for any effects.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_PLWqqY": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Taste, Color & Texture",
+            "icon": "none",
+            "content": "<p>Medicinal mad honey color varies from deep amber to reddish-brown, totally dependent on the floral source (from a huge number in mountain forests) your jar is made of.</p><p>The texture of the honey is thick like any other raw honey. As you open the lid, you will get to enjoy earthy, floral, slightly bitter and warming aromas.</p><p>At Medicinal Mad Honey, we bring this product to you as a premium, rare and exclusive honey type. It is like any other luxury product and we do not sell it for any effects.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_CRwQtU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Flavor and Fragrance",
+            "icon": "none",
+            "content": "<p>Himalayan mad honey is a rich, amber colored honey with some reddish brown hue. It has an earthy, floral, slightly bitter, and naturally sweet taste, and a warming finish due to its wild rhododendron origin.</p><p>The scent is rich and herbal, featuring mountain flowers, raw honeycomb, and forest herbs. There may be some variations in each batch due to the wild harvest and seasonal production of the honey.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "share_jnXHMW": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "net_weight_P3843j",
+        "rating_YVLd8p",
+        "description",
+        "variant_picker",
+        "price",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible-row-0",
+        "collapsible_tab_zapRXJ",
+        "collapsible_tab_PLWqqY",
+        "collapsible_tab_CRwQtU",
+        "share_jnXHMW"
+      ],
+      "custom_css": [
+        ".product__media-item--variant .product__media img {object-fit: contain !important; width: 100%; object-position: center; left: 50% !important; aspect-ratio: 1/1; transform: translate(-50%, 0);}",
+        ".thumbnail.global-media-settings img {border-radius: 0; object-fit: contain; object-position: center; background: #eeeeee; width: 100% !important; height: 100% !important;}",
+        "@media (max-width: 768px) {.gap-\\[8rem\\] {gap: 4rem; } .product__description svg {width: 100% !important; }}"
+      ],
+      "settings": {
+        "bundle_product": "",
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "icon_box_T4De8f": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_b7Jnrk": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"80\" height=\"80\" viewbox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M29.731 47.3723L25.5234 37.3613L30.7466 27.8822L41.4831 25.9961L49.5596 33.2021L49.0276 43.9869L40.1773 50.3224L29.731 47.3723Z\" stroke=\"white\" stroke-width=\"1.4\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M48.9805 43.8895L49.5608 33.3465L58.9915 28.5586L67.8902 34.3137L67.3098 44.8567L57.8792 49.6446L48.9805 43.8895Z\" stroke=\"white\" stroke-width=\"1.4\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M13.3867 24.6437L23.2527 20.0977L30.6521 28.0291L25.3806 37.4598L14.6925 35.3802L13.3867 24.6437Z\" stroke=\"white\" stroke-width=\"1.4\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"></path>\n<path d=\"M7.43526 22.0801L14.0126 24.74L7 23.6277L7.43526 22.0801Z\" fill=\"white\"></path>\n<path d=\"M20.9277 43.0665L25.4738 37.6016L22.2819 43.937L20.9277 43.0665Z\" fill=\"white\"></path>\n<path d=\"M24.9434 52.7887L29.4894 47.2754L26.2975 53.6592L24.9434 52.7887Z\" fill=\"white\"></path>\n<path d=\"M52.2669 26.6731L49.5586 33.202L50.7677 26.1895L52.2669 26.6731Z\" fill=\"white\"></path>\n<path d=\"M46.5141 21.0156L41.4844 25.9969L45.2566 20L46.5141 21.0156Z\" fill=\"white\"></path>\n<path d=\"M70.7904 63.7655L66.873 57.8652L71.9995 62.7498L70.7904 63.7655Z\" fill=\"white\"></path>\n<path d=\"M67.4077 45.1015L66.9724 58.3045L48.6914 57.6758L49.1267 44.0859\" stroke=\"white\" stroke-width=\"1.4\" stroke-miterlimit=\"10\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "",
+            "icon_description": "Naturally Occurring Grayanotoxin",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_Dnrf9w": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"80\" height=\"81\" viewbox=\"0 0 80 81\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.0442 23.916C14.0442 23.916 10.4229 27.8994 7.10346 25.2438C7.10346 25.2438 5.83603 37.7371 12.1732 36.6507C12.1732 36.6507 14.5874 38.9442 15.4927 32.0035C16.398 25.0627 14.2856 23.916 14.2856 23.916\" fill=\"white\"></path>\n<path d=\"M48.4447 46.9668C48.0826 48.0532 46.9962 49.0792 45.8495 48.7171C44.7027 48.3549 44.7631 49.1395 44.582 49.0792\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M49.1094 33.9947L49.5319 33.874C49.9487 33.6745 50.4052 33.5713 50.8674 33.5723C51.3295 33.5732 51.7856 33.6782 52.2016 33.8795C52.6177 34.0808 52.983 34.3732 53.2706 34.735C53.5582 35.0968 53.7606 35.5188 53.8628 35.9695C53.9651 36.4202 53.9645 36.8882 53.8611 37.3387C53.7578 37.7891 53.5543 38.2106 53.2658 38.5717C52.9773 38.9327 52.6112 39.2242 52.1947 39.4245C51.7781 39.6247 51.3218 39.7286 50.8596 39.7284L50.1354 39.6077\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M40.7812 33.2676L41.928 34.4143C41.928 34.4143 42.2901 37.5527 44.3421 38.5787C44.3421 38.5787 45.5492 39.303 50.8604 39.7255\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M40.9609 33.3916L42.4698 32.3655C42.6901 32.334 42.9148 32.356 43.1249 32.4295C43.335 32.503 43.5243 32.626 43.6769 32.788L45.2461 33.814C46.5828 34.3132 48.0472 34.3557 49.4105 33.9348\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M48.2656 47.33C50.1121 44.9671 51.4666 42.2582 52.249 39.3633\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M44.3443 38.5781C44.3443 38.5781 44.3443 41.8373 41.8094 43.5875C40.8063 44.1882 39.8572 44.8748 38.9728 45.6396L36.5586 47.3295C36.5586 47.3295 33.1184 48.778 34.5669 50.3472L38.4899 57.1672C38.7712 57.6165 38.8785 58.1531 38.7917 58.6761C38.6477 59.4748 38.5469 60.2807 38.4899 61.0902L38.0071 61.9352C38.0071 61.9352 37.9467 62.5387 38.6106 62.1766L38.852 61.7541C38.852 61.7541 39.3349 61.5731 39.697 60.6678C39.7897 60.3957 39.9402 60.147 40.1382 59.9386C40.3361 59.7303 40.5768 59.5672 40.8437 59.4607C41.2002 59.3495 41.5293 59.1644 41.8094 58.9175\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M41.2024 46.4297L38.1243 49.387C38.1243 49.387 36.0723 50.7148 37.4605 52.5255C38.8486 54.3361 39.5125 55.4225 39.9953 56.1467C40.1817 56.4193 40.3832 56.6812 40.5989 56.9313C41.2387 57.5327 41.7876 58.2239 42.2284 58.9834C42.3307 59.2833 42.3622 59.6029 42.3203 59.917C42.2784 60.2312 42.1643 60.5313 41.987 60.794L41.3835 61.6993L40.7799 62.0614C40.7799 62.0614 39.6332 62.0614 40.2971 62.6046C40.961 63.1478 40.5989 63.4496 43.2545 62.7253C43.2545 62.7253 43.7373 62.5443 44.2201 61.5786C44.2201 61.5786 45.7893 60.8543 45.2461 60.0094L44.4615 59.1041L43.3148 57.4745C43.3148 57.4745 42.5906 54.4568 41.6852 53.1894C40.7799 51.9219 41.5042 51.6805 41.5042 51.6805L45.5479 48.7231\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M41.0214 33.8139L28.4677 33.0293L22.1909 32.6672C20.0785 32.6068 17.9661 32.4861 15.9141 32.6068C17.9661 32.4258 20.0785 32.4258 22.1909 32.4258L28.4677 32.5465L41.0818 32.8483L41.0214 33.8139Z\" fill=\"white\"></path>\n<path d=\"M51.5234 33.5098C51.5234 33.5098 61.844 34.1133 69.9315 35.9239\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M43.1946 32.5469C42.8324 32.6503 42.5056 32.8514 42.2501 33.1282C41.9946 33.405 41.8203 33.7468 41.7461 34.1161\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M50.1959 30.0079C49.1874 29.6635 48.1999 29.2604 47.2385 28.8008C46.7991 29.3241 46.5633 29.9885 46.5746 30.6718C46.5746 31.4721 46.8925 32.2397 47.4585 32.8056C48.0244 33.3715 48.792 33.6895 49.5923 33.6895C50.3726 33.7065 51.1292 33.4205 51.7031 32.8916C52.277 32.3626 52.6237 31.6319 52.6704 30.8528C51.8308 30.6162 51.0048 30.3341 50.1959 30.0079Z\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M41.8066 43.5929C43.2076 43.43 44.6248 43.7017 45.8662 44.371C47.1077 45.0403 48.1135 46.075 48.7474 47.3349\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M50.7373 43.3496L50.3148 43.7117L49.832 43.8928C49.5041 44.016 49.1562 44.0774 48.8059 44.0739C48.443 44.1136 48.0759 44.0932 47.7196 44.0135L47.2367 43.8324L46.7539 43.5307L47.2971 43.6514L47.7799 43.8324H48.8059C49.1362 43.8313 49.4634 43.7699 49.7716 43.6514L50.2545 43.4703L50.7373 43.3496Z\" fill=\"white\"></path>\n<path d=\"M43.3176 50.3475L42.7744 50.6492L42.2312 50.7699L41.0845 51.0114H39.8774L39.3342 50.8907L38.791 50.6492H39.9377C40.3176 50.7101 40.7047 50.7101 41.0845 50.6492L42.1708 50.4078L42.714 50.2871L43.3176 50.3475Z\" fill=\"white\"></path>\n<path d=\"M53.034 28.8617C54.3618 29.586 55.1464 30.5516 56.4138 32.0001C56.4138 32.0001 48.4471 29.7067 44.1016 26.8097C45.4652 26.3429 46.9383 26.3008 48.3264 26.689\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M48.1427 27.0494C48.0219 26.5062 48.6255 26.0234 48.9876 25.6009C49.3949 25.1978 49.9416 24.9667 50.5146 24.9555C51.0875 24.9443 51.6429 25.1537 52.0657 25.5405C53.0917 26.3855 54.2384 28.2565 53.5142 29.1014H53.4538\" stroke=\"white\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M44.2207 33.2129L48.5662 33.4543\" stroke=\"white\" stroke-width=\"0.89\" stroke-miterlimit=\"10\"></path>\n<path d=\"M43.1328 7.5C43.1328 7.5 45.0038 24.1578 45.1245 26.753\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M45.127 27.7168C45.4059 29.6162 45.5671 31.5311 45.6098 33.4504\" stroke=\"white\" stroke-width=\"1.05\" stroke-miterlimit=\"10\"></path>\n<path d=\"M45.2474 38.8828C45.2474 38.8828 44.8853 42.9265 45.0663 44.0129\" stroke=\"white\" stroke-width=\"1.05\" stroke-miterlimit=\"10\"></path>\n<path d=\"M44.884 44.0156C44.884 44.0156 44.1597 53.4912 43.013 59.4059C43.013 59.4059 41.4438 68.3384 40.9609 71.8993\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M40.7836 7.5C40.7836 7.5 39.2747 24.4595 41.8096 32.728\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M42.2268 35.7461C42.2268 35.7461 42.3475 41.5401 41.0801 44.075\" stroke=\"white\" stroke-width=\"1.05\" stroke-miterlimit=\"10\"></path>\n<path d=\"M38.1866 62.2988C38.1866 62.2988 37.0399 68.7567 36.6777 72.4987\" stroke=\"white\" stroke-miterlimit=\"10\"></path>\n<path d=\"M13.9846 40.0869C13.9846 39.6644 13.6829 39.6041 13.6225 40.0266C13.6153 40.2495 13.6356 40.4725 13.6829 40.6905C13.6829 40.6905 13.9243 40.9319 13.9243 40.3887C13.9658 40.2936 13.9864 40.1907 13.9846 40.0869Z\" fill=\"white\"></path>\n<path d=\"M5.61714 39.8653C5.69155 39.0467 5.09621 38.8979 5.02179 39.7165C5.0115 40.1642 5.03638 40.6121 5.09621 41.056C5.09621 41.056 5.54272 41.5769 5.54272 40.4606C5.58857 40.2654 5.61351 40.0658 5.61714 39.8653Z\" fill=\"white\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "",
+            "icon_description": "Wild <br>Cliff Harvested",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_kR4KE8": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"90\" height=\"80\" viewbox=\"0 0 90 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M87.1089 52.9985L83.8019 48.3102L76.4345 43.9567L65.0484 38.9334L57.681 30.2683L55.0438 27.5892L51.6949 24.9102L49.6856 28.259L47.0065 32.2776L42.9879 34.2869L38.9693 32.2776L32.9414 29.5985L29.5926 32.9474L25.6158 37.5939L19.5879 44.2916L16.2391 46.3009L14.8996 46.9706L12.2205 48.9799H11.5507L9.54142 50.9892L2.84375 52.9985\" stroke=\"white\" stroke-width=\"1.18\" stroke-miterlimit=\"10\"></path>\n<path d=\"M44.4562 33.5312L41.6516 38.9313L40.312 42.2801L40.9818 46.2987L38.3027 48.9778\" stroke=\"white\" stroke-width=\"1.18\" stroke-miterlimit=\"10\"></path>\n<path d=\"M32.9449 30.0586L31.6053 34.2865L29.596 38.2632L28.2984 41.6121L26.2891 44.2912\" stroke=\"white\" stroke-width=\"1.18\" stroke-miterlimit=\"10\"></path>\n<path d=\"M47.7207 31.1465L51.6974 34.9558L55.7161 39.6023\" stroke=\"white\" stroke-width=\"1.18\" stroke-miterlimit=\"10\"></path>\n<path d=\"M41.9844 39.2676L44.6634 41.2769L48.682 43.2862L52.0309 45.9653\" stroke=\"white\" stroke-width=\"1.18\" stroke-miterlimit=\"10\"></path>\n<path d=\"M65.0527 38.9336L66.3923 42.9522L69.7411 48.3103L75.769 52.9987\" stroke=\"white\" stroke-width=\"1.18\" stroke-miterlimit=\"10\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "",
+            "icon_description": "Limited Seasonal Honey",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_E363iW": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"80\" height=\"81\" viewbox=\"0 0 80 81\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_10305_15775)\">\n<path d=\"M19.9498 41.7395C18.9398 40.4195 18.0998 38.9395 17.4898 37.3195L15.3398 31.6695L62.2498 24.5195L61.8898 30.5495C61.6298 34.8895 59.7798 38.8195 56.8898 41.7395\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M63.5696 41.7402H15.8496C15.1596 41.7402 14.5996 42.3002 14.5996 42.9902V46.7302C14.5996 59.7102 25.1396 70.3102 38.1796 70.3102H41.2996C54.2796 70.3102 64.8796 59.7702 64.8796 46.7302V42.9902C64.8196 42.3002 64.2496 41.7402 63.5696 41.7402Z\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M36.2394 18.0991C34.6994 16.5791 32.4994 16.8191 31.3494 17.0891L29.2394 15.0091C28.9694 14.7391 28.5194 14.7391 28.2494 15.0091C27.9794 15.2791 27.9794 15.7291 28.2494 15.9991L30.3594 18.0791C30.1094 19.2291 29.8994 21.4391 31.4394 22.9591C33.6094 25.0991 37.7594 24.3991 37.7594 24.3991C37.7594 24.3991 38.3994 20.2391 36.2294 18.0991H36.2394Z\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M43.1484 25.5893L50.7784 24.4293L55.7284 17.3093C56.8384 17.5693 57.8184 17.3893 58.3084 16.7193C59.1184 15.6193 58.2784 13.6293 56.4284 12.2793C54.5784 10.9293 52.4384 10.7093 51.6284 11.8093C51.1384 12.4693 51.2584 13.4593 51.8284 14.4393L43.1484 25.5893Z\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_10305_15775\">\n<rect width=\"51.49\" height=\"60.41\" fill=\"white\" transform=\"translate(14 10.5)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "",
+            "icon_description": "Traditional Himalayan Use",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_w8wngx": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_b7Jnrk",
+        "icon_box_Dnrf9w",
+        "icon_box_kR4KE8",
+        "icon_box_E363iW",
+        "icon_box_w8wngx"
+      ],
+      "custom_css": [
+        ".iconbox-wrapper {flex-wrap: nowrap;}",
+        "@media (max-width: 768px) {.iconbox.iconbox {max-width: 13.7%; min-width: 12rem; } .iconbox-wrapper {flex-wrap: nowrap; justify-content: space-between !important; }}",
+        "@media (max-width: 1166px) {.wrapper.wrapper {max-width: 116.6rem !important; padding: 32px 16px; gap: 16px; width: 100% !important; } .iconbox-wrapper {gap: 8% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "100% Authentic &amp; Traceable",
+        "section_description": "",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "2.4rem",
+        "iconbox_gap": "8rem",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "13%",
+        "padding": "4.8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "58.3rem; width:42.67%!important",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "#be935f",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#ffffff",
+        "content_color": "#ffffff",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "basmil_image_text_xRzLJX": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_tzFbBg": {
+          "type": "content",
+          "settings": {
+            "title": "How to Enjoy Himalayan Mad Honey?",
+            "subtitle": "",
+            "description": "<p>The Himalayan honey is versatile and can be enjoyed any time of day, whether you start your morning with a spoonful or use it to unwind later. We recommend our users to follow the standard serving size and for all the new users, start with a small dose and increase gradually until reaching the recommended serving size.</p><p><strong>Raw</strong><br/>Enjoy a small spoonful directly to experience its bold, earthy, floral flavor. New customers should begin with a small serving to understand personal sensitivity.</p><p><strong>Tea and Drinks<br/></strong>You can upgrade your mad honey experience by mixing it with your favorite non-alcoholic beverages. Try it in warm water, or tea, or blend it into a healthy smoothie for a unique twist.</p><p><strong>Dishes and Desserts<br/></strong><a href=\"https://medicinalmadhoney.com/\" target=\"_blank\" title=\"mad honey\">Mad honey</a> can make a go-to natural sweetener, its use can make any dishes or desserts delightful. Remember not to expose it to heat beyond 118° F or 48° C as this may degrade heat-sensitive nutrients. Using this as a topping, drizzle, mixing it into smoothies or adding it to low-heat desserts works best.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_UKXN96": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mask_group_871bed04-ebf1-484a-ba0a-a7dca3fa3c11.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "43.9%"
+          }
+        }
+      },
+      "block_order": [
+        "content_tzFbBg",
+        "image_UKXN96"
+      ],
+      "custom_css": [
+        ".contentstart {text-align: start !important;}",
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column; } img {max-width: 100%; width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4.2%",
+        "content_width": "51.755%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "73.27%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "faq_fFAwqm": {
+      "type": "faq",
+      "blocks": {
+        "text_XEPM9x": {
+          "type": "text",
+          "settings": {
+            "question": "What is Himalayan mad honey?",
+            "answer": "<p>Himalayan mad honey is a natural, specialty honey from cliffside hives at high mountain altitudes.</p>"
+          }
+        },
+        "text_bJtL4k": {
+          "type": "text",
+          "settings": {
+            "question": "Where does your mad honey come from?",
+            "answer": "<p>Medicinal mad honey comes from the mountainous cliffs of Nepal.</p>"
+          }
+        },
+        "text_cU9Bya": {
+          "type": "text",
+          "settings": {
+            "question": "Is mad honey the same as regular honey?",
+            "answer": "<p>No, mad honey is not the same as regular honey. The differences mainly come down to remote origin, traditional harvesting and limited availability.</p>"
+          }
+        },
+        "text_RHLdYj": {
+          "type": "text",
+          "settings": {
+            "question": "What does mad honey taste like?",
+            "answer": "<p>Mad honey tastes sweet and has a deep and intense flavor profile.</p>"
+          }
+        },
+        "text_B7TK9g": {
+          "type": "text",
+          "settings": {
+            "question": "What serving size should beginners start with?",
+            "answer": "<p>If you’re a beginner, start with a small serving, such as a small teaspoon, to understand personal sensitivity. <br/>Because mad honey is a unique wild honey with naturally occurring grayanotoxin, it should be used responsibly and in moderation.</p>"
+          }
+        },
+        "text_UzHYFV": {
+          "type": "text",
+          "settings": {
+            "question": "How should beginners enjoy mad honey?",
+            "answer": "<p>Beginners can enjoy a small amount directly or mix it into warm drinks, yogurt, toast, or light desserts. Start small and avoid overuse.</p>"
+          }
+        },
+        "text_6JXXi9": {
+          "type": "text",
+          "settings": {
+            "question": "Who should avoid mad honey?",
+            "answer": "<p>Mad honey is not recommended for children, pregnant or breastfeeding women. Also, people with heart problems or under medication should take suggestions from their General Practitioner before beginning the consumption.</p>"
+          }
+        },
+        "text_3UNgd6": {
+          "type": "text",
+          "settings": {
+            "question": "Why is mad honey rare?",
+            "answer": "<p>Mad honey is rare because it is harvested seasonally. The maker bees themselves are limited to high altitudes, Himalayan flowers bloom only two times a year and the hives are built only in limited mountain cliffs. The extraction from towering cliffs is also difficult- everything combined makes mad honey rare.</p>"
+          }
+        },
+        "text_3WGxp3": {
+          "type": "text",
+          "settings": {
+            "question": "Do you have retail store locations?",
+            "answer": "<p>No. We operate exclusively online to serve customers worldwide directly from our source.</p>"
+          }
+        },
+        "text_AiBaE3": {
+          "type": "text",
+          "settings": {
+            "question": "Do you have active discount codes or promotions?",
+            "answer": "<p>Yes. First-time customers receive 10% off their first order. We also offer special discounts and seasonal promotions during different occassions throughout the year.</p>"
+          }
+        },
+        "text_Xe6Q6N": {
+          "type": "text",
+          "settings": {
+            "question": "How can I contact customer service?",
+            "answer": "<p>If you have inquiries or want to collaborate, feel free to contact us at: contact@medicinalmadhoney.com</p>"
+          }
+        },
+        "text_izzk3i": {
+          "type": "text",
+          "settings": {
+            "question": "Do you offer express shipping?",
+            "answer": "<p>Yes. Express shipping options are available for selected destinations. We generally deliver your order within a minimum of two days minimum while this time may extend depending on the destination country and customs clearance.</p>"
+          }
+        },
+        "text_MXxDWK": {
+          "type": "text",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Yes. We ship internationally to customers across multiple countries using delivery services like DHL Express, Aramex and Fedex.</p>"
+          }
+        },
+        "text_g3fLhz": {
+          "type": "text",
+          "settings": {
+            "question": "Do you offer free shipping?",
+            "answer": "<p>All of our services, retail or wholesale, are exclusive of free shipping. In some countries, import duties, customs charges or VAT may also apply which are beyond our control and remain the responsibility of the customer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XEPM9x",
+        "text_bJtL4k",
+        "text_cU9Bya",
+        "text_RHLdYj",
+        "text_B7TK9g",
+        "text_UzHYFV",
+        "text_6JXXi9",
+        "text_3UNgd6",
+        "text_3WGxp3",
+        "text_AiBaE3",
+        "text_Xe6Q6N",
+        "text_izzk3i",
+        "text_MXxDWK",
+        "text_g3fLhz"
+      ],
+      "custom_css": [
+        "h2 span {color: #000;}",
+        ".faq-wrapper .w-full:not(.border-t) {columns: 2 clamp(285px, 18.3vw, 350px); column-gap: 7.9%;}",
+        ".faq-wrapper .w-full .w-full {break-inside: avoid;}",
+        "@media (max-width: 768px) {.faq-wrapper .w-full .border-t:first-child {border-top: 0px; } .faq-wrapper .w-full .border-t:first-child * {padding-top: 0; }}"
+      ],
+      "settings": {
+        "heading": "<black>You've Asked</black>  We’ve Answered",
+        "description": "",
+        "show_schema": true,
+        "content_alignment": "Center",
+        "content_part_width": "",
+        "faq_width": "81.11%",
+        "gap_between_sections": "3.2rem",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "top",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "mad_honey_tabs_NzgYKr": {
+      "type": "mad-honey-tabs",
+      "blocks": {
+        "tab_qyLq6A": {
+          "type": "tab",
+          "settings": {
+            "tab_image": "shopify://shop_images/honey_hive.webp",
+            "tab_label": "Uniqueness",
+            "tab_title": "What Is Unique About Mad Honey?",
+            "tab_subtitle": "",
+            "tab_content": "All Medicinal Mad Honey products are sourced from the remote Himalayan regions of Nepal where normal honey bees rarely survive. The honey is harvested only twice a year using the traditional cliff-hanging technique. Apis laboriosa, the world’s largest honey bee species, limited to the Himalayan Kush Region deposits mad honey in its huge hives which after collection is filtered, packed into jars and distributed. These bees collect nectar from alpine and subalpine flowers including grayanotoxin-containing rhododendron. At Medicinal Mad Honey, we pass each batch through all the required lab tests ensuring only genuine, pure and raw Mad Honey with preserved nutritional compounds reaches your door.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "tab_EBp3Aa": {
+          "type": "tab",
+          "settings": {
+            "tab_image": "shopify://shop_images/Mask_group_3ff2e411-bed3-4a57-bd16-4e74f5247b10.webp",
+            "tab_label": "100% Nepali",
+            "tab_title": "Why should I always buy authentic Mad Honey?",
+            "tab_subtitle": "",
+            "tab_content": "Mad honey from the Himalayan cliffs is harvested only twice a year. As natural production is limited, adulterated or imitated mad honey products often enter the market just to meet the demand from the consumer market. The use of added sugar, unrelated honey, or artificial additives can weaken authenticity, reduce traceability, and misrepresent the true character of Himalayan mad honey. We recommend choosing trusted brands for the purchase that provide proper certification, authentic sourcing information and transparent testing protocols. For detailed information, check our \"How to Identify Authentic Mad Honey\" guide.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "tab_pyAVWm": {
+          "type": "tab",
+          "settings": {
+            "tab_image": "shopify://shop_images/Mask_group_5c1a6b8e-279f-4221-b2be-c35f2f463c1f.webp",
+            "tab_label": "traceable",
+            "tab_title": "Ethically Harvested and Sustainably Sourced",
+            "tab_subtitle": "",
+            "tab_content": "Medicinal Mad Honey is a Himalayan community-owned entity that has strong ties to the indigenous mad honey hunters. Being a community-sourced enterprise, we partner with more than 300 honey hunting communities of the Himalayas who have preserved this tradition for centuries, continuing the practice since its very beginnings. In the journey, we have direct-trade relationships with more than 2700 traditional honey hunters throughout Nepal. \nOur approach to trade ensures their fair payment while upholding their identity. This is how we provide the world’s most authentic Mad Honey ethically harvested with our “ Cliff to Customer” guarantee.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_qyLq6A",
+        "tab_EBp3Aa",
+        "tab_pyAVWm"
+      ],
+      "custom_css": [
+        ".wrapper {margin-bottom: 0;}",
+        "tabs-container tab:last-of-type {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "main_heading": "What's So Special About Mad Honey?",
+        "main_description": "",
+        "show_tabs_mobile": false,
+        "heading_tag": "h2"
+      }
+    },
+    "product_grid_slider_3NWFAj": {
+      "type": "product-grid-slider",
+      "settings": {
+        "section_title": "Shop Related Product",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 6,
+        "Card_Button": "Try Mad Honey",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "1.2rem",
+        "iconbox_gap": "1.54rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 0",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "79%",
+        "min_height": "",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_image": "shopify://shop_images/hills.png",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "custom_liquid_hqNy4N": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".custom-liquid {max-width: 87%; margin: auto; padding: 0 16px;}",
+        "@media (max-width: 1200px) {.custom-liquid {max-width: 116.6rem; margin: auto; width: 100%; }}",
+        "@media (min-width: 1600px) {.custom-liquid {max-width: 1440px; margin: auto; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div style='clear:both'></div> \n  <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'> \n    {{ product.metafields.judgeme.widget }} \n  </div> \n<!-- End of Judge.me code -->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "blog_listing_basmil_HGNq8r": {
+      "type": "blog-listing-basmil",
+      "settings": {
+        "heading": "Related Blogs for You",
+        "blog": "mad-honey",
+        "show_slider": true,
+        "blog_limit": 3,
+        "columns_desktop": 3,
+        "content_alignment": "center",
+        "content_width": "100%",
+        "section_padding": "12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "87%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_newsletter_6Urmw3": {
+      "type": "basmil-newsletter",
+      "settings": {
+        "heading": "For Our Latest Updates",
+        "subheading": "Keep up-to-date with the latest from Medicinal Mad Honey.",
+        "mobile_image": "shopify://shop_images/newsletteer.webp"
+      }
+    },
+    "icon_box_nJd9iT": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_E3F4PK": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg class=\"nepalmap\" width=\"90\" height=\"68\" viewbox=\"0 0 90 68\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M14.8703 9.65706L15.0406 8.00258L14.0351 7.22526L12.8009 7.0982L12.0595 5.9987L10.381 5.47651L9.44148 4.50635L7.85966 2.14742L7.34416 1.99453L5.51848 0.20942L4.56108 0.310494L3.6366 1.21353L3.69495 1.76855L5.06381 1.03605L5.90686 1.59699L6.39167 3.61838L6.93754 4.59793L8.25543 5.48227L10.5659 9.51336L8.75267 9.85079L7.83068 11.1783L5.62627 12.3988L6.29903 14.165L4.18085 16.3427L4.06645 17.4539L4.65539 19.3612L1.99629 21.6329L0.962388 24.4961L1.7826 24.8301L4.48428 27.7535L5.55071 29.0612L6.4702 27.3092L7.61542 28.0759L10.2206 30.8147L13.0951 32.7327L14.2376 35.0963L15.299 36.2288L17.8179 38.0104L19.6944 39.9754L20.9261 39.2288L21.9774 39.5616L25.2784 42.7214L26.7716 43.0249L28.694 42.7487L29.1357 43.8423L29.0949 45.5849L30.9791 46.3529L33.9782 47.061L34.4808 48.4603L35.6007 48.351L36.0224 47.1716L38.5213 47.354L40.8904 48.7958L41.5203 48.0621L44.39 47.3343L45.8195 49.1535L48.5443 49.8333L50.0018 51.1563L49.5139 54.1007L51.1467 54.8428L53.6707 57.2488L56.7229 59.0104L59.3844 57.8371L60.616 58.2134L60.857 60.8086L62.0428 61.6295L63.785 60.8605L66.4996 61.8637L68.394 62.5329L71.3599 64.6849L73.0766 64.3875L75.2377 63.8115L75.4864 65.4342L78.0182 66.4186L79.0239 65.6237L80.9259 66.2188L81.9544 66.1001L84.367 65.5499L84.7732 66.3155L86.0708 67.1728L86.8099 66.2756L87.1935 64.7928L88.3011 61.2134L87.7427 59.0098L86.6052 57.2706L87.6949 54.9871L87.5555 52.9763L88.1804 50.9444L89.8238 47.9941L89.344 46.8217L87.9041 46.4489L85.7177 45.6997L84.4681 47.293L83.1832 46.7614L78.7036 46.5248L76.1187 44.2623L74.4351 43.1157L74.001 41.948L72.0836 42.3994L71.0524 44.3396L69.4576 44.1255L68.7441 42.979L67.9927 40.8553L66.9743 41.549L66.9918 43.3975L66.3975 44.2347L65.5316 43.896L65.4429 42.2897L63.6173 39.6062L63.2798 37.7248L62.9624 37.218L62.0607 38.7971L60.1689 37.6541L59.2343 38.2067L56.5197 37.2035L56.5072 35.7548L57.5053 34.8094L57.7442 33.162L56.2536 32.6093L54.9101 33.9932L53.0665 33.2794L51.543 31.4755L50.0143 31.0685L49.4202 29.6598L47.5208 28.8154L47.7597 27.1679L47.2037 26.0626L47.4655 23.9683L44.6138 22.2772L42.5262 23.2602L40.9542 24.1714L37.9328 18.7445L33.1894 15.9103L32.1839 14.9084L29.5381 11.6663L26.4274 10.248L26.6206 9.04506L26.1915 8.27718L25.9124 6.27697L23.9494 5.60072L22.3394 5.31019L20.8869 4.38703L19.7035 5.11367L18.5633 4.52213L18.238 6.33534L17.5903 7.46652L16.4119 8.14377L16.1274 9.56188L15.1903 9.69L14.8703 9.65706Z\" fill=\"#382513\"></path>\n</svg>",
+            "icon_alt_text": "Nepal Map",
+            "icon_title": "100% Nepal Made",
+            "icon_description": "Owned & Operated",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_xfgcyJ": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg class=\"aeroplane\" width=\"176\" height=\"58\" viewbox=\"0 0 176 58\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M175.118 32.5099L152.667 33.9438C152.168 33.7482 151.669 33.6179 151.104 33.6179C150.405 33.6179 149.773 33.846 149.208 34.1719L130.117 35.3776C129.152 34.6281 127.988 34.1719 126.658 34.1719C125.061 34.1719 123.664 34.8236 122.633 35.8665L104.207 37.0397C104.207 37.0397 104.207 36.8441 104.207 36.7464C104.174 36.1598 104.074 35.6709 103.974 35.1169L104.041 35.6384L122.367 33.5527L103.775 33.9438V34.0415C101.247 22.0164 89.4394 20.4196 89.4394 20.4196L88.3086 0.214844L87.1777 20.4196C87.1777 20.4196 75.4037 22.0164 72.8426 34.0415V33.9438L54.2835 33.5527L72.6098 35.6384L72.6763 35.1169C72.5766 35.6384 72.4768 36.1598 72.4435 36.7464C72.4435 36.8441 72.4435 36.9419 72.4435 37.0397L54.0174 35.8665C53.0196 34.8236 51.5894 34.1719 49.9929 34.1719C48.6625 34.1719 47.4984 34.6281 46.5339 35.3776L27.4426 34.1719C26.8771 33.846 26.2452 33.6179 25.5467 33.6179C24.9813 33.6179 24.4492 33.7482 23.9835 33.9438L1.53293 32.5099C-0.0968208 32.9661 1.53293 33.6505 1.53293 33.6505C8.88341 34.2696 15.7017 34.9866 22.0877 35.7361C21.8216 36.2575 21.622 36.8115 21.622 37.4633C21.622 39.5815 23.3848 41.3087 25.5467 41.3087C27.7086 41.3087 29.4714 39.5815 29.4714 37.4633C29.4714 37.17 29.3717 36.9093 29.3051 36.616C34.8263 37.3329 39.9484 38.0499 44.5383 38.7342C44.505 39.0275 44.4385 39.2882 44.4385 39.5815C44.4385 42.5797 46.933 45.0238 49.9929 45.0238C52.7203 45.0238 54.9819 43.0685 55.4476 40.5266C63.6628 41.9605 69.5166 43.1988 72.6763 43.8832C74.1398 52.4865 79.6277 54.9958 79.6277 54.9958C79.6277 54.9958 84.0846 57.3096 88.2753 57.2118C88.2753 57.2118 88.2753 57.2118 88.3086 57.2118C88.3086 57.2118 88.3086 57.2118 88.3419 57.2118C92.5326 57.3096 96.9895 54.9958 96.9895 54.9958C96.9895 54.9958 102.477 52.4865 103.941 43.8832C107.101 43.1663 112.954 41.9605 121.17 40.5266C121.635 43.1011 123.897 45.0238 126.624 45.0238C129.684 45.0238 132.179 42.5797 132.179 39.5815C132.179 39.2882 132.145 38.9949 132.079 38.7342C136.702 38.0173 141.791 37.3004 147.312 36.616C147.246 36.9093 147.146 37.17 147.146 37.4633C147.146 39.5815 148.909 41.3087 151.07 41.3087C153.232 41.3087 154.995 39.5815 154.995 37.4633C154.995 36.8441 154.796 36.2575 154.529 35.7361C160.915 34.9866 167.734 34.2696 175.084 33.6505C175.084 33.6505 176.714 32.9661 175.084 32.5099H175.118Z\" fill=\"#382513\"></path>\n</svg>",
+            "icon_alt_text": "Nepal Map",
+            "icon_title": "Export Quality Grade",
+            "icon_description": "Certified for Export",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_XFWyfa": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg class=\"nepalflag\" width=\"54\" height=\"64\" viewbox=\"0 0 54 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.6862 63.2952H0.808594C0.808594 42.2403 0.808594 21.1858 0.808594 0.130859C1.18475 0.366295 1.56091 0.601336 1.93667 0.837167C4.96031 2.73488 7.98356 4.63298 11.0076 6.5299C13.6335 8.17716 16.2606 9.82205 18.8862 11.4701C21.2533 12.9562 23.6177 14.4462 25.9848 15.9319C28.4698 17.4911 30.9576 19.0463 33.4433 20.6047C36.552 22.5538 39.6595 24.5044 42.7674 26.4547C46.3972 28.732 50.0266 31.0093 53.656 33.2874C53.7088 33.3202 53.7579 33.3585 53.8086 33.3941C53.805 33.4079 53.8014 33.4217 53.7974 33.4352H21.7077C21.776 33.5102 21.814 33.5557 21.8555 33.5971C22.3522 34.0917 22.8498 34.5859 23.3473 35.0801C25.5991 37.3191 27.8513 39.5581 30.103 41.7975C32.0968 43.7805 34.0898 45.7644 36.0832 47.7474C38.2647 49.9173 40.4462 52.0868 42.6277 54.2562C45.3159 56.9294 48.0053 59.6017 50.6927 62.2761C51.0289 62.6107 51.3556 62.9551 51.6862 63.2952ZM9.76092 42.2589C8.58772 42.0949 7.45645 41.9369 6.26808 41.771C6.95291 42.7325 7.60101 43.6423 8.26188 44.5698C7.20488 45.0659 6.17504 45.5491 5.10287 46.0523C6.23174 46.5564 7.31789 47.0415 8.4268 47.5364C7.65052 48.5805 6.89182 49.6012 6.10117 50.6647C7.35423 50.4411 8.5442 50.2285 9.75973 50.0117C9.53651 51.2303 9.32167 52.4012 9.09646 53.6297C10.1247 52.8966 11.1026 52.1993 12.0945 51.4918C12.6512 52.6449 13.1967 53.7751 13.7605 54.9432C14.3267 53.7688 14.8734 52.6358 15.4257 51.4911C16.4284 52.2061 17.4011 52.9001 18.4222 53.6282C18.1965 52.3913 17.9825 51.2161 17.7625 50.0097C18.998 50.2309 20.1788 50.4426 21.4198 50.6647C20.626 49.5969 19.8653 48.5742 19.0926 47.5349C20.2019 47.0403 21.2877 46.556 22.4169 46.0527C21.3368 45.5455 20.3017 45.0596 19.2579 44.5694C19.922 43.6367 20.5713 42.7258 21.2517 41.7702C20.0598 41.9373 18.9257 42.0961 17.7609 42.2597C17.8699 41.1062 17.9757 39.9875 18.0815 38.8688L18.0308 38.8474C17.1675 39.4874 16.3042 40.1277 15.4253 40.7791C14.871 39.7386 14.3263 38.7171 13.7605 37.6552C13.1955 38.7147 12.6488 39.7398 12.0945 40.7787C11.2093 40.123 10.3399 39.4791 9.42989 38.8052C9.5429 39.9831 9.64991 41.0995 9.76092 42.2589ZM11.9145 21.7187C11.365 21.5583 10.8243 21.4007 10.2493 21.2332V22.7268H8.93234C9.10005 23.1218 9.25459 23.4868 9.41511 23.8649C9.0737 23.9798 8.75624 24.0865 8.43119 24.1955C8.59531 24.6363 8.74985 25.0515 8.90478 25.4667C8.88841 25.4801 8.87204 25.4936 8.85607 25.507C7.15657 24.9223 6.06762 23.6065 4.95592 22.2306C4.96151 22.3559 4.95951 22.425 4.9687 22.4925C5.06973 23.2245 5.24902 23.9368 5.52814 24.6225C6.33956 26.6158 7.71042 28.0802 9.73537 28.8951C11.6393 29.6615 13.6116 29.8053 15.6261 29.426C16.9722 29.1724 18.2133 28.6771 19.2875 27.8203C20.7773 26.6316 21.6419 25.0657 22.0595 23.2407C22.1314 22.9271 22.1694 22.6063 22.2233 22.2887C22.1402 22.3116 22.1047 22.3476 22.0719 22.3859C21.7353 22.7845 21.4142 23.1977 21.0593 23.5796C20.4032 24.2856 19.6832 24.9176 18.7883 25.3205C18.627 25.3932 18.4545 25.4406 18.2385 25.5169C18.4174 25.0365 18.5719 24.6213 18.7304 24.1959C18.3858 24.0782 18.07 23.9703 17.7481 23.8605C17.9138 23.4702 18.0688 23.106 18.2369 22.7102H16.9027V21.234C16.3381 21.3987 15.7998 21.5555 15.248 21.7167C15.0791 21.2209 14.9169 20.7457 14.7464 20.2444C14.3407 20.5861 13.963 20.9045 13.5816 21.2257C13.1931 20.8982 12.8161 20.581 12.416 20.244C12.2431 20.7524 12.083 21.2229 11.9149 21.7179L11.9145 21.7187Z\" fill=\"#382513\"></path>\n<path d=\"M9.75962 42.2583C9.64861 41.0993 9.54159 39.9822 9.42858 38.8042C10.3386 39.4785 11.2079 40.1224 12.0932 40.7778C12.6471 39.7392 13.1942 38.7142 13.7592 37.6543C14.325 38.7161 14.8697 39.7381 15.424 40.7782C16.3025 40.1268 17.1662 39.4868 18.0295 38.8465L18.0802 38.8678C17.9744 39.9865 17.8686 41.1049 17.7596 42.2587C18.9244 42.0956 20.0585 41.9364 21.2504 41.7693C20.57 42.7249 19.9211 43.6358 19.2566 44.5684C20.3004 45.0587 21.3351 45.5446 22.4156 46.0518C21.2864 46.5554 20.2006 47.0393 19.0913 47.5339C19.864 48.5728 20.6247 49.596 21.4185 50.6637C20.1774 50.4413 18.9967 50.23 17.7612 50.0088C17.9812 51.2152 18.1952 52.3904 18.4208 53.6272C17.3998 52.8988 16.427 52.2051 15.4244 51.4901C14.8721 52.6349 14.3258 53.7678 13.7592 54.9423C13.1954 53.7738 12.6499 52.6436 12.0932 51.4909C11.1013 52.1984 10.1234 52.8956 9.09515 53.6288C9.32037 52.4006 9.5352 51.2294 9.75842 50.0107C8.54289 50.2276 7.35332 50.4401 6.09986 50.6637C6.89051 49.6003 7.64922 48.5796 8.42549 47.5355C7.31658 47.0405 6.23004 46.5554 5.10156 46.0514C6.17373 45.5481 7.20358 45.065 8.26057 44.5688C7.5997 43.6409 6.95161 42.7312 6.26678 41.7701C7.45515 41.936 8.58642 42.0944 9.75962 42.2583Z\" fill=\"white\"></path>\n<path d=\"M11.914 21.718C12.0821 21.2234 12.2422 20.7525 12.4152 20.2441C12.8153 20.5811 13.1922 20.8983 13.5808 21.2258C13.9617 20.9046 14.3399 20.5862 14.7456 20.2445C14.9165 20.7458 15.0782 21.221 15.2471 21.7168C15.7994 21.5556 16.3377 21.3988 16.9019 21.2341V22.7103H18.236C18.0679 23.1061 17.9134 23.4699 17.7473 23.8606C18.0687 23.9704 18.3846 24.0783 18.7296 24.196C18.5711 24.6214 18.4165 25.0366 18.2376 25.517C18.4533 25.4407 18.6262 25.3929 18.7875 25.3206C19.6824 24.9177 20.4027 24.2857 21.0584 23.5797C21.4134 23.1978 21.7345 22.7846 22.0711 22.386C22.1038 22.3473 22.1394 22.3113 22.2224 22.2888C22.1689 22.6064 22.1306 22.9276 22.0587 23.2408C21.641 25.0658 20.7769 26.6313 19.2866 27.8204C18.2125 28.6772 16.9718 29.1729 15.6253 29.4261C13.6107 29.8054 11.6385 29.6616 9.73453 28.8952C7.70958 28.0803 6.33872 26.6155 5.5273 24.6226C5.24818 23.9369 5.06888 23.2242 4.96786 22.4926C4.95867 22.4251 4.96067 22.356 4.95508 22.2307C6.06678 23.6066 7.15572 24.9224 8.85523 25.5071C8.8716 25.4937 8.88797 25.4802 8.90394 25.4668C8.74941 25.0516 8.59487 24.6364 8.43035 24.1956C8.7554 24.0862 9.07245 23.9795 9.41427 23.865C9.25375 23.4869 9.09921 23.1219 8.9315 22.7269H10.2484V21.2333C10.8239 21.4012 11.3641 21.5588 11.9136 21.7188L11.914 21.718Z\" fill=\"white\"></path>\n</svg>",
+            "icon_alt_text": "Nepal Map",
+            "icon_title": "Nepal Govern. Certified",
+            "icon_description": "Quality Assured",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_E3F4PK",
+        "icon_box_xfgcyJ",
+        "icon_box_XFWyfa"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".icon-box-section img,.icon-box-section svg {margin-right: 16px !important;}",
+        ".icon-box-section p {margin-top: -0.8rem;}",
+        ".icon-box-section h3 {width: max-content;}",
+        ".iconbox-wrapper {justify-content: start; flex-wrap: nowrap;}",
+        ".slick-initialized .slick-slide {display: flex;}",
+        ".iconbox.items-start {align-items: center;}",
+        "@media (max-width: 768px) {svg {max-width: 12rem; max-height: 8rem; object-fit: contain; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "",
+        "section_description": "",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "0",
+        "iconbox_gap": "8rem 5%",
+        "image_layout": "left",
+        "content_alignment": "left",
+        "icon_box_content_alignment": "left",
+        "content_part_width": "max-content!important;",
+        "padding": "12rem 16px  8.5rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.5%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": ""
+      }
+    },
+    "basmil_image_text_GmtWyF": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_DCHL4x": {
+          "type": "content",
+          "settings": {
+            "title": "100% Authentic and Trusted<br>\n<span class=\"base font-normal\">Medicinal Mad Honey from Nepal – Trusted Since 2015!<span></span></span>",
+            "subtitle": "",
+            "description": "<p>All Medicinal Mad Honey products are sourced from the remote Himalayan regions of Nepal where normal honey bees rarely survive. The honey is harvested only twice a year using the traditional cliff-hanging technique. <em>Apis laboriosa</em>, the world’s largest honey bee species, limited to the Himalayan Kush Region deposits mad honey in its huge hives which after collection is filtered, packed into jars and distributed. These bees collect nectar from alpine and subalpine flowers including grayanotoxin-containing rhododendron. At Medicinal Mad Honey, we pass each batch through all the required lab tests ensuring only genuine, pure and raw Mad Honey with preserved nutritional compounds reaches your door.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_tNHYwb": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Story_from_Hive_to_Jar.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "42.92%"
+          }
+        }
+      },
+      "block_order": [
+        "content_DCHL4x",
+        "image_tNHYwb"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {line-height: 1 !important;}",
+        ".contentside {gap: 2.4rem;}",
+        "img {mix-blend-mode: multiply;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "55.6%",
+        "padding": "8.4rem 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "z-10",
+        "custom_id": "",
+        "width": "83.74%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_4Hbyx9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_LYAWwm": {
+          "type": "image",
+          "settings": {
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "<svg viewbox=\"0 0 200 1123\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.929 487.201C29.9137 488.279 33.3358 492.406 32.117 496.298C31.2732 499.064 28.5073 500.752 26.9135 503.191C25.5071 505.254 25.0383 507.786 24.1476 510.131C23.1632 512.71 21.7099 515.055 20.3036 517.352C18.4753 520.306 16.647 523.308 14.7719 526.262C13.6937 527.95 12.6623 529.685 11.3028 531.185C7.8807 535.031 3.05219 537.188 -1.12002 540.189C-10.402 546.801 -16.0743 557.258 -20.809 567.574C-23.2936 573.013 -25.6376 578.547 -27.794 584.174C-28.6847 586.518 -29.5754 588.91 -31.0286 591.02C-32.9038 593.74 -35.5758 595.756 -38.3417 597.585C-40.5919 599.085 -42.9358 600.492 -45.561 601.289C-54.6086 604.056 -64.125 598.616 -73.5945 598.71C-77.6729 598.757 -81.7045 599.836 -85.7829 599.648C-89.8614 599.461 -94.3148 597.585 -95.7212 593.74C-97.4088 589.05 -93.9867 584.267 -92.1584 579.672C-90.002 574.279 -90.002 568.324 -88.5019 562.744C-87.6112 559.415 -85.9235 555.945 -82.7827 554.585C-81.0482 553.834 -79.0793 553.788 -77.2041 553.741C-70.8286 553.6 -64.125 553.084 -58.8746 549.427C-51.9834 544.597 -48.6081 534.937 -40.5919 532.452C-32.8569 530.013 -24.5593 535.546 -16.5431 534.327C-9.41753 533.249 -4.02648 527.059 -1.30752 520.353C1.41145 513.695 2.11463 506.379 3.89602 499.346C4.5992 496.532 5.53677 493.672 7.31816 491.374C10.7403 486.872 20.7255 485.794 25.929 487.201Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M-2.11284 459.956C3.747 448.702 17.4356 444.248 26.3425 435.244C32.2492 429.242 35.9995 421.223 42.5626 415.972C48.5161 411.235 56.1105 409.219 63.4704 407.343C65.6737 406.781 68.3927 406.359 69.9397 408.047C70.5491 408.75 70.8304 409.688 71.0179 410.626C73.1274 420.661 67.9708 430.602 66.0019 440.637C64.5018 448.28 64.8299 456.299 62.111 463.567C60.5171 467.881 57.845 471.914 57.3762 476.463C57.1887 478.479 57.4231 480.542 57.1887 482.559C56.9074 485.372 55.7355 488.045 54.6104 490.671C51.9852 496.767 49.0318 503.238 43.3595 506.755C40.9218 508.255 38.0622 509.146 35.7183 510.788C27.0926 516.931 28.6396 530.576 22.2641 539.064C19.7326 542.487 16.0761 544.831 12.6071 547.27C8.71613 550.036 4.91896 553.038 1.49682 556.367C-11.3948 568.84 -19.3642 586.284 -20.4424 604.197C-24.3802 608.042 -29.2087 610.527 -34.4123 612.169C-37.0843 613.013 -39.9439 613.575 -42.3816 614.982C-43.8817 615.873 -45.1943 617.045 -46.6945 617.983C-50.2104 620.187 -54.7107 620.844 -58.7423 619.671C-61.8363 618.78 -64.5552 616.905 -67.4617 615.592C-82.2754 608.933 -100.699 616.67 -115.325 609.683C-118.888 607.995 -122.825 609.355 -126.763 609.355C-128.31 609.355 -129.904 609.308 -131.357 608.746C-132.811 608.183 -134.076 606.87 -134.123 605.322C-134.217 603.728 -133.045 602.321 -131.826 601.337C-128.451 598.523 -124.044 597.069 -120.716 594.209C-115.137 589.379 -113.543 581.314 -113.45 573.905C-113.356 566.496 -114.481 558.993 -112.84 551.771C-112.512 550.271 -111.996 548.723 -111.106 547.457C-109.184 544.738 -105.621 543.565 -102.293 543.378C-98.9642 543.143 -95.5889 543.706 -92.2606 543.472C-84.2912 542.909 -77.1656 537.985 -72.1496 531.795C-67.1336 525.606 -63.8989 518.197 -60.7581 510.881C-57.7109 503.848 -54.6638 496.767 -51.6167 489.733C-49.6478 485.184 -47.1164 480.12 -42.3816 478.807C-35.2092 476.791 -29.0681 471.773 -22.5988 468.069C-16.0358 464.364 -9.56655 460.519 -2.11284 459.956Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M36.1426 452.875C39.7991 448.185 43.7838 443.684 48.0498 439.51C49.5499 438.01 51.4719 436.462 53.5346 436.978C54.7534 437.26 55.6441 438.197 56.3942 439.229C62.5822 447.529 59.4413 459.58 53.9096 468.302C53.0658 469.615 52.222 470.881 51.7532 472.335C51.05 474.539 51.3313 476.884 51.3782 479.181C51.5188 487.106 48.2842 495.265 42.0024 500.048C38.9553 502.346 35.2988 503.847 32.5798 506.519C30.2359 508.817 28.6889 511.818 27.3763 514.819C23.9541 522.603 21.3289 531.138 15.1878 536.999C11.8594 540.188 7.68724 542.345 3.89007 545.018C-9.18908 554.256 -17.0647 569.308 -21.7995 584.642C-23.0183 588.628 -24.1434 592.801 -26.4873 596.271C-30.097 601.617 -36.1912 604.712 -42.0042 607.572C-45.2857 609.167 -48.7078 610.855 -52.4113 610.948C-56.9585 611.089 -61.1776 608.885 -65.1623 606.728C-70.0376 604.102 -76.46 607.291 -81.9917 607.478C-89.7736 607.713 -97.5554 606.587 -105.29 605.509C-106.884 605.274 -108.525 605.04 -109.838 604.149C-111.9 602.742 -112.744 600.023 -112.557 597.49C-112.369 594.958 -111.385 592.66 -110.494 590.269C-107.259 581.641 -105.525 572.497 -105.384 563.259C-105.337 559.414 -105.197 554.865 -102.103 552.614C-100.884 551.724 -99.3837 551.348 -97.8836 550.973C-89.4454 548.816 -81.2416 545.956 -73.3191 542.392C-68.725 540.329 -64.084 537.89 -61.1307 533.811C-59.2087 531.138 -58.1304 527.902 -56.3491 525.136C-52.6456 519.462 -46.1295 516.132 -42.1917 510.646C-39.1915 506.473 -37.832 501.174 -34.0817 497.657C-30.7533 494.468 -26.0185 493.249 -21.4713 492.358C-17.3929 491.561 -14.1114 489.122 -10.2204 487.716C-4.40747 485.605 0.889833 482.323 6.14025 479.087C8.10915 477.868 10.0781 476.649 11.6719 474.961C13.9221 472.569 15.2347 469.334 17.5786 466.989C19.5475 465.02 22.1259 463.801 24.1885 461.878C26.0637 460.143 27.3763 457.892 29.1577 456.063C30.9859 454.188 33.658 452.218 36.1426 452.875Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M73.4612 480.918C71.7736 491.563 64.8355 500.566 58.1319 509.006C56.163 511.492 54.2409 513.977 52.0845 516.275C50.2562 518.197 48.3342 520.026 46.5997 522.042C38.771 531.28 36.2395 544.598 26.9575 552.429C23.9104 555.008 20.2539 556.837 17.3943 559.65C15.0972 561.901 13.4096 564.668 11.7688 567.434C6.47154 576.203 1.17426 585.019 -2.90419 594.397C-4.91997 599.04 -8.20149 602.932 -10.2173 607.574C-10.9205 609.121 -11.5768 610.716 -12.4674 612.169C-14.0144 614.561 -16.3115 616.39 -18.7023 617.984C-22.5933 620.563 -26.8592 622.533 -31.0783 624.502C-34.6411 626.143 -38.2038 627.784 -41.7666 629.473C-43.3605 630.223 -45.0013 630.973 -46.6889 631.395C-49.0797 631.958 -51.6112 631.864 -54.0957 632.099C-57.4241 632.427 -60.6119 633.365 -63.9402 633.88C-67.8312 634.537 -71.769 634.631 -75.7068 634.631C-79.2696 634.631 -82.8792 634.584 -86.3014 633.599C-88.5047 632.99 -90.5673 632.005 -92.5831 631.02C-95.0677 629.848 -97.5523 628.675 -100.037 627.503C-102.381 626.425 -104.912 625.018 -105.662 622.579C-111.1 617.656 -118.929 616.859 -126.289 617.046C-144.15 617.562 -161.26 623.892 -178.84 627.175C-179.262 627.269 -179.684 627.316 -180.106 627.222C-181.465 626.847 -181.559 624.877 -180.903 623.658C-179.121 620.235 -174.668 619.25 -171.902 616.577C-170.496 615.217 -169.511 613.482 -168.152 612.076C-165.526 609.356 -161.682 608.137 -158.682 605.839C-153.01 601.572 -150.713 594.163 -145.837 589.005C-143.306 586.332 -140.165 584.268 -137.915 581.408C-135.993 578.923 -134.821 575.969 -133.696 573.061C-129.477 562.182 -125.211 551.256 -122.961 539.768C-122.398 536.954 -121.976 534.094 -121.038 531.374C-117.851 522.183 -109.553 515.806 -101.162 510.929C-96.5209 508.209 -91.9268 506.099 -87.7546 502.676C-81.9885 497.987 -77.6288 491.703 -71.9096 486.92C-68.9094 484.435 -65.5341 482.325 -62.9558 479.417C-61.2213 477.448 -59.9087 475.103 -58.5492 472.853C-55.6896 468.21 -52.455 463.849 -49.2203 459.488C-46.5014 455.784 -43.6887 452.032 -40.1259 449.125C-38.3914 447.718 -36.4693 446.499 -35.063 444.764C-33.6566 443.029 -32.8597 440.825 -31.4533 439.043C-28.1718 434.917 -22.2182 433.744 -18.7492 429.759C-16.4052 427.039 -15.5146 423.381 -14.8114 419.864C-13.3581 412.549 -12.6081 404.062 -17.5303 398.435C-22.5932 392.667 -28.9687 386.383 -36.6568 386.055C-40.5946 385.914 -44.5325 386.758 -48.3765 387.649C-67.9718 392.104 -87.614 396.512 -107.209 400.967C-109.459 401.483 -111.85 401.951 -113.96 400.967C-116.773 399.654 -117.804 395.996 -117.194 392.995C-116.538 389.947 -114.663 387.368 -112.788 384.883C-102.568 371.096 -93.0519 356.325 -88.9266 339.679C-86.9108 331.66 -83.0199 324.579 -78.6601 317.545C-77.7694 316.139 -76.8787 314.685 -75.5661 313.606C-74.3473 312.622 -72.8941 312.012 -71.4877 311.449C-66.1904 309.292 -60.8462 307.135 -55.5489 304.978C-52.6893 303.806 -49.7829 302.634 -46.7358 302.259C-39.704 301.368 -32.8128 304.697 -25.7341 304.931C-21.7494 305.072 -17.7647 304.275 -13.8269 304.744C-9.84223 305.213 -6.13881 306.901 -2.34164 308.214C1.45554 309.527 5.58085 310.465 9.42491 309.339C20.1132 306.291 31.6923 307.229 42.5213 309.668C47.7717 310.84 53.444 312.528 58.4131 310.418C60.2883 309.621 61.9759 308.308 63.898 307.604C65.82 306.948 68.3514 307.135 69.4765 308.823C70.6954 310.605 69.8515 312.997 69.1952 315.06C66.8513 322.657 68.2577 331.097 71.8673 338.178C75.477 345.259 81.2431 351.073 87.6186 355.856C92.7283 359.702 98.7288 363.453 100.51 369.596C101.776 374.004 100.557 378.74 99.3851 383.148C95.4942 397.356 91.6033 411.564 87.7123 425.773C85.6497 433.322 83.587 440.872 80.9618 448.234C77.2115 459.113 72.8518 469.289 73.4612 480.918Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M3.23671 321.061C11.4874 323.312 20.8162 316.794 28.4106 320.686C31.4108 322.234 33.5672 325.235 36.7081 326.454C39.0989 327.345 42.2398 327.485 43.2711 329.83C43.7399 330.815 43.5993 331.987 43.4586 333.113C42.6148 339.771 41.6772 346.383 40.5522 352.948C40.3178 354.214 39.8958 355.761 38.677 356.137C37.6926 356.418 36.7081 355.808 35.8174 355.293C28.2699 350.65 18.7067 349.478 10.2685 352.104C7.2214 353.089 4.31492 354.495 1.22092 355.386C-0.794859 355.949 -2.81063 356.324 -4.82641 356.793C-9.18613 357.872 -13.4521 359.56 -17.2961 361.857C-24.1873 365.89 -32.1567 368.844 -39.3291 372.361C-42.3294 373.815 -45.3765 375.316 -48.5642 376.206C-51.4707 377.051 -54.4709 377.379 -57.4243 377.988C-69.7534 380.427 -81.5199 386.757 -94.0834 386.288C-95.2554 386.241 -96.4742 386.148 -97.5056 385.538C-99.0526 384.647 -99.8026 382.771 -99.8495 380.989C-99.8495 379.208 -99.287 377.473 -98.5838 375.831C-94.646 365.984 -88.6455 357.121 -84.0983 347.508C-81.6137 342.303 -79.551 336.817 -75.8007 332.456C-73.785 330.065 -71.3004 328.142 -68.7221 326.36C-58.5494 319.561 -46.1265 316.138 -33.8912 316.747C-21.609 317.404 -8.6236 317.826 3.23671 321.061Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M-7.22282 369.875C-2.01928 370.203 2.85611 372.595 6.98143 375.783C11.1068 378.972 14.5289 382.911 17.951 386.85C18.7011 387.741 19.498 388.632 19.9199 389.757C20.3419 390.836 20.3887 392.008 20.3419 393.18C19.9668 399.558 16.3572 405.232 12.7944 410.531C10.0754 414.657 7.30957 418.737 4.59061 422.863C3.55928 424.458 2.48108 426.052 1.1216 427.365C-1.26922 429.663 -4.45698 430.976 -7.55097 432.195C-14.3953 434.915 -21.4271 437.681 -27.0056 442.511C-31.881 446.731 -35.3969 452.358 -40.3192 456.485C-42.2412 458.079 -44.3507 459.439 -45.9915 461.315C-47.8198 463.425 -48.898 466.004 -50.0699 468.489C-52.2264 472.991 -54.8047 477.258 -57.758 481.291C-65.9618 492.404 -73.4155 504.362 -84.4789 512.615C-90.2919 516.929 -97.9331 518.711 -102.855 524.057C-107.121 528.699 -108.575 535.358 -112.794 540C-114.106 541.454 -115.606 542.673 -116.638 544.314C-117.857 546.284 -118.232 548.628 -118.653 550.879C-121.982 568.792 -129.811 585.861 -141.249 600.116C-143.124 602.414 -145.187 605.04 -144.765 607.994C-144.109 612.402 -138.671 613.949 -134.264 614.512C-130.514 614.981 -126.763 615.497 -122.966 615.168C-119.685 614.887 -116.45 613.949 -113.169 614.23C-108.668 614.606 -104.73 617.185 -100.699 619.154C-82.2287 628.157 -60.3833 625.203 -40.1785 621.405C-36.0063 620.608 -31.7404 619.764 -28.037 617.654C-20.2551 613.105 -16.7392 603.914 -13.4577 595.52C-10.6918 588.393 -7.64474 581.312 -4.45698 574.372C-2.06617 569.261 0.512164 564.056 4.87188 560.492C12.4194 554.302 21.9357 549.613 26.6236 541.032C31.3115 532.45 34.6867 522.931 41.3435 515.757C45.6563 511.114 51.188 507.598 54.9383 502.486C57.4698 499.063 59.0636 495.03 60.5638 491.091C72.4241 460.096 81.5654 428.068 87.8003 395.431C89.1598 388.351 89.9567 379.91 84.6125 375.127C82.9718 373.626 80.8154 372.642 79.7371 370.719C78.2839 368.14 79.1746 364.717 77.5339 362.232C76.0806 359.981 73.1273 359.371 70.8771 357.918C66.8455 355.245 65.5798 349.899 65.5329 345.069C65.486 340.239 66.283 335.315 65.111 330.626C62.7671 321.295 53.0632 315.48 43.5468 313.933C34.0304 312.385 24.3734 314.073 14.7164 314.214C-4.97264 314.542 -24.6617 308.446 -44.1163 311.4C-48.3354 312.057 -52.4607 313.089 -56.7267 313.182C-60.3364 313.229 -64.0867 312.62 -67.4619 313.792C-72.1029 315.433 -74.9625 320.029 -77.3533 324.343C-87.8073 343.193 -96.8549 362.794 -104.402 382.958C-105.246 385.209 -106.043 387.882 -104.73 389.898C-103.934 391.211 -102.433 391.914 -100.98 392.43C-70.4153 403.919 -39.8035 367.765 -7.22282 369.875Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M102.896 239.188C102.521 241.158 102.146 243.08 101.771 245.05C100.787 250.302 99.7554 255.648 97.2708 260.384C95.9113 262.963 94.13 265.307 92.7236 267.84C90.5203 271.732 89.1608 276.046 86.8638 279.844C85.7856 281.626 84.3792 283.408 82.3634 283.924C79.832 284.58 77.1599 282.845 75.8942 280.547C74.6284 278.25 74.4409 275.53 74.4409 272.904C74.394 264.698 75.566 256.117 72.3783 248.52C71.4407 246.316 70.175 244.253 69.7062 241.908C68.9092 238.016 70.4562 234.03 72.3783 230.56C72.7064 229.951 73.0346 229.388 73.4565 228.872C74.1596 228.122 75.0503 227.606 75.9879 227.137C83.0666 223.292 89.7702 218.79 95.9582 213.679C96.7552 213.023 97.6459 212.319 98.6772 212.272C99.6148 212.225 100.459 212.788 101.162 213.398C103.506 215.414 104.818 218.837 104.303 221.932C104.209 222.542 103.881 223.104 103.834 223.667C103.74 224.558 104.068 225.496 104.162 226.34C104.35 228.356 104.256 230.373 104.021 232.389C103.74 234.687 103.318 236.938 102.896 239.188Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M96.4288 231.45C96.3819 233.138 95.6787 234.732 95.0224 236.327C93.7567 239.281 92.5378 242.188 91.2721 245.142C90.522 246.877 89.8189 248.566 89.3501 250.394C88.9282 251.989 88.7407 253.677 88.225 255.224C87.8968 256.209 87.4749 257.147 86.678 257.85C85.8811 258.554 84.8029 258.882 83.8184 258.554C82.7871 258.179 82.1776 257.1 81.8964 256.021C81.6151 254.943 81.6151 253.818 81.287 252.739C80.7244 250.816 79.2243 249.316 78.2398 247.581C76.0365 243.689 76.3647 238.765 77.9117 234.592C78.1461 233.888 78.4742 233.232 78.943 232.669C79.3649 232.247 79.8806 231.919 80.3963 231.591C81.8026 230.747 83.209 229.903 84.6153 229.058C86.0217 228.214 87.4749 227.323 89.0219 226.901C90.5689 226.479 92.7254 226.479 94.2255 227.136C95.8662 227.699 96.5225 229.903 96.4288 231.45Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M89.7704 235.624C89.6767 234.545 89.161 233.467 88.2234 232.951C87.0984 232.341 85.6451 232.716 84.6138 233.514C83.6293 234.311 82.973 235.483 82.3167 236.608C81.7073 237.687 81.0979 238.812 80.8166 240.032C80.5353 241.251 80.6291 242.611 81.3792 243.595C81.9886 244.439 83.0199 245.049 83.3012 246.034C83.4418 246.597 83.3481 247.206 83.6293 247.722C84.0512 248.519 85.2232 248.66 85.9733 248.191C86.7233 247.722 87.1452 246.831 87.3328 245.94C87.5203 245.049 87.5671 244.158 87.8484 243.314C88.2703 242.048 89.2079 240.923 89.3954 239.563C89.5829 238.297 89.8642 236.843 89.7704 235.624Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M98.6769 241.955C97.1768 246.363 95.161 250.583 93.8953 255.038C93.239 257.335 92.7702 259.727 91.692 261.837C90.9888 263.197 90.0512 264.416 89.2543 265.682C88.4105 267.042 87.7073 268.496 86.6291 269.715C85.5509 270.887 84.0039 271.825 82.41 271.591C80.488 271.356 79.0816 269.527 78.6128 267.605C78.144 265.729 78.3315 263.76 78.3315 261.79C78.3315 258.695 77.769 255.647 76.6908 252.74C75.5188 249.598 73.6905 246.503 73.8312 243.127C73.8781 241.533 74.3937 239.985 74.6281 238.391C74.9563 235.906 74.5812 233.139 75.9876 231.029C77.0189 229.481 78.7534 228.59 80.3942 227.699C82.5037 226.527 84.5664 225.214 86.5822 223.901C88.4573 222.635 90.4262 221.275 92.6295 220.759C94.8328 220.197 97.458 220.619 98.9113 222.354C100.786 224.605 100.365 228.028 100.552 230.794C100.74 234.593 99.8957 238.391 98.6769 241.955Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M104.023 161.862C111.429 162.894 118.742 164.77 125.727 167.396C126.759 167.771 127.79 168.193 128.587 168.943C131.025 171.288 129.759 175.32 128.54 178.462C125.634 185.918 123.712 193.749 122.868 201.674C121.93 210.443 122.212 219.258 121.743 228.074C120.805 245.237 116.774 262.212 109.882 277.968C106.554 285.658 102.522 293.114 100.319 301.179C98.9128 306.337 98.3034 311.636 97.694 316.982C96.522 327.111 95.6313 338.271 101.491 346.571C106.273 353.37 114.898 356.981 118.93 364.249C120.805 367.625 121.508 371.518 121.649 375.363C121.883 383.897 119.164 392.478 114.055 399.325C107.07 408.656 107.398 421.88 108.101 433.509C108.289 436.323 108.617 439.136 108.101 441.903C107.163 447.014 103.46 451.141 100.413 455.361C95.5375 462.066 91.9748 469.757 90.0058 477.822C88.3182 484.762 87.6619 492.265 83.6303 498.173C80.1144 503.332 74.3952 506.614 70.3168 511.397C63.9413 518.994 62.2068 529.826 55.2687 536.906C53.2061 539.017 50.8153 540.658 48.7526 542.768C41.4395 550.271 40.2676 561.619 37.8299 571.794C36.3766 577.937 34.314 583.939 32.2982 589.942C29.9074 596.975 27.2353 604.384 21.3286 608.933C15.0468 613.763 6.37427 614.185 -0.329382 618.358C-10.6427 624.689 -22.0811 631.91 -29.7223 641.335C-33.0507 645.462 -36.3791 650.292 -41.5358 651.558C-46.8799 652.918 -52.2241 650.011 -57.2401 647.807C-78.0074 638.756 -103.087 640.21 -121.417 626.893C-124.511 624.642 -129.34 626.095 -133.137 626.189C-139.278 626.377 -145.466 626.517 -151.419 627.971C-154.045 628.628 -156.623 629.519 -159.248 630.269C-164.639 631.863 -170.124 632.942 -175.609 634.067C-179.734 634.864 -183.813 635.708 -187.938 636.506C-190.704 637.068 -193.47 637.584 -196.282 637.35C-197.97 637.209 -199.611 636.74 -201.251 636.224C-202.939 635.661 -204.861 634.771 -205.189 632.989C-205.424 631.957 -205.002 630.925 -204.58 629.941C-203.127 626.658 -201.205 623.61 -199.048 620.75C-195.11 615.451 -189.954 610.527 -183.484 609.402C-181.703 609.12 -179.922 609.074 -178.187 608.652C-175.89 608.042 -173.874 606.682 -172.046 605.135C-166.749 600.633 -162.811 594.631 -160.842 587.972C-160.186 585.768 -159.717 583.47 -158.826 581.313C-157.232 577.562 -154.279 574.42 -153.154 570.528C-151.279 563.776 -146.825 558.43 -143.825 552.1C-136.934 537.704 -141.34 520.541 -138.481 504.785C-136.512 494.094 -131.074 484.059 -123.152 476.65C-121.323 474.915 -119.307 473.321 -117.948 471.21C-115.838 468.022 -115.417 464.036 -115.37 460.191C-115.276 451.891 -117.807 442.512 -125.214 438.761C-128.402 437.167 -132.105 436.838 -135.528 435.807C-138.95 434.775 -142.466 432.524 -143.263 429.054C-143.591 427.507 -143.356 425.866 -143.075 424.318C-142.231 420.051 -140.825 415.924 -138.856 412.032C-137.121 408.515 -137.45 404.483 -136.606 400.638C-136.324 399.418 -136.043 398.152 -136.231 396.886C-136.418 395.573 -137.028 394.401 -137.59 393.229C-139.325 389.383 -140.215 385.21 -140.168 380.99C-140.168 379.114 -139.934 377.238 -139.09 375.55C-138.153 373.628 -136.465 372.221 -134.871 370.767C-126.386 363.03 -119.729 353.323 -115.604 342.585C-111.244 331.331 -109.697 319.233 -108.15 307.275C-107.822 304.696 -108.01 301.461 -108.76 298.928C-109.229 297.334 -110.072 295.88 -110.776 294.38C-112.651 290.394 -113.541 285.986 -113.448 281.625C-113.401 280.078 -113.213 278.483 -112.369 277.217C-110.776 274.92 -107.588 274.498 -104.775 274.591C-101.728 274.685 -98.634 275.107 -95.6806 274.263C-93.4773 273.607 -91.5553 272.294 -89.3989 271.637C-87.1956 270.934 -84.8048 270.981 -82.5077 270.887C-73.9758 270.605 -65.7251 269.949 -57.1932 269.058C-36.7072 266.854 -16.2212 271.778 3.74907 276.795C5.48358 277.217 7.31185 277.686 9.09324 277.452C10.1715 277.311 11.2497 276.936 12.281 276.561C18.1877 274.404 24.1413 272.247 30.048 270.043C31.22 269.621 32.4388 269.152 33.4233 268.402C34.4546 267.557 35.2047 266.385 35.7672 265.166C38.2049 259.914 37.783 253.49 34.7359 248.566C33.3764 246.362 31.4544 244.393 30.8918 241.861C30.3293 239.469 31.0325 236.796 30.1418 234.498C29.4855 232.81 28.0791 231.497 27.6572 229.762C27.0478 227.277 28.5948 224.886 30.0949 222.775C31.6419 220.618 33.9389 219.352 36.0485 217.711C37.6892 216.445 39.3769 215.179 40.7832 213.678C43.0803 211.24 44.721 208.145 47.44 206.222C49.6433 204.675 52.3154 204.018 54.8469 203.034C60.6598 200.783 65.7227 196.563 69.0511 191.264C72.3795 185.965 73.8796 179.588 73.3639 173.351C73.0358 169.412 71.9107 165.567 71.3481 161.675C71.2544 160.971 71.1606 160.174 71.4888 159.518C71.7701 158.861 72.3795 158.439 72.9889 158.111C75.5672 156.704 78.755 156.751 81.5677 157.454C84.4273 158.158 87.0994 159.471 89.8652 160.409C94.1312 161.862 99.6629 161.206 104.023 161.862Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M102.383 169.037C106.602 172.507 107.399 178.603 107.774 184.09C108.946 199.798 109.509 215.601 109.462 231.357C109.462 241.814 109.134 252.505 105.758 262.4C103.133 270.043 98.8203 276.936 94.5075 283.782C88.6476 292.973 82.6472 302.352 79.9282 312.856C77.1624 323.406 78.1468 335.551 85.1786 343.851C89.4446 348.869 95.3982 352.058 100.695 355.903C106.04 359.748 111.056 364.953 111.853 371.471C112.556 377.098 109.931 382.584 107.634 387.789C101.305 401.951 96.5701 416.863 93.5699 432.103C91.9291 440.449 90.804 448.984 87.7569 456.955C85.788 462.207 83.0222 467.131 81.5221 472.524C78.2874 484.012 79.9751 498.643 70.1774 505.442C64.5989 509.287 58.4578 514.774 54.7075 520.448C50.9572 526.121 48.0976 532.311 44.4879 538.079C41.2064 543.331 37.3155 548.161 33.7527 553.272C30.5649 557.821 27.7053 562.557 24.7989 567.293C22.3612 571.279 19.9704 575.265 17.5327 579.25C15.7044 582.252 13.8292 585.299 12.751 588.629C11.6259 592.052 11.204 595.85 8.90698 598.617C7.92253 599.836 6.60992 600.774 5.43795 601.759C2.39084 604.385 2.68788e-05 607.714 -1.50009 611.418C-10.6414 617.843 -19.9703 624.126 -29.1116 630.55C-33.0963 633.364 -37.081 636.178 -41.5345 638.006C-45.988 639.835 -51.0509 640.726 -55.7387 639.413C-66.9896 636.318 -79.6468 637.491 -91.0384 634.958C-95.9606 633.88 -100.93 632.661 -105.243 630.082C-108.899 627.925 -111.946 624.877 -115.697 622.86C-126.76 616.858 -140.261 621.125 -152.449 624.361C-162.294 626.987 -172.373 628.815 -182.499 629.894C-185.64 630.222 -189.437 630.222 -191.218 627.596C-192.578 625.58 -192.062 622.766 -190.656 620.844C-189.202 618.921 -187.046 617.655 -184.889 616.623C-180.295 614.373 -175.42 612.638 -171.107 609.871C-156.575 600.446 -152.074 581.736 -144.386 566.214C-138.245 553.788 -129.338 542.393 -126.197 528.888C-124.838 523.027 -124.604 516.884 -122.306 511.304C-118.603 502.441 -110.306 496.486 -102.102 491.515C-95.2106 487.342 -88.1319 483.496 -80.9126 479.98C-75.5215 477.4 -69.943 474.915 -65.4895 470.929C-59.9109 465.959 -56.5356 458.972 -54.3792 451.797C-52.1759 444.482 -51.2384 436.417 -53.8636 429.242C-56.5357 421.927 -62.8174 416.206 -70.0367 413.252C-77.256 410.298 -85.3192 409.782 -93.0541 410.813C-97.367 411.376 -101.633 412.408 -105.852 413.439C-112.556 415.034 -120.806 412.502 -124.041 406.406C-125.166 404.342 -125.541 401.951 -125.916 399.606C-126.338 397.027 -126.76 394.495 -127.182 391.916C-127.838 388.024 -128.401 383.757 -126.572 380.287C-125.213 377.708 -122.822 375.973 -120.572 374.144C-111.243 366.547 -103.977 356.418 -99.7578 345.164C-94.3199 330.675 -93.898 314.544 -87.4287 300.523C-85.7411 296.865 -83.444 293.208 -79.9281 291.238C-77.7248 290.066 -75.2402 289.597 -72.7557 289.222C-64.5519 288.003 -56.2075 287.534 -47.91 287.768C-39.003 288.05 -30.6117 290.019 -21.8454 291.004C-14.2511 291.848 -7.03177 294.568 0.562578 296.021C9.04762 297.663 17.7202 298.413 26.3927 298.319C32.5339 298.272 38.7687 297.709 44.5817 295.74C50.3946 293.724 55.8326 290.16 59.1609 285.002C63.8019 277.733 63.7551 268.496 63.38 259.821C63.1925 255.928 62.9581 251.943 61.458 248.379C59.2078 243.033 54.4731 239.282 50.5353 235.014C49.4571 233.842 48.4257 232.623 47.7694 231.169C45.5661 226.105 49.1289 220.197 53.7699 217.195C58.4109 214.194 63.9895 213.116 68.9586 210.677C75.8966 207.301 81.4283 201.44 85.1317 194.687C88.6945 188.216 90.9447 180.854 91.1322 173.492C91.0853 167.865 97.8359 165.239 102.383 169.037Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M185.5 154.687C181.515 152.906 176.921 153.984 172.702 155.063C167.967 156.282 163.186 157.501 158.451 158.767C143.544 162.612 128.496 163.925 114.338 157.876C106.041 154.312 97.3681 154.031 88.6018 152.015C84.8046 151.171 81.0074 150.28 77.1165 149.998C65.5844 149.154 54.4272 153.515 43.692 157.782C42.4732 158.251 41.2543 158.767 40.2699 159.611C38.7697 160.924 38.1134 162.94 37.2227 164.769C36.1445 167.02 34.7382 169.083 33.0037 170.865C32.0192 171.897 30.8941 172.835 30.0503 174.054C29.4409 174.945 28.9721 175.883 28.5502 176.867C27.2376 179.728 25.9719 182.541 24.6593 185.402C24.5655 185.589 24.5186 185.777 24.6593 185.918C24.7999 186.058 25.0343 185.73 24.8468 185.73C19.7839 196.234 14.4397 205.894 9.32994 216.351C8.48612 218.086 7.64229 219.868 6.32969 221.321C4.40766 223.478 1.64183 224.791 -0.233314 226.995C-3.60858 230.887 -8.99963 232.107 -14.0625 233.138C-14.1563 233.138 -14.25 233.185 -14.2969 233.185C-19.2661 234.217 -24.4227 236.045 -28.9699 238.343C-31.3139 239.516 -33.6109 240.829 -36.1424 241.438C-38.7676 242.048 -41.4866 241.813 -44.2055 241.766C-49.4559 241.673 -54.7063 242.282 -59.9099 242.235C-63.8477 242.188 -67.8793 241.766 -71.5827 240.453C-73.3172 239.844 -74.7235 238.765 -76.4112 238.156C-78.4738 237.452 -80.9584 237.593 -83.1148 237.734C-96.0065 238.859 -107.961 247.347 -120.805 245.612C-128.868 244.533 -137.775 244.299 -144.76 240.125C-148.792 237.687 -154.136 234.545 -157.605 237.734C-159.621 239.562 -159.761 242.751 -159.105 245.424C-157.464 252.27 -152.214 257.522 -147.479 262.727C-135.666 275.763 -125.774 291.613 -124.743 309.15C-123.993 322.374 -128.353 335.457 -134.869 346.992C-142.182 359.935 -152.495 372.221 -153.386 387.085C-153.808 393.697 -152.261 400.497 -153.902 406.921C-156.667 417.565 -167.778 425.584 -167.403 436.557C-167.262 440.12 -165.903 443.497 -164.824 446.92C-162.621 454.141 -161.918 461.832 -162.762 469.334C-163.184 472.992 -163.934 476.696 -163.231 480.26C-162.668 483.074 -161.215 485.606 -159.808 488.091C-156.667 493.578 -153.527 499.064 -150.386 504.55C-147.807 509.005 -149.776 513.929 -151.37 518.853C-152.12 521.197 -153.339 523.354 -154.277 525.605C-155.167 527.715 -155.824 529.919 -156.433 532.123C-159.48 542.721 -162.059 553.459 -164.215 564.244C-164.965 567.996 -165.668 571.794 -167.121 575.358C-168.575 578.921 -170.825 582.251 -174.106 584.267C-175.606 585.205 -177.247 585.815 -178.607 586.893C-180.81 588.628 -181.982 591.348 -183.763 593.552C-186.857 597.491 -191.592 599.742 -196.139 601.805C-203.499 605.181 -206.312 613.716 -210.109 620.89C-211.234 623.047 -212.313 625.251 -213.953 627.08C-216.578 629.987 -220.376 631.535 -224.032 632.988C-234.486 637.115 -244.987 641.241 -255.441 645.368\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M185.218 159.517C173.733 165.004 162.857 171.616 152.684 179.259C149.965 181.275 147.293 183.432 145.137 186.011C142.277 189.481 140.355 193.655 138.855 197.875C132.948 214.569 132.573 232.669 132.62 250.394C132.62 256.913 132.667 263.431 133.652 269.855C134.449 275.06 135.808 280.124 136.605 285.282C137.777 292.41 137.918 299.631 138.105 306.806C138.293 315.809 137.167 323.687 139.324 332.456C140.543 337.38 142.559 342.35 141.762 347.368C141.48 349.243 140.777 351.072 140.121 352.901C132.058 375.784 133.136 400.731 133.511 424.974C133.605 430.836 133.652 436.697 132.386 442.418C130.417 451.281 125.26 459.393 118.088 464.926C111.665 469.85 109.462 478.197 106.134 485.606C101.118 496.86 95.7267 508.114 88.1324 517.868C83.5383 523.823 78.1003 529.263 74.9595 536.062C71.5373 543.377 71.0217 551.865 72.6155 559.789C74.2094 567.714 77.8659 575.123 82.4132 581.829C86.0228 587.128 90.2888 592.051 95.5392 595.709C98.8676 598.007 102.524 599.788 105.806 602.133C109.931 605.087 113.353 608.839 116.588 612.684C117.947 614.325 119.354 616.013 120.01 618.03C121.182 621.5 120.151 625.298 119.072 628.815C118.838 629.565 118.557 630.409 117.947 630.925C117.291 631.441 116.4 631.535 115.556 631.581C109.087 631.675 103.087 628.533 97.1331 625.908C86.9135 621.406 76.0846 618.358 65.0212 616.857C55.2704 615.544 46.1291 616.388 36.6596 619.061C32.1123 620.374 27.8464 622.531 23.6742 624.829C17.4862 628.252 11.4388 632.05 5.67277 636.177C3.00068 638.099 0.328607 640.069 -1.73405 642.648C-3.93735 645.368 -5.39061 648.65 -6.98448 651.745C-10.266 658.169 -14.3444 664.172 -18.376 670.127C-20.4855 673.269 -22.6419 676.41 -24.7515 679.505C-25.6891 680.912 -26.6735 682.319 -28.0799 683.21C-31.1739 685.132 -35.4398 683.726 -38.0182 681.193C-40.5965 678.614 -42.0028 675.144 -43.6905 671.909C-46.8782 665.719 -51.2379 660.092 -56.4884 655.45C-63.7077 654.183 -72.099 653.152 -79.3183 651.886C-85.4594 650.807 -91.6474 649.729 -97.3197 647.243C-108.617 642.367 -118.087 632.285 -130.322 631.769C-133.416 631.628 -136.51 632.144 -139.604 632.754C-143.683 633.598 -147.714 634.582 -151.699 635.802C-156.434 633.973 -161.684 635.52 -166.419 637.302C-171.154 639.037 -175.466 641.804 -179.92 644.242C-185.686 647.337 -191.78 649.916 -198.203 651.276C-213.016 654.418 -229.283 651.135 -242.925 657.653C-247.707 659.951 -251.972 663.374 -256.988 665.062C-258.864 665.672 -260.879 666.141 -262.239 667.548C-263.036 668.392 -263.505 669.423 -263.927 670.502C-265.567 674.347 -267.208 678.192 -268.849 681.991C-270.302 685.367 -271.755 688.837 -274.24 691.557C-277.896 695.589 -280.334 698.966 -285.491 700.747C-286.991 701.263 -288.257 702.904 -289.757 702.576C-290.741 702.342 -291.491 701.591 -292.101 700.794C-292.523 700.279 -292.991 699.669 -293.132 699.012C-293.226 698.544 -293.226 698.075 -293.179 697.606C-293.085 696.386 -292.898 695.12 -292.71 693.901C-292.241 690.947 -291.772 688.04 -291.304 685.085C-291.069 683.632 -290.835 682.131 -290.46 680.678C-289.429 676.973 -287.319 673.644 -285.256 670.361C-282.772 666.422 -283.428 660.983 -282.49 656.387C-281.506 651.464 -280.287 646.352 -277.099 642.46C-275.412 640.397 -273.255 638.709 -271.052 637.208C-263.13 631.628 -254.504 627.127 -245.456 623.75C-243.019 622.813 -240.347 621.875 -238.846 619.718C-237.487 617.795 -237.299 615.263 -235.846 613.434C-234.112 611.277 -231.018 610.621 -229.096 608.604C-225.674 605.04 -221.501 601.57 -218.829 597.444C-217.61 595.568 -216.673 593.552 -215.407 591.723C-212.407 587.409 -207.766 584.455 -203.172 581.923C-198.578 579.343 -193.796 576.952 -189.483 573.951C-185.17 570.903 -181.186 567.151 -178.748 562.462C-176.217 557.585 -175.513 551.958 -173.404 546.847C-172.044 543.518 -170.029 540.376 -169.7 536.765C-168.528 523.401 -165.575 510.037 -170.029 497.376C-171.997 491.749 -174.857 486.309 -175.795 480.448C-176.826 474.258 -175.748 467.928 -175.795 461.644C-175.888 452.969 -178.232 444.528 -180.107 436.088C-180.998 432.102 -181.842 428.022 -181.42 423.99C-180.951 419.535 -179.029 415.361 -177.857 411.047C-176.31 405.42 -175.982 399.465 -173.919 394.025C-172.513 390.227 -170.31 386.757 -168.435 383.146C-164.684 376.019 -162.153 368.235 -160.934 360.263C-155.027 354.917 -152.168 347.555 -149.261 340.146C-147.527 335.738 -145.745 331.284 -145.323 326.547C-144.855 321.671 -145.792 316.794 -146.87 312.058C-150.152 297.24 -154.652 282.422 -163.184 269.855C-165.903 265.822 -169.044 262.071 -171.529 257.944C-175.466 251.426 -177.81 243.923 -178.326 236.327C-178.748 230.465 -179.264 224.463 -179.17 218.602C-179.123 216.82 -179.123 214.991 -178.654 213.256C-177.717 209.645 -175.091 206.644 -171.997 204.534C-169.982 203.174 -167.638 202.095 -165.2 201.955C-163.231 201.861 -161.309 202.377 -159.528 203.221C-152.965 206.316 -149.167 213.256 -143.261 217.476C-135.807 222.775 -125.634 223.103 -117.009 220.008C-114.759 219.211 -112.321 218.414 -110.071 217.57C-101.679 214.334 -93.0537 211.333 -84.0999 210.208C-75.2867 209.082 -66.3329 209.833 -57.4728 209.786C-54.3319 209.786 -51.1442 209.645 -48.1439 208.707C-46.0344 208.051 -44.0655 207.019 -42.3779 205.612C-40.2683 203.924 -37.69 202.236 -35.4398 200.782C-33.6584 199.61 -31.8302 198.438 -30.33 196.844C-29.0643 195.531 -28.1267 193.936 -27.236 192.342C-17.6259 175.367 -14.0163 154.875 -1.03086 140.338C1.21931 137.806 3.7039 135.508 6.23535 133.211C9.09495 130.585 12.0952 127.865 15.7517 126.552C22.3147 124.161 29.5809 126.599 36.1439 129.037C45.4259 132.507 54.8017 135.977 63.0054 141.558C64.5055 142.589 66.0525 142.027 67.8339 142.027C79.5067 142.214 91.4139 142.589 102.337 146.763C105.149 147.841 107.868 149.154 110.681 150.28C120.291 154.172 130.745 155.86 141.058 155.203C146.121 154.875 150.715 152.015 155.356 149.998C167.17 144.887 180.061 142.308 192.953 142.402\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M189.719 177.619C174.249 180.48 160.841 192.39 156.154 207.396C153.482 215.883 153.528 224.98 154.278 233.843C155.685 250.068 159.529 265.917 163.373 281.767C165.576 290.864 167.826 300.008 170.03 309.105C171.389 314.685 172.749 320.359 172.561 326.127C172.045 342.398 159.576 355.716 155.31 371.378C150.388 389.338 156.576 408.61 153.997 427.039C153.013 433.885 150.856 440.544 150.856 447.484C150.856 450.813 151.325 454.236 150.481 457.425C148.09 466.147 137.308 469.383 131.917 476.651C122.87 488.843 117.713 503.145 111.009 516.791C109.275 520.308 107.54 523.824 106.837 527.67C106.181 531.187 106.462 534.797 106.884 538.361C110.4 567.669 125.542 594.022 136.605 621.36C137.355 623.236 138.105 625.159 138.293 627.175C138.715 631.958 135.761 636.46 132.105 639.508C128.448 642.556 124.042 644.619 120.057 647.245C115.041 650.527 110.4 654.841 104.54 656.154C94.3675 658.405 83.9135 650.855 73.694 653.059C69.9437 653.857 66.5215 655.967 62.7713 656.764C58.0834 657.749 53.2549 656.717 48.567 655.545C43.926 654.419 39.1444 653.2 34.4097 653.95C29.6749 654.701 24.987 657.889 24.0495 662.579C23.4869 665.533 21.5649 667.737 19.1741 669.566C16.7833 671.394 14.0174 672.707 11.5329 674.442C6.7981 677.819 3.32909 682.648 -0.983749 686.587C-2.29635 687.76 -3.65584 688.885 -4.68717 690.339C-5.53099 691.511 -6.04665 692.824 -6.60919 694.184C-7.9218 697.373 -9.23441 700.608 -10.3126 703.891C-14.1098 715.52 -14.9067 728.275 -21.0947 738.825C-21.2353 739.013 -21.3291 739.247 -21.5635 739.341C-22.126 739.622 -22.6886 738.919 -22.9699 738.309C-28.4547 725.93 -33.5644 713.41 -38.2992 700.702C-40.9713 693.574 -45.8935 687.478 -50.1126 681.148C-51.6127 678.897 -53.1128 676.599 -55.3161 675.052C-57.3788 673.645 -59.8165 672.989 -62.2542 672.332C-67.739 670.878 -73.2238 669.472 -78.8492 668.768C-81.9901 668.393 -85.2247 668.252 -88.3187 667.549C-95.3037 665.955 -101.351 661.594 -106.18 656.295C-108.57 653.669 -111.43 650.48 -114.899 651.184C-117.29 651.653 -119.774 652.215 -122.025 651.231C-124.228 650.246 -126.197 648.745 -128.306 647.573C-134.307 644.244 -141.76 643.634 -148.23 645.932C-150.949 646.87 -153.48 648.276 -155.965 649.683C-167.122 655.967 -178.373 662.625 -190.936 665.204C-194.546 665.955 -198.249 666.377 -201.765 667.596C-205.234 668.862 -208.563 671.113 -210.063 674.489C-218.36 680.491 -224.361 689.307 -229.892 697.982C-234.065 704.547 -238.096 711.3 -243.768 716.551C-246.019 718.615 -248.456 720.444 -250.472 722.694C-254.879 727.665 -256.754 734.417 -260.551 739.857C-266.317 748.251 -276.021 753.034 -285.725 756.222C-295.429 759.411 -305.555 761.334 -314.743 765.788C-318.446 767.57 -321.962 769.774 -325.853 771.04\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M189.391 213.771C177.858 223.15 174.014 239.234 174.202 254.099C174.296 259.867 174.905 265.728 177.296 270.933C179.124 274.872 181.89 278.295 183.625 282.234C186.953 289.784 186.203 298.646 189.437 306.243\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M187.469 344.602C180.015 351.682 177.671 362.608 177.296 372.878C176.921 383.147 178.187 393.557 176.312 403.639C175.515 408 174.155 412.22 173.452 416.628C171.999 425.631 173.546 434.822 173.452 443.919C173.358 453.016 171.249 462.911 164.358 468.819C161.31 471.445 157.513 473.086 154.138 475.29C149.309 478.432 145.184 482.793 142.981 488.092C137.168 502.019 145.231 519.65 137.121 532.358C134.777 536.016 131.871 538.782 130.792 543.003C129.949 546.285 129.902 549.755 129.808 553.131C129.714 557.961 129.62 562.838 130.652 567.574C132.949 578.125 140.403 586.659 145.7 596.038C151.044 605.51 154.326 616.248 161.545 624.361C163.186 626.189 164.967 627.831 166.514 629.753C170.452 634.583 172.655 640.82 172.561 647.056C172.514 651.183 171.389 655.45 168.717 658.592C166.045 661.734 161.545 663.516 157.607 662.296C149.309 665.532 141.856 670.503 135.902 677.114C134.918 678.193 134.027 679.271 132.949 680.256C129.62 683.398 125.12 685.133 120.62 685.93C116.119 686.727 111.478 686.633 106.884 686.54C102.29 686.446 97.6961 686.352 93.1019 686.258C91.0393 686.211 88.9766 686.165 86.9608 686.493C83.2574 687.056 79.7884 689.775 77.3507 692.683C76.3194 693.902 75.4756 695.309 74.6317 696.668C70.4127 703.655 66.2405 710.689 62.0214 717.676C60.99 719.411 59.9587 721.146 58.5992 722.647C55.8334 725.695 51.8956 727.523 49.1766 730.618C47.5827 732.4 46.4108 734.51 44.8169 736.245C43.0824 738.121 40.926 739.528 39.0977 741.357C36.0975 744.358 34.1754 748.391 32.2065 752.095C30.1438 755.94 27.1436 759.223 25.2685 763.208C24.1434 765.6 23.4402 768.179 22.362 770.571C20.0649 775.776 16.0334 780.137 14.0176 785.482C13.1738 787.686 12.6112 790.171 10.8298 791.672C9.84539 792.516 8.57966 792.938 7.36081 793.219C3.56364 794.064 -0.514809 793.548 -3.93695 791.719C-7.17158 789.984 -9.7499 787.217 -12.1876 784.451C-20.6258 774.885 -28.642 764.475 -32.1579 752.236C-34.1737 745.249 -34.6894 737.746 -37.5958 731.087C-39.7054 726.304 -39.9867 720.677 -41.5337 715.66C-42.7525 711.768 -44.2995 708.016 -46.1278 704.406C-47.7685 701.264 -49.5968 698.169 -51.9407 695.496C-55.9723 690.854 -61.1758 687.477 -66.4731 684.383C-68.3483 683.304 -70.2234 682.226 -72.2861 681.522C-80.7242 678.662 -90.0531 682.554 -98.8194 681.053C-106.742 679.693 -113.305 674.019 -118.18 667.642C-121.415 667.408 -124.321 667.173 -127.556 667.642C-137.541 669.19 -145.182 677.161 -154.324 681.428C-157.605 682.976 -161.168 684.054 -164.075 686.258C-165.387 687.243 -166.512 688.415 -167.872 689.353C-168.903 690.104 -170.028 690.713 -171.059 691.463C-174.435 694.042 -176.075 698.263 -177.576 702.249C-181.795 705.719 -182.873 711.815 -185.311 716.691C-186.858 719.833 -189.061 722.6 -191.78 724.851C-193.983 726.679 -196.515 728.18 -198.343 730.431C-201.156 733.901 -201.812 738.59 -203.406 742.763C-204.578 745.811 -206.218 748.625 -207.859 751.438C-209.266 753.783 -210.719 756.221 -212.875 757.957C-216.204 760.629 -220.798 761.145 -225.064 760.817C-229.33 760.489 -233.502 759.316 -237.768 759.082C-243.534 758.707 -248.362 762.036 -253.472 764.709C-256.004 766.022 -258.488 767.335 -261.02 768.601C-265.098 770.711 -269.13 772.821 -273.208 774.978C-276.396 776.667 -279.584 778.402 -282.865 779.808C-285.537 780.981 -288.303 781.918 -291.116 782.716C-304.757 786.467 -319.899 785.623 -332.275 792.469C-331.76 792.516 -331.244 792.563 -330.681 792.563\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M188.219 470.32C184 475.994 178.89 481.012 173.124 485.138C170.733 486.873 168.202 488.468 166.326 490.718C164.779 492.594 163.748 494.798 162.904 497.096C160.467 503.801 159.81 511.07 160.935 518.104C161.826 523.637 163.842 529.217 162.81 534.703C161.217 543.097 153.294 548.49 148.653 555.664C140.965 567.528 143.825 585.066 154.935 593.834C156.998 595.476 159.248 596.789 161.076 598.664C164.545 602.228 165.951 607.293 168.623 611.466C173.311 618.828 181.656 623.283 186.437 630.598\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M191.828 490.576C183.156 498.97 178.374 511.209 178.983 523.26C179.265 528.84 180.671 534.374 180.437 540.001C180.155 545.581 177.765 551.583 172.655 553.974C170.498 554.959 168.061 555.241 165.998 556.366C162.341 558.382 160.654 562.603 159.201 566.495C157.794 570.293 156.341 574.466 157.56 578.358C158.169 580.422 159.529 582.204 160.794 583.939C164.31 588.628 167.779 593.317 171.295 598.006C176.264 604.618 181.749 611.652 189.672 613.997\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M191.031 550.365C186.062 555.289 181.749 560.869 178.374 567.012C177.624 568.372 176.874 569.826 176.78 571.373C176.546 575.968 181.843 579.298 182.171 583.893C182.359 586.519 180.859 589.004 180.624 591.63C180.202 595.898 183.671 600.212 187.937 600.727\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M186.718 642.133C186.437 645.65 186.109 649.167 184.843 652.449C184.14 654.278 183.203 655.966 182.453 657.748C177.155 670.315 182.359 684.664 181.327 698.263C180.812 704.922 178.796 711.299 177.765 717.911C175.233 734.745 179.827 752.564 190.187 766.069\" stroke=\"#BE935F\" stroke-width=\"0.2984\" stroke-miterlimit=\"10\"></path>\n<path d=\"M187.609 782.667C184.562 787.216 179.593 790.358 174.202 791.202C170.499 791.764 166.701 791.295 162.998 791.811C156.623 792.655 150.997 796.172 144.809 798.001C136.98 800.299 128.589 799.783 120.526 801.096C105.665 803.487 92.1644 812.116 77.1632 813.241C71.5377 813.663 65.8654 813.053 60.3337 812.115C56.7241 811.506 53.1613 810.849 49.5985 810.146C40.2228 808.317 30.847 806.441 21.4713 804.613C11.4393 802.643 0.7509 804.988 -9.32802 803.253C-11.9532 802.831 -14.6253 802.221 -16.9224 800.861C-19.7351 799.22 -21.8915 796.594 -23.6729 793.874C-25.8293 790.498 -27.6107 786.841 -28.8296 782.995C-30.3297 778.447 -31.1266 773.711 -32.2986 769.068C-34.1268 761.847 -36.9396 754.86 -39.9867 748.061C-44.8152 737.322 -50.3937 726.725 -58.5038 718.237C-66.6138 709.75 -77.5365 703.372 -89.303 702.81C-96.6161 702.435 -104.257 699.715 -111.57 700.371C-118.649 700.981 -125.4 703.466 -132.103 705.951C-134.166 706.702 -136.229 707.499 -138.104 708.624C-143.682 712.001 -146.87 718.19 -149.777 724.052C-151.417 727.381 -153.152 731.133 -152.167 734.696C-151.745 736.197 -150.902 737.557 -150.808 739.104C-150.667 740.933 -151.652 742.621 -152.449 744.309C-157.183 754.391 -156.058 766.677 -161.543 776.384C-163.043 779.01 -165.012 781.401 -167.637 782.902C-171.763 785.246 -176.826 784.965 -181.56 784.543C-194.405 783.417 -207.156 781.682 -219.813 779.338C-226.705 778.072 -234.158 782.48 -239.971 786.325C-245.784 790.217 -251.269 794.672 -257.644 797.673C-266.551 801.846 -276.677 802.831 -285.865 806.395C-290.928 808.364 -295.71 811.131 -300.96 812.678C-308.836 814.976 -317.274 814.319 -325.244 812.35\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M188.734 132.133C177.39 134.853 166.983 140.902 155.591 143.481C136.418 147.842 116.401 141.934 98.5867 133.587C90.4298 129.742 81.7572 125.287 72.8971 126.975C70.6938 127.397 68.5374 128.194 66.2872 128.382C63.0057 128.616 59.7711 127.491 56.6771 126.272C47.1139 122.52 37.6912 118.066 27.6123 116.049C17.5334 114.033 6.37628 114.783 -2.01501 120.785C-12.7034 128.429 -25.3606 134.29 -35.1114 143.106C-39.3773 146.951 -43.6433 150.843 -47.9092 154.688C-60.2383 165.896 -73.0362 177.337 -88.6468 183.152C-96.7099 186.153 -106.648 187.279 -113.211 181.652C-115.133 180.01 -116.68 177.806 -118.93 176.634C-120.571 177.056 -122.634 175.978 -124.04 175.18C-125.493 174.336 -126.9 173.352 -128.541 173.023C-130.931 172.554 -133.557 173.539 -135.807 172.508C-136.557 172.132 -137.213 171.57 -137.776 170.913C-139.276 169.084 -139.885 166.646 -140.12 164.254C-140.307 161.863 -140.166 159.471 -140.307 157.08C-140.729 150.187 -143.729 143.669 -147.573 137.901C-148.136 137.01 -148.745 136.166 -149.495 135.416C-151.23 133.681 -153.668 132.79 -156.105 132.462C-158.543 132.133 -161.027 132.368 -163.465 132.555C-170.731 133.165 -177.248 138.792 -183.436 142.59C-187.561 145.122 -191.686 147.889 -194.593 151.781C-197.171 155.251 -198.624 159.378 -200.031 163.41C-203.781 174.196 -207.531 184.981 -211.281 195.766C-211.797 197.314 -212.313 199.142 -211.328 200.455C-210.531 201.534 -209.078 201.815 -207.859 202.378C-203.875 204.3 -202.89 209.459 -202.187 213.82C-196.14 250.161 -171.856 282.892 -172.935 319.702C-173.122 325.517 -173.919 331.285 -174.997 337.005C-176.31 343.758 -178.044 350.464 -179.732 357.122C-181.842 365.281 -183.951 373.441 -186.014 381.553C-187.139 386.008 -188.264 390.463 -189.483 394.871C-193.093 408.141 -196.749 421.974 -194.405 435.526C-193.608 440.028 -192.202 444.529 -192.436 449.125C-192.624 452.501 -193.749 455.784 -193.889 459.16C-194.03 463.005 -192.952 466.756 -191.921 470.461C-188.78 482.278 -186.764 494.376 -185.967 506.521C-185.217 517.869 -185.639 529.92 -191.733 539.486C-197.734 548.958 -201.718 559.603 -211.188 565.605C-216.626 569.075 -223.282 570.763 -227.877 575.265C-230.127 577.469 -231.721 580.189 -233.314 582.861C-235.049 585.769 -236.783 588.723 -238.518 591.63C-239.784 593.787 -241.096 595.991 -242.784 597.867C-243.768 598.992 -244.893 599.977 -245.831 601.149C-248.081 603.963 -249.206 607.574 -251.644 610.247C-253.988 612.779 -257.457 614.139 -260.879 613.904C-262.239 613.81 -263.645 613.482 -264.958 613.81C-270.489 615.076 -274.802 618.218 -279.349 621.594C-282.021 623.564 -284.881 625.205 -287.741 626.846C-291.022 628.722 -294.304 630.645 -297.96 631.676C-303.211 633.13 -308.977 632.708 -313.899 635.053C-318.821 637.444 -322.103 642.415 -323.79 647.62\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M188.594 119.237C173.171 126.787 155.591 132.18 138.902 128.194C131.871 126.506 125.12 123.176 117.901 122.66C113.635 122.379 109.322 123.082 105.15 122.285C100.227 121.394 95.9146 118.628 91.5549 116.189C77.7725 108.546 62.3494 104.232 46.7857 101.793C42.3322 101.09 37.785 100.574 33.2847 100.856C22.8307 101.512 13.2206 106.53 3.93861 111.453C-10.6407 119.19 -28.2202 122.707 -44.5808 125.099C-52.5033 126.271 -60.6602 126.928 -68.489 125.146C-76.0833 123.411 -82.9276 119.378 -90.2407 116.705C-97.5537 113.985 -105.992 112.672 -112.883 116.283C-118.18 119.05 -122.071 124.395 -127.79 126.037C-133.557 127.678 -139.698 125.099 -144.807 121.91C-149.917 118.721 -154.746 114.783 -160.559 113.329C-166.372 111.875 -173.732 113.938 -175.747 119.612C-186.201 120.363 -196.655 121.066 -207.062 121.816C-211 122.098 -215.219 122.473 -218.173 125.052C-222.439 128.71 -222.532 135.274 -221.173 140.714C-219.813 146.153 -217.282 151.452 -217.563 157.079C-217.798 162.425 -220.517 167.255 -222.954 171.991C-227.97 181.651 -232.189 192.811 -229.048 203.268C-226.517 211.615 -219.766 217.852 -215.36 225.401C-203.312 246.128 -210.953 272.622 -205.328 295.927C-202.703 306.759 -197.218 316.794 -195.015 327.72C-189.202 356.606 -207.156 384.788 -209.641 414.143C-210.25 421.176 -209.969 428.304 -209.828 435.338C-209.453 460.707 -211.422 486.122 -215.735 511.116C-219.86 535.078 -227.783 558.852 -245.878 575.124C-247.987 577.046 -250.191 578.828 -252.066 580.985C-254.879 584.127 -256.894 587.972 -259.895 590.926C-268.239 599.179 -281.693 599.132 -291.913 604.9C-298.007 608.323 -302.836 613.716 -309.117 616.811C-317.368 620.89 -326.978 620.468 -336.166 619.999\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M189.344 101.512C183.062 106.014 176.78 110.469 170.499 114.97C168.201 116.611 165.904 118.253 163.279 119.284C157.841 121.441 151.7 120.644 146.122 118.956C140.543 117.268 135.293 114.642 129.667 113.048C116.682 109.343 102.618 111.172 89.6328 107.421C85.6481 106.248 81.804 104.607 77.7256 103.716C72.4752 102.544 66.9904 102.684 61.6931 101.794C55.7864 100.762 50.2078 98.3704 44.6761 96.0258C36.0504 92.3682 27.5654 87.5383 18.1428 87.3976C16.9239 87.3976 15.5645 87.4445 14.7206 88.3355C14.1581 88.8513 13.9237 89.6484 13.6893 90.3518C12.4705 94.2439 11.2516 98.5111 8.06388 101.09C4.40734 104.044 -0.983719 104.044 -4.5465 107.092C-9.65628 111.5 -16.5943 111.969 -22.8292 114.454C-26.3451 115.861 -29.9079 117.268 -33.6113 118.159C-44.534 120.832 -56.0662 118.956 -66.7545 115.627C-77.4429 112.297 -87.7093 107.561 -98.4445 104.279C-101.679 103.294 -105.054 102.45 -108.43 102.544C-111.805 102.638 -115.321 103.81 -117.618 106.295C-119.212 107.983 -120.149 110.187 -121.696 111.922C-124.275 114.83 -128.447 116.143 -132.291 115.721C-136.182 115.298 -139.792 113.282 -142.604 110.562C-155.683 107.983 -165.059 92.884 -178.373 91.7117C-184.514 91.1959 -190.467 93.7749 -196.562 94.3845C-205.047 95.2286 -213.344 92.3213 -221.501 89.836C-229.658 87.3507 -238.424 85.2406 -246.534 87.7258C-254.691 90.2111 -261.489 98.8862 -258.957 106.999C-256.988 113.282 -250.519 116.846 -245.784 121.394C-236.83 130.023 -233.643 142.871 -230.877 154.969C-230.127 158.252 -229.377 161.628 -229.939 164.957C-231.768 175.461 -245.128 179.682 -249.863 189.248C-250.8 191.17 -251.41 193.374 -250.847 195.437C-249.91 198.954 -246.159 200.924 -244.237 204.065C-242.737 206.504 -242.456 209.458 -241.612 212.178C-240.065 216.867 -236.737 220.665 -234.111 224.839C-225.111 238.906 -223.939 256.585 -225.017 273.278C-226.048 289.972 -229.002 306.713 -227.033 323.312C-225.955 332.644 -223.329 341.929 -224.361 351.213C-225.955 365.469 -235.94 379.63 -230.736 393.041C-226.564 403.78 -227.83 416.534 -224.079 427.413C-222.532 431.915 -220.517 436.323 -220.282 441.059C-219.907 448.749 -224.314 455.783 -226.611 463.145C-229.142 471.164 -229.189 479.792 -231.392 487.904C-232.611 492.453 -234.533 496.767 -236.408 501.081C-243.065 516.227 -249.769 531.42 -256.426 546.566C-258.113 550.365 -259.754 554.163 -261.957 557.68C-269.552 569.872 -282.537 577.468 -295.007 584.549C-300.492 587.644 -305.93 590.786 -311.414 593.881C-314.18 595.475 -317.04 597.069 -319.243 599.414C-321.915 602.181 -323.603 605.885 -323.978 609.73\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M190.141 82.1C185.031 80.4119 178.983 78.9113 174.718 82.1469C173.264 83.2723 172.233 84.8198 171.061 86.2265C163.185 95.7457 149.591 98.3247 137.308 97.6213C125.026 96.918 112.885 93.4948 100.555 93.5886C95.4926 93.6355 90.4297 94.292 85.4136 93.7762C75.4285 92.7914 66.4278 87.4926 57.5208 82.8503C48.4264 78.0673 39.0506 73.847 29.4405 70.2363C23.1587 67.8448 16.6895 65.6877 9.98585 65.2657C5.4855 64.9844 0.422601 65.6877 -2.48388 69.1578C-4.59342 71.6899 -5.15597 75.1131 -6.14043 78.2548C-10.7345 93.0728 -25.9701 102.733 -41.3463 104.655C-56.7225 106.578 -72.1925 102.076 -86.5374 96.2615C-94.2723 93.1197 -102.007 89.509 -110.305 88.618C-118.602 87.7271 -127.837 90.1655 -132.713 96.918C-135.666 101.044 -140.12 104.046 -144.573 101.607C-146.636 100.482 -147.995 98.4185 -149.355 96.4959C-154.746 88.7587 -161.074 81.7718 -167.403 74.7848C-169.044 73.0029 -170.685 71.1272 -172.888 70.0956C-176.873 68.2199 -181.56 69.3453 -185.78 70.5645C-205.328 76.0509 -226.517 65.3126 -245.878 59.4042C-252.113 57.4816 -258.395 55.3714 -264.911 55.137C-271.427 54.9025 -278.365 56.9658 -282.443 62.0301C-286.522 67.1414 -286.991 74.3628 -285.303 80.6932C-283.615 87.0237 -280.099 92.6508 -276.724 98.2309C-269.786 109.766 -263.411 121.583 -257.598 133.728C-254.879 139.402 -252.207 145.405 -252.582 151.688C-252.957 157.878 -256.238 163.458 -259.098 168.991C-264.489 179.448 -268.661 190.515 -271.474 201.91C-271.896 203.645 -272.318 205.473 -272.036 207.255C-271.146 212.507 -265.098 214.758 -260.551 217.525C-253.379 221.886 -248.55 229.435 -246.206 237.501C-243.862 245.566 -243.768 254.101 -244.472 262.494C-240.674 269.763 -243.159 279 -246.487 286.503C-249.816 294.006 -254.504 301.04 -256.238 309.058C-260.551 328.425 -247.238 349.573 -254.972 367.861C-256.941 372.457 -260.129 376.536 -261.723 381.272C-263.879 387.65 -262.942 394.684 -260.879 401.061C-258.863 407.485 -255.769 413.487 -253.613 419.865C-246.112 441.716 -249.581 465.632 -253.754 488.327C-254.457 492.266 -255.254 496.252 -257.223 499.722C-259.988 504.599 -265.098 508.069 -270.677 508.866C-277.334 509.804 -282.631 514.259 -285.584 520.261C-287.225 523.59 -288.022 527.529 -290.835 530.015C-292.194 531.234 -293.929 531.937 -295.288 533.156C-298.195 535.735 -298.851 540.096 -301.382 543.051C-302.742 544.598 -304.523 545.677 -306.164 546.943C-311.649 551.022 -315.915 556.978 -322.337 559.416C-327.634 561.432 -333.869 560.776 -338.792 563.636\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M188.172 66.2978C185.969 69.2051 181.515 68.9707 178.14 67.6108C174.765 66.2509 171.624 64.0939 168.014 63.9063C161.967 63.6249 157.326 68.7831 151.982 71.5966C145.747 74.8322 138.34 74.8791 131.402 73.9881C124.464 73.0972 117.573 71.2684 110.541 71.1746C104.822 71.0808 99.1493 72.1124 93.4769 72.0186C84.3825 71.9249 75.5224 69.1113 66.8967 66.3447C58.3648 63.6249 49.786 60.8583 41.2541 58.1385C36.5662 56.638 31.9252 55.1374 27.0967 54.1058C18.8929 52.3239 10.361 51.855 2.39164 49.1821C1.82909 48.9946 1.17279 48.7601 0.89152 48.1974C-2.48375 47.6816 -5.90589 47.2127 -9.14052 48.2912C-10.0781 48.6194 -11.0157 48.9946 -11.8126 49.6042C-14.2034 51.433 -14.766 54.7154 -14.8128 57.7165C-14.8597 60.7176 -14.5784 63.8594 -15.8442 66.5323C-18.0943 71.1746 -23.9542 72.5814 -27.8451 75.9576C-31.2672 78.9587 -33.0486 83.3666 -34.5956 87.6338C-35.1582 89.1812 -35.7676 90.8224 -36.9396 91.9947C-38.721 93.8235 -41.5337 94.1987 -44.112 93.9642C-46.3153 93.7297 -48.0498 92.9795 -49.5968 91.3382C-50.3 90.588 -50.9094 89.697 -51.7064 89.0405C-53.0658 87.962 -54.8941 87.6337 -56.5817 87.7275C-58.3163 87.8682 -59.957 88.384 -61.6446 88.8061C-67.3638 90.3066 -73.5049 90.8693 -79.1773 89.1812C-80.6774 88.7123 -82.1306 88.1496 -83.5839 87.54C-85.459 86.7428 -87.381 85.9925 -89.2562 85.1954C-92.2095 85.7112 -95.3973 84.0699 -98.0694 82.7101C-100.741 81.3502 -103.132 79.6152 -105.757 78.1615C-115.227 73.0503 -127.79 73.3785 -136.135 80.1779C-138.666 82.2411 -141.198 85.0078 -144.432 84.8671C-147.573 84.7733 -149.917 82.0536 -151.792 79.4745C-156.949 72.4407 -161.637 65.1255 -165.903 57.5289C-167.684 54.3403 -169.888 51.5267 -172.607 49.0883C-176.497 45.6652 -181.373 43.6957 -186.201 41.7732C-189.202 40.6008 -192.249 39.3816 -195.436 39.1003C-197.312 38.9127 -199.234 39.1003 -201.109 38.9596C-203.453 38.8189 -205.75 38.2562 -208 37.5529C-212.078 36.2399 -215.969 34.3642 -219.298 31.6444C-222.626 28.9247 -225.251 25.3609 -226.517 21.2344\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M186.25 42.335C181.843 39.6152 176.218 41.1627 171.249 42.5225C164.92 44.2576 158.498 45.5705 151.982 46.4615C128.73 49.6971 105.056 47.6807 81.6636 45.4767C75.9913 44.9609 70.319 44.3982 64.8342 42.757C56.3491 40.2248 48.7079 35.1136 40.0354 33.2848C38.9103 33.0503 37.6914 32.8627 36.5663 33.191C34.5037 33.8006 33.3317 35.8638 31.8316 37.4113C27.5188 41.8192 20.2526 41.6316 14.5333 39.4276C8.76727 37.1299 3.75126 33.2848 -1.92106 30.987C-8.62471 28.2673 -16.1722 27.7984 -23.1102 29.721C-26.0636 30.5181 -29.7201 30.9402 -31.0796 33.613C-32.486 36.3328 -32.6266 39.4745 -32.486 42.5225C-32.3922 44.914 -32.1578 47.3524 -31.7828 49.7439C-31.4078 52.2292 -30.939 55.1365 -32.6735 56.9653C-35.3456 59.7789 -40.1741 57.3874 -43.8306 58.5597C-46.4089 59.3568 -48.0497 61.7952 -49.2685 64.1867C-50.4874 66.5782 -51.425 69.2042 -53.3939 71.033C-57.0973 74.5968 -63.004 74.2686 -68.1138 73.659C-74.8174 72.9087 -81.0992 76.3318 -87.8497 75.8629C-93.7564 75.4409 -99.5694 73.5652 -104.539 70.3765C-107.304 68.5946 -109.836 66.4376 -112.742 64.937C-116.164 63.1551 -120.008 62.3111 -123.806 61.5139C-129.431 60.2947 -135.385 59.1224 -140.869 60.8574C-142.792 61.467 -144.62 62.4048 -146.636 62.6393C-151.511 63.1551 -155.73 59.2162 -158.402 55.0428C-161.074 50.9162 -163.09 46.1332 -167.075 43.2259C-168.669 42.0536 -170.497 41.2564 -172.044 40.0841C-174.2 38.396 -175.747 36.0983 -177.2 33.8006C-178.935 31.0808 -180.716 28.408 -182.451 25.6882C-183.904 23.4374 -185.404 21.0459 -185.732 18.373\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M135.805 1112.46C149.4 1106.7 154.697 1089.44 152.494 1074.86C150.243 1060.23 142.415 1047.19 136.649 1033.59C132.523 1023.93 129.429 1013.85 127.32 1003.53C125.538 994.623 124.366 985.151 119.069 977.742C115.6 972.865 110.35 968.926 108.99 963.064C108.193 959.594 108.896 955.984 109.647 952.467C115.741 923.112 121.976 893.289 136.367 867.029C138.336 863.418 140.54 859.667 140.633 855.494C140.727 850.57 137.727 846.021 133.883 842.973C129.992 839.925 125.304 838.19 120.71 836.455C108.85 832.047 96.6611 827.593 84.0039 827.452C77.4877 827.358 70.9247 828.484 64.4555 827.499C56.3923 826.327 49.1261 822.059 41.7193 818.636C31.781 813.994 21.2333 810.711 10.4512 808.883C-4.40934 806.35 -18.8011 811.837 -33.2866 807.617C-35.0211 807.101 -36.8494 806.491 -38.162 805.178C-39.9903 803.349 -40.4122 800.583 -40.6466 798.004C-41.8654 785.859 -42.7561 771.885 -52.5069 764.57C-56.0697 761.897 -60.6169 760.443 -63.6171 757.114C-67.7893 752.565 -68.5394 745.109 -73.8367 741.967C-75.4774 740.983 -77.4463 740.514 -79.3684 740.279C-88.1816 739.154 -97.5573 741.967 -103.745 748.345C-107.824 752.518 -110.355 757.958 -112.043 763.491C-114.574 772.025 -115.184 781.076 -118.371 789.375C-121.559 797.675 -128.403 805.506 -137.264 806.069C-145.28 806.585 -153.859 815.072 -160.422 810.43C-162.203 809.164 -163.562 807.382 -165.109 805.788C-170.735 800.161 -179.079 797.91 -187.049 798.051C-195.018 798.191 -202.753 800.442 -210.441 802.693C-216.067 804.334 -221.692 805.975 -227.318 807.663C-230.365 808.554 -233.506 809.492 -236.178 811.274C-241.944 815.166 -244.475 822.247 -246.678 828.812C-248.225 833.501 -249.772 838.143 -251.319 842.833C-253.382 849.116 -255.445 855.4 -256.898 861.871C-259.101 871.765 -259.758 882.035 -258.914 892.116C-258.539 896.571 -261.164 900.745 -265.383 902.339L-278.65 907.45C-281.65 908.622 -284.791 909.795 -287.979 909.42C-293.182 908.763 -297.073 904.121 -299.089 899.291C-301.105 894.461 -301.855 889.115 -304.011 884.332C-309.637 871.859 -324.028 865.2 -337.67 864.966C-351.312 864.731 -364.485 869.843 -377.001 875.329C-376.017 877.908 -374.376 880.206 -372.313 881.988\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M192.062 956.592C190.281 968.127 188.547 979.663 186.765 991.245C186.39 993.777 185.968 996.31 184.937 998.607C182.359 1004.23 176.358 1007.52 170.311 1008.88C166.56 1009.72 162.482 1010.05 159.341 1012.3C154.513 1015.72 153.481 1022.71 154.981 1028.43C156.482 1034.15 159.951 1039.12 162.623 1044.42C173.639 1066.09 170.733 1094.03 155.497 1112.98\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M192.203 1026.09C185.78 1036.4 179.123 1047.94 181.233 1059.9C181.936 1064.07 183.718 1067.96 185.452 1071.81C189.484 1080.72 193.562 1089.67 199.094 1097.69\" stroke=\"#BE935F\" stroke-width=\"0.2984\" stroke-miterlimit=\"10\"></path>\n<path d=\"M119.388 1113.1C131.603 1101.29 114.243 1107.91 128.728 1089.44C132.901 1084.14 138.198 1078.42 137.307 1071.71C136.698 1067.21 133.369 1063.69 130.51 1060.18C124.416 1052.58 120.009 1043.62 117.665 1034.2C115.509 1025.48 114.993 1016.1 110.399 1008.36C106.133 1001.28 98.8666 996.402 94.46 989.415C91.0379 983.929 89.5378 977.505 86.6782 971.69C81.0996 960.342 70.0831 951.151 69.0987 938.537C68.208 927.377 75.5679 917.201 76.693 906.088C77.5837 897.366 74.5835 888.738 70.927 880.766C62.5826 862.572 50.5347 846.113 35.7679 832.655C29.0174 826.465 21.2355 820.744 12.1411 819.431C2.95285 818.118 -6.18848 821.588 -14.861 825.011C-22.2679 827.919 -29.6747 830.826 -37.0815 833.733C-43.4102 836.218 -47.2073 841.939 -53.9579 841.236C-55.1767 841.095 -56.4424 840.861 -57.38 840.157C-59.7708 838.422 -59.5833 834.905 -59.5833 831.951C-59.5833 825.621 -62.0679 818.728 -67.6933 815.773C-75.8033 811.459 -85.9291 817.04 -94.883 814.929C-98.6333 814.038 -102.009 811.835 -105.759 811.084C-113.025 809.631 -120.291 813.898 -125.448 819.244C-130.605 824.589 -134.355 831.154 -139.699 836.312C-144.481 841.001 -150.106 846.066 -156.669 847.426C-162.81 848.692 -169.326 846.488 -175.374 848.082C-177.343 848.598 -179.265 849.536 -181.28 849.911C-183.39 850.286 -185.593 850.099 -187.75 850.192C-195.86 850.614 -202.891 855.585 -209.454 860.415C-211.658 862.056 -213.955 863.744 -215.361 866.042C-216.721 868.293 -217.236 870.966 -217.658 873.545C-218.596 878.89 -219.44 884.564 -217.564 889.676C-216.205 893.333 -213.486 896.475 -212.548 900.273C-211.33 905.103 -213.205 910.214 -215.924 914.435C-218.924 919.077 -223.143 923.11 -228.3 925.032C-233.456 927.002 -239.644 926.627 -244.098 923.344C-245.692 922.125 -247.051 920.624 -248.786 919.546C-251.036 918.139 -253.755 917.67 -256.38 917.389C-261.818 916.779 -267.35 916.732 -272.834 917.295C-278.319 917.858 -283.757 919.687 -289.148 920.624C-291.68 921.047 -294.399 921.469 -296.696 920.343C-298.993 919.218 -300.352 916.826 -301.149 914.388C-301.946 911.949 -302.321 909.417 -303.306 907.073C-305.978 900.695 -312.963 896.991 -319.807 896.194C-326.651 895.396 -333.542 897.085 -340.293 898.726C-340.012 899.148 -339.777 899.617 -339.496 900.039\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M11.1094 1106.74C10.1718 1085.97 7.64035 1065.29 3.51503 1044.94C1.73364 1036.12 -0.329029 1027.12 1.31173 1018.3C2.15554 1013.89 3.89007 1009.11 1.87428 1005.08C0.889831 1003.02 -0.938445 1001.52 -2.34481 999.733C-8.15776 992.137 -5.53256 980.414 -11.2986 972.817C-17.9554 964.048 -31.1283 965.502 -42.0979 966.581C-56.3022 967.987 -70.7408 967.237 -84.7107 964.377C-93.852 962.501 -103.087 959.734 -112.369 960.625C-124.089 961.751 -134.73 968.784 -141.809 978.163C-148.888 987.541 -152.685 999.077 -154.326 1010.75C-155.451 1018.54 -155.638 1026.51 -157.466 1034.2C-159.295 1041.84 -163.092 1049.49 -169.655 1053.85C-180.203 1060.83 -194.688 1057.5 -205.47 1050.89C-216.252 1044.28 -225.112 1034.76 -236.129 1028.62C-249.958 1020.88 -266.881 1018.96 -282.117 1023.32C-285.82 1024.4 -289.617 1025.95 -291.821 1029.13C-293.555 1031.62 -294.024 1034.76 -294.774 1037.72C-299.087 1054.46 -315.26 1067.45 -332.558 1068.01C-331.949 1070.49 -331.339 1073.03 -330.683 1075.51\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M59.4463 1113.31C60.3839 1102.61 58.7431 1091.74 54.7115 1081.84C51.055 1072.88 45.5233 1064.73 42.7575 1055.49C40.5073 1047.94 40.1323 1039.97 37.7414 1032.46C34.2255 1021.49 26.4906 1012.35 21.6152 1001.89C17.1148 992.23 15.0053 981.539 9.84862 972.207C3.84815 961.328 -5.90262 953.122 -15.419 945.103C-26.4824 935.819 -37.5926 926.534 -48.656 917.249C-53.2032 913.451 -57.938 909.559 -63.6103 908.011C-71.3453 905.948 -79.5021 908.527 -87.0965 911.106C-107.395 918 -127.693 924.846 -147.945 931.739C-152.258 933.193 -156.664 934.693 -160.133 937.647C-171.244 947.12 -167.259 965.126 -172.416 978.772C-176.916 990.776 -188.589 999.217 -192.152 1011.55C-193.464 1016.05 -193.839 1021.26 -197.308 1024.4C-201.902 1028.52 -209.45 1026.6 -214.091 1022.52C-218.732 1018.44 -221.498 1012.67 -225.529 1008.03C-236.124 995.841 -255.204 992.746 -269.877 999.545C-272.455 1000.72 -274.939 1002.22 -277.752 1002.64C-284.971 1003.72 -291.019 997.623 -296.175 992.511C-315.583 973.145 -341.695 959.687 -369.119 958.843C-370.384 967.799 -371.65 976.756 -372.916 985.712\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M68.3509 1113.73C76.4609 1106.09 77.0234 1093.66 77.0234 1082.55C77.0234 1078.47 76.9765 1074.15 74.9608 1070.63C73.6013 1068.2 71.398 1066.27 70.0385 1063.84C67.1789 1058.49 68.9603 1051.92 67.8821 1045.97C66.8508 1040.39 63.3349 1035.61 59.9127 1031.06C53.3028 1022.29 46.6929 1013.52 40.083 1004.8C35.2545 998.421 30.3323 991.856 28.3634 984.119C26.0663 975.256 27.6133 965.033 22.316 957.578C18.4719 952.185 11.9089 949.512 7.08043 944.964C0.939319 939.149 -1.82652 930.661 -3.79543 922.455C-5.76433 914.249 -7.21757 905.715 -11.4835 898.4C-15.7495 891.131 -23.7657 885.223 -32.1101 886.301C-35.7667 886.77 -39.0951 888.505 -42.5641 889.725C-54.6588 894.039 -67.9255 892.491 -80.7233 891.366C-89.9116 890.569 -99.1467 898.54 -107.444 901.823C-117.898 905.949 -128.868 908.763 -139.978 910.17C-153.245 911.858 -166.886 911.529 -179.778 915.14C-190.091 918.001 -196.232 923.018 -203.264 930.708C-209.03 937.039 -215.218 944.401 -214.75 952.935C-214.374 959.781 -209.687 965.784 -208.983 972.63C-208.28 979.289 -211.796 986.135 -217.562 989.511C-219.062 990.402 -220.797 991.059 -222.531 990.918C-225.954 990.637 -228.344 987.26 -229.235 983.931C-230.126 980.602 -229.985 977.085 -230.97 973.755C-233.454 964.987 -243.345 959.782 -252.44 960.344C-261.534 960.907 -269.738 966.159 -276.348 972.442C-278.88 974.834 -281.645 977.647 -285.114 977.554C-289.802 977.46 -292.521 972.396 -294.725 968.269C-298.944 960.157 -304.897 952.607 -312.867 948.058C-320.836 943.51 -331.055 942.338 -339.212 946.417\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M85.1766 1112.6C97.9276 1101.54 110.397 1086.44 107.772 1069.74C106.506 1061.63 101.772 1054.55 98.959 1046.86C95.9587 1038.61 95.1149 1029.65 91.5053 1021.63C84.661 1006.67 68.7222 996.918 63.7062 981.256C61.5498 974.504 61.1747 966.298 55.4555 962.031C53.2991 960.436 50.7208 959.686 48.33 958.467C38.3917 953.449 33.657 941.445 33.6101 930.285C33.6101 919.124 37.3604 908.386 40.22 897.601C43.0796 886.815 45.0485 875.233 41.5326 864.635C38.298 854.929 30.8442 847.285 23.578 840.017C21.281 837.766 18.9371 835.422 15.9837 834.249C12.5147 832.843 8.62375 833.124 4.92033 833.827C-13.0342 837.204 -28.4573 849.442 -46.5056 852.35C-54.3343 853.616 -62.4912 853.053 -70.1324 855.257C-75.8516 856.945 -81.102 860.087 -86.8681 861.634C-93.3843 863.369 -100.229 862.947 -106.932 863.51C-113.636 864.073 -120.761 865.995 -125.074 871.153C-130.137 877.203 -138.013 876.359 -145.091 879.782C-156.155 885.127 -167.265 890.52 -177.297 897.648C-188.782 905.807 -198.627 916.123 -210.393 923.86C-222.16 931.598 -236.88 936.615 -250.381 932.442C-256.006 930.707 -261.069 927.471 -266.507 925.267C-271.945 923.063 -278.321 921.891 -283.665 924.47C-287.79 926.439 -290.978 930.472 -295.478 931.316C-298.01 931.785 -300.588 931.176 -302.979 930.331C-307.339 928.831 -311.417 926.674 -315.12 923.907C-319.011 921 -322.434 917.389 -326.606 914.904C-330.778 912.419 -336.169 911.153 -340.529 913.31C-339.029 914.763 -337.482 916.217 -335.981 917.624\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M189.25 825.105C188.922 830.217 187.656 835.328 185.5 839.97C183.765 843.769 181.468 847.239 179.546 850.943C173.546 862.525 171.436 875.702 167.076 888.035C165.342 893.005 163.185 897.788 161.263 902.712C157.044 913.404 153.669 924.423 151.231 935.63C150.013 941.351 148.981 947.26 150.059 953.027C151.278 959.405 155.169 965.266 160.607 968.877C164.732 971.597 169.514 973.004 174.061 974.832C178.609 976.661 183.156 979.287 185.734 983.461\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M192.906 862.807C187.75 874.67 183.859 887.097 181.421 899.852C180.718 903.509 180.108 907.261 178.139 910.402C177.061 912.137 175.608 913.591 174.249 915.138C167.639 922.641 163.232 932.067 161.685 941.914C161.076 945.806 161.076 950.214 163.701 953.121C165.482 955.044 168.154 955.935 170.264 957.482C172.795 959.264 174.53 961.937 176.686 964.094C178.843 966.298 181.843 968.127 184.89 967.517\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M188.82 797.58C185.633 814.93 176.632 831.155 163.6 843.019C159.99 846.301 156.052 849.302 153.521 853.476C151.177 857.274 150.239 861.729 149.208 866.09C145.786 881.001 141.426 895.632 136.176 910.028C133.41 917.53 130.409 925.033 128.909 932.864C127.409 940.742 127.503 949.136 130.784 956.404C134.16 963.907 140.582 969.534 147.051 974.598C153.005 979.334 159.193 983.789 165.522 988.009C171.569 992.042 179.257 995.934 185.773 992.652\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M161.542 800.675C151.604 802.035 141.572 803.442 132.196 806.912C126.243 809.116 119.867 813.055 119.024 819.385C118.18 825.809 123.618 831.343 129.29 834.438C135.947 838.095 143.635 839.877 151.229 839.596C153.292 839.502 155.354 839.267 157.23 838.47C161.542 836.642 164.121 832.14 165.808 827.779C167.496 823.418 168.668 818.682 171.575 814.977C173.637 812.351 176.45 810.241 177.856 807.193C182.919 795.986 166.465 799.972 161.542 800.675Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M149.402 812.868C145.605 813.759 141.48 812.352 137.729 813.337C135.385 813.946 133.416 815.447 131.494 816.9C129.385 818.495 127.041 820.605 127.322 823.278C127.557 825.435 129.525 827.029 131.541 827.873C133.557 828.764 135.76 829.233 137.542 830.499C138.62 831.296 139.511 832.328 140.636 833.031C142.558 834.204 144.949 834.204 147.199 834.157C149.918 834.11 152.777 834.016 155.121 832.609C159.715 829.749 159.997 823.184 163.184 818.823C165.388 815.822 167.919 810.289 162.856 808.46C158.684 807.006 153.293 811.93 149.402 812.868Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M145.654 819.526C144.2 819.573 142.7 819.385 141.294 819.854C138.669 820.698 137.215 824.028 138.294 826.513C138.669 827.404 139.419 828.248 140.403 828.389C141.435 828.53 142.372 827.967 143.403 827.732C145.56 827.263 147.716 828.576 149.92 828.623C151.889 828.717 153.857 827.732 155.217 826.326C156.576 824.919 157.514 823.09 158.076 821.167C158.827 818.588 158.17 815.493 155.076 816.431C151.842 817.416 149.31 819.432 145.654 819.526Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M144.481 682.179C139.512 686.774 136.418 693.573 130.464 696.809C123.339 700.701 114.619 698.403 106.509 698.919C91.0393 699.904 78.0071 711.674 70.7877 725.366C67.6 731.415 64.9748 738.215 59.3962 742.107C56.5366 744.076 53.1145 745.108 50.208 746.984C44.7701 750.547 41.6761 756.69 38.8165 762.552C35.535 769.351 32.2066 776.104 28.9251 782.903C27.9406 784.919 26.9562 787.076 27.3312 789.233C27.6594 791.297 29.1595 792.938 30.6596 794.345C40.0822 803.067 53.4895 806.537 66.2874 805.927C79.0853 805.364 91.4612 801.144 103.322 796.174C108.525 793.97 113.682 791.625 119.12 790.265C130.699 787.358 143.543 788.811 153.904 782.903C163.326 777.51 168.764 766.819 170.499 756.081C172.233 745.342 170.78 734.37 169.467 723.584C168.624 716.55 167.827 709.423 168.061 702.342C168.295 695.918 172.702 686.399 171.014 680.303C168.014 669.752 149.778 677.255 144.481 682.179Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M147.295 704.312C137.263 714.206 123.246 719.88 109.183 719.786C102.995 719.739 96.4318 718.708 90.947 721.568C80.7274 726.914 80.0243 742.717 70.0391 748.438C66.4294 750.501 62.1166 750.923 58.2725 752.517C46.3185 757.394 41.5368 772.024 41.9119 784.92C41.9588 786.42 42.0525 787.968 42.8963 789.234C43.7402 790.5 45.1465 791.25 46.5529 791.813C58.3194 796.69 71.7267 793.36 84.0089 789.937C103.651 784.498 123.246 779.105 142.889 773.666C146.311 772.728 149.873 771.696 152.358 769.117C154.327 767.054 155.311 764.193 156.202 761.474C162.578 740.982 165.343 718.567 160.327 697.7C160.187 696.997 159.999 696.34 159.577 695.778C158.218 693.949 155.265 694.605 153.296 695.731C150.108 697.513 149.827 701.827 147.295 704.312Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M120.902 727.618C117.667 727.852 114.433 727.711 111.198 728.087C101.822 729.165 93.1029 734.839 88.2744 742.951C87.1024 744.921 86.1648 747.031 84.7116 748.813C79.0393 755.847 67.6009 755.847 61.8817 762.834C59.3971 765.929 58.3658 769.961 57.9908 773.9C57.8032 776.151 57.897 778.636 59.444 780.278C60.4753 781.309 61.9286 781.778 63.3349 782.153C66.9915 783.091 70.6949 783.654 74.4452 783.888C77.0235 784.029 79.6018 783.982 82.1333 783.513C84.5241 783.044 86.8212 782.2 89.1182 781.356C102.526 776.339 115.886 771.368 129.293 766.351C133.7 764.709 138.247 762.974 141.716 759.786C144.294 757.394 146.123 754.346 147.763 751.251C152.592 742.201 156.108 732.448 158.217 722.413C158.686 720.115 159.061 717.676 158.171 715.519C156.483 711.534 153.764 712.612 151.514 714.675C148.748 717.208 145.279 719.224 142.044 721.053C135.575 724.617 128.356 727.055 120.902 727.618Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M113.963 737.557C108.243 738.823 102.009 740.417 98.3989 745.013C96.6175 747.264 95.633 750.077 93.8516 752.328C89.2106 758.19 80.0224 759.362 76.0846 765.739C75.2877 767.052 74.7251 768.6 75.0533 770.1C75.6627 772.914 78.8504 774.227 81.6632 774.93C83.9602 775.493 86.3041 776.009 88.6012 776.384C89.9138 776.571 91.2733 776.759 92.539 776.431C93.9454 776.056 95.0705 775.071 96.1956 774.18C108.15 764.708 124.182 761.847 136.652 753.078C138.668 751.672 140.59 750.124 141.949 748.108C143.121 746.373 143.824 744.356 144.527 742.34C146.356 737.135 151.934 722.927 141.48 729.07C132.995 734.087 123.62 735.447 113.963 737.557Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<path d=\"M107.397 746.327C104.209 747.593 101.021 749.093 98.6306 751.532C96.4273 753.829 95.0678 756.784 93.8021 759.691C93.6615 759.972 93.5208 760.3 93.5677 760.629C93.7084 761.379 94.6459 761.566 95.3491 761.613C100.224 761.895 105.381 762.129 109.788 759.972C114.054 757.909 117.148 754.861 121.836 753.548C124.976 752.657 127.461 751.672 127.039 747.874C126.008 738.73 112.225 744.404 107.397 746.327Z\" stroke=\"#BE935F\" stroke-miterlimit=\"10\"></path>\n<rect x=\"-134.125\" y=\"524.717\" width=\"327.079\" height=\"596.561\" fill=\"url(#paint0_linear_6601_33550)\"></rect>\n<rect x=\"192.953\" y=\"596.775\" width=\"327.079\" height=\"596.561\" transform=\"rotate(-180 192.953 596.775)\" fill=\"url(#paint1_linear_6601_33550)\"></rect>\n<defs>\n<lineargradient id=\"paint0_linear_6601_33550\" x1=\"29.4145\" y1=\"524.717\" x2=\"29.4145\" y2=\"1121.28\" gradientunits=\"userSpaceOnUse\">\n<stop stop-color=\"#F7F6F1\" stop-opacity=\"0\"></stop>\n<stop offset=\"1\" stop-color=\"#F7F6F1\"></stop>\n</lineargradient>\n<lineargradient id=\"paint1_linear_6601_33550\" x1=\"356.493\" y1=\"596.775\" x2=\"356.493\" y2=\"1193.34\" gradientunits=\"userSpaceOnUse\">\n<stop stop-color=\"#F7F6F1\" stop-opacity=\"0\"></stop>\n<stop offset=\"1\" stop-color=\"#F7F6F1\"></stop>\n</lineargradient>\n</defs>\n</svg>",
+            "image_width": "14.64%"
+          }
+        }
+      },
+      "block_order": [
+        "image_LYAWwm"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".main-class {left: 0; top: -50px;}",
+        ".basmilTextImage {width: 100%; position: relative; background: red;}",
+        "@media (max-width: 768px) {.basmilTextImage {width: 40%; }}",
+        "@media (min-width: 1600px) {.wrapper.wrapper {max-width: 100% !important; } svg {width: 18% !important; } .main-class {top: -120px !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "",
+        "content_width": "",
+        "padding": "0",
+        "margin": "0",
+        "custom_class": "main-class absolute -z-10 left-0",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_4JegrK": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_NLRXwr": {
+          "type": "content",
+          "settings": {
+            "title": "Pure Honey, Pure Intention",
+            "subtitle": "",
+            "description": "<p>We’re all about ethical, sustainable practices. Our mad honey is hand-harvested by skilled beekeepers in remote regions, so you get only the best. We try our best to be environmentally responsible in every step from sourcing to packaging. We’re committed to supporting local communities and protecting the environment where this special honey is found.</p>",
+            "button_text": "GIVE IT A TRY",
+            "button_link": "shopify://pages/honey-hunting-tour",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_EFNtTV": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/a.Mad_honey_1.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "47%"
+          }
+        }
+      },
+      "block_order": [
+        "content_NLRXwr",
+        "image_EFNtTV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".basmilTextImage {z-index: 1;}",
+        "img {margin-left: -4.8%;}",
+        ".button {text-align: center !important; justify-content: center;}",
+        "@media (max-width: 768px) {.basmilTextImage {padding-top: 50px; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "48.68%",
+        "padding": "0 16px",
+        "margin": "0 0 0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "79.2%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "icon_box_T4De8f",
+    "basmil_image_text_xRzLJX",
+    "faq_fFAwqm",
+    "mad_honey_tabs_NzgYKr",
+    "product_grid_slider_3NWFAj",
+    "custom_liquid_hqNy4N",
+    "blog_listing_basmil_HGNq8r",
+    "basmil_newsletter_6Urmw3",
+    "icon_box_nJd9iT",
+    "basmil_image_text_GmtWyF",
+    "basmil_image_text_4Hbyx9",
+    "basmil_image_text_4JegrK"
+  ]
+}

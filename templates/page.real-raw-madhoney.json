@@ -1,0 +1,836 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_JjqM4Y": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_CeHD9m": {
+          "type": "content",
+          "settings": {
+            "title": "The Real Raw Mad Honey Nepal",
+            "subtitle": "",
+            "description": "<p>There are over 300 types of honey worldwide, but recently mad honey has captured attention for its unique, savory-sweet flavor and fascinating effects. This rare honey has become a sensation, with more and more people fascinated by its unusual properties and taste.</p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_iWD4gq": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/doko_c008e1d8-e521-40f7-930c-191803e20525.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "0"
+          }
+        }
+      },
+      "block_order": [
+        "content_CeHD9m",
+        "image_iWD4gq"
+      ],
+      "custom_css": [
+        "img {display: none;}",
+        "@media (max-width: 768px) {img {display: block; width: 100% !important; } .contain-wrapper {flex-direction: column-reverse; gap: 0 !important; } .main-wrapper {padding: 0 !important; } .contentside {padding: 0 16px !important; } .dark h1 {color: #be935f !important; } p {color: inherit; } .dark .button {background: #121212; color: #e0af7e; } .basmilTextImage.basmilTextImage {background: transparent; padding: 0 !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "24px 0!important",
+        "content_width": "55%",
+        "padding": "20rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "banner-content",
+        "width": "80%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_image": "shopify://shop_images/doko_c008e1d8-e521-40f7-930c-191803e20525.jpg",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "icon_box_bd3iXX": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_7YVraz": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg viewbox=\"0 0 123 123\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"mask0_6039_15058\" style=\"mask-type:alpha\" maskunits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"123\" height=\"123\">\n<rect width=\"123\" height=\"123\" fill=\"#D9D9D9\"></rect>\n</mask>\n<g mask=\"url(#mask0_6039_15058)\">\n<path d=\"M22.7501 33.5104L22.9707 31.3671L21.6681 30.3601L20.0693 30.1955L19.1088 28.7711L16.9343 28.0946L15.7172 26.8378L13.668 23.7819L13.0002 23.5838L10.6351 21.2713L9.39483 21.4022L8.19721 22.5721L8.27279 23.2911L10.0461 22.3422L11.1382 23.0689L11.7663 25.6875L12.4735 26.9565L14.1807 28.1021L17.1739 33.3242L14.8249 33.7614L13.6305 35.4811L10.7747 37.0622L11.6463 39.3503L8.90226 42.1713L8.75405 43.6109L9.517 46.0817L6.07223 49.0246L4.73285 52.7339L5.79541 53.1665L9.29534 56.9537L10.6769 58.6477L11.868 56.3781L13.3516 57.3713L16.7266 60.9194L20.4503 63.4041L21.9304 66.4661L23.3054 67.9331L26.5686 70.2411L28.9995 72.7868L30.5952 71.8195L31.9571 72.2507L36.2334 76.3441L38.1677 76.7372L40.6582 76.3794L41.2304 77.7961L41.1775 80.0537L43.6185 81.0486L47.5036 81.9658L48.1548 83.7786L49.6056 83.637L50.1519 82.1092L53.389 82.3455L56.4582 84.2132L57.2742 83.2627L60.9918 82.32L62.8437 84.6767L66.3736 85.5573L68.2617 87.2712L67.6296 91.0856L69.7449 92.0469L73.0146 95.1638L76.9687 97.446L80.4166 95.9259L82.0121 96.4134L82.3242 99.7754L83.8604 100.839L86.1174 99.8427L89.634 101.142L92.0881 102.009L95.9303 104.797L98.1543 104.412L100.954 103.665L101.276 105.768L104.556 107.043L105.859 106.013L108.323 106.784L109.655 106.63L112.781 105.918L113.307 106.909L114.988 108.02L115.945 106.858L116.442 104.937L117.877 100.3L117.154 97.4451L115.68 95.192L117.092 92.2338L116.911 89.6289L117.721 86.9966L119.85 83.1747L119.228 81.6559L117.363 81.1729L114.53 80.2024L112.912 82.2664L111.247 81.5778L105.444 81.2713L102.095 78.3402L99.9142 76.8549L99.3518 75.3422L96.8679 75.927L95.532 78.4404L93.466 78.1631L92.5417 76.6778L91.5683 73.9266L90.2489 74.8253L90.2717 77.2199L89.5018 78.3045L88.38 77.8657L88.2651 75.7849L85.9001 72.3085L85.4628 69.8711L85.0517 69.2146L83.8836 71.2603L81.4328 69.7795L80.2221 70.4954L76.7054 69.1958L76.6892 67.3191L77.9822 66.0944L78.2917 63.9602L76.3607 63.2442L74.6202 65.037L72.2319 64.1122L70.2583 61.7753L68.2779 61.2482L67.5083 59.4232L65.0476 58.3293L65.3571 56.1951L64.6368 54.7632L64.9759 52.0501L61.2817 49.8594L58.5774 51.1327L56.5408 52.3132L52.6268 45.2828L46.4818 41.6113L45.1792 40.3133L41.7517 36.1133L37.7219 34.2759L37.9721 32.7176L37.4163 31.7228L37.0547 29.1316L34.5118 28.2555L32.4261 27.8792L30.5444 26.6832L29.0113 27.6246L27.5342 26.8583L27.1129 29.2072L26.2738 30.6726L24.7472 31.55L24.3785 33.3871L23.1646 33.5531L22.7501 33.5104Z\" fill=\"#382513\" fill-opacity=\"0.8\"></path>\n</g>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "100% Nepal Made",
+            "icon_description": "The honey hunters, giant honeybees, and the honey itself all share a common origin—Nepal. True to Nepalese tradition, medicinal mad honey traces its roots to the high cliffs of Lamjung, a small village in Nepal.",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_9UpUFq": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg viewbox=\"0 0 187 123\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M180.309 65.295L157.858 66.7289C157.359 66.5334 156.861 66.403 156.295 66.403C155.597 66.403 154.965 66.6312 154.399 66.957L135.308 68.1628C134.343 67.4133 133.179 66.957 131.849 66.957C130.252 66.957 128.856 67.6088 127.824 68.6516L109.398 69.8248C109.398 69.8248 109.398 69.6293 109.398 69.5315C109.365 68.9449 109.265 68.4561 109.166 67.9021L109.232 68.4235L127.558 66.3379L108.966 66.7289V66.8267C106.438 54.8016 94.6308 53.2048 94.6308 53.2048L93.5 33L92.3691 53.2048C92.3691 53.2048 80.5951 54.8016 78.034 66.8267V66.7289L59.4749 66.3379L77.8012 68.4235L77.8677 67.9021C77.768 68.4235 77.6682 68.9449 77.6349 69.5315C77.6349 69.6293 77.6349 69.727 77.6349 69.8248L59.2088 68.6516C58.211 67.6088 56.7808 66.957 55.1843 66.957C53.8539 66.957 52.6898 67.4133 51.7253 68.1628L32.634 66.957C32.0685 66.6312 31.4366 66.403 30.7381 66.403C30.1727 66.403 29.6406 66.5334 29.1749 66.7289L6.72433 65.295C5.09459 65.7513 6.72433 66.4356 6.72433 66.4356C14.0748 67.0548 20.8931 67.7717 27.2791 68.5213C27.013 69.0427 26.8134 69.5967 26.8134 70.2485C26.8134 72.3667 28.5762 74.0939 30.7381 74.0939C32.9 74.0939 34.6628 72.3667 34.6628 70.2485C34.6628 69.9552 34.5631 69.6945 34.4965 69.4012C40.0177 70.1181 45.1398 70.835 49.7297 71.5194C49.6964 71.8127 49.6299 72.0734 49.6299 72.3667C49.6299 75.3648 52.1244 77.8089 55.1843 77.8089C57.9117 77.8089 60.1734 75.8536 60.639 73.3118C68.8542 74.7456 74.708 75.984 77.8677 76.6684C79.3312 85.2717 84.8191 87.781 84.8191 87.781C84.8191 87.781 89.276 90.0947 93.4667 89.997C93.4667 89.997 93.4667 89.997 93.5 89.997C93.5 89.997 93.5 89.997 93.5333 89.997C97.724 90.0947 102.181 87.781 102.181 87.781C102.181 87.781 107.669 85.2717 109.132 76.6684C112.292 75.9514 118.146 74.7456 126.361 73.3118C126.827 75.8862 129.088 77.8089 131.816 77.8089C134.876 77.8089 137.37 75.3648 137.37 72.3667C137.37 72.0734 137.337 71.7801 137.27 71.5194C141.893 70.8025 146.982 70.0855 152.503 69.4012C152.437 69.6945 152.337 69.9552 152.337 70.2485C152.337 72.3667 154.1 74.0939 156.262 74.0939C158.424 74.0939 160.187 72.3667 160.187 70.2485C160.187 69.6293 159.987 69.0427 159.721 68.5213C166.107 67.7717 172.925 67.0548 180.276 66.4356C180.276 66.4356 181.905 65.7513 180.276 65.295H180.309Z\" fill=\"#382513\" fill-opacity=\"0.8\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Export Quality Grade",
+            "icon_description": "Each batch guarantees high-quality honey with uncompromising purity, potency, and traditional origins. The time-honored practice of honey hunting preserves its natural flavor, fragrance, and essential components, free from additives.",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_r4tQkf": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg viewbox=\"0 0 123 123\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_484_86)\">\n<path d=\"M65.4053 24.5498C65.8797 24.9973 66.5241 25.3554 66.8016 25.9014C67.4819 27.2529 66.4257 28.8193 64.904 28.8641C64.0447 28.8909 63.1765 28.8641 62.2635 28.8641C62.2456 29.1416 62.2277 29.3743 62.2277 29.607C62.2277 36.0068 62.2277 42.4066 62.2367 48.8065C62.2367 49.1914 62.3441 49.612 62.5142 49.9611C64.8772 54.7408 67.2581 59.5116 69.63 64.2824C69.7464 64.5151 69.8538 64.7478 70.006 65.0611C69.7464 65.0701 69.5405 65.088 69.3347 65.088C65.5306 65.088 61.7265 65.088 57.9313 65.0969C57.448 65.0969 57.1974 64.9806 56.9736 64.4972C55.7563 61.9104 53.6618 60.4873 50.8155 60.4962C47.9423 60.4962 45.8478 61.9373 44.6126 64.5599C44.4783 64.8373 44.4246 65.0969 43.986 65.0969C39.8955 65.079 35.805 65.088 31.607 65.088C31.7413 64.7926 31.8487 64.5599 31.9561 64.3361C34.3549 59.5206 36.7538 54.714 39.1436 49.8895C39.2868 49.6031 39.3942 49.254 39.3942 48.9407C39.4121 42.4245 39.4032 35.8994 39.4032 29.3832C39.4032 29.24 39.3942 29.0968 39.3763 28.8551C38.5976 28.8551 37.8458 28.8551 37.0849 28.8551C35.7871 28.8551 34.9009 28.2196 34.6682 27.1366C34.4445 26.0893 34.9546 25.2032 36.1272 24.6214C36.163 24.6035 36.1899 24.5588 36.2257 24.5229C45.9462 24.5229 55.6668 24.5229 65.3874 24.5229L65.4053 24.5498Z\" fill=\"#5F503F\"></path>\n<path d=\"M50.8053 98.4474C42.4363 98.4474 34.0583 98.4474 25.6893 98.4474C22.0016 98.4474 19.2358 95.977 19.012 92.2893C18.9494 91.26 19.2 90.0964 19.6565 89.1655C22.7892 82.7119 26.0115 76.2942 29.2338 69.8854C29.3412 69.6706 29.6903 69.4558 29.932 69.4558C34.5954 69.429 39.2677 69.4379 43.931 69.429C44.3159 69.429 44.4591 69.5811 44.6023 69.9033C45.8197 72.5707 47.932 74.0297 50.8321 74.0207C53.7322 74.0207 55.8446 72.5528 57.0529 69.8854C57.2051 69.5543 57.3662 69.429 57.7332 69.429C62.3965 69.4469 67.0689 69.429 71.7322 69.4558C71.9649 69.4558 72.314 69.6796 72.4214 69.8944C75.6258 76.2853 78.8571 82.6761 81.9898 89.1028C84.138 93.5156 80.9874 98.4385 76.0823 98.4385C67.6596 98.4385 59.2369 98.4385 50.8142 98.4385L50.8053 98.4474ZM34.7923 82.2823C34.7923 85.9879 37.8892 89.0849 41.5949 89.067C45.2737 89.0581 48.3348 86.0058 48.3617 82.3181C48.3885 78.6214 45.3095 75.5155 41.5949 75.4976C37.8892 75.4797 34.7923 78.5677 34.7923 82.2734V82.2823ZM57.7332 79.8298C58.8878 79.8298 59.8993 78.8452 59.9082 77.6816C59.9172 76.5359 58.9147 75.5155 57.76 75.5065C56.6143 75.4976 55.5939 76.5001 55.585 77.6547C55.585 78.8004 56.5964 79.8298 57.7332 79.8298ZM64.67 80.1252C63.5154 80.1252 62.5039 81.1456 62.5129 82.2913C62.5129 83.437 63.5422 84.4573 64.679 84.4484C65.8336 84.4394 66.8451 83.4191 66.8361 82.2823C66.8272 81.1187 65.8247 80.1252 64.67 80.1252ZM55.4328 84.7438C54.2782 84.7438 53.2667 85.7642 53.2757 86.9099C53.2846 88.0645 54.305 89.0849 55.4418 89.067C56.5964 89.0581 57.6168 88.0287 57.5989 86.9009C57.581 85.7284 56.5875 84.7438 55.4328 84.7438Z\" fill=\"#5F503F\"></path>\n<path d=\"M50.8427 64.8188C52.2212 64.8188 53.2863 65.9108 53.2774 67.3072C53.2684 68.6856 52.1675 69.7418 50.7711 69.7239C49.4285 69.706 48.3723 68.6229 48.3723 67.2714C48.3723 65.884 49.4554 64.8188 50.8427 64.8278V64.8188Z\" fill=\"#5F503F\"></path>\n<path d=\"M44.0279 82.31C44.0279 83.6884 42.927 84.7536 41.5396 84.7357C40.1612 84.7178 39.105 83.6258 39.1318 82.2295C39.1497 80.8868 40.2328 79.8396 41.5843 79.8396C42.9717 79.8396 44.0368 80.9226 44.0279 82.31Z\" fill=\"#5F503F\"></path>\n<path d=\"M88.4614 60.8526C97.0431 60.8526 104 53.8957 104 45.314C104 36.7323 97.0431 29.7754 88.4614 29.7754C79.8797 29.7754 72.9228 36.7323 72.9228 45.314C72.9228 53.8957 79.8797 60.8526 88.4614 60.8526Z\" fill=\"#5F503F\"></path>\n<path d=\"M86.4464 52.0546C86.1331 52.0546 85.8198 51.9382 85.5871 51.6965L80.4672 46.5767C79.9928 46.1023 79.9928 45.3325 80.4672 44.8581C80.9416 44.3837 81.7114 44.3837 82.1858 44.8581L86.4464 49.1187L96.0774 39.4876C96.5518 39.0132 97.3216 39.0132 97.796 39.4876C98.2704 39.962 98.2704 40.7318 97.796 41.2062L87.3056 51.6965C87.064 51.9382 86.7596 52.0546 86.4464 52.0546Z\" fill=\"white\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_484_86\">\n<rect width=\"123\" height=\"123\" fill=\"white\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "3rd Party Lab Tested",
+            "icon_description": "Certified and tested by Euro Fins Labs, Medicinal Mad Honey is Safe for consumption when used in moderation.",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_7YVraz",
+        "icon_box_9UpUFq",
+        "icon_box_r4tQkf"
+      ],
+      "custom_css": [
+        "svg {max-height: 12.3rem;}",
+        ".contentPart {padding: 0 14%;}",
+        "@media (max-width: 768px) {.contentPart {padding: 0; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Why it’s a Real Deal",
+        "section_description": "Unlike the honey commonly found on supermarket shelves, mad honey has a mystique aura, rooted in ancient cultures and remote regions. It’s more than just a sweetener, it's a precise, traditional harvesting practice passed down through generations.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "32px 3.2rem!important",
+        "iconbox_gap": "32px 8%",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "27.98%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.53%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "table_basmil_nyJkD3": {
+      "type": "table-basmil",
+      "blocks": {
+        "heading_KDrLnf": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Feature"
+          }
+        },
+        "content_KKkXDp": {
+          "type": "content",
+          "settings": {
+            "table_content": "Source of Nectar"
+          }
+        },
+        "content_R3LnYw": {
+          "type": "content",
+          "settings": {
+            "table_content": "Honeybees"
+          }
+        },
+        "content_gj9AJz": {
+          "type": "content",
+          "settings": {
+            "table_content": "Production Process"
+          }
+        },
+        "content_jwjnAT": {
+          "type": "content",
+          "settings": {
+            "table_content": "Presence of Grayanotoxins"
+          }
+        },
+        "content_8nMRbT": {
+          "type": "content",
+          "settings": {
+            "table_content": "Psychoactive Benefits"
+          }
+        },
+        "content_JFR4Px": {
+          "type": "content",
+          "settings": {
+            "table_content": "Flavor and Sensation"
+          }
+        },
+        "content_BpTQpb": {
+          "type": "content",
+          "settings": {
+            "table_content": "Cautions in Consumption"
+          }
+        },
+        "content_gKPXzA": {
+          "type": "content",
+          "settings": {
+            "table_content": "Sugar Content and Glycemic Index"
+          }
+        },
+        "heading_Fe46XC": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Mad Honey"
+          }
+        },
+        "content_dJf7VD": {
+          "type": "content",
+          "settings": {
+            "table_content": "Rhododendron and other wildflowers."
+          }
+        },
+        "content_VGBkLG": {
+          "type": "content",
+          "settings": {
+            "table_content": "Produced by giant honeybees, Apis Labroiosa"
+          }
+        },
+        "content_Uh9AHB": {
+          "type": "content",
+          "settings": {
+            "table_content": "Honey hunting"
+          }
+        },
+        "content_6YH8iA": {
+          "type": "content",
+          "settings": {
+            "table_content": "Contains grayanotoxins"
+          }
+        },
+        "content_c8tLNg": {
+          "type": "content",
+          "settings": {
+            "table_content": "High concentration, creativity, and potential psychoactive effects."
+          }
+        },
+        "content_ebRHKA": {
+          "type": "content",
+          "settings": {
+            "table_content": "Unique smoky flavor."
+          }
+        },
+        "content_b3LhfT": {
+          "type": "content",
+          "settings": {
+            "table_content": "Small amounts due to its strong effects; consult a doctor before trying."
+          }
+        },
+        "content_mcW4Lh": {
+          "type": "content",
+          "settings": {
+            "table_content": "Lower glycemic index"
+          }
+        },
+        "heading_mreBrL": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Ordinary Honey"
+          }
+        },
+        "content_3aVAAD": {
+          "type": "content",
+          "settings": {
+            "table_content": "Different types of flowers like clover, acacia, alfalfa, and lavender."
+          }
+        },
+        "content_tjbaTV": {
+          "type": "content",
+          "settings": {
+            "table_content": "Produced by Apis mellifera honeybees"
+          }
+        },
+        "content_b6Agfh": {
+          "type": "content",
+          "settings": {
+            "table_content": "Traditional Beekeeping"
+          }
+        },
+        "content_6zaRGR": {
+          "type": "content",
+          "settings": {
+            "table_content": "No grayanotoxoin"
+          }
+        },
+        "content_aKV3hL": {
+          "type": "content",
+          "settings": {
+            "table_content": "No psychoactive effects."
+          }
+        },
+        "content_zt7NYU": {
+          "type": "content",
+          "settings": {
+            "table_content": "Sweet and smooth."
+          }
+        },
+        "content_3cWHfn": {
+          "type": "content",
+          "settings": {
+            "table_content": "Generally safe for regular consumption"
+          }
+        },
+        "content_NRP6Uk": {
+          "type": "content",
+          "settings": {
+            "table_content": "Higher glycemic index"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KDrLnf",
+        "content_KKkXDp",
+        "content_R3LnYw",
+        "content_gj9AJz",
+        "content_jwjnAT",
+        "content_8nMRbT",
+        "content_JFR4Px",
+        "content_BpTQpb",
+        "content_gKPXzA",
+        "heading_Fe46XC",
+        "content_dJf7VD",
+        "content_VGBkLG",
+        "content_Uh9AHB",
+        "content_6YH8iA",
+        "content_c8tLNg",
+        "content_ebRHKA",
+        "content_b3LhfT",
+        "content_mcW4Lh",
+        "heading_mreBrL",
+        "content_3aVAAD",
+        "content_tjbaTV",
+        "content_b6Agfh",
+        "content_6zaRGR",
+        "content_aKV3hL",
+        "content_zt7NYU",
+        "content_3cWHfn",
+        "content_NRP6Uk"
+      ],
+      "custom_css": [
+        "td:nth-child(even),th {font-weight: 600; text-align: center; justify-content: center;}"
+      ],
+      "settings": {
+        "main_heading": "Mad Honey Vs Regular Honey",
+        "main_content": "<p>Both mad honey and regular honey provides essential nutrients, used for centuries for health, spirtuality, and tradition. These two honeys are alike, yet each offers its own unique qualities.</p>",
+        "alignment": "center",
+        "valignment": "top",
+        "content_part_width": "71.77%",
+        "section_padding": "12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "71%",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_on": "whole",
+        "background_color": "#ffffff",
+        "content_color": "#000000",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_MHyqit": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_wpKdHc": {
+          "type": "content",
+          "settings": {
+            "title": "Borrowed from Himalayas",
+            "subtitle": "",
+            "description": "<p>Immensely <a href=\"/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">skilled honey-hunting legends</a> collect the rare honey from the lap of nature. It is a mix of pristine mountains and the essence of the wild. Each drop of mad honey speaks volumes of its origin that is truly innate to nature. It gains nourishment from Mother Earth’s rich pores, soaking in its warmth to offer comfort and solace to many souls.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_JpJJwt": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mountain.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_wpKdHc",
+        "image_JpJJwt"
+      ],
+      "custom_css": [
+        ".contentside {padding: 0 16px;}",
+        "@media (max-width: 768px) {img {width: 100% !important; max-width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "8.5rem",
+        "content_width": "70.26%",
+        "padding": "12rem 0 0 0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_LFChGc": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_ah6mYp": {
+          "type": "content",
+          "settings": {
+            "title": "Experience the Difference",
+            "subtitle": "",
+            "description": "<p>Each type has its own benefits and flavors, with regular honey being an everyday staple and mad honey adding a more adventurous, occasional touch. Experience the difference between mad honey and regular honey to choose the one honey that best matches your liking and wellness goals.   </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_ah6mYp"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "70.26%",
+        "padding": "12rem 16px 8rem  16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_richtext_aJUzbg": {
+      "type": "basmil-image-richtext",
+      "blocks": {
+        "content_thgH97": {
+          "type": "content",
+          "settings": {
+            "description": "<h3>Rhododendron</h3><p>Mad honey is made by <a href=\"/pages/the-himalayan-giant-honey-bees\" target=\"_blank\" title=\"himalayan giant honey bees \">giant honeybees<strong>, </strong><em><strong>Apis Labroiosa</strong></em></a>, which gather nectar from rhododendron and various wildflowers.</p><h3>Psychoactive Benefits</h3><p>The grayanotoxin in mad honey leads to  potential <a href=\"/pages/mad-honey-effects\" target=\"_blank\" title=\"mad honey effects\"><strong>psychoactive and hallucinatory effects</strong></a> when taken in high doses.</p><h3>Take Precautions</h3><p>Should be enjoyed in moderation due to its potency. It’s recommended to consult with a healthcare professional before use for a safe and positive experience.</p><h3>Bold and Smoky </h3><p>A smoky flavor with a distinct tingling sensation in the throat, surprising your tastebuds with unique experience.</p>"
+          }
+        },
+        "image_6HAnJU": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/madhoneybox.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "89.38%; grid-column:2/3;"
+          }
+        },
+        "content_6jeMJd": {
+          "type": "content",
+          "settings": {
+            "description": "<h3>Honey Hunting</h3><p>Collected through traditional honey hunting process, where bees gather nectar from the rhododendron flowers, they transfer grayanotoxins into the mad honey honey.</p><h3>Low Glycemic Index</h3><p>Mad honey has a lower glycemic index, causing a gentler effect on blood sugar and being suitable for blood sugar management.</p><h3>Premium Packaging</h3><p><a href=\"/\" target=\"_blank\" title=\"/\">Medicinal mad honey</a> comes in premium, eco-friendly packaging with elegant labels that highlight its origins, purity, and usage, revealing a luxurious, sustainable experience for wellness-focused consumers.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_thgH97",
+        "image_6HAnJU",
+        "content_6jeMJd"
+      ],
+      "custom_css": [
+        "p {margin-bottom: 3.2rem;}",
+        ".contain-wrapper {grid-template-columns: 1fr 1.15fr 1fr;}",
+        "@media (max-width: 768px) {.contain-wrapper {grid-template-columns: max-content 1fr; height: 233px; align-items: start; overflow: auto; scrollbar-width: none; -ms-overflow-style: none; gap: 0 27px !important; } .imagecontainer {grid-column: 1/2; height: 233px; grid-row: 1 / -1; position: sticky; top: 0; } .imagepart {min-height: 233px; width: 100% !important; position: static; transform: none; } .contentside {grid-column: 2/3; } .contentside * {text-align: left; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.46%",
+        "content_width": "",
+        "padding": "0 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "79.98%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_QVThDF": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_Fpc3qX": {
+          "type": "content",
+          "settings": {
+            "title": "VS",
+            "subtitle": "",
+            "description": "",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Fpc3qX"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "max-content",
+        "padding": "4rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_richtext_AHrVyX": {
+      "type": "basmil-image-richtext",
+      "blocks": {
+        "content_BAihA9": {
+          "type": "content",
+          "settings": {
+            "description": "<h3>Various Flowers </h3><p>Collected from different nectars of flowers, the higher amount comes from flowers like clover, acacia, alfalfa, and lavender.</p><h3>Traditional Beekeeping </h3><p>Regular honey is collected from traditional beekeeping, where bees break down nectar sugars and evaporate water within the hive to create thick honey.</p><h3>Sweetness and Wellness</h3><p>Regular honey has no psychoactive effects and is typically used as a sweetener or for general health benefits.</p>"
+          }
+        },
+        "image_fpyiKV": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/madhoneyjar.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "89.38%; grid-column:2/3;"
+          }
+        },
+        "content_rVa8h9": {
+          "type": "content",
+          "settings": {
+            "description": "<h3>High Glycemic Index</h3><p>Regular honey has a higher glycemic index and can cause a more noticeable spike in blood sugar levels.</p><h3>Simple Packaging</h3><p>Regular honey comes in a plain glass jar with a simple label, focusing on ease and affordability.</p><h3>Gentle and Smooth</h3><p>Sweet, smooth, and has a milder, more familiar taste, providing a gentle, classic sweetness.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_BAihA9",
+        "image_fpyiKV",
+        "content_rVa8h9"
+      ],
+      "custom_css": [
+        "p {margin-bottom: 3.2rem;}",
+        ".contain-wrapper {grid-template-columns: 1fr 1.15fr 1fr;}",
+        "@media (max-width: 768px) {.contain-wrapper {grid-template-columns: 1fr max-content; height: 238px; align-items: start; overflow: auto; scrollbar-width: none; -ms-overflow-style: none; gap: 0 27px !important; } .imagecontainer {grid-column: 2/3; height: 238px; grid-row: 1 / -1; position: sticky; top: 0; } .imagepart {min-height: 238px; width: 100% !important; position: static; transform: none; } .contentside {grid-column: 1/2; } .contentside * {text-align: left; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.46%",
+        "content_width": "",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "79.98%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "icon_box_nYfkz3": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_ee8c37": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Holding_Madhoney_hive.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_m47wPT": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/madhoney_with_hunter_c7b61457-ff49-42c6-a35f-280b0b7cd51a.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_J4Vqbf": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/mahoneys_8d7df405-e41a-43e2-8dda-44b543172bd2.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_jUGhT4": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Holding_Madhoney_hive_25319c52-b574-459b-9fc8-9fe4ba7933d0.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_ee8c37",
+        "icon_box_m47wPT",
+        "icon_box_J4Vqbf",
+        "icon_box_jUGhT4"
+      ],
+      "custom_css": [
+        "img {width: 100%; margin: 0;}",
+        ".iconbox-wrapper {flex-wrap: nowrap; justify-content: start;}",
+        ".iconbox {gap: 0;}",
+        ".contentPart {max-width: 70.26%; margin: 0 auto;}",
+        "@media (max-width: 768px) {.iconbox {min-width: 50%; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Glimpse of the Harvest",
+        "section_description": "Mad Honey is a rare gift, meticulously harvested from the cliffs of remote hills where only the most skilled hunters can tread. Deep within lush forests, surrounded by cascading waterfalls, flowing rivers, and breathtaking mountain ranges, this unique honey is collected in harmony with nature. The pristine, untouched environment where Mad Honey is found adds to its allure, making it a true delicacy, enriched with the essence of the wild. Every drop of Mad Honey embodies the pure, natural beauty of its origin, offering a taste of the wilderness in its most authentic form.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "3.2rem",
+        "iconbox_gap": "0",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "25%",
+        "padding": "12rem 0 0 0",
+        "margin": "0 auto",
+        "custom_class": "dark screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#ffffff",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "product_grid_slider_8zaany": {
+      "type": "product-grid-slider",
+      "disabled": true,
+      "custom_css": [
+        "img {background: #be935f4d; aspect-ratio: 301.33/326 !important; object-fit: cover !important; border-radius: 16px;}",
+        "h3 {font-size: 2.4rem; font-family: Lato; font-weight: 700; line-height: 100%; letter-spacing: 0;}",
+        ".product-info {padding: 1.8rem 0;}",
+        "@media (max-width: 480px) {.text-base, .button {font-size: 1.6rem; } .product-card {margin: 0 1rem !important; }}"
+      ],
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "3.2rem",
+        "iconbox_gap": "4.4rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "80.45%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "product_grid_slider_HfznNF": {
+      "type": "product-grid-slider",
+      "custom_css": [
+        "img {background: #be935f4d; aspect-ratio: 301.33/326 !important; object-fit: cover !important; border-radius: 16px;}",
+        "h3 {font-size: 2.4rem; font-family: Lato; font-weight: 700; line-height: 100%; letter-spacing: 0;}",
+        ".product-info {padding: 1.8rem 0;}",
+        "@media (max-width: 480px) {.text-base, .button {font-size: 1.6rem; } .product-card {margin: 0 1rem !important; }}"
+      ],
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "4rem",
+        "iconbox_gap": "2.2rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "78.11%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_JjqM4Y",
+    "icon_box_bd3iXX",
+    "table_basmil_nyJkD3",
+    "basmil_image_text_MHyqit",
+    "basmil_image_text_LFChGc",
+    "basmil_image_richtext_aJUzbg",
+    "basmil_image_text_QVThDF",
+    "basmil_image_richtext_AHrVyX",
+    "icon_box_nYfkz3",
+    "product_grid_slider_8zaany",
+    "product_grid_slider_HfznNF"
+  ]
+}

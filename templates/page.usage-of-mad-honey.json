@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_ELAHmV": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_Fd7g6M": {
+          "type": "content",
+          "settings": {
+            "title": "Uses of Mad Honey",
+            "subtitle": "",
+            "description": "<p>You can enjoy our <a href=\"\" target=\"_blank\" title=\"mad honey\">medicinal mad honey</a> in so many delightful ways! One great option is to mix it into your favorite beverages like tea or smoothies for a natural sweetness. You can even use it as a sweetener in your cooking to add a unique flavorful hint. Mad honey also can easily suit your skincare and hair routine. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Fd7g6M"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "63.54%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "custom_liquid_Yix6zm": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {height: 0;}"
+      ],
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "basmil_image_text_J46Lrz": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_4HFz9P": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Tradition.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_Jmgwef": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey in Tradition",
+            "subtitle": "",
+            "description": "<p>Deeply rooted in the traditional cultures of Nepal and Turkey. For centuries, it has held spiritual and cultural significance. In Nepal, the Gurung communities cherish Mad Honey for its traditional <a href=\"/pages/health-benefits-of-mad-honey\" target=\"_blank\" title=\"health benefits of mad honey\">healing properties</a>. It’s often consumed during special occasions to bring blessings and good fortune. </p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4HFz9P",
+        "content_Jmgwef"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width intact-1400-left",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_eC8kK4": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Health_and_Wellness.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey for Health and Wellness",
+            "subtitle": "",
+            "description": "<p>You can include mad honey in your diet for hearty cardiovascular health, pain relief, and immune system enhancement. Its unique compounds, such as <a href=\"/pages/grayanotoxin\" target=\"_blank\" title=\"grayanotoxin\">grayanotoxins</a>, contribute to its therapeutic effects. Known for its anti-inflammatory properties, mad honey helps with joint pain, muscle soreness, wound healing and digestive health.</p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "Tips to use",
+            "button_link_2": "shopify://pages/mad-honey-for-health-and-wellness"
+          }
+        }
+      },
+      "block_order": [
+        "image_eC8kK4",
+        "content_cRpYeF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_GGiN4Q": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_qXMNM6": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Cooking_World.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_kRdryg": {
+          "type": "content",
+          "settings": {
+            "title": "Culinary Delights with Mad Honey",
+            "subtitle": "",
+            "description": "<p>Its flavor is best suited to the culinary world as it is sweet and sour that can blend with almost all kinds of dishes. Its sweet and sour taste enhances everything from marinades and dressings to desserts and beverages. You can use it to create versatile dishes, whether drizzled over cheese, mixed into salad dressings, or added to baked goods for an exotic sweetness.</p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "Tips to use",
+            "button_link_2": "shopify://pages/culinary-delights-with-mad-honey"
+          }
+        }
+      },
+      "block_order": [
+        "image_qXMNM6",
+        "content_kRdryg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_4DWQpc": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_LfGfNM": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Skin_and_Hair_Treatment.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_3UbGyb": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey in Skincare and Wellness",
+            "subtitle": "",
+            "description": "<p>Its natural antibacterial and anti-inflammatory properties make it ideal for face masks, and soothing balms. When applied to the skin, mad honey promotes healing, reduces inflammation, and provides hydration. It's frequently used in DIY skincare treatment to enhance skin health and achieve a natural glow. Using it as a nourishing ingredient, you will have shiny, bouncy, silky, and smooth hair. </p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "Tips to use",
+            "button_link_2": "shopify://pages/mad-honey-in-skincare-and-wellness"
+          }
+        }
+      },
+      "block_order": [
+        "image_LfGfNM",
+        "content_3UbGyb"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_ELAHmV",
+    "custom_liquid_Yix6zm",
+    "basmil_image_text_J46Lrz",
+    "basmil_image_text_jaHjht",
+    "basmil_image_text_GGiN4Q",
+    "basmil_image_text_4DWQpc"
+  ]
+}

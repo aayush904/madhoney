@@ -1,0 +1,859 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_kxCjjE": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_rgd7qg": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey History From The Himalayas",
+            "subtitle": "",
+            "description": "<p>A tiny mad honey drop reflects the special spirit of these mountains. It is mysterious, enduring, and resilient, just like the Himalayas. With natural hallucinogenic properties, it’s known for its healing, energizing, and calming effects. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_fwezdB": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mountain_4.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_rgd7qg",
+        "image_fwezdB"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper {width: 100%; max-width: 100% !important;}",
+        ".contentside {padding: 0 16px;}",
+        "h1 {width: 80%;}",
+        "@media (max-width: 768px) {.main-wrapper.wrapper .imagepart.imagepart {width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "24px 8.7rem!important",
+        "content_width": "59.88%",
+        "padding": "12rem 0 0",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_UYap3M": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_NYGifw": {
+          "type": "content",
+          "settings": {
+            "title": "A Sacred Tradition in <br>Himalayan Life",
+            "subtitle": "",
+            "description": "<p>Mad honey has been valued for centuries, not only because it’s rare but also because of its powerful properties. As an ancient medicine, it helped treat pain, stress, and other health issues. The honey hunters believed it made them stronger, helping them survive the tough mountain life and stay healthy.</p><p>This tradition has lasted for centuries, but the secret of mad honey is slowly being revealed to the world. As interest in natural remedies and exotic superfoods grows, more people are discovering their unique properties.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_y7GUK8": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Carrying_Paral_1.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_NYGifw",
+        "image_y7GUK8"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper {width: 100%; max-width: 100% !important;}",
+        ".contentside {padding: 0 16px; margin-left: 7.3%; margin-bottom: -16rem;}",
+        "@media (max-width: 768px) {.contentside {padding: 0 16px; margin-left: 0; margin-bottom: 4.8rem; } .main-wrapper.wrapper .imagepart.imagepart {width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "0!important",
+        "content_width": "43.55%",
+        "padding": "12rem 0 0",
+        "margin": "0",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_9cE9b7": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_6WDJXT": {
+          "type": "content",
+          "settings": {
+            "title": "The Roman-Turkey Battle\n<style>\n#mithridates-gradient::after{\ncontent:'';\nwidth:100%;\nheight: 60%;\n  background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 45.77%);\nposition:absolute;\nbottom:0;\n}\n\n@media(max-width:768px){\n#mithridates-gradient::after{\ncontent:none;\n}\n}\n</style>",
+            "subtitle": "",
+            "description": "<p>Mithridates VI, known as the \"Poison King,\" stood against Rome in a battle that would reshape history. As tensions escalated, he used mad honey as a secret weapon to help him win the war. His strategy helped the Turkish army defeat the Romans in a critical battle, shifting the balance of power.</p>",
+            "button_text": "Read More",
+            "button_link": "shopify://pages/mad-honey-nepal-turkey-origins",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_C8XFXt": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/image_44.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_6WDJXT",
+        "image_C8XFXt"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper {width: 100%; max-width: 100% !important;}",
+        ".contentside {padding: 1.7% 3.8%; background: #fff; position: absolute; right: 7.3%; top: 6.9%;}",
+        "@media (max-width: 768px) {.main-wrapper.wrapper .imagepart.imagepart {width: 100% !important; } .contain-wrapper {flex-direction: column-reverse; gap: 0 !important; } .contentside.contentside {position: static; width: 100%; padding: 3.5rem 16px 6rem 16px; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "37.48%",
+        "padding": "0",
+        "margin": "0",
+        "custom_class": "",
+        "custom_id": "mithridates-gradient",
+        "width": "116.6rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_timeline_rrN3mU": {
+      "type": "basmil-timeline",
+      "blocks": {
+        "block_Bp9W3R": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Background of the Third Mithridatic War (67 B.C.)</h2><p>As tensions grew between Rome and its neighbors, the \"Poison King,\" rose to power in Pontus, ready to challenge Roman influence. The third Mithridatic War (73-63 B.C.) was his final attempt to stop Roman control. </p><p>With the help of local allies, he fought against Rome’s growing power in Asia Minor. This battle led to a fierce conflict that changed the region's future and ultimately weakened his rule. </p>"
+          }
+        },
+        "block_aRmG4Y": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>The Strategic Plan to Weaken Rome</h2><p>As he had an apt knowledge of poisons, he used mad honey as a hidden weapon against the Roman army. By mixing local honey with grayanotoxins, he weakened the soldiers. This clever tactic was part of his big evil plan to win over Rome and protect his kingdom.</p>"
+          }
+        },
+        "block_a9FNYQ": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Rome Marching Toward Pontus</h2><p>The Roman army, led by Lucius Licinius Lucullus, marched toward Pontus, unaware of Mithridates' plan. They crossed tough, unfamiliar territory, including areas producing a unique type of honey. The Roman army was still unaware of how mad honey would be the reason for their loss. </p>"
+          }
+        },
+        "block_7Q8YJ3": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Consuming Mad Honey</h2><p>As the Turkish army neared the mad honey, they eagerly consumed it, enjoying its sweet taste. Soon after, they began feeling disoriented and weak due to the honey’s toxic effects. Eating too much of it left them vulnerable, unable to stay alert, and easy targets for Mithridates’ planned attack.</p>"
+          }
+        },
+        "block_iFWJ8J": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Mad Honey Aftermath </h2><p>After consuming the poisoned honey, Roman soldiers began feeling dizzy, confused, and weak. Some were so badly affected that they became unable to continue fighting, leaving them vulnerable to Mithridates' attack. The unexpected effects of the honey severely weakened the Roman army, hindering their ability to proceed with their mission.</p>"
+          }
+        },
+        "block_Fqa7BB": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Surprise Attack</h2><p>Seeing the Roman army weakened by the poisoned honey, Mithridates took advantage of their disarray. He launched a swift surprise attack while the soldiers were still struggling with dizziness and weakness. The unexpected assault caught the Romans off guard, giving Mithridates the upper hand and shifting the momentum of the battle in his favor. </p>"
+          }
+        },
+        "block_UWpWDt": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Long Lasting Legacy </h2><p>Mithridates used mad honey to weaken the Roman soldiers, making them sick and easy to attack. This clever trick gave him an edge in battle and showed his skill at using nature to outsmart his enemies.His legacy is still alive in the history of rulers for his brutal yet brilliant strategies, which still send chills down the spine of those who study his life and reign.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block_Bp9W3R",
+        "block_aRmG4Y",
+        "block_a9FNYQ",
+        "block_7Q8YJ3",
+        "block_iFWJ8J",
+        "block_Fqa7BB",
+        "block_UWpWDt"
+      ],
+      "custom_css": [
+        ".contentside {margin-top: -1.8rem;}",
+        "@media (max-width: 768px) {.contentside {margin: 0; padding-top: 66px; } .wrapper.timeline-wrapper {padding-bottom: 17rem; }}"
+      ],
+      "settings": {
+        "title": "The Rise of Mithridates VI",
+        "description": "<p>Mithridates VI was the ruler of Pontus(modern-day Turkey, known for his apt knowledge of poisons. He gave rise to the practice called mithridatism, where he built up a tolerance by regularly consuming small amounts of toxins. His ability to think outside the box helped him gain a reputation as a creative and dangerous leader.</p>",
+        "gaptimeline": "4.8rem",
+        "alignment": "contentcenter",
+        "content_width": "50%",
+        "class": "dark",
+        "id": "",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "width": "78.4%",
+        "height": "",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_wBGaQ4": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_Vdmp77": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Coin_1.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "37.2rem; margin-top:-18.6rem;"
+          }
+        }
+      },
+      "block_order": [
+        "image_Vdmp77"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {img.imagepart {max-width: 209px !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "0",
+        "padding": "0",
+        "margin": "0 auto 0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_HxmDxN": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_BgLtAG": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey in Ancient Economy",
+            "subtitle": "",
+            "description": "<p>In ancient communities, <a href=\"https://medicinalmadhoney.com/\" target=\"_blank\" title=\"Wild Mad Honey\">mad honey</a> was so prized for its rarity and medicinal properties that it served as a form of currency. More valuable than gold in some regions, it was used to trade for goods, livestock, and services. Mad honey flowed through marketplaces, trusted as a reliable medium of exchange, connecting communities with a unique form of wealth.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_BgLtAG"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.main-wrapper {padding-bottom: 2.4rem; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "100%",
+        "padding": "3.8rem 16px 4.8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "67.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_QyfLRR": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_r7J7Dy": {
+          "type": "content",
+          "settings": {
+            "title": "Barter System",
+            "subtitle": "",
+            "description": "<p>In some ancient parts of Europe, people didn’t always trade with gold or coins. Instead, they used mad honey as currency. Its medicinal properties were highly valued, so when people needed goods or services, they’d offer a jar of the precious honey in exchange. </p><p>Its value was well-known, sometimes even worth more than gold. In these places, mad honey flowed through the markets just as money would, trusted by all as a reliable way to buy what was needed.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_idHMVE": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/image.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "46.46%"
+          }
+        }
+      },
+      "block_order": [
+        "content_r7J7Dy",
+        "image_idHMVE"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; gap: 25px !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "24px 7%!important",
+        "content_width": "46.46%",
+        "padding": "0 16px 4.8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "68.66%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_dnYhW4": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_txypja": {
+          "type": "content",
+          "settings": {
+            "title": "Trade Community",
+            "subtitle": "",
+            "description": "<p>In the heart of mountain villages, where gold was scarce, mad honey became the currency of choice. The trade community trusted its power and rarity, valuing it above gold in some cases. </p><p>Farmers would trade honey for tools, herbs, or livestock, while traders swapped it for cloth or spices. Mad honey flowed from hand to hand as the most precious metal, keeping the community thriving in the high, rugged lands.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_DWGCPA": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/trade_community.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "46.46%"
+          }
+        }
+      },
+      "block_order": [
+        "content_txypja",
+        "image_DWGCPA"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; gap: 25px !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "24px 7%!important",
+        "content_width": "46.46%",
+        "padding": "0 16px 4.8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "68.66%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_39qaqY": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_adCRVz": {
+          "type": "content",
+          "settings": {
+            "title": "Religious Offerings",
+            "subtitle": "",
+            "description": "<p>Rare honey was used in religious rituals as an offering to gods and spirits.  Devotees would present jars of mad honey at temples or sacred sites to honor deities for their blessings. </p><p>It was also given to priests performing puja (worship) as a <em>Dakshina</em>, a form of honorarium for their services. The honey’s powerful effects were believed to connect the worshippers with the divine, making it a sacred exchange.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_Vt7kdD": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/religious_offering.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "46.46%"
+          }
+        }
+      },
+      "block_order": [
+        "content_adCRVz",
+        "image_Vt7kdD"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; gap: 25px !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "24px 7%!important",
+        "content_width": "46.46%",
+        "padding": "0 16px 4.8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "68.66%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_4DiWb4": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_xfUjRN": {
+          "type": "content",
+          "settings": {
+            "title": "Gifts and Souvenirs",
+            "subtitle": "",
+            "description": "<p>The special has long been gifted to loved ones or guests when they depart as a gesture of good health. Even today, mad honey is presented as a souvenir, a token of love and remembrance. </p><p>As friends and family consume it, they’re reminded of the giver’s affection and the deep connection they share. It’s a gift of warm love, health, and lasting memories.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_CghtPh": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/gift_souvenirs.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "46.46%"
+          }
+        }
+      },
+      "block_order": [
+        "content_xfUjRN",
+        "image_CghtPh"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; gap: 25px !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "24px 7%!important",
+        "content_width": "46.46%",
+        "padding": "0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "68.66%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_brbc7q": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_jjNce6": {
+          "type": "content",
+          "settings": {
+            "title": "Ancient Mad Honey Healing Practices",
+            "subtitle": "",
+            "description": "<p>For the local ancient Gurungs, it was an unavoidable part of their holistic healing for enhanced stamina, sexual vitality, and mental clarity. Before practicing meditation or yoga, they would consume mad honey as a preparation. Its calming effect helped clear the mind, improve focus, and deepen their practice. The honey was a natural way to enhance their mental clarity for fully engaging in these spiritual and physical rituals.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_KBEwCn": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/ancient_healing.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "45.4%"
+          }
+        }
+      },
+      "block_order": [
+        "content_jjNce6",
+        "image_KBEwCn"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.basmilTextImage .wrapper {padding-right: 0 !important; } .contain-wrapper {flex-direction: column-reverse; } .contentside {padding: 0 16px; } img {width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "auto",
+        "content_width": "44.6%",
+        "padding": "12rem 16px 12rem 0px",
+        "margin": "0 0 auto 0",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "94.65%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_raQ6tz": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_amYY4c": {
+          "type": "content",
+          "settings": {
+            "title": "Legacy of Mad Honey in the Modern World",
+            "subtitle": "",
+            "description": "<p>Once a secret of a small village in Nepal, its medicinal and calming properties are gaining global popularity. In today’s rush-filled world, people are turning to natural remedies for a healthier, more peaceful life. Mad honey is becoming a part of their daily routines for elevated mental clarity and health. They are experimenting with mad honey’s unique flavor in various dishes for a delightful twist to their meals.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_W8HWtw": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/lab_testing_6be3e2fc-38da-4e87-9440-a798fff2cea8.webp",
+            "image_alt": "Lab testing Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_amYY4c",
+        "image_W8HWtw"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".contentside {margin: auto; padding: 0 16px;}",
+        "img {width: 100% !important;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "58.7%",
+        "padding": "0 0 12rem 0",
+        "margin": "0",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_GWD7Uc": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_RPtb64": {
+          "type": "content",
+          "settings": {
+            "title": "Honoring The Ancestral Wisdom",
+            "subtitle": "",
+            "description": "<p>Step into a world untouched by time, where <a href=\"/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">ancient honey-hunting traditions </a>still thrive. In this faraway world, the stories of mad honey and its mystical powers come to life. The air vibrates with a sense of positivity, as the past echoes through every corner, telling tales of bravery, resilience, and nature's hidden wonders. This is an experience that will open your eyes to a way of life that is as unique and enriching. </p>",
+            "button_text": "Book My Tour",
+            "button_link": "shopify://pages/honey-hunting-tour",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_hVJzKf": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Honey_Hunting_High_Hill.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_RPtb64",
+        "image_hVJzKf"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper {width: 100%; max-width: 100% !important;}",
+        ".contentside {padding: 1.7% 3.8%; background: #fff; position: absolute; left: 8.7%; top: 50%; transform: translate(0, -50%);}",
+        "@media (max-width: 768px) {.main-wrapper.wrapper .imagepart.imagepart {width: 100% !important; } .contain-wrapper {flex-direction: column-reverse; gap: 0 !important; } .contentside.contentside {position: static; width: 100%; padding: 3.5rem 16px 6rem 16px; transform: translate(0, 0%); align-items: start; } .contentside * {text-align: left; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "39%",
+        "padding": "0",
+        "margin": "0",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "116.6rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "product_grid_slider_8zaany": {
+      "type": "product-grid-slider",
+      "disabled": true,
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "1",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "3.2rem",
+        "iconbox_gap": "4.4rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "80.45%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "product_grid_slider_A86BA9": {
+      "type": "product-grid-slider",
+      "custom_css": [
+        "img {background: #be935f4d; aspect-ratio: 301.33/326 !important; object-fit: cover !important; border-radius: 16px;}",
+        "h3 {font-size: 2.4rem; font-family: Lato; font-weight: 700; line-height: 100%; letter-spacing: 0;}",
+        ".product-info {padding: 1.8rem 0;}",
+        "@media (max-width: 480px) {.text-base, .button {font-size: 1.6rem; } .product-card {margin: 0 1rem !important; }}"
+      ],
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "4rem",
+        "iconbox_gap": "2.2rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "78.11%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_kxCjjE",
+    "basmil_image_text_UYap3M",
+    "basmil_image_text_9cE9b7",
+    "basmil_timeline_rrN3mU",
+    "basmil_image_text_wBGaQ4",
+    "basmil_image_text_HxmDxN",
+    "basmil_image_text_QyfLRR",
+    "basmil_image_text_dnYhW4",
+    "basmil_image_text_39qaqY",
+    "basmil_image_text_4DiWb4",
+    "basmil_image_text_brbc7q",
+    "basmil_image_text_raQ6tz",
+    "basmil_image_text_GWD7Uc",
+    "product_grid_slider_8zaany",
+    "product_grid_slider_A86BA9"
+  ]
+}

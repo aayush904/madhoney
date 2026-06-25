@@ -1,0 +1,246 @@
+<style>
+  input[name='tabs']:not(:checked) + .tab-container {
+    opacity: 0;
+    width: 0;
+    z-index: -1;
+    overflow: hidden;
+    height: 0;
+  }
+
+  .tab-container {
+    transition: all 0.3s ease-in-out;
+    display: flex;
+  }
+
+  {% for block in section.blocks %}
+    tabs-container:has(input#tab-{{ forloop.index }}:checked)  label[for="tab-{{ forloop.index }}"] {
+      border-bottom: 2px solid #BE935F;
+      color: #BE935F;
+      font-weight:400;
+    }
+  {% endfor %}
+
+  input[type='radio']:checked + label {
+    background-color: #fff;
+    color: #000;
+  }
+
+  @media (max-width: 768px) {
+  {% if section.settings.show_tabs_mobile %}
+    tabs{
+      margin-bottom:0!important;
+    }
+    nav{
+    padding: 12px 10px;
+    flex-wrap: wrap;
+    gap: 12px!important;
+    background:#fff;
+    justify-content: space-around;
+    min-width: 100%;
+    max-width: 100%!important;
+    }
+    {% for block in section.blocks %}
+      tabs-container:has(input#tab-{{ forloop.index }}:checked)  label[for="tab-{{ forloop.index }}"] {
+        border-bottom: 1px solid #BE935F;
+      }
+
+    {% endfor %}
+  {% else %}
+      input[name='tabs']:not(:checked) + .tab-container {
+        opacity: 1;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+      }
+    {% endif %}
+  }
+</style>
+
+<div class="wrapper page-width max-w-[126.5rem] mx-auto my-[12rem] sm:my-[72px]">
+  {% if section.settings.main_heading != blank or section.settings.main_description != blank %}
+    <div class="contentPart mb-[4.8rem] sm:mb-[24px]">
+      {% if section.settings.main_heading != blank %}
+        <h2 class="text-center">{{ section.settings.main_heading }}</h2>
+      {% endif %}
+      {% if section.settings.main_description != blank %}
+        <p>{{ section.settings.main_description }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+  <tabs-container>
+    <tabs class="flex relative gap-0 {% if section.settings.show_tabs_mobile %} sm:flex-row {% else %} sm:flex-col {% endif %} mb-[4.8rem] sm:mb-[12px]">
+      {% for block in section.blocks %}
+        <input
+          type="radio"
+          name="tabs"
+          id="tab-{{ forloop.index }}"
+          {% if forloop.first %}
+            checked
+          {% endif %}
+          hidden
+        >
+
+        <tab class="relative tab-container bg-[#fff] flex sm:flex-col items-center justify-center gap-[0] {% if section.settings.show_tabs_mobile %} sm:mb-0 {% else %}sm:mb-[24px]{% endif %}">
+          <div
+            class="
+              w-[calc(50%-(3.75rem/2))] sm:w-full flex items-center h-full justify-center z-0
+              {% if section.settings.show_tabs_mobile %} sm:absolute sm:before:bg-[#00000050] sm:before:absolute sm:before:h-full sm:before:min-w-full sm:before:top:0 sm:before:left-0 {% else %} {% endif %}
+            "
+          >
+            {% comment %}
+              <img
+                class="max-w-full sm:object-cover sm:w-full sm:h-full"
+                src="{{ block.settings.tab_image | image_url }}"
+                alt="placeholder"
+                width="500"
+                height="500"
+              >
+            {% endcomment %}
+            {% assign img_alt = block.settings.tab_image.alt | default: block.settings.tab_title %}
+            {{
+              block.settings.tab_image
+              | image_url: width: block.settings.tab_image.width
+              | image_tag:
+                widths: '320, 480, 768, 1024',
+                class: 'max-w-full sm:object-cover sm:w-full sm:h-full',
+                alt: img_alt,
+                width: block.settings.tab_image.width,
+                height: block.settings.tab_image.height,
+                loading: 'lazy'
+            }}
+          </div>
+
+          <div
+            class="flex p-[3.75rem] flex-col {% if section.settings.show_tabs_mobile %} sm:justify-center sm:items-center sm:text-[#fff] sm:p-[56px_16px] {% else %} sm:p-[24px_18px]  {% endif %} gap-[12px] w-[calc(50%+(3.75rem/2))] sm:w-full  z-[1]"
+          >
+            {% if block.settings.tab_subtitle != blank %}
+              <subtitle class="tab_subtitle  font-sans text-[1.8rem] mb-[16px] sm:mb-[0] sm:text-[12px]{% if section.settings.show_tabs_mobile %} sm:text-center sm:text-[#fff] {% endif %}">
+                {{ block.settings.tab_subtitle }}
+              </subtitle>
+            {% endif %}
+            <{{ section.settings.heading_tag }} class="tab_title h1 text-tertiary {% if section.settings.show_tabs_mobile %} sm:mb-[-4px] sm:text-center sm:text-[#fff] {% endif %}">
+              {{ block.settings.tab_title }}
+            </{{ section.settings.heading_tag }}>
+            <div class="slide_content {% if section.settings.show_tabs_mobile %}sm:text-center mb-[16px] sm:mb-[8px]  sm:text-[#fff] {% endif %}">
+              {{ block.settings.tab_content }}
+            </div>
+            {% if block.settings.button_text and block.settings.button_link %}
+              <a
+                href="{{ block.settings.button_link }}"
+                class="font-sans text-[#00000099] flex gap-[16px] justify-center w-max items-center {% if section.settings.show_tabs_mobile %}sm:text-center sm:justify-center sm:text-[#fff] {% endif %}  btn btn-primary"
+              >
+                {{ block.settings.button_text }}
+                <svg width="21" height="9" viewBox="0 0 21 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.0159 4.85355C20.2111 4.65829 20.2111 4.34171 20.0159 4.14645L16.8339 0.964466C16.6386 0.769204 16.322 0.769204 16.1268 0.964466C15.9315 1.15973 15.9315 1.47631 16.1268 1.67157L18.9552 4.5L16.1268 7.32843C15.9315 7.52369 15.9315 7.84027 16.1268 8.03553C16.322 8.2308 16.6386 8.2308 16.8339 8.03553L20.0159 4.85355ZM0.5 5H19.6623V4H0.5L0.5 5Z" fill="currentColor"/>
+                </svg>
+              </a>
+            {% endif %}
+          </div>
+        </tab>
+      {% endfor %}
+    </tabs>
+
+    {% comment %} navigation {% endcomment %}
+    <nav class="relative z-[2] max-w-max m-auto flex gap-[3.2rem] {% if section.settings.show_tabs_mobile %} {% else %} sm:hidden {% endif %} ">
+      {% for block in section.blocks %}
+        <label
+          class="leading-none pb-[2.5px] font-light cursor-pointer transition-all hover:font-normal font-sans text-[#4A4A4A] lowercase font-lato text-[2rem] sm:text-[16px] "
+          for="tab-{{ forloop.index }}"
+        >
+          {{- block.settings.tab_label -}}
+        </label>
+      {% endfor %}
+    </nav>
+  </tabs-container>
+</div>
+
+{% schema %}
+{
+  "name": "Basmil Tabs",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading",
+      "default": "What's so special about Mad Honey?"
+    },
+    {
+      "type": "text",
+      "id": "main_description",
+      "label": "Main description"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tabs_mobile",
+      "label": "Show Navigation in Mobile",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Tab Heading Tag",
+      "options": [
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "tab_image",
+          "label": "Tab Image"
+        },
+        {
+          "type": "text",
+          "id": "tab_label",
+          "label": "Tab Label",
+          "default": "uniqueness"
+        },
+        {
+          "type": "html",
+          "id": "tab_title",
+          "label": "Tab Title",
+          "default": "What Is Unique About New Mad Honey?"
+        },
+        {
+          "type": "text",
+          "id": "tab_subtitle",
+          "label": "Tab Sub Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "tab_content",
+          "label": "Tab Content",
+          "default": "All Mad Honey is sourced through Medicinal Mad Honey comes exclusively from the remote Himalayan regions of Nepal, where it has been harvested using traditional methods for thousands of years. Our rare honey is produced by world’s largest bee Apis laboriosa bees that collect from the nectar Rhododendron flowers containing grayanotoxins I and II thousand other wild flowers from Himalayan regions. These natural compounds are what give Mad Honey its distinctive properties and effects.\n\nAt Medicinal Mad Honey, we make sure to verify the authenticity of every batch through comprehensive laboratory testing before it reaches your door, ensuring you receive genuine, pure Mad Honey with optimal levels of beneficial compounds."
+        },
+        {
+          "type": "html",
+          "id": "button_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Basmil Tabs"
+    }
+  ]
+}
+{% endschema %}

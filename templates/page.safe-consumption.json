@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_gULdRr": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {height: calc(100vh - 136px) !important; width: 100%;}",
+        "@media (max-width: 1024px) {.banner {height: auto; width: 100%; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_92.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Safe Consumption",
+            "description": "<p>If you're trying Mad Honey, it's important to stick to the recommended amount and not go overboard. By following these tips, you can safely enjoy the unique benefits of Mad Honey while keeping any risks low.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_cRpYeF"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "66.6%",
+        "padding": "9.6rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_EVPDDe": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Start_Small_60312134-1719-4453-a5ac-893358830088.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_UUE4QN": {
+          "type": "content",
+          "settings": {
+            "title": "Start Small",
+            "description": "<p>If you’re new to Mad Honey, begin with a small amount (like half a teaspoon) to see how your body reacts, especially because it contains Grayanotoxins, which can have strong effects. You can gradually increase the dosage if you feel comfortable.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EVPDDe",
+        "content_UUE4QN"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_Jt8WBy": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Trust_Your_Gut.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_VDaFtW": {
+          "type": "content",
+          "settings": {
+            "title": "Trust Your Gut",
+            "description": "<p>Taking Mad Honey on an empty stomach may enhance its effects, but if you’re prone to digestive issues, having it with food can help avoid discomfort.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Jt8WBy",
+        "content_VDaFtW"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_x7EgXW": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Medication.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_3wbHrA": {
+          "type": "content",
+          "settings": {
+            "title": "Avoid Combining with Alcohol or Medications",
+            "description": "<p>Mixing Mad Honey with alcohol, recreational drugs, or certain medications could lead to adverse reactions. If you’re on medication, check with your doctor first.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_x7EgXW",
+        "content_3wbHrA"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_jhecxU": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Drink_Enough_Water.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_7Wj6ag": {
+          "type": "content",
+          "settings": {
+            "title": "Drink Enough Water",
+            "description": "<p>Drink water never goes out of style! But its more important to stay hydrated to balance out any mild side effects like dizziness or fatigue.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jhecxU",
+        "content_7Wj6ag"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "image_banner_gULdRr",
+    "basmil_image_text_jaHjht",
+    "basmil_image_text_KbzT3N",
+    "basmil_image_text_MhPHjD",
+    "basmil_image_text_7iq7pU",
+    "basmil_image_text_VdWMx9"
+  ]
+}

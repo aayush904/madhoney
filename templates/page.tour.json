@@ -1,0 +1,970 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_JjqM4Y": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_CeHD9m": {
+          "type": "content",
+          "settings": {
+            "title": "<white>Experience the</white> Thrill of Adventure <white>of Honey Hunting.</white>",
+            "subtitle": "<style>\n  /* overlay */\n  .tour-init * {\n    font-family: Lato;\n  }\n\n  /* modal container */\n  .tour-init__box {\n    background: #ffffff;\n    padding: 32px 24px;\n    /* 32px top-bottom, 24px left-right */\n    max-width: 400px;\n    /* ­roughly the width in screenshot */\n    width: 90vw;\n    border-radius: 4px;\n    position: relative;\n    font-size: 14px;\n    /* base font 14 px */\n    line-height: 1.45;\n    font-weight: normal;\n    /* ensure no bold text */\n  }\n\n  /* close button */\n  .tour-init__close {\n    position: absolute;\n    top: 18px;\n    right: 18px;\n    background: none;\n    border: 0;\n    font-size: 20px;\n    cursor: pointer;\n  }\n\n  /* headings / section titles */\n  .tour-init__heading {\n    font-size: 14x;\n    /* 16 px */\n    margin-bottom: 8px;\n  }\n\n  /* main price line */\n  .tour-init__price {\n    font-size: 16px;\n    margin-top: 0;\n    margin-bottom: 24px;\n  }\n\n  /* info (duration & group size) */\n  .tour-init__info {\n    display: flex;\n    gap: 18px;\n    justify-content: space-between;\n    margin: 0;\n    margin-bottom: 24px;\n  }\n\n  .tour-init__info-label {\n    font-size: 14px;\n    /* 12 px */\n    color: #000000;\n    margin-bottom: 8px;\n  }\n\n  .tour-init__info-value {\n    font-size: 16px;\n    /* 14 px */\n    color: #000000;\n  }\n\n  /* payment options */\n  .tour-init__group {\n    display: flex;\n    gap: 18px;\n    margin: 0;\n    margin-top: 16px;\n  }\n\n  .tour-init__group {\n    margin-bottom: 24px;\n  }\n\n  .tour-init__option {\n    flex: 1;\n    text-align: center;\n    padding: 1em 0.5em;\n    border: 1px solid #000000;\n    background: #ffffff;\n    color: #000000;\n    cursor: pointer;\n    transition: 0.2s;\n    font-size: 14px;\n  }\n\n  .tour-init__option:hover {\n    background: #BE935F60;\n    /* 38 % opacity hover */\n    color: #BE935F;\n  }\n\n  .tour-init__option.active {\n    background: #BE935F;\n    color: #ffffff;\n  }\n\n  /* departure dates */\n  .tour-init__dates {\n    display: flex;\n    gap: 18px;\n    margin-bottom: 16px;\n  }\n\n  .tour-init__date {\n    flex: 1;\n    text-align: center;\n    padding: 1.1em 0.6em;\n    border: 1px solid #000000;\n    background: #ffffff;\n    color: #000000;\n    cursor: pointer;\n    transition: 0.2s;\n    font-size: 14px;\n  }\n\n  .tour-init__date:hover {\n    background: #BE935F60;\n    color: #BE935F;\n  }\n\n  .tour-init__date.active {\n    background: #BE935F;\n    color: #ffffff;\n  }\n\n  /* primary CTA */\n  .tour-init__btn {\n    display: block;\n    width: 100%;\n    background: #000000;\n    color: #BE935F;\n    text-align: center;\n    padding: 1.15em 0;\n    font-size: 16px;\n    text-decoration: none;\n    margin-bottom: 2em;\n    transition: 0.2s;\n  }\n\n  .tour-init__btn:hover {\n    opacity: 0.85;\n  }\n\n  /* contact list */\n  .tour-init__contact_title {\n    font-size: 14px;\n  }\n\n  .tour-init__contact {\n    padding-left: 0;\n  }\n\n  .tour-init__contact li {\n    list-style: none;\n    display: flex;\n    align-items: center;\n    gap: 0.55em;\n    font-size: 12px;\n    margin-bottom: 0.55em;\n  }\n\n  .tour-init__contact .icon {\n    font-size: 12px;\n  }\n\n  /* ── slide helpers (no \"*\" selector used) ────────────────────────────── */\n  .slide-transition {\n    transition: transform .4s ease, opacity .4s ease;\n  }\n\n  .slide-start {\n    /* element is off-screen to the left     */\n    transform: translateX(100%);\n    opacity: 0;\n  }\n\n  .slide-end {\n    /* element is in its final (visible) spot */\n    transform: translateX(0);\n    opacity: 1;\n  }\n</style>\n\n<div class=\"tour-init\">\n  <div class=\"tour-init__box\">\n    <button class=\"tour-init__close\" aria-label=\"Close\">×</button>\n\n    <p class=\"tour-init__heading\">Starting from</p>\n    <p class=\"tour-init__price\">$1299 Per Person</p>\n\n    <!-- trip info -->\n    <div class=\"tour-init__info\">\n      <div>\n        <div class=\"tour-init__info-label\">Duration of The Journey</div>\n        <div class=\"tour-init__info-value\">5 Days</div>\n      </div>\n      <div>\n        <div class=\"tour-init__info-label\">Group Size</div>\n        <div class=\"tour-init__info-value\">10-15</div>\n      </div>\n    </div>\n\n    <!-- payment planning -->\n    <p class=\"tour-init__heading\">Payment Planning</p>\n    <div class=\"tour-init__group\">\n      <button class=\"tour-init__option active\" data-value=\"Deposit Fee\" data-amount=\"\">Deposit Payment</button>\n      <button class=\"tour-init__option\" data-value=\"Full Payment\" data-amount=\"\">Full Payment</button>\n    </div>\n\n    <!-- departure dates -->\n    <p class=\"tour-init__heading\">Departure Date</p>\n    <div class=\"tour-init__dates\">\n      <div class=\"tour-init__date\">November 2024</div>\n      <div class=\"tour-init__date\">May 2025</div>\n    </div>\n\n    <a href=\"\" data-base=\"https://medicinalmadhoney.com/products/tour\" class=\"tour-init__btn\">Book My Trip</a>\n\n    <!-- contact info -->\n    <p class=\"tour-init__contact_title\" style=\"margin-bottom:8px\">More info:</p>\n    <ul class=\"tour-init__contact\">\n      <li>\n<span class=\"icon\">\n          <svg width=\"16\" height=\"16\" viewbox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#D9D9D9\"></circle>\n            <path d=\"M4 4.5C4 4.36739 4.05268 4.24021 4.14645 4.14645C4.24021 4.05268 4.36739 4 4.5 4H5.5765C5.69485 4.00005 5.80935 4.04209 5.89962 4.11863C5.98989 4.19517 6.05009 4.30125 6.0695 4.418L6.4395 6.6355C6.45718 6.74111 6.44049 6.8496 6.39188 6.94502C6.34328 7.04043 6.26532 7.11771 6.1695 7.1655L5.3955 7.552C5.67305 8.23983 6.08642 8.86464 6.61089 9.38911C7.13536 9.91358 7.76017 10.3269 8.448 10.6045L8.835 9.8305C8.88276 9.73477 8.95997 9.65688 9.05528 9.60828C9.15058 9.55968 9.25897 9.54294 9.3645 9.5605L11.582 9.9305C11.6988 9.94991 11.8048 10.0101 11.8814 10.1004C11.9579 10.1906 11.9999 10.3051 12 10.4235V11.5C12 11.6326 11.9473 11.7598 11.8536 11.8536C11.7598 11.9473 11.6326 12 11.5 12H10.5C6.91 12 4 9.09 4 5.5V4.5Z\" fill=\"black\"></path>\n          </svg>\n\n        </span> +977 - 9823875502</li>\n      <li>\n<span class=\"icon\"><svg width=\"16\" height=\"16\" viewbox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#D9D9D9\"></circle>\n            <path d=\"M4 5.942L7.9985 7.941L11.997 5.942C11.9822 5.68722 11.8705 5.44774 11.6849 5.27261C11.4993 5.09748 11.2537 4.99995 10.9985 5H4.9985C4.74329 4.99995 4.49772 5.09748 4.31209 5.27261C4.12645 5.44774 4.0148 5.68722 4 5.942Z\" fill=\"black\"></path>\n            <path d=\"M12 7.05859L8 9.05859L4 7.05859V9.99959C4 10.2648 4.10536 10.5192 4.29289 10.7067C4.48043 10.8942 4.73478 10.9996 5 10.9996H11C11.2652 10.9996 11.5196 10.8942 11.7071 10.7067C11.8946 10.5192 12 10.2648 12 9.99959V7.05859Z\" fill=\"black\"></path>\n          </svg>\n        </span> contact@medicinalmadhoney.com</li>\n      <li>\n<span class=\"icon\"><svg width=\"16\" height=\"16\" viewbox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <circle cx=\"8\" cy=\"8\" r=\"8\" fill=\"#D9D9D9\"></circle>\n            <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 12C9.06087 12 10.0783 11.5786 10.8284 10.8284C11.5786 10.0783 12 9.06087 12 8C12 6.93913 11.5786 5.92172 10.8284 5.17157C10.0783 4.42143 9.06087 4 8 4C6.93913 4 5.92172 4.42143 5.17157 5.17157C4.42143 5.92172 4 6.93913 4 8C4 9.06087 4.42143 10.0783 5.17157 10.8284C5.92172 11.5786 6.93913 12 8 12ZM8.5 6C8.5 5.86739 8.44732 5.74021 8.35355 5.64645C8.25979 5.55268 8.13261 5.5 8 5.5C7.86739 5.5 7.74021 5.55268 7.64645 5.64645C7.55268 5.74021 7.5 5.86739 7.5 6V8C7.50003 8.1326 7.55273 8.25975 7.6465 8.3535L9.0605 9.768C9.10696 9.81446 9.16211 9.85131 9.2228 9.87645C9.2835 9.90159 9.34855 9.91453 9.41425 9.91453C9.47995 9.91453 9.545 9.90159 9.6057 9.87645C9.66639 9.85131 9.72155 9.81446 9.768 9.768C9.81446 9.72155 9.85131 9.66639 9.87645 9.6057C9.90159 9.545 9.91453 9.47995 9.91453 9.41425C9.91453 9.34855 9.90159 9.2835 9.87645 9.2228C9.85131 9.16211 9.81446 9.10696 9.768 9.0605L8.5 7.793V6Z\" fill=\"black\"></path>\n          </svg>\n        </span> Mon-Fri 7 am-6 pm PT</li>\n    </ul>\n  </div>\n</div>\n\n<script>\n  document.addEventListener('DOMContentLoaded', () => {\n    /* ──────────────────  A. TOUR-INIT MODAL  ────────────────── */\n    const modal = document.querySelector('.tour-init');\n    if (modal) {\n      const payBtns = modal.querySelectorAll('.tour-init__option');\n      const datesWrapper = modal.querySelector('.tour-init__dates')\n      const dateBtns = modal.querySelectorAll('.tour-init__date');\n      const ctaBtn = modal.querySelector('.tour-init__btn');\n      const priceDisplay = modal.querySelector('.tour-init__price');\n\n\n      const baseHref = ctaBtn.getAttribute('data-base')        // safest: supply data-base attr\n        || ctaBtn.getAttribute('href')            // fallback to whatever was there\n        || '#';\n\n\n      const params = {\n        \"selected_method\": '',\n        \"selected_date\": '',\n      };\n\n      // helper: serialise params → query string and push into the button\n      const updateCTA = () => {\n        const qs = new URLSearchParams(params).toString();     // e.g. selected_method=…&selected_date=…\n        ctaBtn.href = `${baseHref}?${qs}`;\n      };\n\n      const markSelected = (el) => {\n        if (el.classList.contains('tour-init__option')) {\n          modal.querySelectorAll('.tour-init__option')\n            .forEach(node => node.classList.toggle('active', node === el));\n        } else {\n          modal.querySelectorAll('.tour-init__date')\n            .forEach(node => node.classList.toggle('active', node === el));\n        }\n      };\n\n      // fetch the price of the the product\n      fetch('https://medicinalmadhoney.com/products/tour.json')\n        .then(response => response.json())\n        .then(data => {\n          const variants = data.product.variants;\n          const depositVariant = variants.find(variant => variant.title === \"Deposit Fee\");\n          const fullVariant = variants.find(variant => variant.title === \"Full Payment\");\n          params.selected_method = depositVariant.title;\n          updateCTA();\n\n          payBtns.forEach(btn => {\n            const label = btn.dataset.value.trim().toLowerCase();\n            const price = label === 'deposit fee' ? depositVariant.price : fullVariant.price;\n            const title = label === 'deposit fee' ? depositVariant.title : fullVariant.title;\n            // Store as a data attribute (data-amount) **and** a JS property for convenience\n            btn.dataset.amount = price;\n            priceDisplay.textContent = `$${depositVariant.price} Per Person`;\n            btn.addEventListener('click', (e) => {\n              markSelected(btn);                      // visual feedback\n              if (priceDisplay) {\n                priceDisplay.textContent = `$${btn.dataset.amount} Per Person`;\n                params.selected_method = btn.dataset.value;\n                updateCTA();\n\n              }\n            });\n          });\n          if (depositVariant) { } else {\n            console.log(\"Deposit Fee variant not found\");\n          }\n        })\n        .catch(error => console.error(\"Error fetching product data:\", error));\n\n\n      function getMayAndNovember() {\n        const now = new Date();\n        const currentYear = now.getFullYear();\n        const currentMonth = now.getMonth(); // 0 = Jan, 4 = May, 10 = Nov\n        const currentDate = now.getDate();\n\n        let firstMonthLabel, secondMonthLabel;\n\n        if (currentMonth < 4 || (currentMonth === 4 && currentDate <= 20)) {\n          // Before or on mid May\n          firstMonthLabel = `May ${currentYear}`;\n          secondMonthLabel = `November ${currentYear}`;\n        } else if (currentMonth < 10 || (currentMonth === 10 && currentDate <= 20)) {\n          // After mid May and before or on mid November\n          firstMonthLabel = `November ${currentYear}`;\n          secondMonthLabel = `May ${currentYear + 1}`;\n        } else {\n          // After mid November\n          firstMonthLabel = `May ${currentYear + 1}`;\n          secondMonthLabel = `November ${currentYear + 1}`;\n        }\n\n        return [firstMonthLabel, secondMonthLabel];\n      }\n\n      const months = getMayAndNovember();\n\n      if (!datesWrapper) throw new Error('datesWrapper not found!');\n\n      // Clear previous content\n      datesWrapper.replaceChildren();\n\n\n      months.forEach(label => {\n        const el = document.createElement('div');\n        el.className = 'tour-init__date';\n        el.textContent = label;\n\n        el.addEventListener('click', (e) => {\n          params.selected_date = e.currentTarget.textContent;  // store the value\n          updateCTA();\n          markSelected(e.currentTarget);                      // visual feedback\n        });\n\n        datesWrapper.appendChild(el);\n      });\n\n      // Optionally pre-select the first month\n      if (months.length) {\n        params.selected_date = months[0];\n        updateCTA();\n        markSelected(datesWrapper.firstElementChild);\n      }\n\n\n    }\n\n    /* ──────────────────  B. SLIDE UTILS  ────────────────── */\n    function slideOutLeft(el) {\n      /* ensure element is visible before sliding out */\n      el.style.display = el.style.display || 'block';\n      el.classList.add('slide-transition', 'slide-end'); // start at visible\n      requestAnimationFrame(() => {\n        el.classList.replace('slide-end', 'slide-start'); // animate to left\n      });\n      el.addEventListener('transitionend', function h() {\n        el.style.display = 'none'; // hide after anim\n        el.classList.remove('slide-transition', 'slide-start');\n        el.removeEventListener('transitionend', h);\n      });\n    }\n\n    function slideInLeft(el) {\n      el.style.display = el.dataset.origDisplay || 'block'; // show first\n      el.classList.add('slide-transition', 'slide-start'); // start off-screen\n      requestAnimationFrame(() => {\n        el.classList.replace('slide-start', 'slide-end'); // animate in\n      });\n      el.addEventListener('transitionend', function h() {\n        el.classList.remove('slide-transition', 'slide-end');\n        el.removeEventListener('transitionend', h);\n      });\n    }\n    /* ──────────────────  C. BANNER STEP-2 : Show only .subtitle ────────────────── */\n    document.querySelectorAll('#banner-content .contentside .button')\n      .forEach(btn => {\n        btn.addEventListener('click', () => {\n          const side = btn.closest('.contentside');\n          const subtitle = side?.querySelector('.subtitle');\n          if (!side || !subtitle) return;\n          Array.from(side.children).forEach(child => {\n            if (child === subtitle) {\n              slideInLeft(child); // keep / slide in subtitle\n            } else {\n              slideOutLeft(child); // slide out other elems\n            }\n          });\n        });\n      });\n    /* ──────────────────  D. BANNER STEP-3 : Restore all, hide subtitle ────────────────── */\n    document.querySelectorAll('#banner-content .contentside .tour-init__close')\n      .forEach(closeBtn => {\n        closeBtn.addEventListener('click', () => {\n          const banner = closeBtn.closest('.contentside');\n          const subtitle = banner?.querySelector('.subtitle');\n          if (!banner || !subtitle) return;\n          Array.from(banner.children).forEach(child => {\n            if (child === subtitle) {\n              slideOutLeft(child); // hide subtitle\n            } else {\n              slideInLeft(child); // restore others\n            }\n          });\n        });\n      });\n  });\n</script>",
+            "description": "<p>An ancient and precious art that drives honey hunters to risk their lives, climb dangerous cliffs, and face fiercely humming giant honeybees—all to harvest the treasured mad honey.</p>",
+            "button_text": "BOOK THE DATE",
+            "button_link": "#",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_iWD4gq": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/tourbannermobile_df0e85f0-dbba-4ec5-8e3d-fd8d50935661.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "0"
+          }
+        }
+      },
+      "block_order": [
+        "content_CeHD9m",
+        "image_iWD4gq"
+      ],
+      "custom_css": [
+        ".basmilTextImage {overflow: hidden;}",
+        "img,.subtitle {display: none;}",
+        ".subtitle p {color: #000;}",
+        "@media (max-width: 768px) {img {display: block; width: 100% !important; } .contain-wrapper {flex-direction: column-reverse; gap: 0 !important; } .main-wrapper {padding: 0 !important; } .contentside {padding: 0 16px 24px 16px !important; } .basmilTextImage.basmilTextImage {background: #000; padding: 0 !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "49.46%",
+        "padding": "18rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "banner-content",
+        "width": "80%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_image": "shopify://shop_images/Honey_Hunting170_3.jpg",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "rich_text_RxNAf6": {
+      "type": "rich-text",
+      "blocks": {
+        "text_b3iAB6": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><a href=\"#Overview\" title=\"#Overview\">Overview</a></li><li><a href=\"#Itinerary\" title=\"#Itinerary\">Itinerary</a></li><li><a href=\"#dates\" title=\"#dates\">Dates</a></li><li><a href=\"#Gears\" title=\"#Gears\">Gears</a></li><li><a href=\"#Details\" title=\"#Details\">Details</a></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_b3iAB6"
+      ],
+      "custom_css": [
+        "ul {display: flex; width: 100%; justify-content: center; gap: 4.8rem; font-family: \"lato\";}",
+        "@media (max-width: 1024px) {ul {gap: 2.4rem; }}",
+        ".content-container {background: white;}",
+        ".section--rich-text.section--rich-text {position: sticky !important; z-index: 1; top: 90px !important;}",
+        "@media (max-width: 1024px) {.section--rich-text.section--rich-text {top: 0px !important; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "id": "navigator-inpage"
+      }
+    },
+    "basmil_image_text_slider_LHMTpP": {
+      "type": "basmil-image-text-slider",
+      "blocks": {
+        "content_FzYAVJ": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey Hunting Tour",
+            "subtitle": "",
+            "description": "<p><a href=\"https://medicinalmadhoney.com/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">Mad Honey Hunting</a> is an ancient tradition where Nepal’s honey hunters climb delicate, handwoven ladders that hang from the high cliffs of the Himalayas. The Gurung people have faced this risky journey for centuries, preserving their tradition and sharing remarkable challenges and stories. Each year, we invite a small group of adventurers to join this exclusive expedition, allowing them to experience the stunning views and captivating tales of this timeless honey hunting practice.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_3mYkdq": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/1_090d69ac-6f40-454c-887a-377497000b45.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_fCTUgA": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/2_168c698f-e020-456f-ad1b-eb183b52fb12.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_APfc9w": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/2a.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_4i4rVR": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/3.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_yaj3qz": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/4.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_BdiRFA": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/4aa.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_kRJ86K": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/5.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_LfdEbD": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/6.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        },
+        "image_kmeVqy": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/7.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        }
+      },
+      "block_order": [
+        "content_FzYAVJ",
+        "image_3mYkdq",
+        "image_fCTUgA",
+        "image_APfc9w",
+        "image_4i4rVR",
+        "image_yaj3qz",
+        "image_BdiRFA",
+        "image_kRJ86K",
+        "image_LfdEbD",
+        "image_kmeVqy"
+      ],
+      "custom_css": [
+        ".button {padding: 16px 8.7vw;}",
+        ".slick-dotted.slick-slider {margin: 0;}",
+        ".image-slider-wrapper {width: 72.2rem; max-width: 53.45%; border-radius: 8px !important; overflow: hidden;}",
+        ".slick-dots {bottom: 5px;}",
+        ".slick-dots li {margin: 0;}",
+        ".slick-dots li button {padding: 2px; width: 18px;}",
+        ".slick-dots li button:before {color: #fff;}",
+        ".image-slide:not(:first-of-type):not(.slick-slide) {position: absolute; opacity: 0;}",
+        "@media (max-width: 768px) {.imagepart {width: 100%; max-width: 100% !important; }}"
+      ],
+      "name": "Basmil Image Text Slider",
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.4rem",
+        "content_width": "42%",
+        "padding": "8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "Overview",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_jEfDFM": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_TXF8hy": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey Hunting Tour",
+            "subtitle": "",
+            "description": "<p><a href=\"/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">Mad Honey Hunting</a> is an ancient tradition where Nepal’s honey hunters climb delicate, handwoven ladders that hang from the high cliffs of the Himalayas. The Gurung people have faced this risky journey for centuries, preserving their tradition and sharing remarkable challenges and stories. Each year, we invite a small group of adventurers to join this exclusive expedition, allowing them to experience the stunning views and captivating tales of this timeless honey hunting practice.</p>",
+            "button_text": "",
+            "button_link": "#",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_6npAey": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mask_group_fd4c623e-e223-4efa-8d13-c4814ec74573.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "72.2rem; max-width:49.45%"
+          }
+        }
+      },
+      "block_order": [
+        "content_TXF8hy",
+        "image_6npAey"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {padding: 16px 8.7vw;}",
+        "@media (max-width: 768px) {.imagepart {width: 100%; max-width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "3.2rem 8.42%",
+        "content_width": "42%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "Overview",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_b7tVHP": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_gmKU7y": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mad_Honey_TOur_Image.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "image_gmKU7y"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".main-wrapper img.imagepart {height: auto; width: 100% !important; object-fit: contain; object-position: top;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "0",
+        "padding": "",
+        "margin": "0 0 -52% 0",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_3KX8AX": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_fYAJH3": {
+          "type": "content",
+          "settings": {
+            "title": "Highlights of Tour",
+            "subtitle": "",
+            "description": "",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_XVqT6G": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Property_1_Group_1775.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_fYAJH3",
+        "image_XVqT6G"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".contentside {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #00000099; height: 100%; opacity: 1; transition: 0.8s all ease; transition-delay: 1.6s;}",
+        ".basmilTextImage:hover .contentside {transition-delay: 0s; opacity: 0;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "100%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "icon_box_8AaBQQ": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_WXNnek": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg style=\"width:100%; height:16rem;\" viewbox=\"0 0 160 161\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_9220_476)\">\n<path d=\"M24.8984 133.694H136.989V29.9883L127.145 40.0621L125.744 50.4664L116.18 53.4195L113.931 57.781L104.375 62.2287H99.877L91.7217 73.524L85.5351 74.3647V84.4887L73.7225 88.6706L68.3838 96.1577L47.295 111.584L43.0772 120.71L24.8984 133.694Z\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M115.824 26.6191L21.7109 109.796\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M107.578 26.1953H116.294V34.5374\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_9220_476\">\n<rect width=\"117.07\" height=\"109.655\" fill=\"white\" transform=\"translate(21 25.1172)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Moderate <br> Elevation Change",
+            "icon_description": "The tour will encompass moderate changes in elevation, ranging from 2000-3500 feet. Prepare yourself for ascending and descending steep paths and trails as you traverse the mountainous landscape of Lamjung. Uphill climbs and downhill descents will exert strain on your muscles and joints, so it’s vital to be mentally and physically prepared for the elevation change.",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_byCHaW": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg style=\"width:100%; height:16rem;\" viewbox=\"0 0 161 161\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_9220_11589)\">\n<path d=\"M97.3281 1.77148H110.178L114.251 11.69L115.104 34.367\" fill=\"white\"></path>\n<path d=\"M114.391 34.3931L113.543 11.8423L109.699 2.48367H97.3281V1.05859H110.655L114.959 11.5359L115.816 34.3402L114.391 34.3931Z\" fill=\"#BE935F\"></path>\n<path d=\"M93.1016 11.69H106.968L110.023 1.77148H97.1749L93.1016 11.69Z\" fill=\"white\"></path>\n<path d=\"M107.495 12.4022H92.0391L96.6969 1.05859H110.989L107.495 12.4022ZM94.1653 10.9771H106.442L109.059 2.48469H97.6532L94.1653 10.9771Z\" fill=\"#BE935F\"></path>\n<path d=\"M64.9626 1.77148H52.1142L48.0409 11.69L47.1875 34.367\" fill=\"white\"></path>\n<path d=\"M47.9012 34.3931L46.4766 34.3402L47.335 11.5359L51.6375 1.05859H64.9645V2.48367H52.5937L48.7505 11.8423L47.9012 34.3931Z\" fill=\"#BE935F\"></path>\n<path d=\"M109.449 144.009H53.4899C48.721 144.009 44.775 140.683 44.4807 136.416L42.2638 104.247C40.8992 84.4374 41.9277 64.5363 45.3279 44.972L50.3942 15.8283C50.8086 13.4464 53.0968 11.6895 55.7863 11.6895H107.209C109.951 11.6895 112.266 13.5125 112.621 15.9494L117.867 52.0241C120.123 67.534 120.898 83.2241 120.18 98.8805L118.467 136.249C118.269 140.585 114.289 144.009 109.449 144.009Z\" fill=\"white\"></path>\n<path d=\"M109.449 144.721H53.4904C48.359 144.721 44.0891 141.094 43.7703 136.464L41.5534 104.295C40.1858 84.4503 41.2204 64.4494 44.6268 44.8495L49.693 15.7058C50.1696 12.9656 52.7327 10.9766 55.7878 10.9766H107.211C110.294 10.9766 112.924 13.0704 113.328 15.8462L118.574 51.921C120.831 67.439 121.612 83.2492 120.893 98.9128L119.18 136.281C118.963 141.014 114.69 144.721 109.45 144.721H109.449ZM55.7867 12.4016C53.4262 12.4016 51.4547 13.8939 51.0973 15.9501L46.031 45.0938C42.644 64.5807 41.6155 84.4656 42.975 104.198L45.1919 136.367C45.4598 140.252 49.1044 143.297 53.4904 143.297H109.449C113.925 143.297 117.573 140.187 117.756 136.217L119.469 98.8486C120.182 83.2746 119.406 67.555 117.163 52.1266L111.917 16.0519C111.614 13.9713 109.591 12.4027 107.211 12.4027H55.7878L55.7867 12.4016Z\" fill=\"#BE935F\"></path>\n<path d=\"M61.6671 33.2962C60.0296 33.2962 58.5031 32.3078 57.8656 30.7524L50.9531 13.8999L52.2719 13.3594L59.1844 30.2119C59.664 31.3815 60.9135 32.0604 62.1569 31.8253L80.1326 28.4336C81.0573 28.2595 81.9962 28.2544 82.9229 28.4214L101.917 31.8263C103.221 32.0604 104.483 31.3214 104.918 30.0704L110.708 13.396L112.056 13.8632L106.265 30.5376C105.599 32.4554 103.664 33.5873 101.666 33.229L82.6713 29.8251C81.9167 29.6897 81.152 29.6928 80.3974 29.8353L62.4217 33.2269C62.1691 33.2748 61.9166 33.2972 61.6671 33.2972V33.2962Z\" fill=\"#BE935F\"></path>\n<path d=\"M50.246 143.192H48.8203V122.142C48.8203 115.094 54.5566 109.359 61.6086 109.359H104.403C111.454 109.359 117.192 115.093 117.192 122.142V140.993H115.766V122.142C115.766 115.88 110.669 110.784 104.403 110.784H61.6086C55.3438 110.784 50.246 115.879 50.246 122.142V143.192Z\" fill=\"#BE935F\"></path>\n<path d=\"M69.1884 11.69H55.3206L52.2656 1.77148H65.115L69.1884 11.69Z\" fill=\"white\"></path>\n<path d=\"M70.255 12.4022H54.7986L51.3047 1.05859H65.5971L70.256 12.4012L70.255 12.4022ZM55.8506 10.9771H68.1276L64.6398 2.48469H53.2344L55.8506 10.9771Z\" fill=\"#BE935F\"></path>\n<path d=\"M63.0555 63.8034H55.6094V33.9675H57.035V62.3784H61.6298V32.5801H63.0555V63.8034Z\" fill=\"#BE935F\"></path>\n<path d=\"M66.8876 110.072H60.8672V159.801H66.8876V110.072Z\" fill=\"white\"></path>\n<path d=\"M67.6023 160.513H60.1562V109.359H67.6023V160.513ZM61.5819 159.088H66.1767V110.784H61.5819V159.088Z\" fill=\"#BE935F\"></path>\n<path d=\"M107.602 63.8041H100.156V32.3711H101.582V62.3791H106.177V34.0344H107.602V63.8041Z\" fill=\"#BE935F\"></path>\n<path d=\"M64.5478 43.793H54.2891V53.9497H64.5478V43.793Z\" fill=\"white\"></path>\n<path d=\"M65.2625 54.6619H53.5781V43.0801H65.2625V54.6619ZM55.0038 53.2368H63.8369V44.5052H55.0038V53.2368Z\" fill=\"#BE935F\"></path>\n<path d=\"M69.0087 120.385H58.75V130.541H69.0087V120.385Z\" fill=\"white\"></path>\n<path d=\"M69.7235 131.256H58.0391V119.674H69.7235V131.256ZM59.4647 129.831H68.2978V121.099H59.4647V129.831Z\" fill=\"#BE935F\"></path>\n<path d=\"M105.466 110.072H99.4453V159.801H105.466V110.072Z\" fill=\"white\"></path>\n<path d=\"M106.18 160.513H98.7344V109.359H106.18V160.513ZM100.159 159.088H104.754V110.784H100.159V159.088Z\" fill=\"#BE935F\"></path>\n<path d=\"M107.587 120.385H97.3281V130.541H107.587V120.385Z\" fill=\"white\"></path>\n<path d=\"M108.302 131.256H96.6172V119.674H108.302V131.256ZM98.0418 129.831H106.875V121.099H98.0418V129.831Z\" fill=\"#BE935F\"></path>\n<path d=\"M109.009 43.793H98.75V53.9497H109.009V43.793Z\" fill=\"white\"></path>\n<path d=\"M109.723 54.6619H98.0391V43.0801H109.723V54.6619ZM99.4647 53.2368H108.298V44.5052H99.4647V53.2368Z\" fill=\"#BE935F\"></path>\n<path d=\"M81.9897 100.275H79.065C71.2594 100.275 63.9213 97.2369 58.4029 91.7198C52.8835 86.2027 49.8438 78.8677 49.8438 71.0664V37.1038H51.2694V71.0664C51.2694 86.3859 63.738 98.8502 79.065 98.8502H81.9897C97.3157 98.8502 109.785 86.387 109.785 71.0664V36.543H111.211V71.0664C111.211 78.8687 108.171 86.2037 102.652 91.7198C97.1324 97.2369 89.7942 100.275 81.9897 100.275Z\" fill=\"#BE935F\"></path>\n<path d=\"M50.5223 115.991L49.8359 99.8822L49.84 99.8385L51.2076 83.1152L52.6292 83.2313L51.2647 99.9107L51.947 115.93L50.5223 115.991Z\" fill=\"#BE935F\"></path>\n<path d=\"M110.598 111.419L109.175 111.358L109.661 99.9107L108.297 83.2313L109.718 83.1152L111.09 99.8822L111.088 99.927L110.598 111.419Z\" fill=\"#BE935F\"></path>\n<path d=\"M47.7704 37.9955H36.868C30.2834 37.9955 24.9453 32.6596 24.9453 26.0778C24.9453 19.496 30.2834 14.1602 36.868 14.1602H51.6115\" fill=\"white\"></path>\n<path d=\"M47.7723 38.7077H36.8699C29.9025 38.7077 24.2344 33.042 24.2344 26.0775C24.2344 19.113 29.9025 13.4473 36.8699 13.4473H51.6134V14.8723H36.8699C30.6886 14.8723 25.66 19.8988 25.66 26.0775C25.66 32.2562 30.6886 37.2826 36.8699 37.2826H47.7723V38.7077Z\" fill=\"#BE935F\"></path>\n<path d=\"M111.383 14.1602H124.599C131.183 14.1602 136.522 19.496 136.522 26.0778C136.522 32.6596 131.183 37.9955 124.599 37.9955H115.106\" fill=\"white\"></path>\n<path d=\"M124.599 38.7077H115.106V37.2826H124.599C130.78 37.2826 135.809 32.2562 135.809 26.0775C135.809 19.8988 130.78 14.8723 124.599 14.8723H111.383V13.4473H124.599C131.566 13.4473 137.234 19.113 137.234 26.0775C137.234 33.042 131.566 38.7077 124.599 38.7077Z\" fill=\"#BE935F\"></path>\n<path d=\"M49.0283 130.823L43.9766 135.906L44.988 136.911L50.0398 131.827L49.0283 130.823Z\" fill=\"#BE935F\"></path>\n<path d=\"M116.988 131.917L115.977 132.922L117.958 134.915L118.969 133.91L116.988 131.917Z\" fill=\"#BE935F\"></path>\n<path d=\"M56.7591 75.3713L54.8241 94.6397C54.7537 95.3422 53.896 95.6448 53.3996 95.1431L53.0859 94.8256C52.2652 93.9966 51.1777 93.483 50.016 93.377L48.6453 93.2514L46.3054 93.7247C45.4958 93.8885 44.6831 93.4556 44.3685 92.6924L43.708 91.0928C43.5583 90.729 43.4992 90.3339 43.5379 89.9426L45.4303 70.6849\" fill=\"white\"></path>\n<path d=\"M53.8994 96.1013C53.5273 96.0791 53.1715 95.9213 52.8964 95.6428L52.5827 95.3253C51.8813 94.6166 50.9476 94.1764 49.9543 94.0856L48.6881 93.9703L46.4504 94.4231C45.3083 94.6548 44.1575 94.0406 43.7126 92.9637L43.0521 91.3642C42.8578 90.8937 42.7824 90.3783 42.832 89.8724L45.0358 71.3682L46.1675 71.6821L44.2509 90.0122C44.2243 90.2859 44.2648 90.5657 44.3699 90.8208L45.0304 92.4203C45.2149 92.8678 45.6925 93.1216 46.1675 93.0266L48.6106 92.5319L50.0849 92.6668C51.412 92.7877 52.6592 93.3761 53.5974 94.3233L53.911 94.6408C53.9245 94.6538 53.9648 94.696 54.0388 94.6698C54.1118 94.6436 54.1173 94.5858 54.1195 94.5665L56.0544 75.2981L57.4731 75.4409L55.5381 94.7093C55.4777 95.3114 55.0858 95.8111 54.5147 96.0136C54.3125 96.0852 54.1047 96.1136 53.9014 96.1015L53.8994 96.1013Z\" fill=\"#BE935F\"></path>\n<path d=\"M75.9007 76.9635L75.1529 99.0805C75.1171 100.15 74.0151 100.848 73.0315 100.423L70.022 99.1238C68.1562 98.3178 66.1339 97.9399 64.1028 98.0166L62.0858 98.0928C60.6062 98.1485 59.41 96.899 59.5317 95.4241L59.5707 94.9553L61.1507 75.7472\" fill=\"white\"></path>\n<path d=\"M73.714 101.259C73.3883 101.27 73.0602 101.21 72.752 101.077L69.7424 99.7776C67.9987 99.0245 66.0748 98.6616 64.1767 98.7266C64.1624 98.7271 64.1482 98.7276 64.1339 98.7281L62.117 98.8042L62.1058 98.8046C61.2011 98.8356 60.3238 98.4786 59.6971 97.8248C59.0684 97.168 58.7504 96.2714 58.8253 95.3654L60.4443 75.6884L61.8656 75.8048L60.2466 95.4817C60.2057 95.9822 60.3805 96.4763 60.7282 96.8392C61.0737 97.2002 61.5584 97.3975 62.0581 97.3803L62.0642 97.3801L64.0811 97.304C66.204 97.2262 68.3585 97.6271 70.309 98.4698L73.3186 99.7693C73.5679 99.8768 73.8412 99.8553 74.0696 99.71C74.2979 99.5646 74.4345 99.3267 74.4446 99.0565L75.1924 76.9395L76.6175 76.9874L75.8697 99.1044C75.845 99.8427 75.4575 100.519 74.8332 100.914C74.4921 101.13 74.1058 101.246 73.715 101.259L73.714 101.259Z\" fill=\"#BE935F\"></path>\n<path d=\"M103.156 74.6865L104.823 96.3517C104.895 97.2729 105.61 98.0129 106.529 98.1157L106.61 98.1249C107.47 98.2206 108.301 97.7859 108.713 97.0265L108.818 96.8331C109.078 96.3547 109.413 95.9221 109.811 95.5506L110.318 95.0772C111.078 94.3688 112.059 93.9423 113.095 93.872L114.688 93.7631L116.235 93.8415C116.981 93.8792 117.695 93.531 118.126 92.9203C118.536 92.3381 118.719 91.6265 118.639 90.9191L116.407 71.0332\" fill=\"white\"></path>\n<path d=\"M106.851 98.85C106.745 98.85 106.639 98.8438 106.532 98.8326L106.45 98.8235C105.193 98.684 104.21 97.6671 104.112 96.406L102.445 74.7408L103.867 74.6318L105.534 96.297C105.579 96.8762 106.03 97.3434 106.607 97.4076L106.689 97.4167C107.261 97.4798 107.811 97.1938 108.087 96.6869L108.193 96.4925C108.49 95.9459 108.871 95.4532 109.325 95.0297L109.832 94.5564C110.709 93.738 111.851 93.2423 113.047 93.1609L114.683 93.0489L116.271 93.1293C116.777 93.1548 117.252 92.9237 117.543 92.5094C117.853 92.0697 117.99 91.5322 117.93 90.9978L115.698 71.1119L117.114 70.9531L119.347 90.839C119.445 91.7195 119.219 92.6041 118.708 93.3298C118.134 94.1452 117.196 94.6022 116.198 94.5523L114.694 94.476L113.143 94.5819C112.272 94.6409 111.441 95.0023 110.804 95.5967L110.297 96.07C109.955 96.3897 109.667 96.7602 109.443 97.1714L109.337 97.3648C108.835 98.2891 107.881 98.8489 106.848 98.8489L106.851 98.85Z\" fill=\"#BE935F\"></path>\n<path d=\"M46.6327 38.7018L46.4453 37.2889C50.9331 36.6955 53.9128 35.0231 55.6216 33.7242C57.4749 32.3164 58.2794 31.0298 58.2876 31.0176L59.5045 31.7607C59.3629 31.9938 55.9281 37.4732 46.6327 38.7028V38.7018Z\" fill=\"#BE935F\"></path>\n<path d=\"M115.688 38.7005C106.265 37.4546 104.582 31.8195 104.516 31.5802L105.887 31.1914C105.891 31.2036 106.267 32.4455 107.664 33.8044C109.531 35.6193 112.37 36.8235 115.875 37.2877L115.688 38.7005Z\" fill=\"#BE935F\"></path>\n<path d=\"M98.3597 75.8672L99.9544 99.161C99.9819 99.5947 99.5114 99.8807 99.1397 99.6557C97.5134 98.6714 95.6112 99.2628 93.7201 99.4583L89.5317 99.8909C87.7364 99.6659 85.9125 99.8329 84.1885 100.383L81.775 101.151C81.0438 101.384 80.2994 100.83 80.3127 100.063L80.7129 76.8556\" fill=\"white\"></path>\n<path d=\"M81.4379 101.916C81.0479 101.916 80.6609 101.791 80.3411 101.553C79.8686 101.201 79.5917 100.64 79.6018 100.051L80.002 76.8425L81.4277 76.8669L81.0275 100.074C81.0245 100.256 81.1293 100.362 81.1925 100.409C81.2556 100.456 81.387 100.526 81.5611 100.47L83.9746 99.7017C85.7587 99.1337 87.6813 98.9504 89.5408 99.1723L93.6498 98.7479C94.0215 98.7092 94.4065 98.6532 94.7781 98.5993C96.2619 98.3835 97.7924 98.1595 99.2242 98.8853L97.6519 75.9141L99.0745 75.8164L100.669 99.1103C100.7 99.5795 100.47 100.019 100.07 100.263C99.6713 100.505 99.1743 100.505 98.7741 100.263C97.6998 99.6121 96.381 99.8045 94.9849 100.008C94.5979 100.064 94.1987 100.123 93.7975 100.164L89.5276 100.605L89.4471 100.594C87.7659 100.384 86.0235 100.543 84.4084 101.058L81.9949 101.826C81.8137 101.884 81.6263 101.913 81.4389 101.913L81.4379 101.916Z\" fill=\"#BE935F\"></path>\n<path d=\"M79.5702 77.8314C76.2423 77.8314 72.9327 77.6848 69.6547 77.3907C59.0487 76.441 48.7492 73.94 39.0414 69.9579C38.5475 69.7553 38.2155 69.2901 38.1962 68.773C38.1829 68.4035 38.3265 68.0544 38.6004 67.7897C39.2002 67.2106 40.4365 67.01 42.4895 67.1597L42.3866 68.5807C40.7736 68.4636 40.0658 68.6092 39.7746 68.7181C61.3695 77.525 81.8554 77.1718 95.2527 75.3192C109.833 73.3027 119.407 69.1242 119.501 69.0815C120.524 68.6285 121.549 67.9842 121.866 67.6126C121.626 67.5068 121.006 67.3266 119.515 67.2737L119.566 65.8496C122.041 65.9371 123.173 66.3738 123.354 67.3103C123.539 68.2722 122.478 69.0489 121.663 69.5497C120.892 70.0241 120.11 70.3712 120.078 70.3854C119.982 70.4282 110.263 74.6759 95.4981 76.7239C90.1803 77.4619 84.8514 77.8314 79.5682 77.8314H79.5702Z\" fill=\"#BE935F\"></path>\n<path d=\"M49.7927 81.2784C49.8135 80.9819 49.9681 80.4924 49.7805 80.2182C49.6051 79.9609 49.1215 79.8413 48.8479 79.7587C48.6526 79.6991 48.4341 79.6158 48.233 79.6007C48.3193 79.5222 48.4584 79.4816 48.5584 79.4131C48.6584 79.3446 48.7348 79.2778 48.81 79.1966C48.918 79.0807 48.9481 78.9867 49.1014 79.0162C49.2698 79.0487 49.4167 79.1339 49.5825 79.1764C50.1833 79.3306 50.793 79.4913 51.4008 79.6653C51.6345 79.7322 51.8642 79.8153 52.0991 79.8792C52.2748 79.9264 52.4353 80.0237 52.6193 80.052C52.655 80.2397 52.1851 80.6094 52.0253 80.6723C51.8759 80.7307 51.7138 80.6088 51.5745 80.5669C51.3921 80.5121 51.2027 80.4733 51.0153 80.4325C50.7566 80.3753 50.4713 80.3685 50.2059 80.3547C50.2458 80.506 50.2421 80.7392 50.2076 80.8901C50.1838 80.9989 50.0205 81.1716 50.0468 81.2772C50.0771 81.4024 50.3417 81.4478 50.438 81.5086C50.5884 81.6032 50.7376 81.7365 50.8327 81.886C51.0837 82.2793 51.1957 82.7795 51.3491 83.2179C51.5382 83.7574 51.5911 84.3428 51.6994 84.903C51.743 85.131 51.7708 85.3315 51.7723 85.563C51.7156 85.6412 51.6592 85.8173 51.627 85.9123C51.5912 86.0162 51.5468 86.1115 51.5024 86.2047C51.4053 86.413 51.3418 86.6223 51.1826 86.7954C50.9971 86.9974 50.8019 87.1051 50.5202 87.1597C50.2818 87.2056 50.0376 87.1258 49.8194 87.0383C49.3552 86.8516 49.196 86.271 48.9429 85.8786C48.617 85.3738 48.4609 84.8108 48.1321 84.3201C47.8155 83.8474 47.3958 83.4084 47.0224 82.9823C46.9832 82.9371 46.9363 82.8854 46.9059 82.8315C46.9856 82.8128 47.1085 82.8559 47.1811 82.8694C47.3002 82.8918 47.3569 82.9155 47.4327 83.0129C47.5701 83.1883 47.7017 83.3603 47.8368 83.5407C48.1931 84.0157 48.5662 84.4642 48.9244 84.9241C49.1073 85.1593 49.3108 85.3897 49.4913 85.6309C49.6405 85.8305 49.7827 86.047 49.9908 86.2002C50.1833 86.3422 50.3901 86.485 50.64 86.5193C50.816 86.5441 51.1051 86.5215 51.2113 86.3657C51.5421 85.8817 50.6079 85.4844 50.2439 85.6513C50.0104 85.3417 50.3729 84.8229 50.6668 84.7017C50.9607 84.5806 51.2499 84.8803 51.4605 85.0438C51.5323 84.9165 51.4424 84.697 51.378 84.5789C51.2291 84.3049 51.1504 84.0178 51.0297 83.7312C50.8982 83.4215 50.7482 83.1158 50.5369 82.8432C50.3115 82.5513 50.0297 82.402 49.7119 82.2392C49.417 82.0881 49.1707 81.9408 48.8327 81.8951C48.3774 81.8323 47.9054 81.7919 47.4518 81.7526C47.3929 81.4901 47.7808 81.2644 47.9419 81.1119C48.103 80.9594 48.204 80.8573 48.4261 80.844C48.6882 80.8291 48.9891 80.9837 49.2338 81.0707C49.3957 81.1282 49.6432 81.2195 49.7916 81.2804L49.7927 81.2784Z\" fill=\"#BE935F\"></path>\n<path d=\"M53.4865 80.8468C53.5155 80.9944 53.5475 81.1248 53.6038 81.2577C53.6565 81.3832 53.7341 81.4847 53.7773 81.6157C54.1296 81.5929 54.4073 81.1618 54.603 80.9247C54.6415 80.879 54.7007 80.7928 54.6904 80.7259C54.6805 80.6529 54.684 80.696 54.6215 80.6668C54.5739 80.6445 54.5314 80.6206 54.487 80.5955C54.3043 80.4939 54.1023 80.4094 53.9017 80.3862C53.8175 80.3771 53.8225 80.3621 53.7618 80.4401C53.7032 80.5151 53.6553 80.601 53.6065 80.6827C53.5534 80.7693 53.5056 80.8531 53.4876 80.8469L53.4865 80.8468Z\" fill=\"#BE935F\"></path>\n<path d=\"M63.4261 86.4965C63.515 86.1472 63.775 85.5862 64.1407 85.4637C64.5265 85.3344 65.1915 85.4736 65.4893 85.2434C65.669 85.1048 65.7922 84.7452 65.9039 84.5549C65.3125 84.455 64.6826 84.4175 64.0798 84.3108C63.7436 84.2521 63.6091 84.3432 63.3688 84.5562C63.1859 84.7193 63.0201 84.9348 62.929 85.162C63.1898 85.2213 63.534 85.183 63.5557 85.4603C63.5724 85.6818 63.4087 85.9879 63.3299 86.1871C63.1517 86.6363 62.8403 87.0666 62.6951 87.5268C63.0008 87.5275 63.2769 87.3765 63.5872 87.3638C63.8864 87.3516 64.2201 87.3687 64.5298 87.4548C65.1521 87.627 65.5245 88.205 65.9317 88.6698C66.1533 88.9229 66.3828 89.2573 66.6237 89.5088C66.6743 89.1719 66.8086 88.8669 66.8353 88.5156C66.8584 88.2103 66.8632 87.9015 66.8855 87.6013C66.9346 86.9519 66.8642 86.2067 67.0384 85.5794C67.1427 85.2041 67.3989 84.9478 67.4641 84.5616C67.1725 84.4952 66.5518 84.3739 66.3017 84.5373C66.1761 84.619 66.0269 84.8736 65.9612 85.0083C65.8603 85.2164 65.9166 85.3143 66.0301 85.5335C66.3849 86.2231 66.665 86.904 66.5672 87.71C66.5211 88.0894 66.557 88.5435 66.4682 88.8938C66.0923 88.3333 65.8658 87.6983 65.4726 87.1649C65.136 86.7089 64.1099 86.2307 63.4271 86.4955L63.4261 86.4965Z\" fill=\"#BE935F\"></path>\n<path d=\"M69.4361 90.7783C69.2767 91.2116 69.0245 91.3169 68.5614 91.2421C68.2428 91.1909 67.8004 90.7111 68.2564 90.4887C68.6353 90.3036 69.1748 90.5876 69.4515 90.8124C69.7555 91.0607 70.0842 91.2572 70.34 91.5561C70.6478 91.9153 71.0416 92.2582 71.3093 92.6361C71.6966 91.8661 71.5567 90.9329 71.5788 90.1193C71.5853 89.894 71.6506 89.6565 71.6063 89.435C71.6762 89.6628 71.7586 89.8952 71.8283 90.1169C71.8843 90.2932 71.8961 90.4894 71.9561 90.6635C72.0047 90.8055 72.2056 90.9279 72.2961 90.7456C72.3914 90.5529 72.2724 90.1119 72.2507 89.8957C72.1947 89.3303 72.2001 88.7424 71.9458 88.2215C71.764 87.8499 71.3553 87.432 70.972 87.2761C70.5948 87.123 70.2063 87.0548 69.8065 86.9849C69.4426 86.921 69.0019 86.7854 68.6488 86.9197C68.7012 86.3078 69.1947 86.0485 69.7121 85.8943C70.0228 85.8012 70.361 85.8293 70.6898 85.8211C70.8527 85.8166 70.9932 85.8413 71.156 85.8652C71.2799 85.8834 71.5409 85.9478 71.6663 85.9191C71.9756 85.8474 72.1471 85.2915 72.3252 85.045C72.1923 84.9752 72.0067 84.9989 71.8545 84.9878C71.5317 84.9642 71.2075 84.9295 70.8865 84.8987C70.4408 84.8559 70.0021 84.7803 69.5565 84.7416C69.3675 84.7256 68.7373 84.624 68.6157 84.7606C68.5342 84.852 68.5047 85.1218 68.4589 85.2405C68.4112 85.3664 68.3464 85.496 68.2984 85.6137C68.4217 85.6716 68.5642 85.6668 68.6871 85.7165C68.8204 85.771 68.8014 85.7503 68.7884 85.9066C68.7727 86.1047 68.684 86.2809 68.6128 86.4616C68.5143 86.7114 68.4507 86.9672 68.3697 87.2205C68.2989 87.4429 68.1102 87.7346 68.1046 87.9568C68.4028 87.9782 68.7188 87.8339 69.0233 87.8276C69.2738 87.8221 69.5112 87.8526 69.7582 87.8951C70.325 87.9928 70.9082 88.1806 71.406 88.4671C71.3454 88.7208 70.9031 88.8357 70.8898 89.1315C70.8806 89.3396 71.0561 89.5842 71.1079 89.7871C71.1561 89.9769 71.1731 90.175 71.2082 90.3683C71.2697 90.7054 71.2991 90.9987 71.2761 91.3397C71.2601 91.5867 71.2944 91.8727 71.2221 92.1125C71.118 91.8706 71.0694 91.6391 70.929 91.4096C70.7444 91.1043 70.5614 90.8192 70.328 90.5502C70.1286 90.3207 69.9089 90.1846 69.6555 90.0151C69.5731 89.9598 69.542 89.9721 69.5054 89.8858C69.4799 89.8255 69.5044 89.6475 69.5061 89.5802C69.5088 89.4793 69.5143 89.3721 69.5071 89.2817C69.6982 89.2976 69.9354 89.2905 70.1214 89.2485C70.1879 88.957 70.3068 88.7115 70.4199 88.4418C70.335 88.404 70.2007 88.4401 70.104 88.4404C69.9348 88.4411 69.7656 88.4387 69.597 88.4241C69.2474 88.3923 68.7955 88.2866 68.4483 88.3555C68.1781 88.4096 67.6753 88.9024 67.5418 89.1993C67.9409 89.3079 68.3538 89.0768 68.762 89.184C69.0509 89.2597 69.3388 89.5146 69.2232 89.8272C69.0072 89.7989 68.8289 89.6492 68.5867 89.63C68.2894 89.6056 67.985 89.7036 67.7565 89.9029C67.4815 90.1445 67.4389 90.5972 67.5024 90.9352C67.5774 91.339 67.7486 91.6366 68.1625 91.763C68.5023 91.8665 68.9284 91.6635 69.2236 91.4761C69.3253 91.4115 69.5483 91.2298 69.5677 91.1109C69.5847 91.0116 69.486 90.8958 69.4331 90.7815L69.4361 90.7783Z\" fill=\"#BE935F\"></path>\n<path d=\"M86.1236 83.8771C85.8955 83.8639 85.5574 83.7417 85.371 83.5891C85.37 83.4659 85.4321 83.1493 85.5401 83.0597C85.6898 82.9345 86.0136 83.0292 86.1786 83.0608C86.6022 83.1422 87.088 83.3498 87.3996 83.6349C87.7173 83.927 87.9719 84.2649 88.3222 84.5622C88.4821 84.6976 88.6419 84.8828 88.8079 84.9744C88.8996 85.0253 89.0361 85.0966 89.0809 84.9632C89.1216 84.8411 88.9505 84.7698 88.8813 84.6996C88.6216 84.439 88.3823 84.0899 88.1481 83.7998C87.8538 83.4353 87.5625 83.0638 87.2611 82.7004C86.5798 81.88 85.3303 82.1701 84.8568 83.0414C84.5686 83.5728 84.7061 83.9382 85.1002 84.3606C85.3873 84.668 86.0085 84.6965 86.2183 84.2405C86.2692 84.1306 86.2835 84.0553 86.1236 83.8751V83.8771Z\" fill=\"#BE935F\"></path>\n<path d=\"M91.2955 83.7599C91.0674 83.7467 90.7293 83.6245 90.5429 83.4719C90.5419 83.3487 90.604 83.0321 90.712 82.9425C90.8617 82.8173 91.1855 82.912 91.3505 82.9436C91.7741 83.025 92.2598 83.2327 92.5715 83.5177C92.8892 83.8098 93.1438 84.1478 93.4941 84.445C93.6539 84.5804 93.8138 84.7656 93.9798 84.8572C94.0715 84.9081 94.2079 84.9794 94.2527 84.846C94.2935 84.7239 94.1224 84.6526 94.0531 84.5824C93.7935 84.3218 93.5542 83.9727 93.3199 83.6826C93.0256 83.3182 92.7344 82.9466 92.433 82.5832C91.7517 81.7628 90.5022 82.0529 90.0287 82.9242C89.7405 83.4556 89.8779 83.821 90.272 84.2434C90.5592 84.5508 91.1804 84.5794 91.3902 84.1233C91.4411 84.0134 91.4554 83.9381 91.2955 83.7579V83.7599Z\" fill=\"#BE935F\"></path>\n<path d=\"M84.8587 87.5025C84.933 87.3906 85.0237 87.2817 85.0868 87.1646C85.1571 87.0333 85.1856 86.8704 85.2752 86.7534C85.4524 86.5213 85.8271 86.8664 86.0155 86.9926C86.652 87.417 87.2416 87.9504 87.7956 88.4767C88.0359 88.7047 88.2182 89.0019 88.4249 89.2493C88.5369 89.3836 88.8282 89.8274 88.986 89.8641C89.3272 89.9435 89.2314 89.3439 89.1948 89.1851C89.1062 88.8024 89.1082 88.438 89.1276 88.0461C89.151 87.5677 89.1306 87.0954 89.0858 86.6221C89.0736 86.4897 89.0318 86.2943 89.0522 86.164C89.0909 85.9187 89.262 85.6683 89.3333 85.4301C89.3587 85.3456 89.3832 85.2642 89.4158 85.1787C89.1591 85.086 88.7681 85.2377 88.5054 85.2693C88.265 85.2978 88.043 85.4006 87.9575 85.6734C87.9005 85.8556 88.0878 86.0052 88.2019 86.1487C88.316 86.2922 88.4137 86.4368 88.483 86.617C88.6418 87.0353 88.6194 87.3621 88.6082 87.7998C88.5991 88.1611 88.82 88.5948 88.7141 88.947C88.7426 88.668 88.3862 88.2405 88.2131 88.0278C87.9992 87.7641 87.8292 87.474 87.6469 87.19C87.4799 86.9295 87.2976 86.675 87.0512 86.504C86.9371 86.4256 86.5807 86.276 86.8027 86.1192C86.8475 86.0876 86.9341 86.1192 86.9911 86.0795C87.042 86.0429 87.0797 85.9441 87.1051 85.8892C87.2161 85.6499 87.2508 85.3894 87.3495 85.1522C87.2335 85.1206 87.0766 85.2021 86.9504 85.2163C86.8119 85.2316 86.6764 85.2194 86.5379 85.2234C86.1642 85.2346 85.8078 85.2489 85.434 85.2061C85.3271 85.1939 85.0562 85.0993 84.9595 85.1532C84.9035 85.1848 84.8719 85.3324 84.8475 85.3924C84.7528 85.6235 84.653 85.8535 84.5644 86.0866C84.8292 86.1487 85.1489 86.1406 85.4208 86.167C85.2762 86.5661 84.9717 86.8643 84.7701 87.2287C84.6102 87.5168 84.1825 87.9555 84.2039 88.3067C84.6367 88.2538 85.1173 88.3729 85.5064 88.5693C85.7823 88.7088 86.0359 88.9337 86.2558 89.1465C86.3414 89.2299 86.5573 89.5363 86.6846 89.575C86.7548 89.5964 86.9168 89.5231 86.9677 89.4498C87.0532 89.3246 86.9779 89.1841 86.9208 89.0559C86.7518 88.6792 86.4178 88.2884 86.1062 88.0257C85.7772 87.7489 85.3424 87.5158 84.8587 87.5015V87.5025Z\" fill=\"#BE935F\"></path>\n<path d=\"M90.8503 87.5112C91.0366 87.0551 91.1874 86.4658 91.5855 86.1736C92.0214 85.853 92.5377 85.8734 93.0448 85.8255C93.2607 85.8052 93.6273 85.8479 93.7831 85.7227C93.8727 85.6504 93.9328 85.4876 93.9807 85.3848C94.0652 85.2046 94.1151 85.1069 93.8717 85.0672C93.4593 84.999 92.9654 85.1425 92.5468 85.1486C92.0631 85.1567 91.5896 85.1761 91.1079 85.1659C90.7617 85.1588 90.5855 85.2616 90.4491 85.5985C90.39 85.7431 90.2688 85.913 90.4083 86.0199C90.5193 86.1054 90.7831 86.0494 90.9144 86.0637C90.8503 86.4648 90.5977 86.8607 90.5957 87.2852C90.5957 87.4857 90.6171 87.5906 90.5305 87.8003C90.4654 87.957 90.3849 88.1066 90.4114 88.2766C90.665 88.4426 91.2821 88.1698 91.5519 88.1219C91.9358 88.0537 92.2566 88.0242 92.6405 88.1158C92.9369 88.186 93.2403 88.2705 93.4888 88.4548C93.8737 88.7408 94.0876 88.9871 94.1426 89.4625C94.1904 89.8758 94.332 90.2677 94.3666 90.6779C94.6426 90.8438 94.6884 90.5191 94.6742 90.3226C94.6436 89.8829 94.6691 89.4197 94.5672 88.9963C94.4348 88.4466 94.22 88.0608 93.7638 87.7249C93.3218 87.4002 92.7851 87.3188 92.2485 87.331C91.9481 87.3381 91.6324 87.3951 91.3299 87.4348C91.1588 87.4572 90.9297 87.4379 90.8483 87.5112H90.8503Z\" fill=\"#BE935F\"></path>\n<path d=\"M91.2331 90.3938C91.3797 90.0365 91.4968 89.5744 91.8094 89.3443C92.1516 89.0929 92.5559 89.1082 92.953 89.0715C93.1221 89.0563 93.4103 89.0888 93.5325 88.9911C93.6027 88.9351 93.6496 88.8069 93.6873 88.7265C93.7535 88.585 93.7932 88.5086 93.6017 88.4771C93.2789 88.4241 92.8909 88.5361 92.563 88.5412C92.1832 88.5473 91.8125 88.5626 91.4347 88.5544C91.1628 88.5483 91.0253 88.6298 90.9184 88.8934C90.8726 89.0064 90.7768 89.1397 90.8868 89.2242C90.9744 89.2914 91.1801 89.2466 91.284 89.2588C91.2341 89.5734 91.0365 89.8838 91.0345 90.2167C91.0345 90.3734 91.0508 90.4559 90.9836 90.6208C90.9327 90.744 90.8695 90.861 90.8909 90.9944C91.0895 91.1247 91.5742 90.9109 91.785 90.8732C92.0864 90.8203 92.3369 90.7969 92.6384 90.8681C92.8706 90.9231 93.1088 90.9893 93.3033 91.1338C93.6058 91.3578 93.7728 91.5512 93.8156 91.9247C93.8532 92.2484 93.9642 92.5558 93.9907 92.8775C94.2076 93.0078 94.2423 92.7533 94.2321 92.5986C94.2086 92.2535 94.228 91.8911 94.1486 91.5583C94.0447 91.1267 93.8767 90.8254 93.5182 90.5617C93.171 90.3073 92.7514 90.2431 92.3298 90.2533C92.0946 90.2584 91.8461 90.3042 91.6098 90.3348C91.4754 90.3521 91.2962 90.3368 91.232 90.3948L91.2331 90.3938Z\" fill=\"#BE935F\"></path>\n<path d=\"M93.2322 91.0862C93.1059 91.0281 92.8004 91.1381 92.6579 91.1544C92.4797 91.1757 92.2974 91.1849 92.1171 91.1981C91.9135 91.2134 91.721 91.2297 91.5183 91.2358C91.3157 91.2419 91.1192 91.2164 90.9583 91.3579C90.8534 91.4506 90.8595 91.5269 90.8972 91.6491C90.9379 91.7834 90.9888 91.7885 91.1192 91.8506C91.0998 91.9341 91.0703 92.0318 91.0275 92.1092C90.9674 92.217 90.8656 92.2629 90.7739 92.3463C90.6466 92.4634 90.5458 92.612 90.5 92.784C90.8564 92.8105 91.1619 92.782 91.5041 92.9041C91.8167 93.0161 92.0438 93.2248 92.274 93.4497C92.5021 93.2604 92.33 92.9846 92.1955 92.8115C92.1283 92.725 92.0112 92.6507 92.0896 92.5469C92.163 92.4481 92.3208 92.4563 92.4196 92.4746C92.7027 92.5285 93.1008 92.6344 93.1782 92.9581C93.2577 93.2909 92.9705 93.6828 92.8035 93.9455C92.6955 94.1144 92.5856 94.2885 92.4837 94.4615C92.4287 94.5552 92.3768 94.6824 92.3137 94.7639C92.5418 94.5491 92.888 94.5267 93.0947 94.2834C93.1955 94.1643 93.2332 94.0106 93.3004 93.8701C93.3615 93.7429 93.442 93.633 93.497 93.5017C93.6528 93.1311 93.9237 92.727 93.6619 92.3412C93.5479 92.1743 93.3157 92.0308 93.1161 91.9982C92.8198 91.9504 92.5428 92.1234 92.275 92.2109C92.0988 92.2679 91.9369 92.382 91.7658 92.4339C91.5947 92.4858 91.3167 92.3219 91.1558 92.2496C91.1945 92.1387 91.2352 91.9951 91.3004 91.8964C91.3921 91.7559 91.6395 91.7906 91.8076 91.7763C92.1477 91.7478 92.4847 91.6847 92.8228 91.6521C92.9491 91.6399 93.1171 91.6714 93.2261 91.6185C93.3768 91.5452 93.5326 91.2541 93.5683 91.0902C93.441 91.0149 93.3218 91.0363 93.2353 91.0862H93.2322Z\" fill=\"#BE935F\"></path>\n<path d=\"M95.4457 84.9004C95.3072 85.1498 95.1331 85.3361 95.0312 85.6262C95.3164 85.7391 95.5058 85.9916 95.7685 86.1219C95.9518 85.8979 96.3755 85.4684 96.35 85.1773C96.0995 85.0175 95.6351 85.0683 95.4457 84.9004Z\" fill=\"#BE935F\"></path>\n<path d=\"M108.631 81.8266C108.848 81.8531 109.056 81.8856 109.267 81.9243C109.274 82.1075 109.177 82.2765 109.103 82.4282C109.02 82.5971 109.036 82.7916 108.957 82.9544C108.877 83.1173 108.729 83.2384 108.632 83.384C108.535 83.5296 108.518 83.6853 108.508 83.8675C108.899 83.67 109.177 83.6171 109.605 83.7128C109.929 83.7861 110.324 83.9276 110.591 84.1199C110.732 84.2207 110.853 84.3683 110.995 84.4701C111.123 84.2319 110.359 83.5377 110.271 83.2405C110.692 83.0043 111.231 82.9646 111.684 83.1499C112.144 83.3382 112.149 83.6914 112.002 84.1342C111.947 84.2991 111.917 84.5067 111.826 84.6482C111.654 84.9139 111.331 84.8365 111.031 84.8813C110.519 84.9577 110.022 85.3465 110.106 85.9379C110.139 86.1771 110.342 86.4204 110.467 86.6169C110.566 86.7726 110.634 86.9284 110.744 87.0729C110.864 86.9609 111.027 86.8988 111.131 86.7757C111.276 86.6036 111.125 86.4988 110.953 86.3705C110.781 86.2423 110.356 85.9308 110.603 85.6733C110.708 85.5623 110.966 85.5613 111.109 85.5409C111.351 85.5074 111.626 85.4504 111.87 85.4585C112.115 85.4666 112.404 85.6784 112.329 85.9542C112.269 86.1761 111.919 86.1588 111.739 86.2698C111.596 86.3573 111.637 86.3726 111.603 86.57C111.584 86.6729 111.546 86.7777 111.556 86.8775C111.707 86.9131 113.073 86.7075 112.898 87.1655C112.684 87.1533 112.333 87.1635 112.254 87.4078C112.218 87.5198 112.269 87.6185 112.287 87.7213C112.302 87.8119 112.276 87.8811 112.331 87.9575C112.594 87.9575 112.838 87.8211 113.103 87.9829C113.204 88.045 113.283 88.1427 113.335 88.2527C113.494 88.5926 113.277 88.7708 112.929 88.7871C112.477 88.8095 112.062 88.7474 111.685 88.5071C111.308 88.2669 110.909 88.0674 110.531 87.8302C110.108 87.5645 109.694 87.2928 109.208 87.1726C109.08 87.5096 109.836 87.6541 110.042 87.7651C110.244 87.873 110.48 87.9687 110.645 88.1305C110.827 88.3076 110.997 88.501 111.181 88.6781C111.486 88.9713 111.747 89.4629 112.166 89.5912C112.454 89.6798 112.788 89.6248 113.059 89.5067C113.445 89.3388 113.666 89.0975 113.737 88.673C113.795 88.328 113.855 87.8801 113.65 87.5839C113.54 87.4251 113.36 87.3294 113.245 87.1767C113.144 87.0434 113.083 86.8581 112.991 86.7156C112.876 86.5375 112.726 86.3634 112.574 86.2128C112.422 86.0621 112.465 86.0662 112.529 85.8728C112.583 85.712 112.603 85.5593 112.531 85.4015C112.486 85.3038 112.388 85.1999 112.397 85.0849C112.407 84.9628 112.51 84.864 112.513 84.7297C112.336 84.6991 112.178 84.6737 112.01 84.7409C112.491 84.3032 112.768 83.3524 112.53 82.7254C112.419 82.4322 112.135 82.2511 111.833 82.1829C111.458 82.0984 111.197 82.1605 110.849 82.2979C110.425 82.4648 110.203 82.6989 110.118 83.1316C109.947 83.1377 109.806 83.0196 109.651 82.9717C109.521 82.931 109.365 82.9361 109.241 82.8964C109.274 82.4455 109.384 82.0119 109.811 81.7889C110.344 81.511 110.938 81.5233 111.498 81.3869C111.602 81.11 111.7 80.829 111.75 80.5379C111.404 80.3669 110.796 80.6855 110.454 80.7751C110.102 80.8677 109.739 80.9329 109.382 81.0092C109.15 81.0581 108.847 81.0275 108.708 81.223C108.577 81.4082 108.55 81.6322 108.631 81.8286V81.8266Z\" fill=\"#BE935F\"></path>\n<path d=\"M109.061 79.2603C109.191 79.4313 109.411 79.5596 109.562 79.6939C109.756 79.8659 109.972 79.9118 110.232 79.9311C110.459 79.9484 110.712 79.9229 110.915 79.8273C111.128 79.7255 111.281 79.5514 111.463 79.4028C111.671 79.2318 111.873 79.0974 112.032 78.8867C112.02 79.2084 111.844 79.4425 111.636 79.6675C111.436 79.8822 111.223 80.1092 110.982 80.2863C110.714 80.4828 110.395 80.6742 110.055 80.662C109.664 80.6487 109.321 80.5072 109.004 80.2955C108.935 80.2487 108.868 80.1968 108.801 80.1438C108.671 80.042 108.648 80.0431 108.72 79.8782C108.81 79.6705 108.91 79.4547 109.06 79.2613L109.061 79.2603Z\" fill=\"#BE935F\"></path>\n<path d=\"M111.453 78.3332C111.375 78.1978 111.245 78.1082 111.101 78.0522C110.81 77.9402 110.389 77.9525 110.124 78.1123C109.884 78.2568 109.636 78.5856 109.662 78.8838C109.654 78.9001 109.641 78.9419 109.641 78.9907C109.647 79.4478 110.062 79.688 110.476 79.6951C110.922 79.7033 111.307 79.2533 111.431 78.8665C111.484 78.7016 111.546 78.494 111.453 78.3321V78.3332ZM111.117 79.1923C110.991 79.3114 110.709 79.2992 110.554 79.2493C110.391 79.1963 110.156 79.063 110.063 78.9113C109.971 78.7576 109.891 78.5479 110.094 78.4451C110.308 78.4848 110.632 78.5459 110.88 78.6904C111.015 78.7698 111.302 79.0192 111.117 79.1923Z\" fill=\"#BE935F\"></path>\n<path d=\"M113.208 80.2227C113.179 80.4548 113.111 80.6615 113.094 80.8915C113.276 80.9577 113.346 81.1277 113.498 81.2356C113.611 81.316 113.575 81.3424 113.694 81.2498C113.766 81.1928 113.828 81.0849 113.882 81.0086C114.012 80.8264 114.386 80.0314 113.898 80.1484C113.78 80.1769 113.299 80.4396 113.208 80.2227Z\" fill=\"#BE935F\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_9220_11589\">\n<rect width=\"113\" height=\"159.456\" fill=\"white\" transform=\"translate(24.2344 1.05859)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Carry <br> a Backpack",
+            "icon_description": "You’ll need to carry a backpack weighing 20 to 30 pounds, packed with essential gear for a comfortable trip. Please, be prepared to carry this load while trekking, as the weight will be with you throughout the journey.  The weather can change, with cooler temperatures at higher elevations, so pack layers. Also, pack light, bring only essentials, and maintain a steady pace to balance the load and stay comfortable during the climb.",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        },
+        "icon_box_QY77NM": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg style=\"width:100%; height:16rem;\" viewbox=\"0 0 161 160\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_9220_11733)\">\n<path d=\"M90.4142 60.4409C89.4342 67.0509 88.5342 73.0709 87.6542 79.0909C87.3042 81.4809 86.9942 83.8809 86.6242 86.2809C86.1742 89.2109 87.0842 91.6609 89.3742 93.4909C94.3742 97.5009 99.3542 101.541 104.484 105.381C108.144 108.121 110.264 111.631 110.864 116.321C111.904 124.381 114.014 132.251 116.024 140.131C117.244 144.901 115.404 147.841 110.634 148.871C106.384 149.791 103.494 147.931 102.534 143.551C100.894 136.121 99.2742 128.681 97.7242 121.231C97.1242 118.351 95.6642 116.201 93.3542 114.411C86.5942 109.181 79.9942 103.751 73.1842 98.5909C67.7042 94.4309 65.8542 88.9609 66.7842 82.4209C68.6942 68.9709 70.7242 55.5309 72.7042 42.0909C73.4842 36.8009 77.6942 34.0109 83.1942 34.6509C87.5042 35.1609 91.3042 37.8009 93.4442 41.5709C95.9042 45.9109 98.8142 50.0009 101.454 54.2409C102.664 56.1909 104.284 57.0809 106.584 57.0409C110.714 56.9709 114.844 56.9809 118.974 57.0709C122.214 57.1509 124.604 59.0609 125.244 61.8609C125.884 64.6409 124.734 67.4509 122.164 68.7209C121.064 69.2609 119.714 69.5009 118.474 69.5109C112.634 69.5609 106.794 69.4909 100.954 69.4609C97.7242 69.4509 95.1742 68.2909 93.5542 65.3209C92.7242 63.8009 91.6742 62.3909 90.4142 60.4609V60.4409Z\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M69.5855 40.4407C68.8555 45.3707 68.0455 50.7907 67.2355 56.2007C66.4355 61.5507 65.5955 66.8907 64.8255 72.2407C64.1255 77.1507 62.9755 78.1107 58.1255 77.4507C54.3955 76.9407 50.6655 76.3707 46.9455 75.7707C43.8255 75.2707 42.6055 73.5907 43.0855 70.3207C44.2455 62.3707 45.4555 54.4207 46.6755 46.4807C47.2755 42.6007 47.6155 38.5307 51.9155 36.0207C54.0555 34.7707 56.5755 34.3707 59.0455 34.6407C61.3755 34.9007 63.6955 35.2507 66.0055 35.6507C68.4255 36.0707 69.6355 37.6207 69.5855 40.4407Z\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M66.0607 96.4791C69.6207 99.4891 73.0507 102.439 76.5507 105.299C77.4407 106.019 77.7407 106.609 77.4207 107.779C73.9907 120.109 70.6507 132.479 67.2207 144.809C66.2507 148.299 63.4207 150.349 60.1607 150.179C56.9207 150.019 54.1707 147.689 53.6107 144.459C53.4307 143.439 53.4907 142.309 53.7607 141.309C57.7607 126.479 61.8207 111.659 65.8807 96.8291C65.9507 96.5691 66.1407 96.3391 66.0607 96.4691V96.4791Z\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M98.3438 18.4306C98.3138 25.3406 92.6938 30.9106 85.8138 30.8606C78.6038 30.8006 72.9238 24.9606 73.2138 17.8006C73.4738 11.3206 78.8638 5.97058 85.3538 5.76058C92.5438 5.53058 98.3738 11.2706 98.3438 18.4406V18.4306Z\" stroke=\"#BE935F\" stroke-width=\"2\" stroke-miterlimit=\"10\"></path>\n<path d=\"M119.575 72.0791L122.955 71.3691C122.955 72.3091 122.955 73.0591 122.955 73.8091C122.955 97.7991 122.955 121.789 122.955 145.779C122.955 146.279 123.115 146.879 122.895 147.249C122.895 147.249 122.895 147.259 122.885 147.269C122.165 148.449 120.395 148.429 119.625 147.279C119.595 147.229 119.565 147.189 119.535 147.139C119.305 146.779 119.475 146.169 119.475 145.669C119.475 121.679 119.485 97.6891 119.495 73.6991C119.495 73.2091 119.545 72.7191 119.575 72.0791Z\" stroke=\"#BE935F\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"></path>\n<path d=\"M122.917 52.8004C122.917 54.1604 121.447 55.1204 120.257 54.4504C119.477 54.0104 119.477 53.3004 119.477 51.4604C119.477 49.4804 119.347 47.4804 119.557 45.5204C119.577 45.3704 119.627 45.2204 119.717 45.0804C120.347 44.0404 121.927 43.9404 122.667 44.9104C122.767 45.0404 122.827 45.1604 122.827 45.2904C122.957 47.7604 122.937 50.2404 122.917 52.8004Z\" stroke=\"#BE935F\" stroke-width=\"1.5\" stroke-miterlimit=\"10\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_9220_11733\">\n<rect width=\"91\" height=\"150\" fill=\"white\" transform=\"translate(35.2344 5)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Physical Fitness",
+            "icon_title": "Physical <br> Fitness",
+            "icon_description": "You’ll need a certain level of physical fitness, as the honey hunting day involves walking 3-4 miles (2 to 3 hours) through steep cliffs. It requires a good amount of endurance and stamina for this hunting expedition.",
+            "btn_title": "",
+            "btn_link": "",
+            "isnotFollow": false
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_WXNnek",
+        "icon_box_byCHaW",
+        "icon_box_QY77NM"
+      ],
+      "custom_css": [
+        ".contentPart {padding: 0;}",
+        ".iconbox * {transition: 0.5s all ease;}",
+        ".icon-box-heading {font-family: Lato; font-size: 16px; font-weight: 700; line-height: 19.2px; color: #be935f !important;}",
+        ".iconbox:not(:hover) .icon-box-heading {width: 140px; text-align: left;}",
+        ".description {height: 0px; color: #000000 !important; overflow: hidden;}",
+        ".iconbox:hover .icon-box-heading {text-align: center;}",
+        ".iconbox:hover .description {height: max-content;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Preparations for the Expedition",
+        "section_description": "Mad honey hunting takes place on towering cliffs, a few inches outside the usual comfort zone.  As such, there are a few preparations you'll need to make before you begin the expedition. In this elevation range, drink enough water, wear sturdy footwear, and take it one step at a time for an enjoyable journey.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "4.2rem",
+        "iconbox_gap": "5.2rem 5%;",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "295px; width:100%; height:295px; aspect-ratio:1/1;",
+        "padding": "0 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "tour-cards",
+        "width": "100%; max-width:124.6rem!important;",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#be935f",
+        "content_color": "#121212",
+        "iconbox_style": "<style>\n#tour-cards .iconbox {\n\n  padding: 2.4rem;\n  align-items: center;\n  justify-content: end;\n  gap: 16px;\n  border-radius:8px;\n  -webkit-box-shadow: 2px 2px 3px 2px rgb(145 145 145 / 5%); \nbox-shadow: 2px 2px 3px 2px rgb(145 145 145 / 5%);\n  background: #fffdfa;\n}\n\n#tour-cards {\n\n&& .iconbox-wrapper{\n  flex-wrap:nowrap;\n  justify-content:space-around;\nalign-items:flex-start;\n    width: 100%;\n    margin: auto;\n\n\n}\n&& .iconbox{\nposition:relative;\nheight:29.5rem; \n&&::before{\ncontent:'';\nwidth:100%;\nheight:auto;\nposition:absolute;\ntop:0;\nleft:0;\nopacity:1;\ntransition:1s opacity ease;\nbackground:#BE935F80;\nz-index:-1;\n}\n\n&&:hover {\n  justify-content: center;\n  min-height:29.5rem;\nheight:auto;\nmargin-bottom:-calc(100% - 29.5rem);\n}\n\n&&:hover::before{\nopacity:0;\nz-index:9;\n\n}\n\n&&:hover svg{\n  height: 0px!important;\ndisplay:none;\n}\n&&:hover h3 br{\ndisplay:none;\n}\n&& h3{\nfont-weight:700;\nfont-size:16px;\nletter-spacing:0;\n}\n\n}\n&& .description{\n  color: #000000 !important;\nfont-size:14px;\nletter-spacing:0%;\n}\n}\n@media(max-width:768px){\n#tour-cards {\n&& .iconbox{\n  min-width:274px;\n  max-width:275px!important;\n\n}\n&& h3{\n font-size:1.4rem;\n}\n&& svg{\nwidth:275px!important;\n}\n}\n}\n</style>"
+      }
+    },
+    "basmil_image_text_xfqNC7": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_XyjhDA": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "description": "",
+            "button_text": "RESERVE MY SEAT",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_XyjhDA"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "50%",
+        "padding": "3.2rem 16px 12rem 16px",
+        "margin": "0",
+        "custom_class": "dark screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_cG8af8": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_6hwNeT": {
+          "type": "content",
+          "settings": {
+            "title": "Your Honey Hunting Itinerary in Nepal",
+            "subtitle": "",
+            "description": "",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_6hwNeT"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "100%",
+        "padding": "8rem 16px 16px 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "Itinerary",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_list_fpDkap": {
+      "type": "basmil-image-text-list",
+      "blocks": {
+        "content_TfCXHJ": {
+          "type": "content",
+          "settings": {
+            "title": "Day 1",
+            "description": "<h4>Land to Kathmandu</h4><p><strong>Accommodation:</strong> One-night stay in a 3 Star Hotel</p><p>When you arrive at TIA (Tribhuwan Intl Airport), our team will arrange a convenient airport pickup and drop-off service to your hotel. On the same day, we’ll give you a clear and helpful briefing about your upcoming travel plans.</p><p>After that, we’ll make sure you enjoy a delicious meal to end the day on a satisfying note. We look forward to seeing you refreshed and ready for the next exciting days of your honey hunting expedition.</p>",
+            "button_link": "",
+            "button_text": "",
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "day1",
+            "image_width": "87.126%",
+            "svg_style": "aspect-ratio:\n757.13 / 263.94;\nmargin:0 auto;"
+          }
+        },
+        "content_z8RLbD": {
+          "type": "content",
+          "settings": {
+            "title": "Day 2",
+            "description": "<h3>Kathmandu to Besisahar</h3><p><strong>Accommodation:</strong> One-night stay in a 3 Star Hotel</p><p>After breakfast, we go on to the captivating panorama of Besisahar, Lamjung.<br/>As the dawn greets you with its golden rays, we start our beautiful landscapes of a small idyllic village. Our trusty van will be ready to take you on this scenic adventure. <strong> </strong></p><p>You will witness a great deal of scenic beauty that greets you on its way. Along the way, you will delight in observing the majesty of rolling rivers and snow-capped mountains painting the horizon.</p><p>In the afternoon, we will serve a delicious lunch from a selection of menu options. After reaching the serene haven of Besisahar, surrounded by nature’s loving arms,<strong> </strong>we'll treat you to tasty snacks and a satisfying dinner.</p>",
+            "button_link": "",
+            "button_text": "",
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "day2",
+            "image_width": "82.94%",
+            "svg_style": "aspect-ratio:720.75/272.03;\nmargin:0 auto;"
+          }
+        },
+        "content_8mzNtY": {
+          "type": "content",
+          "settings": {
+            "title": "Day 3",
+            "description": "<h3>Besisahar to Honey Hunting Village</h3><h3> </h3><p><strong>Accommodation:</strong> One-night stay in a community homestay</p><p>The day begins with a delectable breakfast served in the hotel, filling us with energy for the exciting adventures ahead. We get ready for the place closest to the thrill and excitement, eagerly anticipating the experiences that await us.</p><p>Later, we’ll enjoy a delicious lunch at a community homestay, savoring local flavors and immersing ourselves in the region’s food culture. As we explore, we’ll have the unique chance to observe the locals’ preparations and their lively gatherings in anticipation of tomorrow’s event.</p>",
+            "button_link": "",
+            "button_text": "",
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "day3",
+            "image_width": "34.5%",
+            "svg_style": "aspect-ratio:299.78/272.03;\nmargin:0 auto;"
+          }
+        },
+        "content_HUUEJL": {
+          "type": "content",
+          "settings": {
+            "title": "Day 4",
+            "description": "<h3>Night Stay at a hotel in Besisahar</h3><h3> </h3><p><strong>Accommodation:</strong> Night Stay at a hotel in Besisahar</p><p>A hearty breakfast will be served at the homestay, offering a limited but satisfying selection of food options. After a short briefing about the upcoming trials and challenges we may encounter, our team ensures that we have the right gear and prioritizes our safety throughout the journey.</p><p>As the sun rises, we go on our adventure to the mad honey hunting site, which is a pleasant half-hour to 45-minute walk from the homestay. Along the way, we are treated to the sight of cascading waterfalls and breathtaking mountain ranges, enhancing the scenic beauty of our trek.</p><p>Upon reaching the site, we witness the thrilling process of honey hunting, which lasts for around 4 to 5 hours. You’ll even have the chance to taste the <a href=\"/\" target=\"_blank\" title=\"/\">fresh mad honey</a> directly from the hive while enjoying snacks provided during the wait.</p><p>Once we have experienced this unique activity, we make our way back to the community homestay for a well-deserved lunch. Later in the day, we return to Besisahar, where we spend the night in a comfortable hotel. For dinner, we conveniently dine in the same hotel for a pleasant end to a fulfilling day of adventure.</p><p>After a rewarding day of honey hunting, we say our farewells to this unforgettable expedition.</p>",
+            "button_link": "",
+            "button_text": "",
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "day4",
+            "image_width": "34.5%",
+            "svg_style": "aspect-ratio:299.78/272.03;\nmargin:0 auto;"
+          }
+        },
+        "content_6MJGE8": {
+          "type": "content",
+          "settings": {
+            "title": "Day 5",
+            "description": "<h3>Besisahar to Kathmandu</h3><h3> </h3><p><strong>Accommodation:</strong> One-night stay at 3-Star Hotel</p><p>The next day, after enjoying a delicious breakfast, we will begin our journey back to Kathmandu. Along the way, we will stop for a satisfying lunch, either in Muglin or at a convenient spot on the route.  Once we reach our destination, we will ensure a smooth drop-off at your hotel.<strong> </strong>To round off your trip with comfort, we will take care of your last meal, ensuring you have a satisfying dining experience. We will handle all arrangements for your hotel accommodation.  </p>",
+            "button_link": "",
+            "button_text": "",
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "day5",
+            "image_width": "74.68%",
+            "svg_style": "aspect-ratio:\n649.05/\n272.03;\nmargin:0 auto;"
+          }
+        }
+      },
+      "block_order": [
+        "content_TfCXHJ",
+        "content_z8RLbD",
+        "content_8mzNtY",
+        "content_HUUEJL",
+        "content_6MJGE8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".contain-wrapper:nth-child(2n) {flex-direction: row; justify-content: space-between;}",
+        ".main-content {width: 100%;}",
+        "svg {padding: 1.5%;}",
+        "@media (max-width: 768px) {.contentside {width: 100%; } .contain-wrapper:nth-child(2n) {flex-direction: column-reverse; } svg {min-width: 100%; max-width: 100%; } .sm\\:text-center, .sm\\:items-center {text-align: start !important; align-items: start; }}"
+      ],
+      "settings": {
+        "isnavigation": "false",
+        "navigation_position": "top",
+        "navigation_width": "0",
+        "navGap": "5.2rem 10%",
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "6.3rem",
+        "gapsections": "10.4rem",
+        "content_width": "50%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "text_image_slider_NzfCbY": {
+      "type": "text-image-slider",
+      "blocks": {
+        "slide_aY3DTw": {
+          "type": "slide",
+          "settings": {
+            "heading": "Day 1",
+            "subheading": "Land to Kathmandu",
+            "paragraph": "<p><strong>Accommodation:</strong> One-night stay in a 3 Star Hotel</p><p>When you arrive at TIA (Tribhuwan Intl Airport), our team will arrange a convenient airport pickup and drop-off service to your hotel. On the same day, we’ll give you a clear and helpful briefing about your upcoming travel plans.<br/><br/>After that, we’ll make sure you enjoy a delicious meal to end the day on a satisfying note. We will spend enough time making you feel welcomed and connected in this foreign land, the remaining part of the day is then all yours. We look forward to seeing you refreshed and ready for the next exciting days of your honey hunting expedition.</p>",
+            "image": "shopify://shop_images/Group_1722.webp",
+            "image_layout": "left",
+            "slider_content_alignment": "left"
+          }
+        },
+        "slide_ypzhak": {
+          "type": "slide",
+          "settings": {
+            "heading": "Day 2",
+            "subheading": "Kathmandu to Besisahar",
+            "paragraph": "<p><strong>Accommodation:</strong> One-night stay in a 3 Star Hotel</p><p>After breakfast, we go on to the captivating panorama of Besisahar, Lamjung.<br/>As the dawn greets you with its golden rays, we start our journey through the beautiful landscapes of a small idyllic village. Our trusty van will be waiting to take you on this scenic adventure.  <br/><br/>Observing the majesty of rolling rivers and snow-capped mountains painting the horizon, we will stopby for a delicious lunch from a selection of menu options. Our final destination will be the serene haven of Besisahar, a place hugged by nature’s loving arms. Here, we’ll end the day with welcome snacks and a satisfying dinner.</p>",
+            "image": "shopify://shop_images/Group_1737.webp",
+            "image_layout": "left",
+            "slider_content_alignment": "left"
+          }
+        },
+        "slide_wqWpLf": {
+          "type": "slide",
+          "settings": {
+            "heading": "Day 3",
+            "subheading": "Besisahar to Honey Hunting Village",
+            "paragraph": "<p><strong>Accommodation:</strong> One-night stay in a community homestay</p><p>The day begins with a delectable breakfast served in the hotel, filling us with energy for the exciting adventures ahead. We get ready for the place closest to the thrill and excitement, eagerly anticipating the experiences that await us.</p><p>Later, we’ll enjoy a delicious lunch at a community homestay, savoring local flavors and immersing ourselves in the region’s food culture. As we explore, we’ll have the unique chance to observe the locals’ preparations and their lively gatherings in anticipation of tomorrow’s event.</p>",
+            "image": "shopify://shop_images/Rectangle_1.webp",
+            "image_layout": "left",
+            "slider_content_alignment": "left"
+          }
+        },
+        "slide_EWcUM9": {
+          "type": "slide",
+          "settings": {
+            "heading": "Day 4",
+            "subheading": "Night Stay at a hotel in Besisahar",
+            "paragraph": "<p><strong>Accommodation:</strong> Night Stay at a hotel in Besisahar</p><p>A hearty breakfast, a short briefing session about the upcoming trials and with the rising sun, we head towards the mad honey hunting site. Our team ensures that all the joinees have the right gear and prioritizes their safety as our topmost concern.<br/><br/>After a pleasant half-hour to 45-minute walk from the homestay, filled with cascading waterfalls and breathtaking mountain ranges, we reach the mad honey hunting site. The hunting will last for 4 to 5 hours, we will then go to the homestay for rest and food. The night ends with a farewell ceremony helping you feel a lasting bond with the people and place of the Himalayas.</p>",
+            "image": "shopify://shop_images/Frame_1618872216.webp",
+            "image_layout": "left",
+            "slider_content_alignment": "left"
+          }
+        },
+        "slide_6qb39w": {
+          "type": "slide",
+          "settings": {
+            "heading": "Day 5",
+            "subheading": "Besisahar to Kathmandu",
+            "paragraph": "<p><strong>Accommodation:</strong> One-night stay at 3-Star Hotel</p><p>The next day, after enjoying a delicious breakfast, we will begin our journey back to Kathmandu. Along the way, we will stop for a satisfying lunch, either in Muglin or at a convenient spot on the route.  <br/><br/>Once we reach our destination, we will ensure a smooth drop-off at your hotel. To round off your trip with comfort, we will take care of your last meal, ensuring you have a satisfying dining experience. We will handle all arrangements for your hotel accommodation. This is the day when we bid farewell, don't forget to leave your feedbacks to help us identify areas for improvement!</p>",
+            "image": "shopify://shop_images/Group_1718.webp",
+            "image_layout": "left",
+            "slider_content_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "slide_aY3DTw",
+        "slide_ypzhak",
+        "slide_wqWpLf",
+        "slide_EWcUM9",
+        "slide_6qb39w"
+      ],
+      "custom_css": [
+        ".gap-32 {gap: 0;}",
+        ".gap-20 {gap: 24px;}",
+        ".wrapper {max-width: 90%;}",
+        ".slick-dotted.slick-slider {margin: 0;}",
+        ".mb-8 {margin-bottom: clamp(2rem, 2vw, 4.2rem);}",
+        ".slick-dots li button {width: clamp(12px, 1vw, 20px); height: clamp(12px, 1vw, 20px);}",
+        ".slick-slide img {max-width: 100%; width: auto; height: clamp(165px, 19vw, 365px); object-fit: contain;}",
+        ".slide:not(:first-of-type):not(.slick-slide) {position: absolute; opacity: 0;}",
+        "@media (max-width: 768px) {.custom-slick-prev, .custom-slick-next {top: clamp(165px, 19vw, 365px); }}"
+      ],
+      "name": "Text Image Slider",
+      "settings": {
+        "main_heading": "<h2>Your Honey Hunting Itinerary in Nepal</h2>",
+        "main_content": "",
+        "show_arrows": true,
+        "show_dots": true,
+        "autoplay": false,
+        "content_alignment": "center",
+        "content_part_width": "80%",
+        "section_padding": "8rem clamp(16px,1.67vw,32px)",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "Itinerary",
+        "section_width": "calc(100% - 64px)",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "content_color": "#000000",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "date_tour_U3aVzK": {
+      "type": "date-tour",
+      "custom_css": [
+        ".date-tour-container {padding: 6rem 16px;}",
+        "@media (max-width: 768px) {.date-tour-container {padding: 24px 16px; }}"
+      ],
+      "settings": {
+        "section_title": "Departure Date",
+        "reserve_btn": "RESERVE MY SEAT",
+        "product": "tour"
+      }
+    },
+    "basmil_text_cards_DN8p3M": {
+      "type": "basmil-text-cards",
+      "blocks": {
+        "content_xMEef9": {
+          "type": "content",
+          "settings": {
+            "card_one": "<h3>Personal Care (6 items)</h3><p>First Aid Kit & Medications (Lightweight)<br/>Sunblock, Lip Balm, Sunglasses,<br/>Face Mask, Insect Repellent<br/>Water Bottles (3x 1L) or Hydration System + 1L Bottle<br/>Personal Bathroom Kit: Toilet Paper, Wipes, Hand Cleaner<br/>Sleeping Bag</p>",
+            "card_two": "<h3>Other Essentials (6 items)</h3><p>Drone & Camera Accessories<br/>Reading and Writing Materials<br/>Small Binoculars<br/></p>"
+          }
+        },
+        "content_zMzCjy": {
+          "type": "content",
+          "settings": {
+            "card_one": "<h3>Backpack and Storage (3 items)</h3><p>Backpacking Pack (65-75L)<br/>Day Pack (Lightweight, Compressible)<br/>Garbage Bag & Pack Rain Cover</p>",
+            "card_two": "<h3>Clothing (8 items)</h3><p>Insulated Jacket or Vest & Gloves<br/>Lightweight Base Layer Tops and Bottoms (Synthetic or Cotton)<br/>Hiking Gear: Sun Hat, Boots, Socks, Pants & Shorts (Quick-Dry)<br/>Long Sleeve Shirts & Tee Shirts (Synthetic, Lightweight)<br/>Rain Jacket & Pants (Lightweight, Waterproof)<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_xMEef9",
+        "content_zMzCjy"
+      ],
+      "custom_css": [
+        ".contain-wrapper {align-items: stretch; justify-content: space-between;}",
+        ".card {text-align: left !important; align-items: stretch;}"
+      ],
+      "settings": {
+        "heading_title": "Gear List",
+        "heading_description": "<p>Stay comfortable on your honey hunting expedition by choosing the right essentials for your backpack. By using versatile layers that can be easily combined, you can achieve optimal comfort without carrying excessive weight. These layers provide the perfect balance of insulation, ventilation, and weather protection to adapt to changing conditions.</p>",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapcontentcard": "3.2rem",
+        "cardlayout": "equalwidth",
+        "widthCard": "",
+        "gapsections": "2rem",
+        "gapimage": "2rem; justify-content:center",
+        "gapcards": "2rem",
+        "content_width": "100%",
+        "padding": "8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "Gears",
+        "width": "79%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#be935f",
+        "content_color": ""
+      }
+    },
+    "basmil_text_cards_iHHcHL": {
+      "type": "basmil-text-cards",
+      "blocks": {
+        "content_wJkQhr": {
+          "type": "content",
+          "settings": {
+            "card_one": "<h3>Consider as you Sign Up</h3><p><strong>Airline tickets :-</strong> Before purchasing your airline tickets, we kindly request that you check with us to ensure the trip has reached the minimum number of participants required for confirmation. This will help avoid any inconvenience or cancellation due to insufficient participants.</p><p><strong>Travel insurance :-</strong> We strongly advise obtaining travel insurance to protect your travel investment. Purchasing travel insurance provides essential protection and peace of mind throughout your journey.</p><p>This will help avoid any inconvenience or cancellation due to insufficient participants.</p>",
+            "card_two": "<h3>What’s Included</h3><ul><li>Guided Excursions</li><li>Safety Equipment </li><li>Photography and Filming </li><li>Meals and Accommodation</li><li>Transportation Facilities </li><li>Trekking and Hiking </li><li>Permit Fees<br/></li></ul>"
+          }
+        },
+        "content_RmnRXE": {
+          "type": "content",
+          "settings": {
+            "card_one": "<h3>Single Travellers</h3><p>Homestay accommodations provide shared rooms, with solo travelers paired with a same-gender roommate for a comfortable stay. Also, hotel stays offer single accommodations, providing privacy and convenience.</p>",
+            "card_two": "<h3>Weather</h3><p>In the western region of Lamjung, Nepal, the weather is influenced by varying elevation, slope, and exposure, resulting in rapidly changing conditions. Summer afternoons often bring rain and wind, making it crucial to be prepared for sudden temperature drops of 20 to 30°C and unexpected rainstorms.</p><p> In the alpine areas of Lamjung, there is a notable contrast between daytime and nighttime temperatures. While daytime temperatures typically range from 25 to 30°C, evenings can see a drop to the 20s or low 25s, requiring layers for comfort.<br/></p>"
+          }
+        },
+        "content_dBztXL": {
+          "type": "content",
+          "settings": {
+            "card_one": "<h3>Cancellation and Transfer Policy</h3><p>A $600 refundable deposit is required at booking, and full payment is due 30 days before departure. Cancellation fees apply based on the timing of the cancellation notice.</p><ol><li>91+ days before departure: $100</li><li>61 to 90 days before departure: $200</li><li>31 to 60 days before departure: 50% of the total trip cost is non-refundable.</li><li>Alternatively, if you wish to transfer to another date, the following fees will apply at the time of the request:</li><li>61+ days before departure: $0</li><li>31 to 60 days before departure: $200</li></ol>",
+            "card_two": "<h3>Not Included</h3><ul><li>Ticket from your country to Kathmandu</li><li>Guide gratuities, items of a personal nature</li><li>Insurance of any kind</li><li>Alcoholic beverages, Soft drinks</li><li>Insurance of any kind</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "content_wJkQhr",
+        "content_RmnRXE",
+        "content_dBztXL"
+      ],
+      "custom_css": [
+        "ul {list-style-type: disc; margin-left: 1.5em;}",
+        "ol li {margin: 0.6em 0;}",
+        ".contain-wrapper {align-items: stretch; justify-content: space-between;}",
+        ".card {text-align: left !important; align-items: stretch;}"
+      ],
+      "settings": {
+        "heading_title": "Details",
+        "heading_description": "<p>Have questions about the gear list? We’re here to help! Feel free to give us a call at <strong>+977 9849388031</strong>, and our knowledgeable team will provide you with the answers you need. For any other information to assist you in preparing for your trip, reach out to us on WhatsApp. Don’t hesitate to get in touch with us today!</p>",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapcontentcard": "3.2rem",
+        "cardlayout": "equalheight",
+        "widthCard": "",
+        "gapsections": "3.2rem",
+        "gapimage": "2rem",
+        "gapcards": "2rem",
+        "content_width": "100%",
+        "padding": "0 16px 8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "Details",
+        "width": "79%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#be935f",
+        "content_color": ""
+      }
+    },
+    "custom_liquid_6nkXz7": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<script>\ndocument.querySelectorAll('#navigator-inpage a').forEach(link => {\n  link.addEventListener('click', function (e) {\n    e.preventDefault(); // Prevent default jump to section\n    const targetId = this.getAttribute('href').substring(1); // Get the section ID\n    const targetElement = document.getElementById(targetId);\n    if (targetElement) {\n      const offset = 160; // Offset value\n      const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;\n      const offsetPosition = elementPosition - offset;\n\n      // Smoothly scroll to the calculated position\n      window.scrollTo({\n        top: offsetPosition,\n        behavior: 'smooth'\n      });\n    }\n  });\n});\n\n</script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_JjqM4Y",
+    "rich_text_RxNAf6",
+    "basmil_image_text_slider_LHMTpP",
+    "basmil_image_text_jEfDFM",
+    "basmil_image_text_b7tVHP",
+    "basmil_image_text_3KX8AX",
+    "icon_box_8AaBQQ",
+    "basmil_image_text_xfqNC7",
+    "basmil_image_text_cG8af8",
+    "basmil_image_text_list_fpDkap",
+    "text_image_slider_NzfCbY",
+    "date_tour_U3aVzK",
+    "basmil_text_cards_DN8p3M",
+    "basmil_text_cards_iHHcHL",
+    "custom_liquid_6nkXz7"
+  ]
+}

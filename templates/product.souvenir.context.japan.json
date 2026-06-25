@@ -1,0 +1,54 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.souvenir.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "settings": {},
+      "blocks": {
+        "content_Jmgwef": {
+          "settings": {
+            "title": "マッドハニーのお土産",
+            "description": "<p>マッドハニーは、あなたの愛と思いやり、愛情の証を雄弁に語る、心のこもった贈り物です。人里離れた崖から苦労して集めたマッドハニーは、愛する人に自然が提供する最高のものを与える方法です。それは彼らにあなたの思いやりを思い出させるだけでなく、その数多くの健康上の利点により、彼らが世話されることを保証します。たとえ味が薄れても、贈り物に込められた思い出と愛はいつまでも残ります。</p>",
+            "button_text": "マッドハニーを購入する "
+          }
+        }
+      }
+    },
+    "product_grid_slider_wPWnEt": {
+      "settings": {
+        "section_title": "愛する人へのギフトバンドル  "
+      },
+      "blocks": {}
+    },
+    "basmil_image_text_n8Lcg7": {
+      "settings": {},
+      "blocks": {
+        "content_xLRW3c": {
+          "settings": {
+            "title": "限定マッドハニーバンドル",
+            "description": "<p>今なら、友人や家族への贈り物に最適な、特別なマッドハニー バンドルで、愛情表現を次のレベルに引き上げることができます。これらの思慮深く厳選されたバンドルには、マッドハニー、マッドハニー ソープ、マッドハニー リップバームのさまざまな組み合わせがあります。結局のところ、多ければ多いほど楽しいのです! ハチミツを楽しんだり、バームで自分を甘やかしたり、マッドハニー ソープで疲れた長い一日をリラックスしたりするたびに、あなたの存在が感じられるようにする方法です。</p>",
+            "button_text": "カートに追加 "
+          }
+        }
+      }
+    },
+    "multiple_products_cart_fiyeDH": {
+      "settings": {
+        "title": "自分だけのバンドルをカスタマイズ",
+        "description": "<p>創造力を働かせて、自分だけのカスタマイズされたマッドハニー バンドルをデザインできます。相手の興味に直接訴えるバンドルをキュレートすることで、愛情を表現する楽しく思いやりのある方法です。パーソナルなタッチです。純粋なマッドハニーの瓶、さわやかなマッドハニー ソープ、または栄養豊富な 3 種類のマッドハニー リップバームのどれを選ぶにしても、相手のニーズと好みに最も合うものを自由に選ぶことができます。</p>"
+      },
+      "blocks": {}
+    }
+  }
+}

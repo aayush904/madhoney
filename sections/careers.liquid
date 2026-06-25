@@ -1,0 +1,237 @@
+{% comment %}
+  Hiring Section - Pulls data from pages with 'careers' template
+{% endcomment %}
+<section class="hiring-section max-w-[87.7%]  m-auto sm:max-w-full w-full">
+  <div class="hiring-container ">
+    <div class="hiring-content max-w-[47.7%] sm:max-w-full m w-full">
+      <h1 class="text-[#733D07] text-center">{{ section.settings.title }}</h1>
+      <div class="text-center description mb-[52px] sm:mb-[24px]">
+        {{ section.settings.description }}
+      </div>
+      {% assign career_pages = 0 %}
+
+      {% for page in pages %}
+        {% if page.template_suffix contains 'career-' %}
+          {% assign career_pages = career_pages | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% if career_pages > 0 %}
+        <table>
+          <thead>
+            <tr>
+              <th>POSITIONS</th>
+              <th>TIME</th>
+              <th>&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for page in pages %}
+              {% if page.template_suffix contains 'career-' %}
+                <tr>
+                  <td>
+                    <a href="{{ page.url }}" class="text-[#733D07] font-sans text-[16px]">{{ page.title }}</a>
+                  </td>
+                  <td>{{ page.content | strip_html }}</td>
+                  <td><a href="{{ page.url }}" class="apply-btn">APPLY NOW</a></td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <div class="text-center my-[24px] p-[50px] font-semibold border-tertiary border">
+          No careers currently available. Please check back later.
+        </div>
+      {% endif %}
+      <div class="mb-8 text-start email-note">{{ section.settings.mail }}</div>
+      <div>
+        {{ section.settings.follow }}
+        {% render 'social-icons' %}
+      </div>
+    </div>
+    <div class="hiring-image  max-w-[46%] sm:max-w-full w-full">
+      {% assign image_alt = section.settings.image.alt | default: 'Medicinal MAd honey Careers' %}
+
+      {{
+        section.settings.image
+        | image_url: width: '400'
+        | image_tag:
+          widths: '320, 480, 768, 1024',
+          alt: image_alt,
+          width: section.settings.image.width,
+          height: section.settings.image.height,
+          loading: 'lazy'
+      }}
+    </div>
+  </div>
+</section>
+
+<style>
+  .hiring-section {
+    padding: 60px 16px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    *:not(h2, h1) {
+      font-family: lato;
+    }
+    .hiring-container {
+      display: flex;
+      gap: 40px;
+      align-items: start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .hiring-content h2 {
+      color: #3b2d1f;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .hiring-content p {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      display: table;
+      border-collapse: collapse;
+      border: 0;
+      box-shadow: none;
+    }
+
+    thead,
+    tbody,
+    tr,
+    th,
+    td,
+    a {
+      border: 0;
+      font-size: 16px;
+    }
+
+    table,
+    th,
+    td {
+      border-color: transparent;
+      border: none !important;
+    }
+    tr {
+      min-width: 100%;
+      display: table-row;
+    }
+
+    th,
+    td {
+      text-align: center;
+      padding: 8px 2px !important;
+      display: table-cell;
+    }
+
+    tr th,
+    tr td {
+      &&:first-of-type {
+        text-align: start;
+      }
+    }
+
+    th {
+      color: #3b2d1f;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    tr td:last-of-type a {
+      text-decoration: underline;
+      color: #3b2d1f;
+      text-decoration-style: solid;
+      text-decoration-offset: 25%;
+      text-decoration-thickness: 0%;
+      text-decoration-skip-ink: auto;
+    }
+
+    .email-note {
+      font-size: 14px;
+    }
+
+    .email-note a {
+      color: #733d07;
+      text-decoration: underline;
+    }
+
+    .hiring-image {
+      text-align: center;
+      position: sticky;
+      top: 17rem;
+    }
+
+    .hiring-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .list-social__link {
+      padding: 0.5rem;
+
+      && svg {
+        color: #733d07;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hiring-container {
+        flex-direction: column-reverse;
+      }
+
+      .hiring-image {
+        position: static;
+      }
+
+      table {
+        th,
+        td,
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Carrers Page",
+  "class": "carerrs-section",
+  "settings": [
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "label": "Description",
+      "id": "description"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
+    },
+    {
+      "type": "richtext",
+      "id": "mail",
+      "label": "Footer content"
+    },
+    {
+      "type": "richtext",
+      "id": "follow",
+      "label": "Follow Us content"
+    }
+  ]
+}
+{% endschema %}

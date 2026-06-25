@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.adjusting-dosage.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "settings": {},
+      "blocks": {
+        "content_cRpYeF": {
+          "settings": {
+            "title": "投与量の調整",
+            "description": "<p>マッドハニーの適切な摂取量を見つけるには、体重、グラヤノトキシンに対する感受性、全体的な健康状態などの要因が影響するため、多少の調整が必要になる場合があります。始めたばかりの場合は、少量から始めて、体がそれをどのように処理し、どのような効果を求めているかを確認しながら、徐々に増やしていくのが賢明です。自分の体に耳を傾け、それに応じて調整してください。また、特定の健康目標や健康状態がある場合は、常に医療従事者に相談して、最適な摂取量のアドバイスを得ることをお勧めします。こうすることで、安全を保ちながら効果を享受できます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "settings": {},
+      "blocks": {
+        "content_UUE4QN": {
+          "settings": {
+            "title": "ステップ1",
+            "description": "<p>まずは小さじ 1 杯かそれ以下の少量から始めて、体の反応を見てください。こうすることで、過剰摂取することなく調整できます。数日後に体調が良くなったら、少しずつ量を増やしてください。数日おきに小さじ 1 杯ずつ増やすとよいでしょう。こうすることで、自分に合った適切な量を見つけやすくなります。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "settings": {},
+      "blocks": {
+        "content_VDaFtW": {
+          "settings": {
+            "title": "ステップ2",
+            "description": "<p>マッドハニーを飲み始める前、または服用量を変更する前に、特に健康上の問題がある場合や薬を服用している場合は、医療従事者に相談することをお勧めします。体調の変化に気付いたり、新たな健康上の問題が生じたりした場合は特に、服用量や全体的な健康状態について医療専門家に相談することを習慣にしてください。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "settings": {},
+      "blocks": {
+        "content_3wbHrA": {
+          "settings": {
+            "title": "ステップ3",
+            "description": "<p>マッドハニーをいつ摂取するかに注意してください。空腹時に摂取すると効果が高まり、食事と一緒に摂取すると消化不良を回避できます。副作用を避けるために、毎日ではなく隔日でマッドハニーを摂取することから始めてください。体が慣れてきたら、毎日摂取し始めることができます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "settings": {},
+      "blocks": {
+        "content_7Wj6ag": {
+          "settings": {
+            "title": "ステップ4",
+            "description": "<p>健康目標に応じて摂取量を調整してください。一般的な健康維持には、適度な摂取が推奨されます。治療効果を期待する場合は、より高い摂取量が必要になる場合がありますが、必ず医療専門家に相談して指導を受けてください。</p>"
+          }
+        }
+      }
+    }
+  }
+}

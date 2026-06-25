@@ -1,0 +1,278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Borrowed from Nature",
+            "description": "<p>Immensely <a href=\"https:\/\/medicinalmadhoney.com\/blogs\/mad-honey\/usta-village-the-world-of-courageous-honey-hunters\" title=\"https:\/\/medicinalmadhoney.com\/blogs\/mad-honey\/usta-village-the-world-of-courageous-honey-hunters\">skilled honey-hunting artisans<\/a> collect the rare honey from the lap of nature. It is an amalgamation of pristine mountains and the essence of the wild. Each drop of <a href=\"https:\/\/medicinalmadhoney.com\/pages\/what-is-mad-honey\" title=\"https:\/\/medicinalmadhoney.com\/pages\/what-is-mad-honey\">mad honey<\/a> speaks volumes of its origin that is truly innate to nature. <\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_cRpYeF"
+      ],
+      "custom_css": [
+        ".basmilTextImage {position: absolute; width: 100%; z-index: 1;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "37%",
+        "padding": "26rem 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "81.2%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "bottom",
+        "background_size": "cover",
+        "heading_color": "#e0af7e",
+        "content_color": "#ffffff"
+      }
+    },
+    "icon_box_4i6UgP": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_FiMjhR": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"180\" height=\"180\" viewbox=\"0 0 180 180\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<mask id=\"mask0_6014_40321\" style=\"mask-type:alpha\" maskunits=\"userSpaceOnUse\" x=\"38\" y=\"76\" width=\"104\" height=\"104\">\n<rect x=\"38\" y=\"76\" width=\"104\" height=\"104\" fill=\"#D9D9D9\"><\/rect>\n<\/mask>\n<g mask=\"url(#mask0_6014_40321)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M96.118 176.215C114.434 180.665 132.971 169.445 137.523 151.154C143.255 128.121 129.202 104.905 106.138 99.3016L106.138 99.3016C77.1352 92.2542 47.7789 110.023 40.5705 138.988L38.0836 138.383C45.6333 108.047 76.3797 89.4368 106.756 96.818C131.194 102.755 146.083 127.354 140.01 151.758C135.116 171.421 115.19 183.482 95.4999 178.699C79.6121 174.839 69.9325 158.847 73.8809 142.981C77.0742 130.149 90.0779 122.279 102.927 125.4C113.342 127.93 119.687 138.414 117.099 148.815C114.994 157.273 106.421 162.462 97.9509 160.404C91.0388 158.725 86.8264 151.766 88.5442 144.863C89.9526 139.204 95.691 135.731 101.358 137.107C106.03 138.242 108.876 142.944 107.715 147.609L105.228 147.005C106.047 143.712 104.038 140.392 100.74 139.591C96.4464 138.548 92.0982 141.18 91.0312 145.467C89.6547 150.998 93.0304 156.575 98.569 157.921C105.666 159.645 112.848 155.297 114.612 148.21C116.859 139.181 111.35 130.08 102.309 127.884C90.8334 125.096 79.2199 132.125 76.3679 143.585C72.7608 158.079 81.6037 172.689 96.118 176.215Z\" fill=\"#E0AF7E\" stroke=\"#E0AF7E\" stroke-miterlimit=\"10\"><\/path>\n<\/g>\n<\/svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Psychedelic Effect",
+            "icon_description": "Grayanotoxin is one ingredient that comprises the eccentricity of the honey. The rhododendron flowers contribute to the psychedelic effects of honey. It is the only honey known to soothe nerves and alleviate stress, keeping you at ease and peace.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_mjmmLT": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"180\" height=\"181\" viewbox=\"0 0 180 181\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M94.4601 106.51L111.018 121.283L109.927 143.394L91.7876 156.379L70.3758 150.332L61.75 129.808L72.4583 110.375L94.4601 106.51ZM74.4335 113.139L65.1489 129.988L72.6285 147.785L91.2024 153.03L106.94 141.764L107.885 122.594L93.5281 109.784L74.4335 113.139Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M127.594 111.287L146.111 123.263L144.903 145.21L125.281 155.173L106.764 143.197L107.972 121.249L127.594 111.287ZM110.934 123.181L109.92 141.59L125.465 151.643L141.941 143.278L142.954 124.87L127.41 114.817L110.934 123.181Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M59.4648 95L75.1441 111.807L63.9688 131.799L41.331 127.394L38.5625 104.631L59.4648 95ZM41.8735 106.479L44.1033 124.813L62.3767 128.368L71.3794 112.262L58.7355 98.7094L41.8735 106.479Z\" fill=\"#E0AF7E\"><\/path>\n<path d=\"M28.833 100.648L41.4211 105.739L28 103.61L28.833 100.648Z\" fill=\"#E0AF7E\"><\/path>\n<path d=\"M54.6562 140.821L63.3568 130.361L57.2479 142.487L54.6562 140.821Z\" fill=\"#E0AF7E\"><\/path>\n<path d=\"M62.3398 159.423L71.0404 148.871L64.9315 161.089L62.3398 159.423Z\" fill=\"#E0AF7E\"><\/path>\n<path d=\"M114.636 109.441L109.453 121.937L111.767 108.516L114.636 109.441Z\" fill=\"#E0AF7E\"><\/path>\n<path d=\"M103.622 98.6117L93.9961 108.145L101.216 96.668L103.622 98.6117Z\" fill=\"#E0AF7E\"><\/path>\n<path d=\"M150.085 180.437L142.588 169.145L152.399 178.493L150.085 180.437Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M109.367 167.295L110.151 142.813L107.089 142.715L106.207 170.252L144.255 171.56L145.139 144.758L142.077 144.657L141.294 168.393L109.367 167.295Z\" fill=\"#E0AF7E\"><\/path>\n<\/svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Naturally Harvested",
+            "icon_description": "Following an old-age tradition passed down from their ancestors, Gurung community hunts for honey without any additional tools.  As a result, mad honey is 100% pure without any additives.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_z47LXt": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"181\" height=\"180\" viewbox=\"0 0 181 180\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M103.498 117L111.924 123.741L117.606 129.513L133.033 147.658L156.93 158.2L172.869 167.619L180.049 177.798L177.73 179.433L170.901 169.752L155.631 160.728L131.293 149.991L115.511 131.429L110.021 125.852L104.261 121.244L100.822 126.974L94.9202 135.827L85.437 140.569L76.3196 136.01L64.4717 130.744L58.1063 137.11L49.7075 146.923L36.7857 161.281L29.4635 165.674L26.6919 167.06L20.7414 171.523H19.4375L15.3442 175.616L0.815284 179.975L0 177.257L13.8438 173.104L18.2623 168.685H19.7956L25.1942 164.636L28.0971 163.185L34.9613 159.066L47.5749 145.051L56.0223 135.181L63.8433 127.36L77.5308 133.443L85.437 137.397L92.9774 133.626L98.4243 125.456L103.498 117Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M87.2818 136.734L89.7997 138.042L83.8914 149.418L81.2275 156.077L82.7009 164.918L76.5102 171.109L74.5039 169.102L79.6622 163.944L78.2983 155.761L81.309 148.234L87.2818 136.734Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M60.0033 138.446L62.806 129.6L65.5107 130.457L62.6389 139.521L58.3628 147.984L55.5688 155.194L51.1956 161.025L48.9258 159.323L53.0644 153.805L55.7676 146.829L60.0033 138.446Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M102.852 141.38L94.4766 133.358L96.4392 131.309L104.91 139.423L113.466 149.315L111.32 151.171L102.852 141.38Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M82.457 150.668L84.1594 148.398L89.7316 152.578L98.2634 156.843L105.474 162.612L103.702 164.827L96.7257 159.247L88.2339 155.001L82.457 150.668Z\" fill=\"#E0AF7E\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M130.82 149.274L133.512 148.377L136.296 156.729L143.166 167.721L155.735 177.497L153.993 179.737L141.027 169.652L133.711 157.946L130.82 149.274Z\" fill=\"#E0AF7E\"><\/path>\n<\/svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Rarely Available",
+            "icon_description": "Only spring and autumn is favorable for the collection of authentic honey. Due to its collection only twice a year, plus the intense process, mad honey is rarely available.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_FiMjhR",
+        "icon_box_mjmmLT",
+        "icon_box_z47LXt"
+      ],
+      "custom_css": [
+        ".icon-box-section .iconbox {gap: 2.4rem;}",
+        ".icon-box-section .iconbox * {text-align: justify; text-align-last: center; margin: 0;}",
+        "@media (max-width: 768px) {.icon-box-section {background-size: 120vw; background-position: 55% 0%; background-color: #000; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Key Characteristics of Mad Honey",
+        "section_description": "The buzzing honey is set apart from the rest of the delicacies because of its special features. Discover the quirks of the honey, which has been celebrated and approached with caution for centuries.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "12rem",
+        "iconbox_gap": "4rem 6rem",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "29%",
+        "padding": "76rem 16px 14.2rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "83%",
+        "min_height": "166.6rem",
+        "background_type": "image",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.12241) 43.9%, rgba(0, 0, 0, 0.589) 65.9%, #000000 95.4%)",
+        "background_image": "shopify:\/\/shop_images\/characteristics-hero-no-gradient_4db53ce2-d641-4920-9276-ea0a3e2a7deb.jpg",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#e0af7e",
+        "content_color": "#ffffff",
+        "iconbox_style": "<style>.icon-box-section{}<\/style>"
+      }
+    },
+    "basmil_image_text_mpjGzL": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_CRRMEf": {
+          "type": "content",
+          "settings": {
+            "title": "Harvested Like No Others",
+            "description": "<p>The <a href=\"https:\/\/medicinalmadhoney.com\/blogs\/mad-honey\/from-harvest-to-hope-the-journey-of-honey-hunting-community\" title=\"https:\/\/medicinalmadhoney.com\/blogs\/mad-honey\/from-harvest-to-hope-the-journey-of-honey-hunting-community\">journey of harvesting honey<\/a> from hive to jar is an outcome of unwavering dedication. Our fearless honey hunters risk their lives scaling the frightening cliffs with minimal equipment to collect the nectar. The remote location, intense process, and fewer men make the entire honey hunting exciting and alarming.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_7xCnhy": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image_alt": "",
+            "svg": "",
+            "image_width": "40rem"
+          }
+        }
+      },
+      "block_order": [
+        "content_CRRMEf",
+        "image_7xCnhy"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "40.48%",
+        "padding": "18.83rem 16px 22.68rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "85.35%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "#d4be71",
+        "background_gradient": "linear-gradient(360deg, rgba(0, 0, 0, 0) 85.33%, #000000 100%)",
+        "background_image": "shopify:\/\/shop_images\/DSC07796.jpg",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#e0af7e",
+        "content_color": "#ffffff"
+      }
+    },
+    "basmil_image_text_eXQH8K": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_weGhpb": {
+          "type": "content",
+          "settings": {
+            "title": "Cultural and Norms",
+            "description": "<p>Rooted in ancient Gurung tradition, mad honey symbolizes the brave tales of hunting men. Honey hunting practice has been taught from generation to generation. It’s not just a means of livelihood; it gives their lives purpose and meaning. No Gurung ceremony or tradition feels complete without the presence of mad honey, making it a cherished symbol of their culture.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_weGhpb"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "59.88%",
+        "padding": "18.4rem 16px 66.46rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "image",
+        "background_color": "",
+        "background_gradient": "",
+        "background_image": "shopify:\/\/shop_images\/hill.jpg",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "product_grid_slider_3NWFAj": {
+      "type": "product-grid-slider",
+      "settings": {
+        "section_title": "Buy Mad Honey",
+        "section_description": "",
+        "product_collection": "automated-collection",
+        "slider_grid": true,
+        "slider_type": "1",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 6,
+        "Card_Button": "Try Mad Honey",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "5rem",
+        "iconbox_gap": "4.4rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "27%",
+        "padding": "12rem 1.4%",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "80%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}<\/style>"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_jaHjht",
+    "icon_box_4i6UgP",
+    "basmil_image_text_mpjGzL",
+    "basmil_image_text_eXQH8K",
+    "product_grid_slider_3NWFAj"
+  ]
+}

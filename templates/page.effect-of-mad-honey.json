@@ -1,0 +1,1029 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_eU6jWk": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Rhododendron_1.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_YnbN4H": {
+          "type": "content",
+          "settings": {
+            "title": "What Are Mad Honey Effects?",
+            "subtitle": "",
+            "description": "<p>Feelings of Relaxation with a calm, grounded sensation, gentle buzz and Mild mood lift are some positive effects of <a href=\"https://medicinalmadhoney.com/\" title=\"Authentic mad Honey Nepal\">Mad Honey</a> at controlled doses.</p><p>Meanwhile side effects of Dizziness, Hallucinations, Delirium and can develop at mild to higher doses. If you were wondering “what does mad honey feel like?” These experiences fairly answer the question.</p><p>Mad honey sourced from particular Rhododendron species Rhododendron Ponticum and Rhododendron Luteum in Nepal and Turkey is renowned for delivering unique experiences. This unique experience is the effect caused by the potent biocompound called grayanotoxin found in Mad Honey.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eU6jWk",
+        "content_YnbN4H"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.4rem 3.6%",
+        "content_width": "46.3%",
+        "padding": "7rem 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%; max-width:144.3rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_4a7z3A": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_GW3Wen": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Group_28654.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_QHFNfY": {
+          "type": "content",
+          "settings": {
+            "title": "The Science Behind Mad Honey Effects",
+            "subtitle": "",
+            "description": "<p><a href=\"/pages/grayanotoxin\" target=\"_blank\" title=\"grayanotoxin\"><strong>Grayanotoxin</strong></a>, a potent natural neurotoxin is the active ingredient behind the effects of Mad Honey. Once the Grayanotoxin in Mad Honey reaches Gastrointestinal Tract it is absorbed and passes through intestinal membranes as it is Lipophilic. The grayanotoxin then enters the bloodstream by bypassing the liver and reaches excitable nerves as well as the heart. </p><p>Grayanotoxin in blood is absorbed at cellular level and starts affecting the body by blocking sodium ion channels within cell membranes thereby causing prolonged depolarization and cell excitation. This disruption in the transmission of the neurons potentially impacts on excited tissue including the central nervous system and muscle cells.<br/><br/></p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GW3Wen",
+        "content_QHFNfY"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.4rem 3.6%",
+        "content_width": "46.3%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%; max-width:144.3rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "table_basmil_MpCB6i": {
+      "type": "table-basmil",
+      "blocks": {
+        "heading_Pm6GiT": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Symptoms"
+          }
+        },
+        "content_iXNdMY": {
+          "type": "content",
+          "settings": {
+            "table_content": "Bradycardia"
+          }
+        },
+        "content_8Nmde6": {
+          "type": "content",
+          "settings": {
+            "table_content": "Hypotension"
+          }
+        },
+        "content_4VDtAV": {
+          "type": "content",
+          "settings": {
+            "table_content": "Atrial Fibrillation"
+          }
+        },
+        "content_h7RREg": {
+          "type": "content",
+          "settings": {
+            "table_content": "Atrioventricular Blocks"
+          }
+        },
+        "content_GmGxkx": {
+          "type": "content",
+          "settings": {
+            "table_content": "Nausea & Vomiting"
+          }
+        },
+        "content_CHJA3y": {
+          "type": "content",
+          "settings": {
+            "table_content": "Tingling / Paresthesia"
+          }
+        },
+        "content_jd7mHG": {
+          "type": "content",
+          "settings": {
+            "table_content": "Mental Confusion/delerium"
+          }
+        },
+        "content_YxwUVN": {
+          "type": "content",
+          "settings": {
+            "table_content": "Seizures (rare)"
+          }
+        },
+        "heading_MQrJA9": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Risk Level"
+          }
+        },
+        "content_qmUbWf": {
+          "type": "content",
+          "settings": {
+            "table_content": "High"
+          }
+        },
+        "content_JgDN3k": {
+          "type": "content",
+          "settings": {
+            "table_content": "High"
+          }
+        },
+        "content_pU943N": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate–High"
+          }
+        },
+        "content_iC4p9y": {
+          "type": "content",
+          "settings": {
+            "table_content": "High"
+          }
+        },
+        "content_tKwtmN": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate"
+          }
+        },
+        "content_Dmaq8Y": {
+          "type": "content",
+          "settings": {
+            "table_content": "Mild-Moderate"
+          }
+        },
+        "content_RGUwFk": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate"
+          }
+        },
+        "content_73wCHz": {
+          "type": "content",
+          "settings": {
+            "table_content": "High"
+          }
+        },
+        "heading_XeREej": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Description"
+          }
+        },
+        "content_RMdmPc": {
+          "type": "content",
+          "settings": {
+            "table_content": "Abnormally slow heart rate due to prolonged voltage gated sodium channel activation. This can result in impaired consciousness."
+          }
+        },
+        "content_LUEX4j": {
+          "type": "content",
+          "settings": {
+            "table_content": "Dangerously low blood pressure caused by vasodilation and impaired cardiac output"
+          }
+        },
+        "content_Tyzd3f": {
+          "type": "content",
+          "settings": {
+            "table_content": "Irregular heartbeat from disrupted electrical activity in the atria."
+          }
+        },
+        "content_DifEfD": {
+          "type": "content",
+          "settings": {
+            "table_content": "Impaired signal conduction between atria and ventricles, possibly leading to complete heart block."
+          }
+        },
+        "content_cxJ74w": {
+          "type": "content",
+          "settings": {
+            "table_content": "GI distress caused by autonomic nervous system stimulation."
+          }
+        },
+        "content_zPBj9j": {
+          "type": "content",
+          "settings": {
+            "table_content": "Abnormal sensations from prolonged nerve excitation."
+          }
+        },
+        "content_GkwUrr": {
+          "type": "content",
+          "settings": {
+            "table_content": "CNS effect due to disrupted neuronal signaling."
+          }
+        },
+        "content_wDLUmM": {
+          "type": "content",
+          "settings": {
+            "table_content": "In severe toxicity, uncontrolled neural activity may lead to convulsions."
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pm6GiT",
+        "content_iXNdMY",
+        "content_8Nmde6",
+        "content_4VDtAV",
+        "content_h7RREg",
+        "content_GmGxkx",
+        "content_CHJA3y",
+        "content_jd7mHG",
+        "content_YxwUVN",
+        "heading_MQrJA9",
+        "content_qmUbWf",
+        "content_JgDN3k",
+        "content_pU943N",
+        "content_iC4p9y",
+        "content_tKwtmN",
+        "content_Dmaq8Y",
+        "content_RGUwFk",
+        "content_73wCHz",
+        "heading_XeREej",
+        "content_RMdmPc",
+        "content_LUEX4j",
+        "content_Tyzd3f",
+        "content_DifEfD",
+        "content_cxJ74w",
+        "content_zPBj9j",
+        "content_GkwUrr",
+        "content_wDLUmM"
+      ],
+      "custom_css": [
+        ".table-wrapper {padding-bottom: 10px !important;}",
+        "th,td {background: transparent; text-align: center; justify-content: center; border-bottom: 0px; padding: 1.6rem; font-size: 1.8rem; letter-spacing: 0; width: 45rem; border-left: 1px;}",
+        "td,th {border-right: 0px; min-height: 63px;}",
+        "th,tr td:first-of-type {font-weight: 600; font-size: 2.4rem; border-left: 0px; font-family: \"Crimson Text\";}",
+        "@media (max-width: 768px) {th, td {min-width: 200px; width: 200px; padding: 1.3rem; } th, tr td:first-of-type {font-size: 16px; }}"
+      ],
+      "name": "Table Basmil",
+      "settings": {
+        "main_heading": "Side Effects of Grayanotoxin or Mad Honey Poisoning",
+        "main_content": "",
+        "alignment": "center",
+        "valignment": "center",
+        "content_part_width": "",
+        "section_padding": "0 16px 12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "87.7%; max-width:144.3rem",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_on": "content",
+        "background_color": "",
+        "content_color": "#000000",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_V84dWr": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_H9kimE": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/image_313.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_9DyFML": {
+          "type": "content",
+          "settings": {
+            "title": "Historical records of Mad Honey Intoxication",
+            "subtitle": "",
+            "description": "<p>The overdose <a href=\"/pages/mad-honey-dose\" target=\"_blank\" title=\"mad honey dosage\">effects of Mad Honey</a> have been recorded several times in the history books.</p><ul><li>The first one was recorded with Greek Army in Turkey.</li><li>The second was recorded as the defeat of Roman Soldiers </li><li>One case of Mad Honey intoxication in South Korea killed a middle aged man</li><li>Aristotle describes box wood honey with heavy scent, causing healthy individuals to go mad</li></ul><p><br/>The <a href=\"/pages/mad-honey-history\" target=\"_blank\" title=\"Mad Honey History\"><strong>Ancient History of Mad</strong></a> Honey Intoxication is evident enough to raise attention for the side effects of Mad Honey that can be fatal with ignorance of dosage limits.<br/><br/></p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_H9kimE",
+        "content_9DyFML"
+      ],
+      "custom_css": [
+        "ul {list-style: disc; margin-left: 2em; text-align: start;}",
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.4rem 3.6%",
+        "content_width": "46.3%",
+        "padding": "0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%; max-width:144.3rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "table_basmil_zmwghy": {
+      "type": "table-basmil",
+      "blocks": {
+        "heading_nRggYg": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Group"
+          }
+        },
+        "content_8RDnGG": {
+          "type": "content",
+          "settings": {
+            "table_content": "Older Adults"
+          }
+        },
+        "content_F9aPqH": {
+          "type": "content",
+          "settings": {
+            "table_content": "People with Heart Conditions"
+          }
+        },
+        "content_KXixFm": {
+          "type": "content",
+          "settings": {
+            "table_content": "Children (below 18)"
+          }
+        },
+        "content_7H64ew": {
+          "type": "content",
+          "settings": {
+            "table_content": "Pregnant Women"
+          }
+        },
+        "content_TGMYMw": {
+          "type": "content",
+          "settings": {
+            "table_content": "Diseased"
+          }
+        },
+        "heading_88y767": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Risks or Toxic Effects"
+          }
+        },
+        "content_wtV3et": {
+          "type": "content",
+          "settings": {
+            "table_content": "Higher risk of cardiac complications"
+          }
+        },
+        "content_BM6rtn": {
+          "type": "content",
+          "settings": {
+            "table_content": "Extreme sensitivity, can be dangerous, not recommended"
+          }
+        },
+        "content_tJQqfT": {
+          "type": "content",
+          "settings": {
+            "table_content": "Not safe; can cause serious poisoning"
+          }
+        },
+        "content_PtHndG": {
+          "type": "content",
+          "settings": {
+            "table_content": "Not recommended, botulism and unknown effects on fetus"
+          }
+        },
+        "content_xpPd9r": {
+          "type": "content",
+          "settings": {
+            "table_content": "Can be used for natural wellness but needs medical consultation"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nRggYg",
+        "content_8RDnGG",
+        "content_F9aPqH",
+        "content_KXixFm",
+        "content_7H64ew",
+        "content_TGMYMw",
+        "heading_88y767",
+        "content_wtV3et",
+        "content_BM6rtn",
+        "content_tJQqfT",
+        "content_PtHndG",
+        "content_xpPd9r"
+      ],
+      "custom_css": [
+        ".table-wrapper {padding-bottom: 10px !important;}",
+        "th,td {background: transparent; text-align: center; justify-content: center; border-bottom: 0px; padding: 1.6rem; font-size: 1.8rem; letter-spacing: 0; width: 45rem; border-left: 1px;}",
+        "td,th {border-right: 0px; min-height: 63px;}",
+        "th,tr td:first-of-type {font-weight: 600; font-size: 2.4rem; border-left: 0px; font-family: \"Crimson Text\";}",
+        "@media (max-width: 768px) {th, td {min-width: 200px; width: 200px; padding: 1.3rem; } th, tr td:first-of-type {font-size: 16px; }}"
+      ],
+      "name": "Table Basmil",
+      "settings": {
+        "main_heading": "Effects of Mad Honey on Different Population groups",
+        "main_content": "",
+        "alignment": "center",
+        "valignment": "center",
+        "content_part_width": "",
+        "section_padding": "12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "87.7%; max-width:144.3rem",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_on": "content",
+        "background_color": "",
+        "content_color": "#000000",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_double_TNPG8m": {
+      "type": "basmil-image-text-double",
+      "blocks": {
+        "block_wG3rce": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>Mad Honey Effects Duration</h2><p><br/>Wondering, “How long until Mad Honey starts kicking?” Well, the effects of Mad Honey usually develop between 15-40 minutes after ingestion. Also, there are several factors that affect the time until mad honey starts kicking.</p><p>Factors that determine the effects of Mad Honey</p><ul><li>Amount of Mad Honey consumed (larger doses=stronger effects)</li><li>Individual metabolism and level of tolerance</li><li>Potency and availability of Grayanotoxin present in the honey</li><li>Empty stomach where absorption is faster<br/><br/></li></ul>",
+            "image_type": "image",
+            "svg": ""
+          }
+        },
+        "block_JeLPfe": {
+          "type": "block",
+          "settings": {
+            "content": "<h2>How long do the effects of Mad Honey Last?</h2><p><br/>A 2018 study found grayanotoxin’s effects peak within hours and subside in between 24–48 hours (Source: PubMed)</p><p>Effects experienced at smaller doses can disappear between 2-3 hours after the consumption while intoxication at higher doses can persist for up to 24 hours and beyond. It is always advised to proceed with caution. </p><p>The body eventually eliminates Grayanotoxin unchanged or in partially metabolized form via the urine. Kidneys help in filtering out the Grayanotoxin once the liver processes whatever it can. The effects of Grayanotoxin disappear slowly and the body gradually returns to normal.</p>",
+            "image_type": "image",
+            "svg": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_wG3rce",
+        "block_JeLPfe"
+      ],
+      "custom_css": [
+        ".flag-content-wrapper {padding: 0;}"
+      ],
+      "name": "Basmil Image Text Double",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "section_id": "",
+        "section_class": ""
+      }
+    },
+    "basmil_image_text_Nzj7de": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_GrED98": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mask_group_52cb1110-4133-4f5f-a55a-4106cef93e14.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_VENF4k": {
+          "type": "content",
+          "settings": {
+            "title": "Long - Term Effects of Mad Honey",
+            "subtitle": "",
+            "description": "<p>There has not been study or well documented long term effects of Mad Honey. The only possible cases that Mad Honey can effect in long term can be</p><ul><li>Desensitization to small doses</li><li>Psychological dependence (using it repeatedly for the \"buzz\")</li><li>Potential cause of liver or kidney strain can be expected</li></ul><p><br/>The <a href=\"/pages/honey-hunter\" title=\"Honey Hunter\"><strong>Gurung honey hunters</strong></a> who have been using it since a long time have no reported effects over a longer period of time. Instead they seem agile and active even at older ages, with no reported disease<br/><br/></p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GrED98",
+        "content_VENF4k"
+      ],
+      "custom_css": [
+        "ul {list-style: disc; margin-left: 2em; text-align: left;}",
+        "p {text-align: justify;}",
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.4rem 3.6%",
+        "content_width": "46.3%",
+        "padding": "12rem 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%; max-width:144.3rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "icon_box_BDayQX": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_NVc3aP": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"160\" height=\"159\" viewbox=\"0 0 160 159\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"80\" cy=\"79.5\" r=\"78.5\" stroke=\"#BE935F\" stroke-opacity=\"0.3\" stroke-width=\"2\"></circle>\n<g clip-path=\"url(#clip0_13471_16028)\">\n<path d=\"M68.6921 113.968C71.1049 114.001 73.2367 114.001 75.1867 113.968C76.6575 113.951 77.7647 113.269 78.4919 111.972C79.4504 110.242 80.4254 108.513 81.3839 106.783L81.764 106.118C81.8631 105.935 81.9788 105.752 82.111 105.553L82.5737 104.788L83.9784 107.099C84.8378 108.496 85.6641 109.877 86.4903 111.24C87.581 113.053 89.184 113.984 91.2498 113.984C100.405 114.018 107.957 114.018 115.014 113.984C117.641 113.984 119.525 112.454 120.17 109.827C120.98 106.584 121.723 103.374 122.335 100.663C122.814 98.5845 122.219 96.7884 120.55 95.3415C119.492 94.4268 118.435 93.5121 117.377 92.6141L110.04 86.3111L116.468 84.5816C118.369 84.066 119.261 82.9185 119.261 80.9727V74.0545C119.261 68.583 119.261 63.1116 119.261 57.6401C119.261 56.2099 118.732 55.1788 117.608 54.3639C113.593 51.5201 109.593 48.6763 105.594 45.8158C104.834 45.2837 104.057 45.0176 103.132 45.0176C98.1906 45.0342 92.5883 45.0675 87.1348 45.0176C85.4988 45.0176 84.4081 45.6495 83.5818 47.0964C81.8136 50.2063 79.9957 53.3162 78.1944 56.4095L76.3105 59.6691C76.1783 59.8853 76.0626 60.1015 75.9304 60.3176L75.666 60.7667L75.4016 60.6669C74.1952 60.2179 72.9723 60.1513 71.5345 60.5006C70.5926 60.7168 69.6176 60.8997 68.6921 61.0827C67.8493 61.249 67.0065 61.3986 66.1637 61.5982C65.2217 61.8144 64.3624 61.6481 63.4369 61.066C60.8093 59.403 58.1817 57.7732 55.5376 56.1434C53.1249 54.6466 50.646 54.8961 48.5472 56.8086C47.3574 57.9062 46.1675 59.0038 44.9777 60.1015C43.2259 61.7312 41.4742 63.361 39.6894 64.9742C38.1856 66.3379 37.0123 67.5187 36.5165 69.2649V71.3769L37.2601 73.938C37.9046 76.1333 38.5491 78.3285 39.1937 80.5237C39.4581 81.4051 39.7059 82.3032 39.9538 83.1846C40.3835 84.698 40.8132 86.2446 41.2759 87.7746C41.4577 88.3567 41.7221 88.9388 42.0196 89.5375C42.1683 89.8368 42.3005 90.1362 42.4492 90.4521L42.5319 90.6351L42.4162 90.7847C42.0196 91.3003 41.6064 91.8325 41.1933 92.3813C40.1852 93.6785 39.1441 95.0255 38.1525 96.4059C37.7063 97.0212 37.3428 97.7197 36.9957 98.4015C36.847 98.7009 36.6817 99.0002 36.5165 99.2829V99.9648C36.6156 100.181 36.7148 100.414 36.8139 100.647C37.0288 101.179 37.2436 101.678 37.5741 102.06C39.5242 104.422 41.5238 106.8 43.4738 109.078C44.4654 110.242 45.4404 111.407 46.4319 112.571C47.1921 113.469 48.1506 113.934 49.2909 113.951C51.0591 113.984 52.9265 114.001 54.7774 113.934C55.1741 113.934 55.6863 113.702 56.0664 113.369C56.5622 112.937 56.3639 112.288 56.2482 112.022C56.0003 111.44 55.5376 111.157 54.794 111.157C54.2156 111.157 53.6206 111.157 53.0588 111.157C51.9681 111.157 50.8278 111.157 49.7206 111.124C49.2248 111.124 48.6464 110.841 48.3489 110.492C46.779 108.663 45.2255 106.817 43.6721 104.987C42.4162 103.507 41.1602 102.01 39.8877 100.53C39.3589 99.9149 39.3424 99.3661 39.8547 98.7175C41.1106 97.0877 42.3666 95.4579 43.6226 93.8115C45.2421 91.6994 46.8616 89.5874 48.4976 87.4753C48.8447 87.0263 49.4231 86.6271 50.0015 86.4608C51.4723 86.0118 52.9927 85.6127 54.4634 85.2135L59.5699 83.8332C64.1145 82.6025 68.6756 81.3552 73.2202 80.1412C73.6003 80.0414 74.1787 80.0082 74.5257 80.2576C75.385 80.9062 76.1948 81.5714 77.0541 82.2866L78.2275 83.2511L75.8643 86.4109C74.1621 88.6727 74.0795 90.6018 75.5503 93.0465L76.294 94.2772C77.6986 96.6054 79.1033 98.9337 80.5411 101.229C80.8716 101.778 80.8881 102.227 80.5576 102.792C79.3016 105.004 77.8143 107.631 76.3766 110.276C76.0295 110.924 75.5668 111.174 74.8066 111.174C73.5011 111.157 72.1956 111.157 70.89 111.174H69.4027H69.2375C69.1053 111.174 68.9565 111.174 68.8243 111.174C67.8328 111.207 67.2378 111.739 67.2378 112.554C67.2378 113.402 67.8493 113.951 68.7913 113.968H68.6921ZM78.2109 61.8809C80.8716 57.241 83.5157 52.6842 86.0441 48.3603C86.2425 48.0111 86.7713 47.7782 87.1348 47.7782C92.2578 47.7616 97.5791 47.7616 102.967 47.7782C103.347 47.7782 103.809 47.9279 104.156 48.1774C107.61 50.6221 111.709 53.5324 115.807 56.5093C116.187 56.792 116.485 57.3907 116.501 57.873C116.501 61.9474 116.518 66.0219 116.518 70.0798C116.518 73.5888 116.518 77.0978 116.518 80.6069C116.518 81.5382 116.071 81.8375 115.394 82.0038C113.593 82.4529 111.659 82.9684 109.296 83.6336C109.131 83.6835 108.982 83.7001 108.833 83.7001C108.453 83.7001 108.172 83.5006 107.924 83.0848C107.296 82.0371 106.652 80.9894 106.024 79.9583C104.966 78.2453 103.892 76.4825 102.884 74.703C101.611 72.4247 99.8927 71.2605 97.48 71.0277C96.2571 70.9113 95.0507 70.6785 93.8608 70.4623C93.1998 70.3292 92.5388 70.2128 91.8777 70.113C89.7955 69.7804 88.1099 70.3625 86.7382 71.8925L86.4903 72.1586L84.7056 70.1795C82.5407 67.8014 80.4254 65.4398 78.3101 63.0783C78.0622 62.7956 78.0457 62.1969 78.2275 61.8975L78.2109 61.8809ZM76.4923 78.3285C75.3189 77.2974 74.0465 77.0147 72.4765 77.4471C64.6433 79.609 56.777 81.7378 49.1091 83.7999C47.8366 84.1325 46.9277 84.7645 46.2336 85.7623C45.9196 86.1947 45.5891 86.6271 45.2421 87.0761C45.0768 87.2923 44.895 87.5085 44.7133 87.7414L44.3497 88.207L44.0192 87.309C43.9365 87.0928 43.8704 86.9265 43.8209 86.7435C43.3747 85.1636 42.9119 83.5837 42.4657 82.0038C41.4742 78.5281 40.4827 75.0523 39.4581 71.5765C39.0284 70.1297 39.3424 69.0154 40.4827 67.9677C42.7467 65.8889 44.9942 63.8101 47.2417 61.7146L50.2494 58.9207C51.5714 57.69 52.6952 57.5902 54.2321 58.5382L56.1325 59.719C58.0165 60.8831 59.95 62.0805 61.8339 63.2945C63.4369 64.3256 65.0564 64.6416 66.8082 64.2424C67.7006 64.0429 68.593 63.8599 69.5019 63.677C70.3943 63.4941 71.2867 63.3278 72.179 63.1282C73.6168 62.8122 74.7075 63.1615 75.666 64.2424C77.8143 66.6705 80.0453 69.1318 82.2102 71.51L84.8212 74.3871L79.8139 81.0226L79.5495 80.8064C79.219 80.5237 78.872 80.2576 78.558 79.9915C77.8474 79.4261 77.1533 78.8607 76.4923 78.2786V78.3285ZM77.8309 91.6329C76.9715 90.2193 77.0211 89.3712 77.9796 88.074L80.8055 84.3155C83.367 80.9062 85.945 77.5136 88.49 74.0877C89.3162 72.9735 90.3243 72.591 91.6794 72.8571C93.4146 73.2063 95.2986 73.5056 97.4139 73.7884C98.7359 73.9713 99.6118 74.5534 100.273 75.6842C101.165 77.2143 102.091 78.7276 103.016 80.2244C104.041 81.9041 105.098 83.6336 106.09 85.3632C107.081 87.0595 108.321 88.523 109.891 89.8202C111.461 91.1174 113.031 92.4811 114.551 93.7782C115.857 94.9091 117.162 96.0234 118.484 97.1376C119.608 98.0689 119.955 99.1499 119.591 100.547C119.063 102.576 118.583 104.655 118.104 106.667L117.608 108.796C117.179 110.575 116.452 111.157 114.634 111.157C111.89 111.157 109.147 111.157 106.42 111.157H99.9093C97.1164 111.157 94.3401 111.157 91.5472 111.157H91.4976C90.2417 111.157 89.3824 110.658 88.7213 109.544C86.0937 105.17 83.4496 100.813 80.8055 96.4558L77.8639 91.5996L77.8309 91.6329Z\" fill=\"#BE935F\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_13471_16028\">\n<rect width=\"86\" height=\"69\" fill=\"white\" transform=\"translate(36.5 45)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Activated Charcoal",
+            "icon_description": "Ingestion of activated charcoal, if presenting within an hour of ingesting mad honey, can absorb Grayanotoxins.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_NBeqbj": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"160\" height=\"159\" viewbox=\"0 0 160 159\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"80\" cy=\"79.5\" r=\"78.5\" stroke=\"#BE935F\" stroke-opacity=\"0.3\" stroke-width=\"2\"></circle>\n<path d=\"M84.0726 40.5067C92.6076 51.7834 98.5315 60.8406 103.248 69.7999C104.929 72.9495 106.495 76.4908 108.176 80.9133C110.379 86.9351 110.412 93.1691 108.258 99.9416C106.087 106.567 102.464 111.74 97.4871 115.331C93.4889 118.301 88.8379 119.867 84.0726 119.867C78.573 119.867 73.1224 117.73 68.7651 113.862C67.0679 112.344 65.5339 110.614 64.212 108.721C64.4079 108.542 64.6037 108.33 64.7832 108.118C69.728 103.14 72.029 97.0694 71.6536 90.1174C71.5068 86.2824 69.9075 82.8227 68.7488 80.5869C67.4922 78.0738 66.0561 75.6095 64.669 73.2106L63.8857 71.8561C67.5738 64.4471 72.2248 56.9076 78.9157 47.4914C80.6129 45.1741 82.3428 42.7914 84.0726 40.4904M84.089 36.4922C83.8605 36.7207 83.632 36.9491 83.5178 37.1776C81.331 40.0661 79.1442 43.0525 76.9411 46.0553C71.2946 54.0028 65.8766 62.3093 61.4867 71.187C61.2583 71.8724 61.2583 72.2314 61.601 72.8026C63.3308 75.8054 65.0607 78.6776 66.562 81.6803C67.9492 84.324 69.0915 87.2126 69.2058 90.2153C69.5485 96.5635 67.4759 101.982 62.9881 106.469C62.4169 107.155 61.7152 107.628 61.0298 108.199C61.144 108.428 61.2583 108.656 61.3725 108.885C62.9881 111.414 64.9464 113.731 67.1332 115.69C72.0943 120.08 78.0671 122.315 84.0726 122.315C89.2458 122.315 94.4191 120.651 98.9558 117.305C104.717 113.16 108.405 107.383 110.591 100.709C112.778 93.7892 113.007 86.9841 110.477 80.081C108.976 76.1644 107.36 72.362 105.402 68.6738C99.7555 57.9521 92.8361 48.0462 85.574 38.4668C85.1171 37.7814 84.6438 37.1939 84.0726 36.5085L84.089 36.4922Z\" fill=\"#BE935F\"></path>\n<path d=\"M51.5644 67.9247C51.6787 68.0879 51.7929 68.2348 51.9071 68.3816C55.6279 73.408 59.414 78.875 62.0088 84.8478C63.0858 87.3283 63.9508 89.5641 63.7713 92.0446C63.5591 96.2713 62.0577 99.7473 59.3161 102.407C57.0967 104.578 54.3387 105.769 51.5155 105.769C48.6922 105.769 45.9343 104.578 43.7312 102.424C40.2551 98.9477 37.742 92.3547 40.451 86.0881C42.0992 82.1714 44.2534 78.2711 47.0277 74.1587C48.3495 72.184 49.8183 70.2257 51.238 68.3164C51.3359 68.1858 51.4502 68.0389 51.5481 67.9084M51.5807 63.9265C51.3523 64.1549 51.1238 64.4977 50.8953 64.7261C48.937 67.3698 46.8645 70.0299 45.0204 72.7879C42.3767 76.7045 40.0593 80.7354 38.2152 85.1252C34.984 92.6158 38.101 100.221 42.0176 104.154C44.7919 106.863 48.1537 108.217 51.5318 108.217C54.9099 108.217 58.2716 106.863 61.0459 104.154C64.3914 100.922 66.007 96.7772 66.2355 92.1589C66.4639 89.1561 65.4358 86.5124 64.2772 83.8523C61.6334 77.7489 57.8147 72.2167 53.8981 66.9129C53.2127 65.9827 52.3967 64.9546 51.5971 63.9102L51.5807 63.9265Z\" fill=\"#BE935F\"></path>\n<path d=\"M108.241 41.7994C111.391 45.9445 114.883 50.8893 117.397 56.3399C118.767 59.2121 119.257 61.3663 119.012 63.5204C118.474 68.0246 116.744 71.1579 113.61 73.2304C113.513 72.9856 113.415 72.7408 113.317 72.496C113.007 71.729 112.697 70.9457 112.354 70.2603C108.992 63.0635 104.88 56.4868 101.583 51.4605C103.672 48.0661 105.859 44.8675 108.225 41.7831M108.176 37.8828C108.062 38.1113 107.948 38.2255 107.833 38.3398C104.602 42.3706 101.73 46.532 99.07 50.9056C98.8415 51.4768 98.8415 51.8358 99.1842 52.2928C103.215 58.3962 107.017 64.6301 110.134 71.3211C110.706 72.4797 111.179 73.8505 111.75 75.1234C111.979 75.6946 112.207 76.1679 112.436 76.7391C112.588 76.6629 112.702 76.5867 112.778 76.5106C118.196 73.9811 120.726 69.5912 121.427 63.8305C121.77 60.7135 120.856 57.9555 119.583 55.2955C117.054 49.7633 113.594 44.8022 109.906 39.9554C109.335 39.27 108.747 38.5682 108.176 37.8828Z\" fill=\"#BE935F\"></path>\n</svg>",
+            "icon_alt_text": "",
+            "icon_title": "Intravenous Fluids",
+            "icon_description": "Intravenous fluids like atropine and saline infusions are administered to maintain fluid balance, avoid dehydration and maintenance of blood pressure.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_hLGbWX": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"160\" height=\"159\" viewbox=\"0 0 160 159\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"80\" cy=\"79.5\" r=\"78.5\" stroke=\"#BE935F\" stroke-opacity=\"0.3\" stroke-width=\"2\"></circle>\n<path d=\"M86.0367 69.4844H73.9631C73.2626 69.4844 72.6962 70.0508 72.6962 70.7514V77.5334H65.9141C65.2135 77.5334 64.6471 78.0998 64.6471 78.8004V90.874C64.6471 91.5746 65.2135 92.141 65.9141 92.141H72.6962V98.9231C72.6962 99.6236 73.2626 100.19 73.9631 100.19H86.0367C86.7373 100.19 87.3037 99.6236 87.3037 98.9231V92.141H94.0858C94.7863 92.141 95.3528 91.5746 95.3528 90.874V78.8004C95.3528 78.0998 94.7863 77.5334 94.0858 77.5334H87.3037V70.7514C87.3037 70.0508 86.7373 69.4844 86.0367 69.4844ZM92.8188 80.0674V89.607H86.0367C85.3361 89.607 84.7697 90.1734 84.7697 90.874V97.6561H75.2301V90.874C75.2301 90.1734 74.6637 89.607 73.9631 89.607H67.1811V80.0674H73.9631C74.6637 80.0674 75.2301 79.501 75.2301 78.8004V72.0183H84.7697V78.8004C84.7697 79.501 85.3361 80.0674 86.0367 80.0674H92.8188Z\" fill=\"#BE935F\"></path>\n<path d=\"M66.6594 55.3978H45.7915C42.87 55.3978 40.5 57.7678 40.5 60.6893V108.984C40.5 111.905 42.87 114.275 45.7915 114.275H114.208C117.13 114.275 119.5 111.905 119.5 108.984V60.6893C119.5 57.7678 117.13 55.3978 114.208 55.3978H93.3406V48.6157C93.3406 45.6942 90.9706 43.3242 88.0491 43.3242H71.9509C69.0294 43.3242 66.6594 45.6942 66.6594 48.6157V55.3978ZM69.1934 48.6157C69.1934 47.0954 70.4306 45.8582 71.9509 45.8582H88.0491C89.5694 45.8582 90.8066 47.0954 90.8066 48.6157V55.3978H69.1934V48.6157ZM114.208 57.9318C115.729 57.9318 116.966 59.1689 116.966 60.6893V108.984C116.966 110.504 115.729 111.741 114.208 111.741H45.7915C44.2711 111.741 43.034 110.504 43.034 108.984V60.6893C43.034 59.1689 44.2711 57.9318 45.7915 57.9318H114.208Z\" fill=\"#BE935F\"></path>\n</svg>",
+            "icon_alt_text": "",
+            "icon_title": "Medical attention",
+            "icon_description": "Due to the possibility of bradycardia or hypotension, patients should be admitted to a hospital in order to monitor the heart rate and blood pressure.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_HnJWYA": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"160\" height=\"159\" viewbox=\"0 0 160 159\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"80\" cy=\"79.5\" r=\"78.5\" stroke=\"#BE935F\" stroke-opacity=\"0.3\" stroke-width=\"2\"></circle>\n<path d=\"M85.9711 82.7527C88.1117 84.1362 90.6456 85.272 93.2669 86.0147L93.4999 86.0875L93.6164 86.306C93.6164 86.306 93.6892 86.4225 93.7329 86.4807L104.029 97.8249C104.218 98.0287 104.465 98.1452 104.742 98.1452C104.975 98.1452 105.208 98.0579 105.397 97.8977C105.791 97.5482 105.82 96.9366 105.456 96.5288L97.6647 87.937L96.6453 86.8156L98.1598 86.9758C98.9753 87.0632 99.8054 87.1069 100.621 87.1069C101.305 87.1069 101.873 86.539 101.873 85.8545C101.873 85.1701 101.305 84.6022 100.621 84.6022C97.9851 84.6022 95.1745 84.107 92.5096 83.175L91.7524 82.9129L92.2475 82.2722L99.3394 73.0396C99.4996 72.8357 99.5578 72.5881 99.5287 72.326C99.4996 72.0784 99.3685 71.8454 99.1647 71.6852C98.9899 71.5542 98.786 71.4814 98.5822 71.4814C98.2763 71.4814 97.9997 71.6124 97.8249 71.86L90.2379 81.7333L89.9466 82.112L89.5097 81.8935C88.7525 81.5149 88.0389 81.1072 87.3691 80.6703C84.0051 78.5005 81.8936 75.7773 81.3984 72.9959V72.9085V72.8211C81.4567 72.3551 81.5004 71.8746 81.5004 71.4231V41.4973C81.5004 40.6963 80.8451 40.041 80.0441 40.041C79.2432 40.041 78.5879 40.6963 78.5879 41.4973V71.394C78.5879 74.5686 76.3744 77.8306 72.5153 80.379C72.093 80.6703 71.627 80.947 71.1028 81.2382L70.7387 81.4421L70.4329 81.1654L60.079 71.7144C59.9043 71.5542 59.6713 71.4668 59.4383 71.4668C59.1616 71.4668 58.8994 71.5833 58.7247 71.7872C58.3606 72.1804 58.3898 72.792 58.7829 73.1561L68.1903 81.7333L68.8893 82.3741L68.0155 82.709C65.1904 83.8012 62.2197 84.3837 59.4383 84.3837C58.6373 84.3837 57.982 85.039 57.982 85.84C57.982 86.6409 58.6373 87.2962 59.4383 87.2962C60.1373 87.2962 60.8217 87.2671 61.477 87.2088L62.8167 87.0923L61.9867 88.1554L54.5598 97.621C54.3996 97.8249 54.3268 98.0724 54.356 98.3346C54.3851 98.5821 54.5161 98.8151 54.72 98.9753C54.8948 99.1064 55.0986 99.1792 55.3171 99.1792C55.6083 99.1792 55.885 99.0481 56.0743 98.8151L65.6127 86.6555L65.7292 86.4953L65.9186 86.4516C68.8747 85.6798 71.7144 84.442 74.1318 82.8401C76.4618 81.311 78.3403 79.4616 79.6073 77.5248L80.1024 76.7675L80.5975 77.5248C81.8353 79.4616 83.7139 81.2673 86.0439 82.7818L85.9711 82.7527Z\" fill=\"#BE935F\"></path>\n<path d=\"M112.62 108.776C114.237 107.96 115.489 106.679 116.406 104.858C118.401 100.926 119.013 94.1841 118.314 83.6409C117.732 74.8888 115.067 67.8115 110.596 63.166C107.188 59.6419 102.645 57.5449 98.4072 57.5449C95.7131 57.5449 92.3055 57.8216 89.9318 60.0205C87.762 62.0302 86.7572 65.2485 86.7572 70.1415C86.7572 70.957 87.4271 71.6268 88.2426 71.6268C89.0581 71.6268 89.7279 70.957 89.7279 70.1415C89.7279 66.1805 90.4561 63.5883 91.956 62.1903C93.2229 61.0254 95.2034 60.5011 98.4217 60.5011C101.858 60.5011 105.616 62.2632 108.47 65.2193C111.237 68.0881 114.688 73.651 115.358 83.8302C116.013 93.6744 115.489 100.111 113.771 103.504C113.13 104.756 112.343 105.586 111.295 106.111C110.436 106.548 109.431 106.781 107.785 106.97C107.48 106.999 107.145 107.014 106.795 107.014C104.509 107.014 100.781 106.3 97.1402 104.29C94.0967 102.616 90.3396 99.5722 89.7134 94.6646C89.626 93.922 88.9853 93.3686 88.2571 93.3686C88.1989 93.3686 88.1261 93.3686 88.0678 93.3686C87.6746 93.4123 87.3251 93.6161 87.0776 93.9365C86.83 94.2423 86.7281 94.6355 86.7863 95.0287C87.6164 101.494 92.7424 105.222 95.7131 106.868C99.1644 108.776 103.417 109.97 106.795 109.97C107.261 109.97 107.698 109.941 108.106 109.897C109.504 109.751 111.135 109.489 112.62 108.747V108.776Z\" fill=\"#BE935F\"></path>\n<path d=\"M72.9229 93.9669C72.6754 93.6611 72.3259 93.4572 71.9327 93.3989C71.8599 93.3989 71.8016 93.3989 71.7434 93.3989C71.0007 93.3989 70.3745 93.9523 70.2871 94.695C69.6464 99.6171 65.9038 102.646 62.8603 104.321C59.2196 106.33 55.4771 107.059 53.2054 107.059C52.8559 107.059 52.5209 107.044 52.2297 107.015C50.5987 106.84 49.5793 106.593 48.7201 106.156C47.6716 105.631 46.8707 104.801 46.2445 103.549C44.5116 100.156 44.0019 93.7193 44.6572 83.8751C45.3271 73.6959 48.7784 68.1331 51.5452 65.2643C54.3995 62.3081 58.1566 60.546 61.5933 60.546C64.7971 60.546 66.7921 61.0703 68.0591 62.2353C69.559 63.6187 70.2871 66.2254 70.2871 70.1864C70.2871 71.0019 70.957 71.6717 71.7725 71.6717C72.588 71.6717 73.2579 71.0019 73.2579 70.1864C73.2579 65.2934 72.2531 62.0751 70.0832 60.0655C67.7096 57.8665 64.3165 57.5898 61.6079 57.5898C57.3702 57.5898 52.8267 59.6868 49.4191 63.211C44.9484 67.7981 42.2689 74.8755 41.6864 83.6421C40.9874 94.1853 41.5845 100.928 43.5941 104.86C44.5261 106.68 45.7639 107.961 47.3804 108.777C48.8657 109.52 50.4967 109.782 51.8947 109.927C52.3025 109.971 52.7394 110 53.2054 110C56.5838 110 60.8361 108.806 64.2874 106.898C67.2727 105.253 72.3841 101.525 73.2142 95.0591C73.2724 94.6659 73.1559 94.2727 72.9229 93.9669Z\" fill=\"#BE935F\"></path>\n</svg>",
+            "icon_alt_text": "",
+            "icon_title": "Respiratory Support",
+            "icon_description": "Oxygen therapy or mechanical ventilation for cases in which the patient is experiencing difficulty breathing",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_tqxm4Q": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"160\" height=\"159\" viewbox=\"0 0 160 159\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"80\" cy=\"79.5\" r=\"78.5\" stroke=\"#BE935F\" stroke-opacity=\"0.3\" stroke-width=\"2\"></circle>\n<g clip-path=\"url(#clip0_13471_16075)\">\n<path d=\"M110.085 63.5132H109.734C108.082 63.5132 106.379 63.7296 104.659 64.1626L103.625 64.4291V53.0884C103.625 49.6246 100.803 46.7936 97.3146 46.7936H89.4523L89.2687 46.1941C88.8013 44.6287 87.3991 43.5629 85.7632 43.5629H80.2545L80.0709 42.9967C79.2863 40.5987 77.0662 39 74.5456 39C72.0249 39 69.8048 40.5987 69.0202 42.9967L68.8366 43.5629H63.328C61.7088 43.5629 60.2899 44.612 59.8225 46.1941L59.6388 46.7936H51.8099C48.3378 46.7936 45.5 49.6079 45.5 53.0884V113.722C45.5 117.186 48.3211 120.017 51.8099 120.017H97.3146C100.787 120.017 103.625 117.202 103.625 113.722V104.03L104.659 104.296C106.362 104.729 108.065 104.946 109.734 104.946C121.185 104.946 130.5 95.6534 130.5 84.2294C130.5 72.8055 121.369 63.713 110.085 63.5298V63.5132ZM62.1261 47.2432C62.1261 46.5771 62.6769 46.0442 63.328 46.0442H71.207V44.8119C71.207 42.9634 72.7093 41.4646 74.5456 41.4646C76.3818 41.4646 77.9008 42.9634 77.9008 44.8119V46.0442H85.7799C86.4476 46.0442 86.9817 46.5938 86.9817 47.2599V51.4398C86.9817 52.1059 86.4476 52.6554 85.7799 52.6554H63.328C62.6603 52.6554 62.1261 52.1059 62.1261 51.4398V47.2599V47.2432ZM101.154 113.722C101.154 115.837 99.4346 117.552 97.3146 117.552H51.8099C49.6899 117.552 47.9705 115.837 47.9705 113.738V53.0884C47.9705 50.9735 49.6899 49.2582 51.8099 49.2582H59.6722V51.4231C59.6722 53.4381 61.3248 55.0868 63.3447 55.0868H85.7965C87.8164 55.0868 89.469 53.4381 89.469 51.4231V49.2582H97.3313C99.4513 49.2582 101.171 50.9735 101.171 53.0884V65.3949L100.703 65.6281C97.7653 67.0602 95.1612 69.1918 93.1915 71.7897L92.4737 72.7389L91.8227 71.7397C89.9531 68.8754 86.7981 67.1602 83.4262 67.1602C80.0542 67.1602 77.1496 68.7255 75.2467 71.3401L74.5623 72.2726L73.8778 71.3401C71.9749 68.7255 68.9368 67.1602 65.715 67.1602C60.1563 67.1602 55.6326 71.6731 55.6326 77.2185C55.6326 79.6499 56.5173 81.9979 58.1198 83.8131L74.5456 102.964L88.9849 86.1445L89.2854 87.8764C90.4372 94.3544 94.6938 99.9498 100.653 102.864L101.121 103.097V113.755L101.154 113.722ZM90.8378 75.6532L90.7209 75.9196C89.8529 77.868 89.3187 79.9163 89.085 82.0146L89.0517 82.2644L74.5456 99.1672L59.9727 82.1978C58.7541 80.8156 58.0864 79.0337 58.0864 77.2019C58.0864 73.022 61.4918 69.6081 65.6984 69.6081C69.6045 69.6081 72.8429 72.5724 73.2602 76.3692H75.8142C76.2315 72.5724 79.47 69.6081 83.3761 69.6081C86.8649 69.6081 89.903 71.9729 90.7376 75.3867L90.8044 75.6698L90.8378 75.6532ZM109.734 102.481C99.6516 102.481 91.4387 94.2878 91.4387 84.2294C91.4387 74.1711 99.6516 65.9778 109.734 65.9778C119.817 65.9778 128.029 74.1711 128.029 84.2294C128.029 94.2878 119.817 102.481 109.734 102.481Z\" fill=\"#BE935F\"></path>\n<path d=\"M106.913 88.0429L102.74 83.8963L101.004 85.6282L106.913 91.5233L118.464 79.9995L116.712 78.2676L106.913 88.0429Z\" fill=\"#BE935F\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_13471_16075\">\n<rect width=\"85\" height=\"81\" fill=\"white\" transform=\"translate(45.5 39)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "",
+            "icon_title": "Symptoms Monitoring",
+            "icon_description": "Continuous monitoring is quite important, as the action of grayanotoxins may extend beyond a few hours.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_NVc3aP",
+        "icon_box_NBeqbj",
+        "icon_box_hLGbWX",
+        "icon_box_HnJWYA",
+        "icon_box_tqxm4Q"
+      ],
+      "custom_css": [
+        ".contentPart {max-width: 102.8rem; margin: 0 auto;}",
+        ".icon-box-container {margin-bottom: -30px;}",
+        ".iconbox-wrapper {padding-bottom: 30px; flex-wrap: nowrap; justify-content: space-between;}",
+        ".iconbox {background: #fff; min-width: 27rem; padding: 4.4rem 2.6rem; border-radius: 16px; box-shadow: 0px 2px 5px 0px #0000000d, 0px 9px 9px 0px #0000000a, 0px 20px 12px 0px #00000008, 0px 35px 14px 0px #00000003, 0px 55px 15px 0px #00000000;}",
+        "svg {margin-bottom: 17px; max-width: 58%;}",
+        "h3 {margin-bottom: 13px; letter-spacing: 0; font-size: 2rem; color: #3a2307;}"
+      ],
+      "name": "Icon Box Section",
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Treatment and Management of Mad Honey Poisoning",
+        "section_description": "Suspected overdose with mad honey should seek immediate medical attention. There is no specific antidote for Grayanotoxin poisoning by mad honey but there are some procedures to alter and minimize the effects.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "32px",
+        "iconbox_gap": "1.1%!important",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "18.95%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%; max-width:144rem",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "table_basmil_PbJ3dX": {
+      "type": "table-basmil",
+      "blocks": {
+        "heading_khUqj4": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Category"
+          }
+        },
+        "content_Pfm3jy": {
+          "type": "content",
+          "settings": {
+            "table_content": "Consumption Limits"
+          }
+        },
+        "content_LJFKja": {
+          "type": "content",
+          "settings": {
+            "table_content": "Product Awareness"
+          }
+        },
+        "content_6HcR9x": {
+          "type": "content",
+          "settings": {
+            "table_content": "Labeling & Education"
+          }
+        },
+        "content_Ha4ii3": {
+          "type": "content",
+          "settings": {
+            "table_content": "Health Warnings"
+          }
+        },
+        "content_R4Ub4P": {
+          "type": "content",
+          "settings": {
+            "table_content": "Vulnerable Populations"
+          }
+        },
+        "content_qctexh": {
+          "type": "content",
+          "settings": {
+            "table_content": "Travel Awareness"
+          }
+        },
+        "content_CjViDf": {
+          "type": "content",
+          "settings": {
+            "table_content": "Avoid Mixing with Alcohol or Drugs"
+          }
+        },
+        "heading_E7cRxz": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Measures"
+          }
+        },
+        "content_b7FBn7": {
+          "type": "content",
+          "settings": {
+            "table_content": "Avoid consuming more than 1 teaspoon of mad honey at a time."
+          }
+        },
+        "content_TfTtjV": {
+          "type": "content",
+          "settings": {
+            "table_content": "Only buy mad honey from trusted, clearly labeled sources. Avoid unregulated or homemade varieties"
+          }
+        },
+        "content_LEE6dP": {
+          "type": "content",
+          "settings": {
+            "table_content": "Ensure containers are labeled as containing grayanotoxin or mad honey."
+          }
+        },
+        "content_RUEdwQ": {
+          "type": "content",
+          "settings": {
+            "table_content": "People with heart conditions, low blood pressure, or on heart medications should avoid mad honey entirely."
+          }
+        },
+        "content_UQTjyw": {
+          "type": "content",
+          "settings": {
+            "table_content": "Keep out of reach of children, elderly, and pregnant women. They are more sensitive to toxicity."
+          }
+        },
+        "content_C7dGcQ": {
+          "type": "content",
+          "settings": {
+            "table_content": "In countries like Turkey and Nepal, where mad honey is traditional, travelers should be educated on safe use."
+          }
+        },
+        "content_Me6gkK": {
+          "type": "content",
+          "settings": {
+            "table_content": "Combining mad honey with CNS depressants, alcohol, or other medications can worsen effects."
+          }
+        }
+      },
+      "block_order": [
+        "heading_khUqj4",
+        "content_Pfm3jy",
+        "content_LJFKja",
+        "content_6HcR9x",
+        "content_Ha4ii3",
+        "content_R4Ub4P",
+        "content_qctexh",
+        "content_CjViDf",
+        "heading_E7cRxz",
+        "content_b7FBn7",
+        "content_TfTtjV",
+        "content_LEE6dP",
+        "content_RUEdwQ",
+        "content_UQTjyw",
+        "content_C7dGcQ",
+        "content_Me6gkK"
+      ],
+      "custom_css": [
+        ".table-wrapper {padding-bottom: 10px !important;}",
+        "th,td {background: transparent; text-align: center; justify-content: center; border-bottom: 0px; padding: 1.6rem; font-size: 1.8rem; letter-spacing: 0; width: 45rem; border-left: 1px;}",
+        "td,th {border-right: 0px; min-height: 63px;}",
+        "th,tr td:first-of-type {font-weight: 600; font-size: 2.4rem; border-left: 0px; font-family: \"Crimson Text\";}",
+        "@media (max-width: 768px) {th, td {min-width: 200px; width: 200px; padding: 1.3rem; } th, tr td:first-of-type {font-size: 16px; }}"
+      ],
+      "name": "Table Basmil",
+      "settings": {
+        "main_heading": "Preventive Measures for Mad Honey Effects",
+        "main_content": "",
+        "alignment": "center",
+        "valignment": "center",
+        "content_part_width": "",
+        "section_padding": "0 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "87.7%; max-width:144.3rem",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_on": "content",
+        "background_color": "",
+        "content_color": "#000000",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_xJEEfp": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_Yf9Ktp": {
+          "type": "content",
+          "settings": {
+            "title": "User Experiences with Mad Honey",
+            "subtitle": "",
+            "description": "<p>Our customers share their stories, showcasing mad honey’s diverse effects:<br/><br/></p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Yf9Ktp"
+      ],
+      "name": "Basmil Image Text",
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "",
+        "padding": "12rem 16px 32px 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%; max-width:144rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "174763795012c97607": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_HBf7ic": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1020
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_HBf7ic"
+      ],
+      "custom_css": [
+        ".shopify-app-block {display: block;}",
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}",
+        ".jdgm-carousel-wrapper {padding: 0;}",
+        ".jdgm-carousel--done .jdgm-carousel__item-wrapper {margin-left: -2%;}",
+        ".jdgm-carousel--compact-theme .jdgm-carousel-item {padding: 3.2rem; background: #fff; border-radius: 16px; margin: 0 15px; min-width: 30%;}",
+        ".jdgm-carousel__arrows {display: none;}",
+        ".jdgm-carousel-wrapper .jdgm-carousel.jdgm-carousel--compact-theme {width: calc(100% - 32px); margin: 0 auto;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "faq_4xVCtD": {
+      "type": "faq",
+      "blocks": {
+        "text_zQtNUH": {
+          "type": "text",
+          "settings": {
+            "question": "Can Mad Honey Overdose Kill you?",
+            "answer": "<p>Yes, mad honey can kill you, if you neglect the dosage guidelines, get intoxicated and fail to seek medical attention when necessary.<br/><br/></p>"
+          }
+        },
+        "text_9nkE9p": {
+          "type": "text",
+          "settings": {
+            "question": "Can mad honey poisoning treatment be done at home?",
+            "answer": "<p>If the effects are simple and minor, taking rest can simply flush the Grayanotoxin but if the case is severe you must seek medical help immediately. It is not recommended to try home remedy but rush for medical care for cases of mad honey poisoning. <br/><br/></p>"
+          }
+        },
+        "text_7Pri9j": {
+          "type": "text",
+          "settings": {
+            "question": "Will Mad Honey Soaps and Balms intoxicate me?",
+            "answer": "<p>No, products like Mad Honey Soap and Mad Honey Lip Balms don’t affect like the Mad Honey itself. You are free to use such products, without fear in Nepal.</p>"
+          }
+        },
+        "text_Ubdfzy": {
+          "type": "text",
+          "settings": {
+            "question": "Will mad honey affect my cats and dogs?",
+            "answer": "<p>Yes, mad honey is toxic to cats and dogs and should be kept far away from them. If accidental ingestion occurs, seek emergency veterinary care immediately.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zQtNUH",
+        "text_9nkE9p",
+        "text_7Pri9j",
+        "text_Ubdfzy"
+      ],
+      "custom_css": [
+        "h2 span {color: #000;}",
+        ".faq-wrapper .w-full:not(.border-t) {columns: 2 35rem; column-gap: 7.9%;}",
+        ".faq-wrapper .w-full .w-full {break-inside: avoid;}",
+        "@media (max-width: 768px) {.faq-wrapper .w-full .border-t:first-child {border-top: 0px; } .faq-wrapper .w-full .border-t:first-child * {padding-top: 0; }}"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "description": "",
+        "show_schema": true,
+        "content_alignment": "Center",
+        "content_part_width": "100%",
+        "faq_width": "100%",
+        "gap_between_sections": "5.4rem",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "124.4rem",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "basmil_image_text_4a7z3A",
+    "table_basmil_MpCB6i",
+    "basmil_image_text_V84dWr",
+    "table_basmil_zmwghy",
+    "basmil_image_text_double_TNPG8m",
+    "basmil_image_text_Nzj7de",
+    "icon_box_BDayQX",
+    "table_basmil_PbJ3dX",
+    "basmil_image_text_xJEEfp",
+    "174763795012c97607",
+    "faq_4xVCtD"
+  ]
+}

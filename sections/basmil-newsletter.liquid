@@ -1,0 +1,109 @@
+<div class="newsletter-container max-w-[109rem] w-full flex sm:flex-col px-[16px] m-auto mb-0 gap-[18px_10rem]">
+  <div class="newsletter-content max-w-[43.6%] sm:max-w-[100%] w-full">
+    <h2 class="newsletter-heading leading-none mb-[8px]">{{ section.settings.heading }}</h2>
+    <p class="newsletter-subheading mb-[2.4rem!important] sm:mb-[16px!important]">
+      {{ section.settings.subheading }}
+    </p>
+    {% form 'customer', class: 'newsletter-form m-[0!important] min-w-full' %}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <input
+        id="NewsletterForm--{{ section.id }}"
+        type="email"
+        name="contact[email]"
+        class="field__input border font-sans bg-transparent text-base text-[#382E2A] border-[#382E2A]  mb-[2.4rem!important] shadow-none outline-none p-[16px] w-full "
+        value="{{ form.email }}"
+        aria-required="true"
+        autocorrect="off"
+        autocapitalize="off"
+        autocomplete="email"
+        placeholder="Enter your email"
+        required
+      >
+      <button
+        type="submit"
+        class="newsletter-form__button  field__button static text-[#000] font-sans text-base bg-[#E5CD87!important] border-none shadow-none outline-none p-[16px] w-[100%!important]"
+        name="commit"
+        id="Subscribe"
+        aria-label="Subscribe"
+      >
+        Join The Hive!
+        {% comment %} {% render 'icon-arrow' %} {% endcomment %}
+      </button>
+      {%- if form.errors -%}
+        <div class="form-msg flex items-center gap-2 p-3 text-sm text-red-700 bg-red-100 border border-red-400 rounded-lg">
+          {% render 'icon-error' %}
+          <span>{{ form.errors.messages.email }}</span>
+        </div>
+      {%- endif -%}
+
+      {%- if form.posted_successfully? -%}
+        <div class="form-msg flex min-w-full w-full items-center gap-2 p-3 text-sm text-green-700 bg-green-100 border border-green-400 rounded-lg">
+          {% render 'icon-success' %}
+          <span>Thank you for subscribing!</span>
+        </div>
+      {%- endif -%}
+    {% endform %}
+  </div>
+  <div class="newsletter-image max-w-[43.6%] sm:max-w-[100%] w-full empty:hidden">
+    {% if section.settings.mobile_image %}
+      <img src="{{ section.settings.mobile_image | img_url: '520x' }}" alt="Mobile Display" width="{{ section.settings.mobile_image.width }}" height="{{ section.settings.mobile_image }}">
+    {% endif %}
+  </div>
+</div>
+
+<style>
+    #shopify-section-{{ section.id }}  {
+
+    .newsletter-container {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-msg {
+      margin-top: 16px;
+    }
+    .form-msg svg {
+      width: 20px;
+      height: 20px;
+    }
+    .newsletter-heading {
+      color: #733d07;
+    }
+    .field__input::placeholder,
+  .customer .field input::placeholder {
+    opacity: 1;
+    color: #382E2A;
+  }
+  }
+</style>
+{% schema %}
+{
+  "name": "Basmil Newsletter",
+  "tag": "section",
+  "class": "newsletter-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "For Our Latest Updates"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Keep up-to-date with the latest from Medicinal Mad Honey."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Basmil Newsletter"
+    }
+  ]
+}
+{% endschema %}

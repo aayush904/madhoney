@@ -1,0 +1,453 @@
+{% assign original_values = section.settings.section_padding %}
+
+{% capture divided_values %}
+  {% render 'divide-css-values', css_values: original_values, divisor: 1 %}
+{% endcapture %}
+
+<style>
+    #shopify-section-{{ section.id }} {
+      {% if section.settings.background_on == 'main_section' %}
+        {% if section.settings.background_type == 'color' and section.settings.background_color != "" %}
+          background: {% if section.settings.background_gradient != ""%}
+              {{section.settings.background_gradient}}
+            {% else %}
+            {{ section.settings.background_color }}
+          {% endif %};
+        {% elsif section.settings.background_type == 'image' and section.settings.background_image != blank %}
+          background-image: {% if section.settings.background_gradient != "" %}
+            {{ section.settings.background_gradient }}, {% endif %}url('{{ section.settings.background_image | image_url }}');
+          background-position: {{ section.settings.background_position }};
+          background-repeat: no-repeat;
+          background-size: {{ section.settings.background_size }};
+        {% endif %};
+      {% endif %};
+
+  .dynamic-videotext-section {
+      padding: {{ section.settings.section_padding }};
+      margin: {{ section.settings.section_margin }};
+
+     {% if section.settings.background_on == 'content_part' %}
+        {% if section.settings.background_type == 'color' and section.settings.background_color %}
+          background: {{ section.settings.background_color }};
+        {% elsif section.settings.background_type == 'image' and section.settings.background_image %}
+          background: url('{{ section.settings.background_image  | image_url }}') no-repeat {{ section.settings.background_position }};
+          background-size: {{ section.settings.background_size }};
+        {% endif %};
+    {% endif %};
+      width: {{ section.settings.section_width }};
+      border-radius: {{ section.settings.border_radius }};
+      border: {{ section.settings.border }}
+      solid;
+      border-color: {{ section.settings.border_color }};
+      min-height: {{ section.settings.section_min_height }}vh;
+    }
+
+    #shopify-section-{{ section.id }}
+    button.active {
+      box-shadow: 0 2px 8px 0 #00000014;
+
+    }
+
+  .dynamic-videotext-section {
+  width:100%;
+  }
+
+  .content-side{
+    width:100%;
+    max-width: {{ section.settings.content_part_width }};
+
+  }
+
+    @media (max-width: 1024px) {
+      .dynamic-videotext-section {
+        padding: {{ divided_values | strip }};
+      }
+    }
+    @media (max-width: 480px) {
+      .dynamic-videotext-section {
+        padding: 6.2rem 3.2rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .content-side{
+        max-width:100%;
+
+      }
+
+    #mobile-product-image-{{section.id}}.hidden{
+      display: flex;
+    }
+  }
+</style>
+
+{% assign product = all_products[section.settings.selected_product] %}
+
+{% if product %}
+  <div
+    id="{{ section.settings.custom_id }}"
+    class="wrapper dynamic-videotext-section {{ section.settings.custom_class }}"
+  >
+    <div class="flex flex-nowrap justify-center items-center gap-[13.85%] ">
+      <!-- Left Side: Product Info -->
+      <div
+        class="
+          content-side
+          scale-[1.05] sm:scale-1
+            flex flex-col gap-[16px]
+            {% if  section.settings.content_alignment =='left' %}
+                text-left
+            {% elsif section.settings.content_alignment =='center' %}
+                text-center
+            {% else %}
+                text-right
+            {% endif %}
+
+            sm:text-center {% if section.settings.image_layout == 'right' %} order-1 {% else %} order-2 {% endif %} max-w-full
+        "
+      >
+        <h2 class="leading-[4.6rem!important]">{{ section.settings.section_title }}</h2>
+        <div class="flex gap-16 sm:justify-center font-semibold">
+          <products>
+            {{ product.title }} |
+            <span id="product-title-{{section.id}}">{{ product.variants[0].title }}</span>
+          </products>
+
+          <span id="product-price-{{section.id}}">{{ product.price | money }}</span>
+        </div>
+        <div class="hidden sm:flex sm:justify-center" id="mobile-product-image-{{section.id}}"></div>
+        <div class="flex flex-col gap-[2.4rem] mt-4">
+          <div class="variant-selector flex gap-8 sm:justify-center">
+            {% for variant in product.variants %}
+              <button
+                type="button"
+                class="
+                  variant-option font-sans text-[1.6rem] w-[5.5rem] aspect-square rounded-full bg-[#00000099] text-white p-2
+                  {%  if product.variants[0].id == variant.id %} active {% endif %}
+                "
+                data-variant-id-{{section.id}}="{{ variant.id }}"
+              >
+                {% if variant.title contains '250' %}
+                  250g
+                {% elsif variant.title contains '500' %}
+                  500g
+                {% elsif variant.title contains '1000' %}
+                  1000g
+                {% else %}
+                  {{ variant.title }}
+                {% endif %}
+              </button>
+            {% endfor %}
+          </div>
+          {%- assign product_form_id = 'product-form-' | append: section.id -%}
+
+          {% comment %}<product-form class="product-form">{% endcomment %}
+          {% form 'product', product, id: product_form_id %}
+            <input
+              type="hidden"
+              name="id"
+              id="variant-id-{{section.id}}"
+              value="{{ product.variants[0].id }}"
+            >
+            <input
+              type="hidden"
+              name="quantity"
+              value="1"
+            >
+            <button type="submit" class="product-form__submit button button--full-width button--primary">
+              Add to Cart
+            </button>
+          {% endform %}
+        </div>
+
+        <p class="text-semibold">{{ section.settings.section_info }}</p>
+      </div>
+
+      <!-- Right Side: Product Image -->
+      <div class=" scale-[1.05] sm:hidden {% if section.settings.image_layout == 'right' %}order-2{% else %}order-1{% endif %} w-max  max-w-[36.73%] sm:max-w-[100%] sm:h-auto">
+        <img
+          src="{{ product.featured_image | img_url: 'master' }}"
+          alt="{{ product.title }}"
+          id="product-image-{{section.id}}"
+          class="w-full h-auto"
+          width="225"
+          height="228"
+        >
+      </div>
+    </div>
+  </div>
+
+{% else %}
+  <p>Please select a product to display.</p>
+{% endif %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const variants = [
+        {% for variant in product.variants %}
+        {
+          id: {{ variant.id }},
+          title: "{{ variant.title | escape }}",
+          price: "{{ variant.price | money }}",
+          compare_at_price: "{{ variant.compare_at_price | money }}",
+          grams: "{{ variant.grams }}",
+          featured_image: {
+            src: "{{ variant.featured_image | image_url }}",
+            alt: "{{ variant.featured_image.alt| default: variant.title }}"
+          }
+        }{% if forloop.last %}{% else %},{% endif %}
+        {% endfor %}
+      ];
+  
+      const titleElement = document.getElementById('product-title-{{section.id}}');
+      const priceElement = document.getElementById('product-price-{{section.id}}');
+      const imageElement = document.getElementById('product-image-{{section.id}}');
+      const mobileproductimage = document.getElementById('mobile-product-image-{{section.id}}');
+      const variantIdInput = document.getElementById('variant-id-{{section.id}}');
+      const variantButtons = document.querySelectorAll('.variant-option');
+      variantButtons.forEach(function(button) {
+          button.addEventListener('click', function() {
+              variantButtons.forEach(function(b) {
+                  b.classList.remove('active');
+              });
+              this.classList.add('active');
+          });
+      });
+  
+      mobileproductimage.innerHTML = `<img src="${variants[0].featured_image.src}" alt="${variants[0].featured_image.alt}" class="w-[33rem] h-auto" width="225" height="228">`;
+  
+      document.querySelectorAll('.variant-option').forEach(function(button) {
+          button.addEventListener('click', function() {
+              const variantId = this.getAttribute('data-variant-id-{{section.id}}');
+              const selectedVariant = variants.find(v => v.id == variantId);
+              
+              if (selectedVariant) {
+                  titleElement.textContent = `${selectedVariant.title}`;
+                  priceElement.innerHTML = `<s>${selectedVariant.compare_at_price}</s> ${selectedVariant.price}`;
+                  imageElement.src = selectedVariant.featured_image.src;
+                  variantIdInput.value = selectedVariant.id;
+                  mobileproductimage.innerHTML = `<img src="${selectedVariant.featured_image.src}" alt="${selectedVariant.title}" class="w-[33rem] h-auto" width="225" height="228">`;
+                }
+          });
+      });
+  
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Single Product Showcase",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "product",
+      "id": "selected_product",
+      "label": "Select Product"
+    },
+    {
+      "type": "textarea",
+      "id": "section_info",
+      "label": "Section Info"
+    },
+    {
+      "type": "select",
+      "id": "image_layout",
+      "label": "Image Layout",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "right"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "text",
+      "id": "content_part_width",
+      "label": "Content Part Width",
+      "default": "50%"
+    },
+    {
+      "type": "text",
+      "id": "section_padding",
+      "label": "Section Padding",
+      "default": "16px 16px 16px 16px"
+    },
+    {
+      "type": "text",
+      "id": "section_margin",
+      "label": "Section Margin",
+      "default": "0"
+    },
+    {
+      "type": "text",
+      "id": "border_radius",
+      "label": "Border Radius",
+      "default": "0"
+    },
+    {
+      "type": "text",
+      "id": "border",
+      "label": "Border",
+      "default": "none"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border Color",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID"
+    },
+    {
+      "type": "text",
+      "id": "section_width",
+      "label": "Section Width"
+    },
+    {
+      "type": "number",
+      "id": "section_min_height",
+      "label": "Section Min Height (vh)",
+      "default": 50
+    },
+    {
+      "type": "select",
+      "id": "background_type",
+      "label": "Background Type",
+      "options": [
+        {
+          "value": "color",
+          "label": "Color"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "text",
+      "id": "background_gradient",
+      "label": "Background Gradient",
+      "info": "eg: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "select",
+      "id": "background_on",
+      "label": "Choose Background on",
+      "default": "content_part",
+      "options": [
+        {
+          "value": "content_part",
+          "label": "Content Part"
+        },
+        {
+          "value": "main_section",
+          "label": "Main Section"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "label": "Background Position",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "background_size",
+      "label": "Background Size",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ],
+      "default": "cover"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Single Product Showcase",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

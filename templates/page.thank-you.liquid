@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 32px 20px;
+            padding-top:13rem;
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+        
+        .main-content {
+            flex: 1;
+            min-width: 400px;
+            max-width: 600px;
+        }
+        
+        .order-summary {
+            flex: 0 0 380px;
+            position: sticky;
+            top: 13rem;
+            height: fit-content;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e9ecef;
+        }
+        
+        .confirmation-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .check-icon {
+            width: 48px;
+            height: 48px;
+            background: #28a745;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .confirmation-text h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .confirmation-number {
+            color: #6c757d;
+            font-size: 1.48rem;
+        }
+        
+        .map-container {
+            margin: 20px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 200px;
+            background: #e9ecef;
+        }
+        
+        .shipping-info {
+            margin-top: 12px;
+            color: #495057;
+            font-size: 1.48rem;
+        }
+        
+        .status-message {
+            margin: 20px 0;
+        }
+        
+        .status-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #212529;
+        }
+        
+        .status-description {
+            color: #6c757d;
+            font-size: 1.48rem;
+        }
+        
+        .details-grid {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .details-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .details-column {
+            flex: 1;
+        }
+        
+        .details-column:first-child {
+            margin-right: 32px;
+        }
+        
+        .detail-section {
+            margin-bottom: 16px;
+        }
+        
+        .detail-label {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #212529;
+            font-size: 1.2rem;
+        }
+        
+        .detail-value {
+            color: #495057;
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 40px auto;
+            text-align: center;
+            border: 1px solid #f5c6cb;
+            max-width: 500px;
+        }
+        
+        .error-message h2 {
+            margin-bottom: 12px;
+        }
+        
+        .order-summary-title {
+            font-size: 1.45rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #212529;
+        }
+        
+        .order-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .order-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .item-image-container{
+            margin-right: 16px;
+        }
+        .item-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+            object-fit: cover;
+            background: #e9ecef;
+            border:1px solid rgb(219, 218, 218);
+        }
+        
+        .item-details {
+            flex: 1;
+        }
+        
+        .item-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 1.48rem;
+            color: #212529;
+        }
+        
+        .item-quantity {
+            color: #6c757d;
+            font-size: 1.2rem;
+        }
+        
+        .item-price {
+            font-size: 1.48rem;
+            font-weight: 600;
+            color: #212529;
+        }
+        
+        .quantity-badge {
+            background: #6c757d;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 600;
+            position: absolute;
+            top: -8px;
+            right: -8px;
+        }
+        
+        .item-image-container {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .pricing-summary {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            font-size:1.6rem
+        }
+        
+        .pricing-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            color: #495057;
+        }
+        
+        .pricing-total {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: #212529;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer-links {
+            margin-top: 24px;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .continue-shopping {
+            display: inline-block;
+            background: #0066cc;
+            color: white;
+            padding: 12px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 24px;
+            text-align: center;
+        }
+        
+        .continue-shopping:hover {
+            background: #0056b3;
+        }
+        
+        /* Skeleton Loader Styles */
+        
+              #main-skeleton, #summary-skeleton{
+        div:empty{
+          display:block!important;
+        }
+      }
+
+        .skeleton {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+        
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+        
+        .skeleton-header {
+            height: 48px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .skeleton-text {
+            height: 16px;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        
+        .skeleton-text.short {
+            width: 60%;
+        }
+        
+        .skeleton-text.medium {
+            width: 80%;
+        }
+        
+        .skeleton-map {
+            height: 200px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .skeleton-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .skeleton-item-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+            margin-right: 16px;
+        }
+        
+        .skeleton-item-details {
+            flex: 1;
+        }
+        
+        .skeleton-item-price {
+            width: 60px;
+            height: 16px;
+            border-radius: 4px;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .order-summary {
+                position: static;
+                flex: none;
+            }
+            
+            .details-row {
+                flex-direction: column;
+            }
+            
+            .details-column:first-child {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Skeleton Loader for Main Content -->
+            <div id="main-skeleton" class="card">
+                <div class="skeleton skeleton-header"></div>
+                <div class="skeleton skeleton-map"></div>
+                <div class="skeleton skeleton-text"></div>
+                <div class="skeleton skeleton-text short"></div>
+                <div style="margin-top: 20px;">
+                    <div class="skeleton skeleton-text medium" style="margin-bottom: 12px;"></div>
+                    <div class="skeleton skeleton-text"></div>
+                    <div class="skeleton skeleton-text short"></div>
+                </div>
+            </div>
+            
+            <!-- Actual Content (Hidden Initially) -->
+            <div id="main-content" class="hidden">
+                <div class="card">
+                    <div class="confirmation-header">
+                        <div class="check-icon">
+                            <svg width="24" height="24" fill="white" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                        </div>
+                        <div class="confirmation-text">
+                            <div class="confirmation-number">Confirmed with Order no. <span id="order-number"></span></div>
+                            <h1>Thank you, <span id="customer-name"></span>!</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe id="map-iframe" width="100%" height="200" frameborder="0" style="border-radius:8px;"></iframe>
+                    </div>
+                    
+                    <div class="shipping-info">
+                        Shipping address: <strong id="shipping-city"></strong>
+                    </div>
+                    
+                    <div class="status-message">
+                        <div class="status-title">Your order is confirmed</div>
+                        <div class="status-description">You'll receive a confirmation email with your order number shortly.</div>
+                    </div>
+                    
+                    <div class="details-grid">
+                        <div class="details-row">
+                            <div class="details-column">
+                                <div class="detail-section">
+                                    <div class="detail-label">Contact information</div>
+                                    <div class="detail-value" id="customer-email"></div>
+                                </div>
+                                
+                                <div class="detail-section">
+                                    <div class="detail-label">Shipping address</div>
+                                    <div class="detail-value" id="shipping-address"></div>
+                                </div>
+                                
+                                <div class="detail-section">
+                                    <div class="detail-label">Shipping method</div>
+                                    <div class="detail-value" id="shipping-method"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="details-column">
+                                <div class="detail-section">
+                                    <div class="detail-label">Payment method</div>
+                                    <div class="detail-value" id="payment-method-container"></div>
+                                </div>
+                                
+                                <div class="detail-section">
+                                    <div class="detail-label">Billing address</div>
+                                    <div class="detail-value" id="billing-address"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <a href="/contact">Contact us</a>
+                        <a href="/policies/privacy-policy">Privacy policy</a>
+                        <a href="/policies/cancellations">Cancellations</a>
+                    </div>
+                    
+                    <a href="/collections/all" class="continue-shopping">Continue shopping</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <!-- Skeleton Loader for Order Summary -->
+            <div id="summary-skeleton" class="card">
+                <div class="skeleton skeleton-text medium" style="height: 20px; margin-bottom: 20px;"></div>
+                
+                <div class="skeleton-item">
+                    <div class="skeleton skeleton-item-image"></div>
+                    <div class="skeleton-item-details">
+                        <div class="skeleton skeleton-text" style="margin-bottom: 8px;"></div>
+                        <div class="skeleton skeleton-text short"></div>
+                    </div>
+                    <div class="skeleton skeleton-item-price"></div>
+                </div>
+                
+                <div class="skeleton-item">
+                    <div class="skeleton skeleton-item-image"></div>
+                    <div class="skeleton-item-details">
+                        <div class="skeleton skeleton-text" style="margin-bottom: 8px;"></div>
+                        <div class="skeleton skeleton-text short"></div>
+                    </div>
+                    <div class="skeleton skeleton-item-price"></div>
+                </div>
+                
+                <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e9ecef;">
+                    <div class="skeleton skeleton-text" style="margin-bottom: 8px;"></div>
+                    <div class="skeleton skeleton-text" style="margin-bottom: 8px;"></div>
+                    <div class="skeleton skeleton-text" style="margin-bottom: 12px;"></div>
+                    <div class="skeleton skeleton-text medium" style="height: 20px;"></div>
+                </div>
+            </div>
+            
+            <!-- Actual Order Summary (Hidden Initially) -->
+            <div id="summary-content" class="card hidden">
+                <div class="order-summary-title">Order summary</div>
+                
+                <div id="order-items"></div>
+                
+                <div class="pricing-summary">
+                    <div class="pricing-row">
+                        <span>Subtotal • <span id="item-count"></span> items</span>
+                        <span>$<span id="subtotal-amount"></span></span>
+                    </div>
+                    <div class="pricing-row">
+                        <span>Shipping</span>
+                        <span id="shipping-cost"></span>
+                    </div>
+                    <div class="pricing-row">
+                        <span>Estimated taxes</span>
+                        <span>$<span id="tax-amount"></span></span>
+                    </div>
+                    <div class="pricing-total">
+                        <span>Total</span>
+                        <span>USD $<span id="final-total"></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Show skeleton loaders initially
+        function showSkeletons() {
+            document.getElementById('main-skeleton').classList.remove('hidden');
+            document.getElementById('summary-skeleton').classList.remove('hidden');
+            document.getElementById('main-content').classList.add('hidden');
+            document.getElementById('summary-content').classList.add('hidden');
+        }
+        
+        function hideSkeletons() {
+            document.getElementById('main-skeleton').classList.add('hidden');
+            document.getElementById('summary-skeleton').classList.add('hidden');
+            document.getElementById('main-content').classList.remove('hidden');
+            document.getElementById('summary-content').classList.remove('hidden');
+        }
+        
+        function getPaymentMethodDisplay(paymentGateways) {
+            if (!paymentGateways || paymentGateways.length === 0) {
+                return 'Payment method not specified';
+            }
+            
+            // If multiple payment methods, join with comma
+            if (paymentGateways.length > 1) {
+                return paymentGateways.join(', ');
+            }
+            
+            // Single payment method - return as is
+            return paymentGateways[0];
+        }
+
+        function showError(message) {
+            document.body.innerHTML = `
+                <div class="error-message">
+                    <h2>Error Loading Order</h2>
+                    <p>${message}</p>
+                    <button onclick="window.location.reload()" style="margin-top: 16px; padding: 8px 16px; background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                        Try Again
+                    </button>
+                </div>
+            `;
+          window.location.href = '/';
+        }
+
+        function populateOrderData(order) {
+            // Main content
+            document.getElementById('order-number').textContent = order.name || '';
+            document.getElementById('customer-name').textContent = order.customer?.firstName || '';
+            document.getElementById('customer-email').textContent = order.customer?.email || '';
+            
+            // Map
+            const city = order.shippingAddress?.city || '';
+            const country = order.shippingAddress?.country || '';
+            if (city && country) {
+                document.getElementById('map-iframe').src = `https://www.google.com/maps?q=${encodeURIComponent(city)},${encodeURIComponent(country)}&output=embed`;
+                document.getElementById('shipping-city').textContent = city;
+            }
+            
+            // Addresses
+            const shippingAddr = order.shippingAddress || {};
+            document.getElementById('shipping-address').innerHTML = `
+                ${shippingAddr.name || ''}<br>
+                ${shippingAddr.address1 || ''}<br>
+                ${shippingAddr.city || ''}<br>
+                ${shippingAddr.country || ''}
+            `;
+            
+            const billingAddr = order.billingAddress || {};
+            document.getElementById('billing-address').innerHTML = `
+                ${billingAddr.name || ''}<br>
+                ${billingAddr.address1 || ''}<br>
+                ${billingAddr.city || ''}<br>
+                ${billingAddr.country || ''}
+            `;
+            
+            document.getElementById('shipping-method').textContent = order.shippingLines?.edges?.[0]?.node?.title || '';
+            
+            // Payment method from API - just the name
+            document.getElementById('payment-method-container').textContent = getPaymentMethodDisplay(order.paymentGatewayNames);
+            
+            // Order items
+            const orderItemsContainer = document.getElementById('order-items');
+            const lineItems = order.lineItems?.edges || [];
+            
+            orderItemsContainer.innerHTML = lineItems.map(edge => {
+                const itemTotal = (edge.node.quantity * parseFloat(edge.node.originalUnitPrice)).toFixed(2);
+                return `
+                    <div class="order-item">
+                        <div class="item-image-container">
+                            <img src="${edge.node.image?.src || 'https://via.placeholder.com/60x60/8B4513/FFFFFF?text=?'}" 
+                                 alt="${edge.node.title}" class="item-image">
+                            <div class="quantity-badge">${edge.node.quantity}</div>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">${edge.node.title}</div>
+                            ${edge.node.variantTitle ? `<div class="item-variant" style="color: #6c757d; font-size: 0.85rem;">${edge.node.variantTitle}</div>` : ''}
+                            <div class="item-quantity">$${edge.node.originalUnitPrice}</div>
+                        </div>
+                        <div class="item-price">$${itemTotal}</div>
+                    </div>
+                `;
+            }).join('');
+            
+            // Pricing summary
+            const itemCount = lineItems.reduce((sum, edge) => sum + parseInt(edge.node.quantity), 0);
+            const subtotal = parseFloat(order.subtotalPrice || 0);
+            const shippingAmount = parseFloat(order.totalShippingPriceSet?.shopMoney?.amount || 0);
+            
+            document.getElementById('item-count').textContent = itemCount;
+            document.getElementById('subtotal-amount').textContent = subtotal.toFixed(2);
+            document.getElementById('shipping-cost').textContent = shippingAmount === 0 ? 'FREE' : '$' + shippingAmount.toFixed(2);
+            document.getElementById('tax-amount').textContent = order.totalTax || '0.00';
+            document.getElementById('final-total').textContent = order.totalPrice || '0.00';
+        }
+        
+        // Initialize page
+        showSkeletons();
+        
+        // Simulate loading delay and then fetch data
+        setTimeout(() => {
+            const orderId = sessionStorage.getItem('orderId');
+            if (orderId) {
+                fetch('https://paypal-server-five.vercel.app/order-details/', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    orderID: orderId
+                  })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            populateOrderData(data.order);
+                            hideSkeletons();
+                        } else {
+                            showError('Order not found or invalid order ID.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching order details:', error);
+                        showError('Failed to load order details. Please check your connection and try again.');
+                    });
+            } else {
+                showError('No order ID provided in URL.');
+            }
+            sessionStorage.removeItem('orderId');
+        }, 1500); // 1.5 second loading simulation
+    </script>
+</body>
+</html>

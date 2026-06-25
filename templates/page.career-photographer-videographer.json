@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "career-detail",
+      "blocks": {
+        "company_intro_H6QP7K": {
+          "type": "company_intro",
+          "settings": {
+            "title": "",
+            "description": "<p>This isn’t your typical content gig. We’re offering a full-time, travel-based pportunity to document the soul of Nepal, the wild cliffs, ancient honey-hunting rituals, and the communities who’ve carried this heritage for generations.</p><p>You don’t need your own gear - we’ll provide professional cameras, drones, audio tools, and editing setup. What you do need is creative vision, editing chops, and the stamina to keep up with the adventure.<br/>&nbsp;</p>"
+          }
+        },
+        "job_detail_Gwkm9D": {
+          "type": "job_detail",
+          "settings": {
+            "title": "<p><strong>What You’ll Do?</strong></p>",
+            "description": "<ul><li>Capture high-quality photo and video content<br/>of landscapes, people, and processes</li><li>Edit and deliver social-ready, web-ready, and<br/>archive-quality media</li><li>Travel across Nepal (often<br/>remote areas) with our team</li><li>Be part of the story: curious, compassionate,<br/>and present</li><li>Help shape how the world sees Himalayan wild<br/>honey</li></ul>"
+          }
+        },
+        "skills_rKGc7r": {
+          "type": "skills",
+          "settings": {
+            "title": "<p><strong>What We Expect?</strong></p>",
+            "description": "<ul><li>Full-time availability (this is a total commitment)</li><li>Willingness to travel long-term across Nepal</li><li>Ability to shoot + edit on the go</li><li>Love for nature, culture, and meaningful storytelling</li><li>Good energy, sharp eye, and a growth mindset</li><li>Bonus if you’ve worked in documentary or journalistic settings</li></ul>"
+          }
+        },
+        "benefits_zC8Ax8": {
+          "type": "benefits",
+          "settings": {
+            "title": "<p><strong>What You Get?</strong></p>",
+            "description": "<ul><li>All equipment provided - camera, drone, mic, laptop</li><li>Paid travel and food during expeditions</li><li>Creative freedom, mentorship, and a seat at the core team</li><li>A purpose-driven job that lets your work make a real-world impact</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "company_intro_H6QP7K",
+        "job_detail_Gwkm9D",
+        "skills_rKGc7r",
+        "benefits_zC8Ax8"
+      ],
+      "settings": {
+        "header_text": "<p>We are growing, again! Want to join the Medicinal Mad Honey team?</p><p>Email your resume to: <a href=\"contact@medicinalmadhoney.com\" title=\"Mail to Medicinal Mad honey\">contact@medicinalmadhoney.com</a></p>",
+        "what_are_we_looking": "<p> <br/><strong>Location: </strong>Ekantakuna, Lalitpur In-person(Nepal) + Full Travel</p><p><strong>Start Date: </strong>Immediate</p><p> </p><p>Medicinal Mad Honey is on the lookout for a visual storyteller - someone with an eye for detail, a hunger for exploration, and a heart rooted in curiosity.</p>",
+        "valid_through": "2025-06-15",
+        "employment_type": "FULL_TIME",
+        "street_address": "123 Himalayan Way",
+        "address_locality": "Kathmandu",
+        "address_region": "Bagmati",
+        "postal_code": "44600",
+        "address_country": "NP",
+        "min_salary": 30000,
+        "max_salary": 40000,
+        "education_requirement": "bachelor degree",
+        "experience_requirement": 36
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

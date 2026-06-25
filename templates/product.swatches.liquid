@@ -1,0 +1,210 @@
+<div class="product-container">
+  <div class="product-images">
+    <img
+      id="ProductImage"
+      src="{{ product.featured_image | image_url: '1000x' }}"
+      alt="{{ product.title }}"
+      width="500"
+      height="500"
+      class="main-image"
+    >
+  </div>
+
+  <div class="product-info">
+    <h1 class="product-title">{{ product.title }}</h1>
+    <div id="ProductPrice" class="product-price">{{ product.price | money }}</div>
+    <div class="divider"></div>
+
+    <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
+      <div class="variant-selector">
+        <div class="swatch-group">
+          {% for option in product.options_with_values %}
+            {% for value in option.values %}
+              <div
+                class="swatch {% if forloop.first %}active{% endif %}"
+                data-option="{{ option.name | handleize }}"
+                data-value="{{ value | escape }}"
+              >
+                <span class="swatch-label">{{ value }}</span>
+              </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <select name="id" id="ProductSelect" class="hidden">
+        {% for variant in product.variants %}
+          <option
+            value="{{ variant.id }}"
+            {% if variant.featured_image %}
+              data-image="{{ variant.featured_image | img_url: '1000x' }}"
+            {% endif %}
+            {% if variant == product.selected_or_first_available_variant %}
+              selected
+            {% endif %}
+          >
+            {{ variant.title }}
+          </option>
+        {% endfor %}
+      </select>
+
+      <button type="submit" name="add" id="AddToCart" class="add-to-cart-btn">
+        Add to Cart - {{ product.price | money }}
+      </button>
+    </form>
+
+    <div class="product-description">
+      <p>
+        Our Mad Honey Lip Balm is made from recycled beeswax, repurposing unused resources into a nourishing treat for
+        your lips. Plus, it contains natural oils for deeper moisturization. It glides on smoothly, providing
+        long-lasting hydration and softness, with the added benefits of mad honey beeswax. Crafted by a small beekeeping
+        group, each lip balm is packaged with love and tested for quality. Say goodbye to chapped lips and enjoy the
+        ultimate lip care!
+      </p>
+
+      <p>
+        Available in three natural flavors: Wild Mint, Orange, and Green Tea, each balm features a fresh scent from
+        olive oil and essential oils, with no artificial additives. Packed with Vitamin E, it keeps your lips soft,
+        hydrated, and protected.
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .product-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .product-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .product-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #2a2a2a;
+  }
+
+  .product-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+  }
+
+  .divider {
+    height: 1px;
+    background: #e0e0e0;
+    margin: 25px 0;
+  }
+
+  .swatch-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .swatch {
+    cursor: pointer;
+    border: 2px solid #e0e0e0;
+    padding: 12px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+
+  .swatch.active {
+    border-color: #2a2a2a;
+    background: #f8f8f8;
+  }
+
+  .swatch-label {
+    font-weight: 500;
+    color: #444;
+  }
+
+  .add-to-cart-btn {
+    width: 100%;
+    padding: 16px;
+    background: #2a2a2a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .add-to-cart-btn:hover {
+    background: #444;
+  }
+
+  .product-description {
+    margin-top: 30px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .product-description p {
+    margin-bottom: 15px;
+  }
+
+  .hidden {
+    display: none;
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const product = {{ product | json }};
+  const swatches = document.querySelectorAll('.swatch');
+  const productImage = document.getElementById('ProductImage');
+  const productPrice = document.getElementById('ProductPrice');
+  const productSelect = document.getElementById('ProductSelect');
+  const addToCartBtn = document.getElementById('AddToCart');
+
+  // Initialize selected variant
+  let selectedVariant = product.variants[0];
+  
+  // Swatch click handler
+  swatches.forEach(swatch => {
+    swatch.addEventListener('click', function() {
+      // Remove active class from all swatches
+      swatches.forEach(s => s.classList.remove('active'));
+      
+      // Set active class to clicked swatch
+      this.classList.add('active');
+      
+      // Get selected value
+      const selectedValue = this.dataset.value;
+      
+      // Find matching variant
+      selectedVariant = product.variants.find(variant => 
+        variant.options.includes(selectedValue)
+      );
+
+      // Update displayed price
+      productPrice.textContent = Shopify.formatMoney(selectedVariant.price, "{{ shop.money_format }}");
+      
+      // Update product image
+      if(selectedVariant.featured_image) {
+        productImage.src = selectedVariant.featured_image.src;
+      }
+      
+      // Update variant selection
+      productSelect.value = selectedVariant.id;
+      
+      // Update add to cart button price
+      addToCartBtn.textContent = `Add to Cart - ${Shopify.formatMoney(selectedVariant.price, "{{ shop.money_format }}")}`;
+    });
+  });
+});
+</script>

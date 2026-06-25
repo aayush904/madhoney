@@ -1,0 +1,497 @@
+{%- assign current_variant = product.selected_or_first_available_variant | default: product.variants.first -%}
+{%- assign bundle = all_products[product.metafields.custom.bundle] -%}
+
+<div class="flex flex-col-reverse">
+  {% if product.selling_plan_groups.size > 0 %}
+    <product-subscriptions>
+      <div class="selling_plan_app_container" data-section-id="{{ section.id }}">
+        {% comment %} <script src="{{ 'selling-plans-integration.js' | asset_url }}" defer></script> {% endcomment %}
+        <style>
+          .selling_plan_theme_integration--hidden {
+            display: none;
+          }
+        </style>
+
+        {% for variant in product.variants %}
+          {% liquid
+            assign variantPrice = variant.price | money
+            assign variantComparedAtPrice = variant.compare_at_price | money
+          %}
+          {% if variant.selling_plan_allocations.size > 0 %}
+            <section
+              id="subscription_{{section.id}}"
+              data-variant-id="{{ variant.id }}"
+              class="selling_plan_theme_integration {% if variant.id != current_variant.id %}selling_plan_theme_integration--hidden{% endif %}"
+            >
+              <fieldset>
+                <legend>
+                  {{ block.settings.supporting_text_title }}
+                </legend>
+                <div class="flex items-stretch justify-between">
+                  {% assign group_ids = variant.selling_plan_allocations | map: 'selling_plan_group_id' | uniq %}
+                  {% for group_id in group_ids %}
+                    {% liquid
+                      assign group = product | map: 'selling_plan_groups' | where: 'id', group_id | first
+                      assign allocations = variant | map: 'selling_plan_allocations' | where: 'selling_plan_group_id', group_id
+
+                      if forloop.first
+                        assign first_selling_plan_group = true
+                      else
+                        assign first_selling_plan_group = false
+                      endif
+                    %}
+                    {% unless product.requires_selling_plan %}
+                      <div class="custom-input-btn border-r  w-1/2 pr-[7.3%] md:pr-[4%] sm:pr-[2%] min-h-full border-[#020403] relative">
+                        <div class="flex flex-col gap-[16px] pb-8">
+                          <b class="text-grey font-sans font-normal text-[1.4rem] xl:text-[1.8rem] xxl:text-[2rem] leading-none">
+                            Select Purchase Plan
+                          </b>
+                          <label
+                            id="purchaseOption_{{ section.id }}_{{ variant.id }}_onetime_label"
+                            class="text-[12px] xl:text-[16px] xxl:text-[2rem] font-sans text-tertiary flex items-start gap-6"
+                          >
+                            <input
+                              title="One-time purchase. Product price {{ variantPrice }}"
+                              aria-label="One-time purchase. Product price {{ variantPrice }}"
+                              type="radio"
+                              id="purchaseOption_{{ section.id }}_{{ variant.id }}_onetime"
+                              name="purchaseOption_{{ section.id }}_{{ variant.id }}"
+                              class="mt-2"
+                              checked
+                            >
+                            <span
+                              class="mt-2 custom-checkbox w-[16px] relative h-[16px] aspect-square sm:mt-[2.5px!important] sm:w-[12px] sm:h-[12px] border border-tertiary rounded-full "
+                            ></span>
+                            <price-field class="gap-[0.8rem] flex flex-col text-[12px] xl:text-[16px] xxl:text-[2rem]">
+                              One-time purchase
+                              <div class="text-[12px] xl:text-[16px] xxl:text-[2rem]">
+                                <price class="font-medium">
+                                  {{ variantPrice }}
+                                </price>
+                                <label class="text-[#99775599] text-[12px] xl:text-[16px] xxl:text-[2rem] font-light line-through font-sans ">
+                                  {{ variantComparedAtPrice }}
+                                </label>
+                              </div>
+                            </price-field>
+                          </label>
+                          <label
+                            id="purchaseOption_{{ section.id }}_{{ variant.id }}_subscrition_label"
+                            class="text-[12px] xl:text-[16px] xxl:text-[2rem] font-sans text-tertiary flex items-start gap-6"
+                          >
+                            <input
+                              class="styled-checkbox"
+                              type="checkbox"
+                              id="purchaseOption_{{ section.id }}_{{ variant.id }}_subscription"
+                              class="mt-2"
+                              name="purchaseOption_{{ section.id }}_{{ variant.id }}_subscription"
+                            >
+                            <span
+                              class="mt-2 custom-checkbox w-[16px] relative h-[16px] aspect-square sm:w-[1.2rem] sm:h-[1.2rem] border border-tertiary rounded-full "
+                            ></span>
+
+                            <price-field class="gap-[0.8rem] flex flex-col text-[12px] xl:text-[16px] xxl:text-[2rem]">
+                              <label class="text-[12px] xl:text-[16px] xxl:text-[2rem]">{{ group.name }}</label>
+                              <div id="saving_price_{{ section.id }}_{{ variant.id }}" class="subscribe_save_price">
+                                <price class="font-medium">
+                                  {{ variantPrice }}
+                                </price>
+                                <label class="text-[#99775599] font-light line-through font-sans text-[12px] xl:text-[16px] xxl:text-[2rem]">
+                                  {{ variantComparedAtPrice }}
+                                </label>
+                              </div>
+                            </price-field>
+                          </label>
+                        </div>
+
+                        <hr class="absolute bottom-0 left-0 h-[0.25px] bg-[#020403] w-[84.46%]">
+                        <style>
+                          #shopify-section-{{ section.id |  append: ' ' }} .selllingPlanGroup {
+                            && label {
+                              text-transform: capitalize;
+                              font-weight: 400;
+                            }
+
+                            && label span,
+                            && label div {
+                              font-weight: 300;
+
+                            }
+                            && .product-form__buttons {
+                              max-width: 100%;
+                            }
+
+                            && quantity-input.quantity {
+                              width: 100%;
+                              border-color: #BE935F !important;
+                              color: #BE935F;
+                              && svg {
+                                color: #BE935F;
+                              }
+
+                              && input {
+                                outline: none;
+                                border: none;
+                                background-color: transparent !important;
+                                box-shadow: none !important;
+                              }
+                            }
+
+                             && quantity-input.quantity:after {
+                              max-width: 100%;
+                              border-color: #BE935F !important;
+                            }
+
+                            && .quantity__label.quantity__label {
+                              color: #666666;
+                              font-size: 1.2rem;
+                              margin-bottom: 0.8rem;
+                            }
+
+                            && .product-form__buttons * {
+                              text-transform: uppercase;
+                            }
+                            && .product-form__buttons {
+                              width: 100% !important;
+                            }
+
+                            && .custom-input-btn .custom-checkbox::after {
+                              content: "";
+                              width: 1rem;
+                              height: 1rem;
+                              aspect-ratio: 1;
+                              border-radius: 50%;
+                              position: absolute;
+                              top: 50%;
+                              left: 50%;
+                              transform: translate(-50%, -50%);
+                              background-color: #BE935F;
+                              opacity: 0;
+                              transition: opacity 0.2s;
+                            }
+                            && .custom-input-btn input[type="checkbox"],
+                            && .custom-input-btn input[type="radio"] {
+                              display: none;
+                            }
+
+                             && .custom-input-btn input[type="checkbox"]:checked + .custom-checkbox,
+                             && .custom-input-btn input[type="radio"]:checked + .custom-checkbox {
+                              border-color: #BE935F;
+                            }
+                             && .custom-input-btn input[type="checkbox"]:checked + .custom-checkbox::after,
+                             && .custom-input-btn input[type="radio"]:checked + .custom-checkbox::after {
+                              opacity: 1;
+                            }
+
+                          }
+
+                          @media (min-width: 0px) and (max-width: 768px) {
+                            #shopify-section-{{ section.id |  append: ' ' }} .selllingPlanGroup .custom-input-btn .custom-checkbox::after {
+                              width: 0.8rem !important;
+                              height: 0.8rem !important;
+                              margin-top: -0.1px;
+                            }
+                          }
+                        </style>
+                      </div>
+                    {% endunless %}
+
+                    <div class="w-1/2 pl-[7.3%] md:pl-[4%] sm:pl-[4%]  flex flex-col gap-[16px]">
+                      <div class="font-sans text-tertiary">
+                        <div class="flex flex-col items-start">
+                          <label
+                            class="text-grey form__label text-[12px] xl:text-[16px] xxl:text-[2rem] mb-[.8rem!important]"
+                            for="Quantity-{{ section.id }}"
+                          >
+                            {{ 'products.product.quantity.label' | t }}
+                          </label>
+                          <div
+                            class="w-full p-[1.2rem_0.8rem] justify-center flex items-center border border-gray-300 rounded-md "
+                          >
+                            <button
+                              class="quantity__button text-primary no-js-hidden minus-btn py-[0]"
+                              data-variant-id="{{ variant.id }}"
+                              name="minus"
+                              type="button"
+                            >
+                              <span class="visually-hidden">
+                                {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                              </span>
+                              {% render 'icon-minus' %}
+                            </button>
+                            <input
+                              type="number"
+                              name="varientquantity"
+                              id="Quantity-{{ section.id }}"
+                              data-variant-id="{{ variant.id }}"
+                              value="1"
+                              {% comment %} style="max-width:40px" {% endcomment %}
+                              class="bg-transparent text-[1.4rem] w-full text-center border-0 focus:outline-none variant-quantity"
+                              min="1"
+                            >
+
+                            <button
+                              type="button"
+                              class="quantity__button no-js-hidden text-primary plus-btn py-[0]"
+                              data-variant-id="{{ variant.id }}"
+                            >
+                              <span class="visually-hidden">
+                                {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                              </span>
+                              {% render 'icon-plus' %}
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="font-sans  text-tertiary flex flex-col gap-[0.8rem]">
+                        <label class="text-grey  text-[12px] xl:text-[16px] xxl:text-[2rem]">{{ group.name }}</label>
+                        <div class="mt-[8px] relative subscription-select-wrapper ">
+                          <select class=" text-[1.4rem] xl:text-[1.8rem] xxl:text-[2rem] capitalize leading-10  border border-tertiary rounded p-[1.2rem_0.8rem] focus:outline-none focus:ring-0 focus:ring-tertiary focus:border-tertiary focus-within:shadow-none text-tertiary subscription-select block w-full appearance-none bg-transparent ">
+                            {% for allocation in allocations %}
+                              {% liquid
+                                if forloop.first and product.requires_selling_plan and first_selling_plan_group
+                                  assign plan_checked = 'checked'
+                                else
+                                  assign plan_checked = null
+                                endif
+
+                                assign allocationPrice = allocation.price | money
+                                assign allocationComparedAtPrice = allocation.compare_at_price | money
+                              %}
+                              <option
+                                {% if variant.available == false %}
+                                  disabled
+                                {% endif %}
+                                class="text-[12px] max-w-full"
+                                value="{{ allocation.selling_plan.id }}"
+                                data-variant-price="{{ allocationPrice }}"
+                                data-variant-compare-at-price="{{ allocationComparedAtPrice }}"
+                                {{ plan_checked }}
+                              >
+                                {{ allocation.selling_plan.name | split: ',' | first }}
+                              </option>
+                            {% endfor %}
+                          </select>
+                          <div class="pointer-events-none absolute inset-y-0 right-[0.8rem] flex items-center px-2 text-tertiary">
+                            <svg
+                              width="11"
+                              height="6"
+                              viewBox="0 0 11 6"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M1.5 1L5.5 5L9.5 1"
+                                stroke="#BE935F"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </svg>
+                          </div>
+                        </div>
+                        <div id="subscription_options_{{ section.id }}_{{ variant.id }}"></div>
+                        <ul class="hidden" id="subscription_options_{{ section.id }}_{{ variant.id }}_list">
+                          {% for allocation in allocations %}
+                            {% liquid
+                              if forloop.first and product.requires_selling_plan and first_selling_plan_group
+                                assign plan_checked = 'checked'
+                              else
+                                assign plan_checked = null
+                              endif
+
+                              assign allocationPrice = allocation.price | money
+                              assign allocationComparedAtPrice = allocation.compare_at_price | money
+                            %}
+                            <li>
+                              <label>
+                                <input
+                                  type="radio"
+                                  {% if variant.available == false %}
+                                    disabled
+                                  {% endif %}
+                                  class="subscriptionOptions"
+                                  title="{{ allocation.selling_plan.name }}. Product price {{ allocationPrice }}"
+                                  aria-label="{{ allocation.selling_plan.name }}. Product price {{ allocationPrice }}"
+                                  name="purchaseOption_{{ section.id }}_{{ variant.id }}"
+                                  id="purchaseOption_{{ section.id }}_{{ variant.id }}"
+                                  data-radio-type="selling_plan"
+                                  data-selling-plan-id="{{ allocation.selling_plan.id }}"
+                                  data-selling-plan-group-id="{{ section.id }}_{{ group_id }}_{{ variant.id }}"
+                                  data-selling-plan-adjustment="{{ allocation.selling_plan.price_adjustments.size }}"
+                                  data-variant-price="{{ allocationPrice }}"
+                                  data-variant-compare-at-price="{{ allocationComparedAtPrice }}"
+                                  {{ plan_checked }}
+                                >
+                                {{ allocation.selling_plan.name }}
+                              </label>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
+                  {% endfor %}
+                  <script>
+                    // Select the label and radios
+                    const label{{ variant.id }} = document.querySelector('#purchaseOption_{{ section.id }}_{{ variant.id }}_onetime_label');
+                    const radio1{{ variant.id }} = document.querySelector('#purchaseOption_{{ section.id }}_{{ variant.id }}_onetime');
+                    const radio2{{ variant.id }} = document.querySelector('#purchaseOption_{{ section.id }}_{{ variant.id }}_subscription');
+                    const group1Radios{{ variant.id }} = document.querySelectorAll('input[name="purchaseOption_{{ section.id }}_{{ variant.id }}"]');
+                    const subOptions{{ variant.id }} = document.querySelector('#subscription_options_{{ section.id }}_{{ variant.id }}').innerHTML;
+                    const subOptionsPrice{{ variant.id }} = document.querySelector('#saving_price_{{ section.id }}_{{ variant.id }}');
+
+                    subOptionsPrice{{ variant.id }}.innerHTML = ` <price class="font-medium">${group1Radios{{ variant.id }}[1].dataset.variantPrice}</price>
+                                <label class="text-[#99775599] font-light line-through font-sans ">
+                                  ${group1Radios{{ variant.id }}[1].dataset.variantCompareAtPrice}
+                                </label>`;
+
+                    function radio1Checked{{ variant.id }}() {
+                      if (radio1{{ variant.id }}.checked) {
+                        document.querySelector('#subscription_options_{{ section.id }}_{{ variant.id }}').innerHTML = 
+                        `<button class="cursor-not-allowed w-full text-[1.4rem] mt-[8px] xl:text-[1.8rem] xxl:text-[2rem] capitalize leading-10 text-tertiary border border-tertiary p-[0.8rem_1.85rem]" disabled>One Time Delivery</button>`;
+                        document.querySelectorAll('.subscription-select-wrapper').forEach(function(select) {
+                          select.style.display = "none";
+                        });
+
+                          radio2{{ variant.id }}.checked = false; // Uncheck radio2 if radio1 is unchecked
+
+                        }else{
+                          radio2{{ variant.id }}.checked = true; // Uncheck radio2 if radio1 is unchecked
+
+                        } 
+                    }
+                    radio1Checked{{ variant.id }}()
+                    // Add a change event listener to all radios in 'group1'
+                    group1Radios{{ variant.id }}.forEach(function(radio) {
+                      radio.addEventListener('change', function() {
+                        radio1Checked{{ variant.id }}()
+                      });
+                    });
+                        
+                    const checkbox{{ variant.id }} = document.querySelector('#purchaseOption_{{ section.id }}_{{ variant.id }}_subscrition_label');
+
+                    checkbox{{ variant.id }}.addEventListener('click', function () {
+                      if(!this.querySelector('input').checked){
+                        group1Radios{{ variant.id }}[1].click();
+                      }
+                            this.querySelector('input').checked = true;
+                            radio1{{ variant.id }}.checked = false;          
+                            document.querySelectorAll('.subscription-select-wrapper').forEach(function(select) {
+                          select.style.display = "block";
+                        });
+                            document.querySelector('#subscription_options_{{ section.id }}_{{ variant.id }}').innerHTML = '';
+                    });
+                  </script>
+                </div>
+              </fieldset>
+            </section>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <script>
+        let count = 0;
+        document.addEventListener('DOMContentLoaded', () => {
+          const quantitySelectors = document.querySelectorAll('input[name="varientquantity"]');
+
+          quantitySelectors.forEach((quantityInput) => {
+            const variantId = quantityInput.dataset.variantId;
+            const minusButton = document.querySelector(`.minus-btn[data-variant-id="${variantId}"]`);
+            const plusButton = document.querySelector(`.plus-btn[data-variant-id="${variantId}"]`);
+            const hiddenQuantityInput = document.querySelector(`input[name="quantity"]`);
+
+            // Handle Minus Button Click
+            minusButton.addEventListener('click', () => {
+              console.log(++count);
+              let currentValue = parseInt(quantityInput.value);
+              if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+                hiddenQuantityInput.value = quantityInput.value;
+              }
+            });
+
+            // Handle Plus Button Click
+            plusButton.addEventListener('click', () => {
+              let currentValue = parseInt(quantityInput.value);
+              quantityInput.value = currentValue + 1;
+              hiddenQuantityInput.value = quantityInput.value;
+            });
+
+            // Sync Hidden Input on Manual Change
+            quantityInput.addEventListener('change', () => {
+              if (parseInt(quantityInput.value) < 1) {
+                quantityInput.value = 1;
+              }
+              hiddenQuantityInput.value = quantityInput.value;
+            });
+          });
+        });
+      </script>
+      <input
+        name="selling_plan"
+        class="selected-selling-plan-id"
+        type="hidden"
+      >
+    </product-subscriptions>
+  {% endif %}
+</div>
+
+<script>
+  console.log(window.history.state?.url);
+  if (window.location.href === window.history.state?.url) {
+    window.location.reload();
+  }
+
+  const mainSection = document.querySelectorAll('.selling_plan_theme_integration');
+
+  // Select inputs and selects within the specific container
+  const variantInputs = document.querySelectorAll(`#ProductInfo-{{ section.id }} .variant-picker-container input`);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    mainSection.forEach((section) => {
+      if (variantInputs.length > 0) {
+        variantInputs.forEach((input) => {
+          input.addEventListener('change', function () {
+            const quantityContainer = section.querySelector('.quantity-selector-container');
+            console.log('quantityContainer', quantityContainer);
+            if (quantityContainer) {
+              // Update quantity container based on visibility
+              if (section.classList.contains('selling_plan_theme_integration--hidden')) {
+                quantityContainer.innerHTML = '';
+              } else {
+                quantityContainer.innerHTML = `{{ quantity_selector | json }}`;
+              }
+            }
+          });
+        });
+      } else {
+        console.error('No variant inputs found.');
+      }
+    });
+
+    mainSection.forEach((section, index) => {
+      section.classList.forEach((className) => {
+        if (className === 'selling_plan_theme_integration--hidden') {
+          return;
+        }
+
+        const radios = section.querySelectorAll('.subscriptionOptions');
+        const subscriptionSelect = section.querySelector('.subscription-select');
+        const subscriptionPrice = section.querySelector('.subscribe_save_price');
+
+        subscriptionSelect.addEventListener('change', function () {
+          const selectedOption = subscriptionSelect.options[subscriptionSelect.selectedIndex];
+          const selectedPlanId = selectedOption.value;
+
+          // Update the radio buttons based on the selected plan
+          radios.forEach((radio) => {
+            if (radio.dataset.sellingPlanId === selectedPlanId) {
+              radio.checked = true; // Check the corresponding radio button
+              subscriptionPrice.innerHTML = `${selectedOption.dataset.variantPrice}
+            <label class="text-[#99775599] font-light line-through font-sans ">
+              ${selectedOption.dataset.variantCompareAtPrice}
+            </label>`;
+            }
+          });
+        });
+      });
+    });
+  });
+</script>

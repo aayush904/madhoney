@@ -1,0 +1,961 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "basmil_image_text_t44Kwi": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_hpxP9b": {
+          "type": "content",
+          "settings": {
+            "title": "The Himalayan Giant Honey Bees (Apis Laboriosa)",
+            "subtitle": "",
+            "description": "<p>Wondering, which bee makes the Mad Honey?</p><p><strong>The Himalayan Giant Bee</strong>, scientifically known as <strong>Apis Laboriosa</strong> produces Mad Honey.<strong> </strong>This unique bee roughly three times the size of ordinary honey bee prefers the high rugged pristine terrains as nesting site in Nepal.</p><p>This Wild Bee not only draws attention with its largest size but also attracts people with the unique honey it produces at the Himalayan Cliffs at altitudes above 1200 meters. </p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_hGrAic": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Honey_Bee.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "43.14%"
+          }
+        }
+      },
+      "block_order": [
+        "content_hpxP9b",
+        "image_hGrAic"
+      ],
+      "custom_css": [
+        "img {mix-blend-mode: multiply;}",
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4.8em",
+        "content_width": "52.74%",
+        "padding": "12rem 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_MtgMFE": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_rAxapk": {
+          "type": "content",
+          "settings": {
+            "title": "The Himalayas - Home of the Giant Mad Bees",
+            "subtitle": "",
+            "description": "<p><strong>Apis Laboriosa, the Himalayan Giant Honey</strong> are found in the higher altitudes of Himalayan Belt countries like Nepal, Bhutan, Laos, Vietnam, India and China. Among them <strong>Nepal</strong> is highlighted for cultural tie up with the Gurung community and higher number of this bee species availability within the territory. Also, The study by <strong>Sakagami et al. (1980)</strong> created first range maps for <strong>Apis laboriosa, </strong>depicting its presence from central Nepal to Yunnan, China.</p><p>Mad honeybees can only inhabit some areas since they prefer to inhabit secluded places where they can be safe against the harsh weather and predators. They select high-altitude steep cliffs for nesting because the high cliffs offered them thermal advantage, shelter, visibility, navigation and minimal human disturbance.  </p><p>A special ecological niche, a combination of climate, vegetation and geographical isolation, available in the mountainous regions makes their survival possible.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_BQbeii": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Nepal_Lamjung_Himal.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_rAxapk",
+        "image_BQbeii"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper {width: 100%; max-width: 100% !important;}",
+        ".contentside {padding: 0 16px;}",
+        "@media (max-width: 768px) {.main-wrapper.wrapper .imagepart.imagepart {width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "8.7rem",
+        "content_width": "59.88%",
+        "padding": "12rem 0 0",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_tTqKzx": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_ieQrez": {
+          "type": "content",
+          "settings": {
+            "title": "Physical Appearance of the Himalayan Bees",
+            "subtitle": "",
+            "description": "<p>Apis Laboriosar commonly known as the Himalayan Giant Bee stands out between other bees for its impressive size, sturdy body, and dark coloration. This bee have evolved over time and have developed traits that allow them to survive in the Himalayas.</p><p>Its dense fur helps to withstand cold temperature, while strong broad wings helps them navigate with ease. Their large sized body helps in physical resilience to build nests on difficult cliffs.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_ieQrez"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "58.7%",
+        "padding": "16px  16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_rzN7WV": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_DByDdr": {
+          "type": "content",
+          "settings": {
+            "title": "Size of Mad Honey Bees",
+            "subtitle": "",
+            "description": "<p>Apis laboriosa the world's largest living honey bee measures a body length of just over 1.2 inches(3 cm) slightly exceeding that of Apis Mellifera.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_RkGa99": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Bee_Size.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "41%"
+          }
+        }
+      },
+      "block_order": [
+        "content_DByDdr",
+        "image_RkGa99"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "24px 8rem!important",
+        "content_width": "50.8%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "73.8%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_NeE9z3": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_tbQVHC": {
+          "type": "content",
+          "settings": {
+            "title": "Hair Density",
+            "subtitle": "",
+            "description": "<p>Apis Laboriosa is characterized by a fully dark abdomen with orange or yellow segments in the front. Also, it has long golden thoracic hairs covering its thorax. These dense fur not just cover body and provide insulation in cold temperature but also have sensory functions that detect air currents as well as vibrations.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_F6DXcV": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Bee_Hair.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "41%"
+          }
+        }
+      },
+      "block_order": [
+        "content_tbQVHC",
+        "image_F6DXcV"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "24px 8rem!important",
+        "content_width": "50.8%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "73.8%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_9kAmFe": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_9N7nwn": {
+          "type": "content",
+          "settings": {
+            "title": "Color Pattern",
+            "subtitle": "",
+            "description": "<p>The color pattern off this bees resembles to that of the European honey bee, featuring golden, black, and pale bands on its abdomen along with a hairy thorax.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_P6BVYc": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/honey_bee_Hip.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "41%"
+          }
+        }
+      },
+      "block_order": [
+        "content_9N7nwn",
+        "image_P6BVYc"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "24px 8rem!important",
+        "content_width": "50.8%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "73.8%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_zA9ndT": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_KGhqYF": {
+          "type": "content",
+          "settings": {
+            "title": "Sensory Organs of Apis Laboriosa",
+            "subtitle": "",
+            "description": "<p>Sensory organs are vital parts of the Himalayan Giant Bees. These sensory organs detects natural stimulus and helps Giant Bees to gather information, navigate, forage and communicate with other bees in challenging Himalayan terrain.</p><p></p><ul><li><strong>Antennae:</strong> The antenna is vital in terms of communication and locating food the antenna is equipped with thousands of receptors. It senses pheromones, temperature, humidity, and scents.</li><li><strong>Compound Eyes:</strong> The compound eyes made of thousands of mini-lenses offers a wide range of vision as well as UV patterns on flowers and aiding foraging.</li><li><strong>Simple Eyes (Ocelli):</strong> Three light-sensitive eyes on their heads help stabilize these bees during flight in changing light conditions.</li></ul>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_mzyPFB": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Honey_Bee_front_View.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "41%"
+          }
+        }
+      },
+      "block_order": [
+        "content_KGhqYF",
+        "image_mzyPFB"
+      ],
+      "custom_css": [
+        "li {color: #fff;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "24px 8rem!important",
+        "content_width": "50.8%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "73.8%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#ffffff"
+      }
+    },
+    "basmil_image_text_ATd6Lz": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_QmkyFB": {
+          "type": "content",
+          "settings": {
+            "title": "Wing Structure of the Giant Bees",
+            "subtitle": "",
+            "description": "<p>The adaption and evolution of Apis Laboriosa has made their survival in high altitude possible. To support the larger body they have developed wings that are generally larger and stronger than that of the normal honey bees. These wings are essential for generating lift in thin Himalayan Aerodynamics.</p><p>These wings contains a network of veins that strengthens the wings, channels hemolymph and supports nerve function for positioning. Their wingbeat frequency is also adapted to meet the sufficient lift in the Himalayan Ecosystem as well as conserve water and improve heat tolerance.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_ALyDm9": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Bee_Wings.png",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "41%"
+          }
+        }
+      },
+      "block_order": [
+        "content_QmkyFB",
+        "image_ALyDm9"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "24px 8rem!important",
+        "content_width": "50.8%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "73.8%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#ffffff"
+      }
+    },
+    "basmil_image_text_Qn47Uq": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_iHbkHf": {
+          "type": "content",
+          "settings": {
+            "title": "Role of the Giant Honey Bees in Himalayan Ecosystem",
+            "subtitle": "",
+            "description": "<p>Scientific research and Genetic Studies have concluded  the role and importance of <strong>Apis Laboriosa</strong> in pollinating Himalayan Ecosystem. </p><p>Studies show that there are several plants that contains Grayanotoxins in the mountain regions. While the animals and birds are intoxicated after consuming products of such plants the pollination and reproduction of the plants is less likely to happen. In this case the Himalayan Bees come to aid for the pollination.</p><p>The presence of <a href=\"/pages/grayanotoxin\" target=\"_blank\" title=\"Grayanotoxin\"><strong>Grayanotoxin</strong></a> doesn't effect these Himalayan Giant Bees as they are unfazed by this neurotoxin. In order to collect nectar these bees, transfer pollen from one flower to another helping pollinate these plants in the Himalayan Ecosystem. These bees are the main reason why Himalayan forest are green and thriving.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_RTBiXH": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Honey_Bee.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "43.14%"
+          }
+        }
+      },
+      "block_order": [
+        "content_iHbkHf",
+        "image_RTBiXH"
+      ],
+      "custom_css": [
+        "img {mix-blend-mode: multiply;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4.8em",
+        "content_width": "52.74%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "table_basmil_q73wUC": {
+      "type": "table-basmil",
+      "blocks": {
+        "heading_fzp36W": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Feature"
+          }
+        },
+        "content_cjBrp7": {
+          "type": "content",
+          "settings": {
+            "table_content": "Size"
+          }
+        },
+        "content_Hjepbk": {
+          "type": "content",
+          "settings": {
+            "table_content": "Habitat"
+          }
+        },
+        "content_KARQgj": {
+          "type": "content",
+          "settings": {
+            "table_content": "Nesting Sites"
+          }
+        },
+        "content_NdXNTB": {
+          "type": "content",
+          "settings": {
+            "table_content": "Coloration"
+          }
+        },
+        "content_dgpcFr": {
+          "type": "content",
+          "settings": {
+            "table_content": "Wing Structure"
+          }
+        },
+        "content_fqNC6q": {
+          "type": "content",
+          "settings": {
+            "table_content": "Behavior and Defense"
+          }
+        },
+        "content_a9NtGD": {
+          "type": "content",
+          "settings": {
+            "table_content": "Honey Type"
+          }
+        },
+        "content_m63mYF": {
+          "type": "content",
+          "settings": {
+            "table_content": "Life Span"
+          }
+        },
+        "heading_6hHE7U": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Himalayan Giant Bees(Apis Laboriosa)"
+          }
+        },
+        "content_eky7bi": {
+          "type": "content",
+          "settings": {
+            "table_content": "Larger, up to 3 cm (1.2 inches)"
+          }
+        },
+        "content_kfT9jb": {
+          "type": "content",
+          "settings": {
+            "table_content": "High-altitude Himalayas (1200–3000 m)"
+          }
+        },
+        "content_jdxgWe": {
+          "type": "content",
+          "settings": {
+            "table_content": "Open-air nests on steep cliffs"
+          }
+        },
+        "content_KfJyMF": {
+          "type": "content",
+          "settings": {
+            "table_content": "Dark abdomen, long golden thoracic hairs"
+          }
+        },
+        "content_Cwdknf": {
+          "type": "content",
+          "settings": {
+            "table_content": "Stronger and broader wings for thin mountain air"
+          }
+        },
+        "content_z8Larc": {
+          "type": "content",
+          "settings": {
+            "table_content": "More defensive due to frequent threats on cliffs"
+          }
+        },
+        "content_3yWUdH": {
+          "type": "content",
+          "settings": {
+            "table_content": "Mad Honey"
+          }
+        },
+        "content_FnFL74": {
+          "type": "content",
+          "settings": {
+            "table_content": "Varies depending on the environmental factors"
+          }
+        },
+        "heading_tkWWKX": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Common Honey bees(Apis Mellifera )"
+          }
+        },
+        "content_AVjiTA": {
+          "type": "content",
+          "settings": {
+            "table_content": "Smaller, around 1.3 cm (0.5 inches)"
+          }
+        },
+        "content_Q4HMTC": {
+          "type": "content",
+          "settings": {
+            "table_content": "Lower altitudes, worldwide distribution"
+          }
+        },
+        "content_eUkXKc": {
+          "type": "content",
+          "settings": {
+            "table_content": "Enclosed spaces, such as tree cavities or hives"
+          }
+        },
+        "content_qzr4Dw": {
+          "type": "content",
+          "settings": {
+            "table_content": "Golden, black, and pale bands on the abdomen"
+          }
+        },
+        "content_tRwQFy": {
+          "type": "content",
+          "settings": {
+            "table_content": "Standard wings adapted for lower altitudes"
+          }
+        },
+        "content_VVqLJU": {
+          "type": "content",
+          "settings": {
+            "table_content": "Generally defensive but less aggressive"
+          }
+        },
+        "content_J6FQPK": {
+          "type": "content",
+          "settings": {
+            "table_content": "Regular Honey "
+          }
+        },
+        "content_WKtXt9": {
+          "type": "content",
+          "settings": {
+            "table_content": "Stable lifespan"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fzp36W",
+        "content_cjBrp7",
+        "content_Hjepbk",
+        "content_KARQgj",
+        "content_NdXNTB",
+        "content_dgpcFr",
+        "content_fqNC6q",
+        "content_a9NtGD",
+        "content_m63mYF",
+        "heading_6hHE7U",
+        "content_eky7bi",
+        "content_kfT9jb",
+        "content_jdxgWe",
+        "content_KfJyMF",
+        "content_Cwdknf",
+        "content_z8Larc",
+        "content_3yWUdH",
+        "content_FnFL74",
+        "heading_tkWWKX",
+        "content_AVjiTA",
+        "content_Q4HMTC",
+        "content_eUkXKc",
+        "content_qzr4Dw",
+        "content_tRwQFy",
+        "content_VVqLJU",
+        "content_J6FQPK",
+        "content_WKtXt9"
+      ],
+      "custom_css": [
+        "tr td:nth-child(even) {font-weight: 500 !important;}",
+        "th,tr td:nth-child(even) {color: #000 !important; text-align: center; justify-content: center;}"
+      ],
+      "settings": {
+        "main_heading": "Differences Between Himalayan Giant Bees and Common Honeybees",
+        "main_content": "",
+        "alignment": "center",
+        "valignment": "top",
+        "content_part_width": "79.5%",
+        "section_padding": "0 16px 12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "73%",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_on": "content",
+        "background_color": "",
+        "content_color": "#3b2d1f",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_TEXf6c": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_aytCPe": {
+          "type": "content",
+          "settings": {
+            "title": "The Process to Make a Drop of Mad Honey",
+            "subtitle": "",
+            "description": "<p>Apis laboriosa, world's largest bee has fascinating body mechanics and have developed system that neutralizes and metabolizes toxins like grayanotoxins. These bees are highly tolerable to altitude-related stress and has enzymes that help process nectar into Mad Honey. The mad honey thus harvested finds it's way into the specific diet of the Gurungs within the remote environment of Nepal. </p><p>This Grayanotoxin containing nectar is prepared by the Giant Himalayan Bees by foraging on Rhododendron flowers and other wildflowers with a special twist. Not only does it gives mad honey a distinct taste, but also adds medicinal properties. The Gurungs who understood the medicinal value have been harvesting it and has been using it as a folk medicine.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_aytCPe"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "4.8rem",
+        "content_width": "100%",
+        "padding": "12rem 16px 4.8rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "76.72%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_richtext_aJUzbg": {
+      "type": "basmil-image-richtext",
+      "blocks": {
+        "content_thgH97": {
+          "type": "content",
+          "settings": {
+            "description": "<h3>Step 1</h3><h3>Collecting the Nectar </h3><p>Worker bees collect nectar from flowers using their long proboscis, which they store in their honey stomach (a special pouch separate from their digestive stomach).</p><h3>Step 2</h3><h3>Transporting the Nectar </h3><p>The bee returns to the hive and regurgitates the nectar into the mouth of another worker bee, transferring the nectar.</p><h3>Step 3</h3><h3>Adding the Enzymes </h3><p>The receiving bee adds enzymes to the nectar, breaking down the sugars. This process begins to transform the nectar into honey.</p>"
+          }
+        },
+        "image_6HAnJU": {
+          "type": "image",
+          "settings": {
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "<svg width=\"100\" height=\"371\" viewbox=\"0 0 100 371\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M50.2614 137.894C37.183 137.894 24.6402 132.698 15.3924 123.45C6.14459 114.203 0.949219 101.66 0.949219 88.5814C0.949219 55.7066 50.2614 0.230469 50.2614 0.230469C50.2614 0.230469 99.5735 55.7066 99.5735 88.5814C99.5735 101.66 94.3782 114.203 85.1303 123.45C75.8825 132.698 63.3398 137.894 50.2614 137.894Z\" fill=\"#E8D07C\" fill-opacity=\"0.1\"></path>\n<path d=\"M50.2614 215.558C37.183 215.558 24.6402 210.362 15.3924 201.114C6.14459 191.867 0.949219 179.324 0.949219 166.245C0.949219 133.371 50.2614 77.8945 50.2614 77.8945C50.2614 77.8945 99.5735 133.371 99.5735 166.245C99.5735 179.324 94.3782 191.867 85.1303 201.114C75.8825 210.362 63.3398 215.558 50.2614 215.558Z\" fill=\"#E8D07C\" fill-opacity=\"0.3\"></path>\n<path d=\"M50.2614 293.22C37.183 293.22 24.6402 288.024 15.3924 278.777C6.14459 269.529 0.949219 256.986 0.949219 243.908C0.949219 211.033 50.2614 155.557 50.2614 155.557C50.2614 155.557 99.5735 211.033 99.5735 243.908C99.5735 256.986 94.3782 269.529 85.1303 278.777C75.8825 288.024 63.3398 293.22 50.2614 293.22Z\" fill=\"#E8D07C\" fill-opacity=\"0.6\"></path>\n<path d=\"M50.2614 370.882C37.183 370.882 24.6402 365.687 15.3924 356.439C6.14459 347.191 0.949219 334.648 0.949219 321.57C0.949219 288.695 50.2614 233.219 50.2614 233.219C50.2614 233.219 99.5735 288.695 99.5735 321.57C99.5735 334.648 94.3782 347.191 85.1303 356.439C75.8825 365.687 63.3398 370.882 50.2614 370.882Z\" fill=\"#E8D07C\"></path>\n</svg>",
+            "image_width": "30%; grid-column:2/3;"
+          }
+        },
+        "content_6jeMJd": {
+          "type": "content",
+          "settings": {
+            "description": "<h3>Step 4</h3><h3>Water Evaporation</h3><p>The bees fan their wings to create airflow inside the hive, promoting evaporation. This process thickens the nectar, reducing its water content and turning it into honey.</p><h3>Step 5</h3><h3>Storage in Cells</h3><p>Once the nectar has thickened, the bees store the honey in hexagonal beeswax cells, sealing them with a wax cap to preserve it.</p><h3>Step 6</h3><h3>Mad Honey Ripening</h3><p>The honey matures in the cells, allowing its flavor and consistency to develop. It is ready for the bees to consume or for <a href=\"/blogs/mad-honey/honey-hunting\" target=\"_blank\" title=\"Mad Honey Harvesting\"><strong>mad honey harvesting</strong></a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_thgH97",
+        "image_6HAnJU",
+        "content_6jeMJd"
+      ],
+      "custom_css": [
+        "p {margin-bottom: 3.2rem;}",
+        ".contain-wrapper {grid-template-columns: 1fr 1.15fr 1fr;}",
+        "@media (max-width: 768px) {.contain-wrapper {grid-template-columns: max-content 1fr; height: 255px; align-items: start; overflow: auto; scrollbar-width: none; -ms-overflow-style: none; gap: 0 27px !important; } .imagecontainer {grid-column: 1/2; height: 225px; grid-row: 1 / -1; position: sticky; top: 0; } .imagepart {min-height: 225px; width: 100% !important; position: static; transform: none; } .contentside {grid-column: 2/3; } .contentside * {text-align: left; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2.46%",
+        "content_width": "",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "76.72%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "faq_HkGLkP": {
+      "type": "faq",
+      "blocks": {
+        "text_dU66WB": {
+          "type": "text",
+          "settings": {
+            "question": "Sustainable Harvesting Practices",
+            "answer": "<p>The Medicinal Mad Honey team has been actively promoting responsible honey harvesting practices to help the bees thrive while actively help honey hunters collect in sustainable way. In strong connection with the Honey Hunters we set limits on how much honey should be taken at a season. We believe there must be enough for all of us, thus keeping the bee populations healthy and nourished.</p>"
+          }
+        },
+        "text_CpL8Mk": {
+          "type": "text",
+          "settings": {
+            "question": "Protecting Natural Habitats",
+            "answer": "<p>We at <a href=\"/\" target=\"_blank\" title=\"/\">Medicinal Mad Honey</a> are actively sharing and promoting the need of these bees for betterment of the Himalayan ecosystem. Keeping the need for the conservation of these bees in mind we are actively working to reduce habitat destruction and deforestation. Keeping the areas safe helps helps the bees thrive, pollinate the Himalayan Ecosystem.</p>"
+          }
+        },
+        "text_NmnwGq": {
+          "type": "text",
+          "settings": {
+            "question": "Aligning with Seasonal Cycles",
+            "answer": "<p>Rashmi Kandel, the Himalayan Giant Bee researcher understands their natural rhythms and life cycles. She has good understanding of honey harvest done in accordance with their life cycles makes them strong and healthy. This is the reason why she has been collaborating with local honey hunters for seasonal harvest of the Mad Honey. This approach keeps the declining population of Apis Laboriosa Steady and ensures the availability of honey to harvest twice a year.</p>"
+          }
+        },
+        "text_dPeBQX": {
+          "type": "text",
+          "settings": {
+            "question": "Education on Bee Biology",
+            "answer": "<p>We at Medicinal Mad Honey believe the conservation of the Himalayan Giant Bees should begin with the Hunters. For this approach we have been raising awareness via workshops, events, personal education for the local hunters in the region. They must understand the role and importance of these bees in the Himalayan Ecosystem we often launch Himalayan Bee literacy classes in those areas too. </p>"
+          }
+        },
+        "text_BV4XLM": {
+          "type": "text",
+          "settings": {
+            "question": "Eco-Friendly Approach",
+            "answer": "<p>Keeping the effects of chemical infused products on Human Health for long term use. We have even made a move to replace them in eco-friendly manner. For this replacement we have reutilized the bees comb and made soap and lip balms. By adding the high demanded bees wax we have turned the natural wax as an organic and premium eco-friendly skincare product.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_dU66WB",
+        "text_CpL8Mk",
+        "text_NmnwGq",
+        "text_dPeBQX",
+        "text_BV4XLM"
+      ],
+      "settings": {
+        "heading": "Our Effort Towards The Conversation of Bees\n<style>\n    .faq-section{\n       \n     }\n</style>",
+        "description": "Things like overharvesting, rough extraction methods, and disrupting natural habitats can put these important bees at risk. Knowing how essential they are as pollinators, we're working with honey hunters to promote more sustainable, bee-friendly methods. This way, we’re helping the bees thrive, plus supporting local communities and their way of life.\nHere are some of the initiatives we’ve put in place:",
+        "show_schema": true,
+        "content_alignment": "Center",
+        "content_part_width": "100%",
+        "faq_width": "80%",
+        "gap_between_sections": "24px 5rem!important",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "80.45%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "product_grid_slider_EyTrcw": {
+      "type": "product-grid-slider",
+      "custom_css": [
+        "img {background: #be935f4d; aspect-ratio: 301.33/326 !important; object-fit: cover !important; border-radius: 16px;}",
+        "h3 {font-size: 2.4rem; font-family: Lato; font-weight: 700; line-height: 100%; letter-spacing: 0;}",
+        ".product-info {padding: 1.8rem 0;}",
+        "@media (max-width: 480px) {.text-base, .button {font-size: 1.6rem; } .product-card {margin: 0 1rem !important; }}"
+      ],
+      "settings": {
+        "section_title": "Experience the Purity of Mad Honey",
+        "section_description": "Experience the authenticity and potency of Mad Honey, crafted by the remarkable Himalayan Giant Bees. Order now to enjoy a product that is truly one of a kind, supporting sustainable practices and the preservation of Nepal’s natural treasures. Indulge in the rich flavors and unique benefits of <a href=\"/pages/the-real-raw-mad-honey\">The Real Raw Mad Honey</a>, and join us in celebrating this extraordinary natural marvel.",
+        "product_collection": "mad-honey",
+        "slider_grid": true,
+        "slider_type": "3",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "4rem",
+        "iconbox_gap": "4.4rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "75%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "80.45%",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "basmil_image_text_t44Kwi",
+    "basmil_image_text_MtgMFE",
+    "basmil_image_text_tTqKzx",
+    "basmil_image_text_rzN7WV",
+    "basmil_image_text_NeE9z3",
+    "basmil_image_text_9kAmFe",
+    "basmil_image_text_zA9ndT",
+    "basmil_image_text_ATd6Lz",
+    "basmil_image_text_Qn47Uq",
+    "table_basmil_q73wUC",
+    "basmil_image_text_TEXf6c",
+    "basmil_image_richtext_aJUzbg",
+    "faq_HkGLkP",
+    "product_grid_slider_EyTrcw"
+  ]
+}

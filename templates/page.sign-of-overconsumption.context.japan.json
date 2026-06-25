@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.sign-of-overconsumption.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "settings": {},
+      "blocks": {
+        "content_cRpYeF": {
+          "settings": {
+            "title": "過剰消費の兆候",
+            "description": "<p>マッドハニーを過剰に摂取すると、含まれるグラヤノトキシンが原因で不快な副作用を引き起こす可能性があります。めまい、吐き気、頭痛、胃の不快感を感じ始めたら、それは飲み過ぎのサインです。最善の策は、症状を早期に発見し、摂取量を調整して安全を確保することです。状況が深刻だと感じたら、ためらわずに医師の診察を受けてください。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "settings": {},
+      "blocks": {
+        "content_UUE4QN": {
+          "settings": {
+            "title": "めまい",
+            "description": "<p>初期症状として、めまいを感じます。これにより、バランスが崩れたり、方向感覚が失われたり、部屋が回転しているように感じることがあります。作業に集中したり、安定して歩くことさえ困難になる可能性があり、めまいが治まるまで座ったり横になったりする必要があるかもしれません。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "settings": {},
+      "blocks": {
+        "content_VDaFtW": {
+          "settings": {
+            "title": "頭痛",
+            "description": "<p>マッドハニーを過剰に摂取した場合の一般的な副作用は、持続性またはズキズキする頭痛です。頭に圧力がかかっているように感じる場合があり、こめかみや額に集中することもあります。気が散ったり痛みを感じたりして、集中したりリラックスしたりすることが難しくなります。頭痛の強さを和らげるために、頻繁に水を飲んでください。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "settings": {},
+      "blocks": {
+        "content_3wbHrA": {
+          "settings": {
+            "title": "吐き気と嘔吐",
+            "description": "<p>過剰摂取は強い吐き気を引き起こし、場合によっては嘔吐にまで悪化することがあります。この胃の不快感は食中毒や乗り物酔いに似た感じで、摂取量によっては数時間続くこともあります。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "settings": {},
+      "blocks": {
+        "content_7Wj6ag": {
+          "settings": {
+            "title": "過度の発汗",
+            "description": "<p>必要量を超えると、体がオーバーヘッドとなり、予期せぬ過度の発汗につながる可能性があります。身体的に運動していないのに、通常よりも汗をかき、ベタベタしたり、暑くなったり、不快感を覚えたりすることがあります。必要量を超えると、体がオーバーヘッドとなり、予期せぬ過度の発汗につながる可能性があります。身体的に運動していないのに、通常よりも汗をかき、ベタベタしたり、暑くなったり、不快感を覚えたりすることがあります。</p>"
+          }
+        }
+      }
+    }
+  }
+}

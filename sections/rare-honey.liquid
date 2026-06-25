@@ -1,0 +1,623 @@
+<script src="{{"jquery.min.js" | asset_url}}"></script>
+
+<style>
+      #shopify-section-{{ section.id }} .g-recaptcha {
+        margin-bottom:18px;
+      }
+      .country-select .flag {
+          background-image: url({{ 'flags.png' | asset_url }})!Important;
+      }
+
+      .country-select.inside .selected-flag{
+       width:100%!important;
+      }
+
+      #country{
+      padding-left:30px!important;
+    }
+      .flag, .arrow {
+        display: block !important;
+        border-color:#BE935F;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (min--moz-device-pixel-ratio: 2),
+      only screen and (min-device-pixel-ratio: 2),
+      only screen and (min-resolution: 192dpi),
+      only screen and (min-resolution: 2dppx) {
+      .country-select .flag {
+        background-image: url({{ 'flags@2x.png' | asset_url }})!Important;
+      }
+    }
+
+    /* override internal wrapper (best-effort, Google may restrict) */
+    #shopify-section-{{ section.id }} iframe {
+      background: transparent !important;
+      width:100%;
+      filter: opacity(0.9); /* make it blend slightly */
+    }
+
+    #shopify-section-{{ section.id }} .g-recaptcha > div {
+      max-width: 80vw;
+  }
+
+      #shopify-section-{{ section.id }} {
+        background:#000;
+        padding:11rem 16px;
+      }
+
+      #shopify-section-{{ section.id }} .form-wrapper {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      #shopify-section-{{ section.id }} div#rc-anchor-container{
+        background: linear-gradient(90deg, #BE935F 0%, #ECC28F 25%, #BE935F 50%, #ECC28F 75.49%, #BE935F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      #shopify-section-{{ section.id }} .title {
+        text-align: center;
+        {% comment %} font-size: 44px; {% endcomment %}
+        margin-top:0;
+        margin-bottom: 15px;
+        background: linear-gradient(90deg, #BE935F 0%, #ECC28F 25%, #BE935F 50%, #ECC28F 75.49%, #BE935F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 600;
+        letter-spacing:0;
+        line-height: 1.1;
+      }
+
+      #shopify-section-{{ section.id }} .subtitle {
+        text-align: center;
+        color: #b0b0b0;
+        font-size: 14px;
+        margin-bottom: 30px;
+        line-height: 1.1;
+        letter-spacing:0;
+      }
+
+      #shopify-section-{{ section.id }} .subtitle b {
+        background: linear-gradient(90deg, #BE935F 0%, #ECC28F 25%, #BE935F 50%, #ECC28F 75.49%, #BE935F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 600;
+      }
+
+      #shopify-section-{{ section.id }} .form-box {
+        border: 1px solid #BE935F;
+        padding: clamp(20px,4vw,50px)  clamp(16px, 3.2vw,40px);
+        border-radius: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0 0 30px rgba(190, 147, 95, 0.05);
+        position: relative;
+      }
+
+      #shopify-section-{{ section.id }} .input{
+        width: 100%;
+        padding: 16px 18px;
+        margin-bottom: 18px;
+        background: transparent;
+        border: 1px solid #BE935F;
+        border-radius: 10px;
+        color: #ECC28F;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      #shopify-section-{{ section.id }} .input::placeholder {
+        background: linear-gradient(90deg, #BE935F 0%, #ECC28F 25%, #BE935F 50%, #ECC28F 75.49%, #BE935F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        opacity: 0.8;
+      }
+
+      #shopify-section-{{ section.id }} .input:focus {
+        outline: none;
+        border-color: #ECC28F;
+        background: rgba(190, 147, 95, 0.05);
+        color: #ECC28F;
+      }
+
+      #shopify-section-{{ section.id }} textarea.input {
+        resize: vertical;
+        min-height: 100px;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      #shopify-section-{{ section.id }} .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-bottom: 18px;
+      }
+
+      #shopify-section-{{ section.id }} .row .input {
+        margin-bottom: 0;
+      }
+
+      #shopify-section-{{ section.id }} .custom-select {
+        position: relative;
+        width: 100%;
+      }
+
+      #shopify-section-{{ section.id }} .select-header {
+        width: 100%;
+        padding: 16px 18px;
+        background: transparent;
+        border: 1px solid #BE935F;
+        border-radius: 10px;
+        color: #ECC28F;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #shopify-section-{{ section.id }} .select-header::after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 8px solid #ECC28F;
+        transition: transform 0.3s ease;
+      }
+
+      #shopify-section-{{ section.id }} .select-header:hover {
+        border-color: #ECC28F;
+        background: rgba(190, 147, 95, 0.05);
+      }
+
+      #shopify-section-{{ section.id }} .select-options {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #000000;
+        border:none;
+        border-top: none;
+        border-radius: 0 0 10px 10px;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        z-index: 10;
+      }
+
+      #shopify-section-{{ section.id }} .flag-dropdown{
+        width:100%;
+      }
+
+      #shopify-section-{{ section.id }} .country-select .country-list {
+        border-radius: 0 0 10px 10px;
+        border: 1px solid #BE935F;
+        border-top: none;
+        background-color: #000000;
+        width:100%;
+        scrollbar-width: thin;
+    scrollbar-color: #888 transparent; /* For Firefox */
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+
+      #shopify-section-{{ section.id }} .country-select .country-list::-webkit-scrollbar {
+        width: 6px;
+        border-radius: 4px;
+        background: transparent;
+      }
+
+      #shopify-section-{{ section.id }} .country-select .country-list::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+
+      #shopify-section-{{ section.id }} .country-select .country-list::-webkit-scrollbar-thumb:hover {
+        background: #999;
+      }
+
+      #shopify-section-{{ section.id }} .country-select .country-list::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      #shopify-section-{{ section.id }} .custom-select.open .select-options {
+        max-height: 200px;
+        border: 1px solid #BE935F;
+        margin-top: 0px;
+        border-top: 0;
+      }
+
+      #shopify-section-{{ section.id }} .custom-select.open .select-header::after {
+        transform: rotate(180deg);
+      }
+      #shopify-section-{{ section.id }} .country-list.country-list li:not(.divider){
+      display:flex;
+      align-items:center;
+      }
+      #shopify-section-{{ section.id }} .select-option,
+      #shopify-section-{{ section.id }} .country-list.country-list li:not(.divider) span {
+        padding: 14px 18px;
+        color: #ECC28F;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-style: italic;
+        overflow-x:hidden;
+      }
+
+      #shopify-section-{{ section.id }} .select-option:hover,
+      #shopify-section-{{ section.id }} .country-list.country-list li:hover {
+        background: rgba(190, 147, 95, 0.1)!important;
+        color: #ECC28F;
+      }
+
+      #shopify-section-{{ section.id }} .select-option.selected,
+      #shopify-section-{{ section.id }} .country-list.country-list li.active {
+        background: rgba(190, 147, 95, 0.15);
+      }
+
+      #shopify-section-{{ section.id }} button {
+        width: 100%;
+        padding: 16px;
+        margin-bottom: 20px;
+        background: transparent;
+        border: 1px solid #BE935F;
+        border-radius: 10px;
+        color: #BE935F;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: capitalize;
+        background: linear-gradient(90deg, #BE935F 0%, #ECC28F 25%, #BE935F 50%, #ECC28F 75.49%, #BE935F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        position: relative; /* ensure spinner absolute positions relative to button */
+        overflow: visible;
+      }
+
+      #shopify-section-{{ section.id }} button:hover {
+        border-color: #ECC28F;
+        background: linear-gradient(90deg, #ECC28F 0%, #BE935F 25%, #ECC28F 50%, #BE935F 75.49%, #ECC28F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      #shopify-section-{{ section.id }} .success-message {
+        text-align: center;
+        background: linear-gradient(90deg, #BE935F 0%, #ECC28F 25%, #BE935F 50%, #ECC28F 75.49%, #BE935F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 13px;
+        line-height: 1.6;
+        padding: 0 10px;
+        display: none;
+        transition: opacity 0.3s ease;
+        font-weight: 500;
+      }
+
+      /* show state */
+      #shopify-section-{{ section.id }} .success-message.show {
+        display: block;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @media(max-width:768px){
+          #shopify-section-{{ section.id }} .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-bottom: 18px;
+      }}
+</style>
+<link rel="stylesheet" href="{{ "countrySelect.min.css" | asset_url }}">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<div class="form-wrapper">
+  <{{ section.settings.heading_size }} class="title">
+    {{ section.settings.title }}
+  </{{ section.settings.heading_size }}>
+  <p class="subtitle">
+    {{ section.settings.description }}
+  </p>
+
+  <form class="form-box" id="preReleaseForm" novalidate>
+    <input type="text" name="fullname" class="input" placeholder="Your Full Name" required>
+    <input type="email" name="email" class="input" placeholder="Email Address" required>
+
+    <div class="row">
+      <input id="country" name="country" type="text" class="input" placeholder="Country">
+
+      <div class="custom-select">
+        <div class="select-header" data-value="">Are you a collector or first-time buyer?</div>
+        <div class="select-options">
+          <div class="select-option" data-value="Collector">I'm a collector.</div>
+          <div class="select-option" data-value="First-time buyer">No, I'm first time buyer.</div>
+        </div>
+        <input type="hidden" name="buyerType" class="select-value">
+      </div>
+    </div>
+
+    <input
+      name="jars"
+      type="number"
+      class="input"
+      placeholder="How many jars would you like to reserve? (Only 3 jars can be reserve.)"
+      min="1"
+      max="3"
+      required
+    >
+
+    <textarea class="input" name="message" placeholder="Short Message If you want to leave something."></textarea>
+    <div
+      class="g-recaptcha"
+      data-sitekey="6LdZI5MqAAAAAFkTMtPCUB2JEs7hmKrlWW8AXYoV"
+      data-theme="dark"
+      style="width:max-content; overflow:hidden;"
+    ></div>
+    <!-- Spinner moved INSIDE button so it can be positioned relative to the button -->
+    <button type="submit" id="preReleaseButton">
+      Request Invitation to Reserve
+      <div
+        class="loading-spinner"
+        style="display:none; border:4px solid #f3f3f3; border-top:4px solid #be935f; border-radius:50%; width:20px; height:20px; animation:spin 2s linear infinite; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"
+        aria-hidden="true"
+      ></div>
+    </button>
+
+    <p class="success-message">Thank you! for submitting the form. A member of our team will contact you personally.</p>
+    <p class="error-message" style="color:#ef4444; display:none; text-align:center; font-weight:600;"></p>
+  </form>
+</div>
+
+<script src="{{"countrySelect.min.js" | asset_url }}"></script>
+<script defer>
+  $('#country').countrySelect({
+    preferredCountries: ['np', 'in', 'us', 'gb'],
+    responsiveDropdown: true,
+    defaultCountry: '',
+  });
+
+  const customSelects = document.querySelectorAll('.custom-select');
+
+  customSelects.forEach((select) => {
+    const header = select.querySelector('.select-header');
+    const options = select.querySelectorAll('.select-option');
+    const hiddenInput = select.querySelector('.select-value');
+
+    // Toggle dropdown on header click
+    header.addEventListener('click', () => {
+      select.classList.toggle('open');
+    });
+
+    // Handle option selection
+    options.forEach((option) => {
+      option.addEventListener('click', () => {
+        const value = option.getAttribute('data-value');
+        const text = option.textContent;
+
+        // Update header text
+        header.textContent = text;
+        header.setAttribute('data-value', value);
+
+        // Update hidden input value
+        hiddenInput.value = value;
+
+        // Update selected state
+        options.forEach((opt) => opt.classList.remove('selected'));
+        option.classList.add('selected');
+
+        // Close dropdown
+        select.classList.remove('open');
+      });
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    customSelects.forEach((select) => {
+      if (!select.contains(e.target)) {
+        select.classList.remove('open');
+      }
+    });
+  });
+
+  const form = document.getElementById('preReleaseForm');
+  const submitButton = form.querySelector('#preReleaseButton');
+
+  // CORRECTED: spinner is inside the button, so query from form (works whether inside or sibling)
+  const loadingSpinner = form.querySelector('.loading-spinner');
+  const successMessage = form.querySelector('.success-message');
+  const errorMessage = form.querySelector('.error-message');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    errorMessage.style.display = 'none';
+    successMessage.classList.remove('show');
+
+    // Validate reCAPTCHA safely
+    const captchaResponse = typeof grecaptcha !== 'undefined' ? grecaptcha.getResponse() : '';
+    if (!captchaResponse) {
+      errorMessage.textContent = 'Please complete the reCAPTCHA challenge.';
+      errorMessage.style.display = 'block';
+      return;
+    }
+
+    // Validate buyer type selection
+    const buyerTypeValue = form.querySelector('.select-value').value;
+    if (!buyerTypeValue) {
+      errorMessage.textContent = 'Please select a buyer type.';
+      errorMessage.style.display = 'block';
+      return;
+    }
+
+    // Validate other required fields using HTML5 validation APIs
+    if (!form.checkValidity()) {
+      errorMessage.textContent = 'Please fill in all required fields correctly.';
+      errorMessage.style.display = 'block';
+      form.reportValidity();
+      return;
+    }
+
+    // Prepare form data
+    const formData = {
+      fullname: form.fullname.value.trim(),
+      email: form.email.value.trim(),
+      api: 'rare-honey',
+      country: form.country.value.trim(),
+      buyerType: buyerTypeValue,
+      jars: form.jars.value.trim(),
+      message: form.message.value.trim(),
+      'g-recaptcha-response': captchaResponse,
+    };
+
+    // UI: show spinner and disable button
+    submitButton.disabled = true;
+    if (loadingSpinner) loadingSpinner.style.display = 'inline-block';
+    // hide button text by making text color transparent (button uses gradient text)
+    submitButton.style.color = 'transparent';
+
+    try {
+      const response = await fetch('https://api.medicinalmadhoney.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      // Hide spinner and restore
+      if (loadingSpinner) loadingSpinner.style.display = 'none';
+      submitButton.disabled = false;
+      submitButton.style.color = ''; // Restore button text color
+
+      if (response.ok) {
+        // Success
+        successMessage.classList.add('show');
+        form.reset();
+
+        // Reset custom select UI
+        const header = form.querySelector('.select-header');
+        const hiddenInput = form.querySelector('.select-value');
+        if (header) {
+          header.textContent = 'Are you a collector or first-time buyer?';
+          header.setAttribute('data-value', '');
+        }
+        if (hiddenInput) hiddenInput.value = '';
+        form.querySelectorAll('.select-option').forEach((opt) => opt.classList.remove('selected'));
+
+        // Reset reCAPTCHA
+        if (typeof grecaptcha !== 'undefined') grecaptcha.reset();
+
+        setTimeout(() => {
+          successMessage.classList.remove('show');
+        }, 5000);
+      } else {
+        // attempt to parse JSON error; fallback to simple message
+        let errorData = {};
+        try {
+          errorData = await response.json();
+        } catch (e) {
+          /* ignore */
+        }
+        errorMessage.textContent = errorData.message || 'Failed to submit form.';
+        errorMessage.style.display = 'block';
+        if (typeof grecaptcha !== 'undefined') grecaptcha.reset();
+      }
+    } catch (error) {
+      if (loadingSpinner) loadingSpinner.style.display = 'none';
+      submitButton.disabled = false;
+      submitButton.style.color = '';
+      errorMessage.textContent = 'An error occurred. Please try again later.';
+      errorMessage.style.display = 'block';
+
+      if (typeof grecaptcha !== 'undefined') grecaptcha.reset();
+    }
+  });
+
+  // Re-initialize country select on form reset (delay keeps behavior consistent)
+  document.querySelector('.form-box').addEventListener('reset', function () {
+    setTimeout(() => {
+      $('#country').countrySelect({
+        preferredCountries: ['np', 'in', 'us', 'gb'],
+      });
+    }, 100);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Rare Honey",
+  "class": "rare_honey",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading Tag"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading Size",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Title",
+      "default": "Title Here"
+    },
+    {
+      "type": "header",
+      "content": "Paragraph"
+    },
+    {
+      "type": "html",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Paragraphs Here</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rare Honey",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

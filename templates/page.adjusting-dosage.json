@@ -1,0 +1,314 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_zFKfQC": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {margin: 0; padding: 0; height:0; overflow:hidden;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<meta name=\"robots\" content=\"noindex\">",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_gULdRr": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner {height: calc(100vh - 136px) !important; width: 100%;}",
+        "@media (max-width: 1024px) {.banner {height: auto; width: 100%; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_92_67141094-9411-43e7-9cf6-3ebb23b6f186.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Adjusting Dosage",
+            "subtitle": "",
+            "description": "<p>Finding the right dosage of Mad Honey might take some tweaking since factors like your body weight, sensitivity to Grayanotoxins, and overall health can play a role. If you’re just starting out, it’s smart to begin with a small amount and slowly increase it as you see how your body handles it and what effects you’re after. Listen to your body and adjust accordingly. And if you have specific health goals or conditions, it’s always a good idea to check in with a healthcare provider for the best dosage advice. This way, you can enjoy the benefits while staying safe.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_cRpYeF"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "66.6%",
+        "padding": "9.6rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_EVPDDe": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Step_1.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_UUE4QN": {
+          "type": "content",
+          "settings": {
+            "title": "Step 1",
+            "subtitle": "",
+            "description": "<p>Start with a small amount, like 1 teaspoon or less, to see how your body reacts. This way, you can adjust without overdoing it. If you feel fine after a few days, you can slowly add a little more—maybe another teaspoon every few days. This will help you find the right amount that works for you.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EVPDDe",
+        "content_UUE4QN"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_Jt8WBy": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Step_2.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_VDaFtW": {
+          "type": "content",
+          "settings": {
+            "title": "Step 2",
+            "subtitle": "",
+            "description": "<p>Before starting mad honey or changing your dosage, it's a good idea to talk to a healthcare provider, especially if you have any health issues or are on medications. Make it a habit to check in with a healthcare professional to discuss your dosage and overall health, especially if you notice any changes in how you feel or if new health issues come up.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Jt8WBy",
+        "content_VDaFtW"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_x7EgXW": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Step_3.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_3wbHrA": {
+          "type": "content",
+          "settings": {
+            "title": "Step 3",
+            "subtitle": "",
+            "description": "<p>Be mindful of when you take mad honey. Taking it on an empty stomach can boost its effects while having it with food might avoid any digestive discomfort. Start by ingesting mad honey on alternative days instead of every day to avoid any adverse effects. Once your body adjusts to it, you can begin taking it daily.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_x7EgXW",
+        "content_3wbHrA"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0rem",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_jhecxU": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Step_4.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_7Wj6ag": {
+          "type": "content",
+          "settings": {
+            "title": "Step 4",
+            "subtitle": "",
+            "description": "<p>Adjust your dosage based on your health goals. For general wellness, moderate consumption is recommended. If you're looking for therapeutic benefits, you might need higher doses, but always consult a healthcare professional for guidance.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jhecxU",
+        "content_7Wj6ag"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_zFKfQC",
+    "image_banner_gULdRr",
+    "basmil_image_text_jaHjht",
+    "basmil_image_text_KbzT3N",
+    "basmil_image_text_MhPHjD",
+    "basmil_image_text_7iq7pU",
+    "basmil_image_text_VdWMx9"
+  ]
+}

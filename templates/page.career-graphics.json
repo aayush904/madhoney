@@ -1,0 +1,68 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "career-detail",
+      "blocks": {
+        "company_intro_H6QP7K": {
+          "type": "company_intro",
+          "settings": {
+            "title": "<p><strong>Who We Are?</strong></p>",
+            "description": "<p>At Medicinal Mad Honey, we deliver authentic, high-quality mad honey and wellness products in a crowded marketplace. Through our in-house design, production, and support from our local Himalayan communities, we craft and deliver unique, natural products to customers worldwide.</p>"
+          }
+        },
+        "skills_rKGc7r": {
+          "type": "skills",
+          "settings": {
+            "title": "<p><strong>Who You Are?</strong></p>",
+            "description": "<ul><li>1-2 years of graphic design experience, with a portfolio showcasing creative projects.</li><li>Proficient in Adobe Illustrator and familiar with other design tools (e.g., Photoshop, InDesign).</li><li>Strong communication skills and ability to collaborate effectively in a team environment.</li><li>Well-organized, detail-oriented, and able to manage multiple tasks.</li><li>Creative yet analytical, with a passion for wellness and natural products.</li><li>Knowledge of branding and packaging design is a plus.</li><li>Bachelor’s degree in Graphic Design, Visual Arts, or a related field (preferred).</li></ul>"
+          }
+        },
+        "job_detail_Gwkm9D": {
+          "type": "job_detail",
+          "settings": {
+            "title": "<p><strong>What You’ll Do?</strong></p>",
+            "description": "<ul><li>Create and modify packaging designs and dielines using Adobe Illustrator for mad honey and wellness products.</li><li>Measure product dimensions and design precise packaging to ensure a secure fit and premium unboxing experience.</li><li>Evaluate and adjust customer-submitted artwork to prepare files for production.</li><li>Use templates to create visually appealing product mockups for marketing and e-commerce.</li><li>Collaborate with the marketing team to develop branding materials, social media graphics, and promotional content.</li><li>Assist with other graphic design tasks as needed to support the company’s creative vision.</li><li>Report to the Creative Director, with opportunities to learn from the company’s Founder and accelerate your career through hands-on experience.</li></ul>"
+          }
+        },
+        "benefits_zC8Ax8": {
+          "type": "benefits",
+          "settings": {
+            "title": "<p><strong>The Perks</strong></p>",
+            "description": "<ul><li>Full-time position after a 3-month trial period (20 hours per week to start).</li><li>Opportunity for career growth in a fast-growing wellness brand.</li><li>Casual dress. Want to wear jeans and a t-shirt to work? Cool. Us too.</li><li>Lots of premium coffee, snacks, and samples of our unique mad honey products.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "company_intro_H6QP7K",
+        "skills_rKGc7r",
+        "job_detail_Gwkm9D",
+        "benefits_zC8Ax8"
+      ],
+      "settings": {
+        "header_text": "<p>We are growing, again! Want to join the Medicinal Mad Honey team?</p><p>Email your resume to: <a href=\"contact@medicinalmadhoney.com\" title=\"Mail to Medicinal Mad honey\">contact@medicinalmadhoney.com</a></p>",
+        "what_are_we_looking": "<p>Medicinal Mad Honey is looking for a Junior Graphic Designer that wants to get in on the ground floor of a well-established, fast-growing organization that is disrupting the wellness industry. Adobe Illustrator proficiency, creative mindset, and meticulous attention to detail are required.</p>",
+        "valid_through": "2025-06-15",
+        "employment_type": "FULL_TIME",
+        "street_address": "123 Himalayan Way",
+        "address_locality": "Kathmandu",
+        "address_region": "Bagmati",
+        "postal_code": "44600",
+        "address_country": "NP",
+        "min_salary": 30000,
+        "max_salary": 40000,
+        "education_requirement": "bachelor degree",
+        "experience_requirement": 36
+      }
+    }
+  },
+  "order": ["main"]
+}

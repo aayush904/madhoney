@@ -1,0 +1,906 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "basmil_image_text_JpWarX": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_khNyeN": {
+          "type": "content",
+          "settings": {
+            "title": "What is Grayanotoxin?",
+            "subtitle": "",
+            "description": "<p>Grayanotoxins are a group of neurotoxins found in plants like certain Rhododendron species and Leucothoe grayana. These toxins can also be present in honey made from the nectar of these plants, commonly known as \"<a href=\"https://medicinalmadhoney.com\" target=\"_blank\" title=\"Mad honey from Nepal\">mad honey</a>.\" In Nepal and Turkey, this honey has been used both for medicinal purposes and as a recreational substance because of its effects.</p><p>The Rhododendron family includes over 750 species, many of which contain grayanotoxins (GTXs). These toxins are present in the plant's green parts, nectar, flowers, and pollen. </p><p>In Turkey, five species of rhododendrons are present, especially R. ponticum (purple flowers) and R. luteum (yellow flowers), growing from sea level up to altitudes of 3,200 meters.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_khNyeN"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "",
+        "content_width": "71%",
+        "padding": "12rem 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "icon_box_Ydximj": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_PQLXYj": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Arboreum.webp",
+            "icon_svg": "",
+            "icon_alt_text": "Rhododendron Arboreum",
+            "icon_title": "Rhododendron Arboreum",
+            "icon_description": "The bright red rhododendron flower or “lali gurans” in Nepali is a small tree widely popular in Nepal as the national flower. The flowers that grow both in low and highlands has the apt amount of grayanotoxin–a source for the recreational properties in the honey.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_b4XKJH": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Campan.webp",
+            "icon_svg": "",
+            "icon_alt_text": "Rhododendron Arboreum",
+            "icon_title": "Rhododendron Campanulatum",
+            "icon_description": "Slightly pinkish and bell-shaped, rhododendron campanulatum originates from the Himalayas and Tibet. The flowering plant belongs to the family Ericaceae and has a content of grayanotoxin in it.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_DKqrCM": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Barbatum.webp",
+            "icon_svg": "",
+            "icon_alt_text": "Rhododendron Arboreum",
+            "icon_title": "Rhododendron Barbatum",
+            "icon_description": "This species has bright red flowers and is usually found in the temperate regions of Nepal. The nectar from Rhododendron barbatum also adds to the psychoactive effects of Mad Honey.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_MpMqje": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Lepidotum.webp",
+            "icon_svg": "",
+            "icon_alt_text": "Rhododendron Arboreum",
+            "icon_title": "Rhododendron Lepidotum",
+            "icon_description": "Also known as \"Sunpati,\" it has small pinkish-white or pale yellow fragrant flowers. It grows in the subalpine regions of Nepal and is a source of Grayanotoxins in honey.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_BEHTjK": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Anthopogon.webp",
+            "icon_svg": "",
+            "icon_alt_text": "Rhododendron Arboreum",
+            "icon_title": "Rhododendron Anthopogon",
+            "icon_description": "Found at higher altitudes, it has small white to pale pink flowers and is locally used in traditional lmedicine. The nectar from Rhododendron anthopogon contains Grayanotoxins that bring out the best in the honey.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_QmwBbh": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Luteum.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "Rhododendron Luteum",
+            "icon_description": "Known for its beauty, yellow azalea or honeysuckle azalea also contains grayanotoxins—natural compounds that give certain honeys, like mad honey, their unique and potent effects.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_NVL7J3": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "image",
+            "icon_image": "shopify://shop_images/Rhododendron_Ponticum.webp",
+            "icon_svg": "",
+            "icon_alt_text": "",
+            "icon_title": "Rhododendron Ponticum",
+            "icon_description": "A lavender-colored flowering plant in the Rhododendron genus of the Ericaceae family produces the rare, reddish-brown honey known as mad honey. Found only in limited regions, this honey owes its fame to the plant’s grayanotoxin content.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_PQLXYj",
+        "icon_box_b4XKJH",
+        "icon_box_DKqrCM",
+        "icon_box_MpMqje",
+        "icon_box_BEHTjK",
+        "icon_box_QmwBbh",
+        "icon_box_NVL7J3"
+      ],
+      "custom_css": [
+        ".icon-box-section .iconbox {border: 1px solid #dddddd; text-align-last: center; padding: 16px; padding-bottom: 2.4rem;}",
+        ".icon-box-section .iconbox img {width: 100%; aspect-ratio: 24 / 18; object-fit: contain; background: #eee;}",
+        ".icon-box-section .iconbox h3 {font-size: 2rem; line-height: 2.2rem; text-align: center;}",
+        ".icon-box-section .iconbox p {text-align: justify;}",
+        "@media (max-width: 768px) {.iconbox-wrapper.flex .slick-track.slick-track {gap: 2rem !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Which Rhododendron Nectar Contains Grayanotoxin?",
+        "section_description": "",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "true",
+        "content_iconbox_gap": "4rem",
+        "iconbox_gap": "8rem",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "0 16px 12rem 16px",
+        "margin": "auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "70.86%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "basmil_image_text_nimQjy": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_3qh8B4": {
+          "type": "content",
+          "settings": {
+            "title": "Current Research and Studies<br> on Grayanotoxin Toxicology",
+            "subtitle": "",
+            "description": "<p>Ongoing research on grayanotoxins mainly focuses on the effects of the toxin on the human body. There exist numerous studies that show how grayanotoxins can alter the mind and body. Researchers showcase how the dosages that an individual can take varyingly affect him. </p><p>Several studies differentiate the several types of grayanotoxins and their respective symptoms. Understanding the mechanism of how grayanotoxin works, and how there are various forms of grayanotoxins may reduce the negative image that the neurotoxin carries. </p><p>Ethnobotanists are documenting these practices, aiming to guide safer modern use in accordance to the current scenario. Whereas, public health research is working to improve the diagnosis and treatment of wild honey poisoning and develop guidelines to protect consumers.</p><p>Environmental and agricultural research shows how factors like altitude and climate influence the concentration of grayanotoxins in Rhododendron plants, as well as how these toxins affect bee populations.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_3qh8B4"
+      ],
+      "custom_css": [
+        "h2 {color: #e0af7e;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "85.35%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "dark",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#ffffff"
+      }
+    },
+    "icon_box_JW6jfX": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_xiLNnG": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg viewbox=\"0 0 472 221\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M267.548 143.052L234.681 127.307L226.564 91.9297L249.312 63.5586H285.794L308.537 91.9297L300.42 127.307L267.553 143.052H267.548ZM236.534 125.836L267.548 140.693L298.562 125.836L306.219 92.4503L284.758 65.6781H250.338L228.877 92.4503L236.534 125.836Z\" fill=\"#BE935F\"></path>\n<path d=\"M307.762 184.396L271.355 177.825L266.389 141.348L299.726 125.375L325.298 151.983L307.762 184.396ZM273.261 176.008L306.614 182.027L322.676 152.333L299.25 127.957L268.706 142.591L273.256 176.008H273.261Z\" fill=\"#BE935F\"></path>\n<path d=\"M210.529 149.966L176.594 139.555L168.691 105.112L194.723 81.0859L228.658 91.4974L236.561 125.94L210.529 149.966ZM178.399 137.887L209.974 147.576L234.196 125.218L226.843 93.1706L195.268 83.4816L171.046 105.84L178.399 137.887Z\" fill=\"#BE935F\"></path>\n<path d=\"M149.109 106.741L170.442 105.477L149.537 109.896L149.109 106.741Z\" fill=\"#BE935F\"></path>\n<path d=\"M232.801 147.614L234.403 126.414L236.005 147.614H232.801Z\" fill=\"#BE935F\"></path>\n<path d=\"M312.872 202.708L306.902 182.289L315.873 201.587L312.872 202.708Z\" fill=\"#BE935F\"></path>\n<path d=\"M269.149 121.844L267.547 143.044L265.945 121.844H269.149Z\" fill=\"#BE935F\"></path>\n<path d=\"M314.892 119.799L295.412 128.543L313.359 117L314.892 119.799Z\" fill=\"#BE935F\"></path>\n<path d=\"M298.974 49.6976L284.434 65.2776L296.47 47.7109L298.974 49.6976Z\" fill=\"#BE935F\"></path>\n<path d=\"M248.373 44.5L249.643 65.7212L245.195 44.925L248.373 44.5Z\" fill=\"#BE935F\"></path>\n<path d=\"M161.044 58.6289L174.613 75.0588L158.727 60.8334L161.044 58.6289Z\" fill=\"#BE935F\"></path>\n<path d=\"M184.726 57.1414L173.213 75.0586L181.901 55.6328L184.726 57.1414Z\" fill=\"#BE935F\"></path>\n<path d=\"M137.303 105.5V109.696H142.178V105.5H143.492V115.524H142.178V110.823H137.303V115.524H136V105.5H137.303Z\" fill=\"black\"></path>\n<path d=\"M231.91 151.461V155.657H236.786V151.461H238.099V161.485H236.786V156.784H231.91V161.485H230.607V151.461H231.91Z\" fill=\"black\"></path>\n<path d=\"M264.52 108.906V113.103H269.395V108.906H270.709V118.93H269.395V114.229H264.52V118.93H263.217V108.906H264.52Z\" fill=\"black\"></path>\n<path d=\"M322.267 209.479C322.267 212.932 320.157 214.759 317.589 214.759C315.02 214.759 313.061 212.709 313.061 209.67C313.061 206.489 315.047 204.406 317.738 204.406C320.43 204.406 322.267 206.504 322.267 209.479ZM314.449 209.644C314.449 211.785 315.613 213.702 317.664 213.702C319.714 213.702 320.894 211.811 320.894 209.538C320.894 207.546 319.848 205.463 317.68 205.463C315.512 205.463 314.449 207.439 314.449 209.644Z\" fill=\"black\"></path>\n<path d=\"M325.256 204.57V208.767H330.131V204.57H331.445V214.594H330.131V209.893H325.256V214.594H323.953V204.57H325.256Z\" fill=\"black\"></path>\n<path d=\"M250.632 37.9596C250.632 41.4124 248.522 43.2397 245.954 43.2397C243.386 43.2397 241.426 41.1893 241.426 38.1509C241.426 34.969 243.412 32.8867 246.104 32.8867C248.795 32.8867 250.632 34.9849 250.632 37.9596ZM242.814 38.1243C242.814 40.265 243.978 42.1826 246.029 42.1826C248.079 42.1826 249.259 40.2916 249.259 38.0181C249.259 36.0261 248.213 33.9438 246.045 33.9438C243.877 33.9438 242.814 35.9198 242.814 38.1243Z\" fill=\"black\"></path>\n<path d=\"M253.621 33.0508V37.2472H258.497V33.0508H259.81V43.0744H258.497V38.3734H253.621V43.0744H252.318V33.0508H253.621Z\" fill=\"black\"></path>\n<path d=\"M139.865 49.7031V53.8996H144.741V49.7031H146.054V59.7268H144.741V55.0257H139.865V59.7268H138.562V49.7031H139.865Z\" fill=\"black\"></path>\n<path d=\"M156.927 54.612C156.927 58.0647 154.817 59.8921 152.249 59.8921C149.68 59.8921 147.721 57.8416 147.721 54.8032C147.721 51.6213 149.707 49.5391 152.398 49.5391C155.09 49.5391 156.927 51.6373 156.927 54.612ZM149.104 54.7766C149.104 56.9174 150.268 58.835 152.318 58.835C154.369 58.835 155.549 56.9439 155.549 54.6704C155.549 52.6784 154.502 50.5961 152.334 50.5961C150.166 50.5961 149.104 52.5722 149.104 54.7766Z\" fill=\"black\"></path>\n<path d=\"M190.798 49.1354C190.798 52.5882 188.689 54.4155 186.12 54.4155C183.552 54.4155 181.592 52.3651 181.592 49.3266C181.592 46.1448 183.578 44.0625 186.27 44.0625C188.961 44.0625 190.798 46.1607 190.798 49.1354ZM182.975 49.3001C182.975 51.4408 184.139 53.3584 186.189 53.3584C188.24 53.3584 189.42 51.4674 189.42 49.1938C189.42 47.2019 188.373 45.1196 186.205 45.1196C184.037 45.1196 182.975 47.0956 182.975 49.3001Z\" fill=\"black\"></path>\n<path d=\"M222.975 36.7487C222.975 40.2015 220.866 42.0288 218.298 42.0288C215.729 42.0288 213.77 39.9784 213.77 36.9399C213.77 33.7581 215.756 31.6758 218.447 31.6758C221.139 31.6758 222.975 33.774 222.975 36.7487ZM215.153 36.9134C215.153 39.0541 216.317 40.9717 218.367 40.9717C220.418 40.9717 221.598 39.0806 221.598 36.8071C221.598 34.8151 220.551 32.7329 218.383 32.7329C216.215 32.7329 215.153 34.7089 215.153 36.9134Z\" fill=\"black\"></path>\n<path d=\"M326.821 113.714C326.821 117.166 324.712 118.994 322.143 118.994C319.575 118.994 317.615 116.943 317.615 113.905C317.615 110.723 319.602 108.641 322.293 108.641C324.984 108.641 326.821 110.739 326.821 113.714ZM318.998 113.878C318.998 116.019 320.162 117.937 322.213 117.937C324.263 117.937 325.444 116.045 325.444 113.772C325.444 111.78 324.397 109.698 322.229 109.698C320.061 109.698 318.998 111.674 318.998 113.878Z\" fill=\"black\"></path>\n<path d=\"M329.811 108.805V113.001H334.686V108.805H336V118.828H334.686V114.127H329.811V118.828H328.508V108.805H329.811Z\" fill=\"black\"></path>\n<path d=\"M307.245 42.9049C307.245 46.3577 305.136 48.185 302.567 48.185C299.999 48.185 298.039 46.1346 298.039 43.0962C298.039 39.9143 300.025 37.832 302.717 37.832C305.408 37.832 307.245 39.9303 307.245 42.9049ZM299.422 43.0696C299.422 45.2103 300.586 47.1279 302.637 47.1279C304.687 47.1279 305.867 45.2369 305.867 42.9634C305.867 40.9714 304.821 38.8891 302.653 38.8891C300.485 38.8891 299.422 40.8652 299.422 43.0696Z\" fill=\"black\"></path>\n<path d=\"M310.235 37.9961V42.1925H315.11V37.9961H316.423V48.0197H315.11V43.3187H310.235V48.0197H308.932V37.9961H310.235Z\" fill=\"black\"></path>\n<path d=\"M170.805 105.416L168.686 105.151L172.808 73.0293L216.194 68.8594L228.69 91.8282L226.816 92.8375L214.988 71.1116L174.709 74.9787L170.805 105.416Z\" fill=\"#BE935F\"></path>\n<path d=\"M191.69 42.1885L190.841 41.5458L197.585 32.6801L186.014 7.19339L186.986 6.75781L198.819 32.8182L191.69 42.1885Z\" fill=\"black\"></path>\n<path d=\"M196.853 33.6701L196.682 34.7188L210.544 36.9596L210.715 35.9109L196.853 33.6701Z\" fill=\"black\"></path>\n<path d=\"M197.382 30.3888L197.211 31.4375L211.073 33.6759L211.245 32.6273L197.382 30.3888Z\" fill=\"black\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Grayanotoxin I (GTX I)",
+            "icon_description": "Grayanotoxin I (GTX I) is a crucial neurotoxin in the leaves of Rhododen-dron flowers that acts as a shield for insect and vertebrate herbivores. Grayanotoxin I (GTX I) is present in the nectar of various Rhododendron species, with a phenotypic correlation between GTX I concentrations in leaves and nectar, showing high interspecific variation and significantly higher concentrations in leaves compared to nectar or petals.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_WKMFV3": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg viewbox=\"0 0 472 221\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_7046_20596)\">\n<path d=\"M163.431 118.276L149.608 88.6474L173.507 66.3349L202.102 82.1776L195.872 114.278L163.426 118.275L163.431 118.276ZM151.772 89.0644L164.498 116.347L194.369 112.668L200.105 83.1106L173.776 68.5243L151.765 89.0691L151.772 89.0644Z\" fill=\"#BE935F\"></path>\n<path d=\"M214.598 138.568L194.138 113.626L200.875 82.0714L229.734 67.665L258.983 81.2517L266.599 112.604L246.844 138.109L214.593 138.561L214.598 138.568ZM196.064 113.158L215.432 136.767L245.963 136.334L264.672 112.187L257.46 82.5058L229.767 69.6427L202.441 83.2821L196.059 113.157L196.064 113.158Z\" fill=\"#BE935F\"></path>\n<path d=\"M296.261 121.552L265.03 112.394L257.35 80.7562L280.896 58.2746L312.128 67.4323L319.807 99.0705L296.261 121.552ZM266.515 110.969L295.772 119.548L317.833 98.4922L310.637 68.8566L281.379 60.2772L259.318 81.3333L266.515 110.969Z\" fill=\"#BE935F\"></path>\n<path d=\"M300.844 138.375L296.609 120.641L302.558 137.875L300.844 138.375Z\" fill=\"#BE935F\"></path>\n<path d=\"M299.694 171.12L304.038 153.413L301.444 171.459L299.694 171.12Z\" fill=\"#BE935F\"></path>\n<path d=\"M189.027 137.98L194.891 113.682L190.773 138.336L189.027 137.98Z\" fill=\"#BE935F\"></path>\n<path d=\"M209.13 162.25L214.994 137.951L210.876 162.606L209.13 162.25Z\" fill=\"#BE935F\"></path>\n<path d=\"M212.445 52.2916L230.776 69.2734L211.279 53.6426L212.445 52.2916Z\" fill=\"#BE935F\"></path>\n<path d=\"M128.485 76.8855L150.421 88.8477L127.688 78.4756L128.485 76.8855Z\" fill=\"#BE935F\"></path>\n<path d=\"M139.02 118.893L163.98 117.657L139.172 120.67L139.02 118.893Z\" fill=\"#BE935F\"></path>\n<path d=\"M158.115 141.978L163.296 117.522L159.872 142.282L158.115 141.978Z\" fill=\"#BE935F\"></path>\n<path d=\"M245.025 39.8045L229.683 69.0832L243.427 39.0179L245.025 39.8045Z\" fill=\"#BE935F\"></path>\n<path d=\"M336.949 125.454L319.273 98.3633L338.41 124.442L336.949 125.454Z\" fill=\"#BE935F\"></path>\n<path d=\"M309.019 147.188C308.247 150.972 305.54 152.507 302.741 151.936C299.941 151.365 298.264 148.682 298.943 145.352C299.654 141.864 302.284 140.023 305.217 140.622C308.151 141.22 309.684 143.928 309.019 147.188ZM300.462 145.631C299.983 147.978 300.824 150.338 303.058 150.794C305.293 151.249 307.002 149.439 307.51 146.947C307.955 144.764 307.28 142.249 304.917 141.767C302.554 141.285 300.954 143.215 300.462 145.631Z\" fill=\"black\"></path>\n<path d=\"M347.039 133.309C346.267 137.094 343.56 138.628 340.76 138.057C337.961 137.486 336.283 134.803 336.962 131.473C337.673 127.985 340.304 126.145 343.237 126.743C346.17 127.341 347.703 130.049 347.039 133.309ZM338.483 131.746C338.004 134.093 338.844 136.453 341.079 136.909C343.314 137.365 345.023 135.554 345.531 133.062C345.976 130.879 345.301 128.364 342.938 127.882C340.575 127.401 338.975 129.33 338.483 131.746Z\" fill=\"black\"></path>\n<path d=\"M351.395 128.594L350.457 133.194L355.77 134.277L356.708 129.678L358.14 129.97L355.9 140.956L354.468 140.664L355.519 135.511L350.205 134.428L349.155 139.581L347.734 139.291L349.975 128.305L351.395 128.594Z\" fill=\"black\"></path>\n<path d=\"M304.316 187.249C303.739 187.404 302.644 187.454 301.311 187.182C298.215 186.551 296.286 184.12 297.021 180.516C297.756 176.912 300.525 175.221 303.936 175.916C305.303 176.195 306.111 176.663 306.443 176.937L305.864 178.026C305.382 177.654 304.653 177.306 303.739 177.119C301.167 176.595 299.119 177.893 298.532 180.775C297.983 183.465 299.179 185.51 301.85 186.055C302.712 186.23 303.633 186.23 304.259 186.073L304.321 187.256L304.316 187.249Z\" fill=\"black\"></path>\n<path d=\"M316.207 184.204C315.435 187.988 312.728 189.522 309.928 188.951C307.129 188.38 305.451 185.698 306.13 182.367C306.841 178.88 309.472 177.039 312.405 177.637C315.338 178.235 316.871 180.943 316.207 184.204ZM307.649 182.647C307.171 184.993 308.011 187.354 310.246 187.809C312.481 188.265 314.19 186.455 314.698 183.963C315.143 181.779 314.468 179.265 312.105 178.783C309.742 178.301 308.142 180.231 307.649 182.647Z\" fill=\"black\"></path>\n<path d=\"M324.652 191.397C324.075 191.553 322.98 191.602 321.647 191.33C318.551 190.699 316.622 188.268 317.357 184.664C318.092 181.06 320.861 179.369 324.272 180.065C325.639 180.344 326.447 180.811 326.779 181.085L326.2 182.174C325.718 181.803 324.989 181.454 324.075 181.268C321.502 180.743 319.455 182.042 318.868 184.924C318.319 187.614 319.515 189.659 322.186 190.203C323.048 190.379 323.969 190.379 324.595 190.221L324.657 191.404L324.652 191.397Z\" fill=\"black\"></path>\n<path d=\"M330.016 181.415L329.078 186.014L334.392 187.098L335.329 182.498L336.761 182.79L334.521 193.776L333.089 193.484L334.14 188.332L328.826 187.248L327.776 192.401L326.356 192.111L328.596 181.125L330.016 181.415Z\" fill=\"black\"></path>\n<path d=\"M336.924 190.589C337.346 190.42 338.104 190.302 338.901 190.465C340.304 190.751 340.739 191.621 340.579 192.402C340.447 193.054 339.862 193.511 339.023 193.612L339.016 193.647C339.886 193.958 340.376 194.707 340.206 195.54C340 196.553 338.903 197.263 337.245 196.925C336.465 196.766 335.786 196.409 335.481 196.092L335.938 195.336C336.163 195.57 336.747 195.944 337.364 196.07C338.36 196.273 338.916 195.774 339.008 195.265C339.174 194.45 338.379 193.948 337.512 193.771L337.069 193.681L337.223 192.93L337.676 193.023C338.282 193.146 339.2 193.042 339.373 192.283C339.453 191.893 339.245 191.426 338.511 191.276C337.924 191.157 337.338 191.292 337.04 191.419L336.917 190.594L336.924 190.589Z\" fill=\"black\"></path>\n<path d=\"M193.277 147.516C192.505 151.301 189.798 152.835 186.999 152.264C184.199 151.693 182.521 149.01 183.2 145.68C183.912 142.192 186.542 140.352 189.475 140.95C192.409 141.548 193.942 144.256 193.277 147.516ZM184.721 145.953C184.242 148.3 185.083 150.66 187.317 151.116C189.552 151.572 191.261 149.761 191.769 147.269C192.214 145.086 191.539 142.571 189.176 142.089C186.813 141.608 185.213 143.537 184.721 145.953Z\" fill=\"black\"></path>\n<path d=\"M197.633 142.801L196.695 147.401L202.009 148.484L202.947 143.885L204.378 144.177L202.138 155.163L200.706 154.871L201.757 149.719L196.443 148.635L195.393 153.788L193.973 153.498L196.213 142.512L197.633 142.801Z\" fill=\"black\"></path>\n<path d=\"M213.544 171.817C212.773 175.601 210.066 177.135 207.266 176.565C204.467 175.994 202.789 173.311 203.468 169.981C204.179 166.493 206.81 164.652 209.743 165.251C212.676 165.849 214.209 168.557 213.544 171.817ZM204.987 170.26C204.509 172.606 205.349 174.967 207.584 175.423C209.819 175.878 211.528 174.068 212.036 171.576C212.481 169.393 211.806 166.878 209.443 166.396C207.08 165.914 205.48 167.844 204.987 170.26Z\" fill=\"black\"></path>\n<path d=\"M217.901 167.102L216.963 171.702L222.276 172.785L223.214 168.186L224.646 168.477L222.406 179.464L220.974 179.172L222.025 174.019L216.711 172.936L215.66 178.088L214.24 177.799L216.48 166.812L217.901 167.102Z\" fill=\"black\"></path>\n<path d=\"M194.102 37.8989L193.164 42.4984L198.478 43.5819L199.415 38.9824L200.847 39.2744L198.607 50.2607L197.175 49.9688L198.226 44.8162L192.912 43.7327L191.862 48.8853L190.441 48.5957L192.682 37.6094L194.102 37.8989Z\" fill=\"black\"></path>\n<path d=\"M211.601 47.0709C210.829 50.8553 208.122 52.3893 205.323 51.8185C202.523 51.2477 200.846 48.5648 201.525 45.2346C202.236 41.7471 204.866 39.9063 207.8 40.5044C210.733 41.1025 212.266 43.8105 211.601 47.0709ZM203.044 45.514C202.565 47.8603 203.406 50.2208 205.64 50.6765C207.875 51.1322 209.584 49.3218 210.092 46.8299C210.538 44.6466 209.862 42.1318 207.499 41.65C205.136 41.1682 203.537 43.0978 203.044 45.514Z\" fill=\"black\"></path>\n<path d=\"M109.209 65.6958L108.271 70.2953L113.585 71.3788L114.523 66.7793L115.955 67.0712L113.714 78.0576L112.283 77.7656L113.333 72.6131L108.02 71.5296L106.969 76.6822L105.549 76.3926L107.789 65.4062L109.209 65.6958Z\" fill=\"black\"></path>\n<path d=\"M126.703 74.8678C125.931 78.6521 123.224 80.1862 120.424 79.6154C117.625 79.0446 115.947 76.3617 116.626 73.0314C117.337 69.544 119.968 67.7032 122.901 68.3013C125.834 68.8994 127.367 71.6074 126.703 74.8678ZM118.147 73.3051C117.668 75.6514 118.508 78.0119 120.743 78.4676C122.978 78.9233 124.687 77.1129 125.195 74.621C125.64 72.4377 124.965 69.9228 122.602 69.441C120.239 68.9592 118.639 70.8889 118.147 73.3051Z\" fill=\"black\"></path>\n<path d=\"M284.237 140.708L265.556 112.278L267.046 111.302L285.009 138.646L337.521 124.065L337.613 124.06L370.362 121.641L370.497 123.415L337.828 125.826L284.237 140.708Z\" fill=\"#BE935F\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_7046_20596\">\n<rect width=\"269\" height=\"142\" fill=\"white\" transform=\"translate(118.371 13.7578) rotate(11.5249)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "",
+            "icon_title": "Grayanotoxin II (GTX II)",
+            "icon_description": "Grayanotoxin II reduces the natural rhythm of the sinoatrial node by alteri-ng the cell membrane’s permeability to sodium ions and is considered the least toxic form of all grayanotoxins. It requires larger doses to produce si-milar effects, resulting in milder symptoms that develop more slowly and have temporary effects.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_PzU3KQ": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg viewbox=\"0 0 473 220\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> \n<g clip-path=\"url(#clip0_13041_15859)\">\n<path d=\"M274.511 166.09C273.974 166.358 272.905 166.627 271.537 166.627C268.361 166.627 265.973 164.621 265.973 160.925C265.973 157.229 268.361 155.008 271.86 155.008C273.263 155.008 274.153 155.306 274.535 155.509L274.183 156.698C273.633 156.429 272.845 156.232 271.908 156.232C269.269 156.232 267.513 157.922 267.513 160.877C267.513 163.636 269.101 165.409 271.842 165.409C272.726 165.409 273.633 165.224 274.218 164.943L274.517 166.096L274.511 166.09Z\" fill=\"black\"></path>\n<path d=\"M277.789 155.188V159.904H283.24V155.188H284.709V166.454H283.24V161.17H277.789V166.454H276.332V155.188H277.789Z\" fill=\"black\"></path>\n<path d=\"M286.436 162.83C286.818 162.579 287.54 162.311 288.358 162.311C289.797 162.311 290.4 163.081 290.4 163.881C290.4 164.55 289.917 165.117 289.111 165.386V165.421C290.03 165.553 290.663 166.192 290.663 167.045C290.663 168.084 289.726 169.004 288.024 169.004C287.224 169.004 286.483 168.789 286.119 168.538L286.418 167.702C286.686 167.887 287.337 168.138 287.97 168.138C288.991 168.138 289.439 167.535 289.427 167.016C289.427 166.18 288.543 165.845 287.654 165.845H287.2V165.075H287.666C288.287 165.075 289.17 164.788 289.188 164.006C289.188 163.606 288.89 163.188 288.137 163.188C287.534 163.188 286.985 163.439 286.716 163.624L286.43 162.836L286.436 162.83Z\" fill=\"black\"></path>\n<path d=\"M326.629 68.683C326.134 68.9457 325.149 69.2144 323.889 69.2144C320.963 69.2144 318.76 67.2321 318.76 63.578C318.76 59.9238 320.963 57.7266 324.181 57.7266C325.477 57.7266 326.289 58.0251 326.647 58.2221L326.325 59.3924C325.817 59.1297 325.095 58.9327 324.229 58.9327C321.799 58.9327 320.181 60.5985 320.181 63.5242C320.181 66.2529 321.644 68.0023 324.169 68.0023C324.987 68.0023 325.817 67.8232 326.355 67.5426L326.629 68.683Z\" fill=\"black\"></path>\n<path d=\"M329.644 57.9121V62.5753H334.666V57.9121H336.021V69.0537H334.666V63.8292H329.644V69.0537H328.307V57.9121H329.644Z\" fill=\"black\"></path>\n<path d=\"M337.603 65.4647C337.955 65.2139 338.618 64.9512 339.376 64.9512C340.702 64.9512 341.257 65.7095 341.257 66.5036C341.257 67.1663 340.809 67.7276 340.069 67.9903V68.0261C340.917 68.1575 341.502 68.7844 341.502 69.6263C341.502 70.6533 340.642 71.5609 339.072 71.5609C338.331 71.5609 337.657 71.3459 337.316 71.1011L337.591 70.2771C337.836 70.4563 338.439 70.707 339.024 70.707C339.961 70.707 340.379 70.11 340.362 69.6024C340.362 68.7785 339.544 68.4441 338.731 68.4441H338.314V67.6858H338.743C339.311 67.6858 340.129 67.4052 340.147 66.629C340.147 66.2349 339.872 65.8169 339.179 65.8169C338.624 65.8169 338.116 66.0677 337.872 66.2468L337.609 65.4706L337.603 65.4647Z\" fill=\"black\"></path>\n<path d=\"M292.166 47.1465V51.8634H297.617V47.1465H299.086V58.4134H297.617V53.1292H292.166V58.4134H290.709V47.1465H292.166Z\" fill=\"black\"></path>\n<path d=\"M300.813 54.789C301.195 54.5382 301.917 54.2695 302.735 54.2695C304.174 54.2695 304.777 55.0398 304.777 55.8399C304.777 56.5086 304.294 57.0758 303.487 57.3445V57.3803C304.407 57.5117 305.04 58.1506 305.04 59.0044C305.04 60.0433 304.102 60.9628 302.401 60.9628C301.601 60.9628 300.86 60.7479 300.496 60.4971L300.795 59.6612C301.063 59.8463 301.714 60.0971 302.347 60.0971C303.368 60.0971 303.816 59.494 303.804 58.9745C303.804 58.1386 302.92 57.8043 302.031 57.8043H301.577V57.034H302.043C302.663 57.034 303.547 56.7474 303.565 55.9652C303.565 55.5652 303.267 55.1472 302.508 55.1472C301.905 55.1472 301.356 55.398 301.087 55.5831L300.801 54.795L300.813 54.789Z\" fill=\"black\"></path>\n<path d=\"M314.587 58.0486C314.05 58.3173 312.981 58.586 311.614 58.586C308.437 58.586 306.049 56.5798 306.049 52.8839C306.049 49.1879 308.437 46.9668 311.936 46.9668C313.339 46.9668 314.229 47.2653 314.611 47.4683L314.259 48.6565C313.709 48.3879 312.921 48.1908 311.984 48.1908C309.345 48.1908 307.583 49.8806 307.583 52.8361C307.583 55.5946 309.172 57.368 311.912 57.368C312.796 57.368 313.703 57.1829 314.289 56.9022L314.587 58.0546V58.0486Z\" fill=\"black\"></path>\n<path d=\"M124.637 64.1523V68.8693H130.088V64.1523H131.557V75.4193H130.088V70.1351H124.637V75.4193H123.18V64.1523H124.637Z\" fill=\"black\"></path>\n<path d=\"M133.283 71.7949C133.665 71.5441 134.388 71.2754 135.206 71.2754C136.645 71.2754 137.248 72.0456 137.248 72.8457C137.248 73.5144 136.764 74.0817 135.958 74.3504V74.3862C136.878 74.5175 137.511 75.1564 137.511 76.0103C137.511 77.0492 136.573 77.9687 134.871 77.9687C134.071 77.9687 133.331 77.7537 132.967 77.503L133.265 76.667C133.534 76.8521 134.185 77.1029 134.818 77.1029C135.839 77.1029 136.287 76.4999 136.275 75.9804C136.275 75.1445 135.391 74.8101 134.501 74.8101H134.048V74.0399H134.513C135.134 74.0399 136.018 73.7533 136.036 72.9711C136.036 72.5711 135.737 72.1531 134.985 72.1531C134.382 72.1531 133.833 72.4039 133.564 72.589L133.277 71.8008L133.283 71.7949Z\" fill=\"black\"></path>\n<path d=\"M147.058 75.0545C146.52 75.3232 145.452 75.5919 144.084 75.5919C140.908 75.5919 138.52 73.5857 138.52 69.8897C138.52 66.1938 140.908 63.9727 144.407 63.9727C145.81 63.9727 146.7 64.2712 147.082 64.4742L146.729 65.6624C146.18 65.3937 145.392 65.1967 144.455 65.1967C141.815 65.1967 140.06 66.8864 140.06 69.842C140.06 72.6005 141.648 74.3738 144.389 74.3738C145.273 74.3738 146.18 74.1887 146.765 73.9081L147.064 75.0605L147.058 75.0545Z\" fill=\"black\"></path>\n<path d=\"M222.617 167.549V172.266H228.068V167.549H229.537V178.816H228.068V173.532H222.617V178.816H221.16V167.549H222.617Z\" fill=\"black\"></path>\n<path d=\"M241.694 173.065C241.694 176.946 239.336 179 236.464 179C233.592 179 231.4 176.696 231.4 173.28C231.4 169.704 233.622 167.363 236.631 167.363C239.64 167.363 241.694 169.722 241.694 173.065ZM232.953 173.251C232.953 175.657 234.254 177.812 236.547 177.812C238.84 177.812 240.16 175.687 240.16 173.131C240.16 170.892 238.989 168.551 236.565 168.551C234.141 168.551 232.953 170.773 232.953 173.251Z\" fill=\"black\"></path>\n<path d=\"M188.811 149.581C188.811 153.462 186.453 155.516 183.581 155.516C180.709 155.516 178.518 153.211 178.518 149.796C178.518 146.219 180.739 143.879 183.748 143.879C186.757 143.879 188.811 146.237 188.811 149.581ZM180.07 149.766C180.07 152.172 181.372 154.328 183.664 154.328C185.957 154.328 187.277 152.202 187.277 149.647C187.277 147.408 186.106 145.067 183.682 145.067C181.258 145.067 180.07 147.288 180.07 149.766Z\" fill=\"black\"></path>\n<path d=\"M192.16 144.064V148.781H197.611V144.064H199.08V155.331H197.611V150.047H192.16V155.331H190.703V144.064H192.16Z\" fill=\"black\"></path>\n<path d=\"M109.357 107.32V112.037H114.809V107.32H116.277V118.587H114.809V113.303H109.357V118.587H107.9V107.32H109.357Z\" fill=\"black\"></path>\n<path d=\"M128.428 112.837C128.428 116.718 126.07 118.772 123.198 118.772C120.326 118.772 118.135 116.467 118.135 113.052C118.135 109.475 120.356 107.135 123.365 107.135C126.374 107.135 128.428 109.493 128.428 112.837ZM119.687 113.022C119.687 115.428 120.989 117.584 123.282 117.584C125.574 117.584 126.894 115.458 126.894 112.903C126.894 110.664 125.724 108.323 123.3 108.323C120.875 108.323 119.687 110.544 119.687 113.022Z\" fill=\"black\"></path>\n<path d=\"M252.753 46.7041C252.753 50.5851 250.394 52.6391 247.522 52.6391C244.65 52.6391 242.459 50.3343 242.459 46.919C242.459 43.3425 244.68 41.002 247.689 41.002C250.699 41.002 252.753 43.3604 252.753 46.7041ZM244.011 46.8892C244.011 49.2954 245.313 51.4509 247.606 51.4509C249.899 51.4509 251.218 49.3253 251.218 46.7698C251.218 44.5307 250.048 42.1901 247.624 42.1901C245.2 42.1901 244.011 44.4113 244.011 46.8892Z\" fill=\"black\"></path>\n<path d=\"M256.096 41.1875V45.9044H261.547V41.1875H263.016V52.4544H261.547V47.1703H256.096V52.4544H254.639V41.1875H256.096Z\" fill=\"black\"></path>\n<path d=\"M276.266 65.6377C276.266 69.5187 273.908 71.5727 271.036 71.5727C268.164 71.5727 265.973 69.2679 265.973 65.8526C265.973 62.2761 268.194 59.9355 271.203 59.9355C274.212 59.9355 276.266 62.294 276.266 65.6377ZM267.525 65.8228C267.525 68.229 268.827 70.3845 271.119 70.3845C273.412 70.3845 274.732 68.2589 274.732 65.7034C274.732 63.4643 273.562 61.1237 271.137 61.1237C268.713 61.1237 267.525 63.3449 267.525 65.8228Z\" fill=\"black\"></path>\n<path d=\"M279.609 60.1211V64.838H285.061V60.1211H286.529V71.388H285.061V66.1039H279.609V71.388H278.152V60.1211H279.609Z\" fill=\"black\"></path>\n<path d=\"M353.975 112.03C353.975 115.911 351.617 117.965 348.745 117.965C345.873 117.965 343.682 115.661 343.682 112.245C343.682 108.669 345.903 106.328 348.912 106.328C351.921 106.328 353.975 108.687 353.975 112.03ZM345.234 112.215C345.234 114.622 346.536 116.777 348.828 116.777C351.121 116.777 352.441 114.651 352.441 112.096C352.441 109.857 351.271 107.516 348.846 107.516C346.422 107.516 345.234 109.737 345.234 112.215Z\" fill=\"black\"></path>\n<path d=\"M357.318 106.514V111.231H362.77V106.514H364.238V117.781H362.77V112.496H357.318V117.781H355.861V106.514H357.318Z\" fill=\"black\"></path>\n<path d=\"M246.782 144.876L216.229 137.138L203.23 108.43L217.572 80.3674L248.453 74.0801L272.623 94.3092L271.877 125.817L246.782 144.876ZM217.937 135.108L246.256 142.279L269.519 124.611L270.211 95.4019L247.809 76.6535L219.179 82.481L205.882 108.496L217.931 135.108H217.937Z\" fill=\"#BE935F\"></path>\n<path d=\"M202.209 164.729L168.718 161.863L155.338 131.304L205.14 106.848L218.426 136.188L202.209 164.729ZM170.337 159.606L200.889 162.221L215.745 136.069L203.982 110.084L158.443 132.445L170.337 159.606Z\" fill=\"#BE935F\"></path>\n<path d=\"M300.088 136.881L269.625 126.181L270.389 93.9031L301.324 84.6543L319.678 111.218L300.088 136.881ZM272.055 124.498L299.246 134.051L316.729 111.141L300.345 87.4307L272.736 95.6884L272.055 124.498Z\" fill=\"#BE935F\"></path>\n<path d=\"M340.554 112.638L318.211 110.913L340.607 110.25L340.554 112.638Z\" fill=\"#BE935F\"></path>\n<path d=\"M300.584 63.8926L300.834 86.0443L298.201 64.0478L300.584 63.8926Z\" fill=\"#BE935F\"></path>\n<path d=\"M317.463 70.2052L301.975 86.0458L315.666 68.6289L317.463 70.2052Z\" fill=\"#BE935F\"></path>\n<path d=\"M277.399 73.2795L271.303 94.7386L275.07 72.748L277.399 73.2795Z\" fill=\"#BE935F\"></path>\n<path d=\"M255.468 54.2745L247.879 75.2978L253.181 53.5879L255.468 54.2745Z\" fill=\"#BE935F\"></path>\n<path d=\"M155.713 132.086L149.934 100.691L179.525 84.5938L205.349 107.569L203.767 109.355L179.191 87.4956L152.597 101.963L158.06 131.656L155.713 132.086Z\" fill=\"#BE935F\"></path>\n<path d=\"M190.404 141.317L181.012 120.02L192.535 140.243L190.404 141.317Z\" fill=\"#BE935F\"></path>\n<path d=\"M130.326 110.507L151.618 101.109L131.401 112.639L130.326 110.507Z\" fill=\"#BE935F\"></path>\n<path d=\"M235.914 162.932L246.703 142.309L238.081 163.929L235.914 162.932Z\" fill=\"#BE935F\"></path>\n<path d=\"M266.014 153.951L245.396 143.162L267.017 151.784L266.014 153.951Z\" fill=\"#BE935F\"></path>\n<path d=\"M141.874 79.8184L151.266 101.11L139.742 80.8931L141.874 79.8184Z\" fill=\"#BE935F\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_13041_15859\">\n<rect width=\"256.339\" height=\"137.998\" fill=\"white\" transform=\"translate(107.9 41.002)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "icon_alt_text": "",
+            "icon_title": "Grayanotoxin III (GTX III)",
+            "icon_description": "Ten samples of a special type of honey called \"mad honey\" from Turkey we-re tested to measure the amount of a compound called GTX-III, which can cause poisoning. GTX-III works by blocking sodium channels in the cell membrane, which affects how cells function. The concentration of GTX-III in these honey samples ranged from very low (0.701 µg/g) to high (68.754 µg/g), with the highest amount found in a sample from Artvin/Hopa (MH7), an area already known for causing grayanotoxin poisoning.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_xiLNnG",
+        "icon_box_WKMFV3",
+        "icon_box_PzU3KQ"
+      ],
+      "custom_css": [
+        ".iconbox-wrapper {flex-wrap: nowrap; justify-content: start;}",
+        "svg {margin-bottom: 4rem; width: 100%;}",
+        "@media (max-width: 768px) {.iconbox-wrapper {max-width: max-content !important; } .iconbox-wrapper.flex .slick-track.slick-track {gap: 2rem !important; margin-left: 5rem; } .slick-slide {/* min-width: 82vw; */ }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "",
+        "section_description": "",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "true",
+        "content_iconbox_gap": "0",
+        "iconbox_gap": "4.8rem",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "75%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "table_basmil_wkg6gn": {
+      "type": "table-basmil",
+      "blocks": {
+        "heading_UHaxNU": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "Feature"
+          }
+        },
+        "content_rxhkMj": {
+          "type": "content",
+          "settings": {
+            "table_content": "Potency"
+          }
+        },
+        "content_MUFFUz": {
+          "type": "content",
+          "settings": {
+            "table_content": "Toxicity"
+          }
+        },
+        "content_9ma6Mp": {
+          "type": "content",
+          "settings": {
+            "table_content": "Content"
+          }
+        },
+        "content_Ytdk73": {
+          "type": "content",
+          "settings": {
+            "table_content": "Prevalence in Mad Honey"
+          }
+        },
+        "content_HHejJr": {
+          "type": "content",
+          "settings": {
+            "table_content": "Primary Effects"
+          }
+        },
+        "content_6ycjLQ": {
+          "type": "content",
+          "settings": {
+            "table_content": "Onset   of Symptoms"
+          }
+        },
+        "content_Y3hrky": {
+          "type": "content",
+          "settings": {
+            "table_content": "Duration of Effects"
+          }
+        },
+        "content_XThbdw": {
+          "type": "content",
+          "settings": {
+            "table_content": "Sensitivity"
+          }
+        },
+        "content_wDHjbT": {
+          "type": "content",
+          "settings": {
+            "table_content": "Researches and Studies"
+          }
+        },
+        "content_z4UAnR": {
+          "type": "content",
+          "settings": {
+            "table_content": "Medicinal Use"
+          }
+        },
+        "heading_6VVDQc": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "GTX I"
+          }
+        },
+        "content_A4Dyin": {
+          "type": "content",
+          "settings": {
+            "table_content": "Higher"
+          }
+        },
+        "content_peAYRR": {
+          "type": "content",
+          "settings": {
+            "table_content": "More toxicity with stronger effects"
+          }
+        },
+        "content_xtgJmd": {
+          "type": "content",
+          "settings": {
+            "table_content": "Mostly found in higher-concentration"
+          }
+        },
+        "content_PqCbHV": {
+          "type": "content",
+          "settings": {
+            "table_content": "Causes strong psychoactive effects"
+          }
+        },
+        "content_DYaKEU": {
+          "type": "content",
+          "settings": {
+            "table_content": "Disrupts sodium channels more effectively"
+          }
+        },
+        "content_MxtcXJ": {
+          "type": "content",
+          "settings": {
+            "table_content": "Immediately after the consumption"
+          }
+        },
+        "content_YQxHaL": {
+          "type": "content",
+          "settings": {
+            "table_content": "Longer-lasting effects"
+          }
+        },
+        "content_gAdVVA": {
+          "type": "content",
+          "settings": {
+            "table_content": "Highly sensitive, even small doses cause noticeable effects"
+          }
+        },
+        "content_7ym8jT": {
+          "type": "content",
+          "settings": {
+            "table_content": "Broadly studied and documented; several studies"
+          }
+        },
+        "content_ByMDia": {
+          "type": "content",
+          "settings": {
+            "table_content": "Potential medicinal uses in lower doses"
+          }
+        },
+        "heading_RcUepq": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "GTX II"
+          }
+        },
+        "content_63KwyV": {
+          "type": "content",
+          "settings": {
+            "table_content": "Lower"
+          }
+        },
+        "content_THzpFi": {
+          "type": "content",
+          "settings": {
+            "table_content": "Less toxic, with milder effects"
+          }
+        },
+        "content_g9y43y": {
+          "type": "content",
+          "settings": {
+            "table_content": "Found in less concentration"
+          }
+        },
+        "content_enkpDU": {
+          "type": "content",
+          "settings": {
+            "table_content": "Contributes to mild psychoactive effects"
+          }
+        },
+        "content_GCFRyM": {
+          "type": "content",
+          "settings": {
+            "table_content": "Disrupts sodium channels, but less efficiently"
+          }
+        },
+        "content_TQTFCb": {
+          "type": "content",
+          "settings": {
+            "table_content": "Takes time for the symptoms show"
+          }
+        },
+        "content_MiNDM4": {
+          "type": "content",
+          "settings": {
+            "table_content": "Shorter duration of effects"
+          }
+        },
+        "content_qAmfwA": {
+          "type": "content",
+          "settings": {
+            "table_content": "Requires higher doses for noticeable effects"
+          }
+        },
+        "content_gztcY6": {
+          "type": "content",
+          "settings": {
+            "table_content": "Fewer comprehensive studies"
+          }
+        },
+        "content_N9jxHd": {
+          "type": "content",
+          "settings": {
+            "table_content": "Low medicinal uses"
+          }
+        },
+        "heading_iUfhN8": {
+          "type": "heading",
+          "settings": {
+            "table_heading": "GTX III"
+          }
+        },
+        "content_kewwgR": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate"
+          }
+        },
+        "content_Dj34m6": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate toxicity falls between GTX I and GTX II"
+          }
+        },
+        "content_pYdQtN": {
+          "type": "content",
+          "settings": {
+            "table_content": "Present in trace amounts"
+          }
+        },
+        "content_BCrwPq": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate psychoactive effects, slightly sedative"
+          }
+        },
+        "content_TTNm8E": {
+          "type": "content",
+          "settings": {
+            "table_content": "Disrupts sodium channels, but less potent than GTX I and II"
+          }
+        },
+        "content_wGEbiV": {
+          "type": "content",
+          "settings": {
+            "table_content": "Symptoms may take time, but more gradual onset"
+          }
+        },
+        "content_qnHWfL": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate duration of effects, longer than GTX II but shorter than GTX I"
+          }
+        },
+        "content_QPTUFR": {
+          "type": "content",
+          "settings": {
+            "table_content": "Moderate sensitivity, noticeable effects in moderate doses"
+          }
+        },
+        "content_wzdeEa": {
+          "type": "content",
+          "settings": {
+            "table_content": "Limited studies available, less documented than GTX I and II"
+          }
+        },
+        "content_yYjmkF": {
+          "type": "content",
+          "settings": {
+            "table_content": "Potential therapeutic benefits, but less researched"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UHaxNU",
+        "content_rxhkMj",
+        "content_MUFFUz",
+        "content_9ma6Mp",
+        "content_Ytdk73",
+        "content_HHejJr",
+        "content_6ycjLQ",
+        "content_Y3hrky",
+        "content_XThbdw",
+        "content_wDHjbT",
+        "content_z4UAnR",
+        "heading_6VVDQc",
+        "content_A4Dyin",
+        "content_peAYRR",
+        "content_xtgJmd",
+        "content_PqCbHV",
+        "content_DYaKEU",
+        "content_MxtcXJ",
+        "content_YQxHaL",
+        "content_gAdVVA",
+        "content_7ym8jT",
+        "content_ByMDia",
+        "heading_RcUepq",
+        "content_63KwyV",
+        "content_THzpFi",
+        "content_g9y43y",
+        "content_enkpDU",
+        "content_GCFRyM",
+        "content_TQTFCb",
+        "content_MiNDM4",
+        "content_qAmfwA",
+        "content_gztcY6",
+        "content_N9jxHd",
+        "heading_iUfhN8",
+        "content_kewwgR",
+        "content_Dj34m6",
+        "content_pYdQtN",
+        "content_BCrwPq",
+        "content_TTNm8E",
+        "content_wGEbiV",
+        "content_qnHWfL",
+        "content_QPTUFR",
+        "content_wzdeEa",
+        "content_yYjmkF"
+      ],
+      "custom_css": [
+        "table {background: #fff; font-family: Lato, ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", Segoe UI Symbol, \"Noto Color Emoji\";}",
+        "tr {display: flex;}",
+        "th {text-align: center; text-transform: uppercase;}",
+        "td,th {text-align: center; flex: 1; line-height: 1.3; padding: 1rem 1.2rem;}",
+        "td:nth-child(1) {text-align: center; font-weight: 600;}",
+        "td {text-align: left;}"
+      ],
+      "settings": {
+        "main_heading": "Comparison of GTX I, II & III",
+        "main_content": "",
+        "alignment": "center",
+        "valignment": "center",
+        "content_part_width": "100%",
+        "section_padding": "0 16px 12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "88%",
+        "section_min_height": "",
+        "background_type": "color",
+        "background_on": "content",
+        "background_color": "",
+        "content_color": "",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_image_text_cAbrpm": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_Vq7c69": {
+          "type": "content",
+          "settings": {
+            "title": "Toxicity In Traditional Medicine",
+            "subtitle": "",
+            "description": "<p>Most cases of <a href=\"/pages/mad-honey-effects\" target=\"_blank\" title=\"mad honey effects\"><strong>mad honey intoxication</strong></a> occur in men aged 40 to 60, often due to its use as a sexual stimulant or for managing hypertension. Consuming 15 to 30 grams of the rare honey can cause intoxication, with symptoms appearing within 30 minutes to 4 hours.</p><p>Men are five times more likely than women to experience honey poisoning. However, with long-term use, the body may become desensitized, reducing the severity of symptoms over time.</p><p>A study on rats showed that <a href=\"/pages/mad-honey-dose\" target=\"_blank\" title=\"mad honey dose\"><strong>high doses of mad honey</strong></a> could slow heart rate and breathing, while lower doses did not cause these effects. Interestingly, rats with their vagus nerve cut did not experience this heart-slowing effect, indicating that grayanotoxins affect the heart and breathing through the central nervous system, specifically by stimulating the vagus nerve.</p><p>Additionally, research has shown that it can have hallucinogenic effects at higher doses, which can lead to anxiety and mental confusion. However, when consumed in small, recommended doses, these effects are much milder and more manageable.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Vq7c69"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "100%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "81.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_9eVRnC": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_pTaneT": {
+          "type": "content",
+          "settings": {
+            "title": "Grayanotoxin Poisoning Symptom",
+            "subtitle": "",
+            "description": "<p>Unlike what the media says, grayanotoxin can be an effective ally to your mind, relaxing your nerves and putting you in the right mood. However, moderation applies to everything, even to the greatest things in mankind.</p><p>The moment that you let go of the guidelines and overindulge in grayanotoxin, you are going to backfire your health. Grayanotoxins in high amounts can be ridiculously dangerous. You will likely experience symptoms that are mild to high. The result depends on your consumed amount. </p><p>In a milder form, there are symptoms like dizziness, and weakness. One level up, sweating, vomiting, tingling sensations, blurred visions, and low blood pressure(hypotension) will follow. In rare cases, consumers face fainting and seizures. Cardiac issues may also arise, including slow heart rate, nodal rhythms, complete heart block, and low blood pressure. Occasionally, transient conduction abnormalities like a Wolff-Parkinson-White pattern are seen. </p><p>Symptoms typically begin within 30 minutes to 3 hours, most commonly in 1 to 2 hours. Treatment is possible, with fluids and atropine often used to address hypotension and bradycardia.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_rki4Ya": {
+          "type": "image",
+          "settings": {
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "<svg viewbox=\"0 0 472 221\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M267.548 143.052L234.681 127.307L226.564 91.9297L249.312 63.5586H285.794L308.537 91.9297L300.42 127.307L267.553 143.052H267.548ZM236.534 125.836L267.548 140.693L298.562 125.836L306.219 92.4503L284.758 65.6781H250.338L228.877 92.4503L236.534 125.836Z\" fill=\"#BE935F\"></path>\n<path d=\"M307.762 184.396L271.355 177.825L266.389 141.348L299.726 125.375L325.298 151.983L307.762 184.396ZM273.261 176.008L306.614 182.027L322.676 152.333L299.25 127.957L268.706 142.591L273.256 176.008H273.261Z\" fill=\"#BE935F\"></path>\n<path d=\"M210.529 149.966L176.594 139.555L168.691 105.112L194.723 81.0859L228.658 91.4974L236.561 125.94L210.529 149.966ZM178.399 137.887L209.974 147.576L234.196 125.218L226.843 93.1706L195.268 83.4816L171.046 105.84L178.399 137.887Z\" fill=\"#BE935F\"></path>\n<path d=\"M149.109 106.741L170.442 105.477L149.537 109.896L149.109 106.741Z\" fill=\"#BE935F\"></path>\n<path d=\"M232.801 147.614L234.403 126.414L236.005 147.614H232.801Z\" fill=\"#BE935F\"></path>\n<path d=\"M312.872 202.708L306.902 182.289L315.873 201.587L312.872 202.708Z\" fill=\"#BE935F\"></path>\n<path d=\"M269.149 121.844L267.547 143.044L265.945 121.844H269.149Z\" fill=\"#BE935F\"></path>\n<path d=\"M314.892 119.799L295.412 128.543L313.359 117L314.892 119.799Z\" fill=\"#BE935F\"></path>\n<path d=\"M298.974 49.6976L284.434 65.2776L296.47 47.7109L298.974 49.6976Z\" fill=\"#BE935F\"></path>\n<path d=\"M248.373 44.5L249.643 65.7212L245.195 44.925L248.373 44.5Z\" fill=\"#BE935F\"></path>\n<path d=\"M161.044 58.6289L174.613 75.0588L158.727 60.8334L161.044 58.6289Z\" fill=\"#BE935F\"></path>\n<path d=\"M184.726 57.1414L173.213 75.0586L181.901 55.6328L184.726 57.1414Z\" fill=\"#BE935F\"></path>\n<path d=\"M137.303 105.5V109.696H142.178V105.5H143.492V115.524H142.178V110.823H137.303V115.524H136V105.5H137.303Z\" fill=\"black\"></path>\n<path d=\"M231.91 151.461V155.657H236.786V151.461H238.099V161.485H236.786V156.784H231.91V161.485H230.607V151.461H231.91Z\" fill=\"black\"></path>\n<path d=\"M264.52 108.906V113.103H269.395V108.906H270.709V118.93H269.395V114.229H264.52V118.93H263.217V108.906H264.52Z\" fill=\"black\"></path>\n<path d=\"M322.267 209.479C322.267 212.932 320.157 214.759 317.589 214.759C315.02 214.759 313.061 212.709 313.061 209.67C313.061 206.489 315.047 204.406 317.738 204.406C320.43 204.406 322.267 206.504 322.267 209.479ZM314.449 209.644C314.449 211.785 315.613 213.702 317.664 213.702C319.714 213.702 320.894 211.811 320.894 209.538C320.894 207.546 319.848 205.463 317.68 205.463C315.512 205.463 314.449 207.439 314.449 209.644Z\" fill=\"black\"></path>\n<path d=\"M325.256 204.57V208.767H330.131V204.57H331.445V214.594H330.131V209.893H325.256V214.594H323.953V204.57H325.256Z\" fill=\"black\"></path>\n<path d=\"M250.632 37.9596C250.632 41.4124 248.522 43.2397 245.954 43.2397C243.386 43.2397 241.426 41.1893 241.426 38.1509C241.426 34.969 243.412 32.8867 246.104 32.8867C248.795 32.8867 250.632 34.9849 250.632 37.9596ZM242.814 38.1243C242.814 40.265 243.978 42.1826 246.029 42.1826C248.079 42.1826 249.259 40.2916 249.259 38.0181C249.259 36.0261 248.213 33.9438 246.045 33.9438C243.877 33.9438 242.814 35.9198 242.814 38.1243Z\" fill=\"black\"></path>\n<path d=\"M253.621 33.0508V37.2472H258.497V33.0508H259.81V43.0744H258.497V38.3734H253.621V43.0744H252.318V33.0508H253.621Z\" fill=\"black\"></path>\n<path d=\"M139.865 49.7031V53.8996H144.741V49.7031H146.054V59.7268H144.741V55.0257H139.865V59.7268H138.562V49.7031H139.865Z\" fill=\"black\"></path>\n<path d=\"M156.927 54.612C156.927 58.0647 154.817 59.8921 152.249 59.8921C149.68 59.8921 147.721 57.8416 147.721 54.8032C147.721 51.6213 149.707 49.5391 152.398 49.5391C155.09 49.5391 156.927 51.6373 156.927 54.612ZM149.104 54.7766C149.104 56.9174 150.268 58.835 152.318 58.835C154.369 58.835 155.549 56.9439 155.549 54.6704C155.549 52.6784 154.502 50.5961 152.334 50.5961C150.166 50.5961 149.104 52.5722 149.104 54.7766Z\" fill=\"black\"></path>\n<path d=\"M190.798 49.1354C190.798 52.5882 188.689 54.4155 186.12 54.4155C183.552 54.4155 181.592 52.3651 181.592 49.3266C181.592 46.1448 183.578 44.0625 186.27 44.0625C188.961 44.0625 190.798 46.1607 190.798 49.1354ZM182.975 49.3001C182.975 51.4408 184.139 53.3584 186.189 53.3584C188.24 53.3584 189.42 51.4674 189.42 49.1938C189.42 47.2019 188.373 45.1196 186.205 45.1196C184.037 45.1196 182.975 47.0956 182.975 49.3001Z\" fill=\"black\"></path>\n<path d=\"M222.975 36.7487C222.975 40.2015 220.866 42.0288 218.298 42.0288C215.729 42.0288 213.77 39.9784 213.77 36.9399C213.77 33.7581 215.756 31.6758 218.447 31.6758C221.139 31.6758 222.975 33.774 222.975 36.7487ZM215.153 36.9134C215.153 39.0541 216.317 40.9717 218.367 40.9717C220.418 40.9717 221.598 39.0806 221.598 36.8071C221.598 34.8151 220.551 32.7329 218.383 32.7329C216.215 32.7329 215.153 34.7089 215.153 36.9134Z\" fill=\"black\"></path>\n<path d=\"M326.821 113.714C326.821 117.166 324.712 118.994 322.143 118.994C319.575 118.994 317.615 116.943 317.615 113.905C317.615 110.723 319.602 108.641 322.293 108.641C324.984 108.641 326.821 110.739 326.821 113.714ZM318.998 113.878C318.998 116.019 320.162 117.937 322.213 117.937C324.263 117.937 325.444 116.045 325.444 113.772C325.444 111.78 324.397 109.698 322.229 109.698C320.061 109.698 318.998 111.674 318.998 113.878Z\" fill=\"black\"></path>\n<path d=\"M329.811 108.805V113.001H334.686V108.805H336V118.828H334.686V114.127H329.811V118.828H328.508V108.805H329.811Z\" fill=\"black\"></path>\n<path d=\"M307.245 42.9049C307.245 46.3577 305.136 48.185 302.567 48.185C299.999 48.185 298.039 46.1346 298.039 43.0962C298.039 39.9143 300.025 37.832 302.717 37.832C305.408 37.832 307.245 39.9303 307.245 42.9049ZM299.422 43.0696C299.422 45.2103 300.586 47.1279 302.637 47.1279C304.687 47.1279 305.867 45.2369 305.867 42.9634C305.867 40.9714 304.821 38.8891 302.653 38.8891C300.485 38.8891 299.422 40.8652 299.422 43.0696Z\" fill=\"black\"></path>\n<path d=\"M310.235 37.9961V42.1925H315.11V37.9961H316.423V48.0197H315.11V43.3187H310.235V48.0197H308.932V37.9961H310.235Z\" fill=\"black\"></path>\n<path d=\"M170.805 105.416L168.686 105.151L172.808 73.0293L216.194 68.8594L228.69 91.8282L226.816 92.8375L214.988 71.1116L174.709 74.9787L170.805 105.416Z\" fill=\"#BE935F\"></path>\n<path d=\"M191.69 42.1885L190.841 41.5458L197.585 32.6801L186.014 7.19339L186.986 6.75781L198.819 32.8182L191.69 42.1885Z\" fill=\"black\"></path>\n<path d=\"M196.853 33.6701L196.682 34.7188L210.544 36.9596L210.715 35.9109L196.853 33.6701Z\" fill=\"black\"></path>\n<path d=\"M197.382 30.3888L197.211 31.4375L211.073 33.6759L211.245 32.6273L197.382 30.3888Z\" fill=\"black\"></path>\n</svg>",
+            "image_width": "45.46%"
+          }
+        }
+      },
+      "block_order": [
+        "content_pTaneT",
+        "image_rki4Ya"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2rem 4.1%",
+        "content_width": "50.51%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_MTFiYC": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_ErfEca": {
+          "type": "content",
+          "settings": {
+            "title": "Gryanotoxin Poisioning Studies, Effects, and Disease",
+            "subtitle": "",
+            "description": "<p>Grayanotoxins mainly target voltage-gated sodium channels in neurons, particularly affecting the central nervous system. Animal studies have shown that grayanotoxins cause bradycardia and respiratory depression, with the toxin’s effects moderated by muscarinic receptors in the heart. Studies on rats have demonstrated that atropine can reverse these effects.</p><p>The most well-documented cases of grayanotoxin toxicity are classified as mad honey disease, resulting from the ingestion of honey containing grayanotoxins. Patients typically consume between 20–200 grams of this honey. Contamination occurs mainly in the eastern Black Sea region of Turkey, where bees collect nectar from Rhododendron ponticum and Rhododendron luteum. Due to the small-scale nature of local beekeeping, honey is often produced from a single hive or small area, leading to higher grayanotoxin concentrations. </p><p>In areas with large-scale production, mad honey from multiple sources is blended, reducing the risk of severe contamination. However, some beekeepers intentionally produce mad honey for its supposed medicinal benefits.</p><p>Though mad honey is the most common source of grayanotoxin poisoning, ingestion of the leaves, nectar, or flowers of Ericaceae plants can also cause toxicity in humans and animals. Current toxicology research focuses on understanding the varied effects of different grayanotoxin types, the environmental factors influencing plant toxin concentration, and potential medicinal uses at lower, controlled doses.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_ErfEca"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "100%",
+        "padding": "0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "81.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_cJnUEy": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_9hKqWF": {
+          "type": "content",
+          "settings": {
+            "title": "Grayanotoxin <br>Intoxication in Animals",
+            "subtitle": "",
+            "description": "<p>Grayanotoxin intoxication in animals, particularly cattle, is more common than in humans and has also been reported in sheep, goats, and donkeys. Plants like Rhododendron, Kalmia (laurel), and Pieris are known sources of grayanotoxin poisoning in animals. Rhododendron intoxication is most frequent in winter and early spring, as its leaves are perennial. </p><p>The toxic dose is 0.2% of body weight for cattle and 0.4% for Kalmia. Symptoms, including gastrointestinal irritation, cardiac arrhythmias, and neurological issues, appear 3–14 hours after ingestion and last about two days. Though recovery is possible, intoxication often proves fatal in animals, with aspiration of vomit being a common cause of death by Mad Honey. Despite awareness of the risks, poisoning can still occur when animals are unintentionally fed toxic plants, as in cases of goats eating Pieris japonica or Rhododendron indica branches provided by bystanders.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_7FHwNG": {
+          "type": "image",
+          "settings": {
+            "image_type": "svg",
+            "image_alt": "Mad Honey",
+            "svg": "<svg viewbox=\"0 0 472 221\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M267.548 143.052L234.681 127.307L226.564 91.9297L249.312 63.5586H285.794L308.537 91.9297L300.42 127.307L267.553 143.052H267.548ZM236.534 125.836L267.548 140.693L298.562 125.836L306.219 92.4503L284.758 65.6781H250.338L228.877 92.4503L236.534 125.836Z\" fill=\"#BE935F\"></path>\n<path d=\"M307.762 184.396L271.355 177.825L266.389 141.348L299.726 125.375L325.298 151.983L307.762 184.396ZM273.261 176.008L306.614 182.027L322.676 152.333L299.25 127.957L268.706 142.591L273.256 176.008H273.261Z\" fill=\"#BE935F\"></path>\n<path d=\"M210.529 149.966L176.594 139.555L168.691 105.112L194.723 81.0859L228.658 91.4974L236.561 125.94L210.529 149.966ZM178.399 137.887L209.974 147.576L234.196 125.218L226.843 93.1706L195.268 83.4816L171.046 105.84L178.399 137.887Z\" fill=\"#BE935F\"></path>\n<path d=\"M149.109 106.741L170.442 105.477L149.537 109.896L149.109 106.741Z\" fill=\"#BE935F\"></path>\n<path d=\"M232.801 147.614L234.403 126.414L236.005 147.614H232.801Z\" fill=\"#BE935F\"></path>\n<path d=\"M312.872 202.708L306.902 182.289L315.873 201.587L312.872 202.708Z\" fill=\"#BE935F\"></path>\n<path d=\"M269.149 121.844L267.547 143.044L265.945 121.844H269.149Z\" fill=\"#BE935F\"></path>\n<path d=\"M314.892 119.799L295.412 128.543L313.359 117L314.892 119.799Z\" fill=\"#BE935F\"></path>\n<path d=\"M298.974 49.6976L284.434 65.2776L296.47 47.7109L298.974 49.6976Z\" fill=\"#BE935F\"></path>\n<path d=\"M248.373 44.5L249.643 65.7212L245.195 44.925L248.373 44.5Z\" fill=\"#BE935F\"></path>\n<path d=\"M161.044 58.6289L174.613 75.0588L158.727 60.8334L161.044 58.6289Z\" fill=\"#BE935F\"></path>\n<path d=\"M184.726 57.1414L173.213 75.0586L181.901 55.6328L184.726 57.1414Z\" fill=\"#BE935F\"></path>\n<path d=\"M137.303 105.5V109.696H142.178V105.5H143.492V115.524H142.178V110.823H137.303V115.524H136V105.5H137.303Z\" fill=\"black\"></path>\n<path d=\"M231.91 151.461V155.657H236.786V151.461H238.099V161.485H236.786V156.784H231.91V161.485H230.607V151.461H231.91Z\" fill=\"black\"></path>\n<path d=\"M264.52 108.906V113.103H269.395V108.906H270.709V118.93H269.395V114.229H264.52V118.93H263.217V108.906H264.52Z\" fill=\"black\"></path>\n<path d=\"M322.267 209.479C322.267 212.932 320.157 214.759 317.589 214.759C315.02 214.759 313.061 212.709 313.061 209.67C313.061 206.489 315.047 204.406 317.738 204.406C320.43 204.406 322.267 206.504 322.267 209.479ZM314.449 209.644C314.449 211.785 315.613 213.702 317.664 213.702C319.714 213.702 320.894 211.811 320.894 209.538C320.894 207.546 319.848 205.463 317.68 205.463C315.512 205.463 314.449 207.439 314.449 209.644Z\" fill=\"black\"></path>\n<path d=\"M325.256 204.57V208.767H330.131V204.57H331.445V214.594H330.131V209.893H325.256V214.594H323.953V204.57H325.256Z\" fill=\"black\"></path>\n<path d=\"M250.632 37.9596C250.632 41.4124 248.522 43.2397 245.954 43.2397C243.386 43.2397 241.426 41.1893 241.426 38.1509C241.426 34.969 243.412 32.8867 246.104 32.8867C248.795 32.8867 250.632 34.9849 250.632 37.9596ZM242.814 38.1243C242.814 40.265 243.978 42.1826 246.029 42.1826C248.079 42.1826 249.259 40.2916 249.259 38.0181C249.259 36.0261 248.213 33.9438 246.045 33.9438C243.877 33.9438 242.814 35.9198 242.814 38.1243Z\" fill=\"black\"></path>\n<path d=\"M253.621 33.0508V37.2472H258.497V33.0508H259.81V43.0744H258.497V38.3734H253.621V43.0744H252.318V33.0508H253.621Z\" fill=\"black\"></path>\n<path d=\"M139.865 49.7031V53.8996H144.741V49.7031H146.054V59.7268H144.741V55.0257H139.865V59.7268H138.562V49.7031H139.865Z\" fill=\"black\"></path>\n<path d=\"M156.927 54.612C156.927 58.0647 154.817 59.8921 152.249 59.8921C149.68 59.8921 147.721 57.8416 147.721 54.8032C147.721 51.6213 149.707 49.5391 152.398 49.5391C155.09 49.5391 156.927 51.6373 156.927 54.612ZM149.104 54.7766C149.104 56.9174 150.268 58.835 152.318 58.835C154.369 58.835 155.549 56.9439 155.549 54.6704C155.549 52.6784 154.502 50.5961 152.334 50.5961C150.166 50.5961 149.104 52.5722 149.104 54.7766Z\" fill=\"black\"></path>\n<path d=\"M190.798 49.1354C190.798 52.5882 188.689 54.4155 186.12 54.4155C183.552 54.4155 181.592 52.3651 181.592 49.3266C181.592 46.1448 183.578 44.0625 186.27 44.0625C188.961 44.0625 190.798 46.1607 190.798 49.1354ZM182.975 49.3001C182.975 51.4408 184.139 53.3584 186.189 53.3584C188.24 53.3584 189.42 51.4674 189.42 49.1938C189.42 47.2019 188.373 45.1196 186.205 45.1196C184.037 45.1196 182.975 47.0956 182.975 49.3001Z\" fill=\"black\"></path>\n<path d=\"M222.975 36.7487C222.975 40.2015 220.866 42.0288 218.298 42.0288C215.729 42.0288 213.77 39.9784 213.77 36.9399C213.77 33.7581 215.756 31.6758 218.447 31.6758C221.139 31.6758 222.975 33.774 222.975 36.7487ZM215.153 36.9134C215.153 39.0541 216.317 40.9717 218.367 40.9717C220.418 40.9717 221.598 39.0806 221.598 36.8071C221.598 34.8151 220.551 32.7329 218.383 32.7329C216.215 32.7329 215.153 34.7089 215.153 36.9134Z\" fill=\"black\"></path>\n<path d=\"M326.821 113.714C326.821 117.166 324.712 118.994 322.143 118.994C319.575 118.994 317.615 116.943 317.615 113.905C317.615 110.723 319.602 108.641 322.293 108.641C324.984 108.641 326.821 110.739 326.821 113.714ZM318.998 113.878C318.998 116.019 320.162 117.937 322.213 117.937C324.263 117.937 325.444 116.045 325.444 113.772C325.444 111.78 324.397 109.698 322.229 109.698C320.061 109.698 318.998 111.674 318.998 113.878Z\" fill=\"black\"></path>\n<path d=\"M329.811 108.805V113.001H334.686V108.805H336V118.828H334.686V114.127H329.811V118.828H328.508V108.805H329.811Z\" fill=\"black\"></path>\n<path d=\"M307.245 42.9049C307.245 46.3577 305.136 48.185 302.567 48.185C299.999 48.185 298.039 46.1346 298.039 43.0962C298.039 39.9143 300.025 37.832 302.717 37.832C305.408 37.832 307.245 39.9303 307.245 42.9049ZM299.422 43.0696C299.422 45.2103 300.586 47.1279 302.637 47.1279C304.687 47.1279 305.867 45.2369 305.867 42.9634C305.867 40.9714 304.821 38.8891 302.653 38.8891C300.485 38.8891 299.422 40.8652 299.422 43.0696Z\" fill=\"black\"></path>\n<path d=\"M310.235 37.9961V42.1925H315.11V37.9961H316.423V48.0197H315.11V43.3187H310.235V48.0197H308.932V37.9961H310.235Z\" fill=\"black\"></path>\n<path d=\"M170.805 105.416L168.686 105.151L172.808 73.0293L216.194 68.8594L228.69 91.8282L226.816 92.8375L214.988 71.1116L174.709 74.9787L170.805 105.416Z\" fill=\"#BE935F\"></path>\n<path d=\"M191.69 42.1885L190.841 41.5458L197.585 32.6801L186.014 7.19339L186.986 6.75781L198.819 32.8182L191.69 42.1885Z\" fill=\"black\"></path>\n<path d=\"M196.853 33.6701L196.682 34.7188L210.544 36.9596L210.715 35.9109L196.853 33.6701Z\" fill=\"black\"></path>\n<path d=\"M197.382 30.3888L197.211 31.4375L211.073 33.6759L211.245 32.6273L197.382 30.3888Z\" fill=\"black\"></path>\n</svg>",
+            "image_width": "45.46%"
+          }
+        }
+      },
+      "block_order": [
+        "content_9hKqWF",
+        "image_7FHwNG"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.basmilTextImage .contain-wrapper {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "2rem 4.1%",
+        "content_width": "50.51%",
+        "padding": "12rem 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.7%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "blog_listing_basmil_x3iC6D": {
+      "type": "blog-listing-basmil",
+      "settings": {
+        "heading": "Insider of Mad Honey",
+        "blog": "mad-honey",
+        "show_slider": true,
+        "blog_limit": 3,
+        "columns_desktop": 3,
+        "content_alignment": "center",
+        "content_width": "29%",
+        "section_padding": "12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "82.72%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "basmil_image_text_JpWarX",
+    "icon_box_Ydximj",
+    "basmil_image_text_nimQjy",
+    "icon_box_JW6jfX",
+    "table_basmil_wkg6gn",
+    "basmil_image_text_cAbrpm",
+    "basmil_image_text_9eVRnC",
+    "basmil_image_text_MTFiYC",
+    "basmil_image_text_cJnUEy",
+    "blog_listing_basmil_x3iC6D"
+  ]
+}

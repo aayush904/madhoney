@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_JY4JXx": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_QtDLhD": {
+          "type": "content",
+          "settings": {
+            "title": "<meta name=\"robots\" content=\"noindex\">",
+            "subtitle": "",
+            "description": "<p>We are trying to preserve its original molecular structure as much as possible. We are not using intensive heat or exposing it.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_QtDLhD"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "63.6rem",
+        "padding": "15rem 16px 4rem 16px",
+        "margin": "0",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "124.4rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "single_variant_showcase_yETQnT": {
+      "type": "single-variant-showcase",
+      "settings": {
+        "featured_product": "medicinal-mad-honey",
+        "subtitle": "Size: 250g | 8.8 oz",
+        "description": "Premium Mad Honey is a rare and natural honey harvested from the mountainous regions of Nepal and Turkey, derived from Rhododendron flowers. It is known for its therapeutic and mild psychoactive properties.",
+        "icon_1_label": "Presence of Grayanotoxin",
+        "icon_2_label": "Naturally Harvested",
+        "icon_3_label": "Rare in Nature",
+        "icon_4_label": "Traditional Medicine"
+      }
+    },
+    "icon_box_ziNQkg": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_dkgVDU": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"145\" height=\"80\" viewbox=\"0 0 145 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M82.6259 39.5365L69.7803 26.871L63.8307 26.9386L56.6417 17L37.7114 35.1418L36.3141 31.6712L23.5136 47.4918L20.1557 45.2607L1 67.8873L14.4315 57.4755L22.4544 58.0164L28.6518 52.5625L30.8153 61.3518L38.9959 45.0579L40.7763 55.1542L47.3118 38.2293L56.8896 53.5541L55.4022 29.6204L60.7658 37.9138L66.0618 37.8462L81.1836 49.5877L88.1247 48.6412L104.125 57.5882L87.4486 40.2576L82.6259 39.5365Z\" fill=\"#68453D\"></path>\n<path d=\"M112.013 33.7222L108.993 35.9308L91.6625 17.541L83.6171 27.1641L75.459 29.1248L85.2397 37.3956L87.651 37.4407L92.6766 29.8008L114.514 53.6219L120.126 52.9909L120.216 53.1937L118.593 61.4871L129.681 61.5096L143.834 68.0001L112.013 33.7222Z\" fill=\"#68453D\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Source",
+            "icon_description": "How do we source the most potent of the forms of any ingredient? We go wherever our research points us, no matter which corner.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_HLgYaN": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"145\" height=\"80\" viewbox=\"0 0 145 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M82.6259 39.5365L69.7803 26.871L63.8307 26.9386L56.6417 17L37.7114 35.1418L36.3141 31.6712L23.5136 47.4918L20.1557 45.2607L1 67.8873L14.4315 57.4755L22.4544 58.0164L28.6518 52.5625L30.8153 61.3518L38.9959 45.0579L40.7763 55.1542L47.3118 38.2293L56.8896 53.5541L55.4022 29.6204L60.7658 37.9138L66.0618 37.8462L81.1836 49.5877L88.1247 48.6412L104.125 57.5882L87.4486 40.2576L82.6259 39.5365Z\" fill=\"#68453D\"></path>\n<path d=\"M112.013 33.7222L108.993 35.9308L91.6625 17.541L83.6171 27.1641L75.459 29.1248L85.2397 37.3956L87.651 37.4407L92.6766 29.8008L114.514 53.6219L120.126 52.9909L120.216 53.1937L118.593 61.4871L129.681 61.5096L143.834 68.0001L112.013 33.7222Z\" fill=\"#68453D\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Ingredients",
+            "icon_description": "How do we source the most potent of the forms of any ingredient? We go wherever our research points us, no matter which corner.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_Wd6pyz": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"145\" height=\"80\" viewbox=\"0 0 145 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M82.6259 39.5365L69.7803 26.871L63.8307 26.9386L56.6417 17L37.7114 35.1418L36.3141 31.6712L23.5136 47.4918L20.1557 45.2607L1 67.8873L14.4315 57.4755L22.4544 58.0164L28.6518 52.5625L30.8153 61.3518L38.9959 45.0579L40.7763 55.1542L47.3118 38.2293L56.8896 53.5541L55.4022 29.6204L60.7658 37.9138L66.0618 37.8462L81.1836 49.5877L88.1247 48.6412L104.125 57.5882L87.4486 40.2576L82.6259 39.5365Z\" fill=\"#68453D\"></path>\n<path d=\"M112.013 33.7222L108.993 35.9308L91.6625 17.541L83.6171 27.1641L75.459 29.1248L85.2397 37.3956L87.651 37.4407L92.6766 29.8008L114.514 53.6219L120.126 52.9909L120.216 53.1937L118.593 61.4871L129.681 61.5096L143.834 68.0001L112.013 33.7222Z\" fill=\"#68453D\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Efficacy",
+            "icon_description": "How do we source the most potent of the forms of any ingredient? We go wherever our research points us, no matter which corner.",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_dkgVDU",
+        "icon_box_HLgYaN",
+        "icon_box_Wd6pyz"
+      ],
+      "custom_css": [
+        "brown {color: #9f5601;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Our superpower?  <br>Asking  <brown>‘Why’, relentlessly. </brown>",
+        "section_description": "If our products could talk, we’d make sure they’d answer all your questions in real time. Till we discover how to make that happen, we ask all the tough questions you’d have, and keep all the answers ready for you. Here are the things we can’t help but question...",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "7rem",
+        "iconbox_gap": "32px 4.2%",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "30.4%",
+        "padding": "15rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "115.4rem",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "#f4e7d9",
+        "background_gradient": "",
+        "background_on": "main_section",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "basmil_image_text_UYap3M": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_NYGifw": {
+          "type": "content",
+          "settings": {
+            "title": "A Sacred Tradition in <br>Himalayan Life",
+            "subtitle": "",
+            "description": "<p>Mad honey has been valued for centuries, not only because it’s rare but also because of its powerful properties. As an ancient medicine, it helped treat pain, stress, and other health issues. The honey hunters believed it made them stronger, helping them survive the tough mountain life and stay healthy.</p><p>This tradition has lasted for centuries, but the secret of mad honey is slowly being revealed to the world. As interest in natural remedies and exotic superfoods grows, more people are discovering their unique properties.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_y7GUK8": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Carrying_Paral_1.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "content_NYGifw",
+        "image_y7GUK8"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper {width: 100%; max-width: 100% !important;}",
+        ".contentside {padding: 0 16px; margin-left: 7.3%; margin-bottom: -16rem;}",
+        "@media (max-width: 768px) {.contentside {padding: 0 16px; margin-left: 0; margin-bottom: 4.8rem; } .main-wrapper.wrapper .imagepart.imagepart {width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "0!important",
+        "content_width": "43.55%",
+        "padding": "12rem 0 0",
+        "margin": "0",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_JY4JXx",
+    "single_variant_showcase_yETQnT",
+    "icon_box_ziNQkg",
+    "basmil_image_text_UYap3M"
+  ]
+}

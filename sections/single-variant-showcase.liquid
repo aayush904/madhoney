@@ -1,0 +1,218 @@
+{% schema %}
+{
+  "name": "Product Highlight",
+  "settings": [
+    {
+      "type": "product",
+      "id": "featured_product",
+      "label": "Select Product"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Size: 250g | 8.8 oz"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Premium Mad Honey is a rare and natural honey harvested from the mountainous regions of Nepal and Turkey, derived from Rhododendron flowers. It is known for its therapeutic and mild psychoactive properties."
+    },
+    {
+      "type": "text",
+      "id": "icon_1_label",
+      "label": "Icon 1 Label",
+      "default": "Presence of Grayanotoxin"
+    },
+    {
+      "type": "text",
+      "id": "icon_2_label",
+      "label": "Icon 2 Label",
+      "default": "Naturally Harvested"
+    },
+    {
+      "type": "text",
+      "id": "icon_3_label",
+      "label": "Icon 3 Label",
+      "default": "Rare in Nature"
+    },
+    {
+      "type": "text",
+      "id": "icon_4_label",
+      "label": "Icon 4 Label",
+      "default": "Traditional Medicine"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Highlight"
+    }
+  ]
+}
+{% endschema %}
+
+<div class="product-highlight-section">
+  <div class="product-highlight-content">
+    <subtitle class="product-subtitle">{{ section.settings.subtitle }}</subtitle>
+    <h2>{{ section.settings.featured_product.title | upcase }} NEPAL | TRY PACK</h2>
+    <p class="product-description">{{ section.settings.description }}</p>
+
+    <div class="product-icons">
+      <div class="icon-item">
+        <span class="icon-placeholder">🧬</span>
+        <p>{{ section.settings.icon_1_label }}</p>
+      </div>
+      <div class="icon-item">
+        <span class="icon-placeholder">🌿</span>
+        <p>{{ section.settings.icon_2_label }}</p>
+      </div>
+      <div class="icon-item">
+        <span class="icon-placeholder">🏔️</span>
+        <p>{{ section.settings.icon_3_label }}</p>
+      </div>
+      <div class="icon-item">
+        <span class="icon-placeholder">🩺</span>
+        <p>{{ section.settings.icon_4_label }}</p>
+      </div>
+    </div>
+
+    {% if section.settings.featured_product %}
+      {% assign product = section.settings.featured_product %}
+      <form
+        action="/cart/add"
+        method="post"
+        class="variant-form"
+      >
+        <select name="id" class="variant-selector">
+          {% for variant in product.variants %}
+            <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
+          {% endfor %}
+        </select>
+        <button type="submit" class="buy-now-btn">Buy Now</button>
+      </form>
+    {% endif %}
+  </div>
+
+  <div class="product-highlight-image">
+    {% if section.settings.featured_product %}
+      {% assign product = section.settings.featured_product %}
+      {% if product.featured_image %}
+        <img
+          src="{{ product.featured_image | image_url }}"
+          alt="{{ product.title | escape }}"
+          width="500"
+          height="500"
+        >
+      {% endif %}
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .product-highlight-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f5f3e9;
+  }
+
+  .product-highlight-content {
+    max-width: 50%;
+  }
+
+  .product-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4a2c2a;
+    margin-bottom: 10px;
+  }
+
+  .product-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .product-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .product-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .icon-item {
+    text-align: center;
+  }
+
+  .icon-placeholder {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .icon-item p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .variant-form {
+    margin-bottom: 20px;
+  }
+
+  .variant-selector {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .buy-now-btn {
+    background-color: #d4a373;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+
+  .buy-now-btn:hover {
+    background-color: #b88b5a;
+  }
+
+  .product-highlight-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .product-highlight-section {
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .product-highlight-content {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .variant-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .variant-selector {
+      margin-bottom: 10px;
+    }
+  }
+</style>

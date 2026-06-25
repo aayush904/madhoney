@@ -1,0 +1,372 @@
+<div
+  id="career-detail"
+  class="py-[12rem] max-w-[70%] px-[16px] m-auto sm:max-w-full sm:py-[50px] mx-auto section-{{ section.id }}-padding"
+>
+  <h2 class="text-center  mb-[6.4rem] sm:mb-[40px]">Career</h2>
+
+  {% if section.settings.header_text %}
+    <div class="header-text mb-[6.4rem] sm:mb-[40px] text-[2.8rem] leading-[100%] sm:text-[20px]">
+      {{ section.settings.header_text | replace: '<p', "<p class='text-[2.8rem] leading-[100%] sm:text-[20px]'" }}
+    </div>
+  {% endif %}
+
+  <h1 class="text-start text-[3.2rem] font-semibold sm:text-[20px] sm:font-bold text-[#733D07] mb-[16px]">
+    {{ page.title | escape }}
+  </h1>
+  <div class="job-detail font-sans">
+    {{ section.settings.what_are_we_looking }}
+    {% for block in section.blocks %}
+      {{ block.settings.title }}
+      {{ block.settings.description }}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+    #career-detail {
+        margin:0 auto;
+        width: 1200px;
+
+        a{
+            color:#BE935F;
+          }
+    }
+    #career-detail .job-detail{
+       * {
+        font-family: lato!important;
+        line-height: 144%;
+        letter-spacing: 2%;
+
+      }
+
+      p,li,
+      span {
+          list-style-type:disc;
+          font-size: 18px;
+      }
+
+
+
+      b,strong{
+        font-size: 20px;
+      }
+
+      ol,ul,p:last-of-type{
+        margin-bottom:16px;
+      }
+
+      ol,ul{
+        margin-left:1.55em;
+    }
+
+
+    }
+
+    @media(max-width:768px){
+      #career-detail .job-detail{
+
+          li,p,
+          span {
+            font-size: 14px;
+          }
+          b,strong{
+              font-size: 16px;
+          }
+  }
+</style>
+
+<script type="application/ld+json">
+  {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "{{ page.title | escape }}",
+      "description": "{{ settings.header_text | escape | newline_to_br }}",
+      "identifier": {
+          "@type": "PropertyValue",
+          "name": "Medicinal Mad Honey",
+          "value": "JGD2025"
+      },
+      "datePosted": "{{ 'now' | date: '%Y-%m-%d' }}",
+      "validThrough": "{{ settings.valid_through }}",
+      "employmentType": "{{ settings.employment_type }}",
+      "hiringOrganization": {
+          "@type": "Organization",
+          "name": "Medicinal Mad Honey",
+          "sameAs": "https://medicinalmadhoney.com",
+          "logo": "https://medicinalmadhoney.com/logo.png"
+      },
+      "jobLocation": {
+          "@type": "Place",
+          "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "{{ settings.street_address }}",
+                  "addressLocality": "{{ settings.address_locality }}",
+                  "addressRegion": "{{ settings.address_region }}",
+                  "postalCode": "{{ settings.postal_code }}",
+                  "addressCountry": "{{ settings.address_country }}"
+              }
+          },
+      "baseSalary": {
+          "@type": "MonetaryAmount",
+          "currency": "USD",
+          "value": {
+              "@type": "QuantitativeValue",
+              "minValue": {{ settings.min_salary }},
+              "maxValue": {{ settings.max_salary }},
+              "unitText": "MONTH"
+              }
+          },
+      {% if  settings.education_requirement == "experience instead of education" %}
+          "experienceInPlaceOfEducation": true,
+      {% else %}
+          "educationRequirements": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory":"{{ settings.education_requirement | escape }}"
+          },
+      {% endif %}
+      "experienceRequirements": {
+          "@type": "OccupationalExperienceRequirements",
+          "monthsOfExperience": {{ settings.experience_requirement }}
+      }
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Career Detail",
+  "class": "career-detail",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Head Content"
+    },
+    {
+      "type": "richtext",
+      "id": "header_text",
+      "label": "Content For Page Header",
+      "default": "<p>We are growing, again! Want to join the Medicinal Mad Honey team?</p><p >Email your resume to: <a href='contact@medicinalmadhoney.com' title='Mail to Medicinal Mad honey'>contact@medicinalmadhoney.com</a></p>"
+    },
+    {
+      "type": "richtext",
+      "id": "what_are_we_looking",
+      "label": "What Are We Looking For?",
+      "default": "<p>Medicinal Mad Honey is looking for a Junior Graphic Designer that wants to get in on the ground floor of a well-established, fast-growing organization that is disrupting the wellness industry. Adobe Illustrator proficiency, creative mindset, and meticulous attention to detail are required.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Job Details"
+    },
+    {
+      "type": "text",
+      "id": "valid_through",
+      "label": "Valid Through",
+      "info": "YYYY-MM-DD",
+      "default": "2025-06-15"
+    },
+    {
+      "type": "select",
+      "id": "employment_type",
+      "label": "Employment Type",
+      "options": [
+        {
+          "value": "FULL_TIME",
+          "label": "Full-Time"
+        },
+        {
+          "value": "PART_TIME",
+          "label": "Part-Time"
+        },
+        {
+          "value": "CONTRACT",
+          "label": "Contract"
+        },
+        {
+          "value": "TEMPORARY",
+          "label": "Temporary"
+        },
+        {
+          "value": "INTERN",
+          "label": "Intern"
+        }
+      ],
+      "default": "FULL_TIME"
+    },
+    {
+      "type": "header",
+      "content": "Job Location",
+      "info": "Section may not be visiable in Frontend but it will be used for rich-text snippets"
+    },
+    {
+      "type": "text",
+      "id": "street_address",
+      "label": "Street Address",
+      "default": "123 Himalayan Way"
+    },
+    {
+      "type": "text",
+      "id": "address_locality",
+      "label": "Address Locality",
+      "default": "Kathmandu"
+    },
+    {
+      "type": "text",
+      "id": "address_region",
+      "label": "Address Region",
+      "default": "Bagmati"
+    },
+    {
+      "type": "text",
+      "id": "postal_code",
+      "label": "Postal Code",
+      "default": "44600"
+    },
+    {
+      "type": "text",
+      "id": "address_country",
+      "label": "Address Country",
+      "default": "NP"
+    },
+    {
+      "type": "header",
+      "content": "Job Salary",
+      "info": "Enter Monthly Salary"
+    },
+    {
+      "type": "number",
+      "id": "min_salary",
+      "label": "Minimum Salary",
+      "default": 30000
+    },
+    {
+      "type": "number",
+      "id": "max_salary",
+      "label": "Maximum Salary",
+      "default": 40000
+    },
+    {
+      "type": "header",
+      "content": "Educational Requirements"
+    },
+    {
+      "type": "select",
+      "id": "education_requirement",
+      "label": "Education Requirement",
+      "options": [
+        {
+          "value": "high school",
+          "label": "High School"
+        },
+        {
+          "value": "associate degree",
+          "label": "Associate Degree"
+        },
+        {
+          "value": "bachelor degree",
+          "label": "Bachelor Degree"
+        },
+        {
+          "value": "professional certificate",
+          "label": "Professional Certificate"
+        },
+        {
+          "value": "postgraduate degree",
+          "label": "Postgraduate Degree"
+        },
+        {
+          "value": "experience instead of education",
+          "label": "Experience Instead of Education"
+        }
+      ],
+      "default": "bachelor degree"
+    },
+    {
+      "type": "header",
+      "content": "Experience Requirements"
+    },
+    {
+      "type": "number",
+      "id": "experience_requirement",
+      "label": "Experience Requirement in Months",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "company_intro",
+      "name": "Company Intro",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p><strong>About Our Company</strong></p>"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>At Medicinal Mad Honey, we deliver authentic, high-quality mad honey and wellness products in a crowded marketplace. Through our in-house design, production, and support from our local Himalayan communities, we craft and deliver unique, natural products to customers worldwide.</p>"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "skills",
+      "name": "Skills",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p><strong>Required Skills</strong></p>"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Proficiency in Adobe Illustrator, strong communication skills, and attention to detail.</p>"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "job_detail",
+      "name": "Job Detail",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p><strong>Job Details</strong></p>"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Create and modify packaging designs, collaborate with the marketing team, and more.</p>"
+        }
+      ],
+      "limit": 1
+    },
+    {
+      "type": "benefits",
+      "name": "Benefits",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p><strong>Employee Benefits</strong></p>"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Career growth opportunities, casual dress code, and premium coffee.</p>"
+        }
+      ],
+      "limit": 1
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,317 @@
+<style>
+    .white-label-form.container {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+    h3 {
+      margin-bottom: 3.2rem;
+      text-align: center;
+      font-weight: 600;
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+    }
+  
+    form {
+      text-align: center;
+    }
+  
+    .row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .col {
+      flex: 1;
+    }
+  
+    input, textarea {
+      width: 100%;
+      padding: 1.85rem 16px;
+      background: transparent;
+      border: 2px solid #D9D9D9;
+      color: #000000;
+      margin-top: 5px;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+  
+    input::placeholder, textarea::placeholder {
+      color: #D9D9D9;
+    }
+  
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #BE935F;
+    }
+  
+    .button {
+      width: 100%;
+      position: relative;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: #BE935F;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    .button:disabled {
+      background-color: #ddd;
+      cursor: not-allowed;
+    }
+  
+    .loading-spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #BE935F;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      animation: spin 2s linear infinite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+    }
+  
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  
+    .message {
+      padding: 1rem;
+      font-size: 14px;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+  
+    .message.success {
+      background-color: green;
+      color: white;
+    }
+  
+    .message.error {
+      background-color: red;
+      color: white;
+    }
+  </style>
+  
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<div class="white-label-form container">
+    <form id="enquiryForm">
+        <input type="hidden" name="api" value="private"> 
+      <h3 class="bigger text-tertiary font-serif">Personal/ Company Details</h3>
+  
+      <div class="row font-sans product-option">
+        <div class="col">
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+          <div class="error" id="firstNameError"></div>
+        </div>
+        <div class="col">
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+          <div class="error" id="lastNameError"></div>
+        </div>
+      </div>
+  
+      <div class="form-group font-sans product-option">
+        <input type="text" id="companyName" name="companyName" placeholder="Company Name" >
+        <div class="error" id="companyNameError"></div>
+      </div>
+  
+      <div class="form-group font-sans product-option">
+        <input type="text" id="businessAddress" name="businessAddress" placeholder="Business Address" required>
+        <div class="error" id="businessAddressError"></div>
+      </div>
+  
+      <div class="form-group font-sans product-option">
+        <input type="text" id="streetAddress" name="streetName" placeholder="Street Address" required>
+        <div class="error" id="streetAddressError"></div>
+      </div>
+  
+      <div class="row font-sans product-option">
+        <div class="col">
+          <input type="text" id="country" name="country" placeholder="Country" required>
+          <div class="error" id="countryError"></div>
+        </div>
+        <div class="col">
+          <input type="text" id="zipCode" name="zipCode" placeholder="Zip Code" required>
+          <div class="error" id="zipCodeError"></div>
+        </div>
+      </div>
+  
+      <div class="row font-sans product-option">
+        <div class="col">
+          <input type="text" id="city" name="city" placeholder="City" required>
+          <div class="error" id="cityError"></div>
+        </div>
+        <div class="col">
+          <input type="text" id="state" name="state" placeholder="State" required>
+          <div class="error" id="stateError"></div>
+        </div>
+      </div>
+  
+      <div class="form-group font-sans product-option">
+        <input type="email" id="email" name="email" placeholder="Email Address" required>
+        <div class="error" id="emailError"></div>
+      </div>
+  
+      <div class="form-group font-sans product-option">
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+        <div class="error" id="phoneError"></div>
+      </div>
+  
+      <h3 class="bigger text-tertiary font-serif">Details about enquiry</h3>
+  
+      <div class="form-group font-sans product-option">
+        <input type="text" id="enquiryFor" name="enquiryFor" placeholder="Enquiry For" required>
+        <div class="error" id="enquiryForError"></div>
+      </div>
+  
+  
+      <div class="form-group font-sans product-option">
+        <input type="text" id="kgsToOrder" name="kgsToOrder" placeholder="KGs to Order" required>
+        <div class="error" id="kgsToOrderError"></div>
+      </div>
+  
+      <div class="form-group font-sans product-option">
+        <textarea id="comments" name="comments" placeholder="Any Other Comments" ></textarea>
+        <div class="error" id="commentsError"></div>
+      </div>
+      <div class="g-recaptcha" data-sitekey="6LdZI5MqAAAAAFkTMtPCUB2JEs7hmKrlWW8AXYoV"  ></div>
+  
+      <button class="font-normal font-sans button" type="submit">
+        Submit
+        <div class="loading-spinner" id="loadingSpinner"></div>
+      </button>
+      
+      <div id="responseMessage" class="message"></div>
+    </form>
+</div>
+
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("enquiryForm");
+      const submitButton = form.querySelector("button");
+      const loadingSpinner = document.getElementById("loadingSpinner");
+      const responseMessage = document.getElementById("responseMessage");
+  
+      const showError = (input, message) => {
+        const error = input.nextElementSibling;
+        input.parentElement.style.position = "relative";
+        error.style.fontSize = "1rem";
+        error.style.color = "#ef4444";
+        error.style.position = "absolute";
+        error.style.bottom = `-10px`;
+        error.style.left = "0";
+        error.textContent = message;
+        error.style.display = "block";
+      };
+  
+      const hideError = (input) => {
+        const error = input.nextElementSibling;
+        error.style.display = "none";
+      };
+  
+      const validateField = (input) => {
+        if (!input.value.trim() && input.required) {
+          showError(input, `${input.placeholder} is required`);
+        } else if (input.type === "email" && !/\S+@\S+\.\S+/.test(input.value)) {
+          showError(input, "A valid email is required");
+        } else if (input.type === "url" && !/^https?:\/\/.+\..+/.test(input.value)) {
+          showError(input, "A valid URL is required");
+        } else if (input.type === "tel" && !/^\d{10,}$/.test(input.value)) { // Phone validation
+          showError(input, "A valid phone number is required (at least 10 digits)");
+        } else {
+          hideError(input);
+        }
+      };
+  
+      const inputs = form.querySelectorAll("input");
+      inputs.forEach((input) => {
+        input.addEventListener("input", () => validateField(input));
+        input.addEventListener("blur", () => validateField(input));
+      });
+  
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+  
+        let isValid = true;
+        inputs.forEach((input) => {
+          validateField(input);
+          if (input.nextElementSibling.style.display === "block") {
+            isValid = false;
+          }
+        });
+  
+        if (!isValid) return;
+
+        const captchaResponse = grecaptcha.getResponse();
+        if (!captchaResponse) {
+          responseMessage.textContent = "Please complete the reCAPTCHA challenge.";
+          responseMessage.className = "message error";
+          responseMessage.style.display = "block";
+          throw new Error("Please complete the reCAPTCHA challenge.");
+          return;
+        }
+
+  
+        const data = Object.fromEntries(formData.entries());
+  
+        submitButton.disabled = true;
+        submitButton.innerHTML = 'Submitting... <div class="loading-spinner" id="loadingSpinner"></div>';
+        loadingSpinner.style.display = "inline-block";
+  
+        try {
+          const response = await fetch("https://api.medicinalmadhoney.com", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+          });
+  
+          loadingSpinner.style.display = "none";
+          submitButton.innerHTML = 'Submit';
+          submitButton.disabled = false;
+  
+          if (response.ok) {
+            responseMessage.textContent = "Form submitted successfully!";
+            responseMessage.className = "message success";
+          } else {
+            const errorData = await response.json();
+            responseMessage.textContent = `Error: ${errorData.message || "Failed to submit form."}`;
+            responseMessage.className = "message error";
+          }
+        } catch (error) {
+          loadingSpinner.style.display = "none";
+          submitButton.innerHTML = 'Submit';
+          submitButton.disabled = false;
+          responseMessage.textContent = "An error occurred. Please try again later.";
+          responseMessage.className = "message error";
+        }
+  
+        responseMessage.style.display = "block";
+  
+        setTimeout(() => {
+          responseMessage.style.display = "none";
+        }, 3000);
+      });
+    });
+  </script>
+  

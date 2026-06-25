@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.safe-consumption.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "settings": {},
+      "blocks": {
+        "content_cRpYeF": {
+          "settings": {
+            "title": "安全な摂取",
+            "description": "<p>マッドハニーを試す場合は、推奨量を守り、過剰摂取しないことが重要です。これらのヒントに従うことで、リスクを低く抑えながら、マッドハニー独自の利点を安全に楽しむことができます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "settings": {},
+      "blocks": {
+        "content_UUE4QN": {
+          "settings": {
+            "title": "小さく始める",
+            "description": "<p>マッドハニーを初めて摂取する場合は、少量（小さじ半分程度）から始めて、身体の反応を確認してください。特に、マッドハニーには強い影響を及ぼす可能性があるグラヤノトキシンが含まれているためです。慣れてきたら、徐々に摂取量を増やしてください。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_MhPHjD": {
+      "settings": {},
+      "blocks": {
+        "content_VDaFtW": {
+          "settings": {
+            "title": "自分の直感を信じよう",
+            "description": "<p>マッドハニーを空腹時に摂取すると効果が高まりますが、消化不良を起こしやすい人は食事と一緒に摂取すると不快感を避けることができます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_7iq7pU": {
+      "settings": {},
+      "blocks": {
+        "content_3wbHrA": {
+          "settings": {
+            "title": "アルコールや薬との併用は避けてください",
+            "description": "<p>マッドハニーをアルコール、娯楽用薬物、または特定の医薬品と混ぜると、副作用を引き起こす可能性があります。医薬品を服用している場合は、まず医師にご相談ください。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_VdWMx9": {
+      "settings": {},
+      "blocks": {
+        "content_7Wj6ag": {
+          "settings": {
+            "title": "十分な水を飲む",
+            "description": "<p>水を飲むことは決して時代遅れになることはありません! しかし、めまいや疲労などの軽い副作用を相殺するために、水分補給を続けることの方が重要です。</p>"
+          }
+        }
+      }
+    }
+  }
+}

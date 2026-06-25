@@ -1,0 +1,554 @@
+
+  <style>
+
+.tourform .font-monster {
+  font-family: "Lato";
+}
+.tourform .font-crimson {
+  font-family: "Crimson Text";
+}
+.tourform .font-lato {
+  font-family: "Lato";
+}
+
+.tourform .custom-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 2px solid #be935f;
+  background-color: #be935f;
+  cursor: pointer;
+}
+.tourform .custom-checkbox input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.tourform .custom-checkbox input:checked + .checkmark {
+  opacity: 100%;
+}
+.tourform .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  background-color: #be935f;
+}
+.tourform .custom-checkbox input:checked + .checkmark:after {
+  display: block;
+}
+.tourform .custom-checkbox .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.tourform .error {
+  color: red;
+  font-size: 12px;
+}
+
+  </style>
+
+
+    <form id="tourForm" class="tourform max-w-[1200px] w-full mx-auto py-[12rem] sm:py-[6rem]">
+      <!-- Step 1 -->
+      <section id="step1" class="step">
+        <div
+          class="flex flex-nowrap sm:flex-col xl:flex-row xl:items-start items-center gap-8"
+        >
+          <div
+            class="flex sm:flex-col items-center xl:items-start sm:w-full w-1/2"
+          >
+            <div class="flex flex-col items-start mb-8 w-full">
+              <p class="font-serif text-3xl font-semibold text-[#0000004D]">
+                Step 1
+              </p>
+              <h2 class="font-serif text-4xl font-semibold text-black">
+                Begin Booking
+              </h2>
+              <p class="text-base font-serif">
+                In this step you can change the tour date if you change your
+                mind.
+              </p>
+            </div>
+            <div class="flex flex-col gap-4 w-full">
+              <input
+                type="text"
+                name="fName"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="lName"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Last Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Email Address"
+                required
+              />
+              <input
+                type="tel"
+                name="phoneNo"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Phone Number"
+                required
+              />
+              <button
+                type="button"
+                class="nextBtn w-full h-[52px] bg-black text-gold outline-none text-base p-4 transition-colors hover:bg-gold hover:text-black"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center xl:items-start sm:w-full w-1/2 mt-8 xl:mt-0"
+          >
+            <div class="w-full border border-black rounded-lg p-6">
+              <div class="flex flex-col md:flex-row gap-6">
+                <div class="bg-[#D9D9D9] w-full md:w-[130px] h-[175px]"></div>
+                <div class="flex flex-col justify-between flex-grow">
+                  <div>
+                    <p class="text-base mb-2">
+                      Explore the World of Mad Honey Harvesting & Honey Hunters.
+                    </p>
+                    <p class="text-sm text-[#00000099] mb-1">Selected Date</p>
+                    <div
+                      class="flex justify-between items-center border-b border-black pb-4"
+                    >
+                      <p class="text-sm">Nov 5-10, 2023</p>
+                      <button class="text-sm text-[#00000099] hover:underline">
+                        Change Date
+                      </button>
+                    </div>
+                  </div>
+                  <p class="text-base mt-4">Price: $1299 Per Person</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full mt-6">
+              <p class="text-base font-medium mb-2">Note:</p>
+              <p class="text-sm">
+                The price shown is only for 1 person. If you have a group,
+                you'll need to enter details for each person in the next step.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 2 -->
+      <section id="step2" class="step hidden">
+        <div
+          class="flex flex-col xl:flex-row xl:items-start items-center gap-8"
+        >
+          <div
+            class="flex flex-col items-center xl:items-start w-full xl:w-1/2"
+          >
+            <div class="flex flex-col items-start mb-8 w-full">
+              <p class="font-serif text-3xl font-semibold text-[#0000004D]">
+                Step 2
+              </p>
+              <h2 class="font-serif text-4xl font-semibold text-black">
+                Traveler Details
+              </h2>
+              <p class="text-base font-serif">
+                Please provide information for the primary contact and traveler.
+              </p>
+            </div>
+            <div class="flex flex-col gap-4 w-full">
+              <h3 class="text-lg font-medium">Primary Contact</h3>
+              <input
+                type="text"
+                name="firstName"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="lastName"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Last Name"
+                required
+              />
+              <input
+                type="email"
+                name="emailAddress"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Email Address"
+                required
+              />
+              <input
+                type="tel"
+                name="phoneNumber"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Phone Number"
+                required
+              />
+
+              <h3 class="text-lg font-medium mt-4">Birthdate</h3>
+              <div class="flex gap-4">
+                <input
+                  type="text"
+                  name="mm"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="MM"
+                  required
+                />
+                <input
+                  type="text"
+                  name="dd"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="DD"
+                  required
+                />
+                <input
+                  type="text"
+                  name="yy"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="YY"
+                  required
+                />
+              </div>
+
+              <h3 class="text-lg font-medium mt-4">Traveler's Address</h3>
+              <input
+                type="text"
+                name="country"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Country"
+                required
+              />
+              <input
+                type="text"
+                name="address"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Street Address"
+                required
+              />
+              <input
+                type="text"
+                name="address2"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Address 2 (Optional)"
+              />
+              <div class="flex gap-4">
+                <input
+                  type="text"
+                  name="city"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="City"
+                  required
+                />
+                <input
+                  type="text"
+                  name="state"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="State"
+                  required
+                />
+              </div>
+              <input
+                type="text"
+                name="zipcode"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Zip Code"
+                required
+              />
+
+              <div class="flex gap-4 mt-6">
+                <button
+                  type="button"
+                  class="prevBtn flex-1 h-[52px] bg-[#D9D9D9] text-black outline-none text-base p-4 transition-colors hover:bg-gray-300"
+                >
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="nextBtn flex-1 h-[52px] bg-black text-gold outline-none text-base p-4 transition-colors hover:bg-gold hover:text-black"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center xl:items-start w-full xl:w-1/2 mt-8 xl:mt-0"
+          >
+            <div class="w-full border border-black rounded-lg p-6">
+              <h3 class="text-lg font-medium mb-4">Tour Summary</h3>
+              <p class="text-base mb-2">
+                Explore the World of Mad Honey Harvesting & Honey Hunters
+              </p>
+              <p class="text-sm text-[#00000099] mb-1">Selected Date</p>
+              <div
+                class="flex justify-between items-center border-b border-black pb-4 mb-4"
+              >
+                <p class="text-sm">Nov 5-10, 2023</p>
+                <button class="text-sm text-[#00000099] hover:underline">
+                  Change Date
+                </button>
+              </div>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-sm">Price</span>
+                  <span class="font-medium">$1299</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-sm">Total</span>
+                  <span class="font-medium">$1299</span>
+                </div>
+                <div class="flex justify-between border-t border-black pt-2">
+                  <span class="text-sm">Trip deposit x1 Traveler</span>
+                  <span class="font-medium">$400</span>
+                </div>
+                <div class="flex justify-between font-medium">
+                  <span class="text-sm">Remaining Balance</span>
+                  <span>$899</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 3 -->
+      <section id="step3" class="step hidden">
+        <div
+          class="flex flex-col xl:flex-row xl:items-start items-center gap-8"
+        >
+          <div
+            class="flex flex-col items-center xl:items-start w-full xl:w-1/2"
+          >
+            <div class="flex flex-col items-start mb-8 w-full">
+              <p class="font-serif text-3xl font-semibold text-[#0000004D]">
+                Step 3
+              </p>
+              <h2 class="font-serif text-4xl font-semibold text-black">
+                Accommodations
+              </h2>
+              <p class="text-base font-serif">
+                Choose a rooming option for all travelers
+              </p>
+            </div>
+            <div class="flex flex-col gap-4 w-full">
+              <h3 class="text-lg font-medium">Share a room</h3>
+              <p class="text-sm text-[#00000099]">
+                Choose a rooming option for all travelers
+              </p>
+              <input
+                type="text"
+                name="roommate"
+                class="w-full border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                placeholder="Roommate"
+              />
+              <div class="flex gap-4">
+                <input
+                  type="text"
+                  name="city2"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="City"
+                />
+                <input
+                  type="text"
+                  name="state2"
+                  class="flex-1 border-2 border-[#D9D9D9] text-sm p-4 outline-none h-[52px]"
+                  placeholder="State"
+                />
+              </div>
+              <p class="text-sm text-[#00000099] mt-4">
+                Next, select your payment options
+              </p>
+              <div class="flex gap-4 mt-6">
+                <button
+                  type="button"
+                  class="prevBtn flex-1 h-[52px] bg-[#D9D9D9] text-black outline-none text-base p-4 transition-colors hover:bg-gray-300"
+                >
+                  Back
+                </button>
+                <button
+                  type="submit"
+                  class="flex-1 h-[52px] bg-black text-gold outline-none text-base p-4 transition-colors hover:bg-gold hover:text-black"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center xl:items-start w-full xl:w-1/2 mt-8 xl:mt-0"
+          >
+            <div class="w-full border border-black rounded-lg p-6">
+              <h3 class="text-lg font-medium mb-4">Tour Summary</h3>
+              <p class="text-base mb-2">
+                Explore the World of Mad Honey Harvesting & Honey Hunters
+              </p>
+              <p class="text-sm text-[#00000099] mb-1">Selected Date</p>
+              <div
+                class="flex justify-between items-center border-b border-black pb-4 mb-4"
+              >
+                <p class="text-sm">Nov 5-10, 2023</p>
+                <button class="text-sm text-[#00000099] hover:underline">
+                  Change Date
+                </button>
+              </div>
+              <div class="space-y-2">
+                <div class="flex justify-between">
+                  <span class="text-sm">Price</span>
+                  <span class="font-medium">$1299</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-sm">Total</span>
+                  <span class="font-medium">$1299</span>
+                </div>
+                <div class="flex justify-between border-t border-black pt-2">
+                  <span class="text-sm">Trip deposit x1 Traveler</span>
+                  <span class="font-medium">$400</span>
+                </div>
+                <div class="flex justify-between font-medium">
+                  <span class="text-sm">Remaining Balance</span>
+                  <span>$899</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </form>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const steps = Array.from(document.querySelectorAll(".step"));
+      const nextBtns = document.querySelectorAll(".nextBtn");
+      const prevBtns = document.querySelectorAll(".prevBtn");
+      const form = document.getElementById("tour_form");
+      let currentStep = 0;
+
+      // Helper: Show only the current step
+      const showStep = (stepIndex) => {
+        steps.forEach((step, index) => {
+          step.style.display = index === stepIndex ? "block" : "none";
+        });
+      };
+
+      // Helper: Display error messages
+      const displayError = (input, message) => {
+        const errorElement = input.parentElement.querySelector(".error");
+        if (message) {
+          if (!errorElement) {
+            const span = document.createElement("span");
+            span.classList.add("error", "text-red-500", "text-sm");
+            span.textContent = message;
+            input.parentElement.appendChild(span);
+          }
+        } else {
+          errorElement?.remove();
+        }
+      };
+
+      // Helper: Validate input fields
+      const validateInputs = (inputs) => {
+        let isValid = true;
+        inputs.forEach((input) => {
+          const value = input.value.trim();
+          const name = input.name;
+          let errorMessage = "";
+
+          // Validation logic
+          if (!value) {
+            //111111111111111111111111111
+            if (name === "fName") errorMessage = "First Name is required";
+            if (name === "lName") errorMessage = "Last Name is required";
+            if (name === "email") errorMessage = "Email is required";
+            if (name === "phoneNo") errorMessage = "Phone Number is required";
+            //222222222222222222222222222
+            if (name === "firstName") errorMessage = "First Name is required";
+            if (name === "lastName") errorMessage = "Last Name is required";
+            if (name === "emailAddress") errorMessage = "Email is required";
+            if (name === "phoneNumber")
+              errorMessage = "Phone Number is required";
+            if (name === "mm") errorMessage = "Month is required";
+            if (name === "dd") errorMessage = "Date is required";
+            if (name === "yy") errorMessage = "Year is required";
+            if (name === "US") errorMessage = "US Location is required";
+            if (name === "address") errorMessage = "Address is required";
+            if (name === "city1") errorMessage = "City is required";
+            if (name === "states1") errorMessage = "State is required";
+            if (name === "zipcode") errorMessage = "Zip Code is required";
+            if (name === "roommate") errorMessage = "Roommate is required";
+            if (name === "city2") errorMessage = "City is required";
+            if (name === "states2") errorMessage = "States is required";
+            if (name === "cardName") errorMessage = "Name in Card is required";
+            if (name === "cardNumber") errorMessage = "Card Number is required";
+            if (name === "sCode") errorMessage = "Security Code is required";
+            if (name === "expDate") errorMessage = "Expire Date is required";
+          }
+
+          displayError(input, errorMessage);
+
+          if (errorMessage) isValid = false;
+        });
+        return isValid;
+      };
+
+      // Handle Next Button
+      nextBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const parentStep = btn.closest(".step");
+          const inputs = parentStep.querySelectorAll("input");
+
+          // Validate current step inputs
+          if (validateInputs(inputs)) {
+            if (currentStep < steps.length - 1) {
+              currentStep++;
+              showStep(currentStep);
+            }
+          }
+        });
+      });
+
+      // Handle Previous Button
+      prevBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          if (currentStep > 0) {
+            currentStep--;
+            showStep(currentStep);
+          }
+        });
+      });
+
+      // Handle Form Submission
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const inputs = form.querySelectorAll("input");
+
+        if (validateInputs(inputs)) {
+          const formData = new FormData(form);
+          const data = Object.fromEntries(formData.entries());
+          console.log("Form submitted successfully:", data);
+          alert("Form submitted successfully!");
+          form.reset();
+          currentStep = 0;
+          showStep(currentStep);
+        }
+      });
+
+      // Initialize first step
+      showStep(currentStep);
+    });
+  </script>

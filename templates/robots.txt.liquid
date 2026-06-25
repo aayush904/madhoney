@@ -1,0 +1,44 @@
+{%- comment -%}
+# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
+{%- endcomment -%}
+
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+Disallow: /blogs/mad-honey/tagged/
+Disallow: /blogs/mad-honey/tagged/*
+Disallow: /search/*
+Allow: /cdn/shop/files/fav.png?v=1764844611
+{% if group.sitemap != blank %}
+{{ group.sitemap }}
+{%- endif -%}
+{% endfor %}
+
+# Custom directives
+User-agent: Googlebot
+Disallow: /blogs/mad-honey/tagged/
+
+User-agent: Bingbot
+Disallow: /blogs/mad-honey/tagged/
+
+User-agent: *
+Disallow: /blogs/mad-honey/tagged/
+
+# AI model crawlers
+User-agent: GPTBot
+Disallow: /blogs/mad-honey/tagged/
+
+User-agent: ChatGPT-User
+Disallow: /blogs/mad-honey/tagged/
+
+User-agent: AnthropicBot
+Disallow: /blogs/mad-honey/tagged/
+
+User-agent: Google-Extended
+Disallow: /blogs/mad-honey/tagged/
+
+User-agent: CCBot
+Disallow: /

@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_ELAHmV": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_Fd7g6M": {
+          "type": "content",
+          "settings": {
+            "title": "Honesty and Transparency",
+            "subtitle": "",
+            "description": "<p>Our team values no hidden curtains between our customers and us. We believe in sheer honesty and transparency in sharing authentic and accountable information about mad honey. We prioritize providing our customers with accurate information on safe usage, reliable sourcing, and the realistic health benefits of mad honey.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Fd7g6M"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "70.96 %",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "custom_liquid_Yix6zm": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {height: 0;}"
+      ],
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "basmil_image_text_6zjb4j": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_arWH7Y": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/office.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_QPzRyd": {
+          "type": "content",
+          "settings": {
+            "title": "This is Us",
+            "subtitle": "",
+            "description": "<p>We are a small team with a big passion for sharing the lesser-known yet marvelous <a href=\"https://medicinalmadhoney.com/\" target=\"_blank\" title=\"Mad Honey Nepal\">Nepalese Mad Honey</a> with the world. Started as a small venture, now we’ve gained recognition from customers worldwide who trust our products and story. At the heart, we’re a community supporting communities, preserving traditions, and helping to sustain livelihoods. For us, this journey is more than business, it’s a mission.</p>",
+            "button_text": "",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "",
+            "button_link_2": "shopify://pages/mad-honey-for-health-and-wellness"
+          }
+        }
+      },
+      "block_order": [
+        "image_arWH7Y",
+        "content_QPzRyd"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4px 0!important",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_J46Lrz": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_4HFz9P": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mad_Honey_Products_714a97d3-ca81-4742-861f-094341eb8e4b.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_Jmgwef": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey Products",
+            "subtitle": "",
+            "description": "<p>When we first started, mad honey was our only product. Back then, only a few people knew about its incredible benefits and were hesitant to spend on it. Today, as demand has skyrocketed, people have also discovered its potential in skincare. Hence, we now have three products with us - <a href=\"https://medicinalmadhoney.com/products/medicinal-mad-honey\" target=\"_blank\" title=\"Buy Mad Honey\">mad honey</a>, <a href=\"https://medicinalmadhoney.com/products/mad-honey-soap\" target=\"_blank\" title=\"Buy Mad Honey Soap\">mad honey soap</a>, and<a href=\"https://medicinalmadhoney.com/products/lip-balm\" target=\"_blank\" title=\"Buy Mad Honey Lip Balm\"> mad honey lip balm</a>!</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4HFz9P",
+        "content_Jmgwef"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4px 0!important",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "sticky-image-imagetext screen-width intact-1400-left",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_eC8kK4": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/hive.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Sustainable Practices",
+            "subtitle": "",
+            "description": "<p>We work closely with local honey hunters, ensuring ethical harvesting methods that protect the giant honeybee populations and preserve the environment. By using eco-friendly packaging and minimizing waste, we aim to reduce our environmental footprint. We try not to add anything to the traditional honey-hunting technique, respecting the land and hunters involved in its creation.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eC8kK4",
+        "content_cRpYeF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4px 0!important",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_GGiN4Q": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_qXMNM6": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Why_Medicinal_Mad_Honey.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_kRdryg": {
+          "type": "content",
+          "settings": {
+            "title": "Why Medicinal Mad Honey?",
+            "subtitle": "",
+            "description": "<p>Driven by a deep respect for community values and for nature and people, we take absolute care for the journey of our mad honey from <a href=\"/pages/hive-to-jar\" target=\"_blank\" title=\"Hive to jar\">Himalayan hive to jar</a>. For eight years, we’ve closely collaborated with over 80 communities and more than 2,100 <a href=\"/pages/honey-hunter\" title=\"Honey Hunters\">honey hunters</a> across Lamjung, Gorkha, Jarjarkot, Rukum, Solukhumbu, Rolpa, Darchula, and Dolakha in Nepal. Our harvesting process only occurs twice a year, delivering unmatched potency and purity in every jar.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qXMNM6",
+        "content_kRdryg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4px 0!important",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-left  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_ELAHmV",
+    "custom_liquid_Yix6zm",
+    "basmil_image_text_6zjb4j",
+    "basmil_image_text_J46Lrz",
+    "basmil_image_text_jaHjht",
+    "basmil_image_text_GGiN4Q"
+  ]
+}

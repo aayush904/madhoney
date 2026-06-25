@@ -1,0 +1,789 @@
+{% if fulfillment.item_count == item_count %}
+  {% capture email_title %}Your order is on its way!{% endcapture %}
+  {% capture email_body %}We've updated your shipping status for{% endcapture %}
+{% elsif fulfillment.item_count > 1 %}
+  {% if fulfillment_status == 'fulfilled' %}
+    {% capture email_title %}The last items in your order are on their way!{% endcapture %}
+    {% capture email_body %}We've updated your shipping status for{% endcapture %}
+  {% else %}
+    {% capture email_title %}Some items in your order are on their way!{% endcapture %}
+    {% capture email_body %}We've updated your shipping status for{% endcapture %}
+  {% endif %}
+{% else %}
+  {% if fulfillment_status == 'fulfilled' %}
+    {% capture email_title %}The last item in your order is on its way!{% endcapture %}
+    {% capture email_body %}We've updated your shipping status for{% endcapture %}
+  {% else %}
+    {% capture email_title %}Your order is on its way!{% endcapture %}
+    {% capture email_body %}We've updated your shipping status for{% endcapture %}
+  {% endif %}
+{% endif %}
+
+<!doctype html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>{{ email_title }}</title>
+
+    <style>
+        /* Reset styles */
+        html,
+        body {
+          margin: 0 !important;
+          padding: 0 !important;
+          height: 100% !important;
+          width: 100% !important;
+          background-color: #f8f9fa;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+          color-scheme: light dark;
+        }
+
+        * {
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: 100%;
+          box-sizing: border-box;
+        }
+
+        table,
+        td {
+          mso-table-lspace: 0pt !important;
+          mso-table-rspace: 0pt !important;
+        }
+
+        table {
+          border-spacing: 0 !important;
+          table-layout: fixed !important;
+          margin: 0 auto;
+        }
+
+        img {
+          -ms-interpolation-mode: bicubic;
+          max-width: 100%;
+          height: auto;
+          border: 0;
+          outline: none;
+          text-decoration: none;
+        }
+
+        .logo{
+          max-width: 150px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+        /* Main container - Light Mode (Default) */
+        .email-wrapper {
+          background-color: #f8f9fa;
+          padding: 20px 0;
+        }
+
+        .email-container {
+          max-width: 500px;
+          margin: 0 auto;
+          background-color: #ffffff;
+          border-radius: 12px;
+          overflow: hidden;
+        }
+
+        /* Header - Light Mode */
+        .header {
+          background-color: #ffffff;
+          padding: 30px 40px 20px;
+          text-align: center;
+          border-bottom: 1px solid #f0f0f0;
+        }
+
+        .shop-name {
+          font-size: 24px;
+          font-weight: 700;
+          color: #333333;
+          margin: 0;
+          text-decoration: none;
+          display: inline-flex;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .brand-text {
+          font-size: 18px;
+          font-weight: 600;
+          color: #333333;
+          margin: 10px 0 0 0;
+        }
+
+        /* Content - Light Mode */
+        .content {
+          padding: 40px;
+          text-align: center;
+          background-color: #ffffff;
+        }
+
+        .main-title {
+          font-size: 32px;
+          font-weight: 700;
+          color: #333333;
+          margin: 0 0 10px 0;
+          line-height: 1.2;
+        }
+
+        .subtitle {
+          font-size: 16px;
+          color: #666666;
+          margin: 0 0 5px 0;
+          line-height: 1.4;
+        }
+
+        .order-number {
+          font-size: 16px;
+          font-weight: 600;
+          color: #333333;
+          margin: 0 0 30px 0;
+        }
+
+        /* Button */
+        .button-container {
+          margin: 30px 0;
+        }
+
+        .track-button {
+          display: inline-block;
+          padding: 18px 32px;
+          background-color: #b8860b;
+          color: #ffffff !important;
+          text-decoration: none;
+          border-radius: 8px;
+          font-size: 18px;
+          font-weight: 700;
+          text-align: center;
+          min-width: 200px;
+          transition: background-color 0.3s ease;
+        }
+
+        .track-button:hover {
+          background-color: #9a7209;
+        }
+
+        .secondary-link {
+          display: block;
+          margin-top: 15px;
+          font-size: 14px;
+          color: #666666;
+          text-decoration: none;
+        }
+
+        /* Tracking info - Light Mode */
+        .tracking-section {
+          background-color: #f8f9fa;
+          padding: 20px;
+          border-radius: 8px;
+          margin: 25px;
+          text-align: center;
+        }
+
+        .tracking-company {
+          font-size: 16px;
+          font-weight: 600;
+          color: #333333;
+          margin: 0 0 5px 0;
+        }
+
+        .tracking-number {
+          font-size: 18px;
+          font-weight: 700;
+          color: #333333;
+          margin: 0;
+          letter-spacing: 1px;
+        }
+
+        .tracking-link {
+          color: #333333;
+          text-decoration: none;
+        }
+
+        /* Delivery estimate - Light Mode */
+        .delivery-estimate {
+          background-color: #f0f8ff;
+          border: 1px solid #e3f2fd;
+          border-radius: 8px;
+          padding: 15px;
+          margin: 20px 0;
+          font-size: 14px;
+          color: #666666;
+        }
+
+        /* Items section - Light Mode */
+        .items-section {
+          background-color: #f8f9fa;
+          padding: 30px 0;
+        }
+
+        .items-header {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          margin-bottom: 15px;
+        }
+
+        .items-icon {
+          width: 20px;
+          height: 20px;
+          background-color: #b8860b;
+          border-radius: 4px;
+          display: inline-block;
+        }
+
+        .items-title {
+          font-size: 18px;
+          font-weight: 700;
+          color: #333333;
+          margin: 0;
+        }
+
+        .item-table {
+          width: 100%;
+          border-radius: 8px;
+          border-bottom: 1px solid #e0e0e0;
+          padding:15px 8px;
+        }
+
+        .item-table:last-child {
+          border-bottom: none;
+        }
+
+        .item-table:first-child {
+          border-top: none;
+          padding-top: 0;
+        }
+
+        .item-image-cell {
+          width: 30%;
+          max-width: 80px;
+          vertical-align: center;
+        }
+
+        .item-image {
+          width: 100%;
+          max-width: 100px;
+          height: auto;
+          aspect-ratio: 1;
+          border: 1px solid #dcdcdc;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+
+        .item-details-cell {
+          padding-left: 20px;
+          vertical-align: top;
+          width: 80%;
+        }
+
+        .item-info-table {
+          width: 100%;
+          border-spacing: 0;
+        }
+
+        .item-info-row {
+          border-spacing: 0;
+        }
+
+        .item-info-key {
+          font-size: 14px;
+          color: #666666;
+          font-weight: 500;
+          width: 80px;
+          vertical-align: top;
+          padding: 2px 0;
+        }
+
+        .item-info-value {
+          font-size: 14px;
+          color: #333333;
+          font-weight: 400;
+          text-align: right;
+          vertical-align: top;
+          padding: 2px 0;
+        }
+
+        .item-discount-value {
+          color: #28a745;
+          font-weight: 500;
+        }
+
+        .item-refunded-value {
+          color: #dc3545;
+          font-weight: 600;
+          text-transform: uppercase;
+          font-size: 12px;
+        }
+
+        /* Footer - Light Mode */
+        .footer {
+          background-color: #f8f9fa;
+          padding: 30px 40px;
+          text-align: center;
+          border-top: 1px solid #f0f0f0;
+        }
+
+        .footer-text {
+          font-size: 14px;
+          color: #666666;
+          margin: 0;
+          line-height: 1.5;
+        }
+        .item-title {
+          margin: 0 0 5px 0;
+          font-size:16px;
+          font-weight: 600;
+            color: #333333;
+        }
+
+        /* Dark Mode Styles */
+        @media (prefers-color-scheme: dark) {
+          html,
+          body {
+            background-color: #1a1a1a !important;
+          }
+
+          .email-wrapper {
+            background-color: #1a1a1a !important;
+          }
+
+          .email-container {
+            background-color: #2d2d2d !important;
+          }
+
+          .header {
+            background-color: #2d2d2d !important;
+            border-bottom: 1px solid #404040 !important;
+          }
+
+          .shop-name {
+            color: #ffffff !important;
+          }
+
+          .shop-name a {
+            color: #ffffff !important;
+          }
+
+          .brand-text {
+            color: #ffffff !important;
+          }
+
+          .content {
+            background-color: #2d2d2d !important;
+          }
+
+          .main-title {
+            color: #ffffff !important;
+          }
+
+          .subtitle {
+            color: #b3b3b3 !important;
+          }
+
+          .order-number {
+            color: #ffffff !important;
+          }
+
+          .track-button {
+            background-color: #b8860b !important;
+            color: #ffffff !important;
+          }
+
+          .track-button:hover {
+            background-color: #9a7209 !important;
+          }
+
+          .secondary-link {
+            color: #b3b3b3 !important;
+          }
+
+          .tracking-section {
+            background-color: #404040 !important;
+          }
+
+          .tracking-company {
+            color: #ffffff !important;
+          }
+
+          .tracking-number {
+            color: #ffffff !important;
+          }
+
+          .tracking-link {
+            color: #ffffff !important;
+          }
+
+          .delivery-estimate {
+            background-color: #404040 !important;
+            border: 1px solid #555555 !important;
+            color: #b3b3b3 !important;
+          }
+
+          .items-section {
+            background-color: #404040 !important;
+          }
+
+          .items-title {
+            color: #ffffff !important;
+          }
+
+          .items-icon {
+            background-color: #b8860b !important;
+          }
+
+          .item {
+            background-color: #2d2d2d !important;
+            border: 1px solid #555555 !important;
+          }
+
+          .item-title {
+            color: #ffffff !important;
+          }
+
+          .item-info-key {
+            color: #b3b3b3 !important;
+          }
+
+          .item-info-value {
+            color: #ffffff !important;
+          }
+
+          .item-discount-value {
+            color: #28a745;
+            font-weight: 500;
+          }
+
+          .item-refunded-value {
+            color: #dc3545;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+          }
+
+          .footer {
+            background-color: #404040 !important;
+            border-top: 1px solid #555555 !important;
+          }
+
+          .footer-text {
+            color: #b3b3b3 !important;
+          }
+
+          .footer-email {
+            color: #b8860b !important;
+          }
+        }
+
+        /* Force dark mode for email clients that support it */
+        [data-ogsc] .email-wrapper {
+          background-color: #1a1a1a !important;
+        }
+
+        [data-ogsc] .email-container {
+          background-color: #2d2d2d !important;
+        }
+
+        [data-ogsc] .header {
+          background-color: #2d2d2d !important;
+          border-bottom: 1px solid #404040 !important;
+        }
+
+        [data-ogsc] .main-title,
+        [data-ogsc] .shop-name,
+        [data-ogsc] .brand-text,
+        [data-ogsc] .order-number,
+        [data-ogsc] .tracking-company,
+        [data-ogsc] .tracking-number,
+        [data-ogsc] .items-title,
+        [data-ogsc] .item-title,
+        [data-ogsc] .item-info-value {
+          color: #ffffff !important;
+        }
+
+        [data-ogsc] .subtitle,
+        [data-ogsc] .footer-text,
+        [data-ogsc] .item-info-key {
+          color: #b3b3b3 !important;
+        }
+
+        [data-ogsc] .content,
+        [data-ogsc] .item {
+          background-color: #2d2d2d !important;
+        }
+
+        [data-ogsc] .items-section,
+        [data-ogsc] .footer,
+        [data-ogsc] .tracking-section,
+        [data-ogsc] .delivery-estimate {
+          background-color: #404040 !important;
+        }
+
+        /* Mobile responsive */
+        @media only screen and (max-width: 600px) {
+          .email-container {
+            margin: 0 10px;
+            max-width: calc(100% - 20px);
+          }
+
+      
+          .content,
+          .items-section,
+          .footer {
+            padding: 40px 0 0 0!important;
+          }
+
+          .main-title {
+            font-size: 28px !important;
+          }
+
+          .item-image-cell {
+            width: 25%;
+            max-width: 60px;
+            padding-right: 15px;
+          }
+
+          .item-image {
+            max-width: 80px;
+          }
+
+          .items-header {
+            justify-content: center;
+          }
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="email-wrapper">
+      <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+          {%- if shop.email_logo_url %}
+            <img src="{{shop.email_logo_url}}" alt="{{ shop.name }}" class="logo">
+          {%- else %}
+            <div class="shop-name">
+              <span
+                style="width: 30px; height: 30px; background-color: #333; border-radius: 50%; display: inline-block;"
+              ></span>
+              <a href="{{shop.url}}" style="color: #333333; text-decoration: none;">{{ shop.name }}</a>
+            </div>
+          {%- endif %}
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+          <h1 class="main-title">{{ email_title }}</h1>
+          <p class="subtitle">{{ email_body }}</p>
+          <p class="order-number">Order {{ order_name }}</p>
+
+          {%- if po_number %}
+            <p class="order-number" style="font-size: 14px; color: #666666;">PO #{{ po_number }}</p>
+          {%- endif %}
+
+          <!-- Track Button -->
+          <div class="button-container">
+            {% if order_status_url %}
+              <a
+                href="{{ "https://tracking.medicinalmadhoney.com/" | append:  fulfillment.tracking_numbers.first | default:order_status_url }}"
+                class="track-button"
+                >Track My Parcel</a
+              >
+              {% if shop.url %}
+                <a href="{{ shop.url }}" class="secondary-link">or Visit Our Store</a>
+              {% endif %}
+            {% elsif shop.url %}
+              <a href="{{ shop.url }}" class="track-button">Visit Our Store</a>
+            {% endif %}
+          </div>
+
+          <!-- Tracking Information -->
+          {% if fulfillment.tracking_numbers.size > 0 %}
+            <div class="tracking-section">
+              {% if fulfillment.tracking_numbers.size == 1
+                and fulfillment.tracking_company
+                and fulfillment.tracking_url
+              %}
+                <p class="tracking-company">{{ fulfillment.tracking_company }}</p>
+                <p class="tracking-number">
+                  <a
+                    href="{{ "https://tracking.medicinalmadhoney.com/" | append:  fulfillment.tracking_numbers.first | default: fulfillment.tracking_url }}"
+                    class="tracking-link"
+                  >
+                    {{- fulfillment.tracking_numbers.first -}}
+                  </a>
+                </p>
+              {% elsif fulfillment.tracking_numbers.size == 1 %}
+                {% if fulfillment.tracking_company %}
+                  <p class="tracking-company">{{ fulfillment.tracking_company }}</p>
+                {% endif %}
+                <p class="tracking-number">{{ fulfillment.tracking_numbers.first }}</p>
+              {% else %}
+                {% if fulfillment.tracking_company %}
+                  <p class="tracking-company">{{ fulfillment.tracking_company }}</p>
+                {% endif %}
+                {% for tracking_number in fulfillment.tracking_numbers %}
+                  <p class="tracking-number" style="margin-bottom: 5px;">
+                    {% if fulfillment.tracking_urls[forloop.index0] %}
+                      {% comment %}
+                        <a href="{{ fulfillment.tracking_urls[forloop.index0] }}" class="tracking-link">
+                          {{- tracking_number -}}
+                        </a>
+                      {% endcomment %}
+
+                      <a
+                        href="{{ "https://tracking.medicinalmadhoney.com/>" | append:  tracking_number }}"
+                        class="tracking-link"
+                      >
+                        {{- tracking_number -}}
+                      </a>
+                    {% else %}
+                      {{ tracking_number }}
+                    {% endif %}
+                  </p>
+                {% endfor %}
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <!-- Delivery Estimate -->
+          {% if fulfillment.estimated_delivery_at %}
+            <div class="delivery-estimate">
+              <strong>Estimated delivery: {{ fulfillment.estimated_delivery_at | date: format: 'date' }}</strong>
+            </div>
+          {% endif %}
+        </div>
+
+        <!-- Items Section -->
+        <div class="items-section">
+          <div class="items-header">
+            <h2 class="items-title">📦 Items in this shipment</h2>
+          </div>
+
+          {% for line in fulfillment.fulfillment_line_items %}
+            <table class="item-table" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td class="item-image-cell">
+                  {% if line.line_item.image %}
+                    <img
+                      src="{{ line.line_item | img_url: 'medium' }}"
+                      alt="{{ line.line_item.title }}"
+                      class="item-image"
+                    >
+                  {% else %}
+                    <img
+                      src="{{ 'notifications/no-image.png' | shopify_asset_url }}"
+                      alt="No image"
+                      class="item-image"
+                      style="background-color: #f0f0f0;"
+                    >
+                  {% endif %}
+                </td>
+                <td class="item-details-cell">
+                  {% if line.line_item.product.title %}
+                    {% assign line_title = line.line_item.product.title %}
+                  {% else %}
+                    {% assign line_title = line.line_item.title %}
+                  {% endif %}
+
+                  {% if line.quantity < line.line_item.quantity %}
+                    {% assign line_display = line.quantity | append: ' of ' | append: line.line_item.quantity %}
+                  {% else %}
+                    {% assign line_display = line.line_item.quantity %}
+                  {% endif %}
+
+                  <h3 class="item-title">{{ line_title }}</h3>
+
+                  <table class="item-info-table" cellpadding="0" cellspacing="0" border="0">
+                    <tr class="item-info-row">
+                      <td class="item-info-key">Quantity:</td>
+                      <td class="item-info-value">{{ line_display }}</td>
+                    </tr>
+
+                    {% if line.line_item.variant.title != 'Default Title' %}
+                      <tr class="item-info-row">
+                        <td class="item-info-key">Variant:</td>
+                        <td class="item-info-value">{{ line.line_item.variant.title }}</td>
+                      </tr>
+                    {% endif %}
+
+                    {% if line.line_item.selling_plan_allocation %}
+                      <tr class="item-info-row">
+                        <td class="item-info-key">Plan:</td>
+                        <td class="item-info-value">
+                          {{- line.line_item.selling_plan_allocation.selling_plan.name -}}
+                        </td>
+                      </tr>
+                    {% endif %}
+
+                    {% for group in line.line_item.groups %}
+                      <tr class="item-info-row">
+                        <td class="item-info-key">Group:</td>
+                        <td class="item-info-value">{{ group.display_title }}</td>
+                      </tr>
+                    {% endfor %}
+
+                    {% if line.line_item.discount_allocations %}
+                      {% for discount_allocation in line.line_item.discount_allocations %}
+                        {% if discount_allocation.discount_application.target_selection != 'all' %}
+                          <tr class="item-info-row">
+                            <td class="item-info-key">Discount:</td>
+                            <td class="item-info-value item-discount-value">
+                              {{ discount_allocation.discount_application.title | upcase }}
+                              (-{{ discount_allocation.amount | money }})
+                            </td>
+                          </tr>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+
+                    {% if line.line_item.refunded_quantity > 0 %}
+                      <tr class="item-info-row">
+                        <td class="item-info-key">Status:</td>
+                        <td class="item-info-value item-refunded-value">Refunded</td>
+                      </tr>
+                    {% endif %}
+
+                    <!-- Bundle Components -->
+                    {% assign expand_bundles = false %}
+                    {% if expand_bundles %}
+                      {% for component in line.line_item.bundle_components %}
+                        <tr class="item-info-row" style="border-top: 1px solid #f0f0f0;">
+                          <td class="item-info-key" style="padding-top: 10px;">Bundle:</td>
+                          <td class="item-info-value" style="padding-top: 10px;">
+                            {{ component.quantity }} × {{ component.product.title | default: component.title }}
+                            {% if component.variant.title != 'Default Title' %}
+                              ({{ component.variant.title }})
+                            {% endif %}
+                          </td>
+                        </tr>
+                      {% endfor %}
+                    {% endif %}
+                  </table>
+                </td>
+              </tr>
+            </table>
+          {% endfor %}
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+          <p class="footer-text">
+            If you have any questions, reply to this email or reach out to us at
+            <a href="mailto:{{ shop.email }}" class="footer-email">{{ shop.email }}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

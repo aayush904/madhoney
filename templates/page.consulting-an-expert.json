@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_gULdRr": {
+      "type": "image-banner",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Consulting_an_expert_banner_image.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Consulting an expert",
+            "description": "<p>To each their own! Everyone is different, and so is their reaction to the honey. One size might not fit all. The mad honey might be working wonders for others but might be a total bummer for you. Chances are your body responds to it differently. Hence it’s always wise to consult an expert<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_cRpYeF"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentcenter",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "",
+        "padding": "15rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "91rem",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "basmil_image_text_KbzT3N": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_EVPDDe": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/Consulting_an_expert.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        },
+        "content_UUE4QN": {
+          "type": "content",
+          "settings": {
+            "title": "According to the Experts",
+            "description": "<p>The professionals suggest that adding mad honey to your daily routine can be beneficial. But they also endorse the importance of moderation because of its grayanotoxin content. It’s best to start with a small amount and see how your body reacts to avoid side effects like dizziness or nausea. It’s important to be mindful of how much you’re taking and not exceed the recommended doses.<\/p><p>If you have certain health issues like heart problems—or are on medication, the recommendation is always to check with your mad honey before using mad honey regularly. It’s also not recommended for children, pregnant women, or people with weakened immune systems because of the potential risks involved.<\/p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EVPDDe",
+        "content_UUE4QN"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "59.5rem",
+        "padding": "0 16px 15rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "116.6rem",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "image_banner_gULdRr",
+    "basmil_image_text_jaHjht",
+    "basmil_image_text_KbzT3N"
+  ]
+}

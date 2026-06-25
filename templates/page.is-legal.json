@@ -1,0 +1,313 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_tAJYY6": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_9DdWnQ": {
+          "type": "image",
+          "settings": {
+            "image_type": "html",
+            "image_alt": "Mad Honey",
+            "svg": "<img src=\"https://cdn.shopify.com/s/files/1/0663/9966/6326/files/Group_of_Flag.svg?v=1743577389\" width=\"\" height=\"\" alt=\"Mad Honey Global Distributor Flag\">",
+            "image_width": "100%; margin:0 auto;"
+          }
+        }
+      },
+      "block_order": [
+        "image_9DdWnQ"
+      ],
+      "custom_css": [
+        ".main-wrapper.wrapper,.main-wrapper .imagepart.imagepart {max-width: 100% !important; width: 100%;}",
+        "img {width: 100%;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "",
+        "content_width": "100%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_DKiYyL": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_9jEMqf": {
+          "type": "content",
+          "settings": {
+            "title": "Is mad honey legal in the <br> Europe, West and Middle East?",
+            "subtitle": "",
+            "description": "<p>Mad Honey is mostly legal across the whole wide world. Still, it's essential to check with an individual country’s legal rules and regulations regarding its food policies. </p><p>Always purchase it from an authentic and reputable source to ensure it performs transparency about the product’s origin and composition while matching the food regulations. In this article, we will explore the question: is mad honey legal?, and examine the countries where it is permitted.<br/><br/></p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_9jEMqf"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "75%",
+        "padding": "7rem 16px",
+        "margin": "0 auto",
+        "custom_class": "page-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_double_RUL6MF": {
+      "type": "basmil-image-text-double",
+      "blocks": {
+        "block_ecYLHE": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>United Kingdom (UK)</h3><ul><li>Mad Honey is not explicitly banned in the United Kingdom</li><li>Learn more about the <a href=\"/blogs/mad-honey/is-mad-honey-legal-in-uk\" target=\"_blank\" title=\"Is mad honey legal in the UK?\"> mad honey legal framework in the United Kingdom.</a></li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/uk.jpg",
+            "svg": ""
+          }
+        },
+        "block_DGaRkr": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Australia </h3><ul><li>Not permitted to sell or consume. </li><li>Honey products are allowed in most Australian states, but mad honey doesn’t pass biosecurity inspection. </li><li>All honey products undergo inspection upon arrival. </li><li>Non-compliant items will be exported or destroyed at the importer’s expense.</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/aus.jpg",
+            "svg": ""
+          }
+        },
+        "block_HkEU7X": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Ireland</h3><ul><li>The Food Safety Authority of Ireland (FSAI) oversees food safety, including honey, under EU legislation where there is no mention of specific product called mad honey</li><li>While the product is not produced within the country ts importation and sale are regulated to ensure consumer safety. </li><li>A proper labelling with contents inside are demanded by custom and import</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Ireland_Flag.webp",
+            "svg": ""
+          }
+        },
+        "block_zMK6qd": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Poland</h3><ul><li>Mad Honey is leagl to purchase and sell in poland as the Chief Sanitary Inspectorate (Główny Inspektorat Sanitarny, or GIS) sees this as a normal honey product.</li><li>Agricultural and Food Quality Inspection do not specifically address \"mad honey\" in their regulations. This is likely due to the rarity of such products in Poland.</li><li>As long as there is lack of specific regulations in Poland you are free to buy and purchase</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Poland_Flag.webp",
+            "svg": ""
+          }
+        },
+        "block_pDn6Y8": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Germany</h3><ul><li>Not explicitly banned. </li><li>Exporters must label honey with accurate details like origin, ingredients, and processing methods. </li><li>It must adhere to<a href=\"https://european-union.europa.eu/priorities-and-actions/actions-topic/food-safety_en\"><span style=\"text-decoration:underline\"> EU food safety regulations</span></a>.</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/germany.jpg",
+            "svg": ""
+          }
+        },
+        "block_Yjc7r3": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Japan</h3><ul><li>Mad Honey is not banned but is subject to strict regulations.</li><li>Learn Mad Honey legal framework in Japan </li><li>The food standards are overseen by the Ministry of Health, Labor, and Welfare (MHLW). </li><li>Mad honey must undergo customs inspections and certification for its natural status if imported. </li><li>Must adhere to <a href=\"https://www.maff.go.jp/e/policies/standard/jas/index.html\"><span style=\"text-decoration:underline\">Japanese Agricultural Standards (JAS)</span></a> labeling rules.</li><li>Cannot be marketed as \"organic\" without appropriate certification.</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Japan.jpg",
+            "svg": ""
+          }
+        },
+        "block_CXR47B": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>North America</h3><ul><li>Legal in North America but is regulated. </li><li>In America, the FDA mandates compliance with labeling, purity, and safety standards. </li><li>In Canada, the CFIA oversees imports, requiring accurate labeling and documentation. </li><li>Mexico allows honey imports under NOM standards, focusing on food safety and consumer health. </li><li>Transparency in ingredients and strict inspections ensure compliance with food safety regulations.</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/North_America.jpg",
+            "svg": ""
+          }
+        },
+        "block_RNp64e": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>South America</h3><ul><li>Legal in South America, but regulations differ by country. </li><li>Brazil enforces ANVISA’s food safety rules, emphasizing proper labeling and quality checks. </li><li>Argentina allows honey imports if they comply with SENASA's strict standards for safety and labeling. </li><li>Chile regulates honey imports with a focus on accurate origin documentation and health compliance. </li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/South_America.jpg",
+            "svg": ""
+          }
+        },
+        "block_yfAHjT": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Europe</h3><ul><li>Classified as a novel food in most European countries. </li><li>Must comply with EU labeling standards  </li><li>Involves evaluation of the composition of honey, potential risks, and the intended conditions of use for the authorization process. </li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Europe.jpg",
+            "svg": ""
+          }
+        },
+        "block_ixkTkh": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Asia</h3><ul><li><strong>Nepal and Turkey:</strong> <a href=\"https://medicinalmadhoney.com\" target=\"_blank\" title=\"Authentic Mad Honey\">Mad honey</a> is traditionally harvested and legally sold.</li><li><strong>India:</strong> Yes, Mad Honey legal in India. As, Mad honey is not explicitly banned but must meet <a href=\"https://www.fssai.gov.in/cms/food-safety-and-standards-regulations.php\"><span style=\"text-decoration:underline\">Food Safety and Standards Authority of India (FSSAI)</span></a> regulations.</li><li><strong>China and Southeast Asia:</strong> Legal for sale and consumption, but subject to food safety laws with restrictions on psychoactive effects.</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Asia.jpg",
+            "svg": ""
+          }
+        },
+        "block_DHJ3Vg": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Africa</h3><ul><li>Legal to sell or consume in most African countries.</li><li>The Agricultural Product Standards Act(1990) regulates honey and bee product sales. </li><li>Both local and imported must comply with regulations including grading, packaging, and labeling requirements. </li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Africa.jpg",
+            "svg": ""
+          }
+        },
+        "block_6ptQDL": {
+          "type": "block",
+          "settings": {
+            "content": "<h3>Antartica</h3><ul><li>No food regulations; governed by international treaties.</li><li>Imported food must comply with the laws of the managing country.</li><li>Antarctic Treaty protocols require waste minimization and contamination prevention.</li><li>Stations prioritize food safety and adhere to biosecurity measures.</li><li>Environmental integrity is maintained through strict waste management.</li></ul>",
+            "image_type": "image",
+            "image": "shopify://shop_images/Antarctica.jpg",
+            "svg": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_ecYLHE",
+        "block_DGaRkr",
+        "block_HkEU7X",
+        "block_zMK6qd",
+        "block_pDn6Y8",
+        "block_Yjc7r3",
+        "block_CXR47B",
+        "block_RNp64e",
+        "block_yfAHjT",
+        "block_ixkTkh",
+        "block_DHJ3Vg",
+        "block_6ptQDL"
+      ],
+      "custom_css": [
+        "img {aspect-ratio: 1/1;}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "section_id": "",
+        "section_class": ""
+      }
+    },
+    "basmil_image_text_gHbcd9": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_HLQX47": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Group_27804.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "48%"
+          }
+        },
+        "content_hkAAAC": {
+          "type": "content",
+          "settings": {
+            "title": "Madly Pure",
+            "subtitle": "",
+            "description": "<p>Through partnerships with trusted Nepalese suppliers, we ensure strict quality control for every jar of honey. If you're looking for <a href=\"/collections/all\" target=\"_blank\" title=\"All\">buying mad honey </a>options that meet international standards, rest assured—our products undergo thorough testing and are approved by Nepal’s food lab and export department. In Nepal, mad honey is often called cliff honey or wild honey due to its natural origin. All our orders are shipped as certified cliff honey, fully compliant with export regulations.</p><h2>Disclaimer</h2><p>The information in this guide is for educational purposes only and should not be considered legal advice. Laws and regulations related to mad honey may vary by location and can change over time. While we aim to provide accurate and up-to-date information, we cannot ensure its completeness or suitability for specific situations.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HLQX47",
+        "content_hkAAAC"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4.8rem 3.3%",
+        "content_width": "48.26%",
+        "padding": "12rem 16px 0 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "87.37%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "single_product_variants_NehnKg": {
+      "type": "single-product-variants",
+      "settings": {
+        "heading_tag": "h2",
+        "title": "Our Mad Honey Collection",
+        "description": "Find the purest one for you from our collection of authentic, high GTX rated Mad honey, carefully harvested, bottled and packed in Nepal.",
+        "product": "medicinal-mad-honey",
+        "show_sold_out_variants": false,
+        "overlay_text": "Mad Honey",
+        "show_badge": true,
+        "show_weight": true,
+        "button_text": "ADD TO CART",
+        "show_schema": true,
+        "custom_html": "<style>\n  /* Add your custom CSS here */\n</style>\n<script>\n  // Add your custom JavaScript here\n</script>"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_tAJYY6",
+    "basmil_image_text_DKiYyL",
+    "basmil_image_text_double_RUL6MF",
+    "basmil_image_text_gHbcd9",
+    "single_product_variants_NehnKg"
+  ]
+}

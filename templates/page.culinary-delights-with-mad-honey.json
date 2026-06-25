@@ -1,0 +1,134 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_4HFz9P": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/33611054e2_1.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_Jmgwef": {
+          "type": "content",
+          "settings": {
+            "title": "Culinary Delights with Mad Honey",
+            "subtitle": "",
+            "description": "<p>Mad Honey's rich, unique flavor makes it a gourmet ingredient in the culinary world. Its sweet, buzzing taste adds a distinctive touch to a variety of dishes, from marinades and dressings to desserts and beverages. Chefs and home cooks alike use <a href=\"/\" target=\"_blank\" title=\"mad honey\">Mad Honey</a> to create memorable culinary experiences, such as drizzling it over cheese, incorporating it into salad dressings, or adding it to baked goods for a hint of exotic sweetness. Its versatility in the kitchen highlights its appeal beyond traditional uses, offering a unique flavor profile that elevates any dish.</p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4HFz9P",
+        "content_Jmgwef"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right  sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "faq_zMr6tt": {
+      "type": "faq",
+      "blocks": {
+        "text_tLxJ8T": {
+          "type": "text",
+          "settings": {
+            "question": "Why mad honey has differential effects?",
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. The <a href=\"/pages/mad-honey-effects\" target=\"_blank\" title=\"mad honey effects\">effects of mad honey</a> may vary with several factors.</p>"
+          }
+        },
+        "text_qxckdz": {
+          "type": "text",
+          "settings": {
+            "question": "Why Medicinal Mad Honey?",
+            "answer": "<p>Because we think there is no product like us.</p>"
+          }
+        },
+        "text_dRfQjQ": {
+          "type": "text",
+          "settings": {
+            "question": "What are the health benefits of Mad Honey?",
+            "answer": "<p>Most people witness its benefits within 1-2 weeks. To maximize the <a href=\"/pages/health-benefits-of-mad-honey\" target=\"_blank\" title=\"health benefits of mad honey\">health benefits</a>, consume mad honey for at least two weeks.</p>"
+          }
+        },
+        "text_LNqyxV": {
+          "type": "text",
+          "settings": {
+            "question": "Does Mad Honey gets you high?",
+            "answer": "<p>Although the use of Mad Honey is well known for the purpose of recreation, we don't recommend you to use mad honey to get high. As the <a href=\"/pages/mad-honey-dose\" target=\"_blank\" title=\"mad honey dosage\">overdose of mad honey</a> can be fatal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tLxJ8T",
+        "text_qxckdz",
+        "text_dRfQjQ",
+        "text_LNqyxV"
+      ],
+      "settings": {
+        "heading": "Culinary Delights with Mad Honey",
+        "description": "When using Mad Honey for health and wellness, start with a small dose—about half a teaspoon—and gradually adjust based on your body's response. Incorporate it into your routine by taking it on an empty stomach or mixing it with warm water or herbal tea to enhance its potential benefits, such as boosting immunity and supporting digestion. To avoid any adverse effects, limit your intake to once a day and consult a healthcare provider, especially if you have existing health conditions or are on medication. Remember, moderation is key to safely enjoying the wellness benefits of Mad Honey.",
+        "show_schema": true,
+        "content_alignment": "Center",
+        "content_part_width": "72.33%",
+        "faq_width": "46%",
+        "gap_between_sections": "7.2rem",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "100%",
+        "min_height": "",
+        "background_type": "Color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "Center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_jaHjht",
+    "faq_zMr6tt"
+  ]
+}

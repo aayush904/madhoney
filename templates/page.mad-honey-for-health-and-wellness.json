@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_4HFz9P": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify:\/\/shop_images\/eeea814ab7_1.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "calc(50% + 0px)"
+          }
+        },
+        "content_Jmgwef": {
+          "type": "content",
+          "settings": {
+            "title": "Mad Honey in Tradition",
+            "description": "<p>Mad Honey has a storied history in traditional cultures, especially in regions like Nepal and Turkey. For centuries, it has been used in various rituals and ceremonies, symbolizing its spiritual and cultural significance. The Gurung communities of Nepal, for instance, revere Mad Honey not only for its unique flavor but also for its role in traditional healing practices and ceremonial offerings. This honey is often consumed during special occasions and is believed to bring blessings and good fortune. Its historical use highlights its deep connection to the cultural heritage and spiritual <\/p>",
+            "button_text": "Buy Mad Honey",
+            "button_link": "shopify:\/\/products\/medicinal-mad-honey",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4HFz9P",
+        "content_Jmgwef"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagefirst",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "50%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "intact-1400-right sticky-image-imagetext screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    },
+    "faq_zMr6tt": {
+      "type": "faq",
+      "blocks": {
+        "text_tLxJ8T": {
+          "type": "text",
+          "settings": {
+            "question": "Why is Mad Honey Expensive?",
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+          }
+        },
+        "text_qxckdz": {
+          "type": "text",
+          "settings": {
+            "question": "Why Medicinal Mad Honey?",
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+          }
+        },
+        "text_dRfQjQ": {
+          "type": "text",
+          "settings": {
+            "question": "What are the health benefits of Mad Honey?",
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+          }
+        },
+        "text_LNqyxV": {
+          "type": "text",
+          "settings": {
+            "question": "Does Mad Honey gets you high?",
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tLxJ8T",
+        "text_qxckdz",
+        "text_dRfQjQ",
+        "text_LNqyxV"
+      ],
+      "settings": {
+        "heading": "Tips to Used Mad Honey for <br> Health and Wellness",
+        "description": "When using Mad Honey for health and wellness, start with a small dose—about half a teaspoon—and gradually adjust based on your body's response. Incorporate it into your routine by taking it on an empty stomach or mixing it with warm water or herbal tea to enhance its potential benefits, such as boosting immunity and supporting digestion. To avoid any adverse effects, limit your intake to once a day and consult a healthcare provider, especially if you have existing health conditions or are on medication. Remember, moderation is key to safely enjoying the wellness benefits of Mad Honey.",
+        "content_alignment": "Center",
+        "content_part_width": "",
+        "faq_width": "67%",
+        "gap_between_sections": "6rem",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "72.33%",
+        "min_height": "",
+        "background_type": "Color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "Center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_jaHjht",
+    "faq_zMr6tt"
+  ]
+}

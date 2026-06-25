@@ -1,0 +1,212 @@
+{% comment %}
+  Renders an article card for a given blog with settings to either show the image or not.
+
+  Accepts:
+  - blog: {Object} Blog object
+  - article: {Object} Article object
+  - media_aspect_ratio: {String} The setting changes the aspect ratio of the article image, if shown
+  - media_height: {String} The setting changes the height of the article image. Overrides media_aspect_ratio.
+  - show_image: {String} The setting either show the article image or not. If it's not included it will show the image by default
+  - show_date: {String} The setting either show the article date or not. If it's not included it will not show the image by default
+  - show_author: {String} The setting either show the article author or not. If it's not included it will not show the author by default
+  - show_badge: {String} The setting either show the blog badge or not.
+  - lazy_load: {Boolean} Image should be lazy loaded. Default: true (optional)
+
+  Usage:
+  {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+{% endcomment %}
+
+{%- if article and article != empty -%}
+  {%- liquid
+    assign ratio = 1
+    if media_aspect_ratio != null
+      assign ratio = media_aspect_ratio
+    endif
+  -%}
+
+
+
+  <style>
+.card--standard .card__inner{
+  &&:before,&&:after{
+    content: none;
+  }
+
+}
+  
+    .card .card__inner .card__media,.card .media{
+    position: static;
+    height:max-content
+    }
+    .card__media .media img.aspect-\[16\/9\] {
+      height: auto;
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      position: static;
+  }
+  </style>
+
+  <div class="basmil article-card-wrapper group card-wrapper underline-links-hover">
+    {% comment %} <div aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
+    <a href="{{article.url}}"  class="
+        card article-card
+        card--{{ settings.blog_card_style }}
+        {% if media_height and media_height != 'adapt' %} article-card__image--{{ media_height }}{% endif %}
+        {% if article.image and show_image %} card--media{% else %} {% endif %}
+        {% if settings.blog_card_style == 'card' %} color-{{ settings.blog_card_color_scheme }} gradient{% endif %}
+        {% if settings.blog_card_style == 'card' and media_height == nil and article.image == empty or show_image == false %} ratio{% endif %}
+      " style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
+    >
+      <div class="card__inner {% if settings.blog_card_style == 'standard' %} color-{{ settings.blog_card_color_scheme }} gradient{% endif %}{% if article.image and show_image or settings.blog_card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
+        {%- if show_image == true -%}
+          <div class="article-card__image-wrapper card__media">
+            <div
+              class="block article-card__image media media--hover-effect"
+              {% if section.settings.media_height == 'adapt' %}
+              style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
+              {% endif %}
+            >
+
+              {% if article.image %}
+                {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+                <img
+                  srcset="
+                  {%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
+                  {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
+                  {%- if article.image.src.width >= 1000 -%}{{ article.image.src | image_url: width: 1000 }} 1000w,{%- endif -%}
+                  {%- if article.image.src.width >= 1500 -%}{{ article.image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ article.image.src | image_url }} {{ article.image.src.width }}w
+                "
+                  src="{{ article.image.src | image_url: width: 533 }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 769px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ article.image.src.alt | escape }}"
+                  class="motion-reduce aspect-[16/9] h-[18.5rem]"
+                  {% unless lazy_load == false %}
+                  loading="lazy"
+                  {% endunless %}
+                  width="{{ article.image.width }}"
+                  height="{{ article.image.height }}">
+              {% else %}
+                <img
+                  srcset="
+                    {%- if settings.logo.src.width >= 165 -%}{{ settings.logo.src | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if settings.logo.src.width >= 360 -%}{{ settings.logo.src | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if settings.logo.src.width >= 533 -%}{{ settings.logo.src | image_url: width: 533 }} 533w,{%- endif -%}
+                    {%- if settings.logo.src.width >= 720 -%}{{ settings.logo.src | image_url: width: 720 }} 720w,{%- endif -%}
+                    {%- if settings.logo.src.width >= 1000 -%}{{ settings.logo.src | image_url: width: 1000 }} 1000w,{%- endif -%}
+                    {%- if settings.logo.src.width >= 1500 -%}{{ settings.logo.src | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ settings.logo.src | image_url }} {{ settings.logo.src.width }}w
+                  "
+                  src="{{ settings.logo.src | image_url: width: 533 }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 769px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ settings.logo.src.alt | escape }}"
+                  class="motion-reduce aspect-[16/9] min-h-[18.5rem] h-[18.5rem] p-[5rem]"
+                  {% unless lazy_load == false %}
+                  loading="lazy"
+                  {% endunless %}
+                  width="{{ settings.logo.width }}"
+                  height="{{ settings.logo.height }}">
+
+
+              {% endif %}
+              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+            </div>
+          </div>
+        {%- endif -%}
+      {% comment %}
+        <div class="card__content">
+        <div class="card__information">
+        <a href="{{ article.url }}" class="full-unstyled-link">
+        <h3 class="line-clamp-2 card__heading{% if show_excerpt %} h2{% endif %}">
+        {{ article.title | truncate: 50 | escape }}
+        </h3>
+        </a>
+        <div class="text-gray-500 text-sm mb-4 article-card__info caption-with-letter-spacing h5">
+        {%- if show_date -%}
+        <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
+        {%- endif -%}
+        {%- if show_author -%}
+        <span>{{ article.author }}</span>
+        {%- endif -%}
+        </div>
+        {%- if show_excerpt -%}
+        {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
+        <p class="text-gray-600 mb-4">
+        {%- if article.excerpt.size > 0 -%}
+        {{ article.excerpt | strip_html | truncatewords: 30 }}
+        {%- else -%}
+        {{ article.content | strip_html | truncatewords: 30 }}
+        {%- endif -%}
+        </p>
+        {%- endif -%}
+        <div class="article-card__footer">
+        {%- if article.comments_count > 0 and blog.comments_enabled? -%}
+        <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
+        {%- endif -%}
+        </div>
+        {%- endif -%}
+        </div>
+        {%- if show_badge -%}
+        <div class="card__badge {{ settings.badge_position }}">
+        <span class="badge color-background-1">{{ 'blogs.article.blog' | t }}</span>
+        </div>
+        {%- endif -%}
+        </div>
+      {% endcomment %}
+      </div>
+      <div class="card__content">
+        <div class="card__information p-0">
+          <!-- line-clamp-2 -->
+          <h3 title="{{ article.title | escape}}" class=" text-[#3B2D1F] blog-heading m-0 card__heading{% if show_excerpt %} h2{% endif %}">
+            {{ article.title | escape }}
+          </h3>
+          <div class="font-sans blog-text font-medium text-[#0000007d]">
+            {%- if show_date -%}
+              <span class="text-[#0000007d] blog-text ">Date: {{ article.published_at | date: '%b %d, %Y' }}</span>
+            {%- endif -%}
+            {%- if show_author -%}
+              <span>{{ article.author }}</span>
+            {%- endif -%}
+          </div>
+          {%- if show_excerpt -%}
+            {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
+              <p class="line-clamp-5 article-card__excerpt rte-width font-sans text-justify blog-text font-medium text-[#0000007d]">
+                {%- if article.excerpt.size > 0 -%}
+                  {{ article.excerpt | strip_html | truncatewords: 30 }}
+                {%- else -%}
+                  {{ article.content | strip_html | truncatewords: 30 }}
+                {%- endif -%}
+              </p>
+            {%- endif -%}
+            <div class="article-card__footer">
+              <p class="read-more text-base text-[#0000007d] hover:no-underline mt-[calc(4rem-16px)]  font-sans font-medium tracking-[0.02em] capitalize flex gap-6 items-center text-justify">
+                Learn More
+                <svg
+                  width="16"
+                  height="8"
+                  viewBox="0 0 16 8"
+                  fill="none"
+                  class="mt-2"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.5287 4.03178C15.724 3.83651 15.724 3.51993 15.5287 3.32467L12.3467 0.142689C12.1515 -0.0525734 11.8349 -0.0525734 11.6396 0.142689C11.4443 0.337951 11.4443 0.654533 11.6396 0.849796L14.468 3.67822L11.6396 6.50665C11.4443 6.70191 11.4443 7.01849 11.6396 7.21376C11.8349 7.40902 12.1515 7.40902 12.3467 7.21376L15.5287 4.03178ZM0.359375 4.17822H15.1751V3.17822H0.359375L0.359375 4.17822Z" fill="black" />
+                </svg>
+              </p>
+
+              {% comment %} {%- if article.comments_count > 0 and blog.comments_enabled? -%}
+                <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
+              {%- endif -%} {% endcomment %}
+            </div>
+          {%- endif -%}
+        </div>
+        {%- if show_badge -%}
+          <div class="card__badge {{ settings.badge_position }}">
+            <span class="badge color-background-1">{{ 'blogs.article.blog' | t }}</span>
+          </div>
+        {%- endif -%}
+      </div>
+    </a>
+  </div>
+{%- endif -%}

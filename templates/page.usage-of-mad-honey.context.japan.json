@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.usage-of-mad-honey.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "basmil_image_text_ELAHmV": {
+      "settings": {},
+      "blocks": {
+        "content_Fd7g6M": {
+          "settings": {
+            "title": "マッドハニーの用途",
+            "description": "<p>当社の薬用マッドハニーは、さまざまな方法でお楽しみいただけます。お茶やスムージーなど、お気に入りの飲み物に混ぜて自然な甘さを楽しむのもお勧めです。料理に甘味料として使って、独特の風味を加えることもできます。マッドハニーは、スキンケアやヘアケアにも簡単にお使いいただけます。</p>"
+          }
+        }
+      }
+    },
+    "basmil_image_text_J46Lrz": {
+      "settings": {},
+      "blocks": {
+        "content_Jmgwef": {
+          "settings": {
+            "title": "伝統の狂気の蜂蜜",
+            "description": "<p>ネパールとトルコの伝統文化に深く根ざしています。何世紀にもわたり、精神的、文化的に重要な意味を持っています。ネパールのグルン族は、マッドハニーの伝統的な治癒効果を大切にしています。マッドハニーは、祝福と幸運をもたらす特別な機会によく消費されます。</p>",
+            "button_text": "マッドハニーを購入する"
+          }
+        }
+      }
+    },
+    "basmil_image_text_jaHjht": {
+      "settings": {},
+      "blocks": {
+        "content_cRpYeF": {
+          "settings": {
+            "title": "健康とウェルネスのためのマッドハニー",
+            "description": "<p>マッドハニーを食事に取り入れることで、心臓血管の健康、痛みの緩和、免疫システムの強化に役立ちます。マッドハニーのユニークな化合物、例えばグラヤノトキシンがその治療効果に貢献しています。抗炎症作用で知られるマッドハニーは、関節痛、筋肉痛、傷の治癒、消化器系の健康に役立ちます。</p>",
+            "button_text": "マッドハニーを購入する",
+            "button_text_2": "使用上のヒント"
+          }
+        }
+      }
+    },
+    "basmil_image_text_GGiN4Q": {
+      "settings": {},
+      "blocks": {
+        "content_kRdryg": {
+          "settings": {
+            "title": "マッドハニーのおいしい料理",
+            "description": "<p>甘酸っぱい風味がほとんどすべての料理に合うので、料理の世界に最適です。甘酸っぱい味は、マリネやドレッシングからデザートや飲み物まで、あらゆる料理を引き立てます。チーズにかけたり、サラダドレッシングに混ぜたり、焼き菓子に加えてエキゾチックな甘さを加えたりと、さまざまな料理に使用できます。</p>",
+            "button_text": "マッドハニーを購入する",
+            "button_text_2": "使用上のヒント"
+          }
+        }
+      }
+    },
+    "basmil_image_text_4DWQpc": {
+      "settings": {},
+      "blocks": {
+        "content_3UbGyb": {
+          "settings": {
+            "title": "スキンケアと健康におけるマッドハニー",
+            "description": "<p>天然の抗菌・抗炎症作用があるため、フェイスマスクや鎮静バームに最適です。肌に塗ると、マッドハニーは治癒を促進し、炎症を抑え、保湿効果があります。肌の健康を高め、自然な輝きを得るために、DIY スキンケア トリートメントでよく使用されます。栄養成分として使用すると、髪は輝き、弾力があり、絹のように滑らかになります。</p>",
+            "button_text": "マッドハニーを購入する",
+            "button_text_2": "使用上のヒント"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,310 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_JenPYq": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_fhVcFx": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/banner_founders.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "image_fhVcFx"
+      ],
+      "custom_css": [
+        "img {width: 100% !important; max-width: 100% !important;}",
+        ".contentside {display: none;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "0",
+        "content_width": "0",
+        "padding": "0",
+        "margin": "0",
+        "custom_class": "screen-width",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "basmil_image_text_y6GDB4": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_hT8PEf": {
+          "type": "content",
+          "settings": {
+            "title": "The Mad Honey Legacy",
+            "subtitle": "",
+            "description": "<p>Mad Honey has been harvested for centuries through techniques passed down from generation to generation. This ancient wisdom has survived the hunter-gatherer age to modern times. </p><p>Our mad honey embodies the spirits of untold <a href=\"/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">honey hunters of Nepal</a>, and our brave ancestor who started this tradition and celebrates it every year. </p><p>A story from a small village in western, nepal to the global tale of the finest honey in the world!</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_hT8PEf"
+      ],
+      "custom_css": [
+        ".contentside {margin-top: -3rem;}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagebottom",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "100%",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "51.25%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
+    "timeline_info_wYQpBf": {
+      "type": "timeline-Info",
+      "blocks": {
+        "timeline_Gr4e63": {
+          "type": "timeline",
+          "settings": {
+            "year": "2012",
+            "title": "The Pioneer of Mad Honey Trade from Nepal",
+            "content": "<p>Our founder, a passionate beekeeper and leader, has always been deeply connected to the wild traditions of honey hunting in Nepal. He loves to travel across the country, meeting local communities and advocating for the unique Mad Honey that was virtually unknown to the world. His vision was to preserve this rare honey and make it known internationally while helping the local honey hunters improve their lives.</p><p>Early days, when Mad Honey was unknown to the world, he worked tirelessly to create a market for Mad Honey and honey-based products, facing many challenges along the way. As a community leader and government representative, he played a key role in supporting the honey-hunting communities, ensuring fair trade and protecting their traditions.</p><p>Today, his dedication continues to inspire the next generation of beekeepers, as he remains committed to supporting local communities and protecting the environment while sharing the unique story of Nepal’s Mad Honey with the world.</p>",
+            "image": "shopify://shop_images/ceodad.webp"
+          }
+        },
+        "timeline_nMN36d": {
+          "type": "timeline",
+          "settings": {
+            "year": "2016",
+            "title": "Founder Medicinal Mad Honey",
+            "content": "<p>Inspired by my father, a beekeeper and leader of honey-hunting communities, guided me to the values of resilience, sustainability, and respect for nature. His lifelong dedication to preserving ancient traditions and uplifting local communities supports my inspiration for continuing his legacy.</p><p>Carrying my roots from the Himalayas and resilient honey-hunting communities shaped my philosophy: that the most profound forms of self-care come from the gifts of nature, preserved and shared responsibly.</p><p>My journey began with a simple idea to honour the legacy of the Himalayan honey hunters and bring their rare treasure, Mad Honey, to the world. Along the way, I discovered that this was more than a product; it was a story of resilience, sustainability, and the connection between humanity and the earth.</p><p>Thank you for letting us be a part of this journey!</p>",
+            "image": "shopify://shop_images/founder.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "timeline_Gr4e63",
+        "timeline_nMN36d"
+      ],
+      "settings": {
+        "title": "Background of the Medicinal mad honey",
+        "headingtag": "h2",
+        "gap": "6.4rem",
+        "gaptimeline": "11.5rem",
+        "padding": "0 16px 12rem 16px;",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": ""
+      }
+    },
+    "basmil_image_text_ncVqrB": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "image_RFGiYW": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/Mask_group_1cd173ce-7530-49ab-9505-0b6cc3d77a10.webp",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "100%"
+          }
+        },
+        "content_kifLpD": {
+          "type": "content",
+          "settings": {
+            "title": "JOURNEY FROM HIMALAYAN HIVES TO JARS",
+            "subtitle": "",
+            "description": "<p>Our <a href=\"/pages/hive-to-jar\" target=\"_blank\" title=\"honey jar\">honey jar</a> packaging is designed with sustainability in mind, ensuring your mad honey is both protected and authentic. Each jar reflects the genuine essence of Nepal's pristine landscape, resulting from the harmonious relationship between honeybees and humans. We've crafted these jars with distinctive features that are hard to replicate, guaranteeing you receive the true Mad Honey experience—straight from the cliffs to your hands.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RFGiYW",
+        "content_kifLpD"
+      ],
+      "custom_css": [
+        ".contentside {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}",
+        "@media (max-width: 768px) {.contain-wrapper {flex-direction: column-reverse; background: #000; padding-bottom: 6rem; } .contentside {position: static; transform: none; padding: 0 16px; } img {width: 100% !important; max-width: 100% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagetop",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "0",
+        "content_width": "57.39%",
+        "padding": "0",
+        "margin": "0 auto",
+        "custom_class": "screen-width dark",
+        "custom_id": "",
+        "width": "100%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#ffffff",
+        "content_color": "#ffffff"
+      }
+    },
+    "timeline_info_BbciWg": {
+      "type": "timeline-Info",
+      "blocks": {
+        "timeline_ztJbmN": {
+          "type": "timeline",
+          "settings": {
+            "year": "2018",
+            "title": "Our First Step :",
+            "content": "<p>In our early days, limited packaging materials in Nepal led us to start with glass jars and traditional <em>lokhta </em>(Nepali) paper boxes. These materials were recyclable and environmentally friendly, aligning with our values. Beginning with small batches, we utilized locally available resources, laying the foundation for sustainable growth.</p>",
+            "image": "shopify://shop_images/medicinalmadhooney.webp"
+          }
+        },
+        "timeline_9gqWCF": {
+          "type": "timeline",
+          "settings": {
+            "year": "2020",
+            "title": "Our First Evolution",
+            "content": "<p>Over two years, we shipped hundreds of jars globally. However, challenges arose as our products travelled thousands of miles damage issues, high shipment weights, and excessive use of bubble wrap and boxes became recurring problems. After thorough research, we transitioned to food-grade PET plastic jars, the most widely recycled type of plastic. This switch significantly reduced shipment weight, fuel consumption, and emissions, making a positive environmental impact.</p>",
+            "image": "shopify://shop_images/mmhbox.webp"
+          }
+        },
+        "timeline_EcDCgK": {
+          "type": "timeline",
+          "settings": {
+            "year": "2024",
+            "title": "One Step Closure to Perfection",
+            "content": "<p>By the end of 2024, after thousands of shipments worldwide, we reimagined our packaging to celebrate the stories of honey hunters and their traditions. The new design features exquisite handmade artwork that narrates the journey of honey hunting. Maintaining our branding colours and minimalist design, this packaging embodies our heritage and dedication to storytelling.</p>",
+            "image": "shopify://shop_images/mmhbox2.webp"
+          }
+        },
+        "timeline_hcnF68": {
+          "type": "timeline",
+          "settings": {
+            "year": "2025 and Beyond",
+            "title": "We added more products in our Exotic collection.",
+            "content": "<p>A decade of perseverance has brought us remarkable challenges, learnings, and opportunities to innovate. Recognizing the waste of wild honey wax post-extraction, we were inspired by Ayurveda’s insights into its benefits for skin care. This led to the creation of our wild honey lip balms in three flavours and a red mud and mad honey blend soap bar the first skincare product derived from wild mad honey. We continue to research and experiment and hope to launch more natural skin care products in the coming days. In collaboration with honey hunters with over 60 years of expertise and local handicraft artists, we are soon launching a limited Reserve <a href=\"/collections/all\" target=\"_blank\" title=\"mad honey shop\">Mad Honey Collection</a>. These exclusive batches will soon be available after our new spring harvests.</p>",
+            "image": "shopify://shop_images/products.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "timeline_ztJbmN",
+        "timeline_9gqWCF",
+        "timeline_EcDCgK",
+        "timeline_hcnF68"
+      ],
+      "settings": {
+        "title": "Packaging Evolution",
+        "headingtag": "h2",
+        "gap": "6.4rem",
+        "gaptimeline": "11.5rem",
+        "padding": "12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": ""
+      }
+    },
+    "basmil_image_text_PRJzkh": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_RfBztH": {
+          "type": "content",
+          "settings": {
+            "title": "PROMISING TRUST AND AUTHENTICITY",
+            "subtitle": "",
+            "description": "<p>The purity, potency and quality of each drop are tried, tested and true. The liquid gold within each jar can be traced all the way back to its origin – right down to the honey hunters who lovingly harvested it.</p><p>Independently certified, authenticated and proven, <a href=\"/\" target=\"_blank\" title=\"/\">Medicinal Mad Honey</a> is imbued with the pristine purity of native Nepal. From the Himalayan hive, into the jar, and into your home.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_RfBztH"
+      ],
+      "custom_css": [
+        "h2 {text-transform: capitalize;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentcenter",
+        "valignment": "center",
+        "gapimage": "5.3rem",
+        "content_width": "100%",
+        "padding": "0 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "66.45%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_JenPYq",
+    "basmil_image_text_y6GDB4",
+    "timeline_info_wYQpBf",
+    "basmil_image_text_ncVqrB",
+    "timeline_info_BbciWg",
+    "basmil_image_text_PRJzkh"
+  ]
+}

@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "single_product_variants_BptiPt": {
+      "type": "single-product-variants",
+      "custom_css": [
+        ".wrapper {margin: 0 auto; max-width: 148rem !important; padding: 7rem 0 9.6rem 0 !important;}",
+        ".contentPart {gap: 8px; max-width: 76.2rem; margin: 0 auto; margin-bottom: 6.4rem;}",
+        "@media (max-width: 768px) {.contentPart {margin-bottom: 4.8rem; } .wrapper {margin: 0 auto; padding: 40px 0 56px 0 !important; } }"
+      ],
+      "settings": {
+        "heading_tag": "h1",
+        "title": "Shop Mad Honey Collection",
+        "description": "Find the purest one for you from our collection of authentic, high GTX rated Mad honey, carefully harvested, bottled and packed in Nepal.",
+        "product": "medicinal-mad-honey",
+        "show_sold_out_variants": false,
+        "featured_image": "shopify://shop_images/buy_mad_honey_from_medicinal_mad_honey.webp",
+        "overlay_text": "Mad Honey",
+        "show_badge": true,
+        "show_weight": true,
+        "button_text": "ADD TO CART",
+        "show_schema": true,
+        "custom_html": "<style>\n.scroll-container.scroll-container {\n  overflow-x: auto;\n  overflow-y: hidden;\n  scrollbar-gutter: stable both-edges; \nscrollbar-width: thin;\n}\n\n/* WebKit-based scrollbars (Chrome, Edge, Safari) */\n.scroll-container.scroll-container::-webkit-scrollbar {\n  width: 6px;\n  height: 6px;\n  background: transparent;\n}\n\n.scroll-container.scroll-container::-webkit-scrollbar-track {\n  background: transparent;\n}\n\n.scroll-container.scroll-container::-webkit-scrollbar-thumb {\n  background-color: rgba(0, 0, 0, 0.2);\n  border-radius: 10px;\n  transition: background-color 0.3s ease;\n}\n\n.scroll-container.scroll-container::-webkit-scrollbar-thumb:hover {\n  background-color: rgba(0, 0, 0, 0.4);\n}\n\n/* Hide scrollbar arrows */\n.scroll-container.scroll-container::-webkit-scrollbar-button {\n  display: none;\n  width: 0;\n  height: 0;\n}\n\n</style>"
+      }
+    },
+    "single_product_variants_UFef3c": {
+      "type": "single-product-variants",
+      "custom_css": [
+        ".wrapper {margin: 0 auto; padding: 0 !important; max-width: 148rem !important; padding-bottom: 9.6rem !important;}",
+        ".contentPart {display: none;}",
+        "@media (max-width: 768px) {.contentPart {margin-bottom: 4.8rem; } .wrapper {margin: 0 auto; padding-bottom: 4rem !important; }}"
+      ],
+      "settings": {
+        "heading_tag": "h2",
+        "title": "",
+        "description": "",
+        "product": "lip-balm",
+        "show_sold_out_variants": false,
+        "featured_image": "shopify://shop_images/lipbalm_banner.webp",
+        "overlay_text": "Lip Balm Collection",
+        "show_badge": true,
+        "show_weight": true,
+        "button_text": "ADD TO CART",
+        "show_schema": true,
+        "custom_html": "<style>\n  /* Add your custom CSS here */\n</style>\n<script>\n  // Add your custom JavaScript here\n</script>"
+      }
+    },
+    "single_product_variants_QktzVk": {
+      "type": "single-product-variants",
+      "custom_css": [
+        ".wrapper {margin: 0 auto; padding: 0 !important; max-width: 148rem !important;}",
+        ".contentPart {display: none;}",
+        "@media (max-width: 768px) {.contentPart {margin-bottom: 4.8rem; } .wrapper {margin: 0 auto; padding-bottom: 4rem !important; }}"
+      ],
+      "settings": {
+        "heading_tag": "h2",
+        "title": "",
+        "description": "",
+        "product": "mad-honey-soap",
+        "show_sold_out_variants": false,
+        "featured_image": "shopify://shop_images/soap_banner.webp",
+        "overlay_text": "Mad Honey Soap",
+        "show_badge": true,
+        "show_weight": true,
+        "button_text": "ADD TO CART",
+        "show_schema": true,
+        "custom_html": "<style>\n  /* Add your custom CSS here */\n</style>\n<script>\n  // Add your custom JavaScript here\n</script>"
+      }
+    },
+    "product_grid_slider_DrH3nH": {
+      "type": "product-grid-slider",
+      "disabled": true,
+      "settings": {
+        "section_title": "Buy All Mad Honey Products",
+        "section_description": "Shop Broad range of mad honey products from Medicinal Mad honey which is 100% organic. These products are curated for overall health and wellness.",
+        "product_collection": "mad-honey",
+        "slider_grid": false,
+        "slider_type": "1",
+        "product_price": true,
+        "products_per_row": 3,
+        "products_per_page": 3,
+        "Card_Button": "Add to Cart",
+        "box_title_tag": "h3",
+        "content_iconbox_gap": "7.2rem",
+        "iconbox_gap": "7.2rem",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "",
+        "padding": "8rem 16px",
+        "margin": "",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "",
+        "min_height": "",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "",
+        "isSchema": false,
+        "iconbox_style": "<style>.icon-box-section{}</style>"
+      }
+    },
+    "blog_listing_basmil_xMD7yN": {
+      "type": "blog-listing-basmil",
+      "blocks": {
+        "article_PjaX7z": {
+          "type": "article",
+          "settings": {
+            "article": "mad-honey/is-it-legal"
+          }
+        },
+        "article_Y3yMXM": {
+          "type": "article",
+          "settings": {
+            "article": "mad-honey/vs-manuka-honey-vs-regular-honey"
+          }
+        },
+        "article_tRtAaR": {
+          "type": "article",
+          "settings": {
+            "article": "mad-honey/effects-benefits-dose"
+          }
+        }
+      },
+      "block_order": [
+        "article_PjaX7z",
+        "article_Y3yMXM",
+        "article_tRtAaR"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.blog-articles__article {min-width: 70%; }}",
+        "@media (max-width: 448px) {.blog-articles__article {min-width: 100%; }}"
+      ],
+      "settings": {
+        "heading": "FEATURED ENTRIES",
+        "blog": "mad-honey",
+        "show_slider": true,
+        "blog_limit": 3,
+        "columns_desktop": 3,
+        "content_alignment": "center",
+        "content_width": "100%",
+        "section_padding": "12rem 16px",
+        "section_margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "section_width": "83.75%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "rgba(0,0,0,0)",
+        "background_position": "center",
+        "background_size": "cover"
+      }
+    },
+    "basmil_newsletter_6Urmw3": {
+      "type": "basmil-newsletter",
+      "custom_css": [],
+      "settings": {
+        "heading": "For Our Latest Updates",
+        "subheading": "Keep up-to-date with the latest from Medicinal Mad Honey.",
+        "mobile_image": "shopify://shop_images/newsletteer.webp"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "single_product_variants_BptiPt",
+    "single_product_variants_UFef3c",
+    "single_product_variants_QktzVk",
+    "product_grid_slider_DrH3nH",
+    "blog_listing_basmil_xMD7yN",
+    "basmil_newsletter_6Urmw3"
+  ]
+}

@@ -1,0 +1,729 @@
+{% assign sections = section.settings %}
+{% assign contents = '' %}
+{% assign linkurl = '' %}
+
+<style>
+  {%- assign s = section.settings -%}
+
+  #shopify-section-{{ section.id }} {
+    {%- if s.background_on == 'main_section' -%}
+      {%- if s.background_type == 'color' -%}
+        {%- if s.background_gradient != blank -%}
+          background: {{ s.background_gradient }};
+        {%- elsif s.background_color != blank -%}
+          background: {{ s.background_color }};
+        {%- endif -%}
+      {%- elsif s.background_type == 'image' and s.background_image != blank -%}
+        background:
+          {%- if s.background_gradient != blank -%}
+            {{ s.background_gradient }},
+          {%- endif -%}
+          url('{{ s.background_image | image_url }}') no-repeat {{ s.background_position }};
+        {%- if s.background_size != blank -%}
+          background-size: {{ s.background_size }};
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  }
+
+  @media (max-width: 1167px) {
+    #shopify-section-{{ section.id }} .main-wrapper {
+      max-width: 100% !important;
+      margin: 0 auto !important;
+      width: 100% !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #shopify-section-{{ section.id }} .main-wrapper {
+      padding-left: 0 16px 4rem 16px !important;
+      max-width: 100% !important;
+    }
+  }
+
+  #shopify-section-{{ section.id }} .wrapper {
+    {%- if s.width       != blank -%}width: {{ s.width }};{%- endif -%}
+    {%- if s.minheight   != blank -%}min-height: {{ s.minheight }};{%- endif -%}
+    {%- if s.margin      != blank -%}margin: {{ s.margin }};{%- endif -%}
+    {%- if s.padding     != blank -%}padding: {{ s.padding }};{%- endif -%}
+
+    {%- if s.background_on == 'content_part' -%}
+      {%- if s.background_type == 'color' and s.background_color != blank -%}
+        background: {{ s.background_color }};
+      {%- elsif s.background_type == 'image' and s.background_image != blank -%}
+        background: url('{{ s.background_image | image_url }}') no-repeat {{ s.background_position }};
+        {%- if s.background_size != blank -%}
+          background-size: {{ s.background_size }};
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  }
+
+  {%- comment -%}
+    Mobile-only padding override
+  {%- endcomment -%}
+  {%- assign updated_padding = '' -%}
+  {%- if s.padding contains '12rem' -%}
+    {%- assign updated_padding = s.padding | replace: '12rem', '6.25rem' -%}
+  {%- elsif s.padding contains '15rem' -%}
+    {%- assign updated_padding = s.padding | replace: '15rem', '56px' -%}
+  {%- elsif s.padding contains '8rem' -%}
+    {%- assign updated_padding = s.padding | replace: '8rem', '32px' -%}
+
+  {%- elsif s.padding != blank -%}
+    {%- assign updated_padding = s.padding -%}
+  {%- endif -%}
+
+  {%- if updated_padding != blank -%}
+  @media (max-width: 768px) {
+    #shopify-section-{{ section.id }} .wrapper.wrapper {
+      padding: {{ updated_padding }};
+    }
+  }
+  {%- endif -%}
+
+  #shopify-section-{{ section.id }} .main-wrapper .imagepart {
+    {%- if s.image_width != blank -%}
+      width: {{ s.image_width }};
+    {%- endif -%}
+  }
+
+  /* Slick wrapper on image side */
+  #shopify-section-{{ section.id }} .image-slider {
+    width: 100%;
+  }
+
+  #shopify-section-{{ section.id }} .image-slide {
+    outline: none;
+  }
+</style>
+
+{% capture images_slider %}
+  <div class="imagepart image-slider">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'image' %}
+          <div class="image-slide" {{ block.shopify_attributes }}>
+            {% if block.settings.image != blank or block.settings.svg != blank %}
+              {% if block.settings.image_type == 'image' %}
+                {% if block.settings.image != blank %}
+                  {% assign img_class = sections.image_clickable | append: ' object-contain sm:max-w-[100%]' %}
+                  {% assign image_alt = block.settings.image.alt | default: block.settings.image_alt %}
+                  {{ block.settings.image
+                    | image_url: width: block.settings.image.width
+                    | image_tag:
+                      widths: '320, 480, 768, 1024',
+                      class: img_class,
+                      alt: image_alt,
+                      width: block.settings.image.width,
+                      height: block.settings.image.height,
+                      loading: 'lazy'
+                  }}
+                {% endif %}
+              {% elsif block.settings.image_type == 'svg' %}
+                {% if block.settings.svg != blank %}
+                  {% if block.settings.svg contains "<svg" %}
+                    {% assign svgwidth = '<svg class="h-auto sm:max-w-[100%]"' %}
+                    {{ block.settings.svg | strip_newlines | replace: '<svg', svgwidth }}
+                  {% else %}
+                    <svg class="h-auto sm:max-w-[100%]" xmlns="http://www.w3.org/2000/svg" fill="none">
+                      <use xlink:href="{{ 'main.svg' | asset_url }}#{{ block.settings.svg | strip_newlines | escape }}"></use>
+                    </svg>
+                  {% endif %}
+                {% endif %}
+              {% else %}
+                <div class="h-auto sm:max-w-[100%]">
+                  {% assign code = block.settings.svg %}
+                  {% if code and code contains '[' and code contains ']' %}
+                    {% assign first_bracket = code | split: '[' | last %}
+                    {% assign content_inside_brackets = first_bracket | split: ']' | first %}
+                    {% if content_inside_brackets != code %}
+                      {% include content_inside_brackets %}
+                    {% else %}
+                      {{ block.settings.svg | strip_newlines }}
+                    {% endif %}
+                  {% else %}
+                    {{ block.settings.svg | strip_newlines }}
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+{% endcapture %}
+
+{% for block in section.blocks %}
+  {% if block.type == 'content' %}
+    {% capture contents %}
+      {% if block.settings.subtitle != blank %}
+        <span class="subtitle">
+          {{ block.settings.subtitle }}
+        </span>
+      {% endif %}
+
+      {% if block.settings.title != '' or block.settings.title != blank %}
+        {% assign tag = '<' | append: sections.heading_size %}
+        {% if section.settings.heading_color != blank %}
+          {% assign style = 'style="color:' | append: section.settings.heading_color | append: ';"' %}
+        {% else %}
+          {% assign style = '' %}
+        {% endif %}
+
+        {% assign tag_attributes = ' class="text-tertiary -mb-[0.8rem] ' | append: sections.alignment | append: ' sm:text-center" ' | append: style %}
+        {% if block.settings.title contains tag %}
+          {% assign final_tag = tag | append: tag_attributes %}
+          {{ block.settings.title | replace: tag, final_tag }}
+        {% else %}
+          <{{ sections.heading_size }} {{ tag_attributes }}>
+            {{ block.settings.title }}
+          </{{ sections.heading_size }}>
+        {% endif %}
+      {% endif %}
+
+      {% if block.settings.description  != '' %}
+        <div class="{{ sections.alignment }} sm:text-center ">{{ block.settings.description }}</div>
+      {% endif %}
+
+      {% if block.settings.button_text != blank or block.settings.button_text_2 != blank %}
+        <div class="flex
+          {% if block.settings.button_text != blank and block.settings.button_text_2 != blank %}
+            justify-between
+          {% else %}
+            {{ sections.alignment }}
+          {% endif %}
+          w-[85%] sm:w-full buttons-section gap-[2.4rem]">
+          {% if block.settings.button_text != blank %}
+            {% assign linkurl = block.settings.button_link %}
+            <a class="button border-none flex items-center sm:w-full justify-center sm:text-center" href="{{ block.settings.button_link }}">
+              {{- block.settings.button_text  -}}
+            </a>
+          {% endif %}
+          {% if block.settings.button_text_2 != blank  %}
+            <a class="alternative sm:w-full hover:text-tertiary border-none flex items-center sm:border sm:border-solid border-[#000] justify-center sm:text-center" href="{{ block.settings.button_link_2 }}">
+              {{- block.settings.button_text_2 -}}
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endcapture %}
+  {% endif %}
+{% endfor %}
+
+<div
+  {% if sections.custom_id %}
+    id="{{ sections.custom_id }}"
+  {% endif %}
+  class="main-wrapper wrapper page-width flex justify-center w-full {{ sections.custom_class }}"
+>
+  <div
+    class="
+      contain-wrapper
+      flex {{ sections.layout }} flex-nowrap
+      {% if sections.valignment == 'top'  %}
+        items-start
+      {% elsif sections.valignment == 'center' %}
+        items-center
+      {% else %}
+        items-end
+      {% endif %}
+      {% if images_slider contains 'image-slide' %}
+        justify-between
+      {% else %}
+        justify-center
+      {% endif %}
+      w-[100%] sm:gap-[4rem!important] md:gap-[2.5rem!important] sm:flex-col sm:justify-center sm:text-center sm:items-center
+    "
+    {% if sections.gapimage %}
+      style="gap: {{ sections.gapimage }};"
+    {% endif %}
+  >
+    <div
+      class="contentside flex {{ sections.alignment }} gap-[3.2rem] sm:gap-[2rem] sm:relative flex-col items-start md:p-6 sm:max-w-[100%!important] sm:text-center sm:items-center w-full max-content-width"
+      {% if sections.content_width != blank or sections.content_color != blank %}
+        style="
+          {%- if sections.content_width != blank  -%}
+            max-width: {{ sections.content_width }};
+          {%- endif -%}
+          {%- if sections.content_color != blank -%}
+            color: {{ sections.content_color }};
+          {%- endif -%}
+        "
+      {% endif %}
+    >
+      {{ contents }}
+    </div>
+
+    {% if sections.image_clickable and linkurl != blank %}
+      <a href="{{ linkurl }}" class="imagepart image-slider-wrapper" style="cursor: pointer;">
+        {{ images_slider }}
+      </a>
+    {% else %}
+      <div class="imagepart image-slider-wrapper">
+        {{ images_slider }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+(function() {
+  function initBasmilSlider(sectionEl) {
+    if (!sectionEl) return;
+
+    // jQuery guard (don't assume `$` exists)
+    var jq = window.jQuery;
+    if (!jq) return;
+
+    // slick guard (must be loaded globally or as an asset)
+    if (!jq.fn || typeof jq.fn.slick !== 'function') return;
+
+    var $section = jq(sectionEl);
+    var $slider  = $section.find('.image-slider');
+
+    if ($slider.length && !$slider.hasClass('slick-initialized')) {
+      $slider.slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
+    }
+  }
+
+  // First load
+  document.addEventListener('DOMContentLoaded', function() {
+    initBasmilSlider(document.getElementById('shopify-section-{{ section.id }}'));
+  });
+
+  // Theme editor reload
+  document.addEventListener('shopify:section:load', function(event) {
+    if (event.detail && event.detail.sectionId === '{{ section.id }}') {
+      initBasmilSlider(document.getElementById('shopify-section-{{ section.id }}'));
+    }
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Basmil Image Text Slider",
+  "class": "basmilTextImage",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading Tag"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading Size",
+      "default": "h2",
+      "options": [
+        {
+          "value": "h1",
+          "label": "H1"
+        },
+        {
+          "value": "h2",
+          "label": "H2"
+        },
+        {
+          "value": "h3",
+          "label": "H3"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Image Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "image_clickable",
+      "label": "Make the Image Clickable",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Image Layout",
+      "default": "imagelast",
+      "options": [
+        {
+          "value": "imagefirst",
+          "label": "Left"
+        },
+        {
+          "value": "imagelast",
+          "label": "Right"
+        },
+        {
+          "value": "imagetop",
+          "label": "Top"
+        },
+        {
+          "value": "imagebottom",
+          "label": "Bottom"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Content alignment"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Content Alignment",
+      "default": "contentstart",
+      "options": [
+        {
+          "value": "contentstart",
+          "label": "Left"
+        },
+        {
+          "value": "contentcenter",
+          "label": "Center"
+        },
+        {
+          "value": "contentend",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "valignment",
+      "label": "Content Verticle Alignment",
+      "default": "top",
+      "options": [
+        {
+          "value": "top",
+          "label": "top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "bottom"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "gapimage",
+      "label": "Content and Image Gap",
+      "default": "5.3rem"
+    },
+    {
+      "type": "header",
+      "content": "Content Part Width"
+    },
+    {
+      "type": "text",
+      "id": "content_width",
+      "label": "Content Width",
+      "default": "50%"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "text",
+      "id": "padding",
+      "label": "Padding",
+      "default": "12rem 16px",
+      "info": "eg: 16px 16px 16px 16px"
+    },
+    {
+      "type": "text",
+      "id": "margin",
+      "label": "Margin",
+      "default": "0",
+      "info": "eg: 16px 16px 16px 16px"
+    },
+    {
+      "type": "header",
+      "content": "Custom Class/id"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID"
+    },
+    {
+      "type": "header",
+      "content": "Section Width"
+    },
+    {
+      "type": "text",
+      "id": "width",
+      "label": "Width",
+      "default": "116.6rem",
+      "info": "eg: 116.6rem"
+    },
+    {
+      "type": "header",
+      "content": "Section Height"
+    },
+    {
+      "type": "text",
+      "id": "minheight",
+      "label": "Min Height",
+      "default": "auto",
+      "info": "eg: 116.6rem"
+    },
+    {
+      "type": "header",
+      "content": "Section Background"
+    },
+    {
+      "type": "select",
+      "id": "background_type",
+      "label": "Background Type",
+      "default": "color",
+      "options": [
+        {
+          "value": "color",
+          "label": "Color"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "text",
+      "id": "background_gradient",
+      "label": "Background Gradient",
+      "info": "eg: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "select",
+      "id": "background_on",
+      "label": "Choose Background on",
+      "default": "content_part",
+      "options": [
+        {
+          "value": "content_part",
+          "label": "Content Part"
+        },
+        {
+          "value": "main_section",
+          "label": "Main Section"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "label": "Background Position",
+      "default": "center",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_size",
+      "label": "Background Size",
+      "default": "cover",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content",
+      "name": "Contents",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Heading"
+        },
+        {
+          "type": "html",
+          "id": "title",
+          "label": "Title",
+          "default": "Title Here"
+        },
+        {
+          "type": "header",
+          "content": "Sub Heading"
+        },
+        {
+          "type": "html",
+          "id": "subtitle",
+          "label": "Sub Title"
+        },
+        {
+          "type": "header",
+          "content": "Paragraph"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Paragraphs Here</p>"
+        },
+        {
+          "type": "header",
+          "content": "Buttons"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Link Here"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text_2",
+          "label": "Button Text 2"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Button Link 2"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image/HTML/SVG",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Select Type",
+          "info": "Select the type of image you want to display"
+        },
+        {
+          "type": "select",
+          "id": "image_type",
+          "label": "Image Type",
+          "default": "image",
+          "options": [
+            {
+              "value": "image",
+              "label": "Image"
+            },
+            {
+              "value": "svg",
+              "label": "SVG"
+            },
+            {
+              "value": "html",
+              "label": "HTML"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Image",
+          "info": "If you want to use an image, upload it here"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image Alt Text",
+          "default": "Mad Honey"
+        },
+        {
+          "type": "header",
+          "content": "SVG",
+          "info": "If you want to use an svg, Paste the code here"
+        },
+        {
+          "type": "html",
+          "id": "svg",
+          "label": "SVG/HTML Code/shortcode",
+          "info": "shortcode: [snippet-name]"
+        },
+        {
+          "type": "header",
+          "content": "Image/SVG Min Width"
+        },
+        {
+          "type": "text",
+          "id": "image_width",
+          "label": "Min Width",
+          "default": "40rem",
+          "info": "Value in rem. 1rem = 10px"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Basmil Image Text Slider",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

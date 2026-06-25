@@ -1,0 +1,220 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "basmil_image_text_jaHjht": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_cRpYeF": {
+          "type": "content",
+          "settings": {
+            "title": "Become Our Official Distributor",
+            "subtitle": "<style>\n#gradiant-image-text .contentside::before {\n    content: \"\";\n    background: linear-gradient(\n      360deg,\n      #000000 36.5%,\n      rgba(0, 0, 0, 0.617021) 75.5%,\n      rgba(0, 0, 0, 0) 100%\n    );\n    height: 40px;\n    width: 100%;\n    position: absolute;\n    top: -40px;\n    display: block;\n  }\n</style>",
+            "description": "<p>At Medicinal Mad Honey, we’re proud to offer our authentic, high-quality <a href=\"/pages/mad-honey-wholesale\" target=\"_blank\" title=\"mad honey wholesale\"><strong>Mad Honey products in bulk</strong></a> to trusted distributors. With years of experience sourcing the best mad honey from remote, untouched areas, we make sure every batch is pure, potent, and up to the highest standards.</p>",
+            "button_text": "FILL UP THE GIVEN FORM",
+            "button_link": "#wholesale-form",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_eC8kK4": {
+          "type": "image",
+          "settings": {
+            "image_type": "image",
+            "image": "shopify://shop_images/DSC09305_1_df77487e-1f93-4395-92f9-c418c0dc99bc.jpg",
+            "image_alt": "Mad Honey",
+            "svg": "",
+            "image_width": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "content_cRpYeF",
+        "image_eC8kK4"
+      ],
+      "custom_css": [
+        ".sticky-image-imagetext .contentside div {text-align: justify;}",
+        ".button {justify-content: center;}",
+        ".contentside {position: relative;}",
+        "@media (max-width: 768px) {.wrapper {padding: 0 16px 6rem 16px !important; } .contain-wrapper {flex-direction: column-reverse; gap: 2rem !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h1",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "8%",
+        "content_width": "48%",
+        "padding": "0 0 0 11.17%",
+        "margin": "0 7.3% 0 auto",
+        "custom_class": "sticky-image-image text dark screen-width",
+        "custom_id": "gradiant-image-text",
+        "width": "100%",
+        "minheight": "",
+        "background_type": "color",
+        "background_color": "#000000",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "#e0af7e",
+        "content_color": "#ffffff"
+      }
+    },
+    "icon_box_zwgJjD": {
+      "type": "icon-box",
+      "blocks": {
+        "icon_box_igeiEr": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"200\" height=\"112\" viewbox=\"0 0 200 112\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M101.354 30.5138V30.5H99.8545C70.3747 30.5 43.7711 42.822 24.9146 62.5918L23.9265 63.6277L24.9152 64.663C46.5846 87.3548 78.2739 99.969 111.848 96.0555C136.836 93.1423 158.703 81.5548 174.795 64.6617L175.781 63.6264L174.794 62.5918C156.258 43.1578 130.236 30.9239 101.354 30.5138Z\" stroke=\"#DFAF7E\" stroke-width=\"3\" stroke-miterlimit=\"10\"></path>\n<path d=\"M100 86.5C112.426 86.5 122.5 76.4264 122.5 64C122.5 51.5736 112.426 41.5 100 41.5C87.5736 41.5 77.5 51.5736 77.5 64C77.5 76.4264 87.5736 86.5 100 86.5Z\" stroke=\"#DFAF7E\" stroke-width=\"3\" stroke-miterlimit=\"10\"></path>\n<circle cx=\"90\" cy=\"59\" r=\"5\" fill=\"#DFAF7E\"></circle>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Transparency",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_YhURVP": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"200\" height=\"112\" viewbox=\"0 0 200 112\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"path-1-outside-1_10463_15833\" maskunits=\"userSpaceOnUse\" x=\"24.8022\" y=\"5.39741\" width=\"149.157\" height=\"103.661\" fill=\"black\">\n<rect fill=\"white\" x=\"24.8022\" y=\"5.39741\" width=\"149.157\" height=\"103.661\"></rect>\n<path d=\"M48.2699 29.2605L48.0988 26.7903L46.4162 25.9066L44.5624 26.0351L43.1874 24.6114L40.5768 24.2737L38.9425 23.0903L36.0055 20.0337L35.2057 19.9409L32.0554 17.7883L30.6683 18.1808L29.5346 19.7412L29.7625 20.5404L31.5956 19.1168L32.983 19.7245L34.2148 22.5659L35.2706 23.8634L37.4414 24.8244L41.8808 30.1479L39.291 31.1054L38.2694 33.2879L35.3278 35.6405L36.7718 38.0596L34.202 41.7942L34.317 43.4533L35.6733 46.1008L32.3292 50.1114L31.5347 54.575L32.8305 54.8557L37.5643 58.4546L39.4721 60.1006L40.3816 57.2961L42.2676 58.1287L46.8119 61.4814L51.5439 63.5615L53.8337 66.7371L55.6893 68.1274L59.8619 70.0981L63.133 72.5017L64.7601 71.0923L66.3967 71.3123L72.0753 75.1051L74.3565 75.1693L77.123 74.2737L78.0543 75.7651L78.4391 78.3317L81.416 78.9775L86.0228 79.251L87.1221 81.1754L88.747 80.7294L89.068 78.8918L92.8024 78.5219L96.6671 80.0323L97.4093 78.7954L101.459 76.9958L104.033 79.2996L108.228 79.6016L110.717 81.1703L110.749 85.6138L113.348 86.2857L117.687 89.171L122.642 90.9764L126.27 88.5762L128.184 88.8141L129.202 92.5593L131.162 93.4608L133.537 91.8885L137.799 92.6675L140.766 93.1658L145.692 95.5658L148.15 94.6916L151.192 93.2953L151.974 95.6121L155.961 96.4101L157.243 94.9876L160.202 95.3753L161.689 94.9388L165.109 93.5163L165.904 94.5356L168.038 95.4621L168.9 93.9575L169.087 91.6846L169.808 86.1518L168.421 83.0619L166.298 80.8009L167.323 77.1734L166.603 74.2595L167.007 71.1196L168.678 66.3729L167.671 64.7756L165.451 64.596L162.033 64.0549L160.595 66.7107L158.563 66.2588L151.892 67.0546L147.499 64.3952L144.722 63.1429L143.783 61.5408L141.068 62.6922L140.042 65.8011L137.634 65.8939L136.288 64.3942L134.637 61.4708L133.311 62.7482L133.809 65.4551L133.146 66.8348L131.781 66.5589L131.24 64.2254L127.86 60.7549L126.882 58.0812L126.284 57.4188L125.356 59.9652L122.273 58.7711L121.035 59.8201L116.772 59.0412L116.384 56.9193L117.615 55.278L117.547 52.8006L115.206 52.3701L113.577 54.7429L110.673 54.1661L107.964 51.9087L105.604 51.7018L104.368 49.7869L101.349 49.0329L101.281 46.5555L100.178 45.076L100.029 41.9373L95.3889 40.1842L92.5591 42.1586L90.4718 43.8963L84.6268 36.7067L76.9025 33.7596L75.1627 32.5465L70.43 28.4658L65.4769 27.179L65.4547 25.3652L64.6253 24.3483L63.7025 21.4856L60.6329 20.9944L58.1827 20.979L55.8033 19.9954L54.2423 21.3632L52.4086 20.7864L52.3917 23.529L51.7247 25.3535L50.1586 26.6475L50.1008 28.8002L48.7506 29.2272L48.2699 29.2605Z\"></path>\n</mask>\n<path d=\"M48.2699 29.2605L48.0988 26.7903L46.4162 25.9066L44.5624 26.0351L43.1874 24.6114L40.5768 24.2737L38.9425 23.0903L36.0055 20.0337L35.2057 19.9409L32.0554 17.7883L30.6683 18.1808L29.5346 19.7412L29.7625 20.5404L31.5956 19.1168L32.983 19.7245L34.2148 22.5659L35.2706 23.8634L37.4414 24.8244L41.8808 30.1479L39.291 31.1054L38.2694 33.2879L35.3278 35.6405L36.7718 38.0596L34.202 41.7942L34.317 43.4533L35.6733 46.1008L32.3292 50.1114L31.5347 54.575L32.8305 54.8557L37.5643 58.4546L39.4721 60.1006L40.3816 57.2961L42.2676 58.1287L46.8119 61.4814L51.5439 63.5615L53.8337 66.7371L55.6893 68.1274L59.8619 70.0981L63.133 72.5017L64.7601 71.0923L66.3967 71.3123L72.0753 75.1051L74.3565 75.1693L77.123 74.2737L78.0543 75.7651L78.4391 78.3317L81.416 78.9775L86.0228 79.251L87.1221 81.1754L88.747 80.7294L89.068 78.8918L92.8024 78.5219L96.6671 80.0323L97.4093 78.7954L101.459 76.9958L104.033 79.2996L108.228 79.6016L110.717 81.1703L110.749 85.6138L113.348 86.2857L117.687 89.171L122.642 90.9764L126.27 88.5762L128.184 88.8141L129.202 92.5593L131.162 93.4608L133.537 91.8885L137.799 92.6675L140.766 93.1658L145.692 95.5658L148.15 94.6916L151.192 93.2953L151.974 95.6121L155.961 96.4101L157.243 94.9876L160.202 95.3753L161.689 94.9388L165.109 93.5163L165.904 94.5356L168.038 95.4621L168.9 93.9575L169.087 91.6846L169.808 86.1518L168.421 83.0619L166.298 80.8009L167.323 77.1734L166.603 74.2595L167.007 71.1196L168.678 66.3729L167.671 64.7756L165.451 64.596L162.033 64.0549L160.595 66.7107L158.563 66.2588L151.892 67.0546L147.499 64.3952L144.722 63.1429L143.783 61.5408L141.068 62.6922L140.042 65.8011L137.634 65.8939L136.288 64.3942L134.637 61.4708L133.311 62.7482L133.809 65.4551L133.146 66.8348L131.781 66.5589L131.24 64.2254L127.86 60.7549L126.882 58.0812L126.284 57.4188L125.356 59.9652L122.273 58.7711L121.035 59.8201L116.772 59.0412L116.384 56.9193L117.615 55.278L117.547 52.8006L115.206 52.3701L113.577 54.7429L110.673 54.1661L107.964 51.9087L105.604 51.7018L104.368 49.7869L101.349 49.0329L101.281 46.5555L100.178 45.076L100.029 41.9373L95.3889 40.1842L92.5591 42.1586L90.4718 43.8963L84.6268 36.7067L76.9025 33.7596L75.1627 32.5465L70.43 28.4658L65.4769 27.179L65.4547 25.3652L64.6253 24.3483L63.7025 21.4856L60.6329 20.9944L58.1827 20.979L55.8033 19.9954L54.2423 21.3632L52.4086 20.7864L52.3917 23.529L51.7247 25.3535L50.1586 26.6475L50.1008 28.8002L48.7506 29.2272L48.2699 29.2605Z\" stroke=\"#DFAF7E\" stroke-width=\"5\" stroke-miterlimit=\"10\" mask=\"url(#path-1-outside-1_10463_15833)\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "100 % Nepali",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        },
+        "icon_box_bfKzEP": {
+          "type": "icon_box",
+          "settings": {
+            "icon_type_select": "svg",
+            "icon_svg": "<svg width=\"200\" height=\"112\" viewbox=\"0 0 200 112\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M15.1797 38.0921L19.6421 36V59.8637H15.1797V38.0921Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M25.827 57.2043C24.4567 55.0413 23.7891 52.0628 23.7891 48.2687C23.7891 44.191 24.5269 41.1061 25.9676 39.0849C27.3731 37.0638 29.4462 36 32.1869 36C34.9276 36 36.9656 37.0283 38.4062 39.0494C39.8468 41.0706 40.5847 44.1555 40.5847 48.2333C40.5847 52.0273 39.9171 55.0059 38.5467 57.1689C37.1764 59.3318 35.0681 60.4311 32.1869 60.4311C29.3056 60.4311 27.1974 59.3318 25.827 57.1689V57.2043ZM35.9466 48.2333C35.9466 42.418 34.7168 39.5104 32.222 39.5104C29.7273 39.5104 28.4272 42.418 28.4272 48.2333C28.4272 50.8927 28.7083 52.9847 29.3056 54.5449C29.903 56.1051 30.8868 56.8852 32.222 56.8852C34.7168 56.8852 35.9466 54.013 35.9466 48.2333Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M45.0145 57.2043C43.6442 55.0413 42.9766 52.0628 42.9766 48.2687C42.9766 44.191 43.7144 41.1061 45.1551 39.0849C46.5606 37.0638 48.6337 36 51.3392 36C54.0448 36 56.1179 37.0283 57.5586 39.0494C58.9992 41.0706 59.7371 44.1555 59.7371 48.2333C59.7371 52.0273 59.0695 55.0059 57.6991 57.1689C56.3287 59.3318 54.2205 60.4311 51.3392 60.4311C48.458 60.4311 46.3497 59.3318 44.9794 57.1689L45.0145 57.2043ZM55.1341 48.2333C55.1341 42.418 53.9043 39.5104 51.4095 39.5104C48.9148 39.5104 47.6147 42.418 47.6147 48.2333C47.6147 50.8927 47.8958 52.9847 48.4931 54.5449C49.0905 56.1051 50.0743 56.8852 51.4095 56.8852C53.9043 56.8852 55.1341 54.013 55.1341 48.2333Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M63.7727 47.4183C62.8591 46.2836 62.3672 44.7589 62.3672 42.7732C62.3672 40.6102 62.8591 39.0146 63.8078 37.9508C64.7917 36.9225 66.162 36.3906 67.9189 36.3906C69.6758 36.3906 71.011 36.9225 71.9597 37.9508C72.9084 38.9791 73.3652 40.6102 73.3652 42.8087C73.3652 46.9928 71.538 49.0848 67.9189 49.0848C66.0566 49.0848 64.6863 48.5175 63.7375 47.4183H63.7727ZM69.3947 45.6099C69.6406 44.9716 69.746 44.0497 69.746 42.8796C69.746 41.9576 69.6758 41.213 69.5703 40.6457C69.4649 40.0783 69.2541 39.6528 68.973 39.3692C68.6919 39.0855 68.3054 38.9437 67.8135 38.9437C67.1107 38.9437 66.6188 39.2628 66.3377 39.8656C66.0566 40.4684 65.9161 41.4612 65.9161 42.7732C65.9161 43.9788 66.0566 44.9362 66.3377 45.5744C66.6188 46.2481 67.1459 46.5673 67.9189 46.5673C68.6919 46.5673 69.1487 46.2481 69.3947 45.6099ZM80.5332 36.6034H83.7658L71.1515 59.8643H67.9189L80.5332 36.6034ZM79.7602 58.6587C78.8466 57.524 78.3898 55.9993 78.3898 54.0136C78.3898 51.8506 78.8817 50.255 79.8304 49.1912C80.7792 48.1629 82.1495 47.631 83.9064 47.631C85.6632 47.631 86.9985 48.1629 87.9472 49.1912C88.8959 50.255 89.3878 51.8506 89.3878 54.0491C89.3878 55.9993 88.9662 57.5595 88.0877 58.6587C87.2093 59.7579 85.8389 60.3253 83.9415 60.3253C82.0441 60.3253 80.6737 59.7579 79.7602 58.6232V58.6587ZM85.0308 57.3113C85.3119 56.9921 85.4876 56.5666 85.5578 56.0702C85.6281 55.5738 85.6984 54.9001 85.6984 54.12C85.6984 52.7371 85.5578 51.7442 85.2767 51.106C84.9956 50.4677 84.5037 50.1841 83.801 50.1841C83.0982 50.1841 82.5712 50.5032 82.2901 51.106C82.009 51.7088 81.8684 52.7016 81.8684 54.0491C81.8684 55.2547 82.009 56.1766 82.2549 56.8148C82.5009 57.4531 83.0279 57.7722 83.7658 57.7722C84.2929 57.7722 84.7145 57.6304 84.9956 57.3113H85.0308Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M114.345 38.2699C115.856 39.511 116.629 41.6031 116.629 44.5461C116.629 46.1418 116.348 47.631 115.75 48.943C115.153 50.2904 114.239 51.3542 112.975 52.1698C111.71 52.9853 110.164 53.4108 108.301 53.4108H106.263V59.6515H101.977V36.3906H108.161C110.761 36.3906 112.834 37.0289 114.345 38.2699ZM111.253 48.6239C111.991 47.7374 112.342 46.4609 112.342 44.7943C112.342 43.6242 112.202 42.6668 111.92 41.9576C111.639 41.213 111.147 40.6811 110.515 40.3265C109.882 39.972 108.969 39.7947 107.88 39.7947H106.228V49.9359H107.985C109.426 49.9359 110.515 49.5103 111.253 48.6239Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M121.69 58.0911C120.214 56.7436 119.477 54.5097 119.477 51.3894V36.4258H123.763V51.8503C123.763 53.6233 124.15 54.8289 124.923 55.5026C125.696 56.1763 126.574 56.4954 127.593 56.4954C128.612 56.4954 129.491 56.1763 130.229 55.5026C130.966 54.8289 131.318 53.6233 131.318 51.8503V36.4258H135.605V51.3894C135.605 54.5097 134.867 56.7436 133.426 58.0911C131.985 59.4385 130.053 60.1122 127.628 60.1122C125.204 60.1122 123.131 59.4385 121.655 58.0911H121.69Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M150.713 59.6867L144.81 51.283V59.6867H140.594V36.4258H147.024C152.505 36.4258 155.211 38.9079 155.211 43.8367C155.211 44.9359 155.035 46.0351 154.684 47.0989C154.332 48.1626 153.77 49.12 152.962 49.9356C152.154 50.7511 151.135 51.3184 149.905 51.6376L155.843 59.7222H150.713V59.6867ZM146.567 49.1555C147.516 49.1555 148.324 48.9427 148.956 48.4817C149.589 48.0208 150.116 47.418 150.467 46.6734C150.819 45.9287 150.994 45.1132 150.994 44.2267C150.994 42.702 150.643 41.5673 149.94 40.8227C149.238 40.1135 148.078 39.7234 146.462 39.7234H144.81V49.12H146.567V49.1555Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M172.286 55.8929V59.6515H159.602V36.3906H171.619V40.0429H163.713V45.4681H170.002V49.0139H163.713V55.8929H172.286Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M105.038 73.4434V96.7043H100.751V86.8113H93.1618V96.7043H88.875V73.4434H93.1266V83.159H100.716V73.4434H105.003H105.038Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M148.05 73.4431V97.165H147.734L136.7 84.4353L135.681 83.0879L135.857 86.3146V96.6685H131.781V73.0176H132.133L143.025 85.8182L144.185 87.3429L144.009 84.1516V73.4076H148.085L148.05 73.4431Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M166.177 92.9457V96.7043H153.492V73.4434H165.509V77.0956H157.603V82.5208H163.893V86.0667H157.603V92.9457H166.177Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M178.541 87.6268V96.7043H174.289V87.3077L167.016 73.4434H171.689L176.538 83.5491L181.176 73.4434H185.814L178.541 87.6268Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M118.547 72.6904C121.097 77.1594 123.549 81.6114 125.409 86.3879C126.267 88.674 126.607 90.8293 125.663 93.0322C124.174 96.4699 120.373 98.4273 116.791 97.532L116.789 97.5315C113.117 96.6302 110.587 93.231 110.948 89.4841L110.949 89.4809C111.048 88.3811 111.414 87.2274 111.831 86.1402L111.832 86.139C113.612 81.4604 116.043 77.0692 118.547 72.6904Z\" stroke=\"#BC915E\"></path>\n<path d=\"M34.2904 72.9336V96.5846H30.1793V86.6207L30.3199 82.6847L29.1603 84.4931L24.6276 89.8474L20.0949 84.4931L18.9354 82.6847L19.1111 86.6207V96.5846H15V72.9336H15.3162L24.6276 84.0322L33.8688 72.9336H34.2201H34.2904Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M50.5901 93.2511H42.3679L41.1381 96.6197H36.5L46.2682 72.9688H46.5844L56.3877 96.6197H51.8902L50.5901 93.2511ZM49.3603 89.9889L46.9358 83.6418L46.3736 81.7625L45.8465 83.6418L43.5275 89.9889H49.3603Z\" fill=\"#DFAF7E\"></path>\n<path d=\"M72.2036 76.1961C73.9956 78.1108 74.9091 80.9121 74.9091 84.6707C74.9091 87.1174 74.4875 89.2094 73.6793 91.0178C72.8712 92.7908 71.6765 94.1736 70.0953 95.1665C68.5142 96.1239 66.6167 96.6203 64.4031 96.6203H58.5V73.3594H64.4382C67.8114 73.3594 70.4116 74.3168 72.2036 76.2315V76.1961ZM67.9871 91.7979C68.9358 91.0533 69.6034 90.0604 69.9899 88.8548C70.3764 87.6492 70.5873 86.3018 70.5873 84.8125C70.5873 82.4368 70.0953 80.522 69.1115 78.9973C68.1276 77.4726 66.5113 76.728 64.2977 76.728H62.7516V92.968H64.2977C65.8086 92.968 67.0384 92.578 67.9871 91.8334V91.7979Z\" fill=\"#DFAF7E\"></path>\n</svg>",
+            "icon_alt_text": "Icon Description",
+            "icon_title": "Nepal Govt Certified",
+            "icon_description": "",
+            "btn_title": "",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_igeiEr",
+        "icon_box_YhURVP",
+        "icon_box_bfKzEP"
+      ],
+      "custom_css": [
+        ".icon-box-section img {height: 7.2rem; object-fit: contain; object-position: center; width: max-content; margin-bottom: 1.8rem;}",
+        ".iconbox {min-width: 150px; gap: 2.4rem;}",
+        "svg {max-width: 90%; height: auto;}",
+        ".iconbox-wrapper {gap: 2.4rem !important; align-items: flex-end !important; flex-wrap: nowrap !important; justify-content: space-between !important; padding: 0 3.15%;}",
+        "@media (max-width: 768px) {.iconbox-wrapper {align-items: flex-start !important; gap: 3.2rem !important; } .iconbox {gap: 2.4rem; max-width: 45% !important; }}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "section_title": "Perks of Being Our Distributor",
+        "section_description": "Our distributors are our key partners in getting this rare and powerful product out to more people, and we work closely with them to keep quality and supply consistent. Whether you’re stocking up for retail or a specific use, our bulk options are designed to meet your needs with reliability and top-notch quality.",
+        "box_title_tag": "h3",
+        "is_image_link": false,
+        "icon_box_slider": "false",
+        "content_iconbox_gap": "5rem",
+        "iconbox_gap": "6%",
+        "image_layout": "top",
+        "content_alignment": "center",
+        "icon_box_content_alignment": "center",
+        "content_part_width": "26.145%",
+        "padding": "7.2rem 16px 7.2rem 16px",
+        "margin": "0 auto",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "76.72%",
+        "min_height": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000",
+        "iconbox_style": ""
+      }
+    },
+    "basmil_image_text_ByYF7C": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_mRcgWJ": {
+          "type": "content",
+          "settings": {
+            "title": "Become Medicinal Mad Honey Distributor Today!",
+            "subtitle": "",
+            "description": "<p>Medicinal Mad Honey  is a community-based business in the heart of Nepal, dedicated to providing high-quality medicinal mad honey. We work closely with local <a href=\"/pages/honey-hunter\" target=\"_blank\" title=\"honey hunter\">honey hunters</a> from the land of mad honey to ensure the best product at every step—from collection and extraction to packing and testing.</p><p>Becoming a <a href=\"/\" target=\"_blank\" title=\"/\">Medicinal Mad Honey </a>wholesale distributor means partnering with a brand known for quality, trust, and reliability. </p><p>For the past eight years, we’ve been dedicated to sustainability, partnering with over 80 communities and more than 2,100 honey hunters across regions like Lamjung, Gorkha, Rukum, and Solukhumbu. This community-driven approach ensures the authenticity and reliability of our mad honey every step of the way.</p><p>Our latest facility in Kathmandu, established in 2021, features one of Nepal's most advanced honey-packing setups. We ensure every batch meets the highest standards by subjecting it to two rounds of independent testing, including <a href=\"/pages/grayanotoxin\" target=\"_blank\" title=\"grayanotoxin\">grayanotoxin</a> levels. Each batch is also sent for additional certification. </p><p>With a global vision, we supply our premium mad honey to discerning customers worldwide, offering a product that stands for purity, sustainability, and exceptional quality.</p><p>Interested in becoming a distributor of this rare, powerful product? Get in touch with us today! Fill out the form here or email us at <a href=\"mailto:contact@medicinalmadhoney.com\" target=\"_blank\" title=\"Contact Medicinal Mad Honey\">contact@medicinalmadhoney.com</a> for any inquiries. Let’s work together to bring the benefits of medicinal mad honey to more and more people around the world.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        },
+        "image_hkCrRU": {
+          "type": "image",
+          "settings": {
+            "image_type": "html",
+            "image_alt": "Mad Honey Doctor",
+            "svg": "[distributer-form]",
+            "image_width": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "content_mRcgWJ",
+        "image_hkCrRU"
+      ],
+      "custom_css": [
+        ".contentside * {text-align: start;}",
+        ".border-t {border-top: 0.5px solid #000000;}",
+        "h4 {margin-bottom: 2.4rem !important;}",
+        ".contentside p {text-align: justify;}",
+        ".button {font-size: 1.8rem;}"
+      ],
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "center",
+        "gapimage": "4.2%",
+        "content_width": "46%",
+        "padding": "7.2rem 16px 12rem 16px",
+        "margin": "0 auto",
+        "custom_class": "border-t",
+        "custom_id": "wholesale-form",
+        "width": "85.35%",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "basmil_image_text_jaHjht",
+    "icon_box_zwgJjD",
+    "basmil_image_text_ByYF7C"
+  ]
+}

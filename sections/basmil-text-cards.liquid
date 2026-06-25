@@ -1,0 +1,494 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.background_on == 'main_section' %}
+      {% if section.settings.background_type == 'color' %}
+        background: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background_color }}{% endif %};
+      {% elsif section.settings.background_type == 'image' and section.settings.background_image != blank %}
+        background: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}, {% endif %}url('{{ section.settings.background_image | image_url }}') no-repeat {{ section.settings.background_position }};
+        background-size: {{ section.settings.background_size }};
+      {% endif %}
+    {% endif %}
+  }
+
+  #shopify-section-{{ section.id }} .card {
+    border-radius: 0.8rem;
+  }
+
+  #shopify-section-{{ section.id }} .card h1,
+  #shopify-section-{{ section.id }} .card h2,
+  #shopify-section-{{ section.id }} .card h3,
+  #shopify-section-{{ section.id }} .card h4,
+  #shopify-section-{{ section.id }} .card h5,
+  #shopify-section-{{ section.id }} .card h6 {
+    color: {{ section.settings.heading_color }};
+  }
+
+  @media (max-width: 768px) {
+    #shopify-section-{{ section.id }} .card {
+      grid-column: 1 !important;
+    }
+
+    #shopify-section-{{ section.id }} .contain-wrapper{
+      width: 100% !important;
+      flex-wrap: wrap !important;
+      grid-template-columns: 1fr !important;
+    }
+    
+    #shopify-section-{{ section.id }} .main-wrapper {
+      padding: 0 16px 4rem 16px !important;
+      max-width: 100% !important;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    #shopify-section-{{ section.id }} .main-wrapper {
+      max-width: 116.6rem !important;
+    }
+  }
+</style>
+
+{% assign sections = section.settings %}
+
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'content' %}
+
+  {% endcase %}
+{% endfor %}
+
+<div
+  {% if sections.custom_id %}
+    id="{{ sections.custom_id }}"
+  {% endif %}
+  class="
+    main-wrapper wrapper
+    flex
+    flex-col
+    justify-between
+
+    w-full {{ sections.custom_class }}
+  "
+  style="
+      max-width:{{ sections.width }};
+      min-height:{{ sections.minheight }};
+    margin:{{sections.margin}}; padding: {{sections.padding}};
+    {% if sections.background_on == 'content_part' %}
+      {% if sections.background_type == 'color' and sections.background_color %}
+        background: {{ sections.background_color }};
+      {% elsif sections.background_type == 'image' and sections.background_image %}
+        background: url('{{ sections.background_image  | image_url }}') no-repeat {{ sections.background_position }};
+        background-size: {{ sections.background_size }};
+
+      {% else %}
+      ''
+      {% endif %};
+    {% endif %};
+     gap:{{sections.gapcontentcard}};
+  "
+>
+  {% if sections.heading_title != blank or sections.heading_description != blank %}
+    <div
+      class="flex flex-col gap-[3.2rem] {{sections.alignment}} "
+      style="max-width:{{ sections.content_width }};"
+    >
+      <h2>{{ sections.heading_title }}</h2>
+      <p>{{ sections.heading_description }}</p>
+    </div>
+  {% endif %}
+
+  <div
+    class="
+      flex  justify-between sm:flex-wrap sm:gap-[3rem!important]
+      {% if sections.cardlayout == 'equalheight' %}
+         flex-col justify-start
+         flex-nowrap
+       {% endif %}
+    "
+    style="gap:{{sections.gapimage}};"
+  >
+    {% for block in section.blocks %}
+      <div
+        id="{{ block.id }}"
+        class="
+            contain-wrapper m-0
+          {% if sections.cardlayout == 'equalheight' %}
+            grid grid-cols-3
+          {% else %}
+            flex  flex-nowrap flex-col
+          {% endif %}
+
+
+            {% if sections.valignment == "top"  %}
+              items-start
+            {% elsif sections.valignment == "center" %}
+              items-center
+            {% else %}
+              items-end
+            {% endif %}
+            {% if image %}
+            justify-between
+            {% else %}
+            justify-center
+            {% endif %}
+            w-[100%] sm:gap-[3rem!important] md:gap-[2.5rem!important] sm:flex-col sm:justify-center sm:text-center sm:items-center
+        "
+        style="
+          gap: {{sections.gapcards}};
+          {% if sections.cardlayout == 'equalheight' %}
+            width:{{sections.widthCard}};
+          {% else %}
+          width: calc(50% - 2.4%);
+          {% endif %}
+        "
+      >
+        {% assign half = forloop.index0 | divided_by: 2 %}
+        {% assign doubled = half | times: 2 %}
+
+        {% if block.settings.card_one != '' %}
+          <div
+            class=" card font-serif bg-[#fff] p-[16px_2.4rem] border border-[#D9D9D9] flex {{sections.alignment}} gap-[3.2rem]  flex-col items-start   md:p-6 sm:max-w-[100%!important] sm:text-center sm:items-center w-full max-content-width"
+            style="
+              color:{{ sections.content_color }};
+              {% if sections.cardlayout == 'equalheight' %}
+                width:{{sections.widthCard}};
+                grid-column:{% if doubled == forloop.index0 %}span 2 / span 2{% else %}span 1 / span 1{% endif %};
+                height:100%;
+              {% else %}
+               min-width:50%;
+               width:100%;
+              {% endif %}
+            "
+          >
+            {{ block.settings.card_one }}
+          </div>
+        {% endif %}
+        {% if block.settings.card_two != '' %}
+          <div
+            class=" card font-serif bg-[#fff] p-[16px_2.4rem] border border-[#D9D9D9] flex {{sections.alignment}} gap-[3.2rem]  flex-col items-start   md:p-6 sm:max-w-[100%!important] sm:text-center sm:items-center w-full max-content-width"
+            style="
+               color:{{ sections.content_color }};
+              {% if sections.cardlayout == 'equalheight' %}
+                width:{{sections.widthCard}};
+                grid-column:{% if doubled == forloop.index0 %}span 1 / span 1{% else %}span 2 / span 2{% endif %};
+                height:100%;
+              {% else %}
+               min-width:50%;
+               width:100%;
+              {% endif %}
+            "
+          >
+            {{ block.settings.card_two }}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Basmil Text Cards",
+  "class": "basmilTextImageList",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading Area Content"
+    },
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading_title"
+    },
+    {
+      "type": "richtext",
+      "label": "description",
+      "id": "heading_description"
+    },
+    {
+      "type": "header",
+      "content": "Content alignment"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Content Alignment",
+      "default": "contentstart",
+      "options": [
+        {
+          "value": "contentstart",
+          "label": "Left"
+        },
+        {
+          "value": "contentcenter",
+          "label": "Center"
+        },
+        {
+          "value": "contentend",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "valignment",
+      "label": "Content Verticle Alignment",
+      "default": "top",
+      "options": [
+        {
+          "value": "top",
+          "label": "top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "bottom"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "gapcontentcard",
+      "label": "Section Title Content and Cards Gap",
+      "default": "5.3rem"
+    },
+    {
+      "type": "header",
+      "content": "Content Card"
+    },
+    {
+      "type": "select",
+      "id": "cardlayout",
+      "label": "Card Layout Type",
+      "default": "equalwidth",
+      "options": [
+        {
+          "value": "equalwidth",
+          "label": "Equal Width"
+        },
+        {
+          "value": "equalheight",
+          "label": "Equal Height"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "widthCard",
+      "label": "Card Width of 1st Card if equal Height"
+    },
+    {
+      "type": "text",
+      "id": "gapsections",
+      "label": "Gap between Sections",
+      "default": "5.3rem"
+    },
+    {
+      "type": "text",
+      "id": "gapimage",
+      "label": "Gap between Image and Content",
+      "default": "5.3rem"
+    },
+    {
+      "type": "text",
+      "id": "gapcards",
+      "label": "Gap between Cards",
+      "default": "5.3rem"
+    },
+    {
+      "type": "header",
+      "content": "Content Part Width"
+    },
+    {
+      "type": "text",
+      "id": "content_width",
+      "label": "Content Width",
+      "default": "70.86%"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "text",
+      "id": "padding",
+      "label": "Padding",
+      "default": "12rem 16px",
+      "info": "eg: 16px 16px 16px 16px"
+    },
+    {
+      "type": "text",
+      "id": "margin",
+      "label": "Margin",
+      "default": "0",
+      "info": "eg: 16px 16px 16px 16px"
+    },
+    {
+      "type": "header",
+      "content": "Custom Class/id"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID"
+    },
+    {
+      "type": "header",
+      "content": "Section Width"
+    },
+    {
+      "type": "text",
+      "id": "width",
+      "label": "Width",
+      "default": "116.6rem",
+      "info": "eg: 116.6rem"
+    },
+    {
+      "type": "header",
+      "content": "Section Height"
+    },
+    {
+      "type": "text",
+      "id": "minheight",
+      "label": "Min Height",
+      "default": "auto",
+      "info": "eg: 116.6rem"
+    },
+    {
+      "type": "header",
+      "content": "Section Background"
+    },
+    {
+      "type": "select",
+      "id": "background_type",
+      "label": "Background Type",
+      "default": "color",
+      "options": [
+        {
+          "value": "color",
+          "label": "Color"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "text",
+      "id": "background_gradient",
+      "label": "Background Gradient",
+      "info": "eg: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "select",
+      "id": "background_on",
+      "label": "Choose Background on",
+      "default": "content_part",
+      "options": [
+        {
+          "value": "content_part",
+          "label": "Content Part"
+        },
+        {
+          "value": "main_section",
+          "label": "Main Section"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "label": "Background Position",
+      "default": "center",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_size",
+      "label": "Background Size",
+      "default": "cover",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content",
+      "name": "Contents",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "card_one",
+          "label": "Card One Contain",
+          "default": "<h3>Title Here</h3><p>content here</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "card_two",
+          "label": "Card two Contain",
+          "default": "<h3>Title Here</h3><p>content here</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Basmil Text Cards",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

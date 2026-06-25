@@ -1,0 +1,1122 @@
+<style>
+  .tourform .font-monster {
+    font-family: 'Lato';
+  }
+  .tourform .font-crimson {
+    font-family: 'Crimson Text';
+  }
+  .tourform .font-lato {
+    font-family: 'Lato';
+  }
+
+  .tourform h3 {
+    margin-bottom: 0 !important;
+  }
+
+  .tourform .custom-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.5rem;
+    border: 0.125rem solid #be935f;
+    background-color: #be935f;
+    cursor: pointer;
+  }
+  .tourform .custom-checkbox input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .tourform .custom-checkbox input:checked + .checkmark {
+    opacity: 100%;
+  }
+  .tourform .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+    background-color: #be935f;
+  }
+  .tourform .custom-checkbox input:checked + .checkmark:after {
+    display: block;
+  }
+  .tourform .custom-checkbox .checkmark:after {
+    left: 0.3125rem;
+    top: 0.125rem;
+    width: 0.3125rem;
+    height: 0.625rem;
+    border: solid white;
+    border-width: 0 0.125rem 0.125rem 0;
+    transform: rotate(45deg);
+  }
+
+  .tourform .error {
+    color: red;
+    font-size: 0.75rem;
+  }
+
+  input {
+    box-shadow: none !important;
+  }
+
+  @media (max-width: 998px) {
+    .columntab {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<div class="page-width  mx-auto py-[12rem] sm:py-[6rem] lg:px-[1rem] md:px-[1rem] sm:px-[1rem]">
+  <form id="tourForm" class="relative tourform  flex gap-[10rem] md:gap-[6rem] sm:gap-[4rem] sm:flex-col">
+    {% comment %} popup {% endcomment %}
+    {% comment %} <input type="text" id="selected-date" > {% endcomment %}
+
+    <!-- Step 1 -->
+    <section class="w-[52.56%] sticky sm:relative h-max top-[10rem] md:w-3/5 sm:w-full ">
+      <div id="step1" class="step">
+        <div class="flex flex-col items-center xl:items-start ">
+          <div class="flex flex-col items-start mb-8 w-full">
+            <p class="font-serif text-3xl font-semibold text-[#0000004D]">Step 1</p>
+            <h2 class=" text-black">Begin Booking</h2>
+            <p class="base font-serif">In this step you can change the tour date if you change your mind.</p>
+          </div>
+          <div class="flex flex-col gap-[1.6rem] w-full">
+            <div>
+              <input
+                type="text"
+                name="fName"
+                class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                placeholder="First Name"
+                required
+              >
+            </div>
+            <div>
+              <input
+                type="text"
+                name="lName"
+                class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                placeholder="Last Name"
+                required
+              >
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                placeholder="Email Address"
+                required
+              >
+            </div>
+            <div>
+              <input
+                type="tel"
+                name="phoneNo"
+                class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                placeholder="Phone Number"
+                required
+              >
+            </div>
+
+            <h3 class="base font-medium mt-4">Birthdate</h3>
+            <div class="flex gap-[1.6rem]">
+              <div>
+                <input
+                  type="text"
+                  name="mm"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="MM"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="dd"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="DD"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="yy"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="YY"
+                  required
+                >
+              </div>
+            </div>
+
+            <button type="button" class="nextBtn mt-4 button w-full">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div id="step2" class="step hidden">
+        <div class="flex flex-col xl:flex-row xl:items-start items-center gap-8 w-full">
+          <div class="flex flex-col items-center xl:items-start w-full">
+            <div class="flex flex-col items-start mb-8 w-full">
+              <p class="font-serif text-3xl font-semibold text-[#0000004D]">Step 2</p>
+              <h2 class=" text-black">Traveler Details</h2>
+              <p class="base font-serif">Please provide information for the primary contact and traveler.</p>
+            </div>
+            <div class="flex flex-col gap-[1.6rem] w-full" id="travelerDetailsContainer">
+              <h3 class="base font-medium mt-4">Traveler's Address</h3>
+              <div>
+                <input
+                  type="text"
+                  name="country"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Country"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="address"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Street Address"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="address2"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Address 2 (Optional)"
+                >
+              </div>
+              <div class="flex gap-[1.6rem]">
+                <div>
+                  <input
+                    type="text"
+                    name="city"
+                    class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                    placeholder="City"
+                    required
+                  >
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="state"
+                    class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                    placeholder="State"
+                    required
+                  >
+                </div>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="zipcode"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Zip Code"
+                  required
+                >
+              </div>
+            </div>
+
+            <button
+              type="button"
+              id="addTravelerBtn"
+              class="mt-[1.6rem] base font-sans"
+              style="color: #1E78C3;"
+            >
+              + Wanna add your buddy?
+            </button>
+
+            <div class="flex gap-[1.6rem] mt-6 w-full">
+              <button
+                type="button"
+                class="prevBtn font-sans w-full border border-tertiary bg-transparent hover:bg-[#000] hover:border-[#000] text-tertiary "
+              >
+                Back
+              </button>
+              <button type="button" class="nextBtn button w-full">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const priceUpdater = (travelerCount) => {
+          const ids = ['variant-price-counter', 'variant-remaining-price', 'variant-total-price'];
+          ids.forEach((id) => {
+            const variantPriceCounter = document.getElementById(id);
+            const priceString = variantPriceCounter.getAttribute('data-price');
+            // Remove dollar sign and commas, then convert to a number
+            const price = parseFloat(priceString.replace(/[^0-9.]/g, ''));
+            // Calculate the total price
+            const totalPrice = price * travelerCount;
+            // Update the text content with the formatted price
+            variantPriceCounter.textContent = `$${totalPrice.toLocaleString()}`;
+          });
+        };
+
+        const updateTravelerNumbers = () => {
+          const travelerSections = document.querySelectorAll('#travelerDetailsContainer .traveler-section');
+          travelerSections.forEach((section, index) => {
+            const travelerNumber = index; // Array index starts at 0
+            section.querySelector('h3').innerHTML = `
+              Traveler ${travelerNumber + 2} Details
+              <button type="button" class="remove-traveler-btn text-red-500 font-bold text-[2rem]" aria-label="Remove Traveler">&times;</button>
+            `;
+
+            // Update input names dynamically
+            section.querySelectorAll('input').forEach((input) => {
+              const originalName = input.getAttribute('data-original-name');
+              input.setAttribute('name', `travelers[${travelerNumber}].${originalName}`);
+            });
+
+            // Rebind the remove button event
+            section.querySelector('.remove-traveler-btn').addEventListener('click', function () {
+              section.remove();
+              updateTravelerNumbers(); // Recalculate numbers after removal
+            });
+          });
+
+          // Update the displayed traveler count
+          document.getElementById('traveller-count').textContent = travelerSections.length + 1;
+          priceUpdater(travelerSections.length + 1);
+        };
+
+        document.getElementById('addTravelerBtn').addEventListener('click', function () {
+          const container = document.getElementById('travelerDetailsContainer');
+          const travelerCount = document.querySelectorAll('#travelerDetailsContainer .traveler-section').length;
+
+          const travelerSection = document.createElement('div');
+          travelerSection.classList.add(
+            'traveler-section',
+            'mt-8',
+            'relative',
+            'flex',
+            'flex-col',
+            'gap-[1.6rem]',
+            'w-full'
+          );
+
+          travelerSection.innerHTML = `
+            <h3 class="base font-medium mt-4 flex items-center justify-between">
+              Traveler ${travelerCount + 1} Details
+              <button type="button" class="remove-traveler-btn text-red-500 font-bold text-[2rem]" aria-label="Remove Traveler">&times;</button>
+            </h3>
+            <div>
+              <input type="text" data-original-name="first_name" name="travelers[${travelerCount}].first_name" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="First Name" required>
+            </div>
+            <div>
+              <input type="text" data-original-name="last_name" name="travelers[${travelerCount}].last_name" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Last Name" required>
+            </div>
+            <div>
+              <input type="email" data-original-name="email" name="travelers[${travelerCount}].email" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Email Address" required>
+            </div>
+            <div>
+              <input type="tel" data-original-name="phone_no" name="travelers[${travelerCount}].phone_no" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Phone Number" required>
+            </div>
+
+            <h3 class="base font-medium mt-4">Birthdate</h3>
+            <div class="flex gap-[1.6rem]">
+              <div>
+                <input type="text" data-original-name="birthdate.mm" name="travelers[${travelerCount}].birthdate.mm" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="MM" required>
+              </div>
+              <div>
+                <input type="text" data-original-name="birthdate.dd" name="travelers[${travelerCount}].birthdate.dd" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="DD" required>
+              </div>
+              <div>
+                <input type="text" data-original-name="birthdate.yy" name="travelers[${travelerCount}].birthdate.yy" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="YY" required>
+              </div>
+            </div>
+
+            <h3 class="base font-medium mt-4">Traveler's Address</h3>
+            <div>
+              <input type="text" data-original-name="address.country" name="travelers[${travelerCount}].address.country" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Country" required>
+            </div>
+            <div>
+              <input type="text" data-original-name="address.street" name="travelers[${travelerCount}].address.street" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Street Address" required>
+            </div>
+            <div>
+              <input type="text" data-original-name="address.street2" name="travelers[${travelerCount}].address.street2" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Address 2 (Optional)">
+            </div>
+            <div class="flex gap-[1.6rem]">
+              <div>
+                <input type="text" data-original-name="address.city" name="travelers[${travelerCount}].address.city" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="City" required>
+              </div>
+              <div>
+                <input type="text" data-original-name="address.state" name="travelers[${travelerCount}].address.state" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="State" required>
+              </div>
+            </div>
+            <div>
+              <input type="text" data-original-name="address.zipcode" name="travelers[${travelerCount}].address.zipcode" class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none" placeholder="Zip Code" required>
+            </div>
+            `;
+
+          container.appendChild(travelerSection);
+
+          travelerSection.querySelector('.remove-traveler-btn').addEventListener('click', function () {
+            travelerSection.remove();
+            updateTravelerNumbers();
+          });
+
+          updateTravelerNumbers();
+        });
+      </script>
+
+      <!-- Step 3 -->
+      <div id="step3" class="step hidden">
+        <div class="flex flex-col xl:flex-row xl:items-start items-center gap-8 w-full">
+          <div class="flex flex-col items-center xl:items-start w-full">
+            <div class="flex flex-col items-start mb-8 w-full">
+              <p class="font-serif text-3xl font-semibold text-[#0000004D]">Step 3</p>
+              <h2 class=" text-black">Accommodations</h2>
+              <p class="base font-serif">Choose a rooming option for all travelers</p>
+            </div>
+            <div class="flex flex-col gap-[1.6rem] w-full">
+              <h3 class="base font-medium">Share a room</h3>
+              <p class="blog-text text-[#00000099] mb-0">Choose a rooming option for all travelers</p>
+              <div>
+                <input
+                  type="text"
+                  name="roommate"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Roommate"
+                >
+              </div>
+
+              <h3 class="base font-medium">Beds</h3>
+              <div class="flex gap-[1.6rem] mb-4">
+                <label>
+                  <input type="radio" name="bed" value="single" checked required>
+                  Single
+                </label>
+                <label>
+                  <input type="radio" name="bed" value="double" required>
+                  Double
+                </label>
+              </div>
+
+              <h3 class="base font-medium">Emergency Contact</h3>
+
+              <div>
+                <input
+                  type="text"
+                  name="firstName"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="First Name"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="lastName"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Last Name"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="email"
+                  name="emailAddress"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Email Address"
+                  required
+                >
+              </div>
+              <div>
+                <input
+                  type="tel"
+                  name="phoneNumber"
+                  class="w-full border border-[#D9D9D9] bg-transparent blog-text font-sans p-[1.125rem_1rem] outline-none"
+                  placeholder="Phone Number"
+                  required
+                >
+              </div>
+
+              <p class="blog-text text-[#00000099] mt-4">Next, select your payment options</p>
+              <div class="flex gap-[1.6rem] mt-6">
+                <button
+                  type="button"
+                  class="prevBtn font-sans w-full border border-tertiary bg-transparent hover:bg-[#000] hover:border-[#000] text-tertiary"
+                >
+                  Back
+                </button>
+                <button type="submit" class="button w-full">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% capture first_summary %}
+    <div id="first_summary" class="w-full border border-black rounded-[1rem] p-[2.4rem]">
+      <div class="columntab flex gap-[2.4rem] md:flex-col sm:flex-row ">
+
+        <div class="w-full flex flex-col justify-start flex-grow gap-[1.6rem]">
+            <div class="base imagetext mb-[0!important] flex gap-[2.4rem] sm:flex-col relative">
+                <img src="{{ product.featured_image | image_url }}" alt="{{ product.featured_image.alt | default:'product.title' }}" class="bg-[#D9D9D9] overflow-hidden max-w-[27%] sm:max-w-[27%!important]  w-full h-auto aspect-square object-cover" width="500" height="500" />
+              <div class="flex flex-col gap-[1.6rem] max-w-[55.7%] sm:max-w-full w-full width-full">
+                Explore the World of Mad Honey Harvesting & Honey Hunters.
+              <div class="flex justify-between items-center">
+                <p class="blog-text text-[#00000099] -mb-[0.8rem]">Selected Date</p>
+                <p id="open-popup" class="blog-text text-[#00000099] -mb-[0.8rem] cursor-pointer" onclick="displayDate()">Change Date</p>
+                </div>
+              <div
+                class="flex justify-between items-center mt-[-0.8rem]"
+              >
+                <p class="sans-base" id="display_date">Nov 5-10, 2023</p>
+              </div>
+            </div>
+            </div>
+
+
+            <style>
+
+              @media screen and (max-width: 1024px) {
+                .imagetext {
+                  flex-direction: column;
+                }                
+              }
+
+              @media screen and (max-width: 1200px) {
+                .width-full {
+                  max-width: 100%;
+                }                
+              }
+
+              .variant-pill {
+                display: inline-block;
+                padding: 12px;
+                margin: 5px;
+                color:#000;
+                border: 1px solid #000;
+                cursor: pointer;
+                transition: all 0.3s ease;
+              }          
+            
+              .variant-pill.active {
+                background-color: #000000;
+                color: #fff;
+                border-color: #000;
+              }
+            
+            </style>
+            <div class="flex flex-col gap-[8px]">
+              <p class="blog-text text-[#00000099] -mb-[0.8rem]">Select Payment Type</p>
+
+              <div id="variant-selector">
+                {% for variant in product.variants %}
+                    {% assign deposit_price =  product.variants[0].price | divided_by: 100 %}
+                    {% assign full_price = product.variants[1].price | divided_by: 100 %}
+
+                  {% assign remaning_amount = full_price | minus: deposit_price | times: 100 | money_without_trailing_zeros  %}
+                  <span 
+                    class="variant-pill min-w-[40%] text-center {{ variant.title | handleize }} text-[1.4rem] {% if forloop.index0 ==0 %} active {% endif %}" 
+                    data-price="{{ variant.price | money_without_trailing_zeros}}" 
+                    data-remaning-price="{% if forloop.index0 ==0 %} {{ remaning_amount}} {%else %} 0 {% endif %}" 
+                    data-variant-id="{{ variant.id }}"
+                    onclick="selectVariant(this)">
+                    {{ variant.title }}
+                  </span>
+                {% endfor %}
+              </div>
+            </div>
+
+            <hr class="bg-black h-[.0625rem]"/>
+          <p class="sans-base -mt-[0.6rem]">Price: <span class="variant-price">{{ product.variants[0].price | money_without_trailing_zeros }}</span> Per Person <span id="remaning-variant-price">(Remaining: {{ remaning_amount }})</span></p>
+        </div>
+      </div>
+      <div class="w-full mt-6">
+        <p class="base font-medium mb-2">Note:</p>
+        <p class="sans-base">
+          The price shown is only for 1 person. If you have a group, you'll need to enter details for each person in the
+          next step.
+        </p>
+      </div>
+    </div>
+    {% endcapture %}
+    <section
+      id="tourSummary"
+      class="flex bg-[#ffffff] sm:mt-[6rem!important] sm:mb-[8rem!important] max-h-max flex-col items-center xl:items-start xl:mt-0 w-1/2 md:w-2/5 sm:w-full font-sans mt-[9rem] sticky sm:relative top-[10rem]"
+    >
+      {% capture other_summary %}
+        <div id="other_summary" class="w-full border border-black rounded-lg p-6 opacity-0 absolute z-[-1] ">
+          <h3 class="base font-medium mb-4">Tour Summary</h3>
+          <p class="base mb-2">Explore the World of Mad Honey Harvesting & Honey Hunters</p>
+          <p class="blog-text text-[#00000099] mb-1">Selected Date</p>
+          <div class="flex justify-between items-center border-b border-black pb-4 mb-4">
+            <p class="blog-text display_date">Nov 5-10, 2023</p>
+          </div>
+          <div class="space-y-2">
+            
+            <p class="blog-text text-[#00000099] mb-1">Per Traveler</p>
+            <div class="flex justify-between">
+              <span class="blog-text">Price</span>
+              <span class="font-semibold blog-text"><price class="variant-price">{{ product.variants[0].price | money_without_trailing_zeros }}</price> </span>
+            </div>
+            <div class="flex justify-between border-b border-black border-dashed ">
+              <span class="blog-text">Total</span>
+              <span class="font-semibold blog-text">{{ product.variants[1].price | money_without_trailing_zeros }} </span>
+            </div>
+            <p class="blog-text text-[#00000099] my-1">Total Calculation for <b>x<count id="traveller-count">1</count></b> Traveler</p>
+            <div class="flex justify-between pt-2">
+              <span class="blog-text">Trip deposit </span>
+              <span class="font-medium blog-text" id="variant-price-counter" data-price="{{ product.variants[0].price | money_without_trailing_zeros }}">{{ product.variants[0].price | money_without_trailing_zeros }}</span>
+            </div>
+            <div class="flex justify-between font-medium blog-text">
+              <span class="blog-text">Total Amount</span>
+              <span id="variant-total-price" class="font-medium blog-text" data-price="{{ product.variants[1].price | money_without_trailing_zeros }}">{{ product.variants[1].price | money_without_trailing_zeros }} </span>
+            </div>
+            <div class="flex justify-between font-medium blog-text">
+              <span class="blog-text">Remaining Amount</span>
+              <span id="variant-remaining-price" class=" font-semibold blog-text" data-price="{{ remaning_amount }}">{{ remaning_amount }}</span>
+            </div>
+          </div>
+        </div>
+      {% endcapture %}
+      {{ first_summary }}
+      {{ other_summary }}
+    </section>
+  </form>
+</div>
+
+<script>
+
+  function validateForm(selector) {
+    // Select all input fields based on the provided selector
+    const inputs = document.querySelectorAll(selector);
+    let isValid = true; // Tracks overall form validation status
+  
+    // Function to display error message
+    function showErrorMessage(input, message) {
+      // Check if an error message already exists, and remove it
+      const existingError = input.parentNode.querySelector('.error-msg');
+      if (existingError) {
+        existingError.remove();
+      }
+  
+      // Create error message element
+      const errorMsg = document.createElement('div');
+      errorMsg.setAttribute('class','error-msg text-sm text-red-500');
+      errorMsg.textContent = message;
+      
+      // Insert error message below the input field
+      input.parentNode.insertBefore(errorMsg, input.nextSibling);
+    }
+  
+    // Function to remove error message
+    function clearErrorMessage(input) {
+      const existingError = input.parentNode.querySelector('.error-msg');
+      if (existingError) {
+        existingError.remove();
+      }
+    }
+  
+    // Regular expressions for email, phone, and zip validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^\d{10}$/; // Matches a 10-digit phone number
+    const zipRegex = /^\d{5}(?:-\d{4})?$/; // Matches US zip codes (5 digits or ZIP+4)
+  
+    // Iterate through each input
+    inputs.forEach((input) => {
+      const inputType = input.getAttribute('type');
+      const isRequired = input.hasAttribute('required');
+      const inputValue = input.value.trim();
+  
+      clearErrorMessage(input); // Clear any previous error messages
+  
+      // Check for required fields
+      if (isRequired && !inputValue) {
+        showErrorMessage(input, 'Required Field');
+        isValid = false;
+        return;
+      }
+  
+      // Perform specific validations based on input type
+      if (inputType === 'email' && inputValue) {
+        if (!emailRegex.test(inputValue)) {
+          showErrorMessage(input, 'Please enter a valid email address');
+          isValid = false;
+        }
+      } else if (inputType === 'tel' && inputValue) { // Phone number validation
+        if (!phoneRegex.test(inputValue)) {
+          showErrorMessage(input, 'Please enter a valid phone number (10 digits)');
+          isValid = false;
+        }
+      } else if (inputType === 'text' && inputValue) { // Zip code validation for text inputs
+        if (input.name.includes('zipcode' ) && !zipRegex.test(inputValue)) {
+          showErrorMessage(input, 'Please enter a valid zip code');
+          isValid = false;
+        }
+      }
+    });
+  
+    return isValid; // Return overall validation status
+  }
+
+
+  function selectVariant(element) {
+    // Remove active class from all pills
+    document.querySelectorAll('.variant-pill').forEach((pill) => {
+      pill.classList.remove('active');
+    });
+
+    // Add active class to the clicked pill
+    element.classList.add('active');
+
+    // Update the price display
+    const price = element.getAttribute('data-price');
+    const rprice = element.getAttribute('data-remaning-price');
+    document.querySelectorAll('.variant-price').forEach((element) => (element.textContent = price));
+    const remaningElement = document.getElementById('remaning-variant-price');
+
+    const priceCounterElement = document.getElementById('variant-price-counter');
+    priceCounterElement.textContent = price.replace(/\s/g, '') != '0' ? price : '$0';
+    priceCounterElement.setAttribute('data-price', price);
+
+    const remainingAmountElement = document.getElementById('variant-remaining-price');
+    remainingAmountElement.textContent = rprice.replace(/\s/g, '') != '0' ? rprice : '$0';
+    remainingAmountElement.setAttribute('data-remaning', rprice.replace(/\s/g, ''));
+
+    if (rprice.replace(/\s/g, '') != '0') {
+      remaningElement.textContent = `(Remaining: ${rprice})`;
+      remaningElement.style.display = 'inline';
+    } else {
+      remaningElement.style.display = 'none';
+    }
+
+    // Optional: Set the selected variant ID for further actions (like adding to cart)
+    const variantId = element.getAttribute('data-variant-id');
+    console.log('Selected Variant ID:', variantId);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const steps = Array.from(document.querySelectorAll('.step'));
+    const nextBtns = document.querySelectorAll('.nextBtn');
+    const prevBtns = document.querySelectorAll('.prevBtn');
+    let currentStep = 0;
+
+    // Helper: Show only the current step
+    const showStep = (stepIndex) => {
+      steps.forEach((step, index) => {
+        step.classList.toggle('block', index === stepIndex);
+        step.classList.toggle('hidden', index !== stepIndex);
+
+        // Update innerHTML for the current step if applicable
+        if (index === stepIndex) {
+          const tourSummary = document.querySelector('#tourSummary');
+          if (stepIndex === 0) {
+            document.getElementById('other_summary').style.opacity = '0';
+            document.getElementById('other_summary').style.position = 'absolute';
+            document.getElementById('other_summary').style.zIndex = '-1';
+            document.getElementById('first_summary').style.opacity = '1';
+            document.getElementById('first_summary').style.position = 'relative';
+            document.getElementById('first_summary').style.zIndex = '1';
+          } else {
+            document.getElementById('other_summary').style.opacity = '1';
+            document.getElementById('other_summary').style.position = 'relative';
+            document.getElementById('other_summary').style.zIndex = '1';
+            document.getElementById('first_summary').style.opacity = '0';
+            document.getElementById('first_summary').style.position = 'absolute';
+            document.getElementById('first_summary').style.zIndex = '-1';
+          }
+        }
+      });
+    };
+
+    // Handle Next Button
+    nextBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        if ((currentStep < steps.length - 1) && validateForm(`#step${currentStep+1} input`)) {          
+          currentStep++;
+          showStep(currentStep);
+        }
+      });
+    });
+
+    // Handle Previous Button
+    prevBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        if (currentStep > 0) {
+          currentStep--;
+          showStep(currentStep);
+        }
+      });
+    });
+
+    // Initialize first step
+    showStep(currentStep);
+  });
+
+
+
+
+
+  document.getElementById('tourForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    if(!validateForm(`#tourForm input`)){
+      return;
+    }
+    const formData = new FormData(this);
+    const data = {};
+    const birthdate = {};
+
+    // Send the structured data to your server here
+    const input = Object.fromEntries(formData);
+    const travelersCount = Object.keys(input).filter(key => key.startsWith('travelers')).length / 13;
+    const travelers = [];
+
+    for (let i = 0; i < travelersCount; i++) {
+      travelers.push({
+        firstName: input[`travelers[${i}].first_name`],
+        lastName: input[`travelers[${i}].last_name`],
+        email: input[`travelers[${i}].email`],
+        phoneNo: input[`travelers[${i}].phone_no`],
+        birthdate: {
+          mm: input[`travelers[${i}].birthdate.mm`],
+          dd: input[`travelers[${i}].birthdate.dd`],
+          yy: input[`travelers[${i}].birthdate.yy`]
+        },
+        address: {
+          country: input[`travelers[${i}].address.country`],
+          street: input[`travelers[${i}].address.street`],
+          street2: input[`travelers[${i}].address.street2`],
+          city: input[`travelers[${i}].address.city`],
+          state: input[`travelers[${i}].address.state`],
+          zipcode: input[`travelers[${i}].address.zipcode`]
+        }
+      });
+    }
+
+
+
+
+    const variantID = document.querySelector('#variant-selector .variant-pill.active').getAttribute('data-variant-id');
+    const bookedDate = document.querySelector('#display_date').textContent;
+    // Function to create a note
+    function createNote(input, travelers) {
+      let note = '';
+
+      // Primary Contact
+      note += `Primary Contact:\n`;
+      note += `Booked Date: ${bookedDate}\n`;
+      note += `Name: ${input.fName} ${input.lName}\n`;
+      note += `Email: ${input.email}\n`;
+      note += `Phone: ${input.phoneNo}\n`;
+      note += `Birthdate: ${input.mm}/${input.dd}/${input.yy}\n`;
+      note += `Country: ${input.country}\n`;
+      note += `Address: ${input.address}\n\n`;
+
+      // Traveling Partners
+      note += `Traveling Partners:\n`;
+      travelers.forEach((traveler, index) => {
+        note += `Partner ${index + 1}:\n`;
+        note += `First Name: ${traveler.firstName}\n`;
+        note += `Last Name: ${traveler.lastName}\n`;
+        note += `Email: ${traveler.email}\n`;
+        note += `Phone: ${traveler.phoneNo}\n`;
+        note += `Birthdate: ${traveler.birthdate.mm}/${traveler.birthdate.dd}/${traveler.birthdate.yy}\n`;
+        note += `Address: ${traveler.address.street}, ${traveler.address.city}, ${traveler.address.state}, ${traveler.address.zipcode}\n\n`;
+      });
+
+      // Roommate
+      note += `ROOM MATE:\n`;
+      note += `Beds:${input.bed}\n`;
+      note += `Name: ${input.roommate}\n\n`;
+
+      // Emergency Contact
+      note += `EMERGENCY CONTACT:\n`;
+      note += `Name: ${input.firstName} ${input.lastName}\n`;
+      note += `Email: ${input.emailAddress}\n`;
+      note += `Phone: ${input.phoneNumber}\n`;
+
+      return note;
+    }
+
+
+    // Example usage
+    const note = createNote(input, travelers);
+    console.log(note, '{{template.id}}')
+    const variantIds = [{{ product.variants | map: 'id' | join: '", "' | prepend: '"' | append: '"' }}];
+
+    // Fetch the current cart to save the items to localStorage
+    fetch(window.Shopify.routes.root + 'cart.js')
+      .then((response) => response.json())
+      .then((cart) => {
+                const backupItems = [];
+        if (cart.items.length > 0) {
+          cart.items.forEach((item, index) => {
+            !variantIds.includes(item.variant_id) && backupItems.push({
+              quantity: item.quantity,
+              id: item.id,
+              selling_plan: item?.selling_plan_allocation?.selling_plan?.id
+            }); // Set quantity to 0 to clear cart
+          });
+          {% comment %} localStorage.setItem('previousCartItems', JSON.stringify(cart.items)); {% endcomment %}
+        }
+        
+        console.log(backupItems);
+        localStorage.setItem('backupCartItems', JSON.stringify(backupItems));
+
+          fetch('/cart/clear.js', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-Requested-With': 'XMLHttpRequest'
+            }
+          })
+          .then((response) => response.json())
+          .then((cart)=>{
+            fetch(window.Shopify.routes.root + 'cart/add.js', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                'items': [
+                  {
+                    'id': variantID,
+                    'quantity': travelersCount +1,
+                    'properties': 
+                      {
+                        'Travellers': travelersCount +1,
+                        "Booked Date": bookedDate
+                      }
+                  }
+                ],
+                'note': note
+              }),
+            })
+              .then((response) => response.json())
+              .then((cart) => {
+                window.location.href = '/checkout';
+              })
+              .catch((error) => console.error('Error adding item to cart:', error));
+          })
+          .catch(error => {
+            console.error('Error:', error);
+          });
+        
+
+      })
+      .catch((error) => console.error('Error fetching cart:', error));
+  });
+
+
+  const displayDate = () =>{
+    
+  }
+</script>
+
+{% comment %} popup script {% endcomment %}
+
+<style>
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .popup-overlay.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+</style>
+
+<div class="popup-overlay" id="popup">
+  <div class="popup-content max-h-[95vh]">
+    <button class="popup-close" id="popup-close">&times;</button>
+    {% section 'date-tour' %}
+  </div>
+</div>
+
+<script>
+  const popup = document.getElementById('popup');
+  const popupClose = document.getElementById('popup-close');
+  const openPopup = document.getElementById('open-popup');
+
+  // Open popup
+  openPopup.addEventListener('click', () => {
+    popup.classList.add('active');
+  });
+
+  // Close popup on close button click
+  popupClose.addEventListener('click', () => {
+    popup.classList.remove('active');
+  });
+
+  document.getElementById('reserve-btn').addEventListener('click', function () {
+    popup.classList.remove('active');
+  });
+
+  // Close popup on outside click
+  popup.addEventListener('click', (e) => {
+    if (e.target === popup) {
+      popup.classList.remove('active');
+    }
+  });
+</script>
+
+<script>
+(function () {
+  // 1. Grab ?selected_method=...
+  const params         = new URLSearchParams(window.location.search);
+  const selectedMethod = params.get('selected_method');
+  if (!selectedMethod) return;                       // nothing to do
+
+  // 2. Convert to slug (handleize-ish)
+  const slug = selectedMethod
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')   // strip accents & symbols
+    .replace(/[\s_-]+/g, '-')   // collapse whitespace/underscores to "-"
+    .replace(/^-+|-+$/g, '');   // trim leading/trailing "-"
+
+  // 3 & 4. Wait for DOM, find element, click
+  const clickIfFound = () => {
+    const el = document.querySelector(`.${slug}`);
+    if (el) el.click();
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', clickIfFound);
+  } else {
+    clickIfFound();
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "url": {{ request.origin | append: product.url | json }},
+    {% if seo_media -%}
+      "image": [
+        {{ seo_media | image_url: width: 1920 | prepend: "https:" | json }}
+      ],
+    {%- endif %}
+    "description": {{ product.description | strip_html | json }},
+    {% if product.selected_or_first_available_variant.sku != blank -%}
+      "sku": {{ product.selected_or_first_available_variant.sku | json }},
+    {%- endif %}
+    "brand": {
+      "@type": "Brand",
+      "name": {{ product.vendor | json }}
+    },
+    "offers": [
+      {%- for variant in product.variants -%}
+        {
+          "@type" : "Offer",
+          {%- if variant.sku != blank -%}
+            "sku": {{ variant.sku | json }},
+          {%- endif -%}
+          {%- if variant.barcode.size == 12 -%}
+            "gtin12": {{ variant.barcode }},
+          {%- endif -%}
+          {%- if variant.barcode.size == 13 -%}
+            "gtin13": {{ variant.barcode }},
+          {%- endif -%}
+          {%- if variant.barcode.size == 14 -%}
+            "gtin14": {{ variant.barcode }},
+          {%- endif -%}
+          "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+          "price" : {{ variant.price | divided_by: 100.00 | json }},
+          "priceCurrency" : {{ cart.currency.iso_code | json }},
+          % assign current_month = "now" | date: "%m" | plus: 0 %}
+                {% assign current_year = "now" | date: "%Y" %}
+                {% assign next_year = current_year | plus: 1 %}
+
+                {% if current_month < 7 %}
+                  {% assign last_date = current_year | append: "-12-31" %}
+                {% else %}
+                  {% assign last_date = next_year | append: "-12-31" %}
+                {% endif %}
+                "priceValidUntil": "{{ last_date }}",
+          "url" : {{ request.origin | append: variant.url | json }},
+          "itemOffered": {
+            "@type": "Tour",
+            "name": {{ product.title | append: ' - ' | append: variant.title | json }},
+            "startDate": "{{ variant.title | replace: ' ', '-' }}-01",
+            "location": {
+              "@type": "Place",
+              "name": "Mad Honey Region",
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Nepal"
+              }
+            },
+            "itinerary": {
+              "@type": "ItemList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "Event",
+                    "name": "Mad Honey Harvesting Experience"
+                  }
+                }
+              ]
+            }
+          }
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ],
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ product.metafields.reviews.rating.value | default: '0' }}",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "{{ product.metafields.reviews[0].author | default: 'Anonymous' }}"
+      }
+    },
+    
+      "ratingValue": "{{ product.metafields.reviews.rating.value | default: '0' }}",
+      "reviewCount": "{{ product.metafields.reviews.rating_count | default: '0' }}"
+    }
+  }
+</script>
