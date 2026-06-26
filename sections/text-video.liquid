@@ -152,14 +152,10 @@
     </button>
     {% endif %}
     {% endcapture %}
-      <!--
-        <link rel="preload" as="image" href="{{ block.settings.video_thumbnail | image_url: width:1400 }}" media="(min-width: 1024px)">
-        <link rel="preload" as="image" href="{{ block.settings.video_thumbnail | image_url: width:800 }}" media="(min-width: 769px) and (max-width: 1023px)">
-        <link rel="preload" as="image" href="{{ block.settings.video_thumbnail | image_url: width:400 }}" media="(max-width: 768px)">
-      -->
       {%- if block.settings.video_thumbnail != blank -%}
-        {%- assign preload_image_url = block.settings.video_thumbnail | image_url: width: 200 -%}
-        <link rel="preload" as="image" href="{{ preload_image_url }}" fetchPriority="high">
+        <link rel="preload" as="image" href="{{ block.settings.video_thumbnail | image_url: width: 1400 }}" media="(min-width: 1024px)" fetchpriority="high">
+        <link rel="preload" as="image" href="{{ block.settings.video_thumbnail | image_url: width: 800 }}" media="(min-width: 769px) and (max-width: 1023px)" fetchpriority="high">
+        <link rel="preload" as="image" href="{{ block.settings.video_thumbnail | image_url: width: 400 }}" media="(max-width: 768px)" fetchpriority="high">
       {%- endif -%}
   {% endcase %}
 {% endfor %}
