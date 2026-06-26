@@ -9,12 +9,6 @@
       <meta name="robots" content="noindex, follow">
     {% endif %}
 
-    {% assign noindex_pages = 'mad-honey-facts,mad-honey-history,honey-hunter,the-real-raw-mad-honey' | split: ',' %}
-
-{% if page and noindex_pages contains page.handle %}
-  <meta name="robots" content="noindex, follow">
-{% endif %}
-
     {% comment %} metafield here {% endcomment %}
     {%  render 'keywords', meta:true, schema:true %}
 
@@ -400,8 +394,6 @@
     </style>
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-  {{ 'custom.css' | asset_url | stylesheet_tag }}
-
     {% comment %} {{ 'output.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
     <link rel="preload" as="style" href="{{ 'output.css' | asset_url }}" onload="this.onload=null;this.rel='stylesheet'" >
