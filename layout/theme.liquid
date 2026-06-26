@@ -426,6 +426,7 @@
         onload="this.media='all'"
       >
     {%- endif -%}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body class="gradient">
