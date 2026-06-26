@@ -1,5 +1,11 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 {{ 'section-article-custom.css' | asset_url | stylesheet_tag }}
+<style>
+  .rte a, .rte a span, .rte li a, .rte p a {
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
+</style>
 
 <div class="main-article flex page-width sm:max-w-[116.6rem] md:max-w-[116.6rem] xl:max-w-[1400px] gap-[3.69%] mx-auto my-0 py-[8.5rem] px-[16px]">
   <aside class="max-w-[23.47%] w-full sm:hidden">
