@@ -400,6 +400,8 @@
     </style>
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
+
     {% comment %} {{ 'output.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
     <link rel="preload" as="style" href="{{ 'output.css' | asset_url }}" onload="this.onload=null;this.rel='stylesheet'" >
@@ -426,7 +428,6 @@
         onload="this.media='all'"
       >
     {%- endif -%}
-  {{ 'custom.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body class="gradient">

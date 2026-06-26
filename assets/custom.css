@@ -1,14 +1,5 @@
 /* Custom styles */
 
-.rte a,
-.rte a span,
-.rte li a,
-.rte p a {
-  word-break: break-all;
-  overflow-wrap: anywhere;
-}
-
-
 .external-link{
    word-break: break-all;
   overflow-wrap: anywhere;
