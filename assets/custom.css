@@ -7,3 +7,9 @@
   word-break: break-all;
   overflow-wrap: anywhere;
 }
+
+
+.external-link{
+   word-break: break-all;
+  overflow-wrap: anywhere;
+}
