@@ -1,6 +1,8 @@
+/* Custom styles */
 
-
-p a {
-      word-break: break-all;
-
+.rte a span,
+.rte span,
+.rte a {
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
