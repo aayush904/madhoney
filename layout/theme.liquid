@@ -123,14 +123,14 @@
           background: red;
       }
 
-      {{ settings.custom_font | font_face: font_display: 'swap' }}
-      {{ custom_font_bold | font_face: font_display: 'swap' }}
-      {{ custom_font_italic | font_face: font_display: 'swap' }}
-      {{ custom_font_bold_italic | font_face: font_display: 'swap' }}
+      {{ settings.custom_font | font_face: font_display: 'optional' }}
+      {{ custom_font_bold | font_face: font_display: 'optional' }}
+      {{ custom_font_italic | font_face: font_display: 'optional' }}
+      {{ custom_font_bold_italic | font_face: font_display: 'optional' }}
 
 
 
-                  {{ settings.type_body_font | font_face: font_display: 'swap' }}{{ body_font_bold | font_face: font_display: 'swap' }}{{ body_font_italic | font_face: font_display: 'swap' }}{{ body_font_bold_italic | font_face: font_display: 'swap' }}{{ settings.type_header_font | font_face: font_display: 'swap' }}
+                  {{ settings.type_body_font | font_face: font_display: 'optional' }}{{ body_font_bold | font_face: font_display: 'optional' }}{{ body_font_italic | font_face: font_display: 'optional' }}{{ body_font_bold_italic | font_face: font_display: 'optional' }}{{ settings.type_header_font | font_face: font_display: 'optional' }}
                   :root {
                     --font-body-family: {{ settings.type_body_font.family }},
                     {{ settings.type_body_font.fallback_families }};

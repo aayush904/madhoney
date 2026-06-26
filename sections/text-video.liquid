@@ -19,7 +19,9 @@
 
     #shopify-section-{{ section.id }}  .video-thumbnail {
       position: relative;
-      display: inline-block;
+      display: block;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
     }
 
     #shopify-section-{{ section.id }}  .video-thumbnail-img {
@@ -212,19 +214,27 @@
                         {% endif %}
                         
                     {% if block.settings.video_thumbnail != blank %}
-                        <img 
-                          loading="lazy"                          
-                          src="{{ block.settings.video_thumbnail | image_url }}" 
-                          alt="Video Thumbnail" class="{{ block.settings.video_thumbnail.alt | default: 'video-thumbnail-img'}}" width="500" height="500">
+                        <img
+                          loading="eager"
+                          fetchpriority="high"
+                          srcset="{{ block.settings.video_thumbnail | image_url: width: 400 }} 400w,
+                                  {{ block.settings.video_thumbnail | image_url: width: 800 }} 800w,
+                                  {{ block.settings.video_thumbnail | image_url: width: 1400 }} 1400w"
+                          sizes="(min-width: 1024px) 800px, 100vw"
+                          src="{{ block.settings.video_thumbnail | image_url: width: 800 }}"
+                          alt="{{ block.settings.video_thumbnail.alt | default: 'Mad honey video thumbnail' }}"
+                          class="video-thumbnail-img"
+                          width="{{ block.settings.video_thumbnail.width | default: 1280 }}"
+                          height="{{ block.settings.video_thumbnail.height | default: 720 }}">
                     {% else %}
-                        
-                        <img 
-                          loading="lazy"
+                        <img
+                          loading="eager"
+                          fetchpriority="high"
                           src="https://img.youtube.com/vi/{{ video_id }}/hqdefault.jpg"
                           alt="YouTube Thumbnail"
                           class="video-thumbnail-img"
-                          width="500"
-                          height="500"
+                          width="480"
+                          height="360"
                         >
                       {% endif %}
                       {%  if section.settings.show_play_button_on == 'image' %}
@@ -244,10 +254,18 @@
                 <div class="video-thumbnail  w-full" >
                   <div class="absolute bg-[#00000060] top-0 left-0 w-full h-full empty:block"></div>
 
-                  <img 
-                  loading="lazy"
-                    src="{{ block.settings.video_thumbnail | image_url }}" 
-                    alt="{{ block.settings.video_thumbnail.alt | default: 'video thumbnail' }}" class="video-thumbnail-img" width="500" height="500">
+                  <img
+                    loading="eager"
+                    fetchpriority="high"
+                    srcset="{{ block.settings.video_thumbnail | image_url: width: 400 }} 400w,
+                            {{ block.settings.video_thumbnail | image_url: width: 800 }} 800w,
+                            {{ block.settings.video_thumbnail | image_url: width: 1400 }} 1400w"
+                    sizes="(min-width: 1024px) 800px, 100vw"
+                    src="{{ block.settings.video_thumbnail | image_url: width: 800 }}"
+                    alt="{{ block.settings.video_thumbnail.alt | default: 'video thumbnail' }}"
+                    class="video-thumbnail-img"
+                    width="{{ block.settings.video_thumbnail.width | default: 1280 }}"
+                    height="{{ block.settings.video_thumbnail.height | default: 720 }}">
 
                     {% if videoButton and section.settings.show_play_button_on =='image' %}
                       <button class="play-button top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" data-video-type="self_hosted" data-video-src="{{ block.settings.video.sources[1].url }}"><svg style="width:7.9rem; height:6.4rem" viewBox="0 0 79 64" fill="none" xmlns="http://www.w3.org/2000/svg">
