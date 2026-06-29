@@ -18,23 +18,6 @@
         {%- assign shown = shown | plus: 1 -%}
         {%- assign v = product.selected_or_first_available_variant -%}
         <div class="cart-xsell__slide" role="group" aria-label="{{ shown }} of {{ limit }}" tabindex="-1">
-
-          {% render 'card-product',
-            card_product: product,
-            media_aspect_ratio: "square",
-            show_secondary_image: false,
-            lazy_load: false,
-            quick_add: "standard",
-            show_quick_add: true,
-            section_id: "cart-cross-sell",
-            horizontal_class: true,
-            horizontal_quick_add: false,
-            hide_quick_add: true
-          %}
-          {%- assign slides_counter = slides_counter | plus: 1 -%}
-
-        </div>
-        {% comment %} <div class="cart-xsell__slide" role="group" aria-label="{{ shown }} of {{ limit }}" tabindex="-1">
           <div class="cart-xsell__card">
             <a class="cart-xsell__media" href="{{ product.url }}" aria-label="{{ product.title | escape }}">
               {%- if product.featured_media -%}
@@ -65,17 +48,18 @@
                 <product-form data-section-id="{{v.id}}">
                   {%- form 'product', product, id: formid, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                     <input type="hidden" name="id" value="{{ v.id }}">
-                    <button type="submit" name="add" 
+                    <button type="submit" name="add"
                     class="quick-add__submit button cart-xsell__btn button--full-width {% if horizontal_quick_add %} card--horizontal__quick-add{% endif %}"
                         {% unless v.available %}disabled{% endunless %}>
                       {%- if v.available -%}Add to cart{%- else -%}Sold out{%- endif -%}
                     </button>
                   {%- endform -%}
                 </product-form>
-              
+
             </div>
           </div>
-        </div>  {% endcomment %}
+        </div>
+          {%- assign slides_counter = slides_counter | plus: 1 -%}
       {%- endunless -%}
     {%- endfor -%}
   {%- endcapture -%}
@@ -174,6 +158,29 @@
 
   .cart-xsell__card {
     display: flex;
+    gap: 12px;
+  }
+
+  .cart-xsell__info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 0.8rem;
+  }
+
+  .cart-xsell__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .cart-xsell__img--placeholder {
+    width: 100%;
+    height: 100%;
+    background: rgba(var(--color-foreground), 0.08);
   }
 
   .cart-xsell__media {
@@ -182,7 +189,6 @@
     flex-shrink: 0;
     overflow: hidden;
     background: rgba(var(--color-foreground), 0.05);
-    margin-right: 12px;
   }
 
   .infinite-ccslider {
@@ -250,10 +256,14 @@
     line-height:1.1;
   }
 
-  .cart-xsell h3 {
+  .cart-xsell h3,
+  .cart-xsell__title {
     font-size: 1.3rem;
     font-family: var(--font-body-family);
     font-weight: 700;
+    display: block;
+    color: inherit;
+    text-decoration: none;
   }
 
   .cart-xsell .card.card--horizontal{
