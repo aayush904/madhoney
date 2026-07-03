@@ -269,6 +269,9 @@
       "block_order": [
         "content_Vga8A8"
       ],
+      "custom_css": [
+        ".main-wrapper{padding:10px;}"
+      ],
       "name": "Basmil Image Text",
       "settings": {
         "heading_size": "h2",
