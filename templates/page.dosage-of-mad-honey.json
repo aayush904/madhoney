@@ -81,7 +81,7 @@
             "subtitle": "",
             "description": "<p><a href=\"\" target=\"_blank\" title=\"mad honey\">Mad honey</a> can be tempting to your tastebuds, but you should have no more than two spoons a day. The general thumb rule might differ from individual to individual. If you belong somewhere between 18 and 35, you can consume 1 to 2 tablespoons. And if you are 35+, you can stick to 1 tablespoon. </p>",
             "button_text": "Try Mad Honey",
-            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_link": "shopify://products/mad-honey",
             "button_text_2": "",
             "button_link_2": ""
           }
@@ -953,7 +953,7 @@
         "heading_tag": "h2",
         "title": "Buy Mad Honey Collection",
         "description": "Find the purest one for you from our collection of authentic, high GTX rated Mad honey, carefully harvested, bottled and packed in Nepal.",
-        "product": "medicinal-mad-honey",
+        "product": "mad-honey",
         "show_sold_out_variants": false,
         "overlay_text": "Mad Honey",
         "show_badge": true,

@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image_type": "image",
-            "image": "shopify:\/\/shop_images\/image_105.jpg",
+            "image": "shopify://shop_images/image_105.jpg",
             "image_alt": "Mad Honey",
             "svg": "",
             "image_width": "calc(50% + 0px)"
@@ -26,9 +26,9 @@
           "type": "content",
           "settings": {
             "title": "Mad Honey in Skincare and Wellness",
-            "description": "<p>Mad Honey is also celebrated for its topical applications, particularly in skincare and wellness routines. Its natural antibacterial and anti-inflammatory properties make it an excellent ingredient for face masks, wound care, and soothing balms. Applied topically, Mad Honey can help promote healing, reduce inflammation, and provide hydration to the skin. It is used in various DIY skincare treatments to enhance skin health and give a natural glow. This honey's gentle yet effective properties make it a valuable addition to wellness and beauty regimens, offering a touch of nature’s luxury in every application.<\/p>",
+            "description": "<p>Mad Honey is also celebrated for its topical applications, particularly in skincare and wellness routines. Its natural antibacterial and anti-inflammatory properties make it an excellent ingredient for face masks, wound care, and soothing balms. Applied topically, Mad Honey can help promote healing, reduce inflammation, and provide hydration to the skin. It is used in various DIY skincare treatments to enhance skin health and give a natural glow. This honey's gentle yet effective properties make it a valuable addition to wellness and beauty regimens, offering a touch of nature’s luxury in every application.</p>",
             "button_text": "Buy Mad Honey",
-            "button_link": "shopify:\/\/products\/medicinal-mad-honey",
+            "button_link": "shopify://products/mad-honey",
             "button_text_2": "",
             "button_link_2": ""
           }
@@ -70,28 +70,28 @@
           "type": "text",
           "settings": {
             "question": "Why is Mad Honey Expensive?",
-            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.</p>"
           }
         },
         "text_qxckdz": {
           "type": "text",
           "settings": {
             "question": "Why Medicinal Mad Honey?",
-            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.</p>"
           }
         },
         "text_dRfQjQ": {
           "type": "text",
           "settings": {
             "question": "What are the health benefits of Mad Honey?",
-            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.</p>"
           }
         },
         "text_LNqyxV": {
           "type": "text",
           "settings": {
             "question": "Does Mad Honey gets you high?",
-            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.<\/p>"
+            "answer": "<p>The result may differ from person to person depending on their age, gender, and health status. However, most people witness its benefits within 1-2 weeks. To maximize the benefits, consume shilajit for at least two weeks.</p>"
           }
         }
       },

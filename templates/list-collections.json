@@ -60,7 +60,7 @@
       "settings": {
         "section_title": "",
         "section_description": "",
-        "product": "medicinal-mad-honey",
+        "product": "mad-honey",
         "varient_seperator": true,
         "Card_Button": "Add to Cart",
         "box_title_tag": "h3",
@@ -83,7 +83,7 @@
         "background_size": "cover",
         "heading_color": "",
         "content_color": "",
-        "iconbox_style": "<style>.icon-box-section{}<\/style>"
+        "iconbox_style": "<style>.icon-box-section{}</style>"
       }
     },
     "product_variant_list_basmil_JWLTex": {
@@ -115,7 +115,7 @@
         "background_size": "cover",
         "heading_color": "",
         "content_color": "",
-        "iconbox_style": "<style>.icon-box-section{}<\/style>"
+        "iconbox_style": "<style>.icon-box-section{}</style>"
       }
     },
     "product_grid_slider_kbEmqV": {
@@ -153,7 +153,7 @@
         "background_size": "cover",
         "heading_color": "",
         "content_color": "",
-        "iconbox_style": "<style>.icon-box-section{}<\/style>"
+        "iconbox_style": "<style>.icon-box-section{}</style>"
       }
     }
   },

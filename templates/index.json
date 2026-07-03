@@ -186,7 +186,7 @@
         "heading_tag": "h2",
         "title": "Buy Mad Honey  ",
         "description": "Small batches. Once a Year. Packed with Source Transparency",
-        "product": "medicinal-mad-honey",
+        "product": "mad-honey",
         "show_sold_out_variants": true,
         "overlay_text": "Mad Honey",
         "show_badge": true,
@@ -202,7 +202,7 @@
         "product_TFwTFc": {
           "type": "product",
           "settings": {
-            "product": "medicinal-mad-honey",
+            "product": "mad-honey",
             "video": "shopify://files/videos/Final Joe Rogan.mp4",
             "nav_video": "shopify://files/videos/Joe Rogan 3 Sec.mp4"
           }
@@ -210,7 +210,7 @@
         "product_enpAfn": {
           "type": "product",
           "settings": {
-            "product": "medicinal-mad-honey",
+            "product": "mad-honey",
             "video": "shopify://files/videos/Guga Foods.mp4",
             "nav_video": "shopify://files/videos/Guga Foods 3 Sec.mp4"
           }
@@ -218,7 +218,7 @@
         "product_QUgLGw": {
           "type": "product",
           "settings": {
-            "product": "medicinal-mad-honey",
+            "product": "mad-honey",
             "video": "shopify://files/videos/Jar honey.mp4",
             "nav_video": "shopify://files/videos/Jar Honey 3 Sec.mp4"
           }
@@ -226,7 +226,7 @@
         "product_4gN4EW": {
           "type": "product",
           "settings": {
-            "product": "medicinal-mad-honey",
+            "product": "mad-honey",
             "video": "shopify://files/videos/Metta Beshay.mp4",
             "nav_video": "shopify://files/videos/Metta Bekshay 3 Sec(1).mp4"
           }
@@ -234,7 +234,7 @@
         "product_FV8Ge9": {
           "type": "product",
           "settings": {
-            "product": "medicinal-mad-honey",
+            "product": "mad-honey",
             "video": "shopify://files/videos/Sonny.mp4",
             "nav_video": "shopify://files/videos/Sonny 3 Sec.mp4"
           }
@@ -267,7 +267,7 @@
             "subtitle": "",
             "description": "<p><strong>Honey with Super Power</strong>: High Potent Spring Harvest, renowned for its hallucinating and psychedelic effects, only available in limited stock. </p><p><strong>Crafted with love: </strong>Once dearly guarded by the Himalayan people, our hallucinogenic honey is carefully harvested, bottled, and packed in Nepal, with perfection shining through every step, from nectar collection to packaging.</p><p><strong>Traceability and Certification:</strong> Each jar of our premium mad honey is traceable to its source. Scan the QR code on the label to access official test reports and mad honey <a href=\"/pages/grayanotoxin\" target=\"_blank\" title=\"grayanotoxin\">grayanotoxin</a> analysis to find out the exact origin of honey. </p>",
             "button_text": "Shop Mad Honey",
-            "button_link": "shopify://products/medicinal-mad-honey",
+            "button_link": "shopify://products/mad-honey",
             "button_text_2": "",
             "button_link_2": ""
           }

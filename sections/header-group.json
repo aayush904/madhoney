@@ -179,7 +179,7 @@
             "menu-title": "SHOP",
             "title": "Premium Mad Honey",
             "description": "Where Tradition Meets Purity",
-            "link": "shopify://products/medicinal-mad-honey"
+            "link": "shopify://products/mad-honey"
           }
         },
         "megamenu_images_8piXH4": {
@@ -261,7 +261,7 @@
             "products": [
               "tour",
               "lip-balm",
-              "medicinal-mad-honey",
+              "mad-honey",
               "mad-honey-soap"
             ],
             "show_media_only": false,
