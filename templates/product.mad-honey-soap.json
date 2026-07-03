@@ -596,6 +596,27 @@
         "subheading": "Keep up-to-date with the latest from Medicinal Mad Honey.",
         "mobile_image": "shopify://shop_images/newsletteer.webp"
       }
+    },
+    "17830561736f64966e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_HhPBx6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": true,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_HhPBx6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -609,6 +630,7 @@
     "product_grid_slider_3NWFAj",
     "custom_liquid_aJNEX4",
     "blog_listing_basmil_HGNq8r",
-    "basmil_newsletter_6Urmw3"
+    "basmil_newsletter_6Urmw3",
+    "17830561736f64966e"
   ]
 }
