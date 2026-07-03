@@ -236,6 +236,64 @@
         "padding_bottom": 16
       }
     },
+    "multiple_products_cart_DyYcMG": {
+      "type": "multiple-products-cart",
+      "disabled": true,
+      "name": "Multiple Products Cart",
+      "settings": {
+        "title": "Reviews",
+        "description": "",
+        "button_title": "",
+        "product_collection": "",
+        "background_type": "image",
+        "background_svg": "",
+        "background_color": "#ffffff"
+      }
+    },
+    "basmil_image_text_6GCJKM": {
+      "type": "basmil-image-text",
+      "blocks": {
+        "content_Vga8A8": {
+          "type": "content",
+          "settings": {
+            "title": "Reviews",
+            "subtitle": "",
+            "description": "",
+            "button_text": "",
+            "button_link": "",
+            "button_text_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_Vga8A8"
+      ],
+      "name": "Basmil Image Text",
+      "settings": {
+        "heading_size": "h2",
+        "image_clickable": false,
+        "layout": "imagelast",
+        "alignment": "contentstart",
+        "valignment": "top",
+        "gapimage": "5.3rem",
+        "content_width": "50%",
+        "padding": "12rem 16px",
+        "margin": "0",
+        "custom_class": "",
+        "custom_id": "",
+        "width": "116.6rem",
+        "minheight": "auto",
+        "background_type": "color",
+        "background_color": "",
+        "background_gradient": "",
+        "background_on": "content_part",
+        "background_position": "center",
+        "background_size": "cover",
+        "heading_color": "",
+        "content_color": ""
+      }
+    },
     "custom_liquid_zfEcTK": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -296,6 +354,8 @@
     "announcement_marquee_gqrXjY",
     "announcement-bar",
     "header",
+    "multiple_products_cart_DyYcMG",
+    "basmil_image_text_6GCJKM",
     "custom_liquid_zfEcTK",
     "178305627356cc6534"
   ]
