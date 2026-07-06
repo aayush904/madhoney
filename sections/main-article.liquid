@@ -272,25 +272,28 @@
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  function initFaqCollapse() {
     if (window.innerWidth < 769) return;
 
     var HOVER_DELAY = 220;
 
-    var faqItems = document.querySelectorAll(
-      '.article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]'
-    );
+    document.querySelectorAll(
+      '[itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]:not(.faq-init)'
+    ).forEach(function (item) {
+      item.classList.add('faq-init');
 
-    faqItems.forEach(function (item) {
-      var p = item.querySelector('p[itemprop="name"]');
+      var p = item.querySelector('[itemprop="name"]');
       if (!p) return;
 
       var html = p.innerHTML;
-      var brIdx = html.indexOf('<br>');
-      if (brIdx === -1) return;
 
+      /* handle <br>, <br/>, <br /> all variants */
+      var brMatch = html.match(/<br\s*\/?>/i);
+      if (!brMatch) return;
+
+      var brIdx = html.indexOf(brMatch[0]);
       var qHtml = html.substring(0, brIdx).trim();
-      var aHtml = html.substring(brIdx + 4).trim();
+      var aHtml = html.substring(brIdx + brMatch[0].length).trim();
 
       var qDiv = document.createElement('div');
       qDiv.className = 'faq-question';
@@ -310,24 +313,24 @@
       item.insertBefore(qDiv, item.firstChild);
       item.insertBefore(aDiv, item.children[1] || null);
 
-      otherChildren.forEach(function (el) {
-        aDiv.appendChild(el);
-      });
+      otherChildren.forEach(function (el) { aDiv.appendChild(el); });
 
       var timer;
-
       item.addEventListener('mouseenter', function () {
-        timer = setTimeout(function () {
-          item.classList.add('faq-open');
-        }, HOVER_DELAY);
+        timer = setTimeout(function () { item.classList.add('faq-open'); }, HOVER_DELAY);
       });
-
       item.addEventListener('mouseleave', function () {
         clearTimeout(timer);
         item.classList.remove('faq-open');
       });
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFaqCollapse);
+  } else {
+    initFaqCollapse();
+  }
 </script>
 
     
