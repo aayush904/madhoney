@@ -221,6 +221,94 @@
       {%- endcase -%}
     {%- endfor -%}
 
+<style>
+  @media (min-width: 769px) {
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] {
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-question {
+      font-weight: 700;
+      padding: 0.75em 1.5em 0.75em 0;
+      position: relative;
+      user-select: none;
+    }
+
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.4em;
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]:hover .faq-question::after {
+      transform: translateY(-50%) rotate(45deg);
+    }
+
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.2s ease;
+      padding-bottom: 0;
+    }
+
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]:hover .faq-answer {
+      max-height: 600px;
+      padding-bottom: 1em;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    if (window.innerWidth < 769) return;
+
+    var faqItems = document.querySelectorAll(
+      '.article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]'
+    );
+
+    faqItems.forEach(function (item) {
+      var p = item.querySelector('p[itemprop="name"]');
+      if (!p) return;
+
+      var html = p.innerHTML;
+      var brIdx = html.indexOf('<br>');
+      if (brIdx === -1) return;
+
+      var qHtml = html.substring(0, brIdx).trim();
+      var aHtml = html.substring(brIdx + 4).trim();
+
+      var qDiv = document.createElement('div');
+      qDiv.className = 'faq-question';
+      qDiv.setAttribute('itemprop', 'name');
+      qDiv.innerHTML = qHtml;
+
+      var aDiv = document.createElement('div');
+      aDiv.className = 'faq-answer';
+      aDiv.setAttribute('itemprop', 'acceptedAnswer');
+      aDiv.innerHTML = '<p>' + aHtml + '</p>';
+
+      var otherChildren = Array.from(item.children).filter(function (el) {
+        return el !== p;
+      });
+
+      item.removeChild(p);
+      item.insertBefore(qDiv, item.firstChild);
+      item.insertBefore(aDiv, item.children[1] || null);
+
+      otherChildren.forEach(function (el) {
+        aDiv.appendChild(el);
+      });
+    });
+  })();
+</script>
+
     
   </article>
 </div>
