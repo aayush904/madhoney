@@ -223,15 +223,20 @@
 
 <style>
   @media (min-width: 769px) {
+    .article-body [itemtype="https://schema.org/FAQPage"] {
+      position: relative;
+    }
+
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] {
       border-bottom: 1px solid rgba(0,0,0,0.1);
-      overflow: hidden;
+      position: relative;
       cursor: pointer;
+      min-height: 3.5em;
     }
 
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-question {
       font-weight: 700;
-      padding: 0.75em 1.5em 0.75em 0;
+      padding: 0.75em 1.8em 0.75em 0;
       position: relative;
       user-select: none;
     }
@@ -244,23 +249,36 @@
       transform: translateY(-50%);
       font-size: 1.4em;
       line-height: 1;
-      transition: transform 0.2s ease;
+      transition: transform 0.25s ease;
     }
 
-    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]:hover .faq-question::after {
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"].faq-open .faq-question::after {
       transform: translateY(-50%) rotate(45deg);
     }
 
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-answer {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      z-index: 20;
+      background: #fff;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-top: none;
+      padding: 0 1em;
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.35s ease, padding 0.2s ease;
-      padding-bottom: 0;
+      transition: max-height 0.35s ease, padding 0.25s ease, opacity 0.25s ease;
+      opacity: 0;
+      pointer-events: none;
     }
 
-    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]:hover .faq-answer {
-      max-height: 600px;
-      padding-bottom: 1em;
+    .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"].faq-open .faq-answer {
+      max-height: 800px;
+      padding: 0.75em 1em 1em;
+      opacity: 1;
+      pointer-events: auto;
     }
   }
 </style>
@@ -268,6 +286,8 @@
 <script>
   (function () {
     if (window.innerWidth < 769) return;
+
+    var HOVER_DELAY = 220;
 
     var faqItems = document.querySelectorAll(
       '.article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]'
@@ -304,6 +324,19 @@
 
       otherChildren.forEach(function (el) {
         aDiv.appendChild(el);
+      });
+
+      var timer;
+
+      item.addEventListener('mouseenter', function () {
+        timer = setTimeout(function () {
+          item.classList.add('faq-open');
+        }, HOVER_DELAY);
+      });
+
+      item.addEventListener('mouseleave', function () {
+        clearTimeout(timer);
+        item.classList.remove('faq-open');
       });
     });
   })();
