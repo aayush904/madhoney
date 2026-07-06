@@ -272,28 +272,26 @@
 </style>
 
 <script>
-  function initFaqCollapse() {
+  window.addEventListener('load', function () {
     if (window.innerWidth < 769) return;
 
     var HOVER_DELAY = 220;
 
-    document.querySelectorAll(
-      '[itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]:not(.faq-init)'
-    ).forEach(function (item) {
-      item.classList.add('faq-init');
+    var faqItems = document.querySelectorAll(
+      '.article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"]'
+    );
 
-      var p = item.querySelector('[itemprop="name"]');
+    faqItems.forEach(function (item) {
+      var p = item.querySelector('p[itemprop="name"]');
       if (!p) return;
 
       var html = p.innerHTML;
+      var brIdx = html.search(/<br\s*\/?>/i);
+      if (brIdx === -1) return;
 
-      /* handle <br>, <br/>, <br /> all variants */
-      var brMatch = html.match(/<br\s*\/?>/i);
-      if (!brMatch) return;
-
-      var brIdx = html.indexOf(brMatch[0]);
+      var brLen = html.match(/<br\s*\/?>/i)[0].length;
       var qHtml = html.substring(0, brIdx).trim();
-      var aHtml = html.substring(brIdx + brMatch[0].length).trim();
+      var aHtml = html.substring(brIdx + brLen).trim();
 
       var qDiv = document.createElement('div');
       qDiv.className = 'faq-question';
@@ -324,13 +322,7 @@
         item.classList.remove('faq-open');
       });
     });
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initFaqCollapse);
-  } else {
-    initFaqCollapse();
-  }
+  });
 </script>
 
     
