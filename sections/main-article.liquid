@@ -329,13 +329,18 @@
       });
     });
 
-    /* --- Numbered FAQ format: <p><strong>1. Q?</strong><br><strong>A:</strong> Answer</p> --- */
+    /* --- Numbered FAQ format: <p><strong>1. Q?</strong><br><strong>A:</strong> Answer</p>
+         Bold-question FAQ format: <p><strong>Question?</strong><br>Answer text</p> --- */
     var articleBody = document.querySelector('.article-body');
     if (articleBody) {
       var allPs = Array.from(articleBody.querySelectorAll('p'));
       var faqPs = allPs.filter(function (p) {
         var firstStrong = p.querySelector('strong');
-        return firstStrong && /^\d+\./.test(firstStrong.textContent.trim());
+        if (!firstStrong) return false;
+        var txt = firstStrong.textContent.trim();
+        /* numbered: starts with digit+period  OR  bold question: ends with ? */
+        if (!/^\d+\./.test(txt) && !txt.endsWith('?')) return false;
+        return /<br\s*\/?>/i.test(p.innerHTML);
       });
 
       faqPs.forEach(function (p) {
