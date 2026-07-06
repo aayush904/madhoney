@@ -125,6 +125,37 @@
   </div>
 </section>
 
+<script>
+  window.addEventListener('load', function () {
+    if (window.innerWidth < 769) return;
+
+    var HOVER_DELAY = 220;
+    var section = document.querySelector('#shopify-section-{{ section.id }}');
+    if (!section) return;
+
+    var details = section.querySelectorAll('details');
+
+    details.forEach(function (det) {
+      /* close all on init — remove the default-open on first item */
+      det.removeAttribute('open');
+
+      var timer;
+      det.addEventListener('mouseenter', function () {
+        timer = setTimeout(function () { det.setAttribute('open', ''); }, HOVER_DELAY);
+      });
+      det.addEventListener('mouseleave', function () {
+        clearTimeout(timer);
+        det.removeAttribute('open');
+      });
+
+      /* block click toggle on desktop so hover stays in control */
+      det.querySelector('summary').addEventListener('click', function (e) {
+        e.preventDefault();
+      });
+    });
+  });
+</script>
+
 {% if section.settings.show_schema %}
   <script type="application/ld+json">
     {
