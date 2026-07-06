@@ -223,15 +223,9 @@
 
 <style>
   @media (min-width: 769px) {
-    .article-body [itemtype="https://schema.org/FAQPage"] {
-      position: relative;
-    }
-
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] {
       border-bottom: 1px solid rgba(0,0,0,0.1);
-      position: relative;
       cursor: pointer;
-      min-height: 3.5em;
     }
 
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-question {
@@ -257,34 +251,21 @@
     }
 
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"] .faq-answer {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 100%;
-      z-index: 20;
-      background: #fff;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.10);
-      border: 1px solid rgba(0,0,0,0.08);
-      border-top: none;
-      padding: 0 1em;
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.35s ease, padding 0.25s ease, opacity 0.25s ease;
-      opacity: 0;
-      pointer-events: none;
+      transition: max-height 0.35s ease, padding 0.25s ease;
+      padding-bottom: 0;
     }
 
     .article-body [itemtype="https://schema.org/FAQPage"] [itemprop="mainEntity"].faq-open .faq-answer {
       max-height: 800px;
-      padding: 0.75em 1em 1em;
-      opacity: 1;
-      pointer-events: auto;
+      padding-bottom: 1em;
     }
   }
 </style>
 
 <script>
-  (function () {
+  document.addEventListener('DOMContentLoaded', function () {
     if (window.innerWidth < 769) return;
 
     var HOVER_DELAY = 220;
@@ -339,7 +320,7 @@
         item.classList.remove('faq-open');
       });
     });
-  })();
+  });
 </script>
 
     
