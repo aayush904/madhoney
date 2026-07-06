@@ -141,9 +141,11 @@
     transform: scale(0.96);
   }
 
- .cart-xsell .quick-add__submit {
-    background-color: #BE935F !important;
-  } 
+  .cart-xsell .quick-add__submit {
+    background-color: #5C3D1E !important;
+    color: #fff !important;
+    border-color: #5C3D1E !important;
+  }
 
   .cart-drawer .cart__ctas .button::after,
   .cart-drawer .cart__ctas .button::before {
@@ -186,9 +188,19 @@
   .cart-xsell__media {
     width: 80px;
     height: 80px;
+    min-width: 80px;
     flex-shrink: 0;
     overflow: hidden;
     background: rgba(var(--color-foreground), 0.05);
+    display: block;
+    border-radius: 4px;
+  }
+
+  .cart-xsell__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .infinite-ccslider {
@@ -288,8 +300,16 @@
     line-height:0.5;
   }
 
-  .cart-xsell .price-item.price-item{
-   font-size:1.2rem;
+  .cart-xsell .price-item.price-item {
+    font-size: 1.2rem;
+  }
+
+  .cart-xsell .price-item--compare {
+    text-decoration: line-through;
+    color: #c0392b;
+    opacity: 0.85;
+    font-weight: 400;
+    margin-left: 4px;
   }
 
   .cart-xsell button:not(.ccslider-arrow) {
@@ -367,10 +387,10 @@
       margin-top:-2px 0 5px 0;
   }
 
-  .cart-xsell button *{
-  background:none!important;
-  color:#fff!important;
-  line-height:1;
+  .cart-xsell button:not(.ccslider-arrow) * {
+    background: none !important;
+    color: #fff !important;
+    line-height: 1;
   }
 
     .cart-xsell .card--standard>.card__content .card__information{
