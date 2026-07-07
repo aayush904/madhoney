@@ -129,7 +129,8 @@
   window.addEventListener('load', function () {
     if (window.innerWidth < 769) return;
 
-    var HOVER_DELAY = 220;
+    var HOVER_OPEN_DELAY = 220;
+    var HOVER_CLOSE_DELAY = 300;
     var section = document.querySelector('#shopify-section-{{ section.id }}');
     if (!section) return;
 
@@ -141,11 +142,12 @@
 
       var timer;
       det.addEventListener('mouseenter', function () {
-        timer = setTimeout(function () { det.setAttribute('open', ''); }, HOVER_DELAY);
+        clearTimeout(timer);
+        timer = setTimeout(function () { det.setAttribute('open', ''); }, HOVER_OPEN_DELAY);
       });
       det.addEventListener('mouseleave', function () {
         clearTimeout(timer);
-        det.removeAttribute('open');
+        timer = setTimeout(function () { det.removeAttribute('open'); }, HOVER_CLOSE_DELAY);
       });
 
       /* block click toggle on desktop so hover stays in control */

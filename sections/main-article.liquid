@@ -829,19 +829,23 @@
     /* Desktop: open on hover, matching the page FAQ section behavior.
        The media query is checked per event so resizes behave correctly. */
     var hoverMq = window.matchMedia('(min-width: 769px) and (hover: hover)');
-    var HOVER_DELAY = 220;
+    var HOVER_OPEN_DELAY = 220;
+    var HOVER_CLOSE_DELAY = 300;
     document.querySelectorAll('.article-faq details').forEach(function (det) {
       var timer;
       det.addEventListener('mouseenter', function () {
         if (!hoverMq.matches) return;
+        clearTimeout(timer);
         timer = setTimeout(function () {
           det.setAttribute('open', '');
-        }, HOVER_DELAY);
+        }, HOVER_OPEN_DELAY);
       });
       det.addEventListener('mouseleave', function () {
         if (!hoverMq.matches) return;
         clearTimeout(timer);
-        det.removeAttribute('open');
+        timer = setTimeout(function () {
+          det.removeAttribute('open');
+        }, HOVER_CLOSE_DELAY);
       });
       det.querySelector('summary').addEventListener('click', function (e) {
         if (hoverMq.matches) e.preventDefault();
