@@ -15,16 +15,14 @@
         "heading_WjqGRR": {
           "type": "heading",
           "settings": {
-            "heading": "{{ article.title }}",
-            "heading_size": "h1"
+            "heading": "{{ article.title }}"
           }
         },
         "text_mTaVAT": {
-          "type": "text",
+          "type": "description",
           "disabled": true,
           "settings": {
-            "text": "<p>By {{ article.author }}</p>",
-            "text_style": "subtitle"
+            "description": "<p>By the author</p>"
           }
         }
       },
@@ -43,24 +41,7 @@
         ".image-with-text__text-item {width: 100%;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "{{ article.image }}",
-        "height": "medium",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "center",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-92d10699-e28c-4d95-88ce-bf9cab415f48",
-        "id": "",
-        "class": "",
-        "padding_top": 160,
-        "padding_bottom": 35,
-        "custom_liquid": ""
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-article",
@@ -68,33 +49,22 @@
         ".article-content {background: transparent;}",
         "@media (max-width: 768px) {table {display: block; width: 100%; max-width: 100%; overflow-x: auto; white-space: nowrap; /* Firefox */ scrollbar-width: thin; scrollbar-color: rgba(0, 0, 0, 0.3) transparent; } /* Chrome, Safari, Edge */ table::-webkit-scrollbar {height: 6px; } table::-webkit-scrollbar-track {background: transparent; } table::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, 0.3); border-radius: 999px; } .article-layout {display: block !important; }}"
       ],
-      "settings": {
-        "color_scheme": "scheme-5",
-        "show_breadcrumbs": true,
-        "show_tag_in_breadcrumbs": true,
-        "show_read_time": true,
-        "show_date": true,
-        "show_author": false,
-        "show_cheat_sheet": true,
-        "cheat_sheet_heading": "Cheat Sheet",
-        "padding_top": 180,
-        "padding_bottom": 110
-      }
+      "settings": {}
     },
     "featured_blog_TgULU8": {
       "type": "featured-blog",
       "name": "t:sections.featured-blog.presets.name",
       "settings": {
-        "blog": "honey-guide",
-        "post_limit": 3,
         "heading": "Recent Blogs",
         "heading_size": "h2",
+        "blog": "honey-guide",
+        "post_limit": 3,
         "columns_desktop": 3,
-        "show_view_all": true,
+        "color_scheme": "scheme-5",
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "color_scheme": "scheme-5",
+        "show_view_all": true,
         "padding_top": 0,
         "padding_bottom": 100
       }
