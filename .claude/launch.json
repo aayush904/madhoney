@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "theme-dev",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "exec shopify theme dev --store=haayd4-5y.myshopify.com --theme=148075970710 --path=/Users/aayush/Documents/shopify/madhoney --port=$PORT"],
+      "autoPort": true,
+      "port": 9292
+    }
+  ]
+}
