@@ -612,6 +612,31 @@
       while (el.lastChild && isIgnorable(el.lastChild)) el.removeChild(el.lastChild);
     }
 
+    var BLOCK_TAG = /^(P|DIV|H1|H2|H3|H4|H5|H6|UL|OL|TABLE|BLOCKQUOTE|SECTION|ARTICLE|FIGURE)$/;
+
+    /* Some sources paste content with stray inline runs (bare "<strong>
+       Question?</strong>", raw text) sitting directly between block
+       elements instead of inside a <p>. Wrap each such run in a synthetic
+       <p> so the rest of the parser only ever has to deal with block-level
+       children. */
+    function normalizeInlineRuns(container) {
+      var kids = Array.prototype.slice.call(container.childNodes);
+      var run = null;
+      kids.forEach(function (kid) {
+        var isBlock = kid.nodeType === 1 && BLOCK_TAG.test(kid.tagName);
+        if (isBlock) {
+          run = null;
+          return;
+        }
+        if (!run) {
+          if (isIgnorable(kid)) return;
+          run = document.createElement('p');
+          container.insertBefore(run, kid);
+        }
+        run.appendChild(kid);
+      });
+    }
+
     /* A top-level node marks a question if it is (or only wraps) a bold run
        ending in "?" or starting with "Q:". */
     function markerText(node) {
@@ -633,6 +658,8 @@
       return null;
     }
 
+    normalizeInlineRuns(body);
+
     var faqHeadings = Array.prototype.filter.call(body.querySelectorAll('h2'), function (h) {
       return /faq|frequently\s*asked/i.test(h.textContent);
     });
@@ -647,6 +674,7 @@
         return false;
       }
       if (node.tagName === 'DIV') {
+        normalizeInlineRuns(node);
         var kids = Array.prototype.slice.call(node.children);
         for (var k = 0; k < kids.length; k++) {
           if (!collectFlat(kids[k], region, emptyDivs)) return false;
@@ -661,9 +689,30 @@
     faqHeadings.forEach(function (heading) {
       var region = [];
       var emptyDivs = [];
-      var node = heading.nextElementSibling;
 
-      while (node && node.tagName !== 'H2') {
+      /* The heading and its Q&A siblings are sometimes all nested inside a
+         shared wrapper <div> (malformed pastes) rather than sitting directly
+         under .article-body. Normalize that actual container so stray
+         inline runs among the heading's siblings get wrapped too. */
+      if (heading.parentNode && heading.parentNode !== body) {
+        normalizeInlineRuns(heading.parentNode);
+      }
+
+      var node = heading.nextElementSibling;
+      var container = heading.parentNode;
+
+      collectRegion:
+      while (true) {
+        /* Malformed pastes sometimes split the FAQ block across several
+           sibling <div>s instead of one container. Once the current
+           container's children run out, hop to its own next sibling (a
+           later top-level div) and keep going. */
+        while (!node) {
+          if (container === body || !container.nextElementSibling) break collectRegion;
+          node = container.nextElementSibling;
+          container = body;
+        }
+        if (node.tagName === 'H2') break;
         if (!collectFlat(node, region, emptyDivs)) break;
         node = node.nextElementSibling;
       }
