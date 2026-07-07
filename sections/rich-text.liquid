@@ -2,19 +2,19 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: clamp({{ section.settings.padding_top | times: 0.43 | round: 0 }}px, {{ section.settings.padding_top | divided_by: 19.13 }}vw, {{ section.settings.padding_top  }}px);
-    padding-bottom: clamp({{ section.settings.padding_bottom | times: 0.43 | round: 0 }}px, {{ section.settings.padding_bottom | divided_by: 19.13 }}vw, {{ section.settings.padding_bottom  }}px);
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  /* @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-  } */
+  }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div id="{{ section.settings.id }}" class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
@@ -22,45 +22,26 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
-                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
               >
                 {{ block.settings.heading }}
               </h2>
             {%- when 'caption' -%}
               <p
-                class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}"
                 {{ block.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
               >
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
-              <div
-                class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {{ block.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
-              >
+              <div class="rich-text__text rte" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
               <div
-                class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}"
                 {{ block.shopify_attributes }}
-                {% if settings.animations_reveal_on_scroll %}
-                  data-cascade
-                  style="--animation-order: {{ forloop.index }};"
-                {% endif %}
               >
                 {%- if block.settings.button_label != blank -%}
                   <a
@@ -98,7 +79,7 @@
 {
   "name": "t:sections.rich-text.name",
   "tag": "section",
-  "class": "section",
+  "class": "section section--rich-text",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -121,7 +102,8 @@
         }
       ],
       "default": "center",
-      "label": "t:sections.rich-text.settings.desktop_content_position.label"
+      "label": "t:sections.rich-text.settings.desktop_content_position.label",
+      "info": "t:sections.rich-text.settings.desktop_content_position.info"
     },
     {
       "type": "select",
@@ -144,10 +126,32 @@
       "label": "t:sections.rich-text.settings.content_alignment.label"
     },
     {
-      "type": "color_scheme",
+      "type": "select",
       "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
     },
     {
       "type": "checkbox",
@@ -163,8 +167,8 @@
       "type": "range",
       "id": "padding_top",
       "min": 0,
-      "max": 110,
-      "step": 5,
+      "max": 100,
+      "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
       "default": 40
@@ -173,11 +177,16 @@
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
-      "max": 110,
-      "step": 5,
+      "max": 100,
+      "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 50
+      "default": 52
+    },
+    {
+      "type": "text",
+      "id": "id",
+      "label": "Section Id",
     }
   ],
   "blocks": [
@@ -189,7 +198,7 @@
         {
           "type": "inline_richtext",
           "id": "heading",
-          "default": "t:sections.rich-text.blocks.heading.settings.heading.default",
+          "default": "Talk about your brand",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
@@ -197,27 +206,23 @@
           "id": "heading_size",
           "options": [
             {
-              "value": "h5",
+              "value": "h2",
               "label": "t:sections.all.heading_size.options__1.label"
             },
             {
-              "value": "h4",
+              "value": "h1",
               "label": "t:sections.all.heading_size.options__2.label"
             },
             {
-              "value": "h3",
+              "value": "h0",
               "label": "t:sections.all.heading_size.options__3.label"
             },
             {
-              "value": "h2",
+              "value": "hxl",
               "label": "t:sections.all.heading_size.options__4.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__5.label"
             }
           ],
-          "default": "h2",
+          "default": "h1",
           "label": "t:sections.all.heading_size.label"
         }
       ]
@@ -230,7 +235,7 @@
         {
           "type": "text",
           "id": "caption",
-          "default": "t:sections.rich-text.blocks.caption.settings.text.default",
+          "default": "Add a tagline",
           "label": "t:sections.rich-text.blocks.caption.settings.text.label"
         },
         {
@@ -279,7 +284,7 @@
         {
           "type": "richtext",
           "id": "text",
-          "default": "t:sections.rich-text.blocks.text.settings.text.default",
+          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
         }
       ]
@@ -290,13 +295,9 @@
       "limit": 2,
       "settings": [
         {
-          "type": "header",
-          "content": "t:sections.rich-text.blocks.buttons.settings.header_button1.content"
-        },
-        {
           "type": "text",
           "id": "button_label",
-          "default": "t:sections.rich-text.blocks.buttons.settings.button_label_1.default",
+          "default": "Button label",
           "label": "t:sections.rich-text.blocks.buttons.settings.button_label_1.label",
           "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
         },
@@ -310,10 +311,6 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
-        },
-        {
-          "type": "header",
-          "content": "t:sections.rich-text.blocks.buttons.settings.header_button2.content"
         },
         {
           "type": "text",

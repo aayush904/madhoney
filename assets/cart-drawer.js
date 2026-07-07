@@ -21,33 +21,32 @@ var CartDrawer = /*#__PURE__*/function (_HTMLElement) {
     var _this;
     _classCallCheck(this, CartDrawer);
     _this = _callSuper(this, CartDrawer);
-    _this.addEventListener('keyup', function (evt) {
-      return evt.code === 'Escape' && _this.close();
+    _this.addEventListener("keyup", function (evt) {
+      return evt.code === "Escape" && _this.close();
     });
-    _this.querySelector('#CartDrawer-Overlay').addEventListener('click', _this.close.bind(_this));
+    _this.querySelector("#CartDrawer-Overlay").addEventListener("click", _this.close.bind(_this));
     _this.setHeaderCartIconAccessibility();
     return _this;
   }
-  
   _inherits(CartDrawer, _HTMLElement);
   return _createClass(CartDrawer, [{
     key: "setHeaderCartIconAccessibility",
     value: function setHeaderCartIconAccessibility() {
       var _this2 = this;
-      var cartLink = document.querySelector('#cart-icon-bubble');
-      if (!cartLink) return;
-      cartLink.setAttribute('role', 'button');
-      cartLink.setAttribute('aria-haspopup', 'dialog');
-      cartLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        _this2.open(cartLink);
-      });
-
-      cartLink.addEventListener('keydown', function (event) {
-        if (event.code.toUpperCase() === 'SPACE') {
+      var cartLinks = document.querySelectorAll("#cart-icon-bubble,#cart-icon-bubble-slider");
+      cartLinks.forEach(function (cartLink) {
+        cartLink.setAttribute("role", "button");
+        cartLink.setAttribute("aria-haspopup", "dialog");
+        cartLink.addEventListener("click", function (event) {
           event.preventDefault();
           _this2.open(cartLink);
-        }
+        });
+        cartLink.addEventListener("keydown", function (event) {
+          if (event.code.toUpperCase() === "SPACE") {
+            event.preventDefault();
+            _this2.open(cartLink);
+          }
+        });
       });
     }
   }, {
@@ -56,77 +55,76 @@ var CartDrawer = /*#__PURE__*/function (_HTMLElement) {
       var _this3 = this;
       if (triggeredBy) this.setActiveElement(triggeredBy);
       var cartDrawerNote = this.querySelector('[id^="Details-"] summary');
-      if (cartDrawerNote && !cartDrawerNote.hasAttribute('role')) this.setSummaryAccessibility(cartDrawerNote);
+      if (cartDrawerNote && !cartDrawerNote.hasAttribute("role")) this.setSummaryAccessibility(cartDrawerNote);
       // here the animation doesn't seem to always get triggered. A timeout seem to help
       setTimeout(function () {
-        _this3.classList.add('animate', 'active');
+        _this3.classList.add("animate", "active");
       });
-      this.addEventListener('transitionend', function () {
-        var containerToTrapFocusOn = _this3.classList.contains('is-empty') ? _this3.querySelector('.drawer__inner-empty') : document.getElementById('CartDrawer');
-        var focusElement = _this3.querySelector('.drawer__inner') || _this3.querySelector('.drawer__close');
+      this.addEventListener("transitionend", function () {
+        var containerToTrapFocusOn = _this3.classList.contains("is-empty") ? _this3.querySelector(".drawer__inner-empty") : document.getElementById("CartDrawer");
+        var focusElement = _this3.querySelector(".drawer__inner") || _this3.querySelector(".drawer__close");
         trapFocus(containerToTrapFocusOn, focusElement);
       }, {
         once: true
       });
-      document.body.classList.add('overflow-hidden');
+      document.body.classList.add("overflow-hidden");
     }
   }, {
     key: "close",
     value: function close() {
-      this.classList.remove('active');
+      this.classList.remove("active");
       removeTrapFocus(this.activeElement);
-      document.body.classList.remove('overflow-hidden');
+      document.body.classList.remove("overflow-hidden");
     }
   }, {
     key: "setSummaryAccessibility",
     value: function setSummaryAccessibility(cartDrawerNote) {
-      cartDrawerNote.setAttribute('role', 'button');
-      cartDrawerNote.setAttribute('aria-expanded', 'false');
-      if (cartDrawerNote.nextElementSibling.getAttribute('id')) {
-        cartDrawerNote.setAttribute('aria-controls', cartDrawerNote.nextElementSibling.id);
+      cartDrawerNote.setAttribute("role", "button");
+      cartDrawerNote.setAttribute("aria-expanded", "false");
+      if (cartDrawerNote.nextElementSibling.getAttribute("id")) {
+        cartDrawerNote.setAttribute("aria-controls", cartDrawerNote.nextElementSibling.id);
       }
-      cartDrawerNote.addEventListener('click', function (event) {
-        event.currentTarget.setAttribute('aria-expanded', !event.currentTarget.closest('details').hasAttribute('open'));
+      cartDrawerNote.addEventListener("click", function (event) {
+        event.currentTarget.setAttribute("aria-expanded", !event.currentTarget.closest("details").hasAttribute("open"));
       });
-      cartDrawerNote.parentElement.addEventListener('keyup', onKeyUpEscape);
+      cartDrawerNote.parentElement.addEventListener("keyup", onKeyUpEscape);
     }
   }, {
     key: "renderContents",
     value: function renderContents(parsedState) {
       var _this4 = this;
-      this.querySelector('.drawer__inner').classList.contains('is-empty') && this.querySelector('.drawer__inner').classList.remove('is-empty');
+      this.querySelector(".drawer__inner").classList.contains("is-empty") && this.querySelector(".drawer__inner").classList.remove("is-empty");
       this.productId = parsedState.id;
       this.getSectionsToRender().forEach(function (section) {
         var sectionElement = section.selector ? document.querySelector(section.selector) : document.getElementById(section.id);
-        if (!sectionElement) return;
         sectionElement.innerHTML = _this4.getSectionInnerHTML(parsedState.sections[section.id], section.selector);
       });
       setTimeout(function () {
-        _this4.querySelector('#CartDrawer-Overlay').addEventListener('click', _this4.close.bind(_this4));
+        _this4.querySelector("#CartDrawer-Overlay").addEventListener("click", _this4.close.bind(_this4));
         _this4.open();
       });
     }
   }, {
     key: "getSectionInnerHTML",
     value: function getSectionInnerHTML(html) {
-      var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '.shopify-section';
-      return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
+      var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ".shopify-section";
+      return new DOMParser().parseFromString(html, "text/html").querySelector(selector).innerHTML;
     }
   }, {
     key: "getSectionsToRender",
     value: function getSectionsToRender() {
       return [{
-        id: 'cart-drawer',
-        selector: '#CartDrawer'
+        id: "cart-drawer",
+        selector: "#CartDrawer"
       }, {
-        id: 'cart-icon-bubble'
+        id: "cart-icon-bubble"
       }];
     }
   }, {
     key: "getSectionDOM",
     value: function getSectionDOM(html) {
-      var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '.shopify-section';
-      return new DOMParser().parseFromString(html, 'text/html').querySelector(selector);
+      var selector = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ".shopify-section";
+      return new DOMParser().parseFromString(html, "text/html").querySelector(selector);
     }
   }, {
     key: "setActiveElement",
@@ -135,7 +133,7 @@ var CartDrawer = /*#__PURE__*/function (_HTMLElement) {
     }
   }]);
 }(/*#__PURE__*/_wrapNativeSuper(HTMLElement));
-customElements.define('cart-drawer', CartDrawer);
+customElements.define("cart-drawer", CartDrawer);
 var CartDrawerItems = /*#__PURE__*/function (_CartItems) {
   "use strict";
 
@@ -148,15 +146,15 @@ var CartDrawerItems = /*#__PURE__*/function (_CartItems) {
     key: "getSectionsToRender",
     value: function getSectionsToRender() {
       return [{
-        id: 'CartDrawer',
-        section: 'cart-drawer',
-        selector: '.drawer__inner'
+        id: "CartDrawer",
+        section: "cart-drawer",
+        selector: ".drawer__inner"
       }, {
-        id: 'cart-icon-bubble',
-        section: 'cart-icon-bubble',
-        selector: '.shopify-section'
+        id: "cart-icon-bubble",
+        section: "cart-icon-bubble",
+        selector: ".shopify-section"
       }];
     }
   }]);
 }(CartItems);
-customElements.define('cart-drawer-items', CartDrawerItems);
+customElements.define("cart-drawer-items", CartDrawerItems);

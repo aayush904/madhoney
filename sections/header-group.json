@@ -235,26 +235,11 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
-    },
-    "multiple_products_cart_DyYcMG": {
-      "type": "multiple-products-cart",
-      "disabled": true,
-      "name": "Multiple Products Cart",
-      "settings": {
-        "title": "Reviews",
-        "description": "",
-        "button_title": "",
-        "product_collection": "",
-        "background_type": "image",
-        "background_svg": "",
-        "background_color": "#ffffff"
-      }
     }
   },
   "order": [
     "announcement_marquee_gqrXjY",
     "announcement-bar",
-    "header",
-    "multiple_products_cart_DyYcMG"
+    "header"
   ]
 }
