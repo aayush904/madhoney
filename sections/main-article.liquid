@@ -726,7 +726,9 @@
       });
 
       emptyDivs.forEach(function (div) {
-        if (!div.hasChildNodes() && div.parentNode) div.parentNode.removeChild(div);
+        if (!norm(div.textContent) && !div.querySelector('img, iframe') && div.parentNode) {
+          div.parentNode.removeChild(div);
+        }
       });
 
       if (!items.length) return;
