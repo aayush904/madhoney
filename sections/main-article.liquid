@@ -637,31 +637,34 @@
       return /faq|frequently\s*asked/i.test(h.textContent);
     });
 
+    /* Some sources wrap each Q&A in nested schema.org FAQPage/Question <div>s.
+       Recursively flatten those wrappers so the normal per-paragraph parsing
+       below still applies, and stop entirely if a references block turns up
+       nested inside (malformed markup sometimes traps it in the last
+       Question div). Returns false if a stop-heading was hit. */
+    function collectFlat(node, region, emptyDivs) {
+      if (/^H[34]$/.test(node.tagName) && STOP_HEADING.test(norm(node.textContent))) {
+        return false;
+      }
+      if (node.tagName === 'DIV') {
+        var kids = Array.prototype.slice.call(node.children);
+        for (var k = 0; k < kids.length; k++) {
+          if (!collectFlat(kids[k], region, emptyDivs)) return false;
+        }
+        emptyDivs.push(node);
+      } else {
+        region.push(node);
+      }
+      return true;
+    }
+
     faqHeadings.forEach(function (heading) {
       var region = [];
       var emptyDivs = [];
       var node = heading.nextElementSibling;
 
-      collect:
       while (node && node.tagName !== 'H2') {
-        if (/^H[34]$/.test(node.tagName) && STOP_HEADING.test(norm(node.textContent))) break;
-
-        if (node.tagName === 'DIV') {
-          /* Some sources wrap each Q&A in a schema.org Question <div>. Flatten
-             it so the normal per-paragraph parsing below still applies, and
-             stop entirely if a references block is nested inside (malformed
-             markup sometimes traps it in the last Question div). */
-          var kids = Array.prototype.slice.call(node.children);
-          for (var k = 0; k < kids.length; k++) {
-            if (/^H[34]$/.test(kids[k].tagName) && STOP_HEADING.test(norm(kids[k].textContent))) {
-              break collect;
-            }
-            region.push(kids[k]);
-          }
-          emptyDivs.push(node);
-        } else {
-          region.push(node);
-        }
+        if (!collectFlat(node, region, emptyDivs)) break;
         node = node.nextElementSibling;
       }
       if (!region.length) return;
