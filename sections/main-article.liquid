@@ -582,6 +582,194 @@
   });
 </script>
 
+<script>
+  /* Restyle in-content FAQ sections as accordions. Article bodies mark FAQs
+     several ways (bold question + answer in one paragraph, question-only
+     paragraph followed by answer paragraphs, h3 questions, multiple Q&As in
+     a single paragraph). Questions are detected as bold text ending in "?"
+     or prefixed "Q:", so "Source:"/"Read more:" bolds stay in answers. */
+  document.addEventListener('DOMContentLoaded', function () {
+    var body = document.querySelector('.article-body');
+    if (!body) return;
+
+    var STOP_HEADING = /^(references?|sources?|conclusion|read\s*more|related)/i;
+    var Q_PREFIX = /^Q[:.]\s*/i;
+    var A_LABEL = /^A[:.]?$/i;
+
+    function norm(s) {
+      return (s || '').replace(/\s+/g, ' ').trim();
+    }
+
+    function isIgnorable(node) {
+      if (node.nodeType === 3) return !node.textContent.trim();
+      if (node.nodeType !== 1) return true;
+      if (node.tagName === 'BR') return true;
+      return !norm(node.textContent) && !node.querySelector('img, iframe, svg');
+    }
+
+    function trimEdges(el) {
+      while (el.firstChild && isIgnorable(el.firstChild)) el.removeChild(el.firstChild);
+      while (el.lastChild && isIgnorable(el.lastChild)) el.removeChild(el.lastChild);
+    }
+
+    /* A top-level node marks a question if it is (or only wraps) a bold run
+       ending in "?" or starting with "Q:". */
+    function markerText(node) {
+      if (node.nodeType !== 1) return null;
+      var strong = null;
+      if (node.tagName === 'STRONG' || node.tagName === 'B') {
+        strong = node;
+      } else if (node.querySelector) {
+        var inner = node.querySelector('strong, b');
+        if (inner && norm(node.textContent) === norm(inner.textContent)) strong = inner;
+      }
+      if (!strong) return null;
+      var text = norm(strong.textContent);
+      if (!text) return null;
+      if (/\?$/.test(text) || Q_PREFIX.test(text)) return text;
+      return null;
+    }
+
+    var faqHeadings = Array.prototype.filter.call(body.querySelectorAll('h2'), function (h) {
+      return /faq/i.test(h.textContent);
+    });
+
+    faqHeadings.forEach(function (heading) {
+      var region = [];
+      var node = heading.nextElementSibling;
+      while (node && node.tagName !== 'H2') {
+        if (/^H[34]$/.test(node.tagName) && STOP_HEADING.test(norm(node.textContent))) break;
+        region.push(node);
+        node = node.nextElementSibling;
+      }
+      if (!region.length) return;
+
+      var items = [];
+      var current = null;
+      var anchor = heading;
+
+      function startItem(question) {
+        current = { q: norm(question).replace(Q_PREFIX, ''), answer: [] };
+        items.push(current);
+      }
+
+      region.forEach(function (el) {
+        if (el.tagName === 'H3' || el.tagName === 'H4') {
+          startItem(el.textContent);
+          el.parentNode.removeChild(el);
+          return;
+        }
+
+        var hasMarker = false;
+        if (el.tagName === 'P') {
+          for (var i = 0; i < el.childNodes.length; i++) {
+            if (markerText(el.childNodes[i]) !== null) {
+              hasMarker = true;
+              break;
+            }
+          }
+        }
+
+        if (!hasMarker) {
+          if (current) current.answer.push(el);
+          else anchor = el;
+          return;
+        }
+
+        /* Split the paragraph at each bold question. */
+        var kids = Array.prototype.slice.call(el.childNodes);
+        var seg = null;
+        var preSeg = null;
+        kids.forEach(function (kid) {
+          var q = markerText(kid);
+          if (q !== null) {
+            startItem(q);
+            seg = document.createElement('p');
+            current.answer.push(seg);
+            el.removeChild(kid);
+          } else if (seg) {
+            seg.appendChild(kid);
+          } else if (current) {
+            if (!preSeg) {
+              preSeg = document.createElement('p');
+              current.answer.push(preSeg);
+            }
+            preSeg.appendChild(kid);
+          }
+        });
+        el.parentNode.removeChild(el);
+      });
+
+      if (!items.length) return;
+
+      items.forEach(function (item) {
+        item.answer = item.answer.filter(function (n) {
+          if (n.nodeType !== 1) return true;
+          var label = n.querySelector && n.querySelector('strong, b');
+          if (label && A_LABEL.test(norm(label.textContent)) && norm(n.textContent).indexOf(norm(label.textContent)) === 0) {
+            label.parentNode.removeChild(label);
+          }
+          trimEdges(n);
+          return !!norm(n.textContent) || !!n.querySelector('img, iframe');
+        });
+      });
+
+      var wrap = document.createElement('div');
+      wrap.className = 'article-faq';
+
+      items.forEach(function (item) {
+        if (!item.q) return;
+        var details = document.createElement('details');
+        details.className = 'article-faq__item';
+        details.setAttribute('name', 'article-faq');
+
+        var summary = document.createElement('summary');
+        summary.className = 'article-faq__question';
+        var qSpan = document.createElement('span');
+        qSpan.textContent = item.q;
+        var icon = document.createElement('span');
+        icon.className = 'article-faq__icon';
+        icon.innerHTML = '<svg fill="none" height="24" width="24" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>';
+        summary.appendChild(qSpan);
+        summary.appendChild(icon);
+        details.appendChild(summary);
+
+        var answer = document.createElement('div');
+        answer.className = 'article-faq__answer';
+        item.answer.forEach(function (n) {
+          answer.appendChild(n);
+        });
+        details.appendChild(answer);
+        wrap.appendChild(details);
+      });
+
+      anchor.insertAdjacentElement('afterend', wrap);
+    });
+
+    /* Desktop: open on hover, matching the page FAQ section behavior.
+       The media query is checked per event so resizes behave correctly. */
+    var hoverMq = window.matchMedia('(min-width: 769px) and (hover: hover)');
+    var HOVER_DELAY = 220;
+    document.querySelectorAll('.article-faq details').forEach(function (det) {
+      var timer;
+      det.addEventListener('mouseenter', function () {
+        if (!hoverMq.matches) return;
+        timer = setTimeout(function () {
+          det.setAttribute('open', '');
+        }, HOVER_DELAY);
+      });
+      det.addEventListener('mouseleave', function () {
+        if (!hoverMq.matches) return;
+        clearTimeout(timer);
+        det.removeAttribute('open');
+      });
+      det.querySelector('summary').addEventListener('click', function (e) {
+        if (hoverMq.matches) e.preventDefault();
+      });
+    });
+  });
+</script>
+
 {%- capture keywords_value -%}
   {%-  render 'keywords' -%}
 {%- endcapture -%}
